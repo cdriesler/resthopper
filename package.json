@@ -1,0 +1,28 @@
+{
+  "name": "resthopper",
+  "version": "0.0.1",
+  "description": "client-side composition of resthopper definitions and requests",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdriesler/resthopper.git"
+  },
+  "author": "Chuck Driesler",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cdriesler/resthopper/issues"
+  },
+  "homepage": "https://github.com/cdriesler/resthopper#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^6.2.0",
+    "typescript": "^3.8.0-dev.20191102"
+  }
+}
