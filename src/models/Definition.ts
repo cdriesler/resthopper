@@ -1,40 +1,19 @@
 import Component from './Component';
 import Parameter from './Parameter';
+import Schema from './Schema';
 import { newGuid } from './../utils/Guid';
-
-interface ResthopperRequest {
-    algo: string,
-    pointer: string,
-    values: 
-        {
-            ParamName: string,
-            InnerTree: {
-                [path: string]:
-                    {
-                        type: "",
-                        data: any,
-                    }[]
-            },
-            Keys: string[],
-            Values:
-                {
-                    type: "",
-                    data: any,
-                }[]
-        }[]
-}
 
 export default class Definition {
 
-    private components: Component[] = [];
-    private parameters: Parameter[] = [];
+    public components: Component[] = [];
+    public parameters: Parameter[] = [];
 
     constructor() {
 
     }
 
-    public toRequest(): ResthopperRequest {
-        let req: ResthopperRequest = {
+    public toRequest(): Schema {
+        let req: Schema = {
             algo: btoa(this.compile()),
             pointer: "",
             values: []
@@ -46,7 +25,7 @@ export default class Definition {
             }
 
             req.values.push({
-                ParamName: x.name,
+                ParamName: `RH_IN:${x.name}`,
                 InnerTree: {
                     "{ 0; }": [
                         {

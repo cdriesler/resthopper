@@ -1,18 +1,21 @@
 import { newGuid } from './../utils/Guid';
+import Component from './Component';
 
-type ParameterType = 'number' | 'boolean';
+type GrasshopperParameter = 'Number' | 'Boolean';
 
 export default class Parameter {
 
     public name: string;
-    public type: ParameterType;
-    private value: string | number | boolean;
+    public type: GrasshopperParameter;
+    public source: string | undefined;
 
     private guid: string;
+    private value: string | number | boolean;
+
     public isOutput: boolean;
     public isInput: boolean;
 
-    constructor(name: string, type: ParameterType, value?: string | number | boolean) {
+    constructor(name: string, type: GrasshopperParameter, value?: string | number | boolean) {
         this.name = name;
         this.type = type;
         this.value = value ?? "";
@@ -20,6 +23,22 @@ export default class Parameter {
         this.guid = newGuid();
         this.isOutput = false;
         this.isInput = false;
+    }
+
+    getGuid(): string {
+        return this.guid;
+    }
+
+    public setSource(source: Parameter | Component | string, outputIndex?: number): void {
+        if (typeof(source) == 'string') {
+            this.source = source;
+        }
+        else if (source instanceof Parameter) {
+            this.source = source.getGuid();
+        }
+        else {
+            this.source = source.getOutputGuid(outputIndex ?? 0);
+        }
     }
 
     public getValue(): any {
