@@ -1,7 +1,7 @@
 import Component from './Component';
 import Parameter from './Parameter';
 import Schema from './Schema';
-import { newGuid } from './../utils/Guid';
+import { newGuid, grasshopperObjectTable } from './../utils/Guid';
 
 export default class Definition {
 
@@ -253,6 +253,15 @@ export default class Definition {
         objects += "\n";
 
         // Iterate through components, params, and groups
+        let i = 0;
+
+        this.parameters.forEach(p => {
+            if (p.isInput || p.isOutput) {
+                objects += this.compileGroup(this.getTabs(6), i, p);
+                objects += "\n";
+                i += 1;
+            }
+        })
 
         objects += [
             `${t}\t</chunks>`,
@@ -260,5 +269,48 @@ export default class Definition {
         ].join("\n");
 
         return objects;
+    }
+
+    private compileGroup(t: string, i: number, param: Parameter): string {
+        const g = [
+            `${t}<chunk name="Object" index="${i}">`,
+            `${t}\t<items count="2">`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable["Group"].guid}</item>`,
+            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
+            `${t}\t</items>`,
+            `${t}\t<chunks count="1">`,
+            `${t}\t\t<chunk name="Container">`,
+            `${t}\t\t\t<items count="8">`,
+            `${t}\t\t\t\t<item name="Border" type_name="gh_int32" type_code="3">1</item>`,
+            `${t}\t\t\t\t<item name="Colour" type_name="gh_drawing_color" type_code="36">`,
+            `${t}\t\t\t\t\t<ARGB>150;170;135;255</ARGB>`,
+            `${t}\t\t\t\t</item>`,
+            `${t}\t\t\t\t<item name="ID" index="0" type_name="gh_guid" type_code="9">${param.getGuid()}</item>`,
+            `${t}\t\t\t\t<item name="ID_Count" type_name="gh_int32" type_code="3">1</item>`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
+            `${t}\t\t\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
+            `${t}\t\t\t\t<item name="NickName" type_name="gh_string" type_code="10">${param.isInput ? 'RH_IN' : 'RH_OUT'}:${param.name}</item>`,
+            `${t}\t\t\t</items>`,
+            `${t}\t\t\t<chunks count="1">`,
+            `${t}\t\t\t\t<chunk name="Attributes" />`,
+            `${t}\t\t\t</chunks>`,
+            `${t}\t\t</chunk>`,
+            `${t}\t</chunks>`,
+            `${t}</chunk>`
+        ].join("\n");
+
+        return g;
+    }
+
+    private compileParameter(t: string, i: number, param: Parameter): string {
+        let p = "";
+
+        return p;
+    }
+
+    private compileComponent(t: string, i: number, component: Component): string {
+        let c = "";
+
+        return c;
     }
 }
