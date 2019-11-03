@@ -20,11 +20,15 @@ describe("given a simple multiplication definition", () => {
             multiply.setSource(0, inputNumber);
             multiply.setSource(1, inputNumber);
 
+            let multiplyAgain = new Component('Multiplication');
+            multiplyAgain.setSource(0, multiply, 0);
+            multiplyAgain.setSource(1, inputNumber);
+
             let outputNumber = new Parameter("out", 'Number');
             outputNumber.isOutput = true;
-            outputNumber.setSource(multiply, 0);
+            outputNumber.setSource(multiplyAgain, 0);
 
-            def.components = [multiply];
+            def.components = [multiply, multiplyAgain];
             def.parameters = [inputNumber, outputNumber];
         })
 
@@ -32,7 +36,7 @@ describe("given a simple multiplication definition", () => {
             Request.send("http://localhost:8081", def)
             .then(x => {
                 //console.log(x);
-                expect(+getSchemaOutput(x)).to.equal(4);
+                expect(+getSchemaOutput(x)).to.equal(8);
                 done();
             })
             .catch(err => {
