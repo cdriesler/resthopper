@@ -155,13 +155,13 @@ export default class Definition {
             `${t}\t<items count="5">`,
             `${t}\t\t<item name="DocumentID" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
             `${t}\t\t<item name="Preview" type_name="gh_string" type_code="10">Shaded</item>`,
-            `${t}\t\t<item name="PreviewMeshType" type+name="gh_int32" type_code="3">1</item>`,
+            `${t}\t\t<item name="PreviewMeshType" type_name="gh_int32" type_code="3">1</item>`,
             `${t}\t\t<item name="PreviewNormal" type_name="gh_drawing_color" type_code="36">`,
             `${t}\t\t\t<ARGB>100;150;0;0</ARGB>`,
             `${t}\t\t</item>`,
             `${t}\t\t<item name="PreviewSelected" type_name="gh_drawing_color" type_code="36">`,
             `${t}\t\t\t<ARGB>100;0;150;0</ARGB>`,
-            `${t}\t\t<item>`,
+            `${t}\t\t</item>`,
             `${t}\t</items>`,
             `${t}</chunk>`
         ].join("\n");
@@ -191,7 +191,7 @@ export default class Definition {
             `${t}\t\t\t\t\t<X>10</X>`,
             `${t}\t\t\t\t\t<Y>10</Y>`,
             `${t}\t\t\t\t</item>`,
-            `${t}\t\t\t\t<item name="Zoom" type_name="gh_single" type_code=5">1</item>`,
+            `${t}\t\t\t\t<item name="Zoom" type_name="gh_single" type_code="5">1</item>`,
             `${t}\t\t\t</items>`,
             `${t}\t\t</chunk>`,
             `${t}\t\t<chunk name="Views">`,
@@ -227,7 +227,7 @@ export default class Definition {
             `${t}<chunk name="GHALibraries">`,
             `${t}\t<items count="1">`,
             `${t}\t\t<item name="Count" type_name="gh_int32" type_code="3">0</item>`,
-            `${t}\t<items>`,
+            `${t}\t</items>`,
             `${t}</chunk>`
         ].join("\n");
 
@@ -265,7 +265,13 @@ export default class Definition {
             objects += this.compileParameter(this.getTabs(6), i, p);
             objects += "\n";
             i += 1;
-        })
+        });
+
+        this.components.forEach(c => {
+            objects += this.compileComponent(this.getTabs(6), i, c);
+            objects += "\n";
+            i += 1;
+        });
 
         objects += [
             `${t}\t</chunks>`,
@@ -325,16 +331,95 @@ export default class Definition {
             `${t}\t\t\t\t<chunk name="Attributes" />`,
             `${t}\t\t\t</chunks>`,
             `${t}\t\t</chunk>`,
-            `${t}\t</chunks`,
+            `${t}\t</chunks>`,
             `${t}</chunk>`
         ].join("\n");
 
         return p;
     }
 
-    private compileComponent(t: string, i: number, component: Component): string {
-        let c = "";
+    private compileComponent(t: string, i: number, c: Component): string {
+        let component = [
+            `${t}<chunk name="Object" index="${i}">`,
+            `${t}\t<items count="2">`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable[c.type].guid}</item>`,
+            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${c.type}</item>`,
+            `${t}\t</items>`,
+            `${t}\t<chunks count="1">`,
+            `${t}\t\t<chunk name="Container">`,
+            `${t}\t\t\t<items count="1">`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getGuid()}</item>`,
+            `${t}\t\t\t</items>`,
+            `${t}\t\t\t<chunks count="2">`,
+            `${t}\t\t\t\t<chunk name="Attributes" />`,
+            `${t}\t\t\t\t<chunk name="ParameterData">`,
+            `${t}\t\t\t\t\t<items count="${c.getInputCount() + c.getOutputCount() + 2}">`,
+        ];
 
-        return c;
+        // Compile top-level input and output ids
+        const paramGuid = newGuid();
+
+        component.push(`${t}\t\t\t\t\t\t<item name="InputCount" type_name="gh_int32" type_code="3">${c.getInputCount()}</item>`);
+        for(let j = 0; j < c.getInputCount(); j++) {
+            component.push(`${t}\t\t\t\t\t\t<item name="InputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
+        }
+
+        component.push(`${t}\t\t\t\t\t\t<item name="OutputCount" type_name="gh_int32" type_code="3">${c.getOutputCount()}</item>`);
+        for(let j = 0; j < c.getOutputCount(); j++) {
+            component.push(`${t}\t\t\t\t\t\t<item name="OutputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
+        }
+
+        // Compile inputs and outputs
+        component = component.concat([
+            `${t}\t\t\t\t\t</items>`,
+            `${t}\t\t\t\t\t<chunks count="${c.getInputCount() + c.getOutputCount()}">`
+        ]);
+
+        const tabs = this.getTabs(12);
+
+        // Compile inputs and their sources
+        for(let j = 0; j < c.getInputCount(); j++) {
+            component = component.concat([
+                `${tabs}<chunk name="InputParam" index="${j}">`,
+                `${tabs}\t<items count="4">`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getInputGuid(j)}</item>`,
+                `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">true</item>`,
+                c.getSource(j) != "" ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${c.getSource(j)}</item>` : "",
+                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${c.getSource(j) != "" ? 1 : 0}</item>`,
+                `${tabs}\t</items>`,
+                `${tabs}\t<chunks count="1">`,
+                `${tabs}\t\t<chunk name="Attributes" />`,
+                `${tabs}\t</chunks>`,
+                `${tabs}</chunk>`
+            ]);
+        }
+
+        // Compile outputs with empty sources
+        for(let j = 0; j < c.getOutputCount(); j++) {
+            component = component.concat([
+                `${tabs}<chunk name="OutputParam" index="${j}">`,
+                `${tabs}\t<items count="3">`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getOutputGuid(j)}</item>`,
+                `${tabs}\t\t<item name="optional" type_name="gh_bool" type_code="1">false</item>`,
+                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
+                `${tabs}\t</items>`,
+                `${tabs}\t<chunks count="1">`,
+                `${tabs}\t\t<chunk name="Attributes" />`,
+                `${tabs}\t</chunks>`,
+                `${tabs}</chunk>`
+            ]);
+        }
+
+        // Finish component compilation
+        component = component.concat([
+            `${t}\t\t\t\t\t</chunks>`,
+            `${t}\t\t\t\t</chunk>`,
+            `${t}\t\t\t</chunks>`,
+            `${t}\t\t</chunk>`,
+            `${t}\t</chunks>`,
+            `${t}</chunk>`
+        ])
+
+        return component.join("\n");
     }
 }
