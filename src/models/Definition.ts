@@ -1,6 +1,28 @@
 import Component from './Component';
 import Parameter from './Parameter';
-import newGuid from './../utils/Guid';
+import { newGuid } from './../utils/Guid';
+
+interface ResthopperRequest {
+    algo: string,
+    pointer: string,
+    values: 
+        {
+            ParamName: string,
+            InnerTree: {
+                [path: string]:
+                    {
+                        type: "",
+                        data: any,
+                    }[]
+            },
+            Keys: string[],
+            Values:
+                {
+                    type: "",
+                    data: any,
+                }[]
+        }[]
+}
 
 export default class Definition {
 
@@ -9,6 +31,41 @@ export default class Definition {
 
     constructor() {
 
+    }
+
+    public toRequest(): ResthopperRequest {
+        let req: ResthopperRequest = {
+            algo: btoa(this.compile()),
+            pointer: "",
+            values: []
+        }
+
+        this.parameters.forEach(x => {
+            if (!x.isInput) {
+                return;
+            }
+
+            req.values.push({
+                ParamName: x.name,
+                InnerTree: {
+                    "{ 0; }": [
+                        {
+                            type: "",
+                            data: x.getValue()
+                        }
+                    ]
+                },
+                Keys: [ "{ 0; }" ],
+                Values: [
+                    {
+                        type: "",
+                        data: x.getValue()
+                    }
+                ]
+            })
+        });
+
+        return req;
     }
 
     public compile(): string {
@@ -199,7 +256,7 @@ export default class Definition {
     }
 
     private getObjectCount(): number {
-        return 0;
+        return this.components.length + this.parameters.length + this.parameters.filter(x => x.isInput || x.isOutput).length;
     }
 
     private compileDefinitionObjects(tabs?: number): string {
