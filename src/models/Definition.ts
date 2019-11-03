@@ -14,7 +14,7 @@ export default class Definition {
 
     public toRequest(): Schema {
         let req: Schema = {
-            algo: btoa(this.compile()),
+            algo: Buffer.from(this.compile()).toString('base64'),
             pointer: "",
             values: []
         }

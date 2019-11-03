@@ -76,7 +76,7 @@ describe("given a grashopper definition", () => {
 
             ghx = definition.compile();
 
-            console.log(ghx);
+            //console.log(ghx);
         });
 
         it("should identify the corrent number of definition objects", () => {
