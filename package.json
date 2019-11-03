@@ -22,7 +22,9 @@
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
-    "ts-node": "^6.2.0",
-    "typescript": "^3.8.0-dev.20191102"
+    "ts-node": "^6.2.0"
+  },
+  "dependencies": {
+    "typescript": "^3.7.1-rc"
   }
 }
