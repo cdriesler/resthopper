@@ -261,6 +261,10 @@ export default class Definition {
                 objects += "\n";
                 i += 1;
             }
+
+            objects += this.compileParameter(this.getTabs(6), i, p);
+            objects += "\n";
+            i += 1;
         })
 
         objects += [
@@ -303,7 +307,27 @@ export default class Definition {
     }
 
     private compileParameter(t: string, i: number, param: Parameter): string {
-        let p = "";
+        let p = [
+            `${t}<chunk name="Object" index="${i}">`,
+            `${t}\t<items count="2">`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable[param.type].guid}</item>`,
+            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${param.type}</item>`,
+            `${t}\t</items>`,
+            `${t}\t<chunks count="1">`,
+            `${t}\t\t<chunk name="Container">`,
+            `${t}\t\t\t<items count="7">`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${param.getGuid()}</item>`,
+            `${t}\t\t\t\t<item name="Optional" type_name="gh_bool" type_code="1">false</item>`,
+            param.source ? `${t}\t\t\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${param.source}</item>` : "",
+            `${t}\t\t\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${param.source ? 1 : 0}</item>`,
+            `${t}\t\t\t</items>`,
+            `${t}\t\t\t<chunks count="1">`,
+            `${t}\t\t\t\t<chunk name="Attributes" />`,
+            `${t}\t\t\t</chunks>`,
+            `${t}\t\t</chunk>`,
+            `${t}\t</chunks`,
+            `${t}</chunk>`
+        ].join("\n");
 
         return p;
     }
