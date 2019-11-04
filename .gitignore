@@ -3,3 +3,8 @@ dist
 .vscode
 
 ghx
+
+# lib
+lib/obj
+lib/bin
+lib/dll/*
