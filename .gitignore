@@ -8,3 +8,4 @@ ghx
 lib/obj
 lib/bin
 lib/dll/*
+lib/.vs

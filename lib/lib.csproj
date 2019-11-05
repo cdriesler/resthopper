@@ -9,6 +9,9 @@
     <Reference Include="Grasshopper">
       <HintPath>.\dll\Grasshopper.dll</HintPath>
     </Reference>
+    <Reference Include="Rhino">
+      <HintPath>.\dll\RhinoCommon.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
