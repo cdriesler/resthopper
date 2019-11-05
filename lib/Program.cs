@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Runtime.Loader;
 using System.Reflection;
+using Grasshopper;
 using Grasshopper.Kernel;
 
 namespace Resthopper
@@ -70,14 +71,27 @@ namespace Resthopper
                 }
                 while(types.Count > 0);
 
-                flattened.ForEach(x => { 
-                    Console.WriteLine(x.Name);
-                });
-                // e.Types
-                // .Where(t => t != null)
-                // .Where(t => t.IsSubclassOf(typeof(GH_Component)))
-                // .ToList()
-                // .ForEach(x => Console.WriteLine(x.Name));
+                // var gha = Grasshopper.Instances.ComponentServer.Libraries;
+                
+                // var anames = new List<string>();
+                // var names = new List<string>();
+                // var ids = new List<string>();
+
+                // for (int i = 0; i < gha.Count; i++) {
+                //   var t = gha[i].Assembly.GetTypes();
+                
+                //   Grasshopper.Instances.ComponentServer.FindObjects(gha[i].Id).ForEach(g => {
+                //     names.Add(g.Type.Name);
+                //     ids.Add(g.Guid.ToString());
+                //     });
+                
+                //   anames.Add(gha[i].Assembly.GetName().ToString());
+
+                // }
+
+                // A = names;
+                // B = ids;
+
             }
         }
     }
