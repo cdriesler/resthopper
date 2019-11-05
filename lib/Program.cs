@@ -70,28 +70,6 @@ namespace Resthopper
                     types = nested;
                 }
                 while(types.Count > 0);
-
-                // var gha = Grasshopper.Instances.ComponentServer.Libraries;
-                
-                // var anames = new List<string>();
-                // var names = new List<string>();
-                // var ids = new List<string>();
-
-                // for (int i = 0; i < gha.Count; i++) {
-                //   var t = gha[i].Assembly.GetTypes();
-                
-                //   Grasshopper.Instances.ComponentServer.FindObjects(gha[i].Id).ForEach(g => {
-                //     names.Add(g.Type.Name);
-                //     ids.Add(g.Guid.ToString());
-                //     });
-                
-                //   anames.Add(gha[i].Assembly.GetName().ToString());
-
-                // }
-
-                // A = names;
-                // B = ids;
-
             }
         }
     }
