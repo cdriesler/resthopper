@@ -1,7 +1,7 @@
-import Defintion from './Definition';
+import Defintion from './ResthopperDefinition';
 import { expect } from 'chai';
 import 'mocha';
-import Definition from './Definition';
+import Definition from './ResthopperDefinition';
 import Component from './Component';
 import Parameter from './Parameter';
 

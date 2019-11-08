@@ -1,5 +1,5 @@
-import Definition from "./../models/Definition";
-import Schema from './../models/Schema';
+import Definition from "../models/ResthopperDefinition";
+import Schema from '../models/ResthopperSchema';
 import axios from 'axios';
 
 export default class Request {

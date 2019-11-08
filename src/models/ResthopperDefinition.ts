@@ -1,9 +1,9 @@
 import Component from './Component';
 import Parameter from './Parameter';
-import Schema from './Schema';
-import { newGuid, grasshopperObjectTable } from './../utils/Guid';
+import Schema from './ResthopperSchema';
+import { newGuid, grasshopperObjectTable } from '../utils/Guid';
 
-export default class Definition {
+export default class ResthopperDefinition {
 
     public components: Component[] = [];
     public parameters: Parameter[] = [];
