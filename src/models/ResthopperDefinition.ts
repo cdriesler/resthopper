@@ -1,31 +1,31 @@
-import Component from './Component';
-import Parameter from './Parameter';
-import Schema from './Schema';
-import { newGuid, grasshopperObjectTable } from './../utils/Guid';
+import ResthopperComponent from './ResthopperComponent';
+import Parameter from './ResthopperParameter';
+import ResthopperSchema from './ResthopperSchema';
+import { newGuid } from '../utils/Guid';
 
-export default class Definition {
+export default class ResthopperDefinition {
 
-    public components: Component[] = [];
+    public components: ResthopperComponent[] = [];
     public parameters: Parameter[] = [];
 
     constructor() {
 
     }
 
-    public toRequest(): Schema {
-        let req: Schema = {
+    public toRequest(): ResthopperSchema {
+        let req: ResthopperSchema = {
             algo: Buffer.from(this.compile()).toString('base64'),
             pointer: "",
             values: []
         }
 
         this.parameters.forEach(x => {
-            if (!x.isInput) {
+            if (!x.isUserInput) {
                 return;
             }
 
             req.values.push({
-                ParamName: `RH_IN:${x.name}`,
+                ParamName: `RH_IN:${x.nickName}`,
                 InnerTree: {
                     "{ 0; }": [
                         {
@@ -235,7 +235,7 @@ export default class Definition {
     }
 
     private getObjectCount(): number {
-        return this.components.length + this.parameters.length + this.parameters.filter(x => x.isInput || x.isOutput).length;
+        return this.components.length + this.parameters.length + this.parameters.filter(x => x.isUserInput || x.isUserOutput).length;
     }
 
     private compileDefinitionObjects(tabs?: number): string {
@@ -256,7 +256,7 @@ export default class Definition {
         let i = 0;
 
         this.parameters.forEach(p => {
-            if (p.isInput || p.isOutput) {
+            if (p.isUserInput || p.isUserOutput) {
                 objects += this.compileGroup(this.getTabs(6), i, p);
                 objects += "\n";
                 i += 1;
@@ -285,7 +285,7 @@ export default class Definition {
         const g = [
             `${t}<chunk name="Object" index="${i}">`,
             `${t}\t<items count="2">`,
-            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable["Group"].guid}</item>`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>`,
             `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
             `${t}\t</items>`,
             `${t}\t<chunks count="1">`,
@@ -295,11 +295,11 @@ export default class Definition {
             `${t}\t\t\t\t<item name="Colour" type_name="gh_drawing_color" type_code="36">`,
             `${t}\t\t\t\t\t<ARGB>150;170;135;255</ARGB>`,
             `${t}\t\t\t\t</item>`,
-            `${t}\t\t\t\t<item name="ID" index="0" type_name="gh_guid" type_code="9">${param.getGuid()}</item>`,
+            `${t}\t\t\t\t<item name="ID" index="0" type_name="gh_guid" type_code="9">${param.instanceGuid}</item>`,
             `${t}\t\t\t\t<item name="ID_Count" type_name="gh_int32" type_code="3">1</item>`,
             `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
             `${t}\t\t\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
-            `${t}\t\t\t\t<item name="NickName" type_name="gh_string" type_code="10">${param.isInput ? 'RH_IN' : 'RH_OUT'}:${param.name}</item>`,
+            `${t}\t\t\t\t<item name="NickName" type_name="gh_string" type_code="10">${param.isUserInput ? 'RH_IN' : 'RH_OUT'}:${param.nickName}</item>`,
             `${t}\t\t\t</items>`,
             `${t}\t\t\t<chunks count="1">`,
             `${t}\t\t\t\t<chunk name="Attributes" />`,
@@ -316,16 +316,16 @@ export default class Definition {
         let p = [
             `${t}<chunk name="Object" index="${i}">`,
             `${t}\t<items count="2">`,
-            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable[param.type].guid}</item>`,
-            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${param.type}</item>`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${param.guid}</item>`,
+            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${param.name}</item>`,
             `${t}\t</items>`,
             `${t}\t<chunks count="1">`,
             `${t}\t\t<chunk name="Container">`,
             `${t}\t\t\t<items count="7">`,
-            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${param.getGuid()}</item>`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${param.instanceGuid}</item>`,
             `${t}\t\t\t\t<item name="Optional" type_name="gh_bool" type_code="1">false</item>`,
-            param.source ? `${t}\t\t\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${param.source}</item>` : "",
-            `${t}\t\t\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${param.source ? 1 : 0}</item>`,
+            param.sources.length > 0 ? `${t}\t\t\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${param.sources[0]}</item>` : "",
+            `${t}\t\t\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${param.sources.length}</item>`,
             `${t}\t\t\t</items>`,
             `${t}\t\t\t<chunks count="1">`,
             `${t}\t\t\t\t<chunk name="Attributes" />`,
@@ -338,17 +338,17 @@ export default class Definition {
         return p;
     }
 
-    private compileComponent(t: string, i: number, c: Component): string {
+    private compileComponent(t: string, i: number, c: ResthopperComponent): string {
         let component = [
             `${t}<chunk name="Object" index="${i}">`,
             `${t}\t<items count="2">`,
-            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable[c.type].guid}</item>`,
-            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${c.type}</item>`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${c.guid}</item>`,
+            `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">${c.name}</item>`,
             `${t}\t</items>`,
             `${t}\t<chunks count="1">`,
             `${t}\t\t<chunk name="Container">`,
             `${t}\t\t\t<items count="1">`,
-            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getGuid()}</item>`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
             `${t}\t\t\t</items>`,
             `${t}\t\t\t<chunks count="2">`,
             `${t}\t\t\t\t<chunk name="Attributes" />`,
@@ -379,13 +379,19 @@ export default class Definition {
 
         // Compile inputs and their sources
         for(let j = 0; j < c.getInputCount(); j++) {
+            const input = c.getInputByIndex(j);
+
+            if (input == undefined) {
+                continue;
+            }
+
             component = component.concat([
                 `${tabs}<chunk name="InputParam" index="${j}">`,
                 `${tabs}\t<items count="4">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getInputGuid(j)}</item>`,
-                `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">true</item>`,
-                c.getSource(j) != "" ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${c.getSource(j)}</item>` : "",
-                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${c.getSource(j) != "" ? 1 : 0}</item>`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.instanceGuid}</item>`,
+                `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">${input.isOptional}</item>`,
+                input.sources.length > 0 ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${input.sources[0]}</item>` : "",
+                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${input.sources.length}</item>`,
                 `${tabs}\t</items>`,
                 `${tabs}\t<chunks count="1">`,
                 `${tabs}\t\t<chunk name="Attributes" />`,
@@ -396,10 +402,16 @@ export default class Definition {
 
         // Compile outputs with empty sources
         for(let j = 0; j < c.getOutputCount(); j++) {
+            const output = c.getOutputByIndex(j);
+
+            if (output == undefined) {
+                continue;
+            }
+
             component = component.concat([
                 `${tabs}<chunk name="OutputParam" index="${j}">`,
                 `${tabs}\t<items count="3">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${c.getOutputGuid(j)}</item>`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.instanceGuid}</item>`,
                 `${tabs}\t\t<item name="optional" type_name="gh_bool" type_code="1">false</item>`,
                 `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
                 `${tabs}\t</items>`,

@@ -1,4 +1,4 @@
-export default interface Schema {
+export default interface ResthopperSchema {
     algo: string,
     pointer: string,
     values: 
