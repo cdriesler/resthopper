@@ -40,14 +40,14 @@ axios.get("http://localhost:8081/grasshopper").then(x => {
 
 function writeParameterCatalog(parameters: ResthopperParameter[]) {
     
-    let imports = [];
-    let cases = [];
-    let exports = [];
-    let types = "";
+    let indexImports: string[] = ["import ResthopperParameter from './../models/ResthopperParameter';"];
+    let indexCases: string[] = [];
+    let indexExports: string[] = [];
+    let indexTypes: string[] = [];
 
     const dir = "./src/catalog/parameters/";
 
-    parameters.forEach(x => {
+    parameters.sort((a, b) => a.name.localeCompare(b.name)).forEach(x => {
         var className = x.name.replace(" ", "").replace(/\W/g, '');
 
         if (x.name == "Domain²") {
@@ -81,5 +81,36 @@ function writeParameterCatalog(parameters: ResthopperParameter[]) {
         ];        
 
         fs.writeFileSync(`${dir}${className}.ts`, text.join("\n"));
+
+        indexImports.push(`import { ${className}Param } from './parameters/${className}';`);
+        indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${className}Param(value);`);
+        indexExports.push(`export { ${className}Param } from './parameters/${className}';`);
+        indexTypes.push(`"${className}"`);
     });
+
+    let index: string[] = [];
+    index = index.concat(indexImports);
+    index = index.concat([
+        "",
+        "export default class ParameterIndex {",
+        "",
+        "\tpublic static createParameter(type: GrasshopperParameter, value?: any): ResthopperParameter {",
+        "\t\tswitch(type) {"
+    ]);
+    index = index.concat(indexCases);
+    index = index.concat([
+        "\t\t\tdefault:\n\t\t\t\tthrow new Error('Selected parameter is not supported by resthopper.');",
+        "\t\t}",
+        "\t}",
+        "}",
+        ""
+    ]);
+    index = index.concat(indexExports);
+    index = index.concat([
+        "",
+        "export type GrasshopperParameter = ",
+        indexTypes.join(" |\n"),
+    ]);
+
+    fs.writeFileSync("./src/catalog/ParameterIndex.ts", index.join("\n"));
 }
