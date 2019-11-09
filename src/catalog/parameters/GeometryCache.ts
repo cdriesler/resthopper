@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class GeometryCacheParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "f91778ca-2700-42fc-8ee6-74049a2292b5";
+	public name: string = "GeometryCache";
+	public nickName: string = ""
+	public description: string = "Bake or Load geometry to and from the Rhino document"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class MeshPointParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "fa20fe95-5775-417b-92ff-b77c13cbf40c";
+	public name: string = "MeshPoint";
+	public nickName: string = "MPoint"
+	public description: string = "Contains a collection of mesh points"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

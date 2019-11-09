@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class MeshFaceParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "e02b3da5-543a-46ac-a867-0ba6b0a524de";
+	public name: string = "MeshFace";
+	public nickName: string = "Face"
+	public description: string = "Contains a collection of triangle or quad mesh faces"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

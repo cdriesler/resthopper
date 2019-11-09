@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class ConstantParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "4ad6703b-84cd-4957-a1b3-f1c6ec270d9c";
+	public name: string = "Constant";
+	public nickName: string = "constant"
+	public description: string = "Define a document-wide constant for use in Expressions"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

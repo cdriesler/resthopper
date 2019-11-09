@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class GroupParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "b0851fc0-ab55-47d8-bdda-cc6306a40176";
+	public name: string = "Group";
+	public nickName: string = "Grp"
+	public description: string = "Contains a collection of geometric groups"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

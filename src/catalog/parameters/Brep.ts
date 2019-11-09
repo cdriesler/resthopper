@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class BrepParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "919e146f-30ae-4aae-be34-4d72f555e7da";
+	public name: string = "Brep";
+	public nickName: string = "Brep"
+	public description: string = "Contains a collection of Breps (Boundary REPresentations)"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

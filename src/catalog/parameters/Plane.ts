@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class PlaneParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "4f8984c4-7c7a-4d69-b0a2-183cbb330d20";
+	public name: string = "Plane";
+	public nickName: string = "Pln"
+	public description: string = "Contains a collection of three-dimensional axis-systems"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

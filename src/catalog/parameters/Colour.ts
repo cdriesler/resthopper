@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class ColourParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "203a91c3-287a-43b6-a9c5-ebb96240a650";
+	public name: string = "Colour";
+	public nickName: string = "Col"
+	public description: string = "Contains a collection of RGB colours"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

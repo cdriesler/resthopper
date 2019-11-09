@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class DataPathParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "56c9c942-791f-4eeb-a4f0-82b93f1c0909";
+	public name: string = "DataPath";
+	public nickName: string = "Path"
+	public description: string = "Contains a collection of data-tree paths"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

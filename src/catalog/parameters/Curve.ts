@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class CurveParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "d5967b9f-e8ee-436b-a8ad-29fdcecf32d5";
+	public name: string = "Curve";
+	public nickName: string = "Crv"
+	public description: string = "Contains a collection of generic curves"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

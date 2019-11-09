@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class TwistedBoxParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "6db039c4-cad1-4549-bd45-e31cb0f71692";
+	public name: string = "TwistedBox";
+	public nickName: string = "TBox"
+	public description: string = "Contains a collection of twisted boxes"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class MesherSettingsParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "c3407fda-b505-4686-9165-38fe7a9274cf";
+	public name: string = "MesherSettings";
+	public nickName: string = "Mesh"
+	public description: string = "Represents a list of Meshing settings."
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

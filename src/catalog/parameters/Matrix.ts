@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class MatrixParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "bd4a8a18-a3cc-40ba-965b-3be91fee563b";
+	public name: string = "Matrix";
+	public nickName: string = "Matrix"
+	public description: string = "Contains a collection of numeric matrices"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

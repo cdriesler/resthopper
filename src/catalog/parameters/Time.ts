@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class TimeParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "81dfff08-0c83-4f1b-a358-14791d642d9e";
+	public name: string = "Time";
+	public nickName: string = "Time"
+	public description: string = "Contains a collection of times and dates"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

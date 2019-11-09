@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class LocationParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "87391af3-35fe-4a40-b001-2bd4547ccd45";
+	public name: string = "Location";
+	public nickName: string = "Loc"
+	public description: string = "Contains a collection of latitude-longitude coordinates"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

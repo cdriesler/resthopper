@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class DomainParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "15b7afe5-d0d0-43e1-b894-34fcfe3be384";
+	public name: string = "Domain";
+	public nickName: string = "Domain"
+	public description: string = "Contains a collection of numeric domains"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 

@@ -1,11 +1,11 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class NumberParam extends ResthopperParameter {
+export class SubDParam extends ResthopperParameter {
 
-	public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
-	public name: string = "Number";
-	public nickName: string = "Num"
-	public description: string = "Contains a collection of floating point numbers"
+	public guid: string = "89cd1a12-0007-4581-99ba-66578665e610";
+	public name: string = "SubD";
+	public nickName: string = "SubD"
+	public description: string = "Contains a collection of SubDs (Subdivision surfaces)"
 	public isOptional: boolean = false;
 	public typeName: string = ""
 
