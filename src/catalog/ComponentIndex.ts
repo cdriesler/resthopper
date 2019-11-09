@@ -1,17 +1,27 @@
 import ResthopperComponent from '../models/ResthopperComponent';
 import { Multiplication } from './components/Multiplication';
+import { Division } from './components/Division'
 
 export default class ComponentIndex {
 
-    public static createComponent(type: GrasshopperComponent): Multiplication | undefined {
+    public static Types = [
+        Multiplication,
+        Division
+    ]
+
+    public static createComponent(type: GrasshopperComponent): ResthopperComponent {
         switch(type) {
             case "Multiplication":
                 return new Multiplication();
+            case "Division":
+                return new Division();
             default:
-                return undefined;
+                throw new Error("Selected component is not supported by resthopper.");
         }
     }
 
 }
+
+export { Multiplication } from './components/Multiplication';
 
 export type GrasshopperComponent = "Multiplication" | "Division";

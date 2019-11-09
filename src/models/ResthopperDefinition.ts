@@ -24,8 +24,10 @@ export default class ResthopperDefinition {
                 return;
             }
 
+            console.log(x.getValue());
+
             req.values.push({
-                ParamName: `RH_IN:${x.name}`,
+                ParamName: `RH_IN:${x.nickName}`,
                 InnerTree: {
                     "{ 0; }": [
                         {
@@ -285,7 +287,7 @@ export default class ResthopperDefinition {
         const g = [
             `${t}<chunk name="Object" index="${i}">`,
             `${t}\t<items count="2">`,
-            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">${grasshopperObjectTable["Group"].guid}</item>`,
+            `${t}\t\t<item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>`,
             `${t}\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
             `${t}\t</items>`,
             `${t}\t<chunks count="1">`,
@@ -295,7 +297,7 @@ export default class ResthopperDefinition {
             `${t}\t\t\t\t<item name="Colour" type_name="gh_drawing_color" type_code="36">`,
             `${t}\t\t\t\t\t<ARGB>150;170;135;255</ARGB>`,
             `${t}\t\t\t\t</item>`,
-            `${t}\t\t\t\t<item name="ID" index="0" type_name="gh_guid" type_code="9">${param.guid}</item>`,
+            `${t}\t\t\t\t<item name="ID" index="0" type_name="gh_guid" type_code="9">${param.instanceGuid}</item>`,
             `${t}\t\t\t\t<item name="ID_Count" type_name="gh_int32" type_code="3">1</item>`,
             `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
             `${t}\t\t\t\t<item name="Name" type_name="gh_string" type_code="10">Group</item>`,
@@ -322,7 +324,7 @@ export default class ResthopperDefinition {
             `${t}\t<chunks count="1">`,
             `${t}\t\t<chunk name="Container">`,
             `${t}\t\t\t<items count="7">`,
-            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${newGuid()}</item>`,
+            `${t}\t\t\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${param.instanceGuid}</item>`,
             `${t}\t\t\t\t<item name="Optional" type_name="gh_bool" type_code="1">false</item>`,
             param.sources.length > 0 ? `${t}\t\t\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${param.sources[0]}</item>` : "",
             `${t}\t\t\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${param.sources.length}</item>`,

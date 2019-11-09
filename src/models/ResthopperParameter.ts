@@ -1,6 +1,9 @@
+import { newGuid } from './../utils/Guid';
+
 export default class ResthopperParameter {
     
     public guid: string = "";
+    public instanceGuid: string = newGuid();
     public name: string = "";
     public nickName: string = "";
     public description: string = "";
@@ -27,7 +30,7 @@ export default class ResthopperParameter {
     }
 
     public getValue(): any {
-        return this.values;
+        return this.values[0];
     }
 
     private assertNumber(values: any[]): asserts values is number[] {

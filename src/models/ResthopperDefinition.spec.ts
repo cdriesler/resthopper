@@ -1,9 +1,8 @@
-import Defintion from './ResthopperDefinition';
+import ResthopperDefinition from './ResthopperDefinition';
+import ComponentIndex from '../catalog/ComponentIndex';
+import ParameterIndex from '../catalog/ParameterIndex';
 import { expect } from 'chai';
 import 'mocha';
-import Definition from './ResthopperDefinition';
-import Component from './Component';
-import Parameter from './Parameter';
 
 describe("given a grashopper definition", () => {
 
@@ -12,7 +11,7 @@ describe("given a grashopper definition", () => {
         let ghx = "";
 
         before(() => {
-            const definition = new Definition();
+            const definition = new ResthopperDefinition();
             ghx = definition.compile();
         })
 
@@ -54,33 +53,33 @@ describe("given a grashopper definition", () => {
 
     });
 
-    describe("when compiled with a few parameters and components", () => {
+    describe("when compiled with implicit index-based connections", () => {
 
-        let definition = new Defintion();
+        let definition = new ResthopperDefinition();
         let ghx = "";
 
         before(() => {
-            let inputNumber = new Parameter("input", 'Number', 2);
-            inputNumber.isInput = true;
+            let inputNumber = ParameterIndex.createParameter("Number", 2);
+            inputNumber.isUserInput = true;
 
-            let multiply = new Component('Multiplication');
-            multiply.setSource(0, inputNumber);
-            multiply.setSource(1, inputNumber);
+            let multiply = ComponentIndex.createComponent("Multiplication");
+            multiply.setInputByIndex(0, inputNumber);
+            multiply.setInputByIndex(1, inputNumber);
 
-            let outputNumber = new Parameter("out", 'Number');
-            outputNumber.isOutput = true;
-            outputNumber.setSource(multiply, 0);
+            let outputNumber = ParameterIndex.createParameter("Number");
+            outputNumber.isUserOutput = true;
+            outputNumber.setSource(multiply.getOutputByIndex(0)!)
 
-            // definition.components = [multiply];
-            // definition.parameters = [inputNumber, outputNumber];
+            definition.components = [multiply];
+            definition.parameters = [inputNumber, outputNumber];
 
             ghx = definition.compile();
 
-            //console.log(ghx);
+            console.log(ghx);
         });
 
         it("should identify the corrent number of definition objects", () => {
-            expect(ghx).to.contain('<item name="ObjectCount" type_name="gh_int32" type_code="3">0</item>');
+            expect(ghx).to.contain('<item name="ObjectCount" type_name="gh_int32" type_code="3">5</item>');
         });
 
     });
