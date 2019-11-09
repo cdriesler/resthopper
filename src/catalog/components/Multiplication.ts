@@ -42,7 +42,6 @@ class MultiplicationInput_A extends ResthopperParameter {
 
     public name: string = "A";
     public nickName: string = "A";
-    public instanceDescription: string = "";
     public guid: string;
     public isOptional: boolean = false;
     public typeName: string = "value";
@@ -60,7 +59,6 @@ class MultiplicationInput_B extends ResthopperParameter {
 
     public name: string = "B";
     public nickName: string = "B";
-    public instanceDescription: string = "";
     public guid: string;
     public isOptional: boolean = false;
     public typeName: string = "value";

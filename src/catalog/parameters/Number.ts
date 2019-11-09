@@ -1,6 +1,6 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
 
-export class Number extends ResthopperParameter {
+export class NumberParam extends ResthopperParameter {
 
     public guid: string = "3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312";
     public name: string = "Number";

@@ -1,7 +1,7 @@
 import Request from './Request';
 import Definition from '../models/ResthopperDefinition';
-import ComponentIndex from '../catalog/ComponentIndex';
-import ParameterIndex from '../catalog/ParameterIndex';
+import ComponentIndex, { Multiplication } from '../catalog/ComponentIndex';
+import ParameterIndex, { NumberParam } from '../catalog/ParameterIndex';
 import { getSchemaOutput } from './../utils/Schema';
 import { expect } from 'chai';
 import 'mocha';
@@ -29,8 +29,46 @@ describe("given a simple multiplication definition", () => {
             def.parameters = [inputNumber, outputNumber];
         });
 
+        // it("should return an accurate value", (done) => {
+        //     Request.send("http://localhost:8081", def)
+        //     .then(x => {
+        //         console.log(x);
+        //         console.log(`Final output is: ${+getSchemaOutput(x)}`);
+        //         expect(+getSchemaOutput(x)).to.equal(4);
+        //         done();
+        //     })
+        //     .catch(err => {
+        //         console.log(err);
+        //         done();
+        //     });
+        // })
+    })
+
+    describe("when dispatching the resthopper request", () => {
+
+        let definition = new Definition();
+
+        before(() => {
+            let inputNumber = new NumberParam(2);
+            inputNumber.isUserInput = true;
+
+            let multiply = new Multiplication();
+            multiply.input.a.setSource(inputNumber);
+            multiply.input.b.setSource(inputNumber);
+
+            let outputNumber = new NumberParam();
+            outputNumber.nickName = "final_value";
+            outputNumber.isUserOutput = true;
+            outputNumber.setSource(multiply.output.result)
+
+            definition.components = [multiply];
+            definition.parameters = [inputNumber, outputNumber];
+
+            console.log(definition.compile());
+        });
+
         it("should return an accurate value", (done) => {
-            Request.send("http://localhost:8081", def)
+            Request.send("http://localhost:8081", definition)
             .then(x => {
                 console.log(x);
                 console.log(`Final output is: ${+getSchemaOutput(x)}`);

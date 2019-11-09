@@ -1,17 +1,17 @@
-import { Number } from './parameters/Number';
+import { NumberParam } from './parameters/Number';
 
 export default class ParameterIndex {
 
-    public static createParameter(type: GrasshopperParameter, value?: any): Number {
+    public static createParameter(type: GrasshopperParameter, value?: any): NumberParam {
         switch(type) {
             case "Number":
-                return new Number(value);
+                return new NumberParam(value);
             default:
                 throw new Error("Selected component is not supported by resthopper.")
         }
     }
 }
 
-export { Number } from './parameters/Number';
+export { NumberParam } from './parameters/Number';
 
 export type GrasshopperParameter = "Number" | "Boolean"
