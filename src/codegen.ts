@@ -25,20 +25,22 @@ axios.get("http://localhost:8081/grasshopper").then(x => {
             }
         }
         else {
-            const invalidLibraries = [ "Galapagos" ];
+            const invalidLibraries = [ "Galapagos", "Kangaroo2 Components" ];
+            const invalidCategories = [ "X" ]
 
-            if (!invalidLibraries.includes(c.libraryName)) {
+            if (!invalidLibraries.includes(c.libraryName) && !invalidCategories.includes(c.category)) {
                 components.push(c);
             }
         }
     });
 
     writeParameterCatalog(parameters);
+    writeComponentCatalog(components);
 
     console.log(`${parameters.length} parameters & ${components.length} components`);
 });
 
-function writeParameterCatalog(parameters: ResthopperParameter[]) {
+function writeParameterCatalog(parameters: ResthopperParameter[]): void {
     
     let indexImports: string[] = ["import ResthopperParameter from './../models/ResthopperParameter';"];
     let indexCases: string[] = [];
@@ -113,4 +115,51 @@ function writeParameterCatalog(parameters: ResthopperParameter[]) {
     ]);
 
     fs.writeFileSync("./src/catalog/ParameterIndex.ts", index.join("\n"));
+}
+
+function writeComponentCatalog(components: ResthopperComponent[]): void {
+
+    components.sort((a, b) => a.name.localeCompare(b.name)).forEach(c => {
+        const dir = `./src/catalog/components/${c.category}/${c.subCategory}`;
+
+        if(!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+
+        const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
+
+        var text: string[] = [
+            "import ResthopperComponent from './../../../../models/ResthopperComponent';",
+            "import ResthopperParameter from './../../../../models/ResthopperParameter';",
+            "import { newGuid } from './../../../../utils/Guid';",
+            "",
+            `export class ${className} extends ResthopperComponent {`,
+            "",
+            `\tpublic guid: string = "${c.guid}";`,
+            `\tpublic name: string = "${c.name}";`,
+            `\tpublic category: string = "${c.category}";`,
+            `\tpublic subCategory: string = "${c.subCategory}";`,
+            `\tpublic description: string = "${c.description}";`,
+            `\tpublic isObsolete: boolean = ${c.isObsolete};`,
+            "",
+            `\tpublic library: string = "${c.libraryName}";`,
+            "",
+            "}"
+        ];
+
+        fs.writeFileSync(`${dir}/${className}.ts`, text.join("\n"));
+    });
+    
+}
+
+function replaceNumbersWithNames(s: string): string {
+    const names = [ "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" ];
+
+    if (/\d/.test(s)) {
+        for (let i = 0; i < 10; i++) {
+            s = s.replace(`${i}`, names[i]);
+        }
+    }
+
+    return s;
 }

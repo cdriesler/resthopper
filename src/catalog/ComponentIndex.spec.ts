@@ -1,4 +1,4 @@
-import ComponentIndex, { Multiplication } from './ComponentIndex';
+import ComponentIndex from './ComponentIndex';
 import { expect } from 'chai';
 import 'mocha';
 
@@ -17,7 +17,7 @@ describe("given the generated component index", () => {
         it("should create a new instance on each lookup", () => {
             const a = ComponentIndex.createComponent("Multiplication");
             const b = ComponentIndex.createComponent("Multiplication");
-            expect((<Multiplication>a).input.a.guid).to.not.equal(b?.input.a.guid);
+            expect(a.input.a.guid).to.not.equal(b?.input.a.guid);
         });
 
     });

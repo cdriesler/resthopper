@@ -1,6 +1,6 @@
 import Request from './Request';
 import Definition from '../models/ResthopperDefinition';
-import ComponentIndex, { Multiplication } from '../catalog/ComponentIndex';
+import ComponentIndex from '../catalog/ComponentIndex';
 import ParameterIndex from '../catalog/ParameterIndex';
 import { getSchemaOutput } from './../utils/Schema';
 import { expect } from 'chai';
