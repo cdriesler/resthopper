@@ -14,6 +14,7 @@ export class Multiplication extends ResthopperComponent {
     public input: 
     {
         "a": MultiplicationInput_A,
+        "b": MultiplicationInput_B,
     }
     public output: 
     {
@@ -24,6 +25,7 @@ export class Multiplication extends ResthopperComponent {
         super();
         this.input = {
             "a": new MultiplicationInput_A(),
+            "b": new MultiplicationInput_B()
         }
         this.output = {
             "result": new MultiplicationOutput_Result(),
@@ -40,6 +42,24 @@ class MultiplicationInput_A extends ResthopperParameter {
 
     public name: string = "A";
     public nickName: string = "A";
+    public instanceDescription: string = "";
+    public guid: string;
+    public isOptional: boolean = false;
+    public typeName: string = "value";
+
+    public sources: string[] = [];
+
+    constructor() {
+        super();
+        this.guid = newGuid();
+    }
+    
+}
+
+class MultiplicationInput_B extends ResthopperParameter {
+
+    public name: string = "B";
+    public nickName: string = "B";
     public instanceDescription: string = "";
     public guid: string;
     public isOptional: boolean = false;

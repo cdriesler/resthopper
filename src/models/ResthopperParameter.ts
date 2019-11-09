@@ -25,7 +25,7 @@ export default class ResthopperParameter {
             this.sources = [source];
         }
         else {
-            this.sources = [source.guid];
+            this.sources = [source.instanceGuid];
         }
     }
 

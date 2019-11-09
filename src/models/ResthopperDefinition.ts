@@ -1,7 +1,7 @@
 import ResthopperComponent from './ResthopperComponent';
 import Parameter from './ResthopperParameter';
 import ResthopperSchema from './ResthopperSchema';
-import { newGuid, grasshopperObjectTable } from '../utils/Guid';
+import { newGuid } from '../utils/Guid';
 
 export default class ResthopperDefinition {
 
@@ -23,8 +23,6 @@ export default class ResthopperDefinition {
             if (!x.isUserInput) {
                 return;
             }
-
-            console.log(x.getValue());
 
             req.values.push({
                 ParamName: `RH_IN:${x.nickName}`,
@@ -390,7 +388,7 @@ export default class ResthopperDefinition {
             component = component.concat([
                 `${tabs}<chunk name="InputParam" index="${j}">`,
                 `${tabs}\t<items count="4">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.guid}</item>`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.instanceGuid}</item>`,
                 `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">${input.isOptional}</item>`,
                 input.sources.length > 0 ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${input.sources[0]}</item>` : "",
                 `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${input.sources.length}</item>`,
@@ -413,7 +411,7 @@ export default class ResthopperDefinition {
             component = component.concat([
                 `${tabs}<chunk name="OutputParam" index="${j}">`,
                 `${tabs}\t<items count="3">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.guid}</item>`,
+                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.instanceGuid}</item>`,
                 `${tabs}\t\t<item name="optional" type_name="gh_bool" type_code="1">false</item>`,
                 `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
                 `${tabs}\t</items>`,

@@ -21,6 +21,7 @@ describe("given a simple multiplication definition", () => {
             multiply.setInputByIndex(1, inputNumber);
 
             let outputNumber = ParameterIndex.createParameter("Number");
+            outputNumber.nickName = "final_value";
             outputNumber.isUserOutput = true;
             outputNumber.setSource(multiply.getOutputByIndex(0)!)
 
@@ -31,11 +32,13 @@ describe("given a simple multiplication definition", () => {
         it("should return an accurate value", (done) => {
             Request.send("http://localhost:8081", def)
             .then(x => {
-                //console.log(x);
+                console.log(x);
+                console.log(`Final output is: ${+getSchemaOutput(x)}`);
                 expect(+getSchemaOutput(x)).to.equal(4);
                 done();
             })
             .catch(err => {
+                console.log(err);
                 done();
             });
         })
