@@ -12,15 +12,23 @@ export default class ResthopperComponent {
     public input: { [name: string]: ResthopperParameter } = {};
     public output: { [name: string]: ResthopperParameter } = {};
 
-    getInputByIndex(index: number): ResthopperParameter | undefined {
+    public getInputCount(): number {
+        return Object.keys(this.input).length;
+    }
+
+    public getInputByIndex(index: number): ResthopperParameter | undefined {
         return this.input[Object.keys(this.input)[index]];
     }
 
-    setInputByIndex(index: number, source: string | ResthopperParameter): void {
+    public setInputByIndex(index: number, source: string | ResthopperParameter): void {
         this.getInputByIndex(index)?.setSource(source);
     }
 
-    getOutputByIndex(index: number): ResthopperParameter | undefined {
+    public getOutputCount(): number {
+        return Object.keys(this.output).length;
+    }
+
+    public getOutputByIndex(index: number): ResthopperParameter | undefined {
         return this.output[Object.keys(this.output)[index]];
     }
 }
