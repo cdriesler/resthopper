@@ -1,14 +1,17 @@
 import ResthopperComponent from '../models/ResthopperComponent';
 import { Multiplication } from './components/Multiplication';
 
-interface IComponentIndex {
-    multiplication: Multiplication,
-}
+export default class ComponentIndex {
 
-const componentIndex: IComponentIndex = {
-    multiplication: new Multiplication()
-}
+    public static createComponent(type: GrasshopperComponent): Multiplication | undefined {
+        switch(type) {
+            case "Multiplication":
+                return new Multiplication();
+            default:
+                return undefined;
+        }
+    }
 
-export default componentIndex;
+}
 
 export type GrasshopperComponent = "Multiplication" | "Division";

@@ -4,20 +4,32 @@ import { newGuid } from '../../utils/Guid';
 
 export class Multiplication extends ResthopperComponent {
 
-    public guid: string = "test";
+    public guid: string = "ce46b74e-00c9-43c4-805a-193b69ea4a11";
     public name: string = "Multiplication";
     public category: string = "Math";
     public subCategory: string = "Test";
     public description: string = "Multiply numbers";
     public isObsolete: boolean = false;
 
-    public input = 
+    public input: 
     {
-        "a": new MultiplicationInput_A()
+        "a": MultiplicationInput_A
     }
-    public output = 
+    public output: 
     {
-        
+
+    }
+
+    constructor() {
+        super();
+        this.input = {
+            "a": new MultiplicationInput_A(),
+        }
+        this.output = {};
+    }
+
+    public static create(): Multiplication {
+        return new Multiplication();
     }
     
 }

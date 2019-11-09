@@ -71,8 +71,8 @@ describe("given a grashopper definition", () => {
             outputNumber.isOutput = true;
             outputNumber.setSource(multiply, 0);
 
-            definition.components = [multiply];
-            definition.parameters = [inputNumber, outputNumber];
+            // definition.components = [multiply];
+            // definition.parameters = [inputNumber, outputNumber];
 
             ghx = definition.compile();
 
@@ -80,7 +80,7 @@ describe("given a grashopper definition", () => {
         });
 
         it("should identify the corrent number of definition objects", () => {
-            expect(ghx).to.contain('<item name="ObjectCount" type_name="gh_int32" type_code="3">5</item>');
+            expect(ghx).to.contain('<item name="ObjectCount" type_name="gh_int32" type_code="3">0</item>');
         });
 
     });

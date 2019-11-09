@@ -28,8 +28,8 @@ describe("given a simple multiplication definition", () => {
             outputNumber.isOutput = true;
             outputNumber.setSource(multiplyAgain, 0);
 
-            def.components = [multiply, multiplyAgain];
-            def.parameters = [inputNumber, outputNumber];
+            // def.components = [multiply, multiplyAgain];
+            // def.parameters = [inputNumber, outputNumber];
         })
 
         // it("should return an accurate value", (done) => {

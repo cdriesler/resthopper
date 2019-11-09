@@ -7,6 +7,9 @@ export default class ResthopperParameter {
     public isOptional: boolean = false;
     public typeName: string = "";
 
+    public isUserInput: boolean = false;
+    public isUserOutput: boolean = false;
+
     public sources: string[] = [];
     public values: string[] | number[] | boolean[] = [];
 
