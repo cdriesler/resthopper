@@ -9,6 +9,8 @@ export default class ResthopperComponent {
     public subCategory: string = "";
     public isObsolete: boolean = false;
 
+    public libraryName: string = "";
+
     public input: { [name: string]: ResthopperParameter } = {};
     public output: { [name: string]: ResthopperParameter } = {};
 
