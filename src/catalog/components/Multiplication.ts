@@ -1,10 +1,8 @@
 import ResthopperComponent from '../../models/ResthopperComponent';
-import ResthopperComponentParam from '../../models/ResthopperComponentParam';
-import ResthopperParam from './../../models/ResthopperParam';
-import ParamBase from './../../models/ParamBase';
+import ResthopperParameter from '../../models/ResthopperParameter';
 import { newGuid } from '../../utils/Guid';
 
-export class Multiplication implements ResthopperComponent {
+export class Multiplication extends ResthopperComponent {
 
     public guid: string = "test";
     public name: string = "Multiplication";
@@ -17,35 +15,14 @@ export class Multiplication implements ResthopperComponent {
     {
         "a": new MultiplicationInput_A()
     }
-    public output = {}
-
-    constructor() {
-
-    }
-
-    public getInputByIndex(index: number): ResthopperComponentParam | undefined {
-        switch(index) {
-            case 0:
-                return this.input.a;
-            default:
-                return undefined;
-        }
-    }
-
-    public setInputByIndex(index: number, source: string | ResthopperParam | ResthopperComponentParam): void {
-        this.getInputByIndex(index)?.setSource(source);
-    }
-
-    public getOutputByIndex(index: number): ResthopperComponentParam | undefined {
-        switch(index) {
-            default:
-                return undefined;
-        }
+    public output = 
+    {
+        
     }
     
 }
 
-class MultiplicationInput_A extends ParamBase implements ResthopperComponentParam {
+class MultiplicationInput_A extends ResthopperParameter {
 
     public name: string = "A";
     public nickName: string = "A";
