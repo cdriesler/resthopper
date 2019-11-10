@@ -15,31 +15,31 @@ export default class Revolution extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_P": RevolutionInput_Curve_P,
-		"Axis_A": RevolutionInput_Axis_A,
-		"Domain_D": RevolutionInput_Domain_D,
+		"curve_p": RevolutionInput_curve_p,
+		"axis_a": RevolutionInput_axis_a,
+		"domain_d": RevolutionInput_domain_d,
 	}
 
 	public output:
 	{
-		"Surface_S": RevolutionOutput_Surface_S,
+		"surface_s": RevolutionOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_P": new RevolutionInput_Curve_P(),
-			"Axis_A": new RevolutionInput_Axis_A(),
-			"Domain_D": new RevolutionInput_Domain_D(),
+			"curve_p": new RevolutionInput_curve_p(),
+			"axis_a": new RevolutionInput_axis_a(),
+			"domain_d": new RevolutionInput_domain_d(),
 		}
 		this.output = {
-			"Surface_S": new RevolutionOutput_Surface_S(),
+			"surface_s": new RevolutionOutput_surface_s(),
 		}
 	}
 
 }
 
-class RevolutionInput_Curve_P extends ResthopperParameter {
+class RevolutionInput_curve_p extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class RevolutionInput_Curve_P extends ResthopperParameter {
 
 }
 
-class RevolutionInput_Axis_A extends ResthopperParameter {
+class RevolutionInput_axis_a extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class RevolutionInput_Axis_A extends ResthopperParameter {
 
 }
 
-class RevolutionInput_Domain_D extends ResthopperParameter {
+class RevolutionInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -81,7 +81,7 @@ class RevolutionInput_Domain_D extends ResthopperParameter {
 
 }
 
-class RevolutionOutput_Surface_S extends ResthopperParameter {
+class RevolutionOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

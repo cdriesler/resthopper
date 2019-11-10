@@ -15,29 +15,29 @@ export default class PlanePlane extends ResthopperComponent {
 
 	public input:
 	{
-		"PlaneA_A": PlanePlaneInput_PlaneA_A,
-		"PlaneB_B": PlanePlaneInput_PlaneB_B,
+		"planea_a": PlanePlaneInput_planea_a,
+		"planeb_b": PlanePlaneInput_planeb_b,
 	}
 
 	public output:
 	{
-		"Line_L": PlanePlaneOutput_Line_L,
+		"line_l": PlanePlaneOutput_line_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PlaneA_A": new PlanePlaneInput_PlaneA_A(),
-			"PlaneB_B": new PlanePlaneInput_PlaneB_B(),
+			"planea_a": new PlanePlaneInput_planea_a(),
+			"planeb_b": new PlanePlaneInput_planeb_b(),
 		}
 		this.output = {
-			"Line_L": new PlanePlaneOutput_Line_L(),
+			"line_l": new PlanePlaneOutput_line_l(),
 		}
 	}
 
 }
 
-class PlanePlaneInput_PlaneA_A extends ResthopperParameter {
+class PlanePlaneInput_planea_a extends ResthopperParameter {
 
 	public name: string = "PlaneA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class PlanePlaneInput_PlaneA_A extends ResthopperParameter {
 
 }
 
-class PlanePlaneInput_PlaneB_B extends ResthopperParameter {
+class PlanePlaneInput_planeb_b extends ResthopperParameter {
 
 	public name: string = "PlaneB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class PlanePlaneInput_PlaneB_B extends ResthopperParameter {
 
 }
 
-class PlanePlaneOutput_Line_L extends ResthopperParameter {
+class PlanePlaneOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";

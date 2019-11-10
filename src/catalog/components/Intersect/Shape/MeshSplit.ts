@@ -15,29 +15,29 @@ export default class MeshSplit extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshSplitInput_Mesh_M,
-		"Splitters_S": MeshSplitInput_Splitters_S,
+		"mesh_m": MeshSplitInput_mesh_m,
+		"splitters_s": MeshSplitInput_splitters_s,
 	}
 
 	public output:
 	{
-		"Result_R": MeshSplitOutput_Result_R,
+		"result_r": MeshSplitOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshSplitInput_Mesh_M(),
-			"Splitters_S": new MeshSplitInput_Splitters_S(),
+			"mesh_m": new MeshSplitInput_mesh_m(),
+			"splitters_s": new MeshSplitInput_splitters_s(),
 		}
 		this.output = {
-			"Result_R": new MeshSplitOutput_Result_R(),
+			"result_r": new MeshSplitOutput_result_r(),
 		}
 	}
 
 }
 
-class MeshSplitInput_Mesh_M extends ResthopperParameter {
+class MeshSplitInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class MeshSplitInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshSplitInput_Splitters_S extends ResthopperParameter {
+class MeshSplitInput_splitters_s extends ResthopperParameter {
 
 	public name: string = "Splitters";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class MeshSplitInput_Splitters_S extends ResthopperParameter {
 
 }
 
-class MeshSplitOutput_Result_R extends ResthopperParameter {
+class MeshSplitOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

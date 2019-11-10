@@ -15,29 +15,29 @@ export default class SanityXForm extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SanityXFormInput_Geometry_G,
+		"geometry_g": SanityXFormInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Geometry_G": SanityXFormOutput_Geometry_G,
-		"Wackometry_W": SanityXFormOutput_Wackometry_W,
+		"geometry_g": SanityXFormOutput_geometry_g,
+		"wackometry_w": SanityXFormOutput_wackometry_w,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SanityXFormInput_Geometry_G(),
+			"geometry_g": new SanityXFormInput_geometry_g(),
 		}
 		this.output = {
-			"Geometry_G": new SanityXFormOutput_Geometry_G(),
-			"Wackometry_W": new SanityXFormOutput_Wackometry_W(),
+			"geometry_g": new SanityXFormOutput_geometry_g(),
+			"wackometry_w": new SanityXFormOutput_wackometry_w(),
 		}
 	}
 
 }
 
-class SanityXFormInput_Geometry_G extends ResthopperParameter {
+class SanityXFormInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class SanityXFormInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SanityXFormOutput_Geometry_G extends ResthopperParameter {
+class SanityXFormOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -65,7 +65,7 @@ class SanityXFormOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SanityXFormOutput_Wackometry_W extends ResthopperParameter {
+class SanityXFormOutput_wackometry_w extends ResthopperParameter {
 
 	public name: string = "Wackometry";
 	public nickName: string = "W";

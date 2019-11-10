@@ -15,27 +15,27 @@ export default class CurveMiddle extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveMiddleInput_Curve_C,
+		"curve_c": CurveMiddleInput_curve_c,
 	}
 
 	public output:
 	{
-		"Midpoint_M": CurveMiddleOutput_Midpoint_M,
+		"midpoint_m": CurveMiddleOutput_midpoint_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveMiddleInput_Curve_C(),
+			"curve_c": new CurveMiddleInput_curve_c(),
 		}
 		this.output = {
-			"Midpoint_M": new CurveMiddleOutput_Midpoint_M(),
+			"midpoint_m": new CurveMiddleOutput_midpoint_m(),
 		}
 	}
 
 }
 
-class CurveMiddleInput_Curve_C extends ResthopperParameter {
+class CurveMiddleInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -49,7 +49,7 @@ class CurveMiddleInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveMiddleOutput_Midpoint_M extends ResthopperParameter {
+class CurveMiddleOutput_midpoint_m extends ResthopperParameter {
 
 	public name: string = "Midpoint";
 	public nickName: string = "M";

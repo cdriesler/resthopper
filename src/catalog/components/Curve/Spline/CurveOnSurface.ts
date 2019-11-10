@@ -15,35 +15,35 @@ export default class CurveOnSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": CurveOnSurfaceInput_Surface_S,
-		"UVcoordinates_uv": CurveOnSurfaceInput_UVcoordinates_uv,
-		"Closed_C": CurveOnSurfaceInput_Closed_C,
+		"surface_s": CurveOnSurfaceInput_surface_s,
+		"uvcoordinates_uv": CurveOnSurfaceInput_uvcoordinates_uv,
+		"closed_c": CurveOnSurfaceInput_closed_c,
 	}
 
 	public output:
 	{
-		"Curve_C": CurveOnSurfaceOutput_Curve_C,
-		"Length_L": CurveOnSurfaceOutput_Length_L,
-		"Domain_D": CurveOnSurfaceOutput_Domain_D,
+		"curve_c": CurveOnSurfaceOutput_curve_c,
+		"length_l": CurveOnSurfaceOutput_length_l,
+		"domain_d": CurveOnSurfaceOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new CurveOnSurfaceInput_Surface_S(),
-			"UVcoordinates_uv": new CurveOnSurfaceInput_UVcoordinates_uv(),
-			"Closed_C": new CurveOnSurfaceInput_Closed_C(),
+			"surface_s": new CurveOnSurfaceInput_surface_s(),
+			"uvcoordinates_uv": new CurveOnSurfaceInput_uvcoordinates_uv(),
+			"closed_c": new CurveOnSurfaceInput_closed_c(),
 		}
 		this.output = {
-			"Curve_C": new CurveOnSurfaceOutput_Curve_C(),
-			"Length_L": new CurveOnSurfaceOutput_Length_L(),
-			"Domain_D": new CurveOnSurfaceOutput_Domain_D(),
+			"curve_c": new CurveOnSurfaceOutput_curve_c(),
+			"length_l": new CurveOnSurfaceOutput_length_l(),
+			"domain_d": new CurveOnSurfaceOutput_domain_d(),
 		}
 	}
 
 }
 
-class CurveOnSurfaceInput_Surface_S extends ResthopperParameter {
+class CurveOnSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class CurveOnSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class CurveOnSurfaceInput_UVcoordinates_uv extends ResthopperParameter {
+class CurveOnSurfaceInput_uvcoordinates_uv extends ResthopperParameter {
 
 	public name: string = "UVcoordinates";
 	public nickName: string = "uv";
@@ -71,7 +71,7 @@ class CurveOnSurfaceInput_UVcoordinates_uv extends ResthopperParameter {
 
 }
 
-class CurveOnSurfaceInput_Closed_C extends ResthopperParameter {
+class CurveOnSurfaceInput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class CurveOnSurfaceInput_Closed_C extends ResthopperParameter {
 
 }
 
-class CurveOnSurfaceOutput_Curve_C extends ResthopperParameter {
+class CurveOnSurfaceOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class CurveOnSurfaceOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveOnSurfaceOutput_Length_L extends ResthopperParameter {
+class CurveOnSurfaceOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class CurveOnSurfaceOutput_Length_L extends ResthopperParameter {
 
 }
 
-class CurveOnSurfaceOutput_Domain_D extends ResthopperParameter {
+class CurveOnSurfaceOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

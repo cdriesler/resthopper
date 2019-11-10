@@ -15,31 +15,31 @@ export default class SpatialDeform extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SpatialDeformInput_Geometry_G,
-		"Syntax_S": SpatialDeformInput_Syntax_S,
-		"Forces_F": SpatialDeformInput_Forces_F,
+		"geometry_g": SpatialDeformInput_geometry_g,
+		"syntax_s": SpatialDeformInput_syntax_s,
+		"forces_f": SpatialDeformInput_forces_f,
 	}
 
 	public output:
 	{
-		"Geometry_G": SpatialDeformOutput_Geometry_G,
+		"geometry_g": SpatialDeformOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SpatialDeformInput_Geometry_G(),
-			"Syntax_S": new SpatialDeformInput_Syntax_S(),
-			"Forces_F": new SpatialDeformInput_Forces_F(),
+			"geometry_g": new SpatialDeformInput_geometry_g(),
+			"syntax_s": new SpatialDeformInput_syntax_s(),
+			"forces_f": new SpatialDeformInput_forces_f(),
 		}
 		this.output = {
-			"Geometry_G": new SpatialDeformOutput_Geometry_G(),
+			"geometry_g": new SpatialDeformOutput_geometry_g(),
 		}
 	}
 
 }
 
-class SpatialDeformInput_Geometry_G extends ResthopperParameter {
+class SpatialDeformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class SpatialDeformInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SpatialDeformInput_Syntax_S extends ResthopperParameter {
+class SpatialDeformInput_syntax_s extends ResthopperParameter {
 
 	public name: string = "Syntax";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class SpatialDeformInput_Syntax_S extends ResthopperParameter {
 
 }
 
-class SpatialDeformInput_Forces_F extends ResthopperParameter {
+class SpatialDeformInput_forces_f extends ResthopperParameter {
 
 	public name: string = "Forces";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class SpatialDeformInput_Forces_F extends ResthopperParameter {
 
 }
 
-class SpatialDeformOutput_Geometry_G extends ResthopperParameter {
+class SpatialDeformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

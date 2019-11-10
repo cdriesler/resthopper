@@ -15,31 +15,31 @@ export default class ReplaceMembers extends ResthopperComponent {
 
 	public input:
 	{
-		"Set_S": ReplaceMembersInput_Set_S,
-		"Find_F": ReplaceMembersInput_Find_F,
-		"Replace_R": ReplaceMembersInput_Replace_R,
+		"set_s": ReplaceMembersInput_set_s,
+		"find_f": ReplaceMembersInput_find_f,
+		"replace_r": ReplaceMembersInput_replace_r,
 	}
 
 	public output:
 	{
-		"Result_R": ReplaceMembersOutput_Result_R,
+		"result_r": ReplaceMembersOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Set_S": new ReplaceMembersInput_Set_S(),
-			"Find_F": new ReplaceMembersInput_Find_F(),
-			"Replace_R": new ReplaceMembersInput_Replace_R(),
+			"set_s": new ReplaceMembersInput_set_s(),
+			"find_f": new ReplaceMembersInput_find_f(),
+			"replace_r": new ReplaceMembersInput_replace_r(),
 		}
 		this.output = {
-			"Result_R": new ReplaceMembersOutput_Result_R(),
+			"result_r": new ReplaceMembersOutput_result_r(),
 		}
 	}
 
 }
 
-class ReplaceMembersInput_Set_S extends ResthopperParameter {
+class ReplaceMembersInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class ReplaceMembersInput_Set_S extends ResthopperParameter {
 
 }
 
-class ReplaceMembersInput_Find_F extends ResthopperParameter {
+class ReplaceMembersInput_find_f extends ResthopperParameter {
 
 	public name: string = "Find";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class ReplaceMembersInput_Find_F extends ResthopperParameter {
 
 }
 
-class ReplaceMembersInput_Replace_R extends ResthopperParameter {
+class ReplaceMembersInput_replace_r extends ResthopperParameter {
 
 	public name: string = "Replace";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class ReplaceMembersInput_Replace_R extends ResthopperParameter {
 
 }
 
-class ReplaceMembersOutput_Result_R extends ResthopperParameter {
+class ReplaceMembersOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

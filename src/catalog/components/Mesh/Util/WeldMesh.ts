@@ -15,29 +15,29 @@ export default class WeldMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": WeldMeshInput_Mesh_M,
-		"Angle_A": WeldMeshInput_Angle_A,
+		"mesh_m": WeldMeshInput_mesh_m,
+		"angle_a": WeldMeshInput_angle_a,
 	}
 
 	public output:
 	{
-		"Result_R": WeldMeshOutput_Result_R,
+		"result_r": WeldMeshOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new WeldMeshInput_Mesh_M(),
-			"Angle_A": new WeldMeshInput_Angle_A(),
+			"mesh_m": new WeldMeshInput_mesh_m(),
+			"angle_a": new WeldMeshInput_angle_a(),
 		}
 		this.output = {
-			"Result_R": new WeldMeshOutput_Result_R(),
+			"result_r": new WeldMeshOutput_result_r(),
 		}
 	}
 
 }
 
-class WeldMeshInput_Mesh_M extends ResthopperParameter {
+class WeldMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class WeldMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class WeldMeshInput_Angle_A extends ResthopperParameter {
+class WeldMeshInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class WeldMeshInput_Angle_A extends ResthopperParameter {
 
 }
 
-class WeldMeshOutput_Result_R extends ResthopperParameter {
+class WeldMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

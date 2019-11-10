@@ -15,35 +15,35 @@ export default class RectangleTwoPt extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": RectangleTwoPtInput_Plane_P,
-		"PointA_A": RectangleTwoPtInput_PointA_A,
-		"PointB_B": RectangleTwoPtInput_PointB_B,
-		"Radius_R": RectangleTwoPtInput_Radius_R,
+		"plane_p": RectangleTwoPtInput_plane_p,
+		"pointa_a": RectangleTwoPtInput_pointa_a,
+		"pointb_b": RectangleTwoPtInput_pointb_b,
+		"radius_r": RectangleTwoPtInput_radius_r,
 	}
 
 	public output:
 	{
-		"Rectangle_R": RectangleTwoPtOutput_Rectangle_R,
-		"Length_L": RectangleTwoPtOutput_Length_L,
+		"rectangle_r": RectangleTwoPtOutput_rectangle_r,
+		"length_l": RectangleTwoPtOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new RectangleTwoPtInput_Plane_P(),
-			"PointA_A": new RectangleTwoPtInput_PointA_A(),
-			"PointB_B": new RectangleTwoPtInput_PointB_B(),
-			"Radius_R": new RectangleTwoPtInput_Radius_R(),
+			"plane_p": new RectangleTwoPtInput_plane_p(),
+			"pointa_a": new RectangleTwoPtInput_pointa_a(),
+			"pointb_b": new RectangleTwoPtInput_pointb_b(),
+			"radius_r": new RectangleTwoPtInput_radius_r(),
 		}
 		this.output = {
-			"Rectangle_R": new RectangleTwoPtOutput_Rectangle_R(),
-			"Length_L": new RectangleTwoPtOutput_Length_L(),
+			"rectangle_r": new RectangleTwoPtOutput_rectangle_r(),
+			"length_l": new RectangleTwoPtOutput_length_l(),
 		}
 	}
 
 }
 
-class RectangleTwoPtInput_Plane_P extends ResthopperParameter {
+class RectangleTwoPtInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class RectangleTwoPtInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RectangleTwoPtInput_PointA_A extends ResthopperParameter {
+class RectangleTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -71,7 +71,7 @@ class RectangleTwoPtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class RectangleTwoPtInput_PointB_B extends ResthopperParameter {
+class RectangleTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -85,7 +85,7 @@ class RectangleTwoPtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class RectangleTwoPtInput_Radius_R extends ResthopperParameter {
+class RectangleTwoPtInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -99,7 +99,7 @@ class RectangleTwoPtInput_Radius_R extends ResthopperParameter {
 
 }
 
-class RectangleTwoPtOutput_Rectangle_R extends ResthopperParameter {
+class RectangleTwoPtOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
@@ -113,7 +113,7 @@ class RectangleTwoPtOutput_Rectangle_R extends ResthopperParameter {
 
 }
 
-class RectangleTwoPtOutput_Length_L extends ResthopperParameter {
+class RectangleTwoPtOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

@@ -15,27 +15,27 @@ export default class Negative extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": NegativeInput_Value_x,
+		"value_x": NegativeInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": NegativeOutput_Result_y,
+		"result_y": NegativeOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new NegativeInput_Value_x(),
+			"value_x": new NegativeInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new NegativeOutput_Result_y(),
+			"result_y": new NegativeOutput_result_y(),
 		}
 	}
 
 }
 
-class NegativeInput_Value_x extends ResthopperParameter {
+class NegativeInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class NegativeInput_Value_x extends ResthopperParameter {
 
 }
 
-class NegativeOutput_Result_y extends ResthopperParameter {
+class NegativeOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

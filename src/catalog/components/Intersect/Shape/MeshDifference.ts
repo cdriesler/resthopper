@@ -15,29 +15,29 @@ export default class MeshDifference extends ResthopperComponent {
 
 	public input:
 	{
-		"MeshesA_A": MeshDifferenceInput_MeshesA_A,
-		"MeshesB_B": MeshDifferenceInput_MeshesB_B,
+		"meshesa_a": MeshDifferenceInput_meshesa_a,
+		"meshesb_b": MeshDifferenceInput_meshesb_b,
 	}
 
 	public output:
 	{
-		"Result_R": MeshDifferenceOutput_Result_R,
+		"result_r": MeshDifferenceOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"MeshesA_A": new MeshDifferenceInput_MeshesA_A(),
-			"MeshesB_B": new MeshDifferenceInput_MeshesB_B(),
+			"meshesa_a": new MeshDifferenceInput_meshesa_a(),
+			"meshesb_b": new MeshDifferenceInput_meshesb_b(),
 		}
 		this.output = {
-			"Result_R": new MeshDifferenceOutput_Result_R(),
+			"result_r": new MeshDifferenceOutput_result_r(),
 		}
 	}
 
 }
 
-class MeshDifferenceInput_MeshesA_A extends ResthopperParameter {
+class MeshDifferenceInput_meshesa_a extends ResthopperParameter {
 
 	public name: string = "MeshesA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MeshDifferenceInput_MeshesA_A extends ResthopperParameter {
 
 }
 
-class MeshDifferenceInput_MeshesB_B extends ResthopperParameter {
+class MeshDifferenceInput_meshesb_b extends ResthopperParameter {
 
 	public name: string = "MeshesB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MeshDifferenceInput_MeshesB_B extends ResthopperParameter {
 
 }
 
-class MeshDifferenceOutput_Result_R extends ResthopperParameter {
+class MeshDifferenceOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -15,31 +15,31 @@ export default class Includes extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_V": IncludesInput_Value_V,
-		"Domain_D": IncludesInput_Domain_D,
+		"value_v": IncludesInput_value_v,
+		"domain_d": IncludesInput_domain_d,
 	}
 
 	public output:
 	{
-		"Includes_I": IncludesOutput_Includes_I,
-		"Deviation_D": IncludesOutput_Deviation_D,
+		"includes_i": IncludesOutput_includes_i,
+		"deviation_d": IncludesOutput_deviation_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_V": new IncludesInput_Value_V(),
-			"Domain_D": new IncludesInput_Domain_D(),
+			"value_v": new IncludesInput_value_v(),
+			"domain_d": new IncludesInput_domain_d(),
 		}
 		this.output = {
-			"Includes_I": new IncludesOutput_Includes_I(),
-			"Deviation_D": new IncludesOutput_Deviation_D(),
+			"includes_i": new IncludesOutput_includes_i(),
+			"deviation_d": new IncludesOutput_deviation_d(),
 		}
 	}
 
 }
 
-class IncludesInput_Value_V extends ResthopperParameter {
+class IncludesInput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class IncludesInput_Value_V extends ResthopperParameter {
 
 }
 
-class IncludesInput_Domain_D extends ResthopperParameter {
+class IncludesInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class IncludesInput_Domain_D extends ResthopperParameter {
 
 }
 
-class IncludesOutput_Includes_I extends ResthopperParameter {
+class IncludesOutput_includes_i extends ResthopperParameter {
 
 	public name: string = "Includes";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class IncludesOutput_Includes_I extends ResthopperParameter {
 
 }
 
-class IncludesOutput_Deviation_D extends ResthopperParameter {
+class IncludesOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";

@@ -15,29 +15,29 @@ export default class Subtraction extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": SubtractionInput_A_A,
-		"B_B": SubtractionInput_B_B,
+		"a_a": SubtractionInput_a_a,
+		"b_b": SubtractionInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": SubtractionOutput_Result_R,
+		"result_r": SubtractionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new SubtractionInput_A_A(),
-			"B_B": new SubtractionInput_B_B(),
+			"a_a": new SubtractionInput_a_a(),
+			"b_b": new SubtractionInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new SubtractionOutput_Result_R(),
+			"result_r": new SubtractionOutput_result_r(),
 		}
 	}
 
 }
 
-class SubtractionInput_A_A extends ResthopperParameter {
+class SubtractionInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SubtractionInput_A_A extends ResthopperParameter {
 
 }
 
-class SubtractionInput_B_B extends ResthopperParameter {
+class SubtractionInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SubtractionInput_B_B extends ResthopperParameter {
 
 }
 
-class SubtractionOutput_Result_R extends ResthopperParameter {
+class SubtractionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

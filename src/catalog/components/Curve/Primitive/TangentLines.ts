@@ -15,31 +15,31 @@ export default class TangentLines extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": TangentLinesInput_Point_P,
-		"Circle_C": TangentLinesInput_Circle_C,
+		"point_p": TangentLinesInput_point_p,
+		"circle_c": TangentLinesInput_circle_c,
 	}
 
 	public output:
 	{
-		"Tangent1_T1": TangentLinesOutput_Tangent1_T1,
-		"Tangent2_T2": TangentLinesOutput_Tangent2_T2,
+		"tangent1_t1": TangentLinesOutput_tangent1_t1,
+		"tangent2_t2": TangentLinesOutput_tangent2_t2,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new TangentLinesInput_Point_P(),
-			"Circle_C": new TangentLinesInput_Circle_C(),
+			"point_p": new TangentLinesInput_point_p(),
+			"circle_c": new TangentLinesInput_circle_c(),
 		}
 		this.output = {
-			"Tangent1_T1": new TangentLinesOutput_Tangent1_T1(),
-			"Tangent2_T2": new TangentLinesOutput_Tangent2_T2(),
+			"tangent1_t1": new TangentLinesOutput_tangent1_t1(),
+			"tangent2_t2": new TangentLinesOutput_tangent2_t2(),
 		}
 	}
 
 }
 
-class TangentLinesInput_Point_P extends ResthopperParameter {
+class TangentLinesInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class TangentLinesInput_Point_P extends ResthopperParameter {
 
 }
 
-class TangentLinesInput_Circle_C extends ResthopperParameter {
+class TangentLinesInput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class TangentLinesInput_Circle_C extends ResthopperParameter {
 
 }
 
-class TangentLinesOutput_Tangent1_T1 extends ResthopperParameter {
+class TangentLinesOutput_tangent1_t1 extends ResthopperParameter {
 
 	public name: string = "Tangent1";
 	public nickName: string = "T1";
@@ -81,7 +81,7 @@ class TangentLinesOutput_Tangent1_T1 extends ResthopperParameter {
 
 }
 
-class TangentLinesOutput_Tangent2_T2 extends ResthopperParameter {
+class TangentLinesOutput_tangent2_t2 extends ResthopperParameter {
 
 	public name: string = "Tangent2";
 	public nickName: string = "T2";

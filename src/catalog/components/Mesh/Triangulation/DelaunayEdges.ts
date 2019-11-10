@@ -15,31 +15,31 @@ export default class DelaunayEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": DelaunayEdgesInput_Points_P,
-		"Plane_Pl": DelaunayEdgesInput_Plane_Pl,
+		"points_p": DelaunayEdgesInput_points_p,
+		"plane_pl": DelaunayEdgesInput_plane_pl,
 	}
 
 	public output:
 	{
-		"Connectivity_C": DelaunayEdgesOutput_Connectivity_C,
-		"Edges_E": DelaunayEdgesOutput_Edges_E,
+		"connectivity_c": DelaunayEdgesOutput_connectivity_c,
+		"edges_e": DelaunayEdgesOutput_edges_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new DelaunayEdgesInput_Points_P(),
-			"Plane_Pl": new DelaunayEdgesInput_Plane_Pl(),
+			"points_p": new DelaunayEdgesInput_points_p(),
+			"plane_pl": new DelaunayEdgesInput_plane_pl(),
 		}
 		this.output = {
-			"Connectivity_C": new DelaunayEdgesOutput_Connectivity_C(),
-			"Edges_E": new DelaunayEdgesOutput_Edges_E(),
+			"connectivity_c": new DelaunayEdgesOutput_connectivity_c(),
+			"edges_e": new DelaunayEdgesOutput_edges_e(),
 		}
 	}
 
 }
 
-class DelaunayEdgesInput_Points_P extends ResthopperParameter {
+class DelaunayEdgesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class DelaunayEdgesInput_Points_P extends ResthopperParameter {
 
 }
 
-class DelaunayEdgesInput_Plane_Pl extends ResthopperParameter {
+class DelaunayEdgesInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -67,7 +67,7 @@ class DelaunayEdgesInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class DelaunayEdgesOutput_Connectivity_C extends ResthopperParameter {
+class DelaunayEdgesOutput_connectivity_c extends ResthopperParameter {
 
 	public name: string = "Connectivity";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class DelaunayEdgesOutput_Connectivity_C extends ResthopperParameter {
 
 }
 
-class DelaunayEdgesOutput_Edges_E extends ResthopperParameter {
+class DelaunayEdgesOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";

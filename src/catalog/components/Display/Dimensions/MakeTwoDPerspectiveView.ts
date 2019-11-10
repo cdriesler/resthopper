@@ -15,29 +15,29 @@ export default class MakeTwoDPerspectiveView extends ResthopperComponent {
 
 	public input:
 	{
-		"Camera_C": MakeTwoDPerspectiveViewInput_Camera_C,
-		"Frame_F": MakeTwoDPerspectiveViewInput_Frame_F,
+		"camera_c": MakeTwoDPerspectiveViewInput_camera_c,
+		"frame_f": MakeTwoDPerspectiveViewInput_frame_f,
 	}
 
 	public output:
 	{
-		"View_V": MakeTwoDPerspectiveViewOutput_View_V,
+		"view_v": MakeTwoDPerspectiveViewOutput_view_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Camera_C": new MakeTwoDPerspectiveViewInput_Camera_C(),
-			"Frame_F": new MakeTwoDPerspectiveViewInput_Frame_F(),
+			"camera_c": new MakeTwoDPerspectiveViewInput_camera_c(),
+			"frame_f": new MakeTwoDPerspectiveViewInput_frame_f(),
 		}
 		this.output = {
-			"View_V": new MakeTwoDPerspectiveViewOutput_View_V(),
+			"view_v": new MakeTwoDPerspectiveViewOutput_view_v(),
 		}
 	}
 
 }
 
-class MakeTwoDPerspectiveViewInput_Camera_C extends ResthopperParameter {
+class MakeTwoDPerspectiveViewInput_camera_c extends ResthopperParameter {
 
 	public name: string = "Camera";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class MakeTwoDPerspectiveViewInput_Camera_C extends ResthopperParameter {
 
 }
 
-class MakeTwoDPerspectiveViewInput_Frame_F extends ResthopperParameter {
+class MakeTwoDPerspectiveViewInput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
@@ -65,7 +65,7 @@ class MakeTwoDPerspectiveViewInput_Frame_F extends ResthopperParameter {
 
 }
 
-class MakeTwoDPerspectiveViewOutput_View_V extends ResthopperParameter {
+class MakeTwoDPerspectiveViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";

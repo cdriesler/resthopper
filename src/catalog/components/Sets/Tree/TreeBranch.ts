@@ -15,29 +15,29 @@ export default class TreeBranch extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": TreeBranchInput_Tree_T,
-		"Path_P": TreeBranchInput_Path_P,
+		"tree_t": TreeBranchInput_tree_t,
+		"path_p": TreeBranchInput_path_p,
 	}
 
 	public output:
 	{
-		"Branch_B": TreeBranchOutput_Branch_B,
+		"branch_b": TreeBranchOutput_branch_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new TreeBranchInput_Tree_T(),
-			"Path_P": new TreeBranchInput_Path_P(),
+			"tree_t": new TreeBranchInput_tree_t(),
+			"path_p": new TreeBranchInput_path_p(),
 		}
 		this.output = {
-			"Branch_B": new TreeBranchOutput_Branch_B(),
+			"branch_b": new TreeBranchOutput_branch_b(),
 		}
 	}
 
 }
 
-class TreeBranchInput_Tree_T extends ResthopperParameter {
+class TreeBranchInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class TreeBranchInput_Tree_T extends ResthopperParameter {
 
 }
 
-class TreeBranchInput_Path_P extends ResthopperParameter {
+class TreeBranchInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class TreeBranchInput_Path_P extends ResthopperParameter {
 
 }
 
-class TreeBranchOutput_Branch_B extends ResthopperParameter {
+class TreeBranchOutput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";

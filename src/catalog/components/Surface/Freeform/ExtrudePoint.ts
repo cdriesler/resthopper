@@ -15,29 +15,29 @@ export default class ExtrudePoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": ExtrudePointInput_Base_B,
-		"Point_P": ExtrudePointInput_Point_P,
+		"base_b": ExtrudePointInput_base_b,
+		"point_p": ExtrudePointInput_point_p,
 	}
 
 	public output:
 	{
-		"Extrusion_E": ExtrudePointOutput_Extrusion_E,
+		"extrusion_e": ExtrudePointOutput_extrusion_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new ExtrudePointInput_Base_B(),
-			"Point_P": new ExtrudePointInput_Point_P(),
+			"base_b": new ExtrudePointInput_base_b(),
+			"point_p": new ExtrudePointInput_point_p(),
 		}
 		this.output = {
-			"Extrusion_E": new ExtrudePointOutput_Extrusion_E(),
+			"extrusion_e": new ExtrudePointOutput_extrusion_e(),
 		}
 	}
 
 }
 
-class ExtrudePointInput_Base_B extends ResthopperParameter {
+class ExtrudePointInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class ExtrudePointInput_Base_B extends ResthopperParameter {
 
 }
 
-class ExtrudePointInput_Point_P extends ResthopperParameter {
+class ExtrudePointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class ExtrudePointInput_Point_P extends ResthopperParameter {
 
 }
 
-class ExtrudePointOutput_Extrusion_E extends ResthopperParameter {
+class ExtrudePointOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";

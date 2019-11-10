@@ -15,33 +15,33 @@ export default class RegionSlits extends ResthopperComponent {
 
 	public input:
 	{
-		"Regions_R": RegionSlitsInput_Regions_R,
-		"Width_W": RegionSlitsInput_Width_W,
-		"Gap_G": RegionSlitsInput_Gap_G,
+		"regions_r": RegionSlitsInput_regions_r,
+		"width_w": RegionSlitsInput_width_w,
+		"gap_g": RegionSlitsInput_gap_g,
 	}
 
 	public output:
 	{
-		"Regions_R": RegionSlitsOutput_Regions_R,
-		"Topology_T": RegionSlitsOutput_Topology_T,
+		"regions_r": RegionSlitsOutput_regions_r,
+		"topology_t": RegionSlitsOutput_topology_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Regions_R": new RegionSlitsInput_Regions_R(),
-			"Width_W": new RegionSlitsInput_Width_W(),
-			"Gap_G": new RegionSlitsInput_Gap_G(),
+			"regions_r": new RegionSlitsInput_regions_r(),
+			"width_w": new RegionSlitsInput_width_w(),
+			"gap_g": new RegionSlitsInput_gap_g(),
 		}
 		this.output = {
-			"Regions_R": new RegionSlitsOutput_Regions_R(),
-			"Topology_T": new RegionSlitsOutput_Topology_T(),
+			"regions_r": new RegionSlitsOutput_regions_r(),
+			"topology_t": new RegionSlitsOutput_topology_t(),
 		}
 	}
 
 }
 
-class RegionSlitsInput_Regions_R extends ResthopperParameter {
+class RegionSlitsInput_regions_r extends ResthopperParameter {
 
 	public name: string = "Regions";
 	public nickName: string = "R";
@@ -55,7 +55,7 @@ class RegionSlitsInput_Regions_R extends ResthopperParameter {
 
 }
 
-class RegionSlitsInput_Width_W extends ResthopperParameter {
+class RegionSlitsInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
@@ -69,7 +69,7 @@ class RegionSlitsInput_Width_W extends ResthopperParameter {
 
 }
 
-class RegionSlitsInput_Gap_G extends ResthopperParameter {
+class RegionSlitsInput_gap_g extends ResthopperParameter {
 
 	public name: string = "Gap";
 	public nickName: string = "G";
@@ -83,7 +83,7 @@ class RegionSlitsInput_Gap_G extends ResthopperParameter {
 
 }
 
-class RegionSlitsOutput_Regions_R extends ResthopperParameter {
+class RegionSlitsOutput_regions_r extends ResthopperParameter {
 
 	public name: string = "Regions";
 	public nickName: string = "R";
@@ -97,7 +97,7 @@ class RegionSlitsOutput_Regions_R extends ResthopperParameter {
 
 }
 
-class RegionSlitsOutput_Topology_T extends ResthopperParameter {
+class RegionSlitsOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";

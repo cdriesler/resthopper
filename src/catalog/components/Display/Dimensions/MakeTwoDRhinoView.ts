@@ -15,29 +15,29 @@ export default class MakeTwoDRhinoView extends ResthopperComponent {
 
 	public input:
 	{
-		"Name_N": MakeTwoDRhinoViewInput_Name_N,
-		"Clip_C": MakeTwoDRhinoViewInput_Clip_C,
+		"name_n": MakeTwoDRhinoViewInput_name_n,
+		"clip_c": MakeTwoDRhinoViewInput_clip_c,
 	}
 
 	public output:
 	{
-		"View_V": MakeTwoDRhinoViewOutput_View_V,
+		"view_v": MakeTwoDRhinoViewOutput_view_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Name_N": new MakeTwoDRhinoViewInput_Name_N(),
-			"Clip_C": new MakeTwoDRhinoViewInput_Clip_C(),
+			"name_n": new MakeTwoDRhinoViewInput_name_n(),
+			"clip_c": new MakeTwoDRhinoViewInput_clip_c(),
 		}
 		this.output = {
-			"View_V": new MakeTwoDRhinoViewOutput_View_V(),
+			"view_v": new MakeTwoDRhinoViewOutput_view_v(),
 		}
 	}
 
 }
 
-class MakeTwoDRhinoViewInput_Name_N extends ResthopperParameter {
+class MakeTwoDRhinoViewInput_name_n extends ResthopperParameter {
 
 	public name: string = "Name";
 	public nickName: string = "N";
@@ -51,7 +51,7 @@ class MakeTwoDRhinoViewInput_Name_N extends ResthopperParameter {
 
 }
 
-class MakeTwoDRhinoViewInput_Clip_C extends ResthopperParameter {
+class MakeTwoDRhinoViewInput_clip_c extends ResthopperParameter {
 
 	public name: string = "Clip";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class MakeTwoDRhinoViewInput_Clip_C extends ResthopperParameter {
 
 }
 
-class MakeTwoDRhinoViewOutput_View_V extends ResthopperParameter {
+class MakeTwoDRhinoViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";

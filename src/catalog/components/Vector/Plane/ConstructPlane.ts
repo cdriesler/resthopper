@@ -15,31 +15,31 @@ export default class ConstructPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Origin_O": ConstructPlaneInput_Origin_O,
-		"XAxis_X": ConstructPlaneInput_XAxis_X,
-		"YAxis_Y": ConstructPlaneInput_YAxis_Y,
+		"origin_o": ConstructPlaneInput_origin_o,
+		"xaxis_x": ConstructPlaneInput_xaxis_x,
+		"yaxis_y": ConstructPlaneInput_yaxis_y,
 	}
 
 	public output:
 	{
-		"Plane_Pl": ConstructPlaneOutput_Plane_Pl,
+		"plane_pl": ConstructPlaneOutput_plane_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Origin_O": new ConstructPlaneInput_Origin_O(),
-			"XAxis_X": new ConstructPlaneInput_XAxis_X(),
-			"YAxis_Y": new ConstructPlaneInput_YAxis_Y(),
+			"origin_o": new ConstructPlaneInput_origin_o(),
+			"xaxis_x": new ConstructPlaneInput_xaxis_x(),
+			"yaxis_y": new ConstructPlaneInput_yaxis_y(),
 		}
 		this.output = {
-			"Plane_Pl": new ConstructPlaneOutput_Plane_Pl(),
+			"plane_pl": new ConstructPlaneOutput_plane_pl(),
 		}
 	}
 
 }
 
-class ConstructPlaneInput_Origin_O extends ResthopperParameter {
+class ConstructPlaneInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
@@ -53,7 +53,7 @@ class ConstructPlaneInput_Origin_O extends ResthopperParameter {
 
 }
 
-class ConstructPlaneInput_XAxis_X extends ResthopperParameter {
+class ConstructPlaneInput_xaxis_x extends ResthopperParameter {
 
 	public name: string = "XAxis";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class ConstructPlaneInput_XAxis_X extends ResthopperParameter {
 
 }
 
-class ConstructPlaneInput_YAxis_Y extends ResthopperParameter {
+class ConstructPlaneInput_yaxis_y extends ResthopperParameter {
 
 	public name: string = "YAxis";
 	public nickName: string = "Y";
@@ -81,7 +81,7 @@ class ConstructPlaneInput_YAxis_Y extends ResthopperParameter {
 
 }
 
-class ConstructPlaneOutput_Plane_Pl extends ResthopperParameter {
+class ConstructPlaneOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";

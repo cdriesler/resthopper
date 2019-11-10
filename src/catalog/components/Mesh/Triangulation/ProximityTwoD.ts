@@ -15,35 +15,35 @@ export default class ProximityTwoD extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": ProximityTwoDInput_Points_P,
-		"Plane_Pl": ProximityTwoDInput_Plane_Pl,
-		"Group_G": ProximityTwoDInput_Group_G,
-		"MaxRadius_R": ProximityTwoDInput_MaxRadius_R,
+		"points_p": ProximityTwoDInput_points_p,
+		"plane_pl": ProximityTwoDInput_plane_pl,
+		"group_g": ProximityTwoDInput_group_g,
+		"maxradius_r": ProximityTwoDInput_maxradius_r,
 	}
 
 	public output:
 	{
-		"Links_L": ProximityTwoDOutput_Links_L,
-		"Topology_T": ProximityTwoDOutput_Topology_T,
+		"links_l": ProximityTwoDOutput_links_l,
+		"topology_t": ProximityTwoDOutput_topology_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new ProximityTwoDInput_Points_P(),
-			"Plane_Pl": new ProximityTwoDInput_Plane_Pl(),
-			"Group_G": new ProximityTwoDInput_Group_G(),
-			"MaxRadius_R": new ProximityTwoDInput_MaxRadius_R(),
+			"points_p": new ProximityTwoDInput_points_p(),
+			"plane_pl": new ProximityTwoDInput_plane_pl(),
+			"group_g": new ProximityTwoDInput_group_g(),
+			"maxradius_r": new ProximityTwoDInput_maxradius_r(),
 		}
 		this.output = {
-			"Links_L": new ProximityTwoDOutput_Links_L(),
-			"Topology_T": new ProximityTwoDOutput_Topology_T(),
+			"links_l": new ProximityTwoDOutput_links_l(),
+			"topology_t": new ProximityTwoDOutput_topology_t(),
 		}
 	}
 
 }
 
-class ProximityTwoDInput_Points_P extends ResthopperParameter {
+class ProximityTwoDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class ProximityTwoDInput_Points_P extends ResthopperParameter {
 
 }
 
-class ProximityTwoDInput_Plane_Pl extends ResthopperParameter {
+class ProximityTwoDInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -71,7 +71,7 @@ class ProximityTwoDInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class ProximityTwoDInput_Group_G extends ResthopperParameter {
+class ProximityTwoDInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -85,7 +85,7 @@ class ProximityTwoDInput_Group_G extends ResthopperParameter {
 
 }
 
-class ProximityTwoDInput_MaxRadius_R extends ResthopperParameter {
+class ProximityTwoDInput_maxradius_r extends ResthopperParameter {
 
 	public name: string = "MaxRadius";
 	public nickName: string = "R";
@@ -99,7 +99,7 @@ class ProximityTwoDInput_MaxRadius_R extends ResthopperParameter {
 
 }
 
-class ProximityTwoDOutput_Links_L extends ResthopperParameter {
+class ProximityTwoDOutput_links_l extends ResthopperParameter {
 
 	public name: string = "Links";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class ProximityTwoDOutput_Links_L extends ResthopperParameter {
 
 }
 
-class ProximityTwoDOutput_Topology_T extends ResthopperParameter {
+class ProximityTwoDOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";

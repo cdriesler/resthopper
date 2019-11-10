@@ -15,29 +15,29 @@ export default class Loft extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": LoftInput_Curves_C,
-		"Options_O": LoftInput_Options_O,
+		"curves_c": LoftInput_curves_c,
+		"options_o": LoftInput_options_o,
 	}
 
 	public output:
 	{
-		"Loft_L": LoftOutput_Loft_L,
+		"loft_l": LoftOutput_loft_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new LoftInput_Curves_C(),
-			"Options_O": new LoftInput_Options_O(),
+			"curves_c": new LoftInput_curves_c(),
+			"options_o": new LoftInput_options_o(),
 		}
 		this.output = {
-			"Loft_L": new LoftOutput_Loft_L(),
+			"loft_l": new LoftOutput_loft_l(),
 		}
 	}
 
 }
 
-class LoftInput_Curves_C extends ResthopperParameter {
+class LoftInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class LoftInput_Curves_C extends ResthopperParameter {
 
 }
 
-class LoftInput_Options_O extends ResthopperParameter {
+class LoftInput_options_o extends ResthopperParameter {
 
 	public name: string = "Options";
 	public nickName: string = "O";
@@ -65,7 +65,7 @@ class LoftInput_Options_O extends ResthopperParameter {
 
 }
 
-class LoftOutput_Loft_L extends ResthopperParameter {
+class LoftOutput_loft_l extends ResthopperParameter {
 
 	public name: string = "Loft";
 	public nickName: string = "L";

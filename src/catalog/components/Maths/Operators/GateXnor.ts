@@ -15,29 +15,29 @@ export default class GateXnor extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateXnorInput_A_A,
-		"B_B": GateXnorInput_B_B,
+		"a_a": GateXnorInput_a_a,
+		"b_b": GateXnorInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": GateXnorOutput_Result_R,
+		"result_r": GateXnorOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateXnorInput_A_A(),
-			"B_B": new GateXnorInput_B_B(),
+			"a_a": new GateXnorInput_a_a(),
+			"b_b": new GateXnorInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new GateXnorOutput_Result_R(),
+			"result_r": new GateXnorOutput_result_r(),
 		}
 	}
 
 }
 
-class GateXnorInput_A_A extends ResthopperParameter {
+class GateXnorInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class GateXnorInput_A_A extends ResthopperParameter {
 
 }
 
-class GateXnorInput_B_B extends ResthopperParameter {
+class GateXnorInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class GateXnorInput_B_B extends ResthopperParameter {
 
 }
 
-class GateXnorOutput_Result_R extends ResthopperParameter {
+class GateXnorOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

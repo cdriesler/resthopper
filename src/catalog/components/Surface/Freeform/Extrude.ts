@@ -15,29 +15,29 @@ export default class Extrude extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": ExtrudeInput_Base_B,
-		"Direction_D": ExtrudeInput_Direction_D,
+		"base_b": ExtrudeInput_base_b,
+		"direction_d": ExtrudeInput_direction_d,
 	}
 
 	public output:
 	{
-		"Extrusion_E": ExtrudeOutput_Extrusion_E,
+		"extrusion_e": ExtrudeOutput_extrusion_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new ExtrudeInput_Base_B(),
-			"Direction_D": new ExtrudeInput_Direction_D(),
+			"base_b": new ExtrudeInput_base_b(),
+			"direction_d": new ExtrudeInput_direction_d(),
 		}
 		this.output = {
-			"Extrusion_E": new ExtrudeOutput_Extrusion_E(),
+			"extrusion_e": new ExtrudeOutput_extrusion_e(),
 		}
 	}
 
 }
 
-class ExtrudeInput_Base_B extends ResthopperParameter {
+class ExtrudeInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class ExtrudeInput_Base_B extends ResthopperParameter {
 
 }
 
-class ExtrudeInput_Direction_D extends ResthopperParameter {
+class ExtrudeInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class ExtrudeInput_Direction_D extends ResthopperParameter {
 
 }
 
-class ExtrudeOutput_Extrusion_E extends ResthopperParameter {
+class ExtrudeOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";

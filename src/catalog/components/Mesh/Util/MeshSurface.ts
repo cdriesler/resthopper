@@ -15,35 +15,35 @@ export default class MeshSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": MeshSurfaceInput_Surface_S,
-		"UCount_U": MeshSurfaceInput_UCount_U,
-		"VCount_V": MeshSurfaceInput_VCount_V,
-		"Overhang_H": MeshSurfaceInput_Overhang_H,
-		"Equalize_Q": MeshSurfaceInput_Equalize_Q,
+		"surface_s": MeshSurfaceInput_surface_s,
+		"ucount_u": MeshSurfaceInput_ucount_u,
+		"vcount_v": MeshSurfaceInput_vcount_v,
+		"overhang_h": MeshSurfaceInput_overhang_h,
+		"equalize_q": MeshSurfaceInput_equalize_q,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshSurfaceOutput_Mesh_M,
+		"mesh_m": MeshSurfaceOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new MeshSurfaceInput_Surface_S(),
-			"UCount_U": new MeshSurfaceInput_UCount_U(),
-			"VCount_V": new MeshSurfaceInput_VCount_V(),
-			"Overhang_H": new MeshSurfaceInput_Overhang_H(),
-			"Equalize_Q": new MeshSurfaceInput_Equalize_Q(),
+			"surface_s": new MeshSurfaceInput_surface_s(),
+			"ucount_u": new MeshSurfaceInput_ucount_u(),
+			"vcount_v": new MeshSurfaceInput_vcount_v(),
+			"overhang_h": new MeshSurfaceInput_overhang_h(),
+			"equalize_q": new MeshSurfaceInput_equalize_q(),
 		}
 		this.output = {
-			"Mesh_M": new MeshSurfaceOutput_Mesh_M(),
+			"mesh_m": new MeshSurfaceOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshSurfaceInput_Surface_S extends ResthopperParameter {
+class MeshSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class MeshSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class MeshSurfaceInput_UCount_U extends ResthopperParameter {
+class MeshSurfaceInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -71,7 +71,7 @@ class MeshSurfaceInput_UCount_U extends ResthopperParameter {
 
 }
 
-class MeshSurfaceInput_VCount_V extends ResthopperParameter {
+class MeshSurfaceInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
@@ -85,7 +85,7 @@ class MeshSurfaceInput_VCount_V extends ResthopperParameter {
 
 }
 
-class MeshSurfaceInput_Overhang_H extends ResthopperParameter {
+class MeshSurfaceInput_overhang_h extends ResthopperParameter {
 
 	public name: string = "Overhang";
 	public nickName: string = "H";
@@ -99,7 +99,7 @@ class MeshSurfaceInput_Overhang_H extends ResthopperParameter {
 
 }
 
-class MeshSurfaceInput_Equalize_Q extends ResthopperParameter {
+class MeshSurfaceInput_equalize_q extends ResthopperParameter {
 
 	public name: string = "Equalize";
 	public nickName: string = "Q";
@@ -113,7 +113,7 @@ class MeshSurfaceInput_Equalize_Q extends ResthopperParameter {
 
 }
 
-class MeshSurfaceOutput_Mesh_M extends ResthopperParameter {
+class MeshSurfaceOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

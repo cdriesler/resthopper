@@ -15,37 +15,37 @@ export default class EvaluateSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": EvaluateSurfaceInput_Surface_S,
-		"Point_uv": EvaluateSurfaceInput_Point_uv,
+		"surface_s": EvaluateSurfaceInput_surface_s,
+		"point_uv": EvaluateSurfaceInput_point_uv,
 	}
 
 	public output:
 	{
-		"Point_P": EvaluateSurfaceOutput_Point_P,
-		"Normal_N": EvaluateSurfaceOutput_Normal_N,
-		"Udirection_U": EvaluateSurfaceOutput_Udirection_U,
-		"Vdirection_V": EvaluateSurfaceOutput_Vdirection_V,
-		"Frame_F": EvaluateSurfaceOutput_Frame_F,
+		"point_p": EvaluateSurfaceOutput_point_p,
+		"normal_n": EvaluateSurfaceOutput_normal_n,
+		"udirection_u": EvaluateSurfaceOutput_udirection_u,
+		"vdirection_v": EvaluateSurfaceOutput_vdirection_v,
+		"frame_f": EvaluateSurfaceOutput_frame_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new EvaluateSurfaceInput_Surface_S(),
-			"Point_uv": new EvaluateSurfaceInput_Point_uv(),
+			"surface_s": new EvaluateSurfaceInput_surface_s(),
+			"point_uv": new EvaluateSurfaceInput_point_uv(),
 		}
 		this.output = {
-			"Point_P": new EvaluateSurfaceOutput_Point_P(),
-			"Normal_N": new EvaluateSurfaceOutput_Normal_N(),
-			"Udirection_U": new EvaluateSurfaceOutput_Udirection_U(),
-			"Vdirection_V": new EvaluateSurfaceOutput_Vdirection_V(),
-			"Frame_F": new EvaluateSurfaceOutput_Frame_F(),
+			"point_p": new EvaluateSurfaceOutput_point_p(),
+			"normal_n": new EvaluateSurfaceOutput_normal_n(),
+			"udirection_u": new EvaluateSurfaceOutput_udirection_u(),
+			"vdirection_v": new EvaluateSurfaceOutput_vdirection_v(),
+			"frame_f": new EvaluateSurfaceOutput_frame_f(),
 		}
 	}
 
 }
 
-class EvaluateSurfaceInput_Surface_S extends ResthopperParameter {
+class EvaluateSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -59,7 +59,7 @@ class EvaluateSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceInput_Point_uv extends ResthopperParameter {
+class EvaluateSurfaceInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
@@ -73,7 +73,7 @@ class EvaluateSurfaceInput_Point_uv extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceOutput_Point_P extends ResthopperParameter {
+class EvaluateSurfaceOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -87,7 +87,7 @@ class EvaluateSurfaceOutput_Point_P extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceOutput_Normal_N extends ResthopperParameter {
+class EvaluateSurfaceOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
@@ -101,7 +101,7 @@ class EvaluateSurfaceOutput_Normal_N extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceOutput_Udirection_U extends ResthopperParameter {
+class EvaluateSurfaceOutput_udirection_u extends ResthopperParameter {
 
 	public name: string = "Udirection";
 	public nickName: string = "U";
@@ -115,7 +115,7 @@ class EvaluateSurfaceOutput_Udirection_U extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceOutput_Vdirection_V extends ResthopperParameter {
+class EvaluateSurfaceOutput_vdirection_v extends ResthopperParameter {
 
 	public name: string = "Vdirection";
 	public nickName: string = "V";
@@ -129,7 +129,7 @@ class EvaluateSurfaceOutput_Vdirection_V extends ResthopperParameter {
 
 }
 
-class EvaluateSurfaceOutput_Frame_F extends ResthopperParameter {
+class EvaluateSurfaceOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";

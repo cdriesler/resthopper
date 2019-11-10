@@ -15,31 +15,31 @@ export default class TextTrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextTrimInput_Text_T,
-		"Start_S": TextTrimInput_Start_S,
-		"End_E": TextTrimInput_End_E,
+		"text_t": TextTrimInput_text_t,
+		"start_s": TextTrimInput_start_s,
+		"end_e": TextTrimInput_end_e,
 	}
 
 	public output:
 	{
-		"Result_R": TextTrimOutput_Result_R,
+		"result_r": TextTrimOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextTrimInput_Text_T(),
-			"Start_S": new TextTrimInput_Start_S(),
-			"End_E": new TextTrimInput_End_E(),
+			"text_t": new TextTrimInput_text_t(),
+			"start_s": new TextTrimInput_start_s(),
+			"end_e": new TextTrimInput_end_e(),
 		}
 		this.output = {
-			"Result_R": new TextTrimOutput_Result_R(),
+			"result_r": new TextTrimOutput_result_r(),
 		}
 	}
 
 }
 
-class TextTrimInput_Text_T extends ResthopperParameter {
+class TextTrimInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class TextTrimInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextTrimInput_Start_S extends ResthopperParameter {
+class TextTrimInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class TextTrimInput_Start_S extends ResthopperParameter {
 
 }
 
-class TextTrimInput_End_E extends ResthopperParameter {
+class TextTrimInput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class TextTrimInput_End_E extends ResthopperParameter {
 
 }
 
-class TextTrimOutput_Result_R extends ResthopperParameter {
+class TextTrimOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -15,33 +15,33 @@ export default class ConvexHull extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": ConvexHullInput_Points_P,
-		"Plane_Pl": ConvexHullInput_Plane_Pl,
+		"points_p": ConvexHullInput_points_p,
+		"plane_pl": ConvexHullInput_plane_pl,
 	}
 
 	public output:
 	{
-		"Hull_H": ConvexHullOutput_Hull_H,
-		"Hullz_Hz": ConvexHullOutput_Hullz_Hz,
-		"Indices_I": ConvexHullOutput_Indices_I,
+		"hull_h": ConvexHullOutput_hull_h,
+		"hullz_hz": ConvexHullOutput_hullz_hz,
+		"indices_i": ConvexHullOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new ConvexHullInput_Points_P(),
-			"Plane_Pl": new ConvexHullInput_Plane_Pl(),
+			"points_p": new ConvexHullInput_points_p(),
+			"plane_pl": new ConvexHullInput_plane_pl(),
 		}
 		this.output = {
-			"Hull_H": new ConvexHullOutput_Hull_H(),
-			"Hullz_Hz": new ConvexHullOutput_Hullz_Hz(),
-			"Indices_I": new ConvexHullOutput_Indices_I(),
+			"hull_h": new ConvexHullOutput_hull_h(),
+			"hullz_hz": new ConvexHullOutput_hullz_hz(),
+			"indices_i": new ConvexHullOutput_indices_i(),
 		}
 	}
 
 }
 
-class ConvexHullInput_Points_P extends ResthopperParameter {
+class ConvexHullInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ConvexHullInput_Points_P extends ResthopperParameter {
 
 }
 
-class ConvexHullInput_Plane_Pl extends ResthopperParameter {
+class ConvexHullInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -69,7 +69,7 @@ class ConvexHullInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class ConvexHullOutput_Hull_H extends ResthopperParameter {
+class ConvexHullOutput_hull_h extends ResthopperParameter {
 
 	public name: string = "Hull";
 	public nickName: string = "H";
@@ -83,7 +83,7 @@ class ConvexHullOutput_Hull_H extends ResthopperParameter {
 
 }
 
-class ConvexHullOutput_Hullz_Hz extends ResthopperParameter {
+class ConvexHullOutput_hullz_hz extends ResthopperParameter {
 
 	public name: string = "Hullz";
 	public nickName: string = "Hz";
@@ -97,7 +97,7 @@ class ConvexHullOutput_Hullz_Hz extends ResthopperParameter {
 
 }
 
-class ConvexHullOutput_Indices_I extends ResthopperParameter {
+class ConvexHullOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

@@ -15,31 +15,31 @@ export default class PolyArc extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": PolyArcInput_Vertices_V,
-		"Tangent_T": PolyArcInput_Tangent_T,
-		"Closed_C": PolyArcInput_Closed_C,
+		"vertices_v": PolyArcInput_vertices_v,
+		"tangent_t": PolyArcInput_tangent_t,
+		"closed_c": PolyArcInput_closed_c,
 	}
 
 	public output:
 	{
-		"PolyArc_Crv": PolyArcOutput_PolyArc_Crv,
+		"polyarc_crv": PolyArcOutput_polyarc_crv,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new PolyArcInput_Vertices_V(),
-			"Tangent_T": new PolyArcInput_Tangent_T(),
-			"Closed_C": new PolyArcInput_Closed_C(),
+			"vertices_v": new PolyArcInput_vertices_v(),
+			"tangent_t": new PolyArcInput_tangent_t(),
+			"closed_c": new PolyArcInput_closed_c(),
 		}
 		this.output = {
-			"PolyArc_Crv": new PolyArcOutput_PolyArc_Crv(),
+			"polyarc_crv": new PolyArcOutput_polyarc_crv(),
 		}
 	}
 
 }
 
-class PolyArcInput_Vertices_V extends ResthopperParameter {
+class PolyArcInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class PolyArcInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class PolyArcInput_Tangent_T extends ResthopperParameter {
+class PolyArcInput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class PolyArcInput_Tangent_T extends ResthopperParameter {
 
 }
 
-class PolyArcInput_Closed_C extends ResthopperParameter {
+class PolyArcInput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class PolyArcInput_Closed_C extends ResthopperParameter {
 
 }
 
-class PolyArcOutput_PolyArc_Crv extends ResthopperParameter {
+class PolyArcOutput_polyarc_crv extends ResthopperParameter {
 
 	public name: string = "PolyArc";
 	public nickName: string = "Crv";

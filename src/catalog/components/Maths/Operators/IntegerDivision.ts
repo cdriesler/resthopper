@@ -15,29 +15,29 @@ export default class IntegerDivision extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": IntegerDivisionInput_A_A,
-		"B_B": IntegerDivisionInput_B_B,
+		"a_a": IntegerDivisionInput_a_a,
+		"b_b": IntegerDivisionInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": IntegerDivisionOutput_Result_R,
+		"result_r": IntegerDivisionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new IntegerDivisionInput_A_A(),
-			"B_B": new IntegerDivisionInput_B_B(),
+			"a_a": new IntegerDivisionInput_a_a(),
+			"b_b": new IntegerDivisionInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new IntegerDivisionOutput_Result_R(),
+			"result_r": new IntegerDivisionOutput_result_r(),
 		}
 	}
 
 }
 
-class IntegerDivisionInput_A_A extends ResthopperParameter {
+class IntegerDivisionInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class IntegerDivisionInput_A_A extends ResthopperParameter {
 
 }
 
-class IntegerDivisionInput_B_B extends ResthopperParameter {
+class IntegerDivisionInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class IntegerDivisionInput_B_B extends ResthopperParameter {
 
 }
 
-class IntegerDivisionOutput_Result_R extends ResthopperParameter {
+class IntegerDivisionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

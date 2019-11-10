@@ -15,33 +15,33 @@ export default class PipeVariable extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PipeVariableInput_Curve_C,
-		"Parameters_t": PipeVariableInput_Parameters_t,
-		"Radii_R": PipeVariableInput_Radii_R,
-		"Caps_E": PipeVariableInput_Caps_E,
+		"curve_c": PipeVariableInput_curve_c,
+		"parameters_t": PipeVariableInput_parameters_t,
+		"radii_r": PipeVariableInput_radii_r,
+		"caps_e": PipeVariableInput_caps_e,
 	}
 
 	public output:
 	{
-		"Pipe_P": PipeVariableOutput_Pipe_P,
+		"pipe_p": PipeVariableOutput_pipe_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PipeVariableInput_Curve_C(),
-			"Parameters_t": new PipeVariableInput_Parameters_t(),
-			"Radii_R": new PipeVariableInput_Radii_R(),
-			"Caps_E": new PipeVariableInput_Caps_E(),
+			"curve_c": new PipeVariableInput_curve_c(),
+			"parameters_t": new PipeVariableInput_parameters_t(),
+			"radii_r": new PipeVariableInput_radii_r(),
+			"caps_e": new PipeVariableInput_caps_e(),
 		}
 		this.output = {
-			"Pipe_P": new PipeVariableOutput_Pipe_P(),
+			"pipe_p": new PipeVariableOutput_pipe_p(),
 		}
 	}
 
 }
 
-class PipeVariableInput_Curve_C extends ResthopperParameter {
+class PipeVariableInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class PipeVariableInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PipeVariableInput_Parameters_t extends ResthopperParameter {
+class PipeVariableInput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
@@ -69,7 +69,7 @@ class PipeVariableInput_Parameters_t extends ResthopperParameter {
 
 }
 
-class PipeVariableInput_Radii_R extends ResthopperParameter {
+class PipeVariableInput_radii_r extends ResthopperParameter {
 
 	public name: string = "Radii";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class PipeVariableInput_Radii_R extends ResthopperParameter {
 
 }
 
-class PipeVariableInput_Caps_E extends ResthopperParameter {
+class PipeVariableInput_caps_e extends ResthopperParameter {
 
 	public name: string = "Caps";
 	public nickName: string = "E";
@@ -97,7 +97,7 @@ class PipeVariableInput_Caps_E extends ResthopperParameter {
 
 }
 
-class PipeVariableOutput_Pipe_P extends ResthopperParameter {
+class PipeVariableOutput_pipe_p extends ResthopperParameter {
 
 	public name: string = "Pipe";
 	public nickName: string = "P";

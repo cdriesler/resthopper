@@ -15,33 +15,33 @@ export default class Fillet extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": FilletInput_Curve_C,
-		"Parameter_t": FilletInput_Parameter_t,
-		"Radius_R": FilletInput_Radius_R,
+		"curve_c": FilletInput_curve_c,
+		"parameter_t": FilletInput_parameter_t,
+		"radius_r": FilletInput_radius_r,
 	}
 
 	public output:
 	{
-		"Curve_C": FilletOutput_Curve_C,
-		"Parameter_t": FilletOutput_Parameter_t,
+		"curve_c": FilletOutput_curve_c,
+		"parameter_t": FilletOutput_parameter_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new FilletInput_Curve_C(),
-			"Parameter_t": new FilletInput_Parameter_t(),
-			"Radius_R": new FilletInput_Radius_R(),
+			"curve_c": new FilletInput_curve_c(),
+			"parameter_t": new FilletInput_parameter_t(),
+			"radius_r": new FilletInput_radius_r(),
 		}
 		this.output = {
-			"Curve_C": new FilletOutput_Curve_C(),
-			"Parameter_t": new FilletOutput_Parameter_t(),
+			"curve_c": new FilletOutput_curve_c(),
+			"parameter_t": new FilletOutput_parameter_t(),
 		}
 	}
 
 }
 
-class FilletInput_Curve_C extends ResthopperParameter {
+class FilletInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class FilletInput_Curve_C extends ResthopperParameter {
 
 }
 
-class FilletInput_Parameter_t extends ResthopperParameter {
+class FilletInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -69,7 +69,7 @@ class FilletInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class FilletInput_Radius_R extends ResthopperParameter {
+class FilletInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class FilletInput_Radius_R extends ResthopperParameter {
 
 }
 
-class FilletOutput_Curve_C extends ResthopperParameter {
+class FilletOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class FilletOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class FilletOutput_Parameter_t extends ResthopperParameter {
+class FilletOutput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";

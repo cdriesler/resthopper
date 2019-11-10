@@ -15,31 +15,31 @@ export default class ConvexEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": ConvexEdgesInput_Brep_B,
+		"brep_b": ConvexEdgesInput_brep_b,
 	}
 
 	public output:
 	{
-		"Convex_Cv": ConvexEdgesOutput_Convex_Cv,
-		"Concave_Cc": ConvexEdgesOutput_Concave_Cc,
-		"Mixed_Mx": ConvexEdgesOutput_Mixed_Mx,
+		"convex_cv": ConvexEdgesOutput_convex_cv,
+		"concave_cc": ConvexEdgesOutput_concave_cc,
+		"mixed_mx": ConvexEdgesOutput_mixed_mx,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new ConvexEdgesInput_Brep_B(),
+			"brep_b": new ConvexEdgesInput_brep_b(),
 		}
 		this.output = {
-			"Convex_Cv": new ConvexEdgesOutput_Convex_Cv(),
-			"Concave_Cc": new ConvexEdgesOutput_Concave_Cc(),
-			"Mixed_Mx": new ConvexEdgesOutput_Mixed_Mx(),
+			"convex_cv": new ConvexEdgesOutput_convex_cv(),
+			"concave_cc": new ConvexEdgesOutput_concave_cc(),
+			"mixed_mx": new ConvexEdgesOutput_mixed_mx(),
 		}
 	}
 
 }
 
-class ConvexEdgesInput_Brep_B extends ResthopperParameter {
+class ConvexEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class ConvexEdgesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class ConvexEdgesOutput_Convex_Cv extends ResthopperParameter {
+class ConvexEdgesOutput_convex_cv extends ResthopperParameter {
 
 	public name: string = "Convex";
 	public nickName: string = "Cv";
@@ -67,7 +67,7 @@ class ConvexEdgesOutput_Convex_Cv extends ResthopperParameter {
 
 }
 
-class ConvexEdgesOutput_Concave_Cc extends ResthopperParameter {
+class ConvexEdgesOutput_concave_cc extends ResthopperParameter {
 
 	public name: string = "Concave";
 	public nickName: string = "Cc";
@@ -81,7 +81,7 @@ class ConvexEdgesOutput_Concave_Cc extends ResthopperParameter {
 
 }
 
-class ConvexEdgesOutput_Mixed_Mx extends ResthopperParameter {
+class ConvexEdgesOutput_mixed_mx extends ResthopperParameter {
 
 	public name: string = "Mixed";
 	public nickName: string = "Mx";

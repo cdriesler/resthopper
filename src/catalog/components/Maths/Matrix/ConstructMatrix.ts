@@ -15,31 +15,31 @@ export default class ConstructMatrix extends ResthopperComponent {
 
 	public input:
 	{
-		"Rows_R": ConstructMatrixInput_Rows_R,
-		"Columns_C": ConstructMatrixInput_Columns_C,
-		"Values_V": ConstructMatrixInput_Values_V,
+		"rows_r": ConstructMatrixInput_rows_r,
+		"columns_c": ConstructMatrixInput_columns_c,
+		"values_v": ConstructMatrixInput_values_v,
 	}
 
 	public output:
 	{
-		"Matrix_M": ConstructMatrixOutput_Matrix_M,
+		"matrix_m": ConstructMatrixOutput_matrix_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Rows_R": new ConstructMatrixInput_Rows_R(),
-			"Columns_C": new ConstructMatrixInput_Columns_C(),
-			"Values_V": new ConstructMatrixInput_Values_V(),
+			"rows_r": new ConstructMatrixInput_rows_r(),
+			"columns_c": new ConstructMatrixInput_columns_c(),
+			"values_v": new ConstructMatrixInput_values_v(),
 		}
 		this.output = {
-			"Matrix_M": new ConstructMatrixOutput_Matrix_M(),
+			"matrix_m": new ConstructMatrixOutput_matrix_m(),
 		}
 	}
 
 }
 
-class ConstructMatrixInput_Rows_R extends ResthopperParameter {
+class ConstructMatrixInput_rows_r extends ResthopperParameter {
 
 	public name: string = "Rows";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class ConstructMatrixInput_Rows_R extends ResthopperParameter {
 
 }
 
-class ConstructMatrixInput_Columns_C extends ResthopperParameter {
+class ConstructMatrixInput_columns_c extends ResthopperParameter {
 
 	public name: string = "Columns";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class ConstructMatrixInput_Columns_C extends ResthopperParameter {
 
 }
 
-class ConstructMatrixInput_Values_V extends ResthopperParameter {
+class ConstructMatrixInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
@@ -81,7 +81,7 @@ class ConstructMatrixInput_Values_V extends ResthopperParameter {
 
 }
 
-class ConstructMatrixOutput_Matrix_M extends ResthopperParameter {
+class ConstructMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";

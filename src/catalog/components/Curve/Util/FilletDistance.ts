@@ -15,29 +15,29 @@ export default class FilletDistance extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": FilletDistanceInput_Curve_C,
-		"Distance_D": FilletDistanceInput_Distance_D,
+		"curve_c": FilletDistanceInput_curve_c,
+		"distance_d": FilletDistanceInput_distance_d,
 	}
 
 	public output:
 	{
-		"Curve_C": FilletDistanceOutput_Curve_C,
+		"curve_c": FilletDistanceOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new FilletDistanceInput_Curve_C(),
-			"Distance_D": new FilletDistanceInput_Distance_D(),
+			"curve_c": new FilletDistanceInput_curve_c(),
+			"distance_d": new FilletDistanceInput_distance_d(),
 		}
 		this.output = {
-			"Curve_C": new FilletDistanceOutput_Curve_C(),
+			"curve_c": new FilletDistanceOutput_curve_c(),
 		}
 	}
 
 }
 
-class FilletDistanceInput_Curve_C extends ResthopperParameter {
+class FilletDistanceInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class FilletDistanceInput_Curve_C extends ResthopperParameter {
 
 }
 
-class FilletDistanceInput_Distance_D extends ResthopperParameter {
+class FilletDistanceInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class FilletDistanceInput_Distance_D extends ResthopperParameter {
 
 }
 
-class FilletDistanceOutput_Curve_C extends ResthopperParameter {
+class FilletDistanceOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

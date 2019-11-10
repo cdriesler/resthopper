@@ -15,29 +15,29 @@ export default class PerpFrame extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PerpFrameInput_Curve_C,
-		"Parameter_t": PerpFrameInput_Parameter_t,
+		"curve_c": PerpFrameInput_curve_c,
+		"parameter_t": PerpFrameInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Frame_F": PerpFrameOutput_Frame_F,
+		"frame_f": PerpFrameOutput_frame_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PerpFrameInput_Curve_C(),
-			"Parameter_t": new PerpFrameInput_Parameter_t(),
+			"curve_c": new PerpFrameInput_curve_c(),
+			"parameter_t": new PerpFrameInput_parameter_t(),
 		}
 		this.output = {
-			"Frame_F": new PerpFrameOutput_Frame_F(),
+			"frame_f": new PerpFrameOutput_frame_f(),
 		}
 	}
 
 }
 
-class PerpFrameInput_Curve_C extends ResthopperParameter {
+class PerpFrameInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class PerpFrameInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PerpFrameInput_Parameter_t extends ResthopperParameter {
+class PerpFrameInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class PerpFrameInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class PerpFrameOutput_Frame_F extends ResthopperParameter {
+class PerpFrameOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";

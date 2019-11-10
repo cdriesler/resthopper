@@ -15,33 +15,33 @@ export default class SubDEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"SubD_S": SubDEdgesInput_SubD_S,
+		"subd_s": SubDEdgesInput_subd_s,
 	}
 
 	public output:
 	{
-		"Line_L": SubDEdgesOutput_Line_L,
-		"Edge_E": SubDEdgesOutput_Edge_E,
-		"Tag_T": SubDEdgesOutput_Tag_T,
-		"Id_I": SubDEdgesOutput_Id_I,
+		"line_l": SubDEdgesOutput_line_l,
+		"edge_e": SubDEdgesOutput_edge_e,
+		"tag_t": SubDEdgesOutput_tag_t,
+		"id_i": SubDEdgesOutput_id_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SubD_S": new SubDEdgesInput_SubD_S(),
+			"subd_s": new SubDEdgesInput_subd_s(),
 		}
 		this.output = {
-			"Line_L": new SubDEdgesOutput_Line_L(),
-			"Edge_E": new SubDEdgesOutput_Edge_E(),
-			"Tag_T": new SubDEdgesOutput_Tag_T(),
-			"Id_I": new SubDEdgesOutput_Id_I(),
+			"line_l": new SubDEdgesOutput_line_l(),
+			"edge_e": new SubDEdgesOutput_edge_e(),
+			"tag_t": new SubDEdgesOutput_tag_t(),
+			"id_i": new SubDEdgesOutput_id_i(),
 		}
 	}
 
 }
 
-class SubDEdgesInput_SubD_S extends ResthopperParameter {
+class SubDEdgesInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class SubDEdgesInput_SubD_S extends ResthopperParameter {
 
 }
 
-class SubDEdgesOutput_Line_L extends ResthopperParameter {
+class SubDEdgesOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -69,7 +69,7 @@ class SubDEdgesOutput_Line_L extends ResthopperParameter {
 
 }
 
-class SubDEdgesOutput_Edge_E extends ResthopperParameter {
+class SubDEdgesOutput_edge_e extends ResthopperParameter {
 
 	public name: string = "Edge";
 	public nickName: string = "E";
@@ -83,7 +83,7 @@ class SubDEdgesOutput_Edge_E extends ResthopperParameter {
 
 }
 
-class SubDEdgesOutput_Tag_T extends ResthopperParameter {
+class SubDEdgesOutput_tag_t extends ResthopperParameter {
 
 	public name: string = "Tag";
 	public nickName: string = "T";
@@ -97,7 +97,7 @@ class SubDEdgesOutput_Tag_T extends ResthopperParameter {
 
 }
 
-class SubDEdgesOutput_Id_I extends ResthopperParameter {
+class SubDEdgesOutput_id_i extends ResthopperParameter {
 
 	public name: string = "Id";
 	public nickName: string = "I";

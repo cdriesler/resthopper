@@ -15,33 +15,33 @@ export default class SimplifyCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": SimplifyCurveInput_Curve_C,
-		"Tolerance_t": SimplifyCurveInput_Tolerance_t,
-		"AngleTolerance_a": SimplifyCurveInput_AngleTolerance_a,
+		"curve_c": SimplifyCurveInput_curve_c,
+		"tolerance_t": SimplifyCurveInput_tolerance_t,
+		"angletolerance_a": SimplifyCurveInput_angletolerance_a,
 	}
 
 	public output:
 	{
-		"Curve_C": SimplifyCurveOutput_Curve_C,
-		"Simplified_S": SimplifyCurveOutput_Simplified_S,
+		"curve_c": SimplifyCurveOutput_curve_c,
+		"simplified_s": SimplifyCurveOutput_simplified_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new SimplifyCurveInput_Curve_C(),
-			"Tolerance_t": new SimplifyCurveInput_Tolerance_t(),
-			"AngleTolerance_a": new SimplifyCurveInput_AngleTolerance_a(),
+			"curve_c": new SimplifyCurveInput_curve_c(),
+			"tolerance_t": new SimplifyCurveInput_tolerance_t(),
+			"angletolerance_a": new SimplifyCurveInput_angletolerance_a(),
 		}
 		this.output = {
-			"Curve_C": new SimplifyCurveOutput_Curve_C(),
-			"Simplified_S": new SimplifyCurveOutput_Simplified_S(),
+			"curve_c": new SimplifyCurveOutput_curve_c(),
+			"simplified_s": new SimplifyCurveOutput_simplified_s(),
 		}
 	}
 
 }
 
-class SimplifyCurveInput_Curve_C extends ResthopperParameter {
+class SimplifyCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class SimplifyCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SimplifyCurveInput_Tolerance_t extends ResthopperParameter {
+class SimplifyCurveInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
@@ -69,7 +69,7 @@ class SimplifyCurveInput_Tolerance_t extends ResthopperParameter {
 
 }
 
-class SimplifyCurveInput_AngleTolerance_a extends ResthopperParameter {
+class SimplifyCurveInput_angletolerance_a extends ResthopperParameter {
 
 	public name: string = "AngleTolerance";
 	public nickName: string = "a";
@@ -83,7 +83,7 @@ class SimplifyCurveInput_AngleTolerance_a extends ResthopperParameter {
 
 }
 
-class SimplifyCurveOutput_Curve_C extends ResthopperParameter {
+class SimplifyCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class SimplifyCurveOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class SimplifyCurveOutput_Simplified_S extends ResthopperParameter {
+class SimplifyCurveOutput_simplified_s extends ResthopperParameter {
 
 	public name: string = "Simplified";
 	public nickName: string = "S";

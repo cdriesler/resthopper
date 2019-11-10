@@ -15,31 +15,31 @@ export default class InvertMatrix extends ResthopperComponent {
 
 	public input:
 	{
-		"Matrix_M": InvertMatrixInput_Matrix_M,
-		"Tolerance_t": InvertMatrixInput_Tolerance_t,
+		"matrix_m": InvertMatrixInput_matrix_m,
+		"tolerance_t": InvertMatrixInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Matrix_M": InvertMatrixOutput_Matrix_M,
-		"Success_S": InvertMatrixOutput_Success_S,
+		"matrix_m": InvertMatrixOutput_matrix_m,
+		"success_s": InvertMatrixOutput_success_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Matrix_M": new InvertMatrixInput_Matrix_M(),
-			"Tolerance_t": new InvertMatrixInput_Tolerance_t(),
+			"matrix_m": new InvertMatrixInput_matrix_m(),
+			"tolerance_t": new InvertMatrixInput_tolerance_t(),
 		}
 		this.output = {
-			"Matrix_M": new InvertMatrixOutput_Matrix_M(),
-			"Success_S": new InvertMatrixOutput_Success_S(),
+			"matrix_m": new InvertMatrixOutput_matrix_m(),
+			"success_s": new InvertMatrixOutput_success_s(),
 		}
 	}
 
 }
 
-class InvertMatrixInput_Matrix_M extends ResthopperParameter {
+class InvertMatrixInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class InvertMatrixInput_Matrix_M extends ResthopperParameter {
 
 }
 
-class InvertMatrixInput_Tolerance_t extends ResthopperParameter {
+class InvertMatrixInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
@@ -67,7 +67,7 @@ class InvertMatrixInput_Tolerance_t extends ResthopperParameter {
 
 }
 
-class InvertMatrixOutput_Matrix_M extends ResthopperParameter {
+class InvertMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
@@ -81,7 +81,7 @@ class InvertMatrixOutput_Matrix_M extends ResthopperParameter {
 
 }
 
-class InvertMatrixOutput_Success_S extends ResthopperParameter {
+class InvertMatrixOutput_success_s extends ResthopperParameter {
 
 	public name: string = "Success";
 	public nickName: string = "S";

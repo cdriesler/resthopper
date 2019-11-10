@@ -15,29 +15,29 @@ export default class BendDeform extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": BendDeformInput_Geometry_G,
-		"BendingArc_B": BendDeformInput_BendingArc_B,
+		"geometry_g": BendDeformInput_geometry_g,
+		"bendingarc_b": BendDeformInput_bendingarc_b,
 	}
 
 	public output:
 	{
-		"Geometry_G": BendDeformOutput_Geometry_G,
+		"geometry_g": BendDeformOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new BendDeformInput_Geometry_G(),
-			"BendingArc_B": new BendDeformInput_BendingArc_B(),
+			"geometry_g": new BendDeformInput_geometry_g(),
+			"bendingarc_b": new BendDeformInput_bendingarc_b(),
 		}
 		this.output = {
-			"Geometry_G": new BendDeformOutput_Geometry_G(),
+			"geometry_g": new BendDeformOutput_geometry_g(),
 		}
 	}
 
 }
 
-class BendDeformInput_Geometry_G extends ResthopperParameter {
+class BendDeformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class BendDeformInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BendDeformInput_BendingArc_B extends ResthopperParameter {
+class BendDeformInput_bendingarc_b extends ResthopperParameter {
 
 	public name: string = "BendingArc";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class BendDeformInput_BendingArc_B extends ResthopperParameter {
 
 }
 
-class BendDeformOutput_Geometry_G extends ResthopperParameter {
+class BendDeformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

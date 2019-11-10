@@ -15,9 +15,9 @@ export default class TensorDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": TensorDisplayInput_Field_F,
-		"Section_S": TensorDisplayInput_Section_S,
-		"Samples_N": TensorDisplayInput_Samples_N,
+		"field_f": TensorDisplayInput_field_f,
+		"section_s": TensorDisplayInput_section_s,
+		"samples_n": TensorDisplayInput_samples_n,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class TensorDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new TensorDisplayInput_Field_F(),
-			"Section_S": new TensorDisplayInput_Section_S(),
-			"Samples_N": new TensorDisplayInput_Samples_N(),
+			"field_f": new TensorDisplayInput_field_f(),
+			"section_s": new TensorDisplayInput_section_s(),
+			"samples_n": new TensorDisplayInput_samples_n(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class TensorDisplay extends ResthopperComponent {
 
 }
 
-class TensorDisplayInput_Field_F extends ResthopperParameter {
+class TensorDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -53,7 +53,7 @@ class TensorDisplayInput_Field_F extends ResthopperParameter {
 
 }
 
-class TensorDisplayInput_Section_S extends ResthopperParameter {
+class TensorDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class TensorDisplayInput_Section_S extends ResthopperParameter {
 
 }
 
-class TensorDisplayInput_Samples_N extends ResthopperParameter {
+class TensorDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";

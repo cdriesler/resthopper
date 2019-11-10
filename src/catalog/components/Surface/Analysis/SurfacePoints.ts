@@ -15,35 +15,35 @@ export default class SurfacePoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfacePointsInput_Surface_S,
+		"surface_s": SurfacePointsInput_surface_s,
 	}
 
 	public output:
 	{
-		"Points_P": SurfacePointsOutput_Points_P,
-		"Weights_W": SurfacePointsOutput_Weights_W,
-		"Greville_G": SurfacePointsOutput_Greville_G,
-		"UCount_U": SurfacePointsOutput_UCount_U,
-		"VCount_V": SurfacePointsOutput_VCount_V,
+		"points_p": SurfacePointsOutput_points_p,
+		"weights_w": SurfacePointsOutput_weights_w,
+		"greville_g": SurfacePointsOutput_greville_g,
+		"ucount_u": SurfacePointsOutput_ucount_u,
+		"vcount_v": SurfacePointsOutput_vcount_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfacePointsInput_Surface_S(),
+			"surface_s": new SurfacePointsInput_surface_s(),
 		}
 		this.output = {
-			"Points_P": new SurfacePointsOutput_Points_P(),
-			"Weights_W": new SurfacePointsOutput_Weights_W(),
-			"Greville_G": new SurfacePointsOutput_Greville_G(),
-			"UCount_U": new SurfacePointsOutput_UCount_U(),
-			"VCount_V": new SurfacePointsOutput_VCount_V(),
+			"points_p": new SurfacePointsOutput_points_p(),
+			"weights_w": new SurfacePointsOutput_weights_w(),
+			"greville_g": new SurfacePointsOutput_greville_g(),
+			"ucount_u": new SurfacePointsOutput_ucount_u(),
+			"vcount_v": new SurfacePointsOutput_vcount_v(),
 		}
 	}
 
 }
 
-class SurfacePointsInput_Surface_S extends ResthopperParameter {
+class SurfacePointsInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class SurfacePointsInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfacePointsOutput_Points_P extends ResthopperParameter {
+class SurfacePointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class SurfacePointsOutput_Points_P extends ResthopperParameter {
 
 }
 
-class SurfacePointsOutput_Weights_W extends ResthopperParameter {
+class SurfacePointsOutput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
@@ -85,7 +85,7 @@ class SurfacePointsOutput_Weights_W extends ResthopperParameter {
 
 }
 
-class SurfacePointsOutput_Greville_G extends ResthopperParameter {
+class SurfacePointsOutput_greville_g extends ResthopperParameter {
 
 	public name: string = "Greville";
 	public nickName: string = "G";
@@ -99,7 +99,7 @@ class SurfacePointsOutput_Greville_G extends ResthopperParameter {
 
 }
 
-class SurfacePointsOutput_UCount_U extends ResthopperParameter {
+class SurfacePointsOutput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -113,7 +113,7 @@ class SurfacePointsOutput_UCount_U extends ResthopperParameter {
 
 }
 
-class SurfacePointsOutput_VCount_V extends ResthopperParameter {
+class SurfacePointsOutput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";

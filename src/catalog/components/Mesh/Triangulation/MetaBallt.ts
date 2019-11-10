@@ -15,33 +15,33 @@ export default class MetaBallt extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": MetaBalltInput_Points_P,
-		"Plane_Pl": MetaBalltInput_Plane_Pl,
-		"Threshold_T": MetaBalltInput_Threshold_T,
-		"Accuracy_A": MetaBalltInput_Accuracy_A,
+		"points_p": MetaBalltInput_points_p,
+		"plane_pl": MetaBalltInput_plane_pl,
+		"threshold_t": MetaBalltInput_threshold_t,
+		"accuracy_a": MetaBalltInput_accuracy_a,
 	}
 
 	public output:
 	{
-		"Isocurve_I": MetaBalltOutput_Isocurve_I,
+		"isocurve_i": MetaBalltOutput_isocurve_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new MetaBalltInput_Points_P(),
-			"Plane_Pl": new MetaBalltInput_Plane_Pl(),
-			"Threshold_T": new MetaBalltInput_Threshold_T(),
-			"Accuracy_A": new MetaBalltInput_Accuracy_A(),
+			"points_p": new MetaBalltInput_points_p(),
+			"plane_pl": new MetaBalltInput_plane_pl(),
+			"threshold_t": new MetaBalltInput_threshold_t(),
+			"accuracy_a": new MetaBalltInput_accuracy_a(),
 		}
 		this.output = {
-			"Isocurve_I": new MetaBalltOutput_Isocurve_I(),
+			"isocurve_i": new MetaBalltOutput_isocurve_i(),
 		}
 	}
 
 }
 
-class MetaBalltInput_Points_P extends ResthopperParameter {
+class MetaBalltInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class MetaBalltInput_Points_P extends ResthopperParameter {
 
 }
 
-class MetaBalltInput_Plane_Pl extends ResthopperParameter {
+class MetaBalltInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -69,7 +69,7 @@ class MetaBalltInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class MetaBalltInput_Threshold_T extends ResthopperParameter {
+class MetaBalltInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class MetaBalltInput_Threshold_T extends ResthopperParameter {
 
 }
 
-class MetaBalltInput_Accuracy_A extends ResthopperParameter {
+class MetaBalltInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class MetaBalltInput_Accuracy_A extends ResthopperParameter {
 
 }
 
-class MetaBalltOutput_Isocurve_I extends ResthopperParameter {
+class MetaBalltOutput_isocurve_i extends ResthopperParameter {
 
 	public name: string = "Isocurve";
 	public nickName: string = "I";

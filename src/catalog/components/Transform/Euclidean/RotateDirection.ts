@@ -15,35 +15,35 @@ export default class RotateDirection extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": RotateDirectionInput_Geometry_G,
-		"Center_C": RotateDirectionInput_Center_C,
-		"From_F": RotateDirectionInput_From_F,
-		"To_T": RotateDirectionInput_To_T,
+		"geometry_g": RotateDirectionInput_geometry_g,
+		"center_c": RotateDirectionInput_center_c,
+		"from_f": RotateDirectionInput_from_f,
+		"to_t": RotateDirectionInput_to_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": RotateDirectionOutput_Geometry_G,
-		"Transform_X": RotateDirectionOutput_Transform_X,
+		"geometry_g": RotateDirectionOutput_geometry_g,
+		"transform_x": RotateDirectionOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new RotateDirectionInput_Geometry_G(),
-			"Center_C": new RotateDirectionInput_Center_C(),
-			"From_F": new RotateDirectionInput_From_F(),
-			"To_T": new RotateDirectionInput_To_T(),
+			"geometry_g": new RotateDirectionInput_geometry_g(),
+			"center_c": new RotateDirectionInput_center_c(),
+			"from_f": new RotateDirectionInput_from_f(),
+			"to_t": new RotateDirectionInput_to_t(),
 		}
 		this.output = {
-			"Geometry_G": new RotateDirectionOutput_Geometry_G(),
-			"Transform_X": new RotateDirectionOutput_Transform_X(),
+			"geometry_g": new RotateDirectionOutput_geometry_g(),
+			"transform_x": new RotateDirectionOutput_transform_x(),
 		}
 	}
 
 }
 
-class RotateDirectionInput_Geometry_G extends ResthopperParameter {
+class RotateDirectionInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class RotateDirectionInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateDirectionInput_Center_C extends ResthopperParameter {
+class RotateDirectionInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -71,7 +71,7 @@ class RotateDirectionInput_Center_C extends ResthopperParameter {
 
 }
 
-class RotateDirectionInput_From_F extends ResthopperParameter {
+class RotateDirectionInput_from_f extends ResthopperParameter {
 
 	public name: string = "From";
 	public nickName: string = "F";
@@ -85,7 +85,7 @@ class RotateDirectionInput_From_F extends ResthopperParameter {
 
 }
 
-class RotateDirectionInput_To_T extends ResthopperParameter {
+class RotateDirectionInput_to_t extends ResthopperParameter {
 
 	public name: string = "To";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class RotateDirectionInput_To_T extends ResthopperParameter {
 
 }
 
-class RotateDirectionOutput_Geometry_G extends ResthopperParameter {
+class RotateDirectionOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class RotateDirectionOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateDirectionOutput_Transform_X extends ResthopperParameter {
+class RotateDirectionOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

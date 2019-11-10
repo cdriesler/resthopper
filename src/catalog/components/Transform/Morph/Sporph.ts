@@ -15,37 +15,37 @@ export default class Sporph extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SporphInput_Geometry_G,
-		"Base_S0": SporphInput_Base_S0,
-		"Parameter_P0": SporphInput_Parameter_P0,
-		"Target_S1": SporphInput_Target_S1,
-		"Parameter_P1": SporphInput_Parameter_P1,
-		"Rigid_R": SporphInput_Rigid_R,
+		"geometry_g": SporphInput_geometry_g,
+		"base_s0": SporphInput_base_s0,
+		"parameter_p0": SporphInput_parameter_p0,
+		"target_s1": SporphInput_target_s1,
+		"parameter_p1": SporphInput_parameter_p1,
+		"rigid_r": SporphInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": SporphOutput_Geometry_G,
+		"geometry_g": SporphOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SporphInput_Geometry_G(),
-			"Base_S0": new SporphInput_Base_S0(),
-			"Parameter_P0": new SporphInput_Parameter_P0(),
-			"Target_S1": new SporphInput_Target_S1(),
-			"Parameter_P1": new SporphInput_Parameter_P1(),
-			"Rigid_R": new SporphInput_Rigid_R(),
+			"geometry_g": new SporphInput_geometry_g(),
+			"base_s0": new SporphInput_base_s0(),
+			"parameter_p0": new SporphInput_parameter_p0(),
+			"target_s1": new SporphInput_target_s1(),
+			"parameter_p1": new SporphInput_parameter_p1(),
+			"rigid_r": new SporphInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new SporphOutput_Geometry_G(),
+			"geometry_g": new SporphOutput_geometry_g(),
 		}
 	}
 
 }
 
-class SporphInput_Geometry_G extends ResthopperParameter {
+class SporphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class SporphInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SporphInput_Base_S0 extends ResthopperParameter {
+class SporphInput_base_s0 extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "S0";
@@ -73,7 +73,7 @@ class SporphInput_Base_S0 extends ResthopperParameter {
 
 }
 
-class SporphInput_Parameter_P0 extends ResthopperParameter {
+class SporphInput_parameter_p0 extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P0";
@@ -87,7 +87,7 @@ class SporphInput_Parameter_P0 extends ResthopperParameter {
 
 }
 
-class SporphInput_Target_S1 extends ResthopperParameter {
+class SporphInput_target_s1 extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "S1";
@@ -101,7 +101,7 @@ class SporphInput_Target_S1 extends ResthopperParameter {
 
 }
 
-class SporphInput_Parameter_P1 extends ResthopperParameter {
+class SporphInput_parameter_p1 extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P1";
@@ -115,7 +115,7 @@ class SporphInput_Parameter_P1 extends ResthopperParameter {
 
 }
 
-class SporphInput_Rigid_R extends ResthopperParameter {
+class SporphInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -129,7 +129,7 @@ class SporphInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class SporphOutput_Geometry_G extends ResthopperParameter {
+class SporphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

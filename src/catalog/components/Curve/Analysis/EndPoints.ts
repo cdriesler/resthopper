@@ -15,29 +15,29 @@ export default class EndPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": EndPointsInput_Curve_C,
+		"curve_c": EndPointsInput_curve_c,
 	}
 
 	public output:
 	{
-		"Start_S": EndPointsOutput_Start_S,
-		"End_E": EndPointsOutput_End_E,
+		"start_s": EndPointsOutput_start_s,
+		"end_e": EndPointsOutput_end_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new EndPointsInput_Curve_C(),
+			"curve_c": new EndPointsInput_curve_c(),
 		}
 		this.output = {
-			"Start_S": new EndPointsOutput_Start_S(),
-			"End_E": new EndPointsOutput_End_E(),
+			"start_s": new EndPointsOutput_start_s(),
+			"end_e": new EndPointsOutput_end_e(),
 		}
 	}
 
 }
 
-class EndPointsInput_Curve_C extends ResthopperParameter {
+class EndPointsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class EndPointsInput_Curve_C extends ResthopperParameter {
 
 }
 
-class EndPointsOutput_Start_S extends ResthopperParameter {
+class EndPointsOutput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class EndPointsOutput_Start_S extends ResthopperParameter {
 
 }
 
-class EndPointsOutput_End_E extends ResthopperParameter {
+class EndPointsOutput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";

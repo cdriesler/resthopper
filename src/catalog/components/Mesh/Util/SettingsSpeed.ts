@@ -20,7 +20,7 @@ export default class SettingsSpeed extends ResthopperComponent {
 
 	public output:
 	{
-		"Settings_S": SettingsSpeedOutput_Settings_S,
+		"settings_s": SettingsSpeedOutput_settings_s,
 	}
 
 	constructor() {
@@ -29,13 +29,13 @@ export default class SettingsSpeed extends ResthopperComponent {
 
 		}
 		this.output = {
-			"Settings_S": new SettingsSpeedOutput_Settings_S(),
+			"settings_s": new SettingsSpeedOutput_settings_s(),
 		}
 	}
 
 }
 
-class SettingsSpeedOutput_Settings_S extends ResthopperParameter {
+class SettingsSpeedOutput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";

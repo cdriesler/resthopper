@@ -15,35 +15,35 @@ export default class Substrate extends ResthopperComponent {
 
 	public input:
 	{
-		"Border_B": SubstrateInput_Border_B,
-		"Count_N": SubstrateInput_Count_N,
-		"Angles_A": SubstrateInput_Angles_A,
-		"Deviation_D": SubstrateInput_Deviation_D,
-		"Seed_S": SubstrateInput_Seed_S,
+		"border_b": SubstrateInput_border_b,
+		"count_n": SubstrateInput_count_n,
+		"angles_a": SubstrateInput_angles_a,
+		"deviation_d": SubstrateInput_deviation_d,
+		"seed_s": SubstrateInput_seed_s,
 	}
 
 	public output:
 	{
-		"Substrate_S": SubstrateOutput_Substrate_S,
+		"substrate_s": SubstrateOutput_substrate_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Border_B": new SubstrateInput_Border_B(),
-			"Count_N": new SubstrateInput_Count_N(),
-			"Angles_A": new SubstrateInput_Angles_A(),
-			"Deviation_D": new SubstrateInput_Deviation_D(),
-			"Seed_S": new SubstrateInput_Seed_S(),
+			"border_b": new SubstrateInput_border_b(),
+			"count_n": new SubstrateInput_count_n(),
+			"angles_a": new SubstrateInput_angles_a(),
+			"deviation_d": new SubstrateInput_deviation_d(),
+			"seed_s": new SubstrateInput_seed_s(),
 		}
 		this.output = {
-			"Substrate_S": new SubstrateOutput_Substrate_S(),
+			"substrate_s": new SubstrateOutput_substrate_s(),
 		}
 	}
 
 }
 
-class SubstrateInput_Border_B extends ResthopperParameter {
+class SubstrateInput_border_b extends ResthopperParameter {
 
 	public name: string = "Border";
 	public nickName: string = "B";
@@ -57,7 +57,7 @@ class SubstrateInput_Border_B extends ResthopperParameter {
 
 }
 
-class SubstrateInput_Count_N extends ResthopperParameter {
+class SubstrateInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -71,7 +71,7 @@ class SubstrateInput_Count_N extends ResthopperParameter {
 
 }
 
-class SubstrateInput_Angles_A extends ResthopperParameter {
+class SubstrateInput_angles_a extends ResthopperParameter {
 
 	public name: string = "Angles";
 	public nickName: string = "A";
@@ -85,7 +85,7 @@ class SubstrateInput_Angles_A extends ResthopperParameter {
 
 }
 
-class SubstrateInput_Deviation_D extends ResthopperParameter {
+class SubstrateInput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";
@@ -99,7 +99,7 @@ class SubstrateInput_Deviation_D extends ResthopperParameter {
 
 }
 
-class SubstrateInput_Seed_S extends ResthopperParameter {
+class SubstrateInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -113,7 +113,7 @@ class SubstrateInput_Seed_S extends ResthopperParameter {
 
 }
 
-class SubstrateOutput_Substrate_S extends ResthopperParameter {
+class SubstrateOutput_substrate_s extends ResthopperParameter {
 
 	public name: string = "Substrate";
 	public nickName: string = "S";

@@ -15,27 +15,27 @@ export default class SquareRoot extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": SquareRootInput_Value_x,
+		"value_x": SquareRootInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": SquareRootOutput_Result_y,
+		"result_y": SquareRootOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new SquareRootInput_Value_x(),
+			"value_x": new SquareRootInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new SquareRootOutput_Result_y(),
+			"result_y": new SquareRootOutput_result_y(),
 		}
 	}
 
 }
 
-class SquareRootInput_Value_x extends ResthopperParameter {
+class SquareRootInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class SquareRootInput_Value_x extends ResthopperParameter {
 
 }
 
-class SquareRootOutput_Result_y extends ResthopperParameter {
+class SquareRootOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

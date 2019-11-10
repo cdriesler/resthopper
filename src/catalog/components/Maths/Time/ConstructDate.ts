@@ -15,37 +15,37 @@ export default class ConstructDate extends ResthopperComponent {
 
 	public input:
 	{
-		"Year_Y": ConstructDateInput_Year_Y,
-		"Month_M": ConstructDateInput_Month_M,
-		"Day_D": ConstructDateInput_Day_D,
-		"Hour_h": ConstructDateInput_Hour_h,
-		"Minute_m": ConstructDateInput_Minute_m,
-		"Second_s": ConstructDateInput_Second_s,
+		"year_y": ConstructDateInput_year_y,
+		"month_m": ConstructDateInput_month_m,
+		"day_d": ConstructDateInput_day_d,
+		"hour_h": ConstructDateInput_hour_h,
+		"minute_m": ConstructDateInput_minute_m,
+		"second_s": ConstructDateInput_second_s,
 	}
 
 	public output:
 	{
-		"Date_D": ConstructDateOutput_Date_D,
+		"date_d": ConstructDateOutput_date_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Year_Y": new ConstructDateInput_Year_Y(),
-			"Month_M": new ConstructDateInput_Month_M(),
-			"Day_D": new ConstructDateInput_Day_D(),
-			"Hour_h": new ConstructDateInput_Hour_h(),
-			"Minute_m": new ConstructDateInput_Minute_m(),
-			"Second_s": new ConstructDateInput_Second_s(),
+			"year_y": new ConstructDateInput_year_y(),
+			"month_m": new ConstructDateInput_month_m(),
+			"day_d": new ConstructDateInput_day_d(),
+			"hour_h": new ConstructDateInput_hour_h(),
+			"minute_m": new ConstructDateInput_minute_m(),
+			"second_s": new ConstructDateInput_second_s(),
 		}
 		this.output = {
-			"Date_D": new ConstructDateOutput_Date_D(),
+			"date_d": new ConstructDateOutput_date_d(),
 		}
 	}
 
 }
 
-class ConstructDateInput_Year_Y extends ResthopperParameter {
+class ConstructDateInput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
@@ -59,7 +59,7 @@ class ConstructDateInput_Year_Y extends ResthopperParameter {
 
 }
 
-class ConstructDateInput_Month_M extends ResthopperParameter {
+class ConstructDateInput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
@@ -73,7 +73,7 @@ class ConstructDateInput_Month_M extends ResthopperParameter {
 
 }
 
-class ConstructDateInput_Day_D extends ResthopperParameter {
+class ConstructDateInput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
@@ -87,7 +87,7 @@ class ConstructDateInput_Day_D extends ResthopperParameter {
 
 }
 
-class ConstructDateInput_Hour_h extends ResthopperParameter {
+class ConstructDateInput_hour_h extends ResthopperParameter {
 
 	public name: string = "Hour";
 	public nickName: string = "h";
@@ -101,7 +101,7 @@ class ConstructDateInput_Hour_h extends ResthopperParameter {
 
 }
 
-class ConstructDateInput_Minute_m extends ResthopperParameter {
+class ConstructDateInput_minute_m extends ResthopperParameter {
 
 	public name: string = "Minute";
 	public nickName: string = "m";
@@ -115,7 +115,7 @@ class ConstructDateInput_Minute_m extends ResthopperParameter {
 
 }
 
-class ConstructDateInput_Second_s extends ResthopperParameter {
+class ConstructDateInput_second_s extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "s";
@@ -129,7 +129,7 @@ class ConstructDateInput_Second_s extends ResthopperParameter {
 
 }
 
-class ConstructDateOutput_Date_D extends ResthopperParameter {
+class ConstructDateOutput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";

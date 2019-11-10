@@ -15,37 +15,37 @@ export default class Circumcentre extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": CircumcentreInput_PointA_A,
-		"PointB_B": CircumcentreInput_PointB_B,
-		"PointC_C": CircumcentreInput_PointC_C,
+		"pointa_a": CircumcentreInput_pointa_a,
+		"pointb_b": CircumcentreInput_pointb_b,
+		"pointc_c": CircumcentreInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Circumcentre_C": CircumcentreOutput_Circumcentre_C,
-		"BisectorAB_AB": CircumcentreOutput_BisectorAB_AB,
-		"BisectorBC_BC": CircumcentreOutput_BisectorBC_BC,
-		"BisectorCA_CA": CircumcentreOutput_BisectorCA_CA,
+		"circumcentre_c": CircumcentreOutput_circumcentre_c,
+		"bisectorab_ab": CircumcentreOutput_bisectorab_ab,
+		"bisectorbc_bc": CircumcentreOutput_bisectorbc_bc,
+		"bisectorca_ca": CircumcentreOutput_bisectorca_ca,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new CircumcentreInput_PointA_A(),
-			"PointB_B": new CircumcentreInput_PointB_B(),
-			"PointC_C": new CircumcentreInput_PointC_C(),
+			"pointa_a": new CircumcentreInput_pointa_a(),
+			"pointb_b": new CircumcentreInput_pointb_b(),
+			"pointc_c": new CircumcentreInput_pointc_c(),
 		}
 		this.output = {
-			"Circumcentre_C": new CircumcentreOutput_Circumcentre_C(),
-			"BisectorAB_AB": new CircumcentreOutput_BisectorAB_AB(),
-			"BisectorBC_BC": new CircumcentreOutput_BisectorBC_BC(),
-			"BisectorCA_CA": new CircumcentreOutput_BisectorCA_CA(),
+			"circumcentre_c": new CircumcentreOutput_circumcentre_c(),
+			"bisectorab_ab": new CircumcentreOutput_bisectorab_ab(),
+			"bisectorbc_bc": new CircumcentreOutput_bisectorbc_bc(),
+			"bisectorca_ca": new CircumcentreOutput_bisectorca_ca(),
 		}
 	}
 
 }
 
-class CircumcentreInput_PointA_A extends ResthopperParameter {
+class CircumcentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class CircumcentreInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CircumcentreInput_PointB_B extends ResthopperParameter {
+class CircumcentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class CircumcentreInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CircumcentreInput_PointC_C extends ResthopperParameter {
+class CircumcentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class CircumcentreInput_PointC_C extends ResthopperParameter {
 
 }
 
-class CircumcentreOutput_Circumcentre_C extends ResthopperParameter {
+class CircumcentreOutput_circumcentre_c extends ResthopperParameter {
 
 	public name: string = "Circumcentre";
 	public nickName: string = "C";
@@ -101,7 +101,7 @@ class CircumcentreOutput_Circumcentre_C extends ResthopperParameter {
 
 }
 
-class CircumcentreOutput_BisectorAB_AB extends ResthopperParameter {
+class CircumcentreOutput_bisectorab_ab extends ResthopperParameter {
 
 	public name: string = "BisectorAB";
 	public nickName: string = "AB";
@@ -115,7 +115,7 @@ class CircumcentreOutput_BisectorAB_AB extends ResthopperParameter {
 
 }
 
-class CircumcentreOutput_BisectorBC_BC extends ResthopperParameter {
+class CircumcentreOutput_bisectorbc_bc extends ResthopperParameter {
 
 	public name: string = "BisectorBC";
 	public nickName: string = "BC";
@@ -129,7 +129,7 @@ class CircumcentreOutput_BisectorBC_BC extends ResthopperParameter {
 
 }
 
-class CircumcentreOutput_BisectorCA_CA extends ResthopperParameter {
+class CircumcentreOutput_bisectorca_ca extends ResthopperParameter {
 
 	public name: string = "BisectorCA";
 	public nickName: string = "CA";

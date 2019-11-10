@@ -15,37 +15,37 @@ export default class ScaleNU extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": ScaleNUInput_Geometry_G,
-		"Plane_P": ScaleNUInput_Plane_P,
-		"ScaleX_X": ScaleNUInput_ScaleX_X,
-		"ScaleY_Y": ScaleNUInput_ScaleY_Y,
-		"ScaleZ_Z": ScaleNUInput_ScaleZ_Z,
+		"geometry_g": ScaleNUInput_geometry_g,
+		"plane_p": ScaleNUInput_plane_p,
+		"scalex_x": ScaleNUInput_scalex_x,
+		"scaley_y": ScaleNUInput_scaley_y,
+		"scalez_z": ScaleNUInput_scalez_z,
 	}
 
 	public output:
 	{
-		"Geometry_G": ScaleNUOutput_Geometry_G,
-		"Transform_X": ScaleNUOutput_Transform_X,
+		"geometry_g": ScaleNUOutput_geometry_g,
+		"transform_x": ScaleNUOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new ScaleNUInput_Geometry_G(),
-			"Plane_P": new ScaleNUInput_Plane_P(),
-			"ScaleX_X": new ScaleNUInput_ScaleX_X(),
-			"ScaleY_Y": new ScaleNUInput_ScaleY_Y(),
-			"ScaleZ_Z": new ScaleNUInput_ScaleZ_Z(),
+			"geometry_g": new ScaleNUInput_geometry_g(),
+			"plane_p": new ScaleNUInput_plane_p(),
+			"scalex_x": new ScaleNUInput_scalex_x(),
+			"scaley_y": new ScaleNUInput_scaley_y(),
+			"scalez_z": new ScaleNUInput_scalez_z(),
 		}
 		this.output = {
-			"Geometry_G": new ScaleNUOutput_Geometry_G(),
-			"Transform_X": new ScaleNUOutput_Transform_X(),
+			"geometry_g": new ScaleNUOutput_geometry_g(),
+			"transform_x": new ScaleNUOutput_transform_x(),
 		}
 	}
 
 }
 
-class ScaleNUInput_Geometry_G extends ResthopperParameter {
+class ScaleNUInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class ScaleNUInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ScaleNUInput_Plane_P extends ResthopperParameter {
+class ScaleNUInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -73,7 +73,7 @@ class ScaleNUInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ScaleNUInput_ScaleX_X extends ResthopperParameter {
+class ScaleNUInput_scalex_x extends ResthopperParameter {
 
 	public name: string = "ScaleX";
 	public nickName: string = "X";
@@ -87,7 +87,7 @@ class ScaleNUInput_ScaleX_X extends ResthopperParameter {
 
 }
 
-class ScaleNUInput_ScaleY_Y extends ResthopperParameter {
+class ScaleNUInput_scaley_y extends ResthopperParameter {
 
 	public name: string = "ScaleY";
 	public nickName: string = "Y";
@@ -101,7 +101,7 @@ class ScaleNUInput_ScaleY_Y extends ResthopperParameter {
 
 }
 
-class ScaleNUInput_ScaleZ_Z extends ResthopperParameter {
+class ScaleNUInput_scalez_z extends ResthopperParameter {
 
 	public name: string = "ScaleZ";
 	public nickName: string = "Z";
@@ -115,7 +115,7 @@ class ScaleNUInput_ScaleZ_Z extends ResthopperParameter {
 
 }
 
-class ScaleNUOutput_Geometry_G extends ResthopperParameter {
+class ScaleNUOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -129,7 +129,7 @@ class ScaleNUOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ScaleNUOutput_Transform_X extends ResthopperParameter {
+class ScaleNUOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

@@ -15,29 +15,29 @@ export default class UnflattenTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": UnflattenTreeInput_Tree_T,
-		"Guide_G": UnflattenTreeInput_Guide_G,
+		"tree_t": UnflattenTreeInput_tree_t,
+		"guide_g": UnflattenTreeInput_guide_g,
 	}
 
 	public output:
 	{
-		"Tree_T": UnflattenTreeOutput_Tree_T,
+		"tree_t": UnflattenTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new UnflattenTreeInput_Tree_T(),
-			"Guide_G": new UnflattenTreeInput_Guide_G(),
+			"tree_t": new UnflattenTreeInput_tree_t(),
+			"guide_g": new UnflattenTreeInput_guide_g(),
 		}
 		this.output = {
-			"Tree_T": new UnflattenTreeOutput_Tree_T(),
+			"tree_t": new UnflattenTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class UnflattenTreeInput_Tree_T extends ResthopperParameter {
+class UnflattenTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class UnflattenTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class UnflattenTreeInput_Guide_G extends ResthopperParameter {
+class UnflattenTreeInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
@@ -65,7 +65,7 @@ class UnflattenTreeInput_Guide_G extends ResthopperParameter {
 
 }
 
-class UnflattenTreeOutput_Tree_T extends ResthopperParameter {
+class UnflattenTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

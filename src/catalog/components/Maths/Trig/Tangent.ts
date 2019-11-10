@@ -15,27 +15,27 @@ export default class Tangent extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": TangentInput_Value_x,
+		"value_x": TangentInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": TangentOutput_Result_y,
+		"result_y": TangentOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new TangentInput_Value_x(),
+			"value_x": new TangentInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new TangentOutput_Result_y(),
+			"result_y": new TangentOutput_result_y(),
 		}
 	}
 
 }
 
-class TangentInput_Value_x extends ResthopperParameter {
+class TangentInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class TangentInput_Value_x extends ResthopperParameter {
 
 }
 
-class TangentOutput_Result_y extends ResthopperParameter {
+class TangentOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

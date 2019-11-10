@@ -15,29 +15,29 @@ export default class CombineDateTime extends ResthopperComponent {
 
 	public input:
 	{
-		"Date_D": CombineDateTimeInput_Date_D,
-		"Time_T": CombineDateTimeInput_Time_T,
+		"date_d": CombineDateTimeInput_date_d,
+		"time_t": CombineDateTimeInput_time_t,
 	}
 
 	public output:
 	{
-		"Result_R": CombineDateTimeOutput_Result_R,
+		"result_r": CombineDateTimeOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Date_D": new CombineDateTimeInput_Date_D(),
-			"Time_T": new CombineDateTimeInput_Time_T(),
+			"date_d": new CombineDateTimeInput_date_d(),
+			"time_t": new CombineDateTimeInput_time_t(),
 		}
 		this.output = {
-			"Result_R": new CombineDateTimeOutput_Result_R(),
+			"result_r": new CombineDateTimeOutput_result_r(),
 		}
 	}
 
 }
 
-class CombineDateTimeInput_Date_D extends ResthopperParameter {
+class CombineDateTimeInput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class CombineDateTimeInput_Date_D extends ResthopperParameter {
 
 }
 
-class CombineDateTimeInput_Time_T extends ResthopperParameter {
+class CombineDateTimeInput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class CombineDateTimeInput_Time_T extends ResthopperParameter {
 
 }
 
-class CombineDateTimeOutput_Result_R extends ResthopperParameter {
+class CombineDateTimeOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -15,29 +15,29 @@ export default class PartitionList extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": PartitionListInput_List_L,
-		"Size_S": PartitionListInput_Size_S,
+		"list_l": PartitionListInput_list_l,
+		"size_s": PartitionListInput_size_s,
 	}
 
 	public output:
 	{
-		"Chunks_C": PartitionListOutput_Chunks_C,
+		"chunks_c": PartitionListOutput_chunks_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new PartitionListInput_List_L(),
-			"Size_S": new PartitionListInput_Size_S(),
+			"list_l": new PartitionListInput_list_l(),
+			"size_s": new PartitionListInput_size_s(),
 		}
 		this.output = {
-			"Chunks_C": new PartitionListOutput_Chunks_C(),
+			"chunks_c": new PartitionListOutput_chunks_c(),
 		}
 	}
 
 }
 
-class PartitionListInput_List_L extends ResthopperParameter {
+class PartitionListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class PartitionListInput_List_L extends ResthopperParameter {
 
 }
 
-class PartitionListInput_Size_S extends ResthopperParameter {
+class PartitionListInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class PartitionListInput_Size_S extends ResthopperParameter {
 
 }
 
-class PartitionListOutput_Chunks_C extends ResthopperParameter {
+class PartitionListOutput_chunks_c extends ResthopperParameter {
 
 	public name: string = "Chunks";
 	public nickName: string = "C";

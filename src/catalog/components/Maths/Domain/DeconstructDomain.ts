@@ -15,29 +15,29 @@ export default class DeconstructDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Domain_I": DeconstructDomainInput_Domain_I,
+		"domain_i": DeconstructDomainInput_domain_i,
 	}
 
 	public output:
 	{
-		"Ucomponent_U": DeconstructDomainOutput_Ucomponent_U,
-		"Vcomponent_V": DeconstructDomainOutput_Vcomponent_V,
+		"ucomponent_u": DeconstructDomainOutput_ucomponent_u,
+		"vcomponent_v": DeconstructDomainOutput_vcomponent_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Domain_I": new DeconstructDomainInput_Domain_I(),
+			"domain_i": new DeconstructDomainInput_domain_i(),
 		}
 		this.output = {
-			"Ucomponent_U": new DeconstructDomainOutput_Ucomponent_U(),
-			"Vcomponent_V": new DeconstructDomainOutput_Vcomponent_V(),
+			"ucomponent_u": new DeconstructDomainOutput_ucomponent_u(),
+			"vcomponent_v": new DeconstructDomainOutput_vcomponent_v(),
 		}
 	}
 
 }
 
-class DeconstructDomainInput_Domain_I extends ResthopperParameter {
+class DeconstructDomainInput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class DeconstructDomainInput_Domain_I extends ResthopperParameter {
 
 }
 
-class DeconstructDomainOutput_Ucomponent_U extends ResthopperParameter {
+class DeconstructDomainOutput_ucomponent_u extends ResthopperParameter {
 
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
@@ -65,7 +65,7 @@ class DeconstructDomainOutput_Ucomponent_U extends ResthopperParameter {
 
 }
 
-class DeconstructDomainOutput_Vcomponent_V extends ResthopperParameter {
+class DeconstructDomainOutput_vcomponent_v extends ResthopperParameter {
 
 	public name: string = "Vcomponent";
 	public nickName: string = "V";

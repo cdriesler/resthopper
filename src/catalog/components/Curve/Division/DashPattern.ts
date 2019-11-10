@@ -15,31 +15,31 @@ export default class DashPattern extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": DashPatternInput_Curve_C,
-		"Pattern_Pt": DashPatternInput_Pattern_Pt,
+		"curve_c": DashPatternInput_curve_c,
+		"pattern_pt": DashPatternInput_pattern_pt,
 	}
 
 	public output:
 	{
-		"Dashes_D": DashPatternOutput_Dashes_D,
-		"Gaps_G": DashPatternOutput_Gaps_G,
+		"dashes_d": DashPatternOutput_dashes_d,
+		"gaps_g": DashPatternOutput_gaps_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new DashPatternInput_Curve_C(),
-			"Pattern_Pt": new DashPatternInput_Pattern_Pt(),
+			"curve_c": new DashPatternInput_curve_c(),
+			"pattern_pt": new DashPatternInput_pattern_pt(),
 		}
 		this.output = {
-			"Dashes_D": new DashPatternOutput_Dashes_D(),
-			"Gaps_G": new DashPatternOutput_Gaps_G(),
+			"dashes_d": new DashPatternOutput_dashes_d(),
+			"gaps_g": new DashPatternOutput_gaps_g(),
 		}
 	}
 
 }
 
-class DashPatternInput_Curve_C extends ResthopperParameter {
+class DashPatternInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class DashPatternInput_Curve_C extends ResthopperParameter {
 
 }
 
-class DashPatternInput_Pattern_Pt extends ResthopperParameter {
+class DashPatternInput_pattern_pt extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "Pt";
@@ -67,7 +67,7 @@ class DashPatternInput_Pattern_Pt extends ResthopperParameter {
 
 }
 
-class DashPatternOutput_Dashes_D extends ResthopperParameter {
+class DashPatternOutput_dashes_d extends ResthopperParameter {
 
 	public name: string = "Dashes";
 	public nickName: string = "D";
@@ -81,7 +81,7 @@ class DashPatternOutput_Dashes_D extends ResthopperParameter {
 
 }
 
-class DashPatternOutput_Gaps_G extends ResthopperParameter {
+class DashPatternOutput_gaps_g extends ResthopperParameter {
 
 	public name: string = "Gaps";
 	public nickName: string = "G";

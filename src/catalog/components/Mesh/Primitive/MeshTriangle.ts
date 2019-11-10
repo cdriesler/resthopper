@@ -15,31 +15,31 @@ export default class MeshTriangle extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": MeshTriangleInput_CornerA_A,
-		"CornerB_B": MeshTriangleInput_CornerB_B,
-		"CornerC_C": MeshTriangleInput_CornerC_C,
+		"cornera_a": MeshTriangleInput_cornera_a,
+		"cornerb_b": MeshTriangleInput_cornerb_b,
+		"cornerc_c": MeshTriangleInput_cornerc_c,
 	}
 
 	public output:
 	{
-		"Face_F": MeshTriangleOutput_Face_F,
+		"face_f": MeshTriangleOutput_face_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new MeshTriangleInput_CornerA_A(),
-			"CornerB_B": new MeshTriangleInput_CornerB_B(),
-			"CornerC_C": new MeshTriangleInput_CornerC_C(),
+			"cornera_a": new MeshTriangleInput_cornera_a(),
+			"cornerb_b": new MeshTriangleInput_cornerb_b(),
+			"cornerc_c": new MeshTriangleInput_cornerc_c(),
 		}
 		this.output = {
-			"Face_F": new MeshTriangleOutput_Face_F(),
+			"face_f": new MeshTriangleOutput_face_f(),
 		}
 	}
 
 }
 
-class MeshTriangleInput_CornerA_A extends ResthopperParameter {
+class MeshTriangleInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class MeshTriangleInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class MeshTriangleInput_CornerB_B extends ResthopperParameter {
+class MeshTriangleInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class MeshTriangleInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class MeshTriangleInput_CornerC_C extends ResthopperParameter {
+class MeshTriangleInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MeshTriangleInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class MeshTriangleOutput_Face_F extends ResthopperParameter {
+class MeshTriangleOutput_face_f extends ResthopperParameter {
 
 	public name: string = "Face";
 	public nickName: string = "F";

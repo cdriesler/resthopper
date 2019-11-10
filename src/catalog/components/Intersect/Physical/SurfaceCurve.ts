@@ -15,39 +15,39 @@ export default class SurfaceCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceCurveInput_Surface_S,
-		"Curve_C": SurfaceCurveInput_Curve_C,
+		"surface_s": SurfaceCurveInput_surface_s,
+		"curve_c": SurfaceCurveInput_curve_c,
 	}
 
 	public output:
 	{
-		"Curves_C": SurfaceCurveOutput_Curves_C,
-		"Points_P": SurfaceCurveOutput_Points_P,
-		"UVPoints_uv": SurfaceCurveOutput_UVPoints_uv,
-		"Normals_N": SurfaceCurveOutput_Normals_N,
-		"Parameters_t": SurfaceCurveOutput_Parameters_t,
-		"Tangents_T": SurfaceCurveOutput_Tangents_T,
+		"curves_c": SurfaceCurveOutput_curves_c,
+		"points_p": SurfaceCurveOutput_points_p,
+		"uvpoints_uv": SurfaceCurveOutput_uvpoints_uv,
+		"normals_n": SurfaceCurveOutput_normals_n,
+		"parameters_t": SurfaceCurveOutput_parameters_t,
+		"tangents_t": SurfaceCurveOutput_tangents_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceCurveInput_Surface_S(),
-			"Curve_C": new SurfaceCurveInput_Curve_C(),
+			"surface_s": new SurfaceCurveInput_surface_s(),
+			"curve_c": new SurfaceCurveInput_curve_c(),
 		}
 		this.output = {
-			"Curves_C": new SurfaceCurveOutput_Curves_C(),
-			"Points_P": new SurfaceCurveOutput_Points_P(),
-			"UVPoints_uv": new SurfaceCurveOutput_UVPoints_uv(),
-			"Normals_N": new SurfaceCurveOutput_Normals_N(),
-			"Parameters_t": new SurfaceCurveOutput_Parameters_t(),
-			"Tangents_T": new SurfaceCurveOutput_Tangents_T(),
+			"curves_c": new SurfaceCurveOutput_curves_c(),
+			"points_p": new SurfaceCurveOutput_points_p(),
+			"uvpoints_uv": new SurfaceCurveOutput_uvpoints_uv(),
+			"normals_n": new SurfaceCurveOutput_normals_n(),
+			"parameters_t": new SurfaceCurveOutput_parameters_t(),
+			"tangents_t": new SurfaceCurveOutput_tangents_t(),
 		}
 	}
 
 }
 
-class SurfaceCurveInput_Surface_S extends ResthopperParameter {
+class SurfaceCurveInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -61,7 +61,7 @@ class SurfaceCurveInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceCurveInput_Curve_C extends ResthopperParameter {
+class SurfaceCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -75,7 +75,7 @@ class SurfaceCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_Curves_C extends ResthopperParameter {
+class SurfaceCurveOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -89,7 +89,7 @@ class SurfaceCurveOutput_Curves_C extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_Points_P extends ResthopperParameter {
+class SurfaceCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -103,7 +103,7 @@ class SurfaceCurveOutput_Points_P extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_UVPoints_uv extends ResthopperParameter {
+class SurfaceCurveOutput_uvpoints_uv extends ResthopperParameter {
 
 	public name: string = "UVPoints";
 	public nickName: string = "uv";
@@ -117,7 +117,7 @@ class SurfaceCurveOutput_UVPoints_uv extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_Normals_N extends ResthopperParameter {
+class SurfaceCurveOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
@@ -131,7 +131,7 @@ class SurfaceCurveOutput_Normals_N extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_Parameters_t extends ResthopperParameter {
+class SurfaceCurveOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
@@ -145,7 +145,7 @@ class SurfaceCurveOutput_Parameters_t extends ResthopperParameter {
 
 }
 
-class SurfaceCurveOutput_Tangents_T extends ResthopperParameter {
+class SurfaceCurveOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";

@@ -15,31 +15,31 @@ export default class KnotVector extends ResthopperComponent {
 
 	public input:
 	{
-		"Count_N": KnotVectorInput_Count_N,
-		"Degree_D": KnotVectorInput_Degree_D,
-		"Periodic_P": KnotVectorInput_Periodic_P,
+		"count_n": KnotVectorInput_count_n,
+		"degree_d": KnotVectorInput_degree_d,
+		"periodic_p": KnotVectorInput_periodic_p,
 	}
 
 	public output:
 	{
-		"Knots_K": KnotVectorOutput_Knots_K,
+		"knots_k": KnotVectorOutput_knots_k,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Count_N": new KnotVectorInput_Count_N(),
-			"Degree_D": new KnotVectorInput_Degree_D(),
-			"Periodic_P": new KnotVectorInput_Periodic_P(),
+			"count_n": new KnotVectorInput_count_n(),
+			"degree_d": new KnotVectorInput_degree_d(),
+			"periodic_p": new KnotVectorInput_periodic_p(),
 		}
 		this.output = {
-			"Knots_K": new KnotVectorOutput_Knots_K(),
+			"knots_k": new KnotVectorOutput_knots_k(),
 		}
 	}
 
 }
 
-class KnotVectorInput_Count_N extends ResthopperParameter {
+class KnotVectorInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -53,7 +53,7 @@ class KnotVectorInput_Count_N extends ResthopperParameter {
 
 }
 
-class KnotVectorInput_Degree_D extends ResthopperParameter {
+class KnotVectorInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class KnotVectorInput_Degree_D extends ResthopperParameter {
 
 }
 
-class KnotVectorInput_Periodic_P extends ResthopperParameter {
+class KnotVectorInput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class KnotVectorInput_Periodic_P extends ResthopperParameter {
 
 }
 
-class KnotVectorOutput_Knots_K extends ResthopperParameter {
+class KnotVectorOutput_knots_k extends ResthopperParameter {
 
 	public name: string = "Knots";
 	public nickName: string = "K";

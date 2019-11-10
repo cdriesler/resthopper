@@ -15,29 +15,29 @@ export default class SortPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": SortPointsInput_Points_P,
+		"points_p": SortPointsInput_points_p,
 	}
 
 	public output:
 	{
-		"Points_P": SortPointsOutput_Points_P,
-		"Indices_I": SortPointsOutput_Indices_I,
+		"points_p": SortPointsOutput_points_p,
+		"indices_i": SortPointsOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new SortPointsInput_Points_P(),
+			"points_p": new SortPointsInput_points_p(),
 		}
 		this.output = {
-			"Points_P": new SortPointsOutput_Points_P(),
-			"Indices_I": new SortPointsOutput_Indices_I(),
+			"points_p": new SortPointsOutput_points_p(),
+			"indices_i": new SortPointsOutput_indices_i(),
 		}
 	}
 
 }
 
-class SortPointsInput_Points_P extends ResthopperParameter {
+class SortPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class SortPointsInput_Points_P extends ResthopperParameter {
 
 }
 
-class SortPointsOutput_Points_P extends ResthopperParameter {
+class SortPointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class SortPointsOutput_Points_P extends ResthopperParameter {
 
 }
 
-class SortPointsOutput_Indices_I extends ResthopperParameter {
+class SortPointsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

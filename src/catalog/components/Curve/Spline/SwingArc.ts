@@ -15,35 +15,35 @@ export default class SwingArc extends ResthopperComponent {
 
 	public input:
 	{
-		"Centers_C": SwingArcInput_Centers_C,
-		"Plane_P": SwingArcInput_Plane_P,
-		"Radius_R": SwingArcInput_Radius_R,
+		"centers_c": SwingArcInput_centers_c,
+		"plane_p": SwingArcInput_plane_p,
+		"radius_r": SwingArcInput_radius_r,
 	}
 
 	public output:
 	{
-		"CurveA_A": SwingArcOutput_CurveA_A,
-		"CurveB_B": SwingArcOutput_CurveB_B,
-		"Circles_C": SwingArcOutput_Circles_C,
+		"curvea_a": SwingArcOutput_curvea_a,
+		"curveb_b": SwingArcOutput_curveb_b,
+		"circles_c": SwingArcOutput_circles_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Centers_C": new SwingArcInput_Centers_C(),
-			"Plane_P": new SwingArcInput_Plane_P(),
-			"Radius_R": new SwingArcInput_Radius_R(),
+			"centers_c": new SwingArcInput_centers_c(),
+			"plane_p": new SwingArcInput_plane_p(),
+			"radius_r": new SwingArcInput_radius_r(),
 		}
 		this.output = {
-			"CurveA_A": new SwingArcOutput_CurveA_A(),
-			"CurveB_B": new SwingArcOutput_CurveB_B(),
-			"Circles_C": new SwingArcOutput_Circles_C(),
+			"curvea_a": new SwingArcOutput_curvea_a(),
+			"curveb_b": new SwingArcOutput_curveb_b(),
+			"circles_c": new SwingArcOutput_circles_c(),
 		}
 	}
 
 }
 
-class SwingArcInput_Centers_C extends ResthopperParameter {
+class SwingArcInput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class SwingArcInput_Centers_C extends ResthopperParameter {
 
 }
 
-class SwingArcInput_Plane_P extends ResthopperParameter {
+class SwingArcInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class SwingArcInput_Plane_P extends ResthopperParameter {
 
 }
 
-class SwingArcInput_Radius_R extends ResthopperParameter {
+class SwingArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -85,7 +85,7 @@ class SwingArcInput_Radius_R extends ResthopperParameter {
 
 }
 
-class SwingArcOutput_CurveA_A extends ResthopperParameter {
+class SwingArcOutput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class SwingArcOutput_CurveA_A extends ResthopperParameter {
 
 }
 
-class SwingArcOutput_CurveB_B extends ResthopperParameter {
+class SwingArcOutput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -113,7 +113,7 @@ class SwingArcOutput_CurveB_B extends ResthopperParameter {
 
 }
 
-class SwingArcOutput_Circles_C extends ResthopperParameter {
+class SwingArcOutput_circles_c extends ResthopperParameter {
 
 	public name: string = "Circles";
 	public nickName: string = "C";

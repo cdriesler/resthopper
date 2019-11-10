@@ -15,29 +15,29 @@ export default class Disjoint extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": DisjointInput_SetA_A,
-		"SetB_B": DisjointInput_SetB_B,
+		"seta_a": DisjointInput_seta_a,
+		"setb_b": DisjointInput_setb_b,
 	}
 
 	public output:
 	{
-		"Result_R": DisjointOutput_Result_R,
+		"result_r": DisjointOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new DisjointInput_SetA_A(),
-			"SetB_B": new DisjointInput_SetB_B(),
+			"seta_a": new DisjointInput_seta_a(),
+			"setb_b": new DisjointInput_setb_b(),
 		}
 		this.output = {
-			"Result_R": new DisjointOutput_Result_R(),
+			"result_r": new DisjointOutput_result_r(),
 		}
 	}
 
 }
 
-class DisjointInput_SetA_A extends ResthopperParameter {
+class DisjointInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class DisjointInput_SetA_A extends ResthopperParameter {
 
 }
 
-class DisjointInput_SetB_B extends ResthopperParameter {
+class DisjointInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class DisjointInput_SetB_B extends ResthopperParameter {
 
 }
 
-class DisjointOutput_Result_R extends ResthopperParameter {
+class DisjointOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

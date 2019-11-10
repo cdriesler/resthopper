@@ -15,29 +15,29 @@ export default class Equality extends ResthopperComponent {
 
 	public input:
 	{
-		"FirstNumber_A": EqualityInput_FirstNumber_A,
-		"SecondNumber_B": EqualityInput_SecondNumber_B,
+		"firstnumber_a": EqualityInput_firstnumber_a,
+		"secondnumber_b": EqualityInput_secondnumber_b,
 	}
 
 	public output:
 	{
-		"Inequality_": EqualityOutput_Inequality_,
+		"inequality_": EqualityOutput_inequality_,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"FirstNumber_A": new EqualityInput_FirstNumber_A(),
-			"SecondNumber_B": new EqualityInput_SecondNumber_B(),
+			"firstnumber_a": new EqualityInput_firstnumber_a(),
+			"secondnumber_b": new EqualityInput_secondnumber_b(),
 		}
 		this.output = {
-			"Inequality_": new EqualityOutput_Inequality_(),
+			"inequality_": new EqualityOutput_inequality_(),
 		}
 	}
 
 }
 
-class EqualityInput_FirstNumber_A extends ResthopperParameter {
+class EqualityInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class EqualityInput_FirstNumber_A extends ResthopperParameter {
 
 }
 
-class EqualityInput_SecondNumber_B extends ResthopperParameter {
+class EqualityInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class EqualityInput_SecondNumber_B extends ResthopperParameter {
 
 }
 
-class EqualityOutput_Inequality_ extends ResthopperParameter {
+class EqualityOutput_inequality_ extends ResthopperParameter {
 
 	public name: string = "Inequality";
 	public nickName: string = "";

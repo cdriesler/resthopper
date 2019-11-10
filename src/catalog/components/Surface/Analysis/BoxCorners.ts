@@ -15,41 +15,41 @@ export default class BoxCorners extends ResthopperComponent {
 
 	public input:
 	{
-		"Box_B": BoxCornersInput_Box_B,
+		"box_b": BoxCornersInput_box_b,
 	}
 
 	public output:
 	{
-		"CornerA_A": BoxCornersOutput_CornerA_A,
-		"CornerB_B": BoxCornersOutput_CornerB_B,
-		"CornerC_C": BoxCornersOutput_CornerC_C,
-		"CornerD_D": BoxCornersOutput_CornerD_D,
-		"CornerE_E": BoxCornersOutput_CornerE_E,
-		"CornerF_F": BoxCornersOutput_CornerF_F,
-		"CornerG_G": BoxCornersOutput_CornerG_G,
-		"CornerH_H": BoxCornersOutput_CornerH_H,
+		"cornera_a": BoxCornersOutput_cornera_a,
+		"cornerb_b": BoxCornersOutput_cornerb_b,
+		"cornerc_c": BoxCornersOutput_cornerc_c,
+		"cornerd_d": BoxCornersOutput_cornerd_d,
+		"cornere_e": BoxCornersOutput_cornere_e,
+		"cornerf_f": BoxCornersOutput_cornerf_f,
+		"cornerg_g": BoxCornersOutput_cornerg_g,
+		"cornerh_h": BoxCornersOutput_cornerh_h,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Box_B": new BoxCornersInput_Box_B(),
+			"box_b": new BoxCornersInput_box_b(),
 		}
 		this.output = {
-			"CornerA_A": new BoxCornersOutput_CornerA_A(),
-			"CornerB_B": new BoxCornersOutput_CornerB_B(),
-			"CornerC_C": new BoxCornersOutput_CornerC_C(),
-			"CornerD_D": new BoxCornersOutput_CornerD_D(),
-			"CornerE_E": new BoxCornersOutput_CornerE_E(),
-			"CornerF_F": new BoxCornersOutput_CornerF_F(),
-			"CornerG_G": new BoxCornersOutput_CornerG_G(),
-			"CornerH_H": new BoxCornersOutput_CornerH_H(),
+			"cornera_a": new BoxCornersOutput_cornera_a(),
+			"cornerb_b": new BoxCornersOutput_cornerb_b(),
+			"cornerc_c": new BoxCornersOutput_cornerc_c(),
+			"cornerd_d": new BoxCornersOutput_cornerd_d(),
+			"cornere_e": new BoxCornersOutput_cornere_e(),
+			"cornerf_f": new BoxCornersOutput_cornerf_f(),
+			"cornerg_g": new BoxCornersOutput_cornerg_g(),
+			"cornerh_h": new BoxCornersOutput_cornerh_h(),
 		}
 	}
 
 }
 
-class BoxCornersInput_Box_B extends ResthopperParameter {
+class BoxCornersInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -63,7 +63,7 @@ class BoxCornersInput_Box_B extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerA_A extends ResthopperParameter {
+class BoxCornersOutput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -77,7 +77,7 @@ class BoxCornersOutput_CornerA_A extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerB_B extends ResthopperParameter {
+class BoxCornersOutput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -91,7 +91,7 @@ class BoxCornersOutput_CornerB_B extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerC_C extends ResthopperParameter {
+class BoxCornersOutput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -105,7 +105,7 @@ class BoxCornersOutput_CornerC_C extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerD_D extends ResthopperParameter {
+class BoxCornersOutput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
@@ -119,7 +119,7 @@ class BoxCornersOutput_CornerD_D extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerE_E extends ResthopperParameter {
+class BoxCornersOutput_cornere_e extends ResthopperParameter {
 
 	public name: string = "CornerE";
 	public nickName: string = "E";
@@ -133,7 +133,7 @@ class BoxCornersOutput_CornerE_E extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerF_F extends ResthopperParameter {
+class BoxCornersOutput_cornerf_f extends ResthopperParameter {
 
 	public name: string = "CornerF";
 	public nickName: string = "F";
@@ -147,7 +147,7 @@ class BoxCornersOutput_CornerF_F extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerG_G extends ResthopperParameter {
+class BoxCornersOutput_cornerg_g extends ResthopperParameter {
 
 	public name: string = "CornerG";
 	public nickName: string = "G";
@@ -161,7 +161,7 @@ class BoxCornersOutput_CornerG_G extends ResthopperParameter {
 
 }
 
-class BoxCornersOutput_CornerH_H extends ResthopperParameter {
+class BoxCornersOutput_cornerh_h extends ResthopperParameter {
 
 	public name: string = "CornerH";
 	public nickName: string = "H";

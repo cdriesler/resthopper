@@ -15,33 +15,33 @@ export default class RebuildCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": RebuildCurveInput_Curve_C,
-		"Degree_D": RebuildCurveInput_Degree_D,
-		"Count_N": RebuildCurveInput_Count_N,
-		"Tangents_T": RebuildCurveInput_Tangents_T,
+		"curve_c": RebuildCurveInput_curve_c,
+		"degree_d": RebuildCurveInput_degree_d,
+		"count_n": RebuildCurveInput_count_n,
+		"tangents_t": RebuildCurveInput_tangents_t,
 	}
 
 	public output:
 	{
-		"Curve_C": RebuildCurveOutput_Curve_C,
+		"curve_c": RebuildCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new RebuildCurveInput_Curve_C(),
-			"Degree_D": new RebuildCurveInput_Degree_D(),
-			"Count_N": new RebuildCurveInput_Count_N(),
-			"Tangents_T": new RebuildCurveInput_Tangents_T(),
+			"curve_c": new RebuildCurveInput_curve_c(),
+			"degree_d": new RebuildCurveInput_degree_d(),
+			"count_n": new RebuildCurveInput_count_n(),
+			"tangents_t": new RebuildCurveInput_tangents_t(),
 		}
 		this.output = {
-			"Curve_C": new RebuildCurveOutput_Curve_C(),
+			"curve_c": new RebuildCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class RebuildCurveInput_Curve_C extends ResthopperParameter {
+class RebuildCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class RebuildCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class RebuildCurveInput_Degree_D extends ResthopperParameter {
+class RebuildCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -69,7 +69,7 @@ class RebuildCurveInput_Degree_D extends ResthopperParameter {
 
 }
 
-class RebuildCurveInput_Count_N extends ResthopperParameter {
+class RebuildCurveInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -83,7 +83,7 @@ class RebuildCurveInput_Count_N extends ResthopperParameter {
 
 }
 
-class RebuildCurveInput_Tangents_T extends ResthopperParameter {
+class RebuildCurveInput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
@@ -97,7 +97,7 @@ class RebuildCurveInput_Tangents_T extends ResthopperParameter {
 
 }
 
-class RebuildCurveOutput_Curve_C extends ResthopperParameter {
+class RebuildCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

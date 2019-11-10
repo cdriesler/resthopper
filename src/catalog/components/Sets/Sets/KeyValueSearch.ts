@@ -15,31 +15,31 @@ export default class KeyValueSearch extends ResthopperComponent {
 
 	public input:
 	{
-		"Keys_K": KeyValueSearchInput_Keys_K,
-		"Values_V": KeyValueSearchInput_Values_V,
-		"Search_S": KeyValueSearchInput_Search_S,
+		"keys_k": KeyValueSearchInput_keys_k,
+		"values_v": KeyValueSearchInput_values_v,
+		"search_s": KeyValueSearchInput_search_s,
 	}
 
 	public output:
 	{
-		"Result_R": KeyValueSearchOutput_Result_R,
+		"result_r": KeyValueSearchOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Keys_K": new KeyValueSearchInput_Keys_K(),
-			"Values_V": new KeyValueSearchInput_Values_V(),
-			"Search_S": new KeyValueSearchInput_Search_S(),
+			"keys_k": new KeyValueSearchInput_keys_k(),
+			"values_v": new KeyValueSearchInput_values_v(),
+			"search_s": new KeyValueSearchInput_search_s(),
 		}
 		this.output = {
-			"Result_R": new KeyValueSearchOutput_Result_R(),
+			"result_r": new KeyValueSearchOutput_result_r(),
 		}
 	}
 
 }
 
-class KeyValueSearchInput_Keys_K extends ResthopperParameter {
+class KeyValueSearchInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
@@ -53,7 +53,7 @@ class KeyValueSearchInput_Keys_K extends ResthopperParameter {
 
 }
 
-class KeyValueSearchInput_Values_V extends ResthopperParameter {
+class KeyValueSearchInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
@@ -67,7 +67,7 @@ class KeyValueSearchInput_Values_V extends ResthopperParameter {
 
 }
 
-class KeyValueSearchInput_Search_S extends ResthopperParameter {
+class KeyValueSearchInput_search_s extends ResthopperParameter {
 
 	public name: string = "Search";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class KeyValueSearchInput_Search_S extends ResthopperParameter {
 
 }
 
-class KeyValueSearchOutput_Result_R extends ResthopperParameter {
+class KeyValueSearchOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

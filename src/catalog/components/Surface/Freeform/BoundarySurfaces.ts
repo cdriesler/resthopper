@@ -15,27 +15,27 @@ export default class BoundarySurfaces extends ResthopperComponent {
 
 	public input:
 	{
-		"Edges_E": BoundarySurfacesInput_Edges_E,
+		"edges_e": BoundarySurfacesInput_edges_e,
 	}
 
 	public output:
 	{
-		"Surfaces_S": BoundarySurfacesOutput_Surfaces_S,
+		"surfaces_s": BoundarySurfacesOutput_surfaces_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Edges_E": new BoundarySurfacesInput_Edges_E(),
+			"edges_e": new BoundarySurfacesInput_edges_e(),
 		}
 		this.output = {
-			"Surfaces_S": new BoundarySurfacesOutput_Surfaces_S(),
+			"surfaces_s": new BoundarySurfacesOutput_surfaces_s(),
 		}
 	}
 
 }
 
-class BoundarySurfacesInput_Edges_E extends ResthopperParameter {
+class BoundarySurfacesInput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -49,7 +49,7 @@ class BoundarySurfacesInput_Edges_E extends ResthopperParameter {
 
 }
 
-class BoundarySurfacesOutput_Surfaces_S extends ResthopperParameter {
+class BoundarySurfacesOutput_surfaces_s extends ResthopperParameter {
 
 	public name: string = "Surfaces";
 	public nickName: string = "S";

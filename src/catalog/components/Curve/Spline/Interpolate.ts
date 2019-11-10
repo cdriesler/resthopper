@@ -15,37 +15,37 @@ export default class Interpolate extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": InterpolateInput_Vertices_V,
-		"Degree_D": InterpolateInput_Degree_D,
-		"Periodic_P": InterpolateInput_Periodic_P,
-		"KnotStyle_K": InterpolateInput_KnotStyle_K,
+		"vertices_v": InterpolateInput_vertices_v,
+		"degree_d": InterpolateInput_degree_d,
+		"periodic_p": InterpolateInput_periodic_p,
+		"knotstyle_k": InterpolateInput_knotstyle_k,
 	}
 
 	public output:
 	{
-		"Curve_C": InterpolateOutput_Curve_C,
-		"Length_L": InterpolateOutput_Length_L,
-		"Domain_D": InterpolateOutput_Domain_D,
+		"curve_c": InterpolateOutput_curve_c,
+		"length_l": InterpolateOutput_length_l,
+		"domain_d": InterpolateOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new InterpolateInput_Vertices_V(),
-			"Degree_D": new InterpolateInput_Degree_D(),
-			"Periodic_P": new InterpolateInput_Periodic_P(),
-			"KnotStyle_K": new InterpolateInput_KnotStyle_K(),
+			"vertices_v": new InterpolateInput_vertices_v(),
+			"degree_d": new InterpolateInput_degree_d(),
+			"periodic_p": new InterpolateInput_periodic_p(),
+			"knotstyle_k": new InterpolateInput_knotstyle_k(),
 		}
 		this.output = {
-			"Curve_C": new InterpolateOutput_Curve_C(),
-			"Length_L": new InterpolateOutput_Length_L(),
-			"Domain_D": new InterpolateOutput_Domain_D(),
+			"curve_c": new InterpolateOutput_curve_c(),
+			"length_l": new InterpolateOutput_length_l(),
+			"domain_d": new InterpolateOutput_domain_d(),
 		}
 	}
 
 }
 
-class InterpolateInput_Vertices_V extends ResthopperParameter {
+class InterpolateInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -59,7 +59,7 @@ class InterpolateInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class InterpolateInput_Degree_D extends ResthopperParameter {
+class InterpolateInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -73,7 +73,7 @@ class InterpolateInput_Degree_D extends ResthopperParameter {
 
 }
 
-class InterpolateInput_Periodic_P extends ResthopperParameter {
+class InterpolateInput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";
@@ -87,7 +87,7 @@ class InterpolateInput_Periodic_P extends ResthopperParameter {
 
 }
 
-class InterpolateInput_KnotStyle_K extends ResthopperParameter {
+class InterpolateInput_knotstyle_k extends ResthopperParameter {
 
 	public name: string = "KnotStyle";
 	public nickName: string = "K";
@@ -101,7 +101,7 @@ class InterpolateInput_KnotStyle_K extends ResthopperParameter {
 
 }
 
-class InterpolateOutput_Curve_C extends ResthopperParameter {
+class InterpolateOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -115,7 +115,7 @@ class InterpolateOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class InterpolateOutput_Length_L extends ResthopperParameter {
+class InterpolateOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -129,7 +129,7 @@ class InterpolateOutput_Length_L extends ResthopperParameter {
 
 }
 
-class InterpolateOutput_Domain_D extends ResthopperParameter {
+class InterpolateOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

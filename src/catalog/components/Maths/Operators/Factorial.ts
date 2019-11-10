@@ -15,27 +15,27 @@ export default class Factorial extends ResthopperComponent {
 
 	public input:
 	{
-		"Number_N": FactorialInput_Number_N,
+		"number_n": FactorialInput_number_n,
 	}
 
 	public output:
 	{
-		"Factorial_F": FactorialOutput_Factorial_F,
+		"factorial_f": FactorialOutput_factorial_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Number_N": new FactorialInput_Number_N(),
+			"number_n": new FactorialInput_number_n(),
 		}
 		this.output = {
-			"Factorial_F": new FactorialOutput_Factorial_F(),
+			"factorial_f": new FactorialOutput_factorial_f(),
 		}
 	}
 
 }
 
-class FactorialInput_Number_N extends ResthopperParameter {
+class FactorialInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class FactorialInput_Number_N extends ResthopperParameter {
 
 }
 
-class FactorialOutput_Factorial_F extends ResthopperParameter {
+class FactorialOutput_factorial_f extends ResthopperParameter {
 
 	public name: string = "Factorial";
 	public nickName: string = "F";

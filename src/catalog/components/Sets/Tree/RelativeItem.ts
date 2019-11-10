@@ -15,35 +15,35 @@ export default class RelativeItem extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": RelativeItemInput_Tree_T,
-		"Offset_O": RelativeItemInput_Offset_O,
-		"WrapPaths_Wp": RelativeItemInput_WrapPaths_Wp,
-		"WrapItems_Wi": RelativeItemInput_WrapItems_Wi,
+		"tree_t": RelativeItemInput_tree_t,
+		"offset_o": RelativeItemInput_offset_o,
+		"wrappaths_wp": RelativeItemInput_wrappaths_wp,
+		"wrapitems_wi": RelativeItemInput_wrapitems_wi,
 	}
 
 	public output:
 	{
-		"ItemA_A": RelativeItemOutput_ItemA_A,
-		"ItemB_B": RelativeItemOutput_ItemB_B,
+		"itema_a": RelativeItemOutput_itema_a,
+		"itemb_b": RelativeItemOutput_itemb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new RelativeItemInput_Tree_T(),
-			"Offset_O": new RelativeItemInput_Offset_O(),
-			"WrapPaths_Wp": new RelativeItemInput_WrapPaths_Wp(),
-			"WrapItems_Wi": new RelativeItemInput_WrapItems_Wi(),
+			"tree_t": new RelativeItemInput_tree_t(),
+			"offset_o": new RelativeItemInput_offset_o(),
+			"wrappaths_wp": new RelativeItemInput_wrappaths_wp(),
+			"wrapitems_wi": new RelativeItemInput_wrapitems_wi(),
 		}
 		this.output = {
-			"ItemA_A": new RelativeItemOutput_ItemA_A(),
-			"ItemB_B": new RelativeItemOutput_ItemB_B(),
+			"itema_a": new RelativeItemOutput_itema_a(),
+			"itemb_b": new RelativeItemOutput_itemb_b(),
 		}
 	}
 
 }
 
-class RelativeItemInput_Tree_T extends ResthopperParameter {
+class RelativeItemInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -57,7 +57,7 @@ class RelativeItemInput_Tree_T extends ResthopperParameter {
 
 }
 
-class RelativeItemInput_Offset_O extends ResthopperParameter {
+class RelativeItemInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -71,7 +71,7 @@ class RelativeItemInput_Offset_O extends ResthopperParameter {
 
 }
 
-class RelativeItemInput_WrapPaths_Wp extends ResthopperParameter {
+class RelativeItemInput_wrappaths_wp extends ResthopperParameter {
 
 	public name: string = "WrapPaths";
 	public nickName: string = "Wp";
@@ -85,7 +85,7 @@ class RelativeItemInput_WrapPaths_Wp extends ResthopperParameter {
 
 }
 
-class RelativeItemInput_WrapItems_Wi extends ResthopperParameter {
+class RelativeItemInput_wrapitems_wi extends ResthopperParameter {
 
 	public name: string = "WrapItems";
 	public nickName: string = "Wi";
@@ -99,7 +99,7 @@ class RelativeItemInput_WrapItems_Wi extends ResthopperParameter {
 
 }
 
-class RelativeItemOutput_ItemA_A extends ResthopperParameter {
+class RelativeItemOutput_itema_a extends ResthopperParameter {
 
 	public name: string = "ItemA";
 	public nickName: string = "A";
@@ -113,7 +113,7 @@ class RelativeItemOutput_ItemA_A extends ResthopperParameter {
 
 }
 
-class RelativeItemOutput_ItemB_B extends ResthopperParameter {
+class RelativeItemOutput_itemb_b extends ResthopperParameter {
 
 	public name: string = "ItemB";
 	public nickName: string = "B";

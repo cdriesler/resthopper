@@ -15,31 +15,31 @@ export default class SortAlongCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": SortAlongCurveInput_Points_P,
-		"Curve_C": SortAlongCurveInput_Curve_C,
+		"points_p": SortAlongCurveInput_points_p,
+		"curve_c": SortAlongCurveInput_curve_c,
 	}
 
 	public output:
 	{
-		"Points_P": SortAlongCurveOutput_Points_P,
-		"Indices_I": SortAlongCurveOutput_Indices_I,
+		"points_p": SortAlongCurveOutput_points_p,
+		"indices_i": SortAlongCurveOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new SortAlongCurveInput_Points_P(),
-			"Curve_C": new SortAlongCurveInput_Curve_C(),
+			"points_p": new SortAlongCurveInput_points_p(),
+			"curve_c": new SortAlongCurveInput_curve_c(),
 		}
 		this.output = {
-			"Points_P": new SortAlongCurveOutput_Points_P(),
-			"Indices_I": new SortAlongCurveOutput_Indices_I(),
+			"points_p": new SortAlongCurveOutput_points_p(),
+			"indices_i": new SortAlongCurveOutput_indices_i(),
 		}
 	}
 
 }
 
-class SortAlongCurveInput_Points_P extends ResthopperParameter {
+class SortAlongCurveInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class SortAlongCurveInput_Points_P extends ResthopperParameter {
 
 }
 
-class SortAlongCurveInput_Curve_C extends ResthopperParameter {
+class SortAlongCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class SortAlongCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SortAlongCurveOutput_Points_P extends ResthopperParameter {
+class SortAlongCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class SortAlongCurveOutput_Points_P extends ResthopperParameter {
 
 }
 
-class SortAlongCurveOutput_Indices_I extends ResthopperParameter {
+class SortAlongCurveOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

@@ -15,29 +15,29 @@ export default class Characters extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": CharactersInput_Text_T,
+		"text_t": CharactersInput_text_t,
 	}
 
 	public output:
 	{
-		"Result_C": CharactersOutput_Result_C,
-		"Unicode_U": CharactersOutput_Unicode_U,
+		"result_c": CharactersOutput_result_c,
+		"unicode_u": CharactersOutput_unicode_u,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new CharactersInput_Text_T(),
+			"text_t": new CharactersInput_text_t(),
 		}
 		this.output = {
-			"Result_C": new CharactersOutput_Result_C(),
-			"Unicode_U": new CharactersOutput_Unicode_U(),
+			"result_c": new CharactersOutput_result_c(),
+			"unicode_u": new CharactersOutput_unicode_u(),
 		}
 	}
 
 }
 
-class CharactersInput_Text_T extends ResthopperParameter {
+class CharactersInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class CharactersInput_Text_T extends ResthopperParameter {
 
 }
 
-class CharactersOutput_Result_C extends ResthopperParameter {
+class CharactersOutput_result_c extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class CharactersOutput_Result_C extends ResthopperParameter {
 
 }
 
-class CharactersOutput_Unicode_U extends ResthopperParameter {
+class CharactersOutput_unicode_u extends ResthopperParameter {
 
 	public name: string = "Unicode";
 	public nickName: string = "U";

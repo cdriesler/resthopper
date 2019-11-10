@@ -15,33 +15,33 @@ export default class SpatialDeformcustom extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SpatialDeformcustomInput_Geometry_G,
-		"Syntax_S": SpatialDeformcustomInput_Syntax_S,
-		"Forces_F": SpatialDeformcustomInput_Forces_F,
-		"Falloff_f": SpatialDeformcustomInput_Falloff_f,
+		"geometry_g": SpatialDeformcustomInput_geometry_g,
+		"syntax_s": SpatialDeformcustomInput_syntax_s,
+		"forces_f": SpatialDeformcustomInput_forces_f,
+		"falloff_f": SpatialDeformcustomInput_falloff_f,
 	}
 
 	public output:
 	{
-		"Geometry_G": SpatialDeformcustomOutput_Geometry_G,
+		"geometry_g": SpatialDeformcustomOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SpatialDeformcustomInput_Geometry_G(),
-			"Syntax_S": new SpatialDeformcustomInput_Syntax_S(),
-			"Forces_F": new SpatialDeformcustomInput_Forces_F(),
-			"Falloff_f": new SpatialDeformcustomInput_Falloff_f(),
+			"geometry_g": new SpatialDeformcustomInput_geometry_g(),
+			"syntax_s": new SpatialDeformcustomInput_syntax_s(),
+			"forces_f": new SpatialDeformcustomInput_forces_f(),
+			"falloff_f": new SpatialDeformcustomInput_falloff_f(),
 		}
 		this.output = {
-			"Geometry_G": new SpatialDeformcustomOutput_Geometry_G(),
+			"geometry_g": new SpatialDeformcustomOutput_geometry_g(),
 		}
 	}
 
 }
 
-class SpatialDeformcustomInput_Geometry_G extends ResthopperParameter {
+class SpatialDeformcustomInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class SpatialDeformcustomInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SpatialDeformcustomInput_Syntax_S extends ResthopperParameter {
+class SpatialDeformcustomInput_syntax_s extends ResthopperParameter {
 
 	public name: string = "Syntax";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class SpatialDeformcustomInput_Syntax_S extends ResthopperParameter {
 
 }
 
-class SpatialDeformcustomInput_Forces_F extends ResthopperParameter {
+class SpatialDeformcustomInput_forces_f extends ResthopperParameter {
 
 	public name: string = "Forces";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class SpatialDeformcustomInput_Forces_F extends ResthopperParameter {
 
 }
 
-class SpatialDeformcustomInput_Falloff_f extends ResthopperParameter {
+class SpatialDeformcustomInput_falloff_f extends ResthopperParameter {
 
 	public name: string = "Falloff";
 	public nickName: string = "f";
@@ -97,7 +97,7 @@ class SpatialDeformcustomInput_Falloff_f extends ResthopperParameter {
 
 }
 
-class SpatialDeformcustomOutput_Geometry_G extends ResthopperParameter {
+class SpatialDeformcustomOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

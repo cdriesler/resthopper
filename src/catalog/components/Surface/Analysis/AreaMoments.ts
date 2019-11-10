@@ -15,35 +15,35 @@ export default class AreaMoments extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": AreaMomentsInput_Geometry_G,
+		"geometry_g": AreaMomentsInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Area_A": AreaMomentsOutput_Area_A,
-		"Centroid_C": AreaMomentsOutput_Centroid_C,
-		"Inertiaerror_I": AreaMomentsOutput_Inertiaerror_I,
-		"Secondaryerror_S": AreaMomentsOutput_Secondaryerror_S,
-		"Gyration_G": AreaMomentsOutput_Gyration_G,
+		"area_a": AreaMomentsOutput_area_a,
+		"centroid_c": AreaMomentsOutput_centroid_c,
+		"inertiaerror_i": AreaMomentsOutput_inertiaerror_i,
+		"secondaryerror_s": AreaMomentsOutput_secondaryerror_s,
+		"gyration_g": AreaMomentsOutput_gyration_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new AreaMomentsInput_Geometry_G(),
+			"geometry_g": new AreaMomentsInput_geometry_g(),
 		}
 		this.output = {
-			"Area_A": new AreaMomentsOutput_Area_A(),
-			"Centroid_C": new AreaMomentsOutput_Centroid_C(),
-			"Inertiaerror_I": new AreaMomentsOutput_Inertiaerror_I(),
-			"Secondaryerror_S": new AreaMomentsOutput_Secondaryerror_S(),
-			"Gyration_G": new AreaMomentsOutput_Gyration_G(),
+			"area_a": new AreaMomentsOutput_area_a(),
+			"centroid_c": new AreaMomentsOutput_centroid_c(),
+			"inertiaerror_i": new AreaMomentsOutput_inertiaerror_i(),
+			"secondaryerror_s": new AreaMomentsOutput_secondaryerror_s(),
+			"gyration_g": new AreaMomentsOutput_gyration_g(),
 		}
 	}
 
 }
 
-class AreaMomentsInput_Geometry_G extends ResthopperParameter {
+class AreaMomentsInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class AreaMomentsInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class AreaMomentsOutput_Area_A extends ResthopperParameter {
+class AreaMomentsOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
@@ -71,7 +71,7 @@ class AreaMomentsOutput_Area_A extends ResthopperParameter {
 
 }
 
-class AreaMomentsOutput_Centroid_C extends ResthopperParameter {
+class AreaMomentsOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class AreaMomentsOutput_Centroid_C extends ResthopperParameter {
 
 }
 
-class AreaMomentsOutput_Inertiaerror_I extends ResthopperParameter {
+class AreaMomentsOutput_inertiaerror_i extends ResthopperParameter {
 
 	public name: string = "Inertiaerror";
 	public nickName: string = "I";
@@ -99,7 +99,7 @@ class AreaMomentsOutput_Inertiaerror_I extends ResthopperParameter {
 
 }
 
-class AreaMomentsOutput_Secondaryerror_S extends ResthopperParameter {
+class AreaMomentsOutput_secondaryerror_s extends ResthopperParameter {
 
 	public name: string = "Secondaryerror";
 	public nickName: string = "S";
@@ -113,7 +113,7 @@ class AreaMomentsOutput_Secondaryerror_S extends ResthopperParameter {
 
 }
 
-class AreaMomentsOutput_Gyration_G extends ResthopperParameter {
+class AreaMomentsOutput_gyration_g extends ResthopperParameter {
 
 	public name: string = "Gyration";
 	public nickName: string = "G";

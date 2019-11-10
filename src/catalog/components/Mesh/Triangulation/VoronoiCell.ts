@@ -15,31 +15,31 @@ export default class VoronoiCell extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": VoronoiCellInput_Point_P,
-		"Neighbours_N": VoronoiCellInput_Neighbours_N,
-		"Box_B": VoronoiCellInput_Box_B,
+		"point_p": VoronoiCellInput_point_p,
+		"neighbours_n": VoronoiCellInput_neighbours_n,
+		"box_b": VoronoiCellInput_box_b,
 	}
 
 	public output:
 	{
-		"Cell_C": VoronoiCellOutput_Cell_C,
+		"cell_c": VoronoiCellOutput_cell_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new VoronoiCellInput_Point_P(),
-			"Neighbours_N": new VoronoiCellInput_Neighbours_N(),
-			"Box_B": new VoronoiCellInput_Box_B(),
+			"point_p": new VoronoiCellInput_point_p(),
+			"neighbours_n": new VoronoiCellInput_neighbours_n(),
+			"box_b": new VoronoiCellInput_box_b(),
 		}
 		this.output = {
-			"Cell_C": new VoronoiCellOutput_Cell_C(),
+			"cell_c": new VoronoiCellOutput_cell_c(),
 		}
 	}
 
 }
 
-class VoronoiCellInput_Point_P extends ResthopperParameter {
+class VoronoiCellInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class VoronoiCellInput_Point_P extends ResthopperParameter {
 
 }
 
-class VoronoiCellInput_Neighbours_N extends ResthopperParameter {
+class VoronoiCellInput_neighbours_n extends ResthopperParameter {
 
 	public name: string = "Neighbours";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class VoronoiCellInput_Neighbours_N extends ResthopperParameter {
 
 }
 
-class VoronoiCellInput_Box_B extends ResthopperParameter {
+class VoronoiCellInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class VoronoiCellInput_Box_B extends ResthopperParameter {
 
 }
 
-class VoronoiCellOutput_Cell_C extends ResthopperParameter {
+class VoronoiCellOutput_cell_c extends ResthopperParameter {
 
 	public name: string = "Cell";
 	public nickName: string = "C";

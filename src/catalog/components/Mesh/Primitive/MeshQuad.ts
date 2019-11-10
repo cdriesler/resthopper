@@ -15,33 +15,33 @@ export default class MeshQuad extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": MeshQuadInput_CornerA_A,
-		"CornerB_B": MeshQuadInput_CornerB_B,
-		"CornerC_C": MeshQuadInput_CornerC_C,
-		"CornerD_D": MeshQuadInput_CornerD_D,
+		"cornera_a": MeshQuadInput_cornera_a,
+		"cornerb_b": MeshQuadInput_cornerb_b,
+		"cornerc_c": MeshQuadInput_cornerc_c,
+		"cornerd_d": MeshQuadInput_cornerd_d,
 	}
 
 	public output:
 	{
-		"Face_F": MeshQuadOutput_Face_F,
+		"face_f": MeshQuadOutput_face_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new MeshQuadInput_CornerA_A(),
-			"CornerB_B": new MeshQuadInput_CornerB_B(),
-			"CornerC_C": new MeshQuadInput_CornerC_C(),
-			"CornerD_D": new MeshQuadInput_CornerD_D(),
+			"cornera_a": new MeshQuadInput_cornera_a(),
+			"cornerb_b": new MeshQuadInput_cornerb_b(),
+			"cornerc_c": new MeshQuadInput_cornerc_c(),
+			"cornerd_d": new MeshQuadInput_cornerd_d(),
 		}
 		this.output = {
-			"Face_F": new MeshQuadOutput_Face_F(),
+			"face_f": new MeshQuadOutput_face_f(),
 		}
 	}
 
 }
 
-class MeshQuadInput_CornerA_A extends ResthopperParameter {
+class MeshQuadInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class MeshQuadInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class MeshQuadInput_CornerB_B extends ResthopperParameter {
+class MeshQuadInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class MeshQuadInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class MeshQuadInput_CornerC_C extends ResthopperParameter {
+class MeshQuadInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class MeshQuadInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class MeshQuadInput_CornerD_D extends ResthopperParameter {
+class MeshQuadInput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
@@ -97,7 +97,7 @@ class MeshQuadInput_CornerD_D extends ResthopperParameter {
 
 }
 
-class MeshQuadOutput_Face_F extends ResthopperParameter {
+class MeshQuadOutput_face_f extends ResthopperParameter {
 
 	public name: string = "Face";
 	public nickName: string = "F";

@@ -15,33 +15,33 @@ export default class ColourLCH extends ResthopperComponent {
 
 	public input:
 	{
-		"Alpha_A": ColourLCHInput_Alpha_A,
-		"Luminance_L": ColourLCHInput_Luminance_L,
-		"Chroma_C": ColourLCHInput_Chroma_C,
-		"Hue_H": ColourLCHInput_Hue_H,
+		"alpha_a": ColourLCHInput_alpha_a,
+		"luminance_l": ColourLCHInput_luminance_l,
+		"chroma_c": ColourLCHInput_chroma_c,
+		"hue_h": ColourLCHInput_hue_h,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourLCHOutput_Colour_C,
+		"colour_c": ColourLCHOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Alpha_A": new ColourLCHInput_Alpha_A(),
-			"Luminance_L": new ColourLCHInput_Luminance_L(),
-			"Chroma_C": new ColourLCHInput_Chroma_C(),
-			"Hue_H": new ColourLCHInput_Hue_H(),
+			"alpha_a": new ColourLCHInput_alpha_a(),
+			"luminance_l": new ColourLCHInput_luminance_l(),
+			"chroma_c": new ColourLCHInput_chroma_c(),
+			"hue_h": new ColourLCHInput_hue_h(),
 		}
 		this.output = {
-			"Colour_C": new ColourLCHOutput_Colour_C(),
+			"colour_c": new ColourLCHOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourLCHInput_Alpha_A extends ResthopperParameter {
+class ColourLCHInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class ColourLCHInput_Alpha_A extends ResthopperParameter {
 
 }
 
-class ColourLCHInput_Luminance_L extends ResthopperParameter {
+class ColourLCHInput_luminance_l extends ResthopperParameter {
 
 	public name: string = "Luminance";
 	public nickName: string = "L";
@@ -69,7 +69,7 @@ class ColourLCHInput_Luminance_L extends ResthopperParameter {
 
 }
 
-class ColourLCHInput_Chroma_C extends ResthopperParameter {
+class ColourLCHInput_chroma_c extends ResthopperParameter {
 
 	public name: string = "Chroma";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class ColourLCHInput_Chroma_C extends ResthopperParameter {
 
 }
 
-class ColourLCHInput_Hue_H extends ResthopperParameter {
+class ColourLCHInput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
@@ -97,7 +97,7 @@ class ColourLCHInput_Hue_H extends ResthopperParameter {
 
 }
 
-class ColourLCHOutput_Colour_C extends ResthopperParameter {
+class ColourLCHOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

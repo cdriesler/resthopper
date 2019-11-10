@@ -15,27 +15,27 @@ export default class FaceBoundaries extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": FaceBoundariesInput_Mesh_M,
+		"mesh_m": FaceBoundariesInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Boundaries_B": FaceBoundariesOutput_Boundaries_B,
+		"boundaries_b": FaceBoundariesOutput_boundaries_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new FaceBoundariesInput_Mesh_M(),
+			"mesh_m": new FaceBoundariesInput_mesh_m(),
 		}
 		this.output = {
-			"Boundaries_B": new FaceBoundariesOutput_Boundaries_B(),
+			"boundaries_b": new FaceBoundariesOutput_boundaries_b(),
 		}
 	}
 
 }
 
-class FaceBoundariesInput_Mesh_M extends ResthopperParameter {
+class FaceBoundariesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -49,7 +49,7 @@ class FaceBoundariesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class FaceBoundariesOutput_Boundaries_B extends ResthopperParameter {
+class FaceBoundariesOutput_boundaries_b extends ResthopperParameter {
 
 	public name: string = "Boundaries";
 	public nickName: string = "B";

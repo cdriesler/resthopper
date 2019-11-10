@@ -15,33 +15,33 @@ export default class DeconstructBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Box_B": DeconstructBoxInput_Box_B,
+		"box_b": DeconstructBoxInput_box_b,
 	}
 
 	public output:
 	{
-		"Plane_P": DeconstructBoxOutput_Plane_P,
-		"X_X": DeconstructBoxOutput_X_X,
-		"Y_Y": DeconstructBoxOutput_Y_Y,
-		"Z_Z": DeconstructBoxOutput_Z_Z,
+		"plane_p": DeconstructBoxOutput_plane_p,
+		"x_x": DeconstructBoxOutput_x_x,
+		"y_y": DeconstructBoxOutput_y_y,
+		"z_z": DeconstructBoxOutput_z_z,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Box_B": new DeconstructBoxInput_Box_B(),
+			"box_b": new DeconstructBoxInput_box_b(),
 		}
 		this.output = {
-			"Plane_P": new DeconstructBoxOutput_Plane_P(),
-			"X_X": new DeconstructBoxOutput_X_X(),
-			"Y_Y": new DeconstructBoxOutput_Y_Y(),
-			"Z_Z": new DeconstructBoxOutput_Z_Z(),
+			"plane_p": new DeconstructBoxOutput_plane_p(),
+			"x_x": new DeconstructBoxOutput_x_x(),
+			"y_y": new DeconstructBoxOutput_y_y(),
+			"z_z": new DeconstructBoxOutput_z_z(),
 		}
 	}
 
 }
 
-class DeconstructBoxInput_Box_B extends ResthopperParameter {
+class DeconstructBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class DeconstructBoxInput_Box_B extends ResthopperParameter {
 
 }
 
-class DeconstructBoxOutput_Plane_P extends ResthopperParameter {
+class DeconstructBoxOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class DeconstructBoxOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class DeconstructBoxOutput_X_X extends ResthopperParameter {
+class DeconstructBoxOutput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
@@ -83,7 +83,7 @@ class DeconstructBoxOutput_X_X extends ResthopperParameter {
 
 }
 
-class DeconstructBoxOutput_Y_Y extends ResthopperParameter {
+class DeconstructBoxOutput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
@@ -97,7 +97,7 @@ class DeconstructBoxOutput_Y_Y extends ResthopperParameter {
 
 }
 
-class DeconstructBoxOutput_Z_Z extends ResthopperParameter {
+class DeconstructBoxOutput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";

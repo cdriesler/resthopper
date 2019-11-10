@@ -15,27 +15,27 @@ export default class BoundaryVolume extends ResthopperComponent {
 
 	public input:
 	{
-		"Boundaries_B": BoundaryVolumeInput_Boundaries_B,
+		"boundaries_b": BoundaryVolumeInput_boundaries_b,
 	}
 
 	public output:
 	{
-		"Solid_S": BoundaryVolumeOutput_Solid_S,
+		"solid_s": BoundaryVolumeOutput_solid_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Boundaries_B": new BoundaryVolumeInput_Boundaries_B(),
+			"boundaries_b": new BoundaryVolumeInput_boundaries_b(),
 		}
 		this.output = {
-			"Solid_S": new BoundaryVolumeOutput_Solid_S(),
+			"solid_s": new BoundaryVolumeOutput_solid_s(),
 		}
 	}
 
 }
 
-class BoundaryVolumeInput_Boundaries_B extends ResthopperParameter {
+class BoundaryVolumeInput_boundaries_b extends ResthopperParameter {
 
 	public name: string = "Boundaries";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class BoundaryVolumeInput_Boundaries_B extends ResthopperParameter {
 
 }
 
-class BoundaryVolumeOutput_Solid_S extends ResthopperParameter {
+class BoundaryVolumeOutput_solid_s extends ResthopperParameter {
 
 	public name: string = "Solid";
 	public nickName: string = "S";

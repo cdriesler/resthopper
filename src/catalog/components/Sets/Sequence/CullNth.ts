@@ -15,29 +15,29 @@ export default class CullNth extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": CullNthInput_List_L,
-		"Cullfrequency_N": CullNthInput_Cullfrequency_N,
+		"list_l": CullNthInput_list_l,
+		"cullfrequency_n": CullNthInput_cullfrequency_n,
 	}
 
 	public output:
 	{
-		"List_L": CullNthOutput_List_L,
+		"list_l": CullNthOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new CullNthInput_List_L(),
-			"Cullfrequency_N": new CullNthInput_Cullfrequency_N(),
+			"list_l": new CullNthInput_list_l(),
+			"cullfrequency_n": new CullNthInput_cullfrequency_n(),
 		}
 		this.output = {
-			"List_L": new CullNthOutput_List_L(),
+			"list_l": new CullNthOutput_list_l(),
 		}
 	}
 
 }
 
-class CullNthInput_List_L extends ResthopperParameter {
+class CullNthInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class CullNthInput_List_L extends ResthopperParameter {
 
 }
 
-class CullNthInput_Cullfrequency_N extends ResthopperParameter {
+class CullNthInput_cullfrequency_n extends ResthopperParameter {
 
 	public name: string = "Cullfrequency";
 	public nickName: string = "N";
@@ -65,7 +65,7 @@ class CullNthInput_Cullfrequency_N extends ResthopperParameter {
 
 }
 
-class CullNthOutput_List_L extends ResthopperParameter {
+class CullNthOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

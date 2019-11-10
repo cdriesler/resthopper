@@ -15,9 +15,9 @@ export default class TextTag extends ResthopperComponent {
 
 	public input:
 	{
-		"Location_L": TextTagInput_Location_L,
-		"Text_T": TextTagInput_Text_T,
-		"Colour_C": TextTagInput_Colour_C,
+		"location_l": TextTagInput_location_l,
+		"text_t": TextTagInput_text_t,
+		"colour_c": TextTagInput_colour_c,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class TextTag extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Location_L": new TextTagInput_Location_L(),
-			"Text_T": new TextTagInput_Text_T(),
-			"Colour_C": new TextTagInput_Colour_C(),
+			"location_l": new TextTagInput_location_l(),
+			"text_t": new TextTagInput_text_t(),
+			"colour_c": new TextTagInput_colour_c(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class TextTag extends ResthopperComponent {
 
 }
 
-class TextTagInput_Location_L extends ResthopperParameter {
+class TextTagInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class TextTagInput_Location_L extends ResthopperParameter {
 
 }
 
-class TextTagInput_Text_T extends ResthopperParameter {
+class TextTagInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class TextTagInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextTagInput_Colour_C extends ResthopperParameter {
+class TextTagInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

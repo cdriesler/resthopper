@@ -15,31 +15,31 @@ export default class PicknChoose extends ResthopperComponent {
 
 	public input:
 	{
-		"Stream0_0": PicknChooseInput_Stream0_0,
-		"Stream1_1": PicknChooseInput_Stream1_1,
-		"Pattern_P": PicknChooseInput_Pattern_P,
+		"stream0_0": PicknChooseInput_stream0_0,
+		"stream1_1": PicknChooseInput_stream1_1,
+		"pattern_p": PicknChooseInput_pattern_p,
 	}
 
 	public output:
 	{
-		"Result_R": PicknChooseOutput_Result_R,
+		"result_r": PicknChooseOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Stream0_0": new PicknChooseInput_Stream0_0(),
-			"Stream1_1": new PicknChooseInput_Stream1_1(),
-			"Pattern_P": new PicknChooseInput_Pattern_P(),
+			"stream0_0": new PicknChooseInput_stream0_0(),
+			"stream1_1": new PicknChooseInput_stream1_1(),
+			"pattern_p": new PicknChooseInput_pattern_p(),
 		}
 		this.output = {
-			"Result_R": new PicknChooseOutput_Result_R(),
+			"result_r": new PicknChooseOutput_result_r(),
 		}
 	}
 
 }
 
-class PicknChooseInput_Stream0_0 extends ResthopperParameter {
+class PicknChooseInput_stream0_0 extends ResthopperParameter {
 
 	public name: string = "Stream0";
 	public nickName: string = "0";
@@ -53,7 +53,7 @@ class PicknChooseInput_Stream0_0 extends ResthopperParameter {
 
 }
 
-class PicknChooseInput_Stream1_1 extends ResthopperParameter {
+class PicknChooseInput_stream1_1 extends ResthopperParameter {
 
 	public name: string = "Stream1";
 	public nickName: string = "1";
@@ -67,7 +67,7 @@ class PicknChooseInput_Stream1_1 extends ResthopperParameter {
 
 }
 
-class PicknChooseInput_Pattern_P extends ResthopperParameter {
+class PicknChooseInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class PicknChooseInput_Pattern_P extends ResthopperParameter {
 
 }
 
-class PicknChooseOutput_Result_R extends ResthopperParameter {
+class PicknChooseOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

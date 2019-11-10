@@ -15,31 +15,31 @@ export default class BoxTwoPt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": BoxTwoPtInput_PointA_A,
-		"PointB_B": BoxTwoPtInput_PointB_B,
-		"Plane_P": BoxTwoPtInput_Plane_P,
+		"pointa_a": BoxTwoPtInput_pointa_a,
+		"pointb_b": BoxTwoPtInput_pointb_b,
+		"plane_p": BoxTwoPtInput_plane_p,
 	}
 
 	public output:
 	{
-		"Box_B": BoxTwoPtOutput_Box_B,
+		"box_b": BoxTwoPtOutput_box_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new BoxTwoPtInput_PointA_A(),
-			"PointB_B": new BoxTwoPtInput_PointB_B(),
-			"Plane_P": new BoxTwoPtInput_Plane_P(),
+			"pointa_a": new BoxTwoPtInput_pointa_a(),
+			"pointb_b": new BoxTwoPtInput_pointb_b(),
+			"plane_p": new BoxTwoPtInput_plane_p(),
 		}
 		this.output = {
-			"Box_B": new BoxTwoPtOutput_Box_B(),
+			"box_b": new BoxTwoPtOutput_box_b(),
 		}
 	}
 
 }
 
-class BoxTwoPtInput_PointA_A extends ResthopperParameter {
+class BoxTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class BoxTwoPtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class BoxTwoPtInput_PointB_B extends ResthopperParameter {
+class BoxTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class BoxTwoPtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class BoxTwoPtInput_Plane_P extends ResthopperParameter {
+class BoxTwoPtInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class BoxTwoPtInput_Plane_P extends ResthopperParameter {
 
 }
 
-class BoxTwoPtOutput_Box_B extends ResthopperParameter {
+class BoxTwoPtOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";

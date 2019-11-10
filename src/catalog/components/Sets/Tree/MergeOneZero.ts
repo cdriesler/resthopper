@@ -15,45 +15,45 @@ export default class MergeOneZero extends ResthopperComponent {
 
 	public input:
 	{
-		"StreamA_A": MergeOneZeroInput_StreamA_A,
-		"StreamB_B": MergeOneZeroInput_StreamB_B,
-		"StreamC_C": MergeOneZeroInput_StreamC_C,
-		"StreamD_D": MergeOneZeroInput_StreamD_D,
-		"StreamE_E": MergeOneZeroInput_StreamE_E,
-		"StreamF_F": MergeOneZeroInput_StreamF_F,
-		"StreamG_G": MergeOneZeroInput_StreamG_G,
-		"StreamH_H": MergeOneZeroInput_StreamH_H,
-		"StreamI_I": MergeOneZeroInput_StreamI_I,
-		"StreamJ_J": MergeOneZeroInput_StreamJ_J,
+		"streama_a": MergeOneZeroInput_streama_a,
+		"streamb_b": MergeOneZeroInput_streamb_b,
+		"streamc_c": MergeOneZeroInput_streamc_c,
+		"streamd_d": MergeOneZeroInput_streamd_d,
+		"streame_e": MergeOneZeroInput_streame_e,
+		"streamf_f": MergeOneZeroInput_streamf_f,
+		"streamg_g": MergeOneZeroInput_streamg_g,
+		"streamh_h": MergeOneZeroInput_streamh_h,
+		"streami_i": MergeOneZeroInput_streami_i,
+		"streamj_j": MergeOneZeroInput_streamj_j,
 	}
 
 	public output:
 	{
-		"Stream_S": MergeOneZeroOutput_Stream_S,
+		"stream_s": MergeOneZeroOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StreamA_A": new MergeOneZeroInput_StreamA_A(),
-			"StreamB_B": new MergeOneZeroInput_StreamB_B(),
-			"StreamC_C": new MergeOneZeroInput_StreamC_C(),
-			"StreamD_D": new MergeOneZeroInput_StreamD_D(),
-			"StreamE_E": new MergeOneZeroInput_StreamE_E(),
-			"StreamF_F": new MergeOneZeroInput_StreamF_F(),
-			"StreamG_G": new MergeOneZeroInput_StreamG_G(),
-			"StreamH_H": new MergeOneZeroInput_StreamH_H(),
-			"StreamI_I": new MergeOneZeroInput_StreamI_I(),
-			"StreamJ_J": new MergeOneZeroInput_StreamJ_J(),
+			"streama_a": new MergeOneZeroInput_streama_a(),
+			"streamb_b": new MergeOneZeroInput_streamb_b(),
+			"streamc_c": new MergeOneZeroInput_streamc_c(),
+			"streamd_d": new MergeOneZeroInput_streamd_d(),
+			"streame_e": new MergeOneZeroInput_streame_e(),
+			"streamf_f": new MergeOneZeroInput_streamf_f(),
+			"streamg_g": new MergeOneZeroInput_streamg_g(),
+			"streamh_h": new MergeOneZeroInput_streamh_h(),
+			"streami_i": new MergeOneZeroInput_streami_i(),
+			"streamj_j": new MergeOneZeroInput_streamj_j(),
 		}
 		this.output = {
-			"Stream_S": new MergeOneZeroOutput_Stream_S(),
+			"stream_s": new MergeOneZeroOutput_stream_s(),
 		}
 	}
 
 }
 
-class MergeOneZeroInput_StreamA_A extends ResthopperParameter {
+class MergeOneZeroInput_streama_a extends ResthopperParameter {
 
 	public name: string = "StreamA";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class MergeOneZeroInput_StreamA_A extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamB_B extends ResthopperParameter {
+class MergeOneZeroInput_streamb_b extends ResthopperParameter {
 
 	public name: string = "StreamB";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class MergeOneZeroInput_StreamB_B extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamC_C extends ResthopperParameter {
+class MergeOneZeroInput_streamc_c extends ResthopperParameter {
 
 	public name: string = "StreamC";
 	public nickName: string = "C";
@@ -95,7 +95,7 @@ class MergeOneZeroInput_StreamC_C extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamD_D extends ResthopperParameter {
+class MergeOneZeroInput_streamd_d extends ResthopperParameter {
 
 	public name: string = "StreamD";
 	public nickName: string = "D";
@@ -109,7 +109,7 @@ class MergeOneZeroInput_StreamD_D extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamE_E extends ResthopperParameter {
+class MergeOneZeroInput_streame_e extends ResthopperParameter {
 
 	public name: string = "StreamE";
 	public nickName: string = "E";
@@ -123,7 +123,7 @@ class MergeOneZeroInput_StreamE_E extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamF_F extends ResthopperParameter {
+class MergeOneZeroInput_streamf_f extends ResthopperParameter {
 
 	public name: string = "StreamF";
 	public nickName: string = "F";
@@ -137,7 +137,7 @@ class MergeOneZeroInput_StreamF_F extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamG_G extends ResthopperParameter {
+class MergeOneZeroInput_streamg_g extends ResthopperParameter {
 
 	public name: string = "StreamG";
 	public nickName: string = "G";
@@ -151,7 +151,7 @@ class MergeOneZeroInput_StreamG_G extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamH_H extends ResthopperParameter {
+class MergeOneZeroInput_streamh_h extends ResthopperParameter {
 
 	public name: string = "StreamH";
 	public nickName: string = "H";
@@ -165,7 +165,7 @@ class MergeOneZeroInput_StreamH_H extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamI_I extends ResthopperParameter {
+class MergeOneZeroInput_streami_i extends ResthopperParameter {
 
 	public name: string = "StreamI";
 	public nickName: string = "I";
@@ -179,7 +179,7 @@ class MergeOneZeroInput_StreamI_I extends ResthopperParameter {
 
 }
 
-class MergeOneZeroInput_StreamJ_J extends ResthopperParameter {
+class MergeOneZeroInput_streamj_j extends ResthopperParameter {
 
 	public name: string = "StreamJ";
 	public nickName: string = "J";
@@ -193,7 +193,7 @@ class MergeOneZeroInput_StreamJ_J extends ResthopperParameter {
 
 }
 
-class MergeOneZeroOutput_Stream_S extends ResthopperParameter {
+class MergeOneZeroOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

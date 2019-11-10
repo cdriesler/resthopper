@@ -15,33 +15,33 @@ export default class CullDuplicates extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": CullDuplicatesInput_Points_P,
-		"Tolerance_T": CullDuplicatesInput_Tolerance_T,
+		"points_p": CullDuplicatesInput_points_p,
+		"tolerance_t": CullDuplicatesInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Points_P": CullDuplicatesOutput_Points_P,
-		"Indices_I": CullDuplicatesOutput_Indices_I,
-		"Valence_V": CullDuplicatesOutput_Valence_V,
+		"points_p": CullDuplicatesOutput_points_p,
+		"indices_i": CullDuplicatesOutput_indices_i,
+		"valence_v": CullDuplicatesOutput_valence_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new CullDuplicatesInput_Points_P(),
-			"Tolerance_T": new CullDuplicatesInput_Tolerance_T(),
+			"points_p": new CullDuplicatesInput_points_p(),
+			"tolerance_t": new CullDuplicatesInput_tolerance_t(),
 		}
 		this.output = {
-			"Points_P": new CullDuplicatesOutput_Points_P(),
-			"Indices_I": new CullDuplicatesOutput_Indices_I(),
-			"Valence_V": new CullDuplicatesOutput_Valence_V(),
+			"points_p": new CullDuplicatesOutput_points_p(),
+			"indices_i": new CullDuplicatesOutput_indices_i(),
+			"valence_v": new CullDuplicatesOutput_valence_v(),
 		}
 	}
 
 }
 
-class CullDuplicatesInput_Points_P extends ResthopperParameter {
+class CullDuplicatesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class CullDuplicatesInput_Points_P extends ResthopperParameter {
 
 }
 
-class CullDuplicatesInput_Tolerance_T extends ResthopperParameter {
+class CullDuplicatesInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
@@ -69,7 +69,7 @@ class CullDuplicatesInput_Tolerance_T extends ResthopperParameter {
 
 }
 
-class CullDuplicatesOutput_Points_P extends ResthopperParameter {
+class CullDuplicatesOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CullDuplicatesOutput_Points_P extends ResthopperParameter {
 
 }
 
-class CullDuplicatesOutput_Indices_I extends ResthopperParameter {
+class CullDuplicatesOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -97,7 +97,7 @@ class CullDuplicatesOutput_Indices_I extends ResthopperParameter {
 
 }
 
-class CullDuplicatesOutput_Valence_V extends ResthopperParameter {
+class CullDuplicatesOutput_valence_v extends ResthopperParameter {
 
 	public name: string = "Valence";
 	public nickName: string = "V";

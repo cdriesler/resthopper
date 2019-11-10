@@ -15,39 +15,39 @@ export default class Flow extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": FlowInput_Geometry_G,
-		"Base_C0": FlowInput_Base_C0,
-		"Target_C1": FlowInput_Target_C1,
-		"ReverseBase_R0": FlowInput_ReverseBase_R0,
-		"ReverseTarget_R1": FlowInput_ReverseTarget_R1,
-		"Stretch_S": FlowInput_Stretch_S,
-		"Rigid_R": FlowInput_Rigid_R,
+		"geometry_g": FlowInput_geometry_g,
+		"base_c0": FlowInput_base_c0,
+		"target_c1": FlowInput_target_c1,
+		"reversebase_r0": FlowInput_reversebase_r0,
+		"reversetarget_r1": FlowInput_reversetarget_r1,
+		"stretch_s": FlowInput_stretch_s,
+		"rigid_r": FlowInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": FlowOutput_Geometry_G,
+		"geometry_g": FlowOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new FlowInput_Geometry_G(),
-			"Base_C0": new FlowInput_Base_C0(),
-			"Target_C1": new FlowInput_Target_C1(),
-			"ReverseBase_R0": new FlowInput_ReverseBase_R0(),
-			"ReverseTarget_R1": new FlowInput_ReverseTarget_R1(),
-			"Stretch_S": new FlowInput_Stretch_S(),
-			"Rigid_R": new FlowInput_Rigid_R(),
+			"geometry_g": new FlowInput_geometry_g(),
+			"base_c0": new FlowInput_base_c0(),
+			"target_c1": new FlowInput_target_c1(),
+			"reversebase_r0": new FlowInput_reversebase_r0(),
+			"reversetarget_r1": new FlowInput_reversetarget_r1(),
+			"stretch_s": new FlowInput_stretch_s(),
+			"rigid_r": new FlowInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new FlowOutput_Geometry_G(),
+			"geometry_g": new FlowOutput_geometry_g(),
 		}
 	}
 
 }
 
-class FlowInput_Geometry_G extends ResthopperParameter {
+class FlowInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -61,7 +61,7 @@ class FlowInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class FlowInput_Base_C0 extends ResthopperParameter {
+class FlowInput_base_c0 extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "C0";
@@ -75,7 +75,7 @@ class FlowInput_Base_C0 extends ResthopperParameter {
 
 }
 
-class FlowInput_Target_C1 extends ResthopperParameter {
+class FlowInput_target_c1 extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "C1";
@@ -89,7 +89,7 @@ class FlowInput_Target_C1 extends ResthopperParameter {
 
 }
 
-class FlowInput_ReverseBase_R0 extends ResthopperParameter {
+class FlowInput_reversebase_r0 extends ResthopperParameter {
 
 	public name: string = "ReverseBase";
 	public nickName: string = "R0";
@@ -103,7 +103,7 @@ class FlowInput_ReverseBase_R0 extends ResthopperParameter {
 
 }
 
-class FlowInput_ReverseTarget_R1 extends ResthopperParameter {
+class FlowInput_reversetarget_r1 extends ResthopperParameter {
 
 	public name: string = "ReverseTarget";
 	public nickName: string = "R1";
@@ -117,7 +117,7 @@ class FlowInput_ReverseTarget_R1 extends ResthopperParameter {
 
 }
 
-class FlowInput_Stretch_S extends ResthopperParameter {
+class FlowInput_stretch_s extends ResthopperParameter {
 
 	public name: string = "Stretch";
 	public nickName: string = "S";
@@ -131,7 +131,7 @@ class FlowInput_Stretch_S extends ResthopperParameter {
 
 }
 
-class FlowInput_Rigid_R extends ResthopperParameter {
+class FlowInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -145,7 +145,7 @@ class FlowInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class FlowOutput_Geometry_G extends ResthopperParameter {
+class FlowOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

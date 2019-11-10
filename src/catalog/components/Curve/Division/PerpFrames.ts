@@ -15,33 +15,33 @@ export default class PerpFrames extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PerpFramesInput_Curve_C,
-		"Count_N": PerpFramesInput_Count_N,
-		"Align_A": PerpFramesInput_Align_A,
+		"curve_c": PerpFramesInput_curve_c,
+		"count_n": PerpFramesInput_count_n,
+		"align_a": PerpFramesInput_align_a,
 	}
 
 	public output:
 	{
-		"Frames_F": PerpFramesOutput_Frames_F,
-		"Parameters_t": PerpFramesOutput_Parameters_t,
+		"frames_f": PerpFramesOutput_frames_f,
+		"parameters_t": PerpFramesOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PerpFramesInput_Curve_C(),
-			"Count_N": new PerpFramesInput_Count_N(),
-			"Align_A": new PerpFramesInput_Align_A(),
+			"curve_c": new PerpFramesInput_curve_c(),
+			"count_n": new PerpFramesInput_count_n(),
+			"align_a": new PerpFramesInput_align_a(),
 		}
 		this.output = {
-			"Frames_F": new PerpFramesOutput_Frames_F(),
-			"Parameters_t": new PerpFramesOutput_Parameters_t(),
+			"frames_f": new PerpFramesOutput_frames_f(),
+			"parameters_t": new PerpFramesOutput_parameters_t(),
 		}
 	}
 
 }
 
-class PerpFramesInput_Curve_C extends ResthopperParameter {
+class PerpFramesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class PerpFramesInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PerpFramesInput_Count_N extends ResthopperParameter {
+class PerpFramesInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -69,7 +69,7 @@ class PerpFramesInput_Count_N extends ResthopperParameter {
 
 }
 
-class PerpFramesInput_Align_A extends ResthopperParameter {
+class PerpFramesInput_align_a extends ResthopperParameter {
 
 	public name: string = "Align";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class PerpFramesInput_Align_A extends ResthopperParameter {
 
 }
 
-class PerpFramesOutput_Frames_F extends ResthopperParameter {
+class PerpFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
@@ -97,7 +97,7 @@ class PerpFramesOutput_Frames_F extends ResthopperParameter {
 
 }
 
-class PerpFramesOutput_Parameters_t extends ResthopperParameter {
+class PerpFramesOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

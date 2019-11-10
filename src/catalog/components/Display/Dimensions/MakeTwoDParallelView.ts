@@ -15,27 +15,27 @@ export default class MakeTwoDParallelView extends ResthopperComponent {
 
 	public input:
 	{
-		"Projection_P": MakeTwoDParallelViewInput_Projection_P,
+		"projection_p": MakeTwoDParallelViewInput_projection_p,
 	}
 
 	public output:
 	{
-		"View_V": MakeTwoDParallelViewOutput_View_V,
+		"view_v": MakeTwoDParallelViewOutput_view_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Projection_P": new MakeTwoDParallelViewInput_Projection_P(),
+			"projection_p": new MakeTwoDParallelViewInput_projection_p(),
 		}
 		this.output = {
-			"View_V": new MakeTwoDParallelViewOutput_View_V(),
+			"view_v": new MakeTwoDParallelViewOutput_view_v(),
 		}
 	}
 
 }
 
-class MakeTwoDParallelViewInput_Projection_P extends ResthopperParameter {
+class MakeTwoDParallelViewInput_projection_p extends ResthopperParameter {
 
 	public name: string = "Projection";
 	public nickName: string = "P";
@@ -49,7 +49,7 @@ class MakeTwoDParallelViewInput_Projection_P extends ResthopperParameter {
 
 }
 
-class MakeTwoDParallelViewOutput_View_V extends ResthopperParameter {
+class MakeTwoDParallelViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";

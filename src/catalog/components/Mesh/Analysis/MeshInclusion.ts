@@ -15,31 +15,31 @@ export default class MeshInclusion extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshInclusionInput_Mesh_M,
-		"Point_P": MeshInclusionInput_Point_P,
-		"Strict_S": MeshInclusionInput_Strict_S,
+		"mesh_m": MeshInclusionInput_mesh_m,
+		"point_p": MeshInclusionInput_point_p,
+		"strict_s": MeshInclusionInput_strict_s,
 	}
 
 	public output:
 	{
-		"Inside_I": MeshInclusionOutput_Inside_I,
+		"inside_i": MeshInclusionOutput_inside_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshInclusionInput_Mesh_M(),
-			"Point_P": new MeshInclusionInput_Point_P(),
-			"Strict_S": new MeshInclusionInput_Strict_S(),
+			"mesh_m": new MeshInclusionInput_mesh_m(),
+			"point_p": new MeshInclusionInput_point_p(),
+			"strict_s": new MeshInclusionInput_strict_s(),
 		}
 		this.output = {
-			"Inside_I": new MeshInclusionOutput_Inside_I(),
+			"inside_i": new MeshInclusionOutput_inside_i(),
 		}
 	}
 
 }
 
-class MeshInclusionInput_Mesh_M extends ResthopperParameter {
+class MeshInclusionInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshInclusionInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshInclusionInput_Point_P extends ResthopperParameter {
+class MeshInclusionInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class MeshInclusionInput_Point_P extends ResthopperParameter {
 
 }
 
-class MeshInclusionInput_Strict_S extends ResthopperParameter {
+class MeshInclusionInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class MeshInclusionInput_Strict_S extends ResthopperParameter {
 
 }
 
-class MeshInclusionOutput_Inside_I extends ResthopperParameter {
+class MeshInclusionOutput_inside_i extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "I";

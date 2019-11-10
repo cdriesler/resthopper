@@ -15,29 +15,29 @@ export default class CullPattern extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": CullPatternInput_List_L,
-		"CullPattern_P": CullPatternInput_CullPattern_P,
+		"list_l": CullPatternInput_list_l,
+		"cullpattern_p": CullPatternInput_cullpattern_p,
 	}
 
 	public output:
 	{
-		"List_L": CullPatternOutput_List_L,
+		"list_l": CullPatternOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new CullPatternInput_List_L(),
-			"CullPattern_P": new CullPatternInput_CullPattern_P(),
+			"list_l": new CullPatternInput_list_l(),
+			"cullpattern_p": new CullPatternInput_cullpattern_p(),
 		}
 		this.output = {
-			"List_L": new CullPatternOutput_List_L(),
+			"list_l": new CullPatternOutput_list_l(),
 		}
 	}
 
 }
 
-class CullPatternInput_List_L extends ResthopperParameter {
+class CullPatternInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class CullPatternInput_List_L extends ResthopperParameter {
 
 }
 
-class CullPatternInput_CullPattern_P extends ResthopperParameter {
+class CullPatternInput_cullpattern_p extends ResthopperParameter {
 
 	public name: string = "CullPattern";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class CullPatternInput_CullPattern_P extends ResthopperParameter {
 
 }
 
-class CullPatternOutput_List_L extends ResthopperParameter {
+class CullPatternOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

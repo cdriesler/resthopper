@@ -15,33 +15,33 @@ export default class SubList extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": SubListInput_List_L,
-		"Domain_D": SubListInput_Domain_D,
-		"Wrap_W": SubListInput_Wrap_W,
+		"list_l": SubListInput_list_l,
+		"domain_d": SubListInput_domain_d,
+		"wrap_w": SubListInput_wrap_w,
 	}
 
 	public output:
 	{
-		"List_L": SubListOutput_List_L,
-		"Index_I": SubListOutput_Index_I,
+		"list_l": SubListOutput_list_l,
+		"index_i": SubListOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new SubListInput_List_L(),
-			"Domain_D": new SubListInput_Domain_D(),
-			"Wrap_W": new SubListInput_Wrap_W(),
+			"list_l": new SubListInput_list_l(),
+			"domain_d": new SubListInput_domain_d(),
+			"wrap_w": new SubListInput_wrap_w(),
 		}
 		this.output = {
-			"List_L": new SubListOutput_List_L(),
-			"Index_I": new SubListOutput_Index_I(),
+			"list_l": new SubListOutput_list_l(),
+			"index_i": new SubListOutput_index_i(),
 		}
 	}
 
 }
 
-class SubListInput_List_L extends ResthopperParameter {
+class SubListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class SubListInput_List_L extends ResthopperParameter {
 
 }
 
-class SubListInput_Domain_D extends ResthopperParameter {
+class SubListInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -69,7 +69,7 @@ class SubListInput_Domain_D extends ResthopperParameter {
 
 }
 
-class SubListInput_Wrap_W extends ResthopperParameter {
+class SubListInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -83,7 +83,7 @@ class SubListInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class SubListOutput_List_L extends ResthopperParameter {
+class SubListOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -97,7 +97,7 @@ class SubListOutput_List_L extends ResthopperParameter {
 
 }
 
-class SubListOutput_Index_I extends ResthopperParameter {
+class SubListOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

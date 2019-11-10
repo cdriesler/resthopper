@@ -15,27 +15,27 @@ export default class PowerofTwo extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": PowerofTwoInput_Value_x,
+		"value_x": PowerofTwoInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": PowerofTwoOutput_Result_y,
+		"result_y": PowerofTwoOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new PowerofTwoInput_Value_x(),
+			"value_x": new PowerofTwoInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new PowerofTwoOutput_Result_y(),
+			"result_y": new PowerofTwoOutput_result_y(),
 		}
 	}
 
 }
 
-class PowerofTwoInput_Value_x extends ResthopperParameter {
+class PowerofTwoInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class PowerofTwoInput_Value_x extends ResthopperParameter {
 
 }
 
-class PowerofTwoOutput_Result_y extends ResthopperParameter {
+class PowerofTwoOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

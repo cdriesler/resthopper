@@ -15,37 +15,37 @@ export default class EdgesfromPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": EdgesfromPointsInput_Brep_B,
-		"Points_P": EdgesfromPointsInput_Points_P,
-		"Valence_V": EdgesfromPointsInput_Valence_V,
-		"Tolerance_T": EdgesfromPointsInput_Tolerance_T,
+		"brep_b": EdgesfromPointsInput_brep_b,
+		"points_p": EdgesfromPointsInput_points_p,
+		"valence_v": EdgesfromPointsInput_valence_v,
+		"tolerance_t": EdgesfromPointsInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Edges_E": EdgesfromPointsOutput_Edges_E,
-		"Indices_I": EdgesfromPointsOutput_Indices_I,
-		"Map_M": EdgesfromPointsOutput_Map_M,
+		"edges_e": EdgesfromPointsOutput_edges_e,
+		"indices_i": EdgesfromPointsOutput_indices_i,
+		"map_m": EdgesfromPointsOutput_map_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new EdgesfromPointsInput_Brep_B(),
-			"Points_P": new EdgesfromPointsInput_Points_P(),
-			"Valence_V": new EdgesfromPointsInput_Valence_V(),
-			"Tolerance_T": new EdgesfromPointsInput_Tolerance_T(),
+			"brep_b": new EdgesfromPointsInput_brep_b(),
+			"points_p": new EdgesfromPointsInput_points_p(),
+			"valence_v": new EdgesfromPointsInput_valence_v(),
+			"tolerance_t": new EdgesfromPointsInput_tolerance_t(),
 		}
 		this.output = {
-			"Edges_E": new EdgesfromPointsOutput_Edges_E(),
-			"Indices_I": new EdgesfromPointsOutput_Indices_I(),
-			"Map_M": new EdgesfromPointsOutput_Map_M(),
+			"edges_e": new EdgesfromPointsOutput_edges_e(),
+			"indices_i": new EdgesfromPointsOutput_indices_i(),
+			"map_m": new EdgesfromPointsOutput_map_m(),
 		}
 	}
 
 }
 
-class EdgesfromPointsInput_Brep_B extends ResthopperParameter {
+class EdgesfromPointsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -59,7 +59,7 @@ class EdgesfromPointsInput_Brep_B extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsInput_Points_P extends ResthopperParameter {
+class EdgesfromPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -73,7 +73,7 @@ class EdgesfromPointsInput_Points_P extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsInput_Valence_V extends ResthopperParameter {
+class EdgesfromPointsInput_valence_v extends ResthopperParameter {
 
 	public name: string = "Valence";
 	public nickName: string = "V";
@@ -87,7 +87,7 @@ class EdgesfromPointsInput_Valence_V extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsInput_Tolerance_T extends ResthopperParameter {
+class EdgesfromPointsInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
@@ -101,7 +101,7 @@ class EdgesfromPointsInput_Tolerance_T extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsOutput_Edges_E extends ResthopperParameter {
+class EdgesfromPointsOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -115,7 +115,7 @@ class EdgesfromPointsOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsOutput_Indices_I extends ResthopperParameter {
+class EdgesfromPointsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -129,7 +129,7 @@ class EdgesfromPointsOutput_Indices_I extends ResthopperParameter {
 
 }
 
-class EdgesfromPointsOutput_Map_M extends ResthopperParameter {
+class EdgesfromPointsOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";

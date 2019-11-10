@@ -15,29 +15,29 @@ export default class CurveSelf extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveSelfInput_Curve_C,
+		"curve_c": CurveSelfInput_curve_c,
 	}
 
 	public output:
 	{
-		"Points_P": CurveSelfOutput_Points_P,
-		"Params_t": CurveSelfOutput_Params_t,
+		"points_p": CurveSelfOutput_points_p,
+		"params_t": CurveSelfOutput_params_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveSelfInput_Curve_C(),
+			"curve_c": new CurveSelfInput_curve_c(),
 		}
 		this.output = {
-			"Points_P": new CurveSelfOutput_Points_P(),
-			"Params_t": new CurveSelfOutput_Params_t(),
+			"points_p": new CurveSelfOutput_points_p(),
+			"params_t": new CurveSelfOutput_params_t(),
 		}
 	}
 
 }
 
-class CurveSelfInput_Curve_C extends ResthopperParameter {
+class CurveSelfInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class CurveSelfInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveSelfOutput_Points_P extends ResthopperParameter {
+class CurveSelfOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class CurveSelfOutput_Points_P extends ResthopperParameter {
 
 }
 
-class CurveSelfOutput_Params_t extends ResthopperParameter {
+class CurveSelfOutput_params_t extends ResthopperParameter {
 
 	public name: string = "Params";
 	public nickName: string = "t";

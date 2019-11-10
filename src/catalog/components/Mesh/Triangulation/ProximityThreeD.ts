@@ -15,33 +15,33 @@ export default class ProximityThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": ProximityThreeDInput_Points_P,
-		"Group_G": ProximityThreeDInput_Group_G,
-		"MaxRadius_R": ProximityThreeDInput_MaxRadius_R,
+		"points_p": ProximityThreeDInput_points_p,
+		"group_g": ProximityThreeDInput_group_g,
+		"maxradius_r": ProximityThreeDInput_maxradius_r,
 	}
 
 	public output:
 	{
-		"Links_L": ProximityThreeDOutput_Links_L,
-		"Topology_T": ProximityThreeDOutput_Topology_T,
+		"links_l": ProximityThreeDOutput_links_l,
+		"topology_t": ProximityThreeDOutput_topology_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new ProximityThreeDInput_Points_P(),
-			"Group_G": new ProximityThreeDInput_Group_G(),
-			"MaxRadius_R": new ProximityThreeDInput_MaxRadius_R(),
+			"points_p": new ProximityThreeDInput_points_p(),
+			"group_g": new ProximityThreeDInput_group_g(),
+			"maxradius_r": new ProximityThreeDInput_maxradius_r(),
 		}
 		this.output = {
-			"Links_L": new ProximityThreeDOutput_Links_L(),
-			"Topology_T": new ProximityThreeDOutput_Topology_T(),
+			"links_l": new ProximityThreeDOutput_links_l(),
+			"topology_t": new ProximityThreeDOutput_topology_t(),
 		}
 	}
 
 }
 
-class ProximityThreeDInput_Points_P extends ResthopperParameter {
+class ProximityThreeDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ProximityThreeDInput_Points_P extends ResthopperParameter {
 
 }
 
-class ProximityThreeDInput_Group_G extends ResthopperParameter {
+class ProximityThreeDInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -69,7 +69,7 @@ class ProximityThreeDInput_Group_G extends ResthopperParameter {
 
 }
 
-class ProximityThreeDInput_MaxRadius_R extends ResthopperParameter {
+class ProximityThreeDInput_maxradius_r extends ResthopperParameter {
 
 	public name: string = "MaxRadius";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class ProximityThreeDInput_MaxRadius_R extends ResthopperParameter {
 
 }
 
-class ProximityThreeDOutput_Links_L extends ResthopperParameter {
+class ProximityThreeDOutput_links_l extends ResthopperParameter {
 
 	public name: string = "Links";
 	public nickName: string = "L";
@@ -97,7 +97,7 @@ class ProximityThreeDOutput_Links_L extends ResthopperParameter {
 
 }
 
-class ProximityThreeDOutput_Topology_T extends ResthopperParameter {
+class ProximityThreeDOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";

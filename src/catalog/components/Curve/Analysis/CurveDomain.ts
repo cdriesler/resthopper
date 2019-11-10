@@ -15,31 +15,31 @@ export default class CurveDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveDomainInput_Curve_C,
-		"Domain_D": CurveDomainInput_Domain_D,
+		"curve_c": CurveDomainInput_curve_c,
+		"domain_d": CurveDomainInput_domain_d,
 	}
 
 	public output:
 	{
-		"Curve_C": CurveDomainOutput_Curve_C,
-		"Domain_D": CurveDomainOutput_Domain_D,
+		"curve_c": CurveDomainOutput_curve_c,
+		"domain_d": CurveDomainOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveDomainInput_Curve_C(),
-			"Domain_D": new CurveDomainInput_Domain_D(),
+			"curve_c": new CurveDomainInput_curve_c(),
+			"domain_d": new CurveDomainInput_domain_d(),
 		}
 		this.output = {
-			"Curve_C": new CurveDomainOutput_Curve_C(),
-			"Domain_D": new CurveDomainOutput_Domain_D(),
+			"curve_c": new CurveDomainOutput_curve_c(),
+			"domain_d": new CurveDomainOutput_domain_d(),
 		}
 	}
 
 }
 
-class CurveDomainInput_Curve_C extends ResthopperParameter {
+class CurveDomainInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CurveDomainInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveDomainInput_Domain_D extends ResthopperParameter {
+class CurveDomainInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class CurveDomainInput_Domain_D extends ResthopperParameter {
 
 }
 
-class CurveDomainOutput_Curve_C extends ResthopperParameter {
+class CurveDomainOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class CurveDomainOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveDomainOutput_Domain_D extends ResthopperParameter {
+class CurveDomainOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

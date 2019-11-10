@@ -15,29 +15,29 @@ export default class SubSet extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SubSetInput_SetA_A,
-		"SetB_B": SubSetInput_SetB_B,
+		"seta_a": SubSetInput_seta_a,
+		"setb_b": SubSetInput_setb_b,
 	}
 
 	public output:
 	{
-		"Result_R": SubSetOutput_Result_R,
+		"result_r": SubSetOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SubSetInput_SetA_A(),
-			"SetB_B": new SubSetInput_SetB_B(),
+			"seta_a": new SubSetInput_seta_a(),
+			"setb_b": new SubSetInput_setb_b(),
 		}
 		this.output = {
-			"Result_R": new SubSetOutput_Result_R(),
+			"result_r": new SubSetOutput_result_r(),
 		}
 	}
 
 }
 
-class SubSetInput_SetA_A extends ResthopperParameter {
+class SubSetInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SubSetInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SubSetInput_SetB_B extends ResthopperParameter {
+class SubSetInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SubSetInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SubSetOutput_Result_R extends ResthopperParameter {
+class SubSetOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

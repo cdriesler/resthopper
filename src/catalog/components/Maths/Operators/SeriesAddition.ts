@@ -15,33 +15,33 @@ export default class SeriesAddition extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": SeriesAdditionInput_Numbers_N,
-		"Goal_G": SeriesAdditionInput_Goal_G,
-		"Start_S": SeriesAdditionInput_Start_S,
+		"numbers_n": SeriesAdditionInput_numbers_n,
+		"goal_g": SeriesAdditionInput_goal_g,
+		"start_s": SeriesAdditionInput_start_s,
 	}
 
 	public output:
 	{
-		"Series_S": SeriesAdditionOutput_Series_S,
-		"Remainder_R": SeriesAdditionOutput_Remainder_R,
+		"series_s": SeriesAdditionOutput_series_s,
+		"remainder_r": SeriesAdditionOutput_remainder_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new SeriesAdditionInput_Numbers_N(),
-			"Goal_G": new SeriesAdditionInput_Goal_G(),
-			"Start_S": new SeriesAdditionInput_Start_S(),
+			"numbers_n": new SeriesAdditionInput_numbers_n(),
+			"goal_g": new SeriesAdditionInput_goal_g(),
+			"start_s": new SeriesAdditionInput_start_s(),
 		}
 		this.output = {
-			"Series_S": new SeriesAdditionOutput_Series_S(),
-			"Remainder_R": new SeriesAdditionOutput_Remainder_R(),
+			"series_s": new SeriesAdditionOutput_series_s(),
+			"remainder_r": new SeriesAdditionOutput_remainder_r(),
 		}
 	}
 
 }
 
-class SeriesAdditionInput_Numbers_N extends ResthopperParameter {
+class SeriesAdditionInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -55,7 +55,7 @@ class SeriesAdditionInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class SeriesAdditionInput_Goal_G extends ResthopperParameter {
+class SeriesAdditionInput_goal_g extends ResthopperParameter {
 
 	public name: string = "Goal";
 	public nickName: string = "G";
@@ -69,7 +69,7 @@ class SeriesAdditionInput_Goal_G extends ResthopperParameter {
 
 }
 
-class SeriesAdditionInput_Start_S extends ResthopperParameter {
+class SeriesAdditionInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class SeriesAdditionInput_Start_S extends ResthopperParameter {
 
 }
 
-class SeriesAdditionOutput_Series_S extends ResthopperParameter {
+class SeriesAdditionOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class SeriesAdditionOutput_Series_S extends ResthopperParameter {
 
 }
 
-class SeriesAdditionOutput_Remainder_R extends ResthopperParameter {
+class SeriesAdditionOutput_remainder_r extends ResthopperParameter {
 
 	public name: string = "Remainder";
 	public nickName: string = "R";

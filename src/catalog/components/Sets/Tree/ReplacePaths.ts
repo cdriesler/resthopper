@@ -15,31 +15,31 @@ export default class ReplacePaths extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": ReplacePathsInput_Data_D,
-		"Search_S": ReplacePathsInput_Search_S,
-		"Replace_R": ReplacePathsInput_Replace_R,
+		"data_d": ReplacePathsInput_data_d,
+		"search_s": ReplacePathsInput_search_s,
+		"replace_r": ReplacePathsInput_replace_r,
 	}
 
 	public output:
 	{
-		"Data_D": ReplacePathsOutput_Data_D,
+		"data_d": ReplacePathsOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new ReplacePathsInput_Data_D(),
-			"Search_S": new ReplacePathsInput_Search_S(),
-			"Replace_R": new ReplacePathsInput_Replace_R(),
+			"data_d": new ReplacePathsInput_data_d(),
+			"search_s": new ReplacePathsInput_search_s(),
+			"replace_r": new ReplacePathsInput_replace_r(),
 		}
 		this.output = {
-			"Data_D": new ReplacePathsOutput_Data_D(),
+			"data_d": new ReplacePathsOutput_data_d(),
 		}
 	}
 
 }
 
-class ReplacePathsInput_Data_D extends ResthopperParameter {
+class ReplacePathsInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -53,7 +53,7 @@ class ReplacePathsInput_Data_D extends ResthopperParameter {
 
 }
 
-class ReplacePathsInput_Search_S extends ResthopperParameter {
+class ReplacePathsInput_search_s extends ResthopperParameter {
 
 	public name: string = "Search";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class ReplacePathsInput_Search_S extends ResthopperParameter {
 
 }
 
-class ReplacePathsInput_Replace_R extends ResthopperParameter {
+class ReplacePathsInput_replace_r extends ResthopperParameter {
 
 	public name: string = "Replace";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class ReplacePathsInput_Replace_R extends ResthopperParameter {
 
 }
 
-class ReplacePathsOutput_Data_D extends ResthopperParameter {
+class ReplacePathsOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

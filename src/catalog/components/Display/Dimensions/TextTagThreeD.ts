@@ -15,11 +15,11 @@ export default class TextTagThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Location_L": TextTagThreeDInput_Location_L,
-		"Text_T": TextTagThreeDInput_Text_T,
-		"Size_S": TextTagThreeDInput_Size_S,
-		"Colour_C": TextTagThreeDInput_Colour_C,
-		"Justification_J": TextTagThreeDInput_Justification_J,
+		"location_l": TextTagThreeDInput_location_l,
+		"text_t": TextTagThreeDInput_text_t,
+		"size_s": TextTagThreeDInput_size_s,
+		"colour_c": TextTagThreeDInput_colour_c,
+		"justification_j": TextTagThreeDInput_justification_j,
 	}
 
 	public output:
@@ -30,11 +30,11 @@ export default class TextTagThreeD extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Location_L": new TextTagThreeDInput_Location_L(),
-			"Text_T": new TextTagThreeDInput_Text_T(),
-			"Size_S": new TextTagThreeDInput_Size_S(),
-			"Colour_C": new TextTagThreeDInput_Colour_C(),
-			"Justification_J": new TextTagThreeDInput_Justification_J(),
+			"location_l": new TextTagThreeDInput_location_l(),
+			"text_t": new TextTagThreeDInput_text_t(),
+			"size_s": new TextTagThreeDInput_size_s(),
+			"colour_c": new TextTagThreeDInput_colour_c(),
+			"justification_j": new TextTagThreeDInput_justification_j(),
 		}
 		this.output = {
 
@@ -43,7 +43,7 @@ export default class TextTagThreeD extends ResthopperComponent {
 
 }
 
-class TextTagThreeDInput_Location_L extends ResthopperParameter {
+class TextTagThreeDInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
@@ -57,7 +57,7 @@ class TextTagThreeDInput_Location_L extends ResthopperParameter {
 
 }
 
-class TextTagThreeDInput_Text_T extends ResthopperParameter {
+class TextTagThreeDInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -71,7 +71,7 @@ class TextTagThreeDInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextTagThreeDInput_Size_S extends ResthopperParameter {
+class TextTagThreeDInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -85,7 +85,7 @@ class TextTagThreeDInput_Size_S extends ResthopperParameter {
 
 }
 
-class TextTagThreeDInput_Colour_C extends ResthopperParameter {
+class TextTagThreeDInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class TextTagThreeDInput_Colour_C extends ResthopperParameter {
 
 }
 
-class TextTagThreeDInput_Justification_J extends ResthopperParameter {
+class TextTagThreeDInput_justification_j extends ResthopperParameter {
 
 	public name: string = "Justification";
 	public nickName: string = "J";

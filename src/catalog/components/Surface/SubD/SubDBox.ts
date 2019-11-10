@@ -15,31 +15,31 @@ export default class SubDBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Box_B": SubDBoxInput_Box_B,
-		"Density_D": SubDBoxInput_Density_D,
-		"Creases_C": SubDBoxInput_Creases_C,
+		"box_b": SubDBoxInput_box_b,
+		"density_d": SubDBoxInput_density_d,
+		"creases_c": SubDBoxInput_creases_c,
 	}
 
 	public output:
 	{
-		"SubD_S": SubDBoxOutput_SubD_S,
+		"subd_s": SubDBoxOutput_subd_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Box_B": new SubDBoxInput_Box_B(),
-			"Density_D": new SubDBoxInput_Density_D(),
-			"Creases_C": new SubDBoxInput_Creases_C(),
+			"box_b": new SubDBoxInput_box_b(),
+			"density_d": new SubDBoxInput_density_d(),
+			"creases_c": new SubDBoxInput_creases_c(),
 		}
 		this.output = {
-			"SubD_S": new SubDBoxOutput_SubD_S(),
+			"subd_s": new SubDBoxOutput_subd_s(),
 		}
 	}
 
 }
 
-class SubDBoxInput_Box_B extends ResthopperParameter {
+class SubDBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class SubDBoxInput_Box_B extends ResthopperParameter {
 
 }
 
-class SubDBoxInput_Density_D extends ResthopperParameter {
+class SubDBoxInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class SubDBoxInput_Density_D extends ResthopperParameter {
 
 }
 
-class SubDBoxInput_Creases_C extends ResthopperParameter {
+class SubDBoxInput_creases_c extends ResthopperParameter {
 
 	public name: string = "Creases";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class SubDBoxInput_Creases_C extends ResthopperParameter {
 
 }
 
-class SubDBoxOutput_SubD_S extends ResthopperParameter {
+class SubDBoxOutput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";

@@ -15,29 +15,29 @@ export default class MassAddition extends ResthopperComponent {
 
 	public input:
 	{
-		"Input_I": MassAdditionInput_Input_I,
+		"input_i": MassAdditionInput_input_i,
 	}
 
 	public output:
 	{
-		"Result_R": MassAdditionOutput_Result_R,
-		"PartialResults_Pr": MassAdditionOutput_PartialResults_Pr,
+		"result_r": MassAdditionOutput_result_r,
+		"partialresults_pr": MassAdditionOutput_partialresults_pr,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input_I": new MassAdditionInput_Input_I(),
+			"input_i": new MassAdditionInput_input_i(),
 		}
 		this.output = {
-			"Result_R": new MassAdditionOutput_Result_R(),
-			"PartialResults_Pr": new MassAdditionOutput_PartialResults_Pr(),
+			"result_r": new MassAdditionOutput_result_r(),
+			"partialresults_pr": new MassAdditionOutput_partialresults_pr(),
 		}
 	}
 
 }
 
-class MassAdditionInput_Input_I extends ResthopperParameter {
+class MassAdditionInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class MassAdditionInput_Input_I extends ResthopperParameter {
 
 }
 
-class MassAdditionOutput_Result_R extends ResthopperParameter {
+class MassAdditionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class MassAdditionOutput_Result_R extends ResthopperParameter {
 
 }
 
-class MassAdditionOutput_PartialResults_Pr extends ResthopperParameter {
+class MassAdditionOutput_partialresults_pr extends ResthopperParameter {
 
 	public name: string = "PartialResults";
 	public nickName: string = "Pr";

@@ -15,29 +15,29 @@ export default class GateOr extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateOrInput_A_A,
-		"B_B": GateOrInput_B_B,
+		"a_a": GateOrInput_a_a,
+		"b_b": GateOrInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": GateOrOutput_Result_R,
+		"result_r": GateOrOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateOrInput_A_A(),
-			"B_B": new GateOrInput_B_B(),
+			"a_a": new GateOrInput_a_a(),
+			"b_b": new GateOrInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new GateOrOutput_Result_R(),
+			"result_r": new GateOrOutput_result_r(),
 		}
 	}
 
 }
 
-class GateOrInput_A_A extends ResthopperParameter {
+class GateOrInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class GateOrInput_A_A extends ResthopperParameter {
 
 }
 
-class GateOrInput_B_B extends ResthopperParameter {
+class GateOrInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class GateOrInput_B_B extends ResthopperParameter {
 
 }
 
-class GateOrOutput_Result_R extends ResthopperParameter {
+class GateOrOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

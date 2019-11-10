@@ -15,27 +15,27 @@ export default class InverseTransform extends ResthopperComponent {
 
 	public input:
 	{
-		"Transform_T": InverseTransformInput_Transform_T,
+		"transform_t": InverseTransformInput_transform_t,
 	}
 
 	public output:
 	{
-		"Transform_T": InverseTransformOutput_Transform_T,
+		"transform_t": InverseTransformOutput_transform_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Transform_T": new InverseTransformInput_Transform_T(),
+			"transform_t": new InverseTransformInput_transform_t(),
 		}
 		this.output = {
-			"Transform_T": new InverseTransformOutput_Transform_T(),
+			"transform_t": new InverseTransformOutput_transform_t(),
 		}
 	}
 
 }
 
-class InverseTransformInput_Transform_T extends ResthopperParameter {
+class InverseTransformInput_transform_t extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "T";
@@ -49,7 +49,7 @@ class InverseTransformInput_Transform_T extends ResthopperParameter {
 
 }
 
-class InverseTransformOutput_Transform_T extends ResthopperParameter {
+class InverseTransformOutput_transform_t extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "T";

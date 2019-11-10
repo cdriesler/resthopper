@@ -15,27 +15,27 @@ export default class TextLength extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextLengthInput_Text_T,
+		"text_t": TextLengthInput_text_t,
 	}
 
 	public output:
 	{
-		"Length_L": TextLengthOutput_Length_L,
+		"length_l": TextLengthOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextLengthInput_Text_T(),
+			"text_t": new TextLengthInput_text_t(),
 		}
 		this.output = {
-			"Length_L": new TextLengthOutput_Length_L(),
+			"length_l": new TextLengthOutput_length_l(),
 		}
 	}
 
 }
 
-class TextLengthInput_Text_T extends ResthopperParameter {
+class TextLengthInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -49,7 +49,7 @@ class TextLengthInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextLengthOutput_Length_L extends ResthopperParameter {
+class TextLengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

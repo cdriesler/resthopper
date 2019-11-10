@@ -15,27 +15,27 @@ export default class Sine extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": SineInput_Value_x,
+		"value_x": SineInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": SineOutput_Result_y,
+		"result_y": SineOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new SineInput_Value_x(),
+			"value_x": new SineInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new SineOutput_Result_y(),
+			"result_y": new SineOutput_result_y(),
 		}
 	}
 
 }
 
-class SineInput_Value_x extends ResthopperParameter {
+class SineInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class SineInput_Value_x extends ResthopperParameter {
 
 }
 
-class SineOutput_Result_y extends ResthopperParameter {
+class SineOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

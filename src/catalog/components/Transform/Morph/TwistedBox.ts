@@ -15,41 +15,41 @@ export default class TwistedBox extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": TwistedBoxInput_CornerA_A,
-		"CornerB_B": TwistedBoxInput_CornerB_B,
-		"CornerC_C": TwistedBoxInput_CornerC_C,
-		"CornerD_D": TwistedBoxInput_CornerD_D,
-		"CornerE_E": TwistedBoxInput_CornerE_E,
-		"CornerF_F": TwistedBoxInput_CornerF_F,
-		"CornerG_G": TwistedBoxInput_CornerG_G,
-		"CornerH_H": TwistedBoxInput_CornerH_H,
+		"cornera_a": TwistedBoxInput_cornera_a,
+		"cornerb_b": TwistedBoxInput_cornerb_b,
+		"cornerc_c": TwistedBoxInput_cornerc_c,
+		"cornerd_d": TwistedBoxInput_cornerd_d,
+		"cornere_e": TwistedBoxInput_cornere_e,
+		"cornerf_f": TwistedBoxInput_cornerf_f,
+		"cornerg_g": TwistedBoxInput_cornerg_g,
+		"cornerh_h": TwistedBoxInput_cornerh_h,
 	}
 
 	public output:
 	{
-		"TwistedBox_B": TwistedBoxOutput_TwistedBox_B,
+		"twistedbox_b": TwistedBoxOutput_twistedbox_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new TwistedBoxInput_CornerA_A(),
-			"CornerB_B": new TwistedBoxInput_CornerB_B(),
-			"CornerC_C": new TwistedBoxInput_CornerC_C(),
-			"CornerD_D": new TwistedBoxInput_CornerD_D(),
-			"CornerE_E": new TwistedBoxInput_CornerE_E(),
-			"CornerF_F": new TwistedBoxInput_CornerF_F(),
-			"CornerG_G": new TwistedBoxInput_CornerG_G(),
-			"CornerH_H": new TwistedBoxInput_CornerH_H(),
+			"cornera_a": new TwistedBoxInput_cornera_a(),
+			"cornerb_b": new TwistedBoxInput_cornerb_b(),
+			"cornerc_c": new TwistedBoxInput_cornerc_c(),
+			"cornerd_d": new TwistedBoxInput_cornerd_d(),
+			"cornere_e": new TwistedBoxInput_cornere_e(),
+			"cornerf_f": new TwistedBoxInput_cornerf_f(),
+			"cornerg_g": new TwistedBoxInput_cornerg_g(),
+			"cornerh_h": new TwistedBoxInput_cornerh_h(),
 		}
 		this.output = {
-			"TwistedBox_B": new TwistedBoxOutput_TwistedBox_B(),
+			"twistedbox_b": new TwistedBoxOutput_twistedbox_b(),
 		}
 	}
 
 }
 
-class TwistedBoxInput_CornerA_A extends ResthopperParameter {
+class TwistedBoxInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -63,7 +63,7 @@ class TwistedBoxInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerB_B extends ResthopperParameter {
+class TwistedBoxInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -77,7 +77,7 @@ class TwistedBoxInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerC_C extends ResthopperParameter {
+class TwistedBoxInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -91,7 +91,7 @@ class TwistedBoxInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerD_D extends ResthopperParameter {
+class TwistedBoxInput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
@@ -105,7 +105,7 @@ class TwistedBoxInput_CornerD_D extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerE_E extends ResthopperParameter {
+class TwistedBoxInput_cornere_e extends ResthopperParameter {
 
 	public name: string = "CornerE";
 	public nickName: string = "E";
@@ -119,7 +119,7 @@ class TwistedBoxInput_CornerE_E extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerF_F extends ResthopperParameter {
+class TwistedBoxInput_cornerf_f extends ResthopperParameter {
 
 	public name: string = "CornerF";
 	public nickName: string = "F";
@@ -133,7 +133,7 @@ class TwistedBoxInput_CornerF_F extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerG_G extends ResthopperParameter {
+class TwistedBoxInput_cornerg_g extends ResthopperParameter {
 
 	public name: string = "CornerG";
 	public nickName: string = "G";
@@ -147,7 +147,7 @@ class TwistedBoxInput_CornerG_G extends ResthopperParameter {
 
 }
 
-class TwistedBoxInput_CornerH_H extends ResthopperParameter {
+class TwistedBoxInput_cornerh_h extends ResthopperParameter {
 
 	public name: string = "CornerH";
 	public nickName: string = "H";
@@ -161,7 +161,7 @@ class TwistedBoxInput_CornerH_H extends ResthopperParameter {
 
 }
 
-class TwistedBoxOutput_TwistedBox_B extends ResthopperParameter {
+class TwistedBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";

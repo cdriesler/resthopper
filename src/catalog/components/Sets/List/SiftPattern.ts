@@ -15,31 +15,31 @@ export default class SiftPattern extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": SiftPatternInput_List_L,
-		"SiftPattern_P": SiftPatternInput_SiftPattern_P,
+		"list_l": SiftPatternInput_list_l,
+		"siftpattern_p": SiftPatternInput_siftpattern_p,
 	}
 
 	public output:
 	{
-		"Output0_0": SiftPatternOutput_Output0_0,
-		"Output1_1": SiftPatternOutput_Output1_1,
+		"output0_0": SiftPatternOutput_output0_0,
+		"output1_1": SiftPatternOutput_output1_1,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new SiftPatternInput_List_L(),
-			"SiftPattern_P": new SiftPatternInput_SiftPattern_P(),
+			"list_l": new SiftPatternInput_list_l(),
+			"siftpattern_p": new SiftPatternInput_siftpattern_p(),
 		}
 		this.output = {
-			"Output0_0": new SiftPatternOutput_Output0_0(),
-			"Output1_1": new SiftPatternOutput_Output1_1(),
+			"output0_0": new SiftPatternOutput_output0_0(),
+			"output1_1": new SiftPatternOutput_output1_1(),
 		}
 	}
 
 }
 
-class SiftPatternInput_List_L extends ResthopperParameter {
+class SiftPatternInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class SiftPatternInput_List_L extends ResthopperParameter {
 
 }
 
-class SiftPatternInput_SiftPattern_P extends ResthopperParameter {
+class SiftPatternInput_siftpattern_p extends ResthopperParameter {
 
 	public name: string = "SiftPattern";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class SiftPatternInput_SiftPattern_P extends ResthopperParameter {
 
 }
 
-class SiftPatternOutput_Output0_0 extends ResthopperParameter {
+class SiftPatternOutput_output0_0 extends ResthopperParameter {
 
 	public name: string = "Output0";
 	public nickName: string = "0";
@@ -81,7 +81,7 @@ class SiftPatternOutput_Output0_0 extends ResthopperParameter {
 
 }
 
-class SiftPatternOutput_Output1_1 extends ResthopperParameter {
+class SiftPatternOutput_output1_1 extends ResthopperParameter {
 
 	public name: string = "Output1";
 	public nickName: string = "1";

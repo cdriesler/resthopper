@@ -15,29 +15,29 @@ export default class Extremes extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": ExtremesInput_A_A,
-		"B_B": ExtremesInput_B_B,
+		"a_a": ExtremesInput_a_a,
+		"b_b": ExtremesInput_b_b,
 	}
 
 	public output:
 	{
-		"Maximum_V": ExtremesOutput_Maximum_V,
+		"maximum_v": ExtremesOutput_maximum_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new ExtremesInput_A_A(),
-			"B_B": new ExtremesInput_B_B(),
+			"a_a": new ExtremesInput_a_a(),
+			"b_b": new ExtremesInput_b_b(),
 		}
 		this.output = {
-			"Maximum_V": new ExtremesOutput_Maximum_V(),
+			"maximum_v": new ExtremesOutput_maximum_v(),
 		}
 	}
 
 }
 
-class ExtremesInput_A_A extends ResthopperParameter {
+class ExtremesInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class ExtremesInput_A_A extends ResthopperParameter {
 
 }
 
-class ExtremesInput_B_B extends ResthopperParameter {
+class ExtremesInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class ExtremesInput_B_B extends ResthopperParameter {
 
 }
 
-class ExtremesOutput_Maximum_V extends ResthopperParameter {
+class ExtremesOutput_maximum_v extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "V";

@@ -15,29 +15,29 @@ export default class Area extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": AreaInput_Geometry_G,
+		"geometry_g": AreaInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Area_A": AreaOutput_Area_A,
-		"Centroid_C": AreaOutput_Centroid_C,
+		"area_a": AreaOutput_area_a,
+		"centroid_c": AreaOutput_centroid_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new AreaInput_Geometry_G(),
+			"geometry_g": new AreaInput_geometry_g(),
 		}
 		this.output = {
-			"Area_A": new AreaOutput_Area_A(),
-			"Centroid_C": new AreaOutput_Centroid_C(),
+			"area_a": new AreaOutput_area_a(),
+			"centroid_c": new AreaOutput_centroid_c(),
 		}
 	}
 
 }
 
-class AreaInput_Geometry_G extends ResthopperParameter {
+class AreaInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class AreaInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class AreaOutput_Area_A extends ResthopperParameter {
+class AreaOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class AreaOutput_Area_A extends ResthopperParameter {
 
 }
 
-class AreaOutput_Centroid_C extends ResthopperParameter {
+class AreaOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";

@@ -15,35 +15,35 @@ export default class BlurNumbers extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": BlurNumbersInput_Numbers_N,
-		"Strength_S": BlurNumbersInput_Strength_S,
-		"Iterations_I": BlurNumbersInput_Iterations_I,
-		"Lock_L": BlurNumbersInput_Lock_L,
-		"Wrap_W": BlurNumbersInput_Wrap_W,
+		"numbers_n": BlurNumbersInput_numbers_n,
+		"strength_s": BlurNumbersInput_strength_s,
+		"iterations_i": BlurNumbersInput_iterations_i,
+		"lock_l": BlurNumbersInput_lock_l,
+		"wrap_w": BlurNumbersInput_wrap_w,
 	}
 
 	public output:
 	{
-		"Numbers_N": BlurNumbersOutput_Numbers_N,
+		"numbers_n": BlurNumbersOutput_numbers_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new BlurNumbersInput_Numbers_N(),
-			"Strength_S": new BlurNumbersInput_Strength_S(),
-			"Iterations_I": new BlurNumbersInput_Iterations_I(),
-			"Lock_L": new BlurNumbersInput_Lock_L(),
-			"Wrap_W": new BlurNumbersInput_Wrap_W(),
+			"numbers_n": new BlurNumbersInput_numbers_n(),
+			"strength_s": new BlurNumbersInput_strength_s(),
+			"iterations_i": new BlurNumbersInput_iterations_i(),
+			"lock_l": new BlurNumbersInput_lock_l(),
+			"wrap_w": new BlurNumbersInput_wrap_w(),
 		}
 		this.output = {
-			"Numbers_N": new BlurNumbersOutput_Numbers_N(),
+			"numbers_n": new BlurNumbersOutput_numbers_n(),
 		}
 	}
 
 }
 
-class BlurNumbersInput_Numbers_N extends ResthopperParameter {
+class BlurNumbersInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -57,7 +57,7 @@ class BlurNumbersInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class BlurNumbersInput_Strength_S extends ResthopperParameter {
+class BlurNumbersInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class BlurNumbersInput_Strength_S extends ResthopperParameter {
 
 }
 
-class BlurNumbersInput_Iterations_I extends ResthopperParameter {
+class BlurNumbersInput_iterations_i extends ResthopperParameter {
 
 	public name: string = "Iterations";
 	public nickName: string = "I";
@@ -85,7 +85,7 @@ class BlurNumbersInput_Iterations_I extends ResthopperParameter {
 
 }
 
-class BlurNumbersInput_Lock_L extends ResthopperParameter {
+class BlurNumbersInput_lock_l extends ResthopperParameter {
 
 	public name: string = "Lock";
 	public nickName: string = "L";
@@ -99,7 +99,7 @@ class BlurNumbersInput_Lock_L extends ResthopperParameter {
 
 }
 
-class BlurNumbersInput_Wrap_W extends ResthopperParameter {
+class BlurNumbersInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -113,7 +113,7 @@ class BlurNumbersInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class BlurNumbersOutput_Numbers_N extends ResthopperParameter {
+class BlurNumbersOutput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";

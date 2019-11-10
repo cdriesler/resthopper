@@ -15,27 +15,27 @@ export default class Untrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": UntrimInput_Surface_S,
+		"surface_s": UntrimInput_surface_s,
 	}
 
 	public output:
 	{
-		"Surface_S": UntrimOutput_Surface_S,
+		"surface_s": UntrimOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new UntrimInput_Surface_S(),
+			"surface_s": new UntrimInput_surface_s(),
 		}
 		this.output = {
-			"Surface_S": new UntrimOutput_Surface_S(),
+			"surface_s": new UntrimOutput_surface_s(),
 		}
 	}
 
 }
 
-class UntrimInput_Surface_S extends ResthopperParameter {
+class UntrimInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -49,7 +49,7 @@ class UntrimInput_Surface_S extends ResthopperParameter {
 
 }
 
-class UntrimOutput_Surface_S extends ResthopperParameter {
+class UntrimOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

@@ -15,27 +15,27 @@ export default class PowerofOneZero extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": PowerofOneZeroInput_Value_x,
+		"value_x": PowerofOneZeroInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": PowerofOneZeroOutput_Result_y,
+		"result_y": PowerofOneZeroOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new PowerofOneZeroInput_Value_x(),
+			"value_x": new PowerofOneZeroInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new PowerofOneZeroOutput_Result_y(),
+			"result_y": new PowerofOneZeroOutput_result_y(),
 		}
 	}
 
 }
 
-class PowerofOneZeroInput_Value_x extends ResthopperParameter {
+class PowerofOneZeroInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class PowerofOneZeroInput_Value_x extends ResthopperParameter {
 
 }
 
-class PowerofOneZeroOutput_Result_y extends ResthopperParameter {
+class PowerofOneZeroOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

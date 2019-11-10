@@ -15,9 +15,9 @@ export default class Legend extends ResthopperComponent {
 
 	public input:
 	{
-		"Colour_C": LegendInput_Colour_C,
-		"Tags_T": LegendInput_Tags_T,
-		"Rectangle_R": LegendInput_Rectangle_R,
+		"colour_c": LegendInput_colour_c,
+		"tags_t": LegendInput_tags_t,
+		"rectangle_r": LegendInput_rectangle_r,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class Legend extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Colour_C": new LegendInput_Colour_C(),
-			"Tags_T": new LegendInput_Tags_T(),
-			"Rectangle_R": new LegendInput_Rectangle_R(),
+			"colour_c": new LegendInput_colour_c(),
+			"tags_t": new LegendInput_tags_t(),
+			"rectangle_r": new LegendInput_rectangle_r(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class Legend extends ResthopperComponent {
 
 }
 
-class LegendInput_Colour_C extends ResthopperParameter {
+class LegendInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class LegendInput_Colour_C extends ResthopperParameter {
 
 }
 
-class LegendInput_Tags_T extends ResthopperParameter {
+class LegendInput_tags_t extends ResthopperParameter {
 
 	public name: string = "Tags";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class LegendInput_Tags_T extends ResthopperParameter {
 
 }
 
-class LegendInput_Rectangle_R extends ResthopperParameter {
+class LegendInput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";

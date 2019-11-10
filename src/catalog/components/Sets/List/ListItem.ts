@@ -15,31 +15,31 @@ export default class ListItem extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ListItemInput_List_L,
-		"Index_i": ListItemInput_Index_i,
-		"Wrap_W": ListItemInput_Wrap_W,
+		"list_l": ListItemInput_list_l,
+		"index_i": ListItemInput_index_i,
+		"wrap_w": ListItemInput_wrap_w,
 	}
 
 	public output:
 	{
-		"Item_i": ListItemOutput_Item_i,
+		"item_i": ListItemOutput_item_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ListItemInput_List_L(),
-			"Index_i": new ListItemInput_Index_i(),
-			"Wrap_W": new ListItemInput_Wrap_W(),
+			"list_l": new ListItemInput_list_l(),
+			"index_i": new ListItemInput_index_i(),
+			"wrap_w": new ListItemInput_wrap_w(),
 		}
 		this.output = {
-			"Item_i": new ListItemOutput_Item_i(),
+			"item_i": new ListItemOutput_item_i(),
 		}
 	}
 
 }
 
-class ListItemInput_List_L extends ResthopperParameter {
+class ListItemInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class ListItemInput_List_L extends ResthopperParameter {
 
 }
 
-class ListItemInput_Index_i extends ResthopperParameter {
+class ListItemInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
@@ -67,7 +67,7 @@ class ListItemInput_Index_i extends ResthopperParameter {
 
 }
 
-class ListItemInput_Wrap_W extends ResthopperParameter {
+class ListItemInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -81,7 +81,7 @@ class ListItemInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class ListItemOutput_Item_i extends ResthopperParameter {
+class ListItemOutput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "i";

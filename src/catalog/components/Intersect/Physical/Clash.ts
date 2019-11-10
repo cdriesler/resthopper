@@ -15,41 +15,41 @@ export default class Clash extends ResthopperComponent {
 
 	public input:
 	{
-		"FirstSet_A": ClashInput_FirstSet_A,
-		"SecondSet_B": ClashInput_SecondSet_B,
-		"Distance_D": ClashInput_Distance_D,
-		"ResultLimit_L": ClashInput_ResultLimit_L,
+		"firstset_a": ClashInput_firstset_a,
+		"secondset_b": ClashInput_secondset_b,
+		"distance_d": ClashInput_distance_d,
+		"resultlimit_l": ClashInput_resultlimit_l,
 	}
 
 	public output:
 	{
-		"ClashCount_N": ClashOutput_ClashCount_N,
-		"ClashPoints_P": ClashOutput_ClashPoints_P,
-		"ClashRadii_R": ClashOutput_ClashRadii_R,
-		"FirstIndex_i": ClashOutput_FirstIndex_i,
-		"Secondindex_j": ClashOutput_Secondindex_j,
+		"clashcount_n": ClashOutput_clashcount_n,
+		"clashpoints_p": ClashOutput_clashpoints_p,
+		"clashradii_r": ClashOutput_clashradii_r,
+		"firstindex_i": ClashOutput_firstindex_i,
+		"secondindex_j": ClashOutput_secondindex_j,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"FirstSet_A": new ClashInput_FirstSet_A(),
-			"SecondSet_B": new ClashInput_SecondSet_B(),
-			"Distance_D": new ClashInput_Distance_D(),
-			"ResultLimit_L": new ClashInput_ResultLimit_L(),
+			"firstset_a": new ClashInput_firstset_a(),
+			"secondset_b": new ClashInput_secondset_b(),
+			"distance_d": new ClashInput_distance_d(),
+			"resultlimit_l": new ClashInput_resultlimit_l(),
 		}
 		this.output = {
-			"ClashCount_N": new ClashOutput_ClashCount_N(),
-			"ClashPoints_P": new ClashOutput_ClashPoints_P(),
-			"ClashRadii_R": new ClashOutput_ClashRadii_R(),
-			"FirstIndex_i": new ClashOutput_FirstIndex_i(),
-			"Secondindex_j": new ClashOutput_Secondindex_j(),
+			"clashcount_n": new ClashOutput_clashcount_n(),
+			"clashpoints_p": new ClashOutput_clashpoints_p(),
+			"clashradii_r": new ClashOutput_clashradii_r(),
+			"firstindex_i": new ClashOutput_firstindex_i(),
+			"secondindex_j": new ClashOutput_secondindex_j(),
 		}
 	}
 
 }
 
-class ClashInput_FirstSet_A extends ResthopperParameter {
+class ClashInput_firstset_a extends ResthopperParameter {
 
 	public name: string = "FirstSet";
 	public nickName: string = "A";
@@ -63,7 +63,7 @@ class ClashInput_FirstSet_A extends ResthopperParameter {
 
 }
 
-class ClashInput_SecondSet_B extends ResthopperParameter {
+class ClashInput_secondset_b extends ResthopperParameter {
 
 	public name: string = "SecondSet";
 	public nickName: string = "B";
@@ -77,7 +77,7 @@ class ClashInput_SecondSet_B extends ResthopperParameter {
 
 }
 
-class ClashInput_Distance_D extends ResthopperParameter {
+class ClashInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -91,7 +91,7 @@ class ClashInput_Distance_D extends ResthopperParameter {
 
 }
 
-class ClashInput_ResultLimit_L extends ResthopperParameter {
+class ClashInput_resultlimit_l extends ResthopperParameter {
 
 	public name: string = "ResultLimit";
 	public nickName: string = "L";
@@ -105,7 +105,7 @@ class ClashInput_ResultLimit_L extends ResthopperParameter {
 
 }
 
-class ClashOutput_ClashCount_N extends ResthopperParameter {
+class ClashOutput_clashcount_n extends ResthopperParameter {
 
 	public name: string = "ClashCount";
 	public nickName: string = "N";
@@ -119,7 +119,7 @@ class ClashOutput_ClashCount_N extends ResthopperParameter {
 
 }
 
-class ClashOutput_ClashPoints_P extends ResthopperParameter {
+class ClashOutput_clashpoints_p extends ResthopperParameter {
 
 	public name: string = "ClashPoints";
 	public nickName: string = "P";
@@ -133,7 +133,7 @@ class ClashOutput_ClashPoints_P extends ResthopperParameter {
 
 }
 
-class ClashOutput_ClashRadii_R extends ResthopperParameter {
+class ClashOutput_clashradii_r extends ResthopperParameter {
 
 	public name: string = "ClashRadii";
 	public nickName: string = "R";
@@ -147,7 +147,7 @@ class ClashOutput_ClashRadii_R extends ResthopperParameter {
 
 }
 
-class ClashOutput_FirstIndex_i extends ResthopperParameter {
+class ClashOutput_firstindex_i extends ResthopperParameter {
 
 	public name: string = "FirstIndex";
 	public nickName: string = "i";
@@ -161,7 +161,7 @@ class ClashOutput_FirstIndex_i extends ResthopperParameter {
 
 }
 
-class ClashOutput_Secondindex_j extends ResthopperParameter {
+class ClashOutput_secondindex_j extends ResthopperParameter {
 
 	public name: string = "Secondindex";
 	public nickName: string = "j";

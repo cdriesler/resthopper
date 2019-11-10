@@ -15,27 +15,27 @@ export default class OneOverX extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": OneOverXInput_Value_x,
+		"value_x": OneOverXInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": OneOverXOutput_Result_y,
+		"result_y": OneOverXOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new OneOverXInput_Value_x(),
+			"value_x": new OneOverXInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new OneOverXOutput_Result_y(),
+			"result_y": new OneOverXOutput_result_y(),
 		}
 	}
 
 }
 
-class OneOverXInput_Value_x extends ResthopperParameter {
+class OneOverXInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class OneOverXInput_Value_x extends ResthopperParameter {
 
 }
 
-class OneOverXOutput_Result_y extends ResthopperParameter {
+class OneOverXOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

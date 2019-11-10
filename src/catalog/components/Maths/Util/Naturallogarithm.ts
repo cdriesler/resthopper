@@ -15,27 +15,27 @@ export default class Naturallogarithm extends ResthopperComponent {
 
 	public input:
 	{
-		"Factor_N": NaturallogarithmInput_Factor_N,
+		"factor_n": NaturallogarithmInput_factor_n,
 	}
 
 	public output:
 	{
-		"Output_y": NaturallogarithmOutput_Output_y,
+		"output_y": NaturallogarithmOutput_output_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Factor_N": new NaturallogarithmInput_Factor_N(),
+			"factor_n": new NaturallogarithmInput_factor_n(),
 		}
 		this.output = {
-			"Output_y": new NaturallogarithmOutput_Output_y(),
+			"output_y": new NaturallogarithmOutput_output_y(),
 		}
 	}
 
 }
 
-class NaturallogarithmInput_Factor_N extends ResthopperParameter {
+class NaturallogarithmInput_factor_n extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class NaturallogarithmInput_Factor_N extends ResthopperParameter {
 
 }
 
-class NaturallogarithmOutput_Output_y extends ResthopperParameter {
+class NaturallogarithmOutput_output_y extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "y";

@@ -15,33 +15,33 @@ export default class DeconstructMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": DeconstructMeshInput_Mesh_M,
+		"mesh_m": DeconstructMeshInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Vertices_V": DeconstructMeshOutput_Vertices_V,
-		"Faces_F": DeconstructMeshOutput_Faces_F,
-		"Colours_C": DeconstructMeshOutput_Colours_C,
-		"Normals_N": DeconstructMeshOutput_Normals_N,
+		"vertices_v": DeconstructMeshOutput_vertices_v,
+		"faces_f": DeconstructMeshOutput_faces_f,
+		"colours_c": DeconstructMeshOutput_colours_c,
+		"normals_n": DeconstructMeshOutput_normals_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new DeconstructMeshInput_Mesh_M(),
+			"mesh_m": new DeconstructMeshInput_mesh_m(),
 		}
 		this.output = {
-			"Vertices_V": new DeconstructMeshOutput_Vertices_V(),
-			"Faces_F": new DeconstructMeshOutput_Faces_F(),
-			"Colours_C": new DeconstructMeshOutput_Colours_C(),
-			"Normals_N": new DeconstructMeshOutput_Normals_N(),
+			"vertices_v": new DeconstructMeshOutput_vertices_v(),
+			"faces_f": new DeconstructMeshOutput_faces_f(),
+			"colours_c": new DeconstructMeshOutput_colours_c(),
+			"normals_n": new DeconstructMeshOutput_normals_n(),
 		}
 	}
 
 }
 
-class DeconstructMeshInput_Mesh_M extends ResthopperParameter {
+class DeconstructMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class DeconstructMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class DeconstructMeshOutput_Vertices_V extends ResthopperParameter {
+class DeconstructMeshOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -69,7 +69,7 @@ class DeconstructMeshOutput_Vertices_V extends ResthopperParameter {
 
 }
 
-class DeconstructMeshOutput_Faces_F extends ResthopperParameter {
+class DeconstructMeshOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class DeconstructMeshOutput_Faces_F extends ResthopperParameter {
 
 }
 
-class DeconstructMeshOutput_Colours_C extends ResthopperParameter {
+class DeconstructMeshOutput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class DeconstructMeshOutput_Colours_C extends ResthopperParameter {
 
 }
 
-class DeconstructMeshOutput_Normals_N extends ResthopperParameter {
+class DeconstructMeshOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";

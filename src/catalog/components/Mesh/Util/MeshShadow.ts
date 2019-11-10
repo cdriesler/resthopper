@@ -15,31 +15,31 @@ export default class MeshShadow extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshShadowInput_Mesh_M,
-		"Light_L": MeshShadowInput_Light_L,
-		"Plane_P": MeshShadowInput_Plane_P,
+		"mesh_m": MeshShadowInput_mesh_m,
+		"light_l": MeshShadowInput_light_l,
+		"plane_p": MeshShadowInput_plane_p,
 	}
 
 	public output:
 	{
-		"Outlines_O": MeshShadowOutput_Outlines_O,
+		"outlines_o": MeshShadowOutput_outlines_o,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshShadowInput_Mesh_M(),
-			"Light_L": new MeshShadowInput_Light_L(),
-			"Plane_P": new MeshShadowInput_Plane_P(),
+			"mesh_m": new MeshShadowInput_mesh_m(),
+			"light_l": new MeshShadowInput_light_l(),
+			"plane_p": new MeshShadowInput_plane_p(),
 		}
 		this.output = {
-			"Outlines_O": new MeshShadowOutput_Outlines_O(),
+			"outlines_o": new MeshShadowOutput_outlines_o(),
 		}
 	}
 
 }
 
-class MeshShadowInput_Mesh_M extends ResthopperParameter {
+class MeshShadowInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshShadowInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshShadowInput_Light_L extends ResthopperParameter {
+class MeshShadowInput_light_l extends ResthopperParameter {
 
 	public name: string = "Light";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class MeshShadowInput_Light_L extends ResthopperParameter {
 
 }
 
-class MeshShadowInput_Plane_P extends ResthopperParameter {
+class MeshShadowInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class MeshShadowInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MeshShadowOutput_Outlines_O extends ResthopperParameter {
+class MeshShadowOutput_outlines_o extends ResthopperParameter {
 
 	public name: string = "Outlines";
 	public nickName: string = "O";

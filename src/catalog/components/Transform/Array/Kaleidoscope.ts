@@ -15,33 +15,33 @@ export default class Kaleidoscope extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": KaleidoscopeInput_Geometry_G,
-		"Plane_P": KaleidoscopeInput_Plane_P,
-		"Segments_S": KaleidoscopeInput_Segments_S,
+		"geometry_g": KaleidoscopeInput_geometry_g,
+		"plane_p": KaleidoscopeInput_plane_p,
+		"segments_s": KaleidoscopeInput_segments_s,
 	}
 
 	public output:
 	{
-		"Geometry_G": KaleidoscopeOutput_Geometry_G,
-		"Transform_X": KaleidoscopeOutput_Transform_X,
+		"geometry_g": KaleidoscopeOutput_geometry_g,
+		"transform_x": KaleidoscopeOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new KaleidoscopeInput_Geometry_G(),
-			"Plane_P": new KaleidoscopeInput_Plane_P(),
-			"Segments_S": new KaleidoscopeInput_Segments_S(),
+			"geometry_g": new KaleidoscopeInput_geometry_g(),
+			"plane_p": new KaleidoscopeInput_plane_p(),
+			"segments_s": new KaleidoscopeInput_segments_s(),
 		}
 		this.output = {
-			"Geometry_G": new KaleidoscopeOutput_Geometry_G(),
-			"Transform_X": new KaleidoscopeOutput_Transform_X(),
+			"geometry_g": new KaleidoscopeOutput_geometry_g(),
+			"transform_x": new KaleidoscopeOutput_transform_x(),
 		}
 	}
 
 }
 
-class KaleidoscopeInput_Geometry_G extends ResthopperParameter {
+class KaleidoscopeInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class KaleidoscopeInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class KaleidoscopeInput_Plane_P extends ResthopperParameter {
+class KaleidoscopeInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class KaleidoscopeInput_Plane_P extends ResthopperParameter {
 
 }
 
-class KaleidoscopeInput_Segments_S extends ResthopperParameter {
+class KaleidoscopeInput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class KaleidoscopeInput_Segments_S extends ResthopperParameter {
 
 }
 
-class KaleidoscopeOutput_Geometry_G extends ResthopperParameter {
+class KaleidoscopeOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class KaleidoscopeOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class KaleidoscopeOutput_Transform_X extends ResthopperParameter {
+class KaleidoscopeOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

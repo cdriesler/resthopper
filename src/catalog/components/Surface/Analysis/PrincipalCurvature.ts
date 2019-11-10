@@ -15,33 +15,33 @@ export default class PrincipalCurvature extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": PrincipalCurvatureInput_Surface_S,
-		"Point_uv": PrincipalCurvatureInput_Point_uv,
+		"surface_s": PrincipalCurvatureInput_surface_s,
+		"point_uv": PrincipalCurvatureInput_point_uv,
 	}
 
 	public output:
 	{
-		"Frame_F": PrincipalCurvatureOutput_Frame_F,
-		"Max_C": PrincipalCurvatureOutput_Max_C,
-		"Maxdirection_K": PrincipalCurvatureOutput_Maxdirection_K,
+		"frame_f": PrincipalCurvatureOutput_frame_f,
+		"max_c": PrincipalCurvatureOutput_max_c,
+		"maxdirection_k": PrincipalCurvatureOutput_maxdirection_k,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new PrincipalCurvatureInput_Surface_S(),
-			"Point_uv": new PrincipalCurvatureInput_Point_uv(),
+			"surface_s": new PrincipalCurvatureInput_surface_s(),
+			"point_uv": new PrincipalCurvatureInput_point_uv(),
 		}
 		this.output = {
-			"Frame_F": new PrincipalCurvatureOutput_Frame_F(),
-			"Max_C": new PrincipalCurvatureOutput_Max_C(),
-			"Maxdirection_K": new PrincipalCurvatureOutput_Maxdirection_K(),
+			"frame_f": new PrincipalCurvatureOutput_frame_f(),
+			"max_c": new PrincipalCurvatureOutput_max_c(),
+			"maxdirection_k": new PrincipalCurvatureOutput_maxdirection_k(),
 		}
 	}
 
 }
 
-class PrincipalCurvatureInput_Surface_S extends ResthopperParameter {
+class PrincipalCurvatureInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class PrincipalCurvatureInput_Surface_S extends ResthopperParameter {
 
 }
 
-class PrincipalCurvatureInput_Point_uv extends ResthopperParameter {
+class PrincipalCurvatureInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
@@ -69,7 +69,7 @@ class PrincipalCurvatureInput_Point_uv extends ResthopperParameter {
 
 }
 
-class PrincipalCurvatureOutput_Frame_F extends ResthopperParameter {
+class PrincipalCurvatureOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class PrincipalCurvatureOutput_Frame_F extends ResthopperParameter {
 
 }
 
-class PrincipalCurvatureOutput_Max_C extends ResthopperParameter {
+class PrincipalCurvatureOutput_max_c extends ResthopperParameter {
 
 	public name: string = "Max";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class PrincipalCurvatureOutput_Max_C extends ResthopperParameter {
 
 }
 
-class PrincipalCurvatureOutput_Maxdirection_K extends ResthopperParameter {
+class PrincipalCurvatureOutput_maxdirection_k extends ResthopperParameter {
 
 	public name: string = "Maxdirection";
 	public nickName: string = "K";

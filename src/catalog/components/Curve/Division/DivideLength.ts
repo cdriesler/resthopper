@@ -15,33 +15,33 @@ export default class DivideLength extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": DivideLengthInput_Curve_C,
-		"Length_L": DivideLengthInput_Length_L,
+		"curve_c": DivideLengthInput_curve_c,
+		"length_l": DivideLengthInput_length_l,
 	}
 
 	public output:
 	{
-		"Points_P": DivideLengthOutput_Points_P,
-		"Tangents_T": DivideLengthOutput_Tangents_T,
-		"Parameters_t": DivideLengthOutput_Parameters_t,
+		"points_p": DivideLengthOutput_points_p,
+		"tangents_t": DivideLengthOutput_tangents_t,
+		"parameters_t": DivideLengthOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new DivideLengthInput_Curve_C(),
-			"Length_L": new DivideLengthInput_Length_L(),
+			"curve_c": new DivideLengthInput_curve_c(),
+			"length_l": new DivideLengthInput_length_l(),
 		}
 		this.output = {
-			"Points_P": new DivideLengthOutput_Points_P(),
-			"Tangents_T": new DivideLengthOutput_Tangents_T(),
-			"Parameters_t": new DivideLengthOutput_Parameters_t(),
+			"points_p": new DivideLengthOutput_points_p(),
+			"tangents_t": new DivideLengthOutput_tangents_t(),
+			"parameters_t": new DivideLengthOutput_parameters_t(),
 		}
 	}
 
 }
 
-class DivideLengthInput_Curve_C extends ResthopperParameter {
+class DivideLengthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class DivideLengthInput_Curve_C extends ResthopperParameter {
 
 }
 
-class DivideLengthInput_Length_L extends ResthopperParameter {
+class DivideLengthInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -69,7 +69,7 @@ class DivideLengthInput_Length_L extends ResthopperParameter {
 
 }
 
-class DivideLengthOutput_Points_P extends ResthopperParameter {
+class DivideLengthOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class DivideLengthOutput_Points_P extends ResthopperParameter {
 
 }
 
-class DivideLengthOutput_Tangents_T extends ResthopperParameter {
+class DivideLengthOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
@@ -97,7 +97,7 @@ class DivideLengthOutput_Tangents_T extends ResthopperParameter {
 
 }
 
-class DivideLengthOutput_Parameters_t extends ResthopperParameter {
+class DivideLengthOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

@@ -15,31 +15,31 @@ export default class BrepEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepEdgesInput_Brep_B,
+		"brep_b": BrepEdgesInput_brep_b,
 	}
 
 	public output:
 	{
-		"Naked_En": BrepEdgesOutput_Naked_En,
-		"Interior_Ei": BrepEdgesOutput_Interior_Ei,
-		"NonManifold_Em": BrepEdgesOutput_NonManifold_Em,
+		"naked_en": BrepEdgesOutput_naked_en,
+		"interior_ei": BrepEdgesOutput_interior_ei,
+		"nonmanifold_em": BrepEdgesOutput_nonmanifold_em,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepEdgesInput_Brep_B(),
+			"brep_b": new BrepEdgesInput_brep_b(),
 		}
 		this.output = {
-			"Naked_En": new BrepEdgesOutput_Naked_En(),
-			"Interior_Ei": new BrepEdgesOutput_Interior_Ei(),
-			"NonManifold_Em": new BrepEdgesOutput_NonManifold_Em(),
+			"naked_en": new BrepEdgesOutput_naked_en(),
+			"interior_ei": new BrepEdgesOutput_interior_ei(),
+			"nonmanifold_em": new BrepEdgesOutput_nonmanifold_em(),
 		}
 	}
 
 }
 
-class BrepEdgesInput_Brep_B extends ResthopperParameter {
+class BrepEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BrepEdgesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepEdgesOutput_Naked_En extends ResthopperParameter {
+class BrepEdgesOutput_naked_en extends ResthopperParameter {
 
 	public name: string = "Naked";
 	public nickName: string = "En";
@@ -67,7 +67,7 @@ class BrepEdgesOutput_Naked_En extends ResthopperParameter {
 
 }
 
-class BrepEdgesOutput_Interior_Ei extends ResthopperParameter {
+class BrepEdgesOutput_interior_ei extends ResthopperParameter {
 
 	public name: string = "Interior";
 	public nickName: string = "Ei";
@@ -81,7 +81,7 @@ class BrepEdgesOutput_Interior_Ei extends ResthopperParameter {
 
 }
 
-class BrepEdgesOutput_NonManifold_Em extends ResthopperParameter {
+class BrepEdgesOutput_nonmanifold_em extends ResthopperParameter {
 
 	public name: string = "NonManifold";
 	public nickName: string = "Em";

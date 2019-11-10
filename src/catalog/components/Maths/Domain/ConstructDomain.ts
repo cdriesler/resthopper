@@ -15,29 +15,29 @@ export default class ConstructDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Domainstart_A": ConstructDomainInput_Domainstart_A,
-		"Domainend_B": ConstructDomainInput_Domainend_B,
+		"domainstart_a": ConstructDomainInput_domainstart_a,
+		"domainend_b": ConstructDomainInput_domainend_b,
 	}
 
 	public output:
 	{
-		"Domain_I": ConstructDomainOutput_Domain_I,
+		"domain_i": ConstructDomainOutput_domain_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Domainstart_A": new ConstructDomainInput_Domainstart_A(),
-			"Domainend_B": new ConstructDomainInput_Domainend_B(),
+			"domainstart_a": new ConstructDomainInput_domainstart_a(),
+			"domainend_b": new ConstructDomainInput_domainend_b(),
 		}
 		this.output = {
-			"Domain_I": new ConstructDomainOutput_Domain_I(),
+			"domain_i": new ConstructDomainOutput_domain_i(),
 		}
 	}
 
 }
 
-class ConstructDomainInput_Domainstart_A extends ResthopperParameter {
+class ConstructDomainInput_domainstart_a extends ResthopperParameter {
 
 	public name: string = "Domainstart";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class ConstructDomainInput_Domainstart_A extends ResthopperParameter {
 
 }
 
-class ConstructDomainInput_Domainend_B extends ResthopperParameter {
+class ConstructDomainInput_domainend_b extends ResthopperParameter {
 
 	public name: string = "Domainend";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class ConstructDomainInput_Domainend_B extends ResthopperParameter {
 
 }
 
-class ConstructDomainOutput_Domain_I extends ResthopperParameter {
+class ConstructDomainOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";

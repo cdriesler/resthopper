@@ -15,33 +15,33 @@ export default class ColourCMYK extends ResthopperComponent {
 
 	public input:
 	{
-		"Cyan_C": ColourCMYKInput_Cyan_C,
-		"Magenta_M": ColourCMYKInput_Magenta_M,
-		"Yellow_Y": ColourCMYKInput_Yellow_Y,
-		"Key_K": ColourCMYKInput_Key_K,
+		"cyan_c": ColourCMYKInput_cyan_c,
+		"magenta_m": ColourCMYKInput_magenta_m,
+		"yellow_y": ColourCMYKInput_yellow_y,
+		"key_k": ColourCMYKInput_key_k,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourCMYKOutput_Colour_C,
+		"colour_c": ColourCMYKOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Cyan_C": new ColourCMYKInput_Cyan_C(),
-			"Magenta_M": new ColourCMYKInput_Magenta_M(),
-			"Yellow_Y": new ColourCMYKInput_Yellow_Y(),
-			"Key_K": new ColourCMYKInput_Key_K(),
+			"cyan_c": new ColourCMYKInput_cyan_c(),
+			"magenta_m": new ColourCMYKInput_magenta_m(),
+			"yellow_y": new ColourCMYKInput_yellow_y(),
+			"key_k": new ColourCMYKInput_key_k(),
 		}
 		this.output = {
-			"Colour_C": new ColourCMYKOutput_Colour_C(),
+			"colour_c": new ColourCMYKOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourCMYKInput_Cyan_C extends ResthopperParameter {
+class ColourCMYKInput_cyan_c extends ResthopperParameter {
 
 	public name: string = "Cyan";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class ColourCMYKInput_Cyan_C extends ResthopperParameter {
 
 }
 
-class ColourCMYKInput_Magenta_M extends ResthopperParameter {
+class ColourCMYKInput_magenta_m extends ResthopperParameter {
 
 	public name: string = "Magenta";
 	public nickName: string = "M";
@@ -69,7 +69,7 @@ class ColourCMYKInput_Magenta_M extends ResthopperParameter {
 
 }
 
-class ColourCMYKInput_Yellow_Y extends ResthopperParameter {
+class ColourCMYKInput_yellow_y extends ResthopperParameter {
 
 	public name: string = "Yellow";
 	public nickName: string = "Y";
@@ -83,7 +83,7 @@ class ColourCMYKInput_Yellow_Y extends ResthopperParameter {
 
 }
 
-class ColourCMYKInput_Key_K extends ResthopperParameter {
+class ColourCMYKInput_key_k extends ResthopperParameter {
 
 	public name: string = "Key";
 	public nickName: string = "K";
@@ -97,7 +97,7 @@ class ColourCMYKInput_Key_K extends ResthopperParameter {
 
 }
 
-class ColourCMYKOutput_Colour_C extends ResthopperParameter {
+class ColourCMYKOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

@@ -15,31 +15,31 @@ export default class TrimwithBreps extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": TrimwithBrepsInput_Curve_C,
-		"Brep_B": TrimwithBrepsInput_Brep_B,
+		"curve_c": TrimwithBrepsInput_curve_c,
+		"brep_b": TrimwithBrepsInput_brep_b,
 	}
 
 	public output:
 	{
-		"Inside_Ci": TrimwithBrepsOutput_Inside_Ci,
-		"Outside_Co": TrimwithBrepsOutput_Outside_Co,
+		"inside_ci": TrimwithBrepsOutput_inside_ci,
+		"outside_co": TrimwithBrepsOutput_outside_co,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new TrimwithBrepsInput_Curve_C(),
-			"Brep_B": new TrimwithBrepsInput_Brep_B(),
+			"curve_c": new TrimwithBrepsInput_curve_c(),
+			"brep_b": new TrimwithBrepsInput_brep_b(),
 		}
 		this.output = {
-			"Inside_Ci": new TrimwithBrepsOutput_Inside_Ci(),
-			"Outside_Co": new TrimwithBrepsOutput_Outside_Co(),
+			"inside_ci": new TrimwithBrepsOutput_inside_ci(),
+			"outside_co": new TrimwithBrepsOutput_outside_co(),
 		}
 	}
 
 }
 
-class TrimwithBrepsInput_Curve_C extends ResthopperParameter {
+class TrimwithBrepsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class TrimwithBrepsInput_Curve_C extends ResthopperParameter {
 
 }
 
-class TrimwithBrepsInput_Brep_B extends ResthopperParameter {
+class TrimwithBrepsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class TrimwithBrepsInput_Brep_B extends ResthopperParameter {
 
 }
 
-class TrimwithBrepsOutput_Inside_Ci extends ResthopperParameter {
+class TrimwithBrepsOutput_inside_ci extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "Ci";
@@ -81,7 +81,7 @@ class TrimwithBrepsOutput_Inside_Ci extends ResthopperParameter {
 
 }
 
-class TrimwithBrepsOutput_Outside_Co extends ResthopperParameter {
+class TrimwithBrepsOutput_outside_co extends ResthopperParameter {
 
 	public name: string = "Outside";
 	public nickName: string = "Co";

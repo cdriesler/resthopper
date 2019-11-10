@@ -15,29 +15,29 @@ export default class FaceCircles extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": FaceCirclesInput_Mesh_M,
+		"mesh_m": FaceCirclesInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Centers_C": FaceCirclesOutput_Centers_C,
-		"Ratio_R": FaceCirclesOutput_Ratio_R,
+		"centers_c": FaceCirclesOutput_centers_c,
+		"ratio_r": FaceCirclesOutput_ratio_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new FaceCirclesInput_Mesh_M(),
+			"mesh_m": new FaceCirclesInput_mesh_m(),
 		}
 		this.output = {
-			"Centers_C": new FaceCirclesOutput_Centers_C(),
-			"Ratio_R": new FaceCirclesOutput_Ratio_R(),
+			"centers_c": new FaceCirclesOutput_centers_c(),
+			"ratio_r": new FaceCirclesOutput_ratio_r(),
 		}
 	}
 
 }
 
-class FaceCirclesInput_Mesh_M extends ResthopperParameter {
+class FaceCirclesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class FaceCirclesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class FaceCirclesOutput_Centers_C extends ResthopperParameter {
+class FaceCirclesOutput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class FaceCirclesOutput_Centers_C extends ResthopperParameter {
 
 }
 
-class FaceCirclesOutput_Ratio_R extends ResthopperParameter {
+class FaceCirclesOutput_ratio_r extends ResthopperParameter {
 
 	public name: string = "Ratio";
 	public nickName: string = "R";

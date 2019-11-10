@@ -15,27 +15,27 @@ export default class RelativeDifferences extends ResthopperComponent {
 
 	public input:
 	{
-		"Values_V": RelativeDifferencesInput_Values_V,
+		"values_v": RelativeDifferencesInput_values_v,
 	}
 
 	public output:
 	{
-		"Differenced_D": RelativeDifferencesOutput_Differenced_D,
+		"differenced_d": RelativeDifferencesOutput_differenced_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Values_V": new RelativeDifferencesInput_Values_V(),
+			"values_v": new RelativeDifferencesInput_values_v(),
 		}
 		this.output = {
-			"Differenced_D": new RelativeDifferencesOutput_Differenced_D(),
+			"differenced_d": new RelativeDifferencesOutput_differenced_d(),
 		}
 	}
 
 }
 
-class RelativeDifferencesInput_Values_V extends ResthopperParameter {
+class RelativeDifferencesInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
@@ -49,7 +49,7 @@ class RelativeDifferencesInput_Values_V extends ResthopperParameter {
 
 }
 
-class RelativeDifferencesOutput_Differenced_D extends ResthopperParameter {
+class RelativeDifferencesOutput_differenced_d extends ResthopperParameter {
 
 	public name: string = "Differenced";
 	public nickName: string = "D";

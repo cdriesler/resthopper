@@ -15,31 +15,31 @@ export default class MemberIndex extends ResthopperComponent {
 
 	public input:
 	{
-		"Set_S": MemberIndexInput_Set_S,
-		"Member_M": MemberIndexInput_Member_M,
+		"set_s": MemberIndexInput_set_s,
+		"member_m": MemberIndexInput_member_m,
 	}
 
 	public output:
 	{
-		"Index_I": MemberIndexOutput_Index_I,
-		"Count_N": MemberIndexOutput_Count_N,
+		"index_i": MemberIndexOutput_index_i,
+		"count_n": MemberIndexOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Set_S": new MemberIndexInput_Set_S(),
-			"Member_M": new MemberIndexInput_Member_M(),
+			"set_s": new MemberIndexInput_set_s(),
+			"member_m": new MemberIndexInput_member_m(),
 		}
 		this.output = {
-			"Index_I": new MemberIndexOutput_Index_I(),
-			"Count_N": new MemberIndexOutput_Count_N(),
+			"index_i": new MemberIndexOutput_index_i(),
+			"count_n": new MemberIndexOutput_count_n(),
 		}
 	}
 
 }
 
-class MemberIndexInput_Set_S extends ResthopperParameter {
+class MemberIndexInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class MemberIndexInput_Set_S extends ResthopperParameter {
 
 }
 
-class MemberIndexInput_Member_M extends ResthopperParameter {
+class MemberIndexInput_member_m extends ResthopperParameter {
 
 	public name: string = "Member";
 	public nickName: string = "M";
@@ -67,7 +67,7 @@ class MemberIndexInput_Member_M extends ResthopperParameter {
 
 }
 
-class MemberIndexOutput_Index_I extends ResthopperParameter {
+class MemberIndexOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class MemberIndexOutput_Index_I extends ResthopperParameter {
 
 }
 
-class MemberIndexOutput_Count_N extends ResthopperParameter {
+class MemberIndexOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

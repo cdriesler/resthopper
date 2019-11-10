@@ -15,31 +15,31 @@ export default class DateRange extends ResthopperComponent {
 
 	public input:
 	{
-		"TimeA_A": DateRangeInput_TimeA_A,
-		"TimeB_B": DateRangeInput_TimeB_B,
-		"Count_N": DateRangeInput_Count_N,
+		"timea_a": DateRangeInput_timea_a,
+		"timeb_b": DateRangeInput_timeb_b,
+		"count_n": DateRangeInput_count_n,
 	}
 
 	public output:
 	{
-		"Range_R": DateRangeOutput_Range_R,
+		"range_r": DateRangeOutput_range_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"TimeA_A": new DateRangeInput_TimeA_A(),
-			"TimeB_B": new DateRangeInput_TimeB_B(),
-			"Count_N": new DateRangeInput_Count_N(),
+			"timea_a": new DateRangeInput_timea_a(),
+			"timeb_b": new DateRangeInput_timeb_b(),
+			"count_n": new DateRangeInput_count_n(),
 		}
 		this.output = {
-			"Range_R": new DateRangeOutput_Range_R(),
+			"range_r": new DateRangeOutput_range_r(),
 		}
 	}
 
 }
 
-class DateRangeInput_TimeA_A extends ResthopperParameter {
+class DateRangeInput_timea_a extends ResthopperParameter {
 
 	public name: string = "TimeA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class DateRangeInput_TimeA_A extends ResthopperParameter {
 
 }
 
-class DateRangeInput_TimeB_B extends ResthopperParameter {
+class DateRangeInput_timeb_b extends ResthopperParameter {
 
 	public name: string = "TimeB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class DateRangeInput_TimeB_B extends ResthopperParameter {
 
 }
 
-class DateRangeInput_Count_N extends ResthopperParameter {
+class DateRangeInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -81,7 +81,7 @@ class DateRangeInput_Count_N extends ResthopperParameter {
 
 }
 
-class DateRangeOutput_Range_R extends ResthopperParameter {
+class DateRangeOutput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";

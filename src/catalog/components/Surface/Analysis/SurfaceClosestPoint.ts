@@ -15,33 +15,33 @@ export default class SurfaceClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": SurfaceClosestPointInput_Point_P,
-		"Surface_S": SurfaceClosestPointInput_Surface_S,
+		"point_p": SurfaceClosestPointInput_point_p,
+		"surface_s": SurfaceClosestPointInput_surface_s,
 	}
 
 	public output:
 	{
-		"Point_P": SurfaceClosestPointOutput_Point_P,
-		"UVPoint_uvP": SurfaceClosestPointOutput_UVPoint_uvP,
-		"Distance_D": SurfaceClosestPointOutput_Distance_D,
+		"point_p": SurfaceClosestPointOutput_point_p,
+		"uvpoint_uvp": SurfaceClosestPointOutput_uvpoint_uvp,
+		"distance_d": SurfaceClosestPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new SurfaceClosestPointInput_Point_P(),
-			"Surface_S": new SurfaceClosestPointInput_Surface_S(),
+			"point_p": new SurfaceClosestPointInput_point_p(),
+			"surface_s": new SurfaceClosestPointInput_surface_s(),
 		}
 		this.output = {
-			"Point_P": new SurfaceClosestPointOutput_Point_P(),
-			"UVPoint_uvP": new SurfaceClosestPointOutput_UVPoint_uvP(),
-			"Distance_D": new SurfaceClosestPointOutput_Distance_D(),
+			"point_p": new SurfaceClosestPointOutput_point_p(),
+			"uvpoint_uvp": new SurfaceClosestPointOutput_uvpoint_uvp(),
+			"distance_d": new SurfaceClosestPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class SurfaceClosestPointInput_Point_P extends ResthopperParameter {
+class SurfaceClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class SurfaceClosestPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class SurfaceClosestPointInput_Surface_S extends ResthopperParameter {
+class SurfaceClosestPointInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class SurfaceClosestPointInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceClosestPointOutput_Point_P extends ResthopperParameter {
+class SurfaceClosestPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class SurfaceClosestPointOutput_Point_P extends ResthopperParameter {
 
 }
 
-class SurfaceClosestPointOutput_UVPoint_uvP extends ResthopperParameter {
+class SurfaceClosestPointOutput_uvpoint_uvp extends ResthopperParameter {
 
 	public name: string = "UVPoint";
 	public nickName: string = "uvP";
@@ -97,7 +97,7 @@ class SurfaceClosestPointOutput_UVPoint_uvP extends ResthopperParameter {
 
 }
 
-class SurfaceClosestPointOutput_Distance_D extends ResthopperParameter {
+class SurfaceClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

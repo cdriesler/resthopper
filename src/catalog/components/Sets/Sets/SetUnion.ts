@@ -15,29 +15,29 @@ export default class SetUnion extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SetUnionInput_SetA_A,
-		"SetB_B": SetUnionInput_SetB_B,
+		"seta_a": SetUnionInput_seta_a,
+		"setb_b": SetUnionInput_setb_b,
 	}
 
 	public output:
 	{
-		"Union_U": SetUnionOutput_Union_U,
+		"union_u": SetUnionOutput_union_u,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SetUnionInput_SetA_A(),
-			"SetB_B": new SetUnionInput_SetB_B(),
+			"seta_a": new SetUnionInput_seta_a(),
+			"setb_b": new SetUnionInput_setb_b(),
 		}
 		this.output = {
-			"Union_U": new SetUnionOutput_Union_U(),
+			"union_u": new SetUnionOutput_union_u(),
 		}
 	}
 
 }
 
-class SetUnionInput_SetA_A extends ResthopperParameter {
+class SetUnionInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SetUnionInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SetUnionInput_SetB_B extends ResthopperParameter {
+class SetUnionInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SetUnionInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SetUnionOutput_Union_U extends ResthopperParameter {
+class SetUnionOutput_union_u extends ResthopperParameter {
 
 	public name: string = "Union";
 	public nickName: string = "U";

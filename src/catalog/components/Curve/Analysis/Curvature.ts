@@ -15,33 +15,33 @@ export default class Curvature extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurvatureInput_Curve_C,
-		"Parameter_t": CurvatureInput_Parameter_t,
+		"curve_c": CurvatureInput_curve_c,
+		"parameter_t": CurvatureInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Point_P": CurvatureOutput_Point_P,
-		"Curvature_K": CurvatureOutput_Curvature_K,
-		"Curvature_C": CurvatureOutput_Curvature_C,
+		"point_p": CurvatureOutput_point_p,
+		"curvature_k": CurvatureOutput_curvature_k,
+		"curvature_c": CurvatureOutput_curvature_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurvatureInput_Curve_C(),
-			"Parameter_t": new CurvatureInput_Parameter_t(),
+			"curve_c": new CurvatureInput_curve_c(),
+			"parameter_t": new CurvatureInput_parameter_t(),
 		}
 		this.output = {
-			"Point_P": new CurvatureOutput_Point_P(),
-			"Curvature_K": new CurvatureOutput_Curvature_K(),
-			"Curvature_C": new CurvatureOutput_Curvature_C(),
+			"point_p": new CurvatureOutput_point_p(),
+			"curvature_k": new CurvatureOutput_curvature_k(),
+			"curvature_c": new CurvatureOutput_curvature_c(),
 		}
 	}
 
 }
 
-class CurvatureInput_Curve_C extends ResthopperParameter {
+class CurvatureInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class CurvatureInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurvatureInput_Parameter_t extends ResthopperParameter {
+class CurvatureInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -69,7 +69,7 @@ class CurvatureInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class CurvatureOutput_Point_P extends ResthopperParameter {
+class CurvatureOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CurvatureOutput_Point_P extends ResthopperParameter {
 
 }
 
-class CurvatureOutput_Curvature_K extends ResthopperParameter {
+class CurvatureOutput_curvature_k extends ResthopperParameter {
 
 	public name: string = "Curvature";
 	public nickName: string = "K";
@@ -97,7 +97,7 @@ class CurvatureOutput_Curvature_K extends ResthopperParameter {
 
 }
 
-class CurvatureOutput_Curvature_C extends ResthopperParameter {
+class CurvatureOutput_curvature_c extends ResthopperParameter {
 
 	public name: string = "Curvature";
 	public nickName: string = "C";

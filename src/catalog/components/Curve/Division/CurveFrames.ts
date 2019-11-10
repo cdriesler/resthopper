@@ -15,31 +15,31 @@ export default class CurveFrames extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveFramesInput_Curve_C,
-		"Count_N": CurveFramesInput_Count_N,
+		"curve_c": CurveFramesInput_curve_c,
+		"count_n": CurveFramesInput_count_n,
 	}
 
 	public output:
 	{
-		"Frames_F": CurveFramesOutput_Frames_F,
-		"Parameters_t": CurveFramesOutput_Parameters_t,
+		"frames_f": CurveFramesOutput_frames_f,
+		"parameters_t": CurveFramesOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveFramesInput_Curve_C(),
-			"Count_N": new CurveFramesInput_Count_N(),
+			"curve_c": new CurveFramesInput_curve_c(),
+			"count_n": new CurveFramesInput_count_n(),
 		}
 		this.output = {
-			"Frames_F": new CurveFramesOutput_Frames_F(),
-			"Parameters_t": new CurveFramesOutput_Parameters_t(),
+			"frames_f": new CurveFramesOutput_frames_f(),
+			"parameters_t": new CurveFramesOutput_parameters_t(),
 		}
 	}
 
 }
 
-class CurveFramesInput_Curve_C extends ResthopperParameter {
+class CurveFramesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CurveFramesInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveFramesInput_Count_N extends ResthopperParameter {
+class CurveFramesInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class CurveFramesInput_Count_N extends ResthopperParameter {
 
 }
 
-class CurveFramesOutput_Frames_F extends ResthopperParameter {
+class CurveFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class CurveFramesOutput_Frames_F extends ResthopperParameter {
 
 }
 
-class CurveFramesOutput_Parameters_t extends ResthopperParameter {
+class CurveFramesOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

@@ -15,35 +15,35 @@ export default class MoveToPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MoveToPlaneInput_Geometry_G,
-		"Plane_P": MoveToPlaneInput_Plane_P,
-		"Above_A": MoveToPlaneInput_Above_A,
-		"Below_B": MoveToPlaneInput_Below_B,
+		"geometry_g": MoveToPlaneInput_geometry_g,
+		"plane_p": MoveToPlaneInput_plane_p,
+		"above_a": MoveToPlaneInput_above_a,
+		"below_b": MoveToPlaneInput_below_b,
 	}
 
 	public output:
 	{
-		"Geometry_G": MoveToPlaneOutput_Geometry_G,
-		"Transform_X": MoveToPlaneOutput_Transform_X,
+		"geometry_g": MoveToPlaneOutput_geometry_g,
+		"transform_x": MoveToPlaneOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MoveToPlaneInput_Geometry_G(),
-			"Plane_P": new MoveToPlaneInput_Plane_P(),
-			"Above_A": new MoveToPlaneInput_Above_A(),
-			"Below_B": new MoveToPlaneInput_Below_B(),
+			"geometry_g": new MoveToPlaneInput_geometry_g(),
+			"plane_p": new MoveToPlaneInput_plane_p(),
+			"above_a": new MoveToPlaneInput_above_a(),
+			"below_b": new MoveToPlaneInput_below_b(),
 		}
 		this.output = {
-			"Geometry_G": new MoveToPlaneOutput_Geometry_G(),
-			"Transform_X": new MoveToPlaneOutput_Transform_X(),
+			"geometry_g": new MoveToPlaneOutput_geometry_g(),
+			"transform_x": new MoveToPlaneOutput_transform_x(),
 		}
 	}
 
 }
 
-class MoveToPlaneInput_Geometry_G extends ResthopperParameter {
+class MoveToPlaneInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class MoveToPlaneInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveToPlaneInput_Plane_P extends ResthopperParameter {
+class MoveToPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class MoveToPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MoveToPlaneInput_Above_A extends ResthopperParameter {
+class MoveToPlaneInput_above_a extends ResthopperParameter {
 
 	public name: string = "Above";
 	public nickName: string = "A";
@@ -85,7 +85,7 @@ class MoveToPlaneInput_Above_A extends ResthopperParameter {
 
 }
 
-class MoveToPlaneInput_Below_B extends ResthopperParameter {
+class MoveToPlaneInput_below_b extends ResthopperParameter {
 
 	public name: string = "Below";
 	public nickName: string = "B";
@@ -99,7 +99,7 @@ class MoveToPlaneInput_Below_B extends ResthopperParameter {
 
 }
 
-class MoveToPlaneOutput_Geometry_G extends ResthopperParameter {
+class MoveToPlaneOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class MoveToPlaneOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveToPlaneOutput_Transform_X extends ResthopperParameter {
+class MoveToPlaneOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

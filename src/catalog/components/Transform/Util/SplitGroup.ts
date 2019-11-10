@@ -15,33 +15,33 @@ export default class SplitGroup extends ResthopperComponent {
 
 	public input:
 	{
-		"Group_G": SplitGroupInput_Group_G,
-		"Indices_I": SplitGroupInput_Indices_I,
-		"Wrap_W": SplitGroupInput_Wrap_W,
+		"group_g": SplitGroupInput_group_g,
+		"indices_i": SplitGroupInput_indices_i,
+		"wrap_w": SplitGroupInput_wrap_w,
 	}
 
 	public output:
 	{
-		"GroupA_A": SplitGroupOutput_GroupA_A,
-		"GroupB_B": SplitGroupOutput_GroupB_B,
+		"groupa_a": SplitGroupOutput_groupa_a,
+		"groupb_b": SplitGroupOutput_groupb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Group_G": new SplitGroupInput_Group_G(),
-			"Indices_I": new SplitGroupInput_Indices_I(),
-			"Wrap_W": new SplitGroupInput_Wrap_W(),
+			"group_g": new SplitGroupInput_group_g(),
+			"indices_i": new SplitGroupInput_indices_i(),
+			"wrap_w": new SplitGroupInput_wrap_w(),
 		}
 		this.output = {
-			"GroupA_A": new SplitGroupOutput_GroupA_A(),
-			"GroupB_B": new SplitGroupOutput_GroupB_B(),
+			"groupa_a": new SplitGroupOutput_groupa_a(),
+			"groupb_b": new SplitGroupOutput_groupb_b(),
 		}
 	}
 
 }
 
-class SplitGroupInput_Group_G extends ResthopperParameter {
+class SplitGroupInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class SplitGroupInput_Group_G extends ResthopperParameter {
 
 }
 
-class SplitGroupInput_Indices_I extends ResthopperParameter {
+class SplitGroupInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -69,7 +69,7 @@ class SplitGroupInput_Indices_I extends ResthopperParameter {
 
 }
 
-class SplitGroupInput_Wrap_W extends ResthopperParameter {
+class SplitGroupInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -83,7 +83,7 @@ class SplitGroupInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class SplitGroupOutput_GroupA_A extends ResthopperParameter {
+class SplitGroupOutput_groupa_a extends ResthopperParameter {
 
 	public name: string = "GroupA";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class SplitGroupOutput_GroupA_A extends ResthopperParameter {
 
 }
 
-class SplitGroupOutput_GroupB_B extends ResthopperParameter {
+class SplitGroupOutput_groupb_b extends ResthopperParameter {
 
 	public name: string = "GroupB";
 	public nickName: string = "B";

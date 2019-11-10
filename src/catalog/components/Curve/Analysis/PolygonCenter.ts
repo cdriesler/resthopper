@@ -15,31 +15,31 @@ export default class PolygonCenter extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": PolygonCenterInput_Polyline_P,
+		"polyline_p": PolygonCenterInput_polyline_p,
 	}
 
 	public output:
 	{
-		"CenterV_Cv": PolygonCenterOutput_CenterV_Cv,
-		"CenterE_Ce": PolygonCenterOutput_CenterE_Ce,
-		"CenterA_Ca": PolygonCenterOutput_CenterA_Ca,
+		"centerv_cv": PolygonCenterOutput_centerv_cv,
+		"centere_ce": PolygonCenterOutput_centere_ce,
+		"centera_ca": PolygonCenterOutput_centera_ca,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new PolygonCenterInput_Polyline_P(),
+			"polyline_p": new PolygonCenterInput_polyline_p(),
 		}
 		this.output = {
-			"CenterV_Cv": new PolygonCenterOutput_CenterV_Cv(),
-			"CenterE_Ce": new PolygonCenterOutput_CenterE_Ce(),
-			"CenterA_Ca": new PolygonCenterOutput_CenterA_Ca(),
+			"centerv_cv": new PolygonCenterOutput_centerv_cv(),
+			"centere_ce": new PolygonCenterOutput_centere_ce(),
+			"centera_ca": new PolygonCenterOutput_centera_ca(),
 		}
 	}
 
 }
 
-class PolygonCenterInput_Polyline_P extends ResthopperParameter {
+class PolygonCenterInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PolygonCenterInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class PolygonCenterOutput_CenterV_Cv extends ResthopperParameter {
+class PolygonCenterOutput_centerv_cv extends ResthopperParameter {
 
 	public name: string = "CenterV";
 	public nickName: string = "Cv";
@@ -67,7 +67,7 @@ class PolygonCenterOutput_CenterV_Cv extends ResthopperParameter {
 
 }
 
-class PolygonCenterOutput_CenterE_Ce extends ResthopperParameter {
+class PolygonCenterOutput_centere_ce extends ResthopperParameter {
 
 	public name: string = "CenterE";
 	public nickName: string = "Ce";
@@ -81,7 +81,7 @@ class PolygonCenterOutput_CenterE_Ce extends ResthopperParameter {
 
 }
 
-class PolygonCenterOutput_CenterA_Ca extends ResthopperParameter {
+class PolygonCenterOutput_centera_ca extends ResthopperParameter {
 
 	public name: string = "CenterA";
 	public nickName: string = "Ca";

@@ -15,31 +15,31 @@ export default class Mirror extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MirrorInput_Geometry_G,
-		"Plane_P": MirrorInput_Plane_P,
+		"geometry_g": MirrorInput_geometry_g,
+		"plane_p": MirrorInput_plane_p,
 	}
 
 	public output:
 	{
-		"Geometry_G": MirrorOutput_Geometry_G,
-		"Transform_X": MirrorOutput_Transform_X,
+		"geometry_g": MirrorOutput_geometry_g,
+		"transform_x": MirrorOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MirrorInput_Geometry_G(),
-			"Plane_P": new MirrorInput_Plane_P(),
+			"geometry_g": new MirrorInput_geometry_g(),
+			"plane_p": new MirrorInput_plane_p(),
 		}
 		this.output = {
-			"Geometry_G": new MirrorOutput_Geometry_G(),
-			"Transform_X": new MirrorOutput_Transform_X(),
+			"geometry_g": new MirrorOutput_geometry_g(),
+			"transform_x": new MirrorOutput_transform_x(),
 		}
 	}
 
 }
 
-class MirrorInput_Geometry_G extends ResthopperParameter {
+class MirrorInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class MirrorInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MirrorInput_Plane_P extends ResthopperParameter {
+class MirrorInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class MirrorInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MirrorOutput_Geometry_G extends ResthopperParameter {
+class MirrorOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -81,7 +81,7 @@ class MirrorOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MirrorOutput_Transform_X extends ResthopperParameter {
+class MirrorOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

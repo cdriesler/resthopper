@@ -15,31 +15,31 @@ export default class NetworkSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"CurvesU_U": NetworkSurfaceInput_CurvesU_U,
-		"CurvesV_V": NetworkSurfaceInput_CurvesV_V,
-		"Continuity_C": NetworkSurfaceInput_Continuity_C,
+		"curvesu_u": NetworkSurfaceInput_curvesu_u,
+		"curvesv_v": NetworkSurfaceInput_curvesv_v,
+		"continuity_c": NetworkSurfaceInput_continuity_c,
 	}
 
 	public output:
 	{
-		"Surface_S": NetworkSurfaceOutput_Surface_S,
+		"surface_s": NetworkSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurvesU_U": new NetworkSurfaceInput_CurvesU_U(),
-			"CurvesV_V": new NetworkSurfaceInput_CurvesV_V(),
-			"Continuity_C": new NetworkSurfaceInput_Continuity_C(),
+			"curvesu_u": new NetworkSurfaceInput_curvesu_u(),
+			"curvesv_v": new NetworkSurfaceInput_curvesv_v(),
+			"continuity_c": new NetworkSurfaceInput_continuity_c(),
 		}
 		this.output = {
-			"Surface_S": new NetworkSurfaceOutput_Surface_S(),
+			"surface_s": new NetworkSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class NetworkSurfaceInput_CurvesU_U extends ResthopperParameter {
+class NetworkSurfaceInput_curvesu_u extends ResthopperParameter {
 
 	public name: string = "CurvesU";
 	public nickName: string = "U";
@@ -53,7 +53,7 @@ class NetworkSurfaceInput_CurvesU_U extends ResthopperParameter {
 
 }
 
-class NetworkSurfaceInput_CurvesV_V extends ResthopperParameter {
+class NetworkSurfaceInput_curvesv_v extends ResthopperParameter {
 
 	public name: string = "CurvesV";
 	public nickName: string = "V";
@@ -67,7 +67,7 @@ class NetworkSurfaceInput_CurvesV_V extends ResthopperParameter {
 
 }
 
-class NetworkSurfaceInput_Continuity_C extends ResthopperParameter {
+class NetworkSurfaceInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class NetworkSurfaceInput_Continuity_C extends ResthopperParameter {
 
 }
 
-class NetworkSurfaceOutput_Surface_S extends ResthopperParameter {
+class NetworkSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

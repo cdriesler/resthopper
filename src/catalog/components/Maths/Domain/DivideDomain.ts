@@ -15,29 +15,29 @@ export default class DivideDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Domain_I": DivideDomainInput_Domain_I,
-		"Count_C": DivideDomainInput_Count_C,
+		"domain_i": DivideDomainInput_domain_i,
+		"count_c": DivideDomainInput_count_c,
 	}
 
 	public output:
 	{
-		"Segments_S": DivideDomainOutput_Segments_S,
+		"segments_s": DivideDomainOutput_segments_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Domain_I": new DivideDomainInput_Domain_I(),
-			"Count_C": new DivideDomainInput_Count_C(),
+			"domain_i": new DivideDomainInput_domain_i(),
+			"count_c": new DivideDomainInput_count_c(),
 		}
 		this.output = {
-			"Segments_S": new DivideDomainOutput_Segments_S(),
+			"segments_s": new DivideDomainOutput_segments_s(),
 		}
 	}
 
 }
 
-class DivideDomainInput_Domain_I extends ResthopperParameter {
+class DivideDomainInput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class DivideDomainInput_Domain_I extends ResthopperParameter {
 
 }
 
-class DivideDomainInput_Count_C extends ResthopperParameter {
+class DivideDomainInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class DivideDomainInput_Count_C extends ResthopperParameter {
 
 }
 
-class DivideDomainOutput_Segments_S extends ResthopperParameter {
+class DivideDomainOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";

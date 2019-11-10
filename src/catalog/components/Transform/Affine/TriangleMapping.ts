@@ -15,33 +15,33 @@ export default class TriangleMapping extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": TriangleMappingInput_Geometry_G,
-		"Source_S": TriangleMappingInput_Source_S,
-		"Target_T": TriangleMappingInput_Target_T,
+		"geometry_g": TriangleMappingInput_geometry_g,
+		"source_s": TriangleMappingInput_source_s,
+		"target_t": TriangleMappingInput_target_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": TriangleMappingOutput_Geometry_G,
-		"Transform_X": TriangleMappingOutput_Transform_X,
+		"geometry_g": TriangleMappingOutput_geometry_g,
+		"transform_x": TriangleMappingOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new TriangleMappingInput_Geometry_G(),
-			"Source_S": new TriangleMappingInput_Source_S(),
-			"Target_T": new TriangleMappingInput_Target_T(),
+			"geometry_g": new TriangleMappingInput_geometry_g(),
+			"source_s": new TriangleMappingInput_source_s(),
+			"target_t": new TriangleMappingInput_target_t(),
 		}
 		this.output = {
-			"Geometry_G": new TriangleMappingOutput_Geometry_G(),
-			"Transform_X": new TriangleMappingOutput_Transform_X(),
+			"geometry_g": new TriangleMappingOutput_geometry_g(),
+			"transform_x": new TriangleMappingOutput_transform_x(),
 		}
 	}
 
 }
 
-class TriangleMappingInput_Geometry_G extends ResthopperParameter {
+class TriangleMappingInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class TriangleMappingInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class TriangleMappingInput_Source_S extends ResthopperParameter {
+class TriangleMappingInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class TriangleMappingInput_Source_S extends ResthopperParameter {
 
 }
 
-class TriangleMappingInput_Target_T extends ResthopperParameter {
+class TriangleMappingInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class TriangleMappingInput_Target_T extends ResthopperParameter {
 
 }
 
-class TriangleMappingOutput_Geometry_G extends ResthopperParameter {
+class TriangleMappingOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class TriangleMappingOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class TriangleMappingOutput_Transform_X extends ResthopperParameter {
+class TriangleMappingOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

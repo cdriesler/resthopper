@@ -22,7 +22,7 @@ export default class VBScript extends ResthopperComponent {
 	public output:
 	{
 		"out_out": VBScriptOutput_out_out,
-		"A_A": VBScriptOutput_A_A,
+		"a_a": VBScriptOutput_a_a,
 	}
 
 	constructor() {
@@ -33,7 +33,7 @@ export default class VBScript extends ResthopperComponent {
 		}
 		this.output = {
 			"out_out": new VBScriptOutput_out_out(),
-			"A_A": new VBScriptOutput_A_A(),
+			"a_a": new VBScriptOutput_a_a(),
 		}
 	}
 
@@ -81,7 +81,7 @@ class VBScriptOutput_out_out extends ResthopperParameter {
 
 }
 
-class VBScriptOutput_A_A extends ResthopperParameter {
+class VBScriptOutput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";

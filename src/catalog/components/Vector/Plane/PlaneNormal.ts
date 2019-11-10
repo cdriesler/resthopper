@@ -15,29 +15,29 @@ export default class PlaneNormal extends ResthopperComponent {
 
 	public input:
 	{
-		"Origin_O": PlaneNormalInput_Origin_O,
-		"ZAxis_Z": PlaneNormalInput_ZAxis_Z,
+		"origin_o": PlaneNormalInput_origin_o,
+		"zaxis_z": PlaneNormalInput_zaxis_z,
 	}
 
 	public output:
 	{
-		"Plane_P": PlaneNormalOutput_Plane_P,
+		"plane_p": PlaneNormalOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Origin_O": new PlaneNormalInput_Origin_O(),
-			"ZAxis_Z": new PlaneNormalInput_ZAxis_Z(),
+			"origin_o": new PlaneNormalInput_origin_o(),
+			"zaxis_z": new PlaneNormalInput_zaxis_z(),
 		}
 		this.output = {
-			"Plane_P": new PlaneNormalOutput_Plane_P(),
+			"plane_p": new PlaneNormalOutput_plane_p(),
 		}
 	}
 
 }
 
-class PlaneNormalInput_Origin_O extends ResthopperParameter {
+class PlaneNormalInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
@@ -51,7 +51,7 @@ class PlaneNormalInput_Origin_O extends ResthopperParameter {
 
 }
 
-class PlaneNormalInput_ZAxis_Z extends ResthopperParameter {
+class PlaneNormalInput_zaxis_z extends ResthopperParameter {
 
 	public name: string = "ZAxis";
 	public nickName: string = "Z";
@@ -65,7 +65,7 @@ class PlaneNormalInput_ZAxis_Z extends ResthopperParameter {
 
 }
 
-class PlaneNormalOutput_Plane_P extends ResthopperParameter {
+class PlaneNormalOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

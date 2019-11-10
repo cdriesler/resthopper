@@ -15,31 +15,31 @@ export default class SortList extends ResthopperComponent {
 
 	public input:
 	{
-		"Keys_K": SortListInput_Keys_K,
-		"ValuesA_A": SortListInput_ValuesA_A,
+		"keys_k": SortListInput_keys_k,
+		"valuesa_a": SortListInput_valuesa_a,
 	}
 
 	public output:
 	{
-		"Keys_K": SortListOutput_Keys_K,
-		"ValuesA_A": SortListOutput_ValuesA_A,
+		"keys_k": SortListOutput_keys_k,
+		"valuesa_a": SortListOutput_valuesa_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Keys_K": new SortListInput_Keys_K(),
-			"ValuesA_A": new SortListInput_ValuesA_A(),
+			"keys_k": new SortListInput_keys_k(),
+			"valuesa_a": new SortListInput_valuesa_a(),
 		}
 		this.output = {
-			"Keys_K": new SortListOutput_Keys_K(),
-			"ValuesA_A": new SortListOutput_ValuesA_A(),
+			"keys_k": new SortListOutput_keys_k(),
+			"valuesa_a": new SortListOutput_valuesa_a(),
 		}
 	}
 
 }
 
-class SortListInput_Keys_K extends ResthopperParameter {
+class SortListInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
@@ -53,7 +53,7 @@ class SortListInput_Keys_K extends ResthopperParameter {
 
 }
 
-class SortListInput_ValuesA_A extends ResthopperParameter {
+class SortListInput_valuesa_a extends ResthopperParameter {
 
 	public name: string = "ValuesA";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class SortListInput_ValuesA_A extends ResthopperParameter {
 
 }
 
-class SortListOutput_Keys_K extends ResthopperParameter {
+class SortListOutput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
@@ -81,7 +81,7 @@ class SortListOutput_Keys_K extends ResthopperParameter {
 
 }
 
-class SortListOutput_ValuesA_A extends ResthopperParameter {
+class SortListOutput_valuesa_a extends ResthopperParameter {
 
 	public name: string = "ValuesA";
 	public nickName: string = "A";

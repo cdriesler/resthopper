@@ -15,35 +15,35 @@ export default class DivideSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": DivideSurfaceInput_Surface_S,
-		"UCount_U": DivideSurfaceInput_UCount_U,
-		"VCount_V": DivideSurfaceInput_VCount_V,
+		"surface_s": DivideSurfaceInput_surface_s,
+		"ucount_u": DivideSurfaceInput_ucount_u,
+		"vcount_v": DivideSurfaceInput_vcount_v,
 	}
 
 	public output:
 	{
-		"Points_P": DivideSurfaceOutput_Points_P,
-		"Normals_N": DivideSurfaceOutput_Normals_N,
-		"Parameters_uv": DivideSurfaceOutput_Parameters_uv,
+		"points_p": DivideSurfaceOutput_points_p,
+		"normals_n": DivideSurfaceOutput_normals_n,
+		"parameters_uv": DivideSurfaceOutput_parameters_uv,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new DivideSurfaceInput_Surface_S(),
-			"UCount_U": new DivideSurfaceInput_UCount_U(),
-			"VCount_V": new DivideSurfaceInput_VCount_V(),
+			"surface_s": new DivideSurfaceInput_surface_s(),
+			"ucount_u": new DivideSurfaceInput_ucount_u(),
+			"vcount_v": new DivideSurfaceInput_vcount_v(),
 		}
 		this.output = {
-			"Points_P": new DivideSurfaceOutput_Points_P(),
-			"Normals_N": new DivideSurfaceOutput_Normals_N(),
-			"Parameters_uv": new DivideSurfaceOutput_Parameters_uv(),
+			"points_p": new DivideSurfaceOutput_points_p(),
+			"normals_n": new DivideSurfaceOutput_normals_n(),
+			"parameters_uv": new DivideSurfaceOutput_parameters_uv(),
 		}
 	}
 
 }
 
-class DivideSurfaceInput_Surface_S extends ResthopperParameter {
+class DivideSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class DivideSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class DivideSurfaceInput_UCount_U extends ResthopperParameter {
+class DivideSurfaceInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -71,7 +71,7 @@ class DivideSurfaceInput_UCount_U extends ResthopperParameter {
 
 }
 
-class DivideSurfaceInput_VCount_V extends ResthopperParameter {
+class DivideSurfaceInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
@@ -85,7 +85,7 @@ class DivideSurfaceInput_VCount_V extends ResthopperParameter {
 
 }
 
-class DivideSurfaceOutput_Points_P extends ResthopperParameter {
+class DivideSurfaceOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -99,7 +99,7 @@ class DivideSurfaceOutput_Points_P extends ResthopperParameter {
 
 }
 
-class DivideSurfaceOutput_Normals_N extends ResthopperParameter {
+class DivideSurfaceOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
@@ -113,7 +113,7 @@ class DivideSurfaceOutput_Normals_N extends ResthopperParameter {
 
 }
 
-class DivideSurfaceOutput_Parameters_uv extends ResthopperParameter {
+class DivideSurfaceOutput_parameters_uv extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "uv";

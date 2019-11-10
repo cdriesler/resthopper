@@ -15,37 +15,37 @@ export default class TangentCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": TangentCurveInput_Vertices_V,
-		"Tangents_T": TangentCurveInput_Tangents_T,
-		"Blend_B": TangentCurveInput_Blend_B,
-		"Degree_D": TangentCurveInput_Degree_D,
+		"vertices_v": TangentCurveInput_vertices_v,
+		"tangents_t": TangentCurveInput_tangents_t,
+		"blend_b": TangentCurveInput_blend_b,
+		"degree_d": TangentCurveInput_degree_d,
 	}
 
 	public output:
 	{
-		"Curve_C": TangentCurveOutput_Curve_C,
-		"Length_L": TangentCurveOutput_Length_L,
-		"Domain_D": TangentCurveOutput_Domain_D,
+		"curve_c": TangentCurveOutput_curve_c,
+		"length_l": TangentCurveOutput_length_l,
+		"domain_d": TangentCurveOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new TangentCurveInput_Vertices_V(),
-			"Tangents_T": new TangentCurveInput_Tangents_T(),
-			"Blend_B": new TangentCurveInput_Blend_B(),
-			"Degree_D": new TangentCurveInput_Degree_D(),
+			"vertices_v": new TangentCurveInput_vertices_v(),
+			"tangents_t": new TangentCurveInput_tangents_t(),
+			"blend_b": new TangentCurveInput_blend_b(),
+			"degree_d": new TangentCurveInput_degree_d(),
 		}
 		this.output = {
-			"Curve_C": new TangentCurveOutput_Curve_C(),
-			"Length_L": new TangentCurveOutput_Length_L(),
-			"Domain_D": new TangentCurveOutput_Domain_D(),
+			"curve_c": new TangentCurveOutput_curve_c(),
+			"length_l": new TangentCurveOutput_length_l(),
+			"domain_d": new TangentCurveOutput_domain_d(),
 		}
 	}
 
 }
 
-class TangentCurveInput_Vertices_V extends ResthopperParameter {
+class TangentCurveInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -59,7 +59,7 @@ class TangentCurveInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class TangentCurveInput_Tangents_T extends ResthopperParameter {
+class TangentCurveInput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
@@ -73,7 +73,7 @@ class TangentCurveInput_Tangents_T extends ResthopperParameter {
 
 }
 
-class TangentCurveInput_Blend_B extends ResthopperParameter {
+class TangentCurveInput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";
@@ -87,7 +87,7 @@ class TangentCurveInput_Blend_B extends ResthopperParameter {
 
 }
 
-class TangentCurveInput_Degree_D extends ResthopperParameter {
+class TangentCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -101,7 +101,7 @@ class TangentCurveInput_Degree_D extends ResthopperParameter {
 
 }
 
-class TangentCurveOutput_Curve_C extends ResthopperParameter {
+class TangentCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -115,7 +115,7 @@ class TangentCurveOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class TangentCurveOutput_Length_L extends ResthopperParameter {
+class TangentCurveOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -129,7 +129,7 @@ class TangentCurveOutput_Length_L extends ResthopperParameter {
 
 }
 
-class TangentCurveOutput_Domain_D extends ResthopperParameter {
+class TangentCurveOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

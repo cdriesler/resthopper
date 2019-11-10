@@ -15,33 +15,33 @@ export default class CrossProduct extends ResthopperComponent {
 
 	public input:
 	{
-		"VectorA_A": CrossProductInput_VectorA_A,
-		"VectorB_B": CrossProductInput_VectorB_B,
-		"Unitize_U": CrossProductInput_Unitize_U,
+		"vectora_a": CrossProductInput_vectora_a,
+		"vectorb_b": CrossProductInput_vectorb_b,
+		"unitize_u": CrossProductInput_unitize_u,
 	}
 
 	public output:
 	{
-		"Vector_V": CrossProductOutput_Vector_V,
-		"Length_L": CrossProductOutput_Length_L,
+		"vector_v": CrossProductOutput_vector_v,
+		"length_l": CrossProductOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"VectorA_A": new CrossProductInput_VectorA_A(),
-			"VectorB_B": new CrossProductInput_VectorB_B(),
-			"Unitize_U": new CrossProductInput_Unitize_U(),
+			"vectora_a": new CrossProductInput_vectora_a(),
+			"vectorb_b": new CrossProductInput_vectorb_b(),
+			"unitize_u": new CrossProductInput_unitize_u(),
 		}
 		this.output = {
-			"Vector_V": new CrossProductOutput_Vector_V(),
-			"Length_L": new CrossProductOutput_Length_L(),
+			"vector_v": new CrossProductOutput_vector_v(),
+			"length_l": new CrossProductOutput_length_l(),
 		}
 	}
 
 }
 
-class CrossProductInput_VectorA_A extends ResthopperParameter {
+class CrossProductInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class CrossProductInput_VectorA_A extends ResthopperParameter {
 
 }
 
-class CrossProductInput_VectorB_B extends ResthopperParameter {
+class CrossProductInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class CrossProductInput_VectorB_B extends ResthopperParameter {
 
 }
 
-class CrossProductInput_Unitize_U extends ResthopperParameter {
+class CrossProductInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
@@ -83,7 +83,7 @@ class CrossProductInput_Unitize_U extends ResthopperParameter {
 
 }
 
-class CrossProductOutput_Vector_V extends ResthopperParameter {
+class CrossProductOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class CrossProductOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class CrossProductOutput_Length_L extends ResthopperParameter {
+class CrossProductOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

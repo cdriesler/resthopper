@@ -15,29 +15,29 @@ export default class Multiplication extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": MultiplicationInput_A_A,
-		"B_B": MultiplicationInput_B_B,
+		"a_a": MultiplicationInput_a_a,
+		"b_b": MultiplicationInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": MultiplicationOutput_Result_R,
+		"result_r": MultiplicationOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new MultiplicationInput_A_A(),
-			"B_B": new MultiplicationInput_B_B(),
+			"a_a": new MultiplicationInput_a_a(),
+			"b_b": new MultiplicationInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new MultiplicationOutput_Result_R(),
+			"result_r": new MultiplicationOutput_result_r(),
 		}
 	}
 
 }
 
-class MultiplicationInput_A_A extends ResthopperParameter {
+class MultiplicationInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MultiplicationInput_A_A extends ResthopperParameter {
 
 }
 
-class MultiplicationInput_B_B extends ResthopperParameter {
+class MultiplicationInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MultiplicationInput_B_B extends ResthopperParameter {
 
 }
 
-class MultiplicationOutput_Result_R extends ResthopperParameter {
+class MultiplicationOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

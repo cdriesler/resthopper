@@ -15,31 +15,31 @@ export default class DotProduct extends ResthopperComponent {
 
 	public input:
 	{
-		"VectorA_A": DotProductInput_VectorA_A,
-		"VectorB_B": DotProductInput_VectorB_B,
-		"Unitize_U": DotProductInput_Unitize_U,
+		"vectora_a": DotProductInput_vectora_a,
+		"vectorb_b": DotProductInput_vectorb_b,
+		"unitize_u": DotProductInput_unitize_u,
 	}
 
 	public output:
 	{
-		"Dotproduct_D": DotProductOutput_Dotproduct_D,
+		"dotproduct_d": DotProductOutput_dotproduct_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"VectorA_A": new DotProductInput_VectorA_A(),
-			"VectorB_B": new DotProductInput_VectorB_B(),
-			"Unitize_U": new DotProductInput_Unitize_U(),
+			"vectora_a": new DotProductInput_vectora_a(),
+			"vectorb_b": new DotProductInput_vectorb_b(),
+			"unitize_u": new DotProductInput_unitize_u(),
 		}
 		this.output = {
-			"Dotproduct_D": new DotProductOutput_Dotproduct_D(),
+			"dotproduct_d": new DotProductOutput_dotproduct_d(),
 		}
 	}
 
 }
 
-class DotProductInput_VectorA_A extends ResthopperParameter {
+class DotProductInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class DotProductInput_VectorA_A extends ResthopperParameter {
 
 }
 
-class DotProductInput_VectorB_B extends ResthopperParameter {
+class DotProductInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class DotProductInput_VectorB_B extends ResthopperParameter {
 
 }
 
-class DotProductInput_Unitize_U extends ResthopperParameter {
+class DotProductInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
@@ -81,7 +81,7 @@ class DotProductInput_Unitize_U extends ResthopperParameter {
 
 }
 
-class DotProductOutput_Dotproduct_D extends ResthopperParameter {
+class DotProductOutput_dotproduct_d extends ResthopperParameter {
 
 	public name: string = "Dotproduct";
 	public nickName: string = "D";

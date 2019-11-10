@@ -15,29 +15,29 @@ export default class ModifiedArc extends ResthopperComponent {
 
 	public input:
 	{
-		"Angle_A": ModifiedArcInput_Angle_A,
-		"Radius_R": ModifiedArcInput_Radius_R,
+		"angle_a": ModifiedArcInput_angle_a,
+		"radius_r": ModifiedArcInput_radius_r,
 	}
 
 	public output:
 	{
-		"Arc_A": ModifiedArcOutput_Arc_A,
+		"arc_a": ModifiedArcOutput_arc_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Angle_A": new ModifiedArcInput_Angle_A(),
-			"Radius_R": new ModifiedArcInput_Radius_R(),
+			"angle_a": new ModifiedArcInput_angle_a(),
+			"radius_r": new ModifiedArcInput_radius_r(),
 		}
 		this.output = {
-			"Arc_A": new ModifiedArcOutput_Arc_A(),
+			"arc_a": new ModifiedArcOutput_arc_a(),
 		}
 	}
 
 }
 
-class ModifiedArcInput_Angle_A extends ResthopperParameter {
+class ModifiedArcInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class ModifiedArcInput_Angle_A extends ResthopperParameter {
 
 }
 
-class ModifiedArcInput_Radius_R extends ResthopperParameter {
+class ModifiedArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class ModifiedArcInput_Radius_R extends ResthopperParameter {
 
 }
 
-class ModifiedArcOutput_Arc_A extends ResthopperParameter {
+class ModifiedArcOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";

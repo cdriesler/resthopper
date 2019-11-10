@@ -15,33 +15,33 @@ export default class BoxMapping extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": BoxMappingInput_Geometry_G,
-		"Source_S": BoxMappingInput_Source_S,
-		"Target_T": BoxMappingInput_Target_T,
+		"geometry_g": BoxMappingInput_geometry_g,
+		"source_s": BoxMappingInput_source_s,
+		"target_t": BoxMappingInput_target_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": BoxMappingOutput_Geometry_G,
-		"Transform_X": BoxMappingOutput_Transform_X,
+		"geometry_g": BoxMappingOutput_geometry_g,
+		"transform_x": BoxMappingOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new BoxMappingInput_Geometry_G(),
-			"Source_S": new BoxMappingInput_Source_S(),
-			"Target_T": new BoxMappingInput_Target_T(),
+			"geometry_g": new BoxMappingInput_geometry_g(),
+			"source_s": new BoxMappingInput_source_s(),
+			"target_t": new BoxMappingInput_target_t(),
 		}
 		this.output = {
-			"Geometry_G": new BoxMappingOutput_Geometry_G(),
-			"Transform_X": new BoxMappingOutput_Transform_X(),
+			"geometry_g": new BoxMappingOutput_geometry_g(),
+			"transform_x": new BoxMappingOutput_transform_x(),
 		}
 	}
 
 }
 
-class BoxMappingInput_Geometry_G extends ResthopperParameter {
+class BoxMappingInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class BoxMappingInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BoxMappingInput_Source_S extends ResthopperParameter {
+class BoxMappingInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class BoxMappingInput_Source_S extends ResthopperParameter {
 
 }
 
-class BoxMappingInput_Target_T extends ResthopperParameter {
+class BoxMappingInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class BoxMappingInput_Target_T extends ResthopperParameter {
 
 }
 
-class BoxMappingOutput_Geometry_G extends ResthopperParameter {
+class BoxMappingOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class BoxMappingOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BoxMappingOutput_Transform_X extends ResthopperParameter {
+class BoxMappingOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

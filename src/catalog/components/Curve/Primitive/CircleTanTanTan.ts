@@ -15,33 +15,33 @@ export default class CircleTanTanTan extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": CircleTanTanTanInput_CurveA_A,
-		"CurveB_B": CircleTanTanTanInput_CurveB_B,
-		"CurveC_C": CircleTanTanTanInput_CurveC_C,
-		"Point_P": CircleTanTanTanInput_Point_P,
+		"curvea_a": CircleTanTanTanInput_curvea_a,
+		"curveb_b": CircleTanTanTanInput_curveb_b,
+		"curvec_c": CircleTanTanTanInput_curvec_c,
+		"point_p": CircleTanTanTanInput_point_p,
 	}
 
 	public output:
 	{
-		"Circle_C": CircleTanTanTanOutput_Circle_C,
+		"circle_c": CircleTanTanTanOutput_circle_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new CircleTanTanTanInput_CurveA_A(),
-			"CurveB_B": new CircleTanTanTanInput_CurveB_B(),
-			"CurveC_C": new CircleTanTanTanInput_CurveC_C(),
-			"Point_P": new CircleTanTanTanInput_Point_P(),
+			"curvea_a": new CircleTanTanTanInput_curvea_a(),
+			"curveb_b": new CircleTanTanTanInput_curveb_b(),
+			"curvec_c": new CircleTanTanTanInput_curvec_c(),
+			"point_p": new CircleTanTanTanInput_point_p(),
 		}
 		this.output = {
-			"Circle_C": new CircleTanTanTanOutput_Circle_C(),
+			"circle_c": new CircleTanTanTanOutput_circle_c(),
 		}
 	}
 
 }
 
-class CircleTanTanTanInput_CurveA_A extends ResthopperParameter {
+class CircleTanTanTanInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class CircleTanTanTanInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class CircleTanTanTanInput_CurveB_B extends ResthopperParameter {
+class CircleTanTanTanInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class CircleTanTanTanInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class CircleTanTanTanInput_CurveC_C extends ResthopperParameter {
+class CircleTanTanTanInput_curvec_c extends ResthopperParameter {
 
 	public name: string = "CurveC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class CircleTanTanTanInput_CurveC_C extends ResthopperParameter {
 
 }
 
-class CircleTanTanTanInput_Point_P extends ResthopperParameter {
+class CircleTanTanTanInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class CircleTanTanTanInput_Point_P extends ResthopperParameter {
 
 }
 
-class CircleTanTanTanOutput_Circle_C extends ResthopperParameter {
+class CircleTanTanTanOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";

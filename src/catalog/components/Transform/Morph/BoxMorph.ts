@@ -15,31 +15,31 @@ export default class BoxMorph extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": BoxMorphInput_Geometry_G,
-		"Reference_R": BoxMorphInput_Reference_R,
-		"Target_T": BoxMorphInput_Target_T,
+		"geometry_g": BoxMorphInput_geometry_g,
+		"reference_r": BoxMorphInput_reference_r,
+		"target_t": BoxMorphInput_target_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": BoxMorphOutput_Geometry_G,
+		"geometry_g": BoxMorphOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new BoxMorphInput_Geometry_G(),
-			"Reference_R": new BoxMorphInput_Reference_R(),
-			"Target_T": new BoxMorphInput_Target_T(),
+			"geometry_g": new BoxMorphInput_geometry_g(),
+			"reference_r": new BoxMorphInput_reference_r(),
+			"target_t": new BoxMorphInput_target_t(),
 		}
 		this.output = {
-			"Geometry_G": new BoxMorphOutput_Geometry_G(),
+			"geometry_g": new BoxMorphOutput_geometry_g(),
 		}
 	}
 
 }
 
-class BoxMorphInput_Geometry_G extends ResthopperParameter {
+class BoxMorphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class BoxMorphInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BoxMorphInput_Reference_R extends ResthopperParameter {
+class BoxMorphInput_reference_r extends ResthopperParameter {
 
 	public name: string = "Reference";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class BoxMorphInput_Reference_R extends ResthopperParameter {
 
 }
 
-class BoxMorphInput_Target_T extends ResthopperParameter {
+class BoxMorphInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class BoxMorphInput_Target_T extends ResthopperParameter {
 
 }
 
-class BoxMorphOutput_Geometry_G extends ResthopperParameter {
+class BoxMorphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

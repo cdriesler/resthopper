@@ -15,33 +15,33 @@ export default class Voronoi extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": VoronoiInput_Points_P,
-		"Radius_R": VoronoiInput_Radius_R,
-		"Boundary_B": VoronoiInput_Boundary_B,
-		"Plane_Pl": VoronoiInput_Plane_Pl,
+		"points_p": VoronoiInput_points_p,
+		"radius_r": VoronoiInput_radius_r,
+		"boundary_b": VoronoiInput_boundary_b,
+		"plane_pl": VoronoiInput_plane_pl,
 	}
 
 	public output:
 	{
-		"Cells_C": VoronoiOutput_Cells_C,
+		"cells_c": VoronoiOutput_cells_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new VoronoiInput_Points_P(),
-			"Radius_R": new VoronoiInput_Radius_R(),
-			"Boundary_B": new VoronoiInput_Boundary_B(),
-			"Plane_Pl": new VoronoiInput_Plane_Pl(),
+			"points_p": new VoronoiInput_points_p(),
+			"radius_r": new VoronoiInput_radius_r(),
+			"boundary_b": new VoronoiInput_boundary_b(),
+			"plane_pl": new VoronoiInput_plane_pl(),
 		}
 		this.output = {
-			"Cells_C": new VoronoiOutput_Cells_C(),
+			"cells_c": new VoronoiOutput_cells_c(),
 		}
 	}
 
 }
 
-class VoronoiInput_Points_P extends ResthopperParameter {
+class VoronoiInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class VoronoiInput_Points_P extends ResthopperParameter {
 
 }
 
-class VoronoiInput_Radius_R extends ResthopperParameter {
+class VoronoiInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class VoronoiInput_Radius_R extends ResthopperParameter {
 
 }
 
-class VoronoiInput_Boundary_B extends ResthopperParameter {
+class VoronoiInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
@@ -83,7 +83,7 @@ class VoronoiInput_Boundary_B extends ResthopperParameter {
 
 }
 
-class VoronoiInput_Plane_Pl extends ResthopperParameter {
+class VoronoiInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -97,7 +97,7 @@ class VoronoiInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class VoronoiOutput_Cells_C extends ResthopperParameter {
+class VoronoiOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";

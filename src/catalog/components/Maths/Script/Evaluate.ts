@@ -15,31 +15,31 @@ export default class Evaluate extends ResthopperComponent {
 
 	public input:
 	{
-		"Expression_F": EvaluateInput_Expression_F,
-		"Variablex_x": EvaluateInput_Variablex_x,
-		"Variabley_y": EvaluateInput_Variabley_y,
+		"expression_f": EvaluateInput_expression_f,
+		"variablex_x": EvaluateInput_variablex_x,
+		"variabley_y": EvaluateInput_variabley_y,
 	}
 
 	public output:
 	{
-		"Result_r": EvaluateOutput_Result_r,
+		"result_r": EvaluateOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Expression_F": new EvaluateInput_Expression_F(),
-			"Variablex_x": new EvaluateInput_Variablex_x(),
-			"Variabley_y": new EvaluateInput_Variabley_y(),
+			"expression_f": new EvaluateInput_expression_f(),
+			"variablex_x": new EvaluateInput_variablex_x(),
+			"variabley_y": new EvaluateInput_variabley_y(),
 		}
 		this.output = {
-			"Result_r": new EvaluateOutput_Result_r(),
+			"result_r": new EvaluateOutput_result_r(),
 		}
 	}
 
 }
 
-class EvaluateInput_Expression_F extends ResthopperParameter {
+class EvaluateInput_expression_f extends ResthopperParameter {
 
 	public name: string = "Expression";
 	public nickName: string = "F";
@@ -53,7 +53,7 @@ class EvaluateInput_Expression_F extends ResthopperParameter {
 
 }
 
-class EvaluateInput_Variablex_x extends ResthopperParameter {
+class EvaluateInput_variablex_x extends ResthopperParameter {
 
 	public name: string = "Variablex";
 	public nickName: string = "x";
@@ -67,7 +67,7 @@ class EvaluateInput_Variablex_x extends ResthopperParameter {
 
 }
 
-class EvaluateInput_Variabley_y extends ResthopperParameter {
+class EvaluateInput_variabley_y extends ResthopperParameter {
 
 	public name: string = "Variabley";
 	public nickName: string = "y";
@@ -81,7 +81,7 @@ class EvaluateInput_Variabley_y extends ResthopperParameter {
 
 }
 
-class EvaluateOutput_Result_r extends ResthopperParameter {
+class EvaluateOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "r";

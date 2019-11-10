@@ -15,29 +15,29 @@ export default class SurfaceInflection extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceInflectionInput_Surface_S,
-		"Tolerance_T": SurfaceInflectionInput_Tolerance_T,
+		"surface_s": SurfaceInflectionInput_surface_s,
+		"tolerance_t": SurfaceInflectionInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Curves_C": SurfaceInflectionOutput_Curves_C,
+		"curves_c": SurfaceInflectionOutput_curves_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceInflectionInput_Surface_S(),
-			"Tolerance_T": new SurfaceInflectionInput_Tolerance_T(),
+			"surface_s": new SurfaceInflectionInput_surface_s(),
+			"tolerance_t": new SurfaceInflectionInput_tolerance_t(),
 		}
 		this.output = {
-			"Curves_C": new SurfaceInflectionOutput_Curves_C(),
+			"curves_c": new SurfaceInflectionOutput_curves_c(),
 		}
 	}
 
 }
 
-class SurfaceInflectionInput_Surface_S extends ResthopperParameter {
+class SurfaceInflectionInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class SurfaceInflectionInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceInflectionInput_Tolerance_T extends ResthopperParameter {
+class SurfaceInflectionInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class SurfaceInflectionInput_Tolerance_T extends ResthopperParameter {
 
 }
 
-class SurfaceInflectionOutput_Curves_C extends ResthopperParameter {
+class SurfaceInflectionOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";

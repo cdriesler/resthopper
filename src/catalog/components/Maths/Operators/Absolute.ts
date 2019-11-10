@@ -15,27 +15,27 @@ export default class Absolute extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": AbsoluteInput_Value_x,
+		"value_x": AbsoluteInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": AbsoluteOutput_Result_y,
+		"result_y": AbsoluteOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new AbsoluteInput_Value_x(),
+			"value_x": new AbsoluteInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new AbsoluteOutput_Result_y(),
+			"result_y": new AbsoluteOutput_result_y(),
 		}
 	}
 
 }
 
-class AbsoluteInput_Value_x extends ResthopperParameter {
+class AbsoluteInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class AbsoluteInput_Value_x extends ResthopperParameter {
 
 }
 
-class AbsoluteOutput_Result_y extends ResthopperParameter {
+class AbsoluteOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

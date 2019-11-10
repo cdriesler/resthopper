@@ -15,35 +15,35 @@ export default class Radial extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": RadialInput_Plane_P,
-		"Size_S": RadialInput_Size_S,
-		"ExtentR_Er": RadialInput_ExtentR_Er,
-		"ExtentP_Ep": RadialInput_ExtentP_Ep,
+		"plane_p": RadialInput_plane_p,
+		"size_s": RadialInput_size_s,
+		"extentr_er": RadialInput_extentr_er,
+		"extentp_ep": RadialInput_extentp_ep,
 	}
 
 	public output:
 	{
-		"Cells_C": RadialOutput_Cells_C,
-		"Points_P": RadialOutput_Points_P,
+		"cells_c": RadialOutput_cells_c,
+		"points_p": RadialOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new RadialInput_Plane_P(),
-			"Size_S": new RadialInput_Size_S(),
-			"ExtentR_Er": new RadialInput_ExtentR_Er(),
-			"ExtentP_Ep": new RadialInput_ExtentP_Ep(),
+			"plane_p": new RadialInput_plane_p(),
+			"size_s": new RadialInput_size_s(),
+			"extentr_er": new RadialInput_extentr_er(),
+			"extentp_ep": new RadialInput_extentp_ep(),
 		}
 		this.output = {
-			"Cells_C": new RadialOutput_Cells_C(),
-			"Points_P": new RadialOutput_Points_P(),
+			"cells_c": new RadialOutput_cells_c(),
+			"points_p": new RadialOutput_points_p(),
 		}
 	}
 
 }
 
-class RadialInput_Plane_P extends ResthopperParameter {
+class RadialInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class RadialInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RadialInput_Size_S extends ResthopperParameter {
+class RadialInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class RadialInput_Size_S extends ResthopperParameter {
 
 }
 
-class RadialInput_ExtentR_Er extends ResthopperParameter {
+class RadialInput_extentr_er extends ResthopperParameter {
 
 	public name: string = "ExtentR";
 	public nickName: string = "Er";
@@ -85,7 +85,7 @@ class RadialInput_ExtentR_Er extends ResthopperParameter {
 
 }
 
-class RadialInput_ExtentP_Ep extends ResthopperParameter {
+class RadialInput_extentp_ep extends ResthopperParameter {
 
 	public name: string = "ExtentP";
 	public nickName: string = "Ep";
@@ -99,7 +99,7 @@ class RadialInput_ExtentP_Ep extends ResthopperParameter {
 
 }
 
-class RadialOutput_Cells_C extends ResthopperParameter {
+class RadialOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class RadialOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class RadialOutput_Points_P extends ResthopperParameter {
+class RadialOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

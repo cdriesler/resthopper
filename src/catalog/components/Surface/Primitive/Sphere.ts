@@ -15,29 +15,29 @@ export default class Sphere extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": SphereInput_Base_B,
-		"Radius_R": SphereInput_Radius_R,
+		"base_b": SphereInput_base_b,
+		"radius_r": SphereInput_radius_r,
 	}
 
 	public output:
 	{
-		"Sphere_S": SphereOutput_Sphere_S,
+		"sphere_s": SphereOutput_sphere_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new SphereInput_Base_B(),
-			"Radius_R": new SphereInput_Radius_R(),
+			"base_b": new SphereInput_base_b(),
+			"radius_r": new SphereInput_radius_r(),
 		}
 		this.output = {
-			"Sphere_S": new SphereOutput_Sphere_S(),
+			"sphere_s": new SphereOutput_sphere_s(),
 		}
 	}
 
 }
 
-class SphereInput_Base_B extends ResthopperParameter {
+class SphereInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class SphereInput_Base_B extends ResthopperParameter {
 
 }
 
-class SphereInput_Radius_R extends ResthopperParameter {
+class SphereInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class SphereInput_Radius_R extends ResthopperParameter {
 
 }
 
-class SphereOutput_Sphere_S extends ResthopperParameter {
+class SphereOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";

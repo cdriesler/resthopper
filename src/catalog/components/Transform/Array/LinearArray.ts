@@ -15,33 +15,33 @@ export default class LinearArray extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": LinearArrayInput_Geometry_G,
-		"Direction_D": LinearArrayInput_Direction_D,
-		"Count_N": LinearArrayInput_Count_N,
+		"geometry_g": LinearArrayInput_geometry_g,
+		"direction_d": LinearArrayInput_direction_d,
+		"count_n": LinearArrayInput_count_n,
 	}
 
 	public output:
 	{
-		"Geometry_G": LinearArrayOutput_Geometry_G,
-		"Transform_X": LinearArrayOutput_Transform_X,
+		"geometry_g": LinearArrayOutput_geometry_g,
+		"transform_x": LinearArrayOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new LinearArrayInput_Geometry_G(),
-			"Direction_D": new LinearArrayInput_Direction_D(),
-			"Count_N": new LinearArrayInput_Count_N(),
+			"geometry_g": new LinearArrayInput_geometry_g(),
+			"direction_d": new LinearArrayInput_direction_d(),
+			"count_n": new LinearArrayInput_count_n(),
 		}
 		this.output = {
-			"Geometry_G": new LinearArrayOutput_Geometry_G(),
-			"Transform_X": new LinearArrayOutput_Transform_X(),
+			"geometry_g": new LinearArrayOutput_geometry_g(),
+			"transform_x": new LinearArrayOutput_transform_x(),
 		}
 	}
 
 }
 
-class LinearArrayInput_Geometry_G extends ResthopperParameter {
+class LinearArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class LinearArrayInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class LinearArrayInput_Direction_D extends ResthopperParameter {
+class LinearArrayInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -69,7 +69,7 @@ class LinearArrayInput_Direction_D extends ResthopperParameter {
 
 }
 
-class LinearArrayInput_Count_N extends ResthopperParameter {
+class LinearArrayInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -83,7 +83,7 @@ class LinearArrayInput_Count_N extends ResthopperParameter {
 
 }
 
-class LinearArrayOutput_Geometry_G extends ResthopperParameter {
+class LinearArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class LinearArrayOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class LinearArrayOutput_Transform_X extends ResthopperParameter {
+class LinearArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

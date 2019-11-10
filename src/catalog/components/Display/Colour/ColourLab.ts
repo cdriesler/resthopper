@@ -15,31 +15,31 @@ export default class ColourLab extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": ColourLabInput_A_A,
-		"Luminance_L": ColourLabInput_Luminance_L,
-		"B_B": ColourLabInput_B_B,
+		"a_a": ColourLabInput_a_a,
+		"luminance_l": ColourLabInput_luminance_l,
+		"b_b": ColourLabInput_b_b,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourLabOutput_Colour_C,
+		"colour_c": ColourLabOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new ColourLabInput_A_A(),
-			"Luminance_L": new ColourLabInput_Luminance_L(),
-			"B_B": new ColourLabInput_B_B(),
+			"a_a": new ColourLabInput_a_a(),
+			"luminance_l": new ColourLabInput_luminance_l(),
+			"b_b": new ColourLabInput_b_b(),
 		}
 		this.output = {
-			"Colour_C": new ColourLabOutput_Colour_C(),
+			"colour_c": new ColourLabOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourLabInput_A_A extends ResthopperParameter {
+class ColourLabInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class ColourLabInput_A_A extends ResthopperParameter {
 
 }
 
-class ColourLabInput_Luminance_L extends ResthopperParameter {
+class ColourLabInput_luminance_l extends ResthopperParameter {
 
 	public name: string = "Luminance";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class ColourLabInput_Luminance_L extends ResthopperParameter {
 
 }
 
-class ColourLabInput_B_B extends ResthopperParameter {
+class ColourLabInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class ColourLabInput_B_B extends ResthopperParameter {
 
 }
 
-class ColourLabOutput_Colour_C extends ResthopperParameter {
+class ColourLabOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

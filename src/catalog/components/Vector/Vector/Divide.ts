@@ -15,31 +15,31 @@ export default class Divide extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": DivideInput_Vector_V,
-		"Factor_F": DivideInput_Factor_F,
+		"vector_v": DivideInput_vector_v,
+		"factor_f": DivideInput_factor_f,
 	}
 
 	public output:
 	{
-		"Vector_V": DivideOutput_Vector_V,
-		"Length_L": DivideOutput_Length_L,
+		"vector_v": DivideOutput_vector_v,
+		"length_l": DivideOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new DivideInput_Vector_V(),
-			"Factor_F": new DivideInput_Factor_F(),
+			"vector_v": new DivideInput_vector_v(),
+			"factor_f": new DivideInput_factor_f(),
 		}
 		this.output = {
-			"Vector_V": new DivideOutput_Vector_V(),
-			"Length_L": new DivideOutput_Length_L(),
+			"vector_v": new DivideOutput_vector_v(),
+			"length_l": new DivideOutput_length_l(),
 		}
 	}
 
 }
 
-class DivideInput_Vector_V extends ResthopperParameter {
+class DivideInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class DivideInput_Vector_V extends ResthopperParameter {
 
 }
 
-class DivideInput_Factor_F extends ResthopperParameter {
+class DivideInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class DivideInput_Factor_F extends ResthopperParameter {
 
 }
 
-class DivideOutput_Vector_V extends ResthopperParameter {
+class DivideOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -81,7 +81,7 @@ class DivideOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class DivideOutput_Length_L extends ResthopperParameter {
+class DivideOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

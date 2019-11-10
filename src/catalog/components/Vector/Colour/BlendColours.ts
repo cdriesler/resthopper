@@ -15,31 +15,31 @@ export default class BlendColours extends ResthopperComponent {
 
 	public input:
 	{
-		"ColourA_A": BlendColoursInput_ColourA_A,
-		"ColourB_B": BlendColoursInput_ColourB_B,
-		"Factor_F": BlendColoursInput_Factor_F,
+		"coloura_a": BlendColoursInput_coloura_a,
+		"colourb_b": BlendColoursInput_colourb_b,
+		"factor_f": BlendColoursInput_factor_f,
 	}
 
 	public output:
 	{
-		"Colour_C": BlendColoursOutput_Colour_C,
+		"colour_c": BlendColoursOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"ColourA_A": new BlendColoursInput_ColourA_A(),
-			"ColourB_B": new BlendColoursInput_ColourB_B(),
-			"Factor_F": new BlendColoursInput_Factor_F(),
+			"coloura_a": new BlendColoursInput_coloura_a(),
+			"colourb_b": new BlendColoursInput_colourb_b(),
+			"factor_f": new BlendColoursInput_factor_f(),
 		}
 		this.output = {
-			"Colour_C": new BlendColoursOutput_Colour_C(),
+			"colour_c": new BlendColoursOutput_colour_c(),
 		}
 	}
 
 }
 
-class BlendColoursInput_ColourA_A extends ResthopperParameter {
+class BlendColoursInput_coloura_a extends ResthopperParameter {
 
 	public name: string = "ColourA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class BlendColoursInput_ColourA_A extends ResthopperParameter {
 
 }
 
-class BlendColoursInput_ColourB_B extends ResthopperParameter {
+class BlendColoursInput_colourb_b extends ResthopperParameter {
 
 	public name: string = "ColourB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class BlendColoursInput_ColourB_B extends ResthopperParameter {
 
 }
 
-class BlendColoursInput_Factor_F extends ResthopperParameter {
+class BlendColoursInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class BlendColoursInput_Factor_F extends ResthopperParameter {
 
 }
 
-class BlendColoursOutput_Colour_C extends ResthopperParameter {
+class BlendColoursOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

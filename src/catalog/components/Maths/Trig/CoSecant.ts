@@ -15,27 +15,27 @@ export default class CoSecant extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": CoSecantInput_Value_x,
+		"value_x": CoSecantInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": CoSecantOutput_Result_y,
+		"result_y": CoSecantOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new CoSecantInput_Value_x(),
+			"value_x": new CoSecantInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new CoSecantOutput_Result_y(),
+			"result_y": new CoSecantOutput_result_y(),
 		}
 	}
 
 }
 
-class CoSecantInput_Value_x extends ResthopperParameter {
+class CoSecantInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class CoSecantInput_Value_x extends ResthopperParameter {
 
 }
 
-class CoSecantOutput_Result_y extends ResthopperParameter {
+class CoSecantOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

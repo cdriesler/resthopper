@@ -15,27 +15,27 @@ export default class Average extends ResthopperComponent {
 
 	public input:
 	{
-		"Input_I": AverageInput_Input_I,
+		"input_i": AverageInput_input_i,
 	}
 
 	public output:
 	{
-		"Arithmeticmean_AM": AverageOutput_Arithmeticmean_AM,
+		"arithmeticmean_am": AverageOutput_arithmeticmean_am,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input_I": new AverageInput_Input_I(),
+			"input_i": new AverageInput_input_i(),
 		}
 		this.output = {
-			"Arithmeticmean_AM": new AverageOutput_Arithmeticmean_AM(),
+			"arithmeticmean_am": new AverageOutput_arithmeticmean_am(),
 		}
 	}
 
 }
 
-class AverageInput_Input_I extends ResthopperParameter {
+class AverageInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
@@ -49,7 +49,7 @@ class AverageInput_Input_I extends ResthopperParameter {
 
 }
 
-class AverageOutput_Arithmeticmean_AM extends ResthopperParameter {
+class AverageOutput_arithmeticmean_am extends ResthopperParameter {
 
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";

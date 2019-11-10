@@ -15,29 +15,29 @@ export default class MeshfromSubD extends ResthopperComponent {
 
 	public input:
 	{
-		"SubD_S": MeshfromSubDInput_SubD_S,
-		"Density_D": MeshfromSubDInput_Density_D,
+		"subd_s": MeshfromSubDInput_subd_s,
+		"density_d": MeshfromSubDInput_density_d,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshfromSubDOutput_Mesh_M,
+		"mesh_m": MeshfromSubDOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SubD_S": new MeshfromSubDInput_SubD_S(),
-			"Density_D": new MeshfromSubDInput_Density_D(),
+			"subd_s": new MeshfromSubDInput_subd_s(),
+			"density_d": new MeshfromSubDInput_density_d(),
 		}
 		this.output = {
-			"Mesh_M": new MeshfromSubDOutput_Mesh_M(),
+			"mesh_m": new MeshfromSubDOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshfromSubDInput_SubD_S extends ResthopperParameter {
+class MeshfromSubDInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class MeshfromSubDInput_SubD_S extends ResthopperParameter {
 
 }
 
-class MeshfromSubDInput_Density_D extends ResthopperParameter {
+class MeshfromSubDInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class MeshfromSubDInput_Density_D extends ResthopperParameter {
 
 }
 
-class MeshfromSubDOutput_Mesh_M extends ResthopperParameter {
+class MeshfromSubDOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

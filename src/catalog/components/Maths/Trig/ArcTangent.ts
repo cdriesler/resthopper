@@ -15,27 +15,27 @@ export default class ArcTangent extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": ArcTangentInput_Value_x,
+		"value_x": ArcTangentInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": ArcTangentOutput_Result_y,
+		"result_y": ArcTangentOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new ArcTangentInput_Value_x(),
+			"value_x": new ArcTangentInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new ArcTangentOutput_Result_y(),
+			"result_y": new ArcTangentOutput_result_y(),
 		}
 	}
 
 }
 
-class ArcTangentInput_Value_x extends ResthopperParameter {
+class ArcTangentInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class ArcTangentInput_Value_x extends ResthopperParameter {
 
 }
 
-class ArcTangentOutput_Result_y extends ResthopperParameter {
+class ArcTangentOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

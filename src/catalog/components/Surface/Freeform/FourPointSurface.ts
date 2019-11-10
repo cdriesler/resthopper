@@ -15,33 +15,33 @@ export default class FourPointSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": FourPointSurfaceInput_CornerA_A,
-		"CornerB_B": FourPointSurfaceInput_CornerB_B,
-		"CornerC_C": FourPointSurfaceInput_CornerC_C,
-		"CornerD_D": FourPointSurfaceInput_CornerD_D,
+		"cornera_a": FourPointSurfaceInput_cornera_a,
+		"cornerb_b": FourPointSurfaceInput_cornerb_b,
+		"cornerc_c": FourPointSurfaceInput_cornerc_c,
+		"cornerd_d": FourPointSurfaceInput_cornerd_d,
 	}
 
 	public output:
 	{
-		"Surface_S": FourPointSurfaceOutput_Surface_S,
+		"surface_s": FourPointSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new FourPointSurfaceInput_CornerA_A(),
-			"CornerB_B": new FourPointSurfaceInput_CornerB_B(),
-			"CornerC_C": new FourPointSurfaceInput_CornerC_C(),
-			"CornerD_D": new FourPointSurfaceInput_CornerD_D(),
+			"cornera_a": new FourPointSurfaceInput_cornera_a(),
+			"cornerb_b": new FourPointSurfaceInput_cornerb_b(),
+			"cornerc_c": new FourPointSurfaceInput_cornerc_c(),
+			"cornerd_d": new FourPointSurfaceInput_cornerd_d(),
 		}
 		this.output = {
-			"Surface_S": new FourPointSurfaceOutput_Surface_S(),
+			"surface_s": new FourPointSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class FourPointSurfaceInput_CornerA_A extends ResthopperParameter {
+class FourPointSurfaceInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class FourPointSurfaceInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class FourPointSurfaceInput_CornerB_B extends ResthopperParameter {
+class FourPointSurfaceInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class FourPointSurfaceInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class FourPointSurfaceInput_CornerC_C extends ResthopperParameter {
+class FourPointSurfaceInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class FourPointSurfaceInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class FourPointSurfaceInput_CornerD_D extends ResthopperParameter {
+class FourPointSurfaceInput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
@@ -97,7 +97,7 @@ class FourPointSurfaceInput_CornerD_D extends ResthopperParameter {
 
 }
 
-class FourPointSurfaceOutput_Surface_S extends ResthopperParameter {
+class FourPointSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

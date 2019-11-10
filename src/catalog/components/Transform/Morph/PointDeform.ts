@@ -15,31 +15,31 @@ export default class PointDeform extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": PointDeformInput_Geometry_G,
-		"Points_P": PointDeformInput_Points_P,
-		"Motion_M": PointDeformInput_Motion_M,
+		"geometry_g": PointDeformInput_geometry_g,
+		"points_p": PointDeformInput_points_p,
+		"motion_m": PointDeformInput_motion_m,
 	}
 
 	public output:
 	{
-		"Geometry_G": PointDeformOutput_Geometry_G,
+		"geometry_g": PointDeformOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new PointDeformInput_Geometry_G(),
-			"Points_P": new PointDeformInput_Points_P(),
-			"Motion_M": new PointDeformInput_Motion_M(),
+			"geometry_g": new PointDeformInput_geometry_g(),
+			"points_p": new PointDeformInput_points_p(),
+			"motion_m": new PointDeformInput_motion_m(),
 		}
 		this.output = {
-			"Geometry_G": new PointDeformOutput_Geometry_G(),
+			"geometry_g": new PointDeformOutput_geometry_g(),
 		}
 	}
 
 }
 
-class PointDeformInput_Geometry_G extends ResthopperParameter {
+class PointDeformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class PointDeformInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class PointDeformInput_Points_P extends ResthopperParameter {
+class PointDeformInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class PointDeformInput_Points_P extends ResthopperParameter {
 
 }
 
-class PointDeformInput_Motion_M extends ResthopperParameter {
+class PointDeformInput_motion_m extends ResthopperParameter {
 
 	public name: string = "Motion";
 	public nickName: string = "M";
@@ -81,7 +81,7 @@ class PointDeformInput_Motion_M extends ResthopperParameter {
 
 }
 
-class PointDeformOutput_Geometry_G extends ResthopperParameter {
+class PointDeformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

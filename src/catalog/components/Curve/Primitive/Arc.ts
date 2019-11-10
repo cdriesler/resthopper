@@ -15,33 +15,33 @@ export default class Arc extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": ArcInput_Plane_P,
-		"Radius_R": ArcInput_Radius_R,
-		"Angle_A": ArcInput_Angle_A,
+		"plane_p": ArcInput_plane_p,
+		"radius_r": ArcInput_radius_r,
+		"angle_a": ArcInput_angle_a,
 	}
 
 	public output:
 	{
-		"Arc_A": ArcOutput_Arc_A,
-		"Length_L": ArcOutput_Length_L,
+		"arc_a": ArcOutput_arc_a,
+		"length_l": ArcOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new ArcInput_Plane_P(),
-			"Radius_R": new ArcInput_Radius_R(),
-			"Angle_A": new ArcInput_Angle_A(),
+			"plane_p": new ArcInput_plane_p(),
+			"radius_r": new ArcInput_radius_r(),
+			"angle_a": new ArcInput_angle_a(),
 		}
 		this.output = {
-			"Arc_A": new ArcOutput_Arc_A(),
-			"Length_L": new ArcOutput_Length_L(),
+			"arc_a": new ArcOutput_arc_a(),
+			"length_l": new ArcOutput_length_l(),
 		}
 	}
 
 }
 
-class ArcInput_Plane_P extends ResthopperParameter {
+class ArcInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ArcInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ArcInput_Radius_R extends ResthopperParameter {
+class ArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class ArcInput_Radius_R extends ResthopperParameter {
 
 }
 
-class ArcInput_Angle_A extends ResthopperParameter {
+class ArcInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class ArcInput_Angle_A extends ResthopperParameter {
 
 }
 
-class ArcOutput_Arc_A extends ResthopperParameter {
+class ArcOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class ArcOutput_Arc_A extends ResthopperParameter {
 
 }
 
-class ArcOutput_Length_L extends ResthopperParameter {
+class ArcOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

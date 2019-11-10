@@ -15,33 +15,33 @@ export default class Addition extends ResthopperComponent {
 
 	public input:
 	{
-		"VectorA_A": AdditionInput_VectorA_A,
-		"VectorB_B": AdditionInput_VectorB_B,
-		"Unitize_U": AdditionInput_Unitize_U,
+		"vectora_a": AdditionInput_vectora_a,
+		"vectorb_b": AdditionInput_vectorb_b,
+		"unitize_u": AdditionInput_unitize_u,
 	}
 
 	public output:
 	{
-		"Vector_V": AdditionOutput_Vector_V,
-		"Length_L": AdditionOutput_Length_L,
+		"vector_v": AdditionOutput_vector_v,
+		"length_l": AdditionOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"VectorA_A": new AdditionInput_VectorA_A(),
-			"VectorB_B": new AdditionInput_VectorB_B(),
-			"Unitize_U": new AdditionInput_Unitize_U(),
+			"vectora_a": new AdditionInput_vectora_a(),
+			"vectorb_b": new AdditionInput_vectorb_b(),
+			"unitize_u": new AdditionInput_unitize_u(),
 		}
 		this.output = {
-			"Vector_V": new AdditionOutput_Vector_V(),
-			"Length_L": new AdditionOutput_Length_L(),
+			"vector_v": new AdditionOutput_vector_v(),
+			"length_l": new AdditionOutput_length_l(),
 		}
 	}
 
 }
 
-class AdditionInput_VectorA_A extends ResthopperParameter {
+class AdditionInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class AdditionInput_VectorA_A extends ResthopperParameter {
 
 }
 
-class AdditionInput_VectorB_B extends ResthopperParameter {
+class AdditionInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class AdditionInput_VectorB_B extends ResthopperParameter {
 
 }
 
-class AdditionInput_Unitize_U extends ResthopperParameter {
+class AdditionInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
@@ -83,7 +83,7 @@ class AdditionInput_Unitize_U extends ResthopperParameter {
 
 }
 
-class AdditionOutput_Vector_V extends ResthopperParameter {
+class AdditionOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class AdditionOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class AdditionOutput_Length_L extends ResthopperParameter {
+class AdditionOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

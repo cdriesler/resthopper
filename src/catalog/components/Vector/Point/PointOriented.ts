@@ -15,33 +15,33 @@ export default class PointOriented extends ResthopperComponent {
 
 	public input:
 	{
-		"Baseplane_P": PointOrientedInput_Baseplane_P,
-		"Ucomponent_U": PointOrientedInput_Ucomponent_U,
-		"Vcomponent_V": PointOrientedInput_Vcomponent_V,
-		"Wcomponent_W": PointOrientedInput_Wcomponent_W,
+		"baseplane_p": PointOrientedInput_baseplane_p,
+		"ucomponent_u": PointOrientedInput_ucomponent_u,
+		"vcomponent_v": PointOrientedInput_vcomponent_v,
+		"wcomponent_w": PointOrientedInput_wcomponent_w,
 	}
 
 	public output:
 	{
-		"Point_Pt": PointOrientedOutput_Point_Pt,
+		"point_pt": PointOrientedOutput_point_pt,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Baseplane_P": new PointOrientedInput_Baseplane_P(),
-			"Ucomponent_U": new PointOrientedInput_Ucomponent_U(),
-			"Vcomponent_V": new PointOrientedInput_Vcomponent_V(),
-			"Wcomponent_W": new PointOrientedInput_Wcomponent_W(),
+			"baseplane_p": new PointOrientedInput_baseplane_p(),
+			"ucomponent_u": new PointOrientedInput_ucomponent_u(),
+			"vcomponent_v": new PointOrientedInput_vcomponent_v(),
+			"wcomponent_w": new PointOrientedInput_wcomponent_w(),
 		}
 		this.output = {
-			"Point_Pt": new PointOrientedOutput_Point_Pt(),
+			"point_pt": new PointOrientedOutput_point_pt(),
 		}
 	}
 
 }
 
-class PointOrientedInput_Baseplane_P extends ResthopperParameter {
+class PointOrientedInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PointOrientedInput_Baseplane_P extends ResthopperParameter {
 
 }
 
-class PointOrientedInput_Ucomponent_U extends ResthopperParameter {
+class PointOrientedInput_ucomponent_u extends ResthopperParameter {
 
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
@@ -69,7 +69,7 @@ class PointOrientedInput_Ucomponent_U extends ResthopperParameter {
 
 }
 
-class PointOrientedInput_Vcomponent_V extends ResthopperParameter {
+class PointOrientedInput_vcomponent_v extends ResthopperParameter {
 
 	public name: string = "Vcomponent";
 	public nickName: string = "V";
@@ -83,7 +83,7 @@ class PointOrientedInput_Vcomponent_V extends ResthopperParameter {
 
 }
 
-class PointOrientedInput_Wcomponent_W extends ResthopperParameter {
+class PointOrientedInput_wcomponent_w extends ResthopperParameter {
 
 	public name: string = "Wcomponent";
 	public nickName: string = "W";
@@ -97,7 +97,7 @@ class PointOrientedInput_Wcomponent_W extends ResthopperParameter {
 
 }
 
-class PointOrientedOutput_Point_Pt extends ResthopperParameter {
+class PointOrientedOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";

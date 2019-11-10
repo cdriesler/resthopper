@@ -15,29 +15,29 @@ export default class Addition extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": AdditionInput_A_A,
-		"B_B": AdditionInput_B_B,
+		"a_a": AdditionInput_a_a,
+		"b_b": AdditionInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": AdditionOutput_Result_R,
+		"result_r": AdditionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new AdditionInput_A_A(),
-			"B_B": new AdditionInput_B_B(),
+			"a_a": new AdditionInput_a_a(),
+			"b_b": new AdditionInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new AdditionOutput_Result_R(),
+			"result_r": new AdditionOutput_result_r(),
 		}
 	}
 
 }
 
-class AdditionInput_A_A extends ResthopperParameter {
+class AdditionInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class AdditionInput_A_A extends ResthopperParameter {
 
 }
 
-class AdditionInput_B_B extends ResthopperParameter {
+class AdditionInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class AdditionInput_B_B extends ResthopperParameter {
 
 }
 
-class AdditionOutput_Result_R extends ResthopperParameter {
+class AdditionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -20,7 +20,7 @@ export default class SettingsQuality extends ResthopperComponent {
 
 	public output:
 	{
-		"Settings_S": SettingsQualityOutput_Settings_S,
+		"settings_s": SettingsQualityOutput_settings_s,
 	}
 
 	constructor() {
@@ -29,13 +29,13 @@ export default class SettingsQuality extends ResthopperComponent {
 
 		}
 		this.output = {
-			"Settings_S": new SettingsQualityOutput_Settings_S(),
+			"settings_s": new SettingsQualityOutput_settings_s(),
 		}
 	}
 
 }
 
-class SettingsQualityOutput_Settings_S extends ResthopperParameter {
+class SettingsQualityOutput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";

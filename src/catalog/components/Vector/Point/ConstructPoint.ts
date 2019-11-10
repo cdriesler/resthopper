@@ -15,31 +15,31 @@ export default class ConstructPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Xcoordinate_X": ConstructPointInput_Xcoordinate_X,
-		"Ycoordinate_Y": ConstructPointInput_Ycoordinate_Y,
-		"Zcoordinate_Z": ConstructPointInput_Zcoordinate_Z,
+		"xcoordinate_x": ConstructPointInput_xcoordinate_x,
+		"ycoordinate_y": ConstructPointInput_ycoordinate_y,
+		"zcoordinate_z": ConstructPointInput_zcoordinate_z,
 	}
 
 	public output:
 	{
-		"Point_Pt": ConstructPointOutput_Point_Pt,
+		"point_pt": ConstructPointOutput_point_pt,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Xcoordinate_X": new ConstructPointInput_Xcoordinate_X(),
-			"Ycoordinate_Y": new ConstructPointInput_Ycoordinate_Y(),
-			"Zcoordinate_Z": new ConstructPointInput_Zcoordinate_Z(),
+			"xcoordinate_x": new ConstructPointInput_xcoordinate_x(),
+			"ycoordinate_y": new ConstructPointInput_ycoordinate_y(),
+			"zcoordinate_z": new ConstructPointInput_zcoordinate_z(),
 		}
 		this.output = {
-			"Point_Pt": new ConstructPointOutput_Point_Pt(),
+			"point_pt": new ConstructPointOutput_point_pt(),
 		}
 	}
 
 }
 
-class ConstructPointInput_Xcoordinate_X extends ResthopperParameter {
+class ConstructPointInput_xcoordinate_x extends ResthopperParameter {
 
 	public name: string = "Xcoordinate";
 	public nickName: string = "X";
@@ -53,7 +53,7 @@ class ConstructPointInput_Xcoordinate_X extends ResthopperParameter {
 
 }
 
-class ConstructPointInput_Ycoordinate_Y extends ResthopperParameter {
+class ConstructPointInput_ycoordinate_y extends ResthopperParameter {
 
 	public name: string = "Ycoordinate";
 	public nickName: string = "Y";
@@ -67,7 +67,7 @@ class ConstructPointInput_Ycoordinate_Y extends ResthopperParameter {
 
 }
 
-class ConstructPointInput_Zcoordinate_Z extends ResthopperParameter {
+class ConstructPointInput_zcoordinate_z extends ResthopperParameter {
 
 	public name: string = "Zcoordinate";
 	public nickName: string = "Z";
@@ -81,7 +81,7 @@ class ConstructPointInput_Zcoordinate_Z extends ResthopperParameter {
 
 }
 
-class ConstructPointOutput_Point_Pt extends ResthopperParameter {
+class ConstructPointOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";

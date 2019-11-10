@@ -15,35 +15,35 @@ export default class BlendCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": BlendCurveInput_CurveA_A,
-		"CurveB_B": BlendCurveInput_CurveB_B,
-		"BulgeA_Fa": BlendCurveInput_BulgeA_Fa,
-		"BulgeB_Fb": BlendCurveInput_BulgeB_Fb,
-		"Continuity_C": BlendCurveInput_Continuity_C,
+		"curvea_a": BlendCurveInput_curvea_a,
+		"curveb_b": BlendCurveInput_curveb_b,
+		"bulgea_fa": BlendCurveInput_bulgea_fa,
+		"bulgeb_fb": BlendCurveInput_bulgeb_fb,
+		"continuity_c": BlendCurveInput_continuity_c,
 	}
 
 	public output:
 	{
-		"Blend_B": BlendCurveOutput_Blend_B,
+		"blend_b": BlendCurveOutput_blend_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new BlendCurveInput_CurveA_A(),
-			"CurveB_B": new BlendCurveInput_CurveB_B(),
-			"BulgeA_Fa": new BlendCurveInput_BulgeA_Fa(),
-			"BulgeB_Fb": new BlendCurveInput_BulgeB_Fb(),
-			"Continuity_C": new BlendCurveInput_Continuity_C(),
+			"curvea_a": new BlendCurveInput_curvea_a(),
+			"curveb_b": new BlendCurveInput_curveb_b(),
+			"bulgea_fa": new BlendCurveInput_bulgea_fa(),
+			"bulgeb_fb": new BlendCurveInput_bulgeb_fb(),
+			"continuity_c": new BlendCurveInput_continuity_c(),
 		}
 		this.output = {
-			"Blend_B": new BlendCurveOutput_Blend_B(),
+			"blend_b": new BlendCurveOutput_blend_b(),
 		}
 	}
 
 }
 
-class BlendCurveInput_CurveA_A extends ResthopperParameter {
+class BlendCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -57,7 +57,7 @@ class BlendCurveInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class BlendCurveInput_CurveB_B extends ResthopperParameter {
+class BlendCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class BlendCurveInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class BlendCurveInput_BulgeA_Fa extends ResthopperParameter {
+class BlendCurveInput_bulgea_fa extends ResthopperParameter {
 
 	public name: string = "BulgeA";
 	public nickName: string = "Fa";
@@ -85,7 +85,7 @@ class BlendCurveInput_BulgeA_Fa extends ResthopperParameter {
 
 }
 
-class BlendCurveInput_BulgeB_Fb extends ResthopperParameter {
+class BlendCurveInput_bulgeb_fb extends ResthopperParameter {
 
 	public name: string = "BulgeB";
 	public nickName: string = "Fb";
@@ -99,7 +99,7 @@ class BlendCurveInput_BulgeB_Fb extends ResthopperParameter {
 
 }
 
-class BlendCurveInput_Continuity_C extends ResthopperParameter {
+class BlendCurveInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class BlendCurveInput_Continuity_C extends ResthopperParameter {
 
 }
 
-class BlendCurveOutput_Blend_B extends ResthopperParameter {
+class BlendCurveOutput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";

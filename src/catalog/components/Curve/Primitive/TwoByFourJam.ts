@@ -15,31 +15,31 @@ export default class TwoByFourJam extends ResthopperComponent {
 
 	public input:
 	{
-		"Room_R": TwoByFourJamInput_Room_R,
-		"Width_W": TwoByFourJamInput_Width_W,
-		"Samples_S": TwoByFourJamInput_Samples_S,
+		"room_r": TwoByFourJamInput_room_r,
+		"width_w": TwoByFourJamInput_width_w,
+		"samples_s": TwoByFourJamInput_samples_s,
 	}
 
 	public output:
 	{
-		"Rectangle_R": TwoByFourJamOutput_Rectangle_R,
+		"rectangle_r": TwoByFourJamOutput_rectangle_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Room_R": new TwoByFourJamInput_Room_R(),
-			"Width_W": new TwoByFourJamInput_Width_W(),
-			"Samples_S": new TwoByFourJamInput_Samples_S(),
+			"room_r": new TwoByFourJamInput_room_r(),
+			"width_w": new TwoByFourJamInput_width_w(),
+			"samples_s": new TwoByFourJamInput_samples_s(),
 		}
 		this.output = {
-			"Rectangle_R": new TwoByFourJamOutput_Rectangle_R(),
+			"rectangle_r": new TwoByFourJamOutput_rectangle_r(),
 		}
 	}
 
 }
 
-class TwoByFourJamInput_Room_R extends ResthopperParameter {
+class TwoByFourJamInput_room_r extends ResthopperParameter {
 
 	public name: string = "Room";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class TwoByFourJamInput_Room_R extends ResthopperParameter {
 
 }
 
-class TwoByFourJamInput_Width_W extends ResthopperParameter {
+class TwoByFourJamInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
@@ -67,7 +67,7 @@ class TwoByFourJamInput_Width_W extends ResthopperParameter {
 
 }
 
-class TwoByFourJamInput_Samples_S extends ResthopperParameter {
+class TwoByFourJamInput_samples_s extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class TwoByFourJamInput_Samples_S extends ResthopperParameter {
 
 }
 
-class TwoByFourJamOutput_Rectangle_R extends ResthopperParameter {
+class TwoByFourJamOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";

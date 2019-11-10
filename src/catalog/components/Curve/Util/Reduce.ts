@@ -15,31 +15,31 @@ export default class Reduce extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": ReduceInput_Polyline_P,
-		"Tolerance_T": ReduceInput_Tolerance_T,
+		"polyline_p": ReduceInput_polyline_p,
+		"tolerance_t": ReduceInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Polyline_P": ReduceOutput_Polyline_P,
-		"Reduction_R": ReduceOutput_Reduction_R,
+		"polyline_p": ReduceOutput_polyline_p,
+		"reduction_r": ReduceOutput_reduction_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new ReduceInput_Polyline_P(),
-			"Tolerance_T": new ReduceInput_Tolerance_T(),
+			"polyline_p": new ReduceInput_polyline_p(),
+			"tolerance_t": new ReduceInput_tolerance_t(),
 		}
 		this.output = {
-			"Polyline_P": new ReduceOutput_Polyline_P(),
-			"Reduction_R": new ReduceOutput_Reduction_R(),
+			"polyline_p": new ReduceOutput_polyline_p(),
+			"reduction_r": new ReduceOutput_reduction_r(),
 		}
 	}
 
 }
 
-class ReduceInput_Polyline_P extends ResthopperParameter {
+class ReduceInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class ReduceInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class ReduceInput_Tolerance_T extends ResthopperParameter {
+class ReduceInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class ReduceInput_Tolerance_T extends ResthopperParameter {
 
 }
 
-class ReduceOutput_Polyline_P extends ResthopperParameter {
+class ReduceOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class ReduceOutput_Polyline_P extends ResthopperParameter {
 
 }
 
-class ReduceOutput_Reduction_R extends ResthopperParameter {
+class ReduceOutput_reduction_r extends ResthopperParameter {
 
 	public name: string = "Reduction";
 	public nickName: string = "R";

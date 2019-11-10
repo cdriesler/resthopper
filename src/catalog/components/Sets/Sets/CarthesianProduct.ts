@@ -15,29 +15,29 @@ export default class CarthesianProduct extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": CarthesianProductInput_SetA_A,
-		"SetB_B": CarthesianProductInput_SetB_B,
+		"seta_a": CarthesianProductInput_seta_a,
+		"setb_b": CarthesianProductInput_setb_b,
 	}
 
 	public output:
 	{
-		"Product_P": CarthesianProductOutput_Product_P,
+		"product_p": CarthesianProductOutput_product_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new CarthesianProductInput_SetA_A(),
-			"SetB_B": new CarthesianProductInput_SetB_B(),
+			"seta_a": new CarthesianProductInput_seta_a(),
+			"setb_b": new CarthesianProductInput_setb_b(),
 		}
 		this.output = {
-			"Product_P": new CarthesianProductOutput_Product_P(),
+			"product_p": new CarthesianProductOutput_product_p(),
 		}
 	}
 
 }
 
-class CarthesianProductInput_SetA_A extends ResthopperParameter {
+class CarthesianProductInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class CarthesianProductInput_SetA_A extends ResthopperParameter {
 
 }
 
-class CarthesianProductInput_SetB_B extends ResthopperParameter {
+class CarthesianProductInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class CarthesianProductInput_SetB_B extends ResthopperParameter {
 
 }
 
-class CarthesianProductOutput_Product_P extends ResthopperParameter {
+class CarthesianProductOutput_product_p extends ResthopperParameter {
 
 	public name: string = "Product";
 	public nickName: string = "P";

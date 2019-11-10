@@ -15,27 +15,27 @@ export default class GraftTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": GraftTreeInput_Tree_T,
+		"tree_t": GraftTreeInput_tree_t,
 	}
 
 	public output:
 	{
-		"Tree_T": GraftTreeOutput_Tree_T,
+		"tree_t": GraftTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new GraftTreeInput_Tree_T(),
+			"tree_t": new GraftTreeInput_tree_t(),
 		}
 		this.output = {
-			"Tree_T": new GraftTreeOutput_Tree_T(),
+			"tree_t": new GraftTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class GraftTreeInput_Tree_T extends ResthopperParameter {
+class GraftTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -49,7 +49,7 @@ class GraftTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class GraftTreeOutput_Tree_T extends ResthopperParameter {
+class GraftTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

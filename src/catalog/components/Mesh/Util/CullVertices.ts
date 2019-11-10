@@ -15,31 +15,31 @@ export default class CullVertices extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": CullVerticesInput_Mesh_M,
-		"Pattern_P": CullVerticesInput_Pattern_P,
-		"Shrink_S": CullVerticesInput_Shrink_S,
+		"mesh_m": CullVerticesInput_mesh_m,
+		"pattern_p": CullVerticesInput_pattern_p,
+		"shrink_s": CullVerticesInput_shrink_s,
 	}
 
 	public output:
 	{
-		"Mesh_M": CullVerticesOutput_Mesh_M,
+		"mesh_m": CullVerticesOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new CullVerticesInput_Mesh_M(),
-			"Pattern_P": new CullVerticesInput_Pattern_P(),
-			"Shrink_S": new CullVerticesInput_Shrink_S(),
+			"mesh_m": new CullVerticesInput_mesh_m(),
+			"pattern_p": new CullVerticesInput_pattern_p(),
+			"shrink_s": new CullVerticesInput_shrink_s(),
 		}
 		this.output = {
-			"Mesh_M": new CullVerticesOutput_Mesh_M(),
+			"mesh_m": new CullVerticesOutput_mesh_m(),
 		}
 	}
 
 }
 
-class CullVerticesInput_Mesh_M extends ResthopperParameter {
+class CullVerticesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class CullVerticesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class CullVerticesInput_Pattern_P extends ResthopperParameter {
+class CullVerticesInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class CullVerticesInput_Pattern_P extends ResthopperParameter {
 
 }
 
-class CullVerticesInput_Shrink_S extends ResthopperParameter {
+class CullVerticesInput_shrink_s extends ResthopperParameter {
 
 	public name: string = "Shrink";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class CullVerticesInput_Shrink_S extends ResthopperParameter {
 
 }
 
-class CullVerticesOutput_Mesh_M extends ResthopperParameter {
+class CullVerticesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

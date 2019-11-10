@@ -15,33 +15,33 @@ export default class Shear extends ResthopperComponent {
 
 	public input:
 	{
-		"Grip_G": ShearInput_Grip_G,
-		"Base_P": ShearInput_Base_P,
-		"Target_T": ShearInput_Target_T,
+		"grip_g": ShearInput_grip_g,
+		"base_p": ShearInput_base_p,
+		"target_t": ShearInput_target_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": ShearOutput_Geometry_G,
-		"Transform_X": ShearOutput_Transform_X,
+		"geometry_g": ShearOutput_geometry_g,
+		"transform_x": ShearOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Grip_G": new ShearInput_Grip_G(),
-			"Base_P": new ShearInput_Base_P(),
-			"Target_T": new ShearInput_Target_T(),
+			"grip_g": new ShearInput_grip_g(),
+			"base_p": new ShearInput_base_p(),
+			"target_t": new ShearInput_target_t(),
 		}
 		this.output = {
-			"Geometry_G": new ShearOutput_Geometry_G(),
-			"Transform_X": new ShearOutput_Transform_X(),
+			"geometry_g": new ShearOutput_geometry_g(),
+			"transform_x": new ShearOutput_transform_x(),
 		}
 	}
 
 }
 
-class ShearInput_Grip_G extends ResthopperParameter {
+class ShearInput_grip_g extends ResthopperParameter {
 
 	public name: string = "Grip";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class ShearInput_Grip_G extends ResthopperParameter {
 
 }
 
-class ShearInput_Base_P extends ResthopperParameter {
+class ShearInput_base_p extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class ShearInput_Base_P extends ResthopperParameter {
 
 }
 
-class ShearInput_Target_T extends ResthopperParameter {
+class ShearInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class ShearInput_Target_T extends ResthopperParameter {
 
 }
 
-class ShearOutput_Geometry_G extends ResthopperParameter {
+class ShearOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class ShearOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ShearOutput_Transform_X extends ResthopperParameter {
+class ShearOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

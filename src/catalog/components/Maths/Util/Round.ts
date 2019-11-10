@@ -15,31 +15,31 @@ export default class Round extends ResthopperComponent {
 
 	public input:
 	{
-		"Number_x": RoundInput_Number_x,
+		"number_x": RoundInput_number_x,
 	}
 
 	public output:
 	{
-		"Nearest_N": RoundOutput_Nearest_N,
-		"Floor_F": RoundOutput_Floor_F,
-		"Ceiling_C": RoundOutput_Ceiling_C,
+		"nearest_n": RoundOutput_nearest_n,
+		"floor_f": RoundOutput_floor_f,
+		"ceiling_c": RoundOutput_ceiling_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Number_x": new RoundInput_Number_x(),
+			"number_x": new RoundInput_number_x(),
 		}
 		this.output = {
-			"Nearest_N": new RoundOutput_Nearest_N(),
-			"Floor_F": new RoundOutput_Floor_F(),
-			"Ceiling_C": new RoundOutput_Ceiling_C(),
+			"nearest_n": new RoundOutput_nearest_n(),
+			"floor_f": new RoundOutput_floor_f(),
+			"ceiling_c": new RoundOutput_ceiling_c(),
 		}
 	}
 
 }
 
-class RoundInput_Number_x extends ResthopperParameter {
+class RoundInput_number_x extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "x";
@@ -53,7 +53,7 @@ class RoundInput_Number_x extends ResthopperParameter {
 
 }
 
-class RoundOutput_Nearest_N extends ResthopperParameter {
+class RoundOutput_nearest_n extends ResthopperParameter {
 
 	public name: string = "Nearest";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class RoundOutput_Nearest_N extends ResthopperParameter {
 
 }
 
-class RoundOutput_Floor_F extends ResthopperParameter {
+class RoundOutput_floor_f extends ResthopperParameter {
 
 	public name: string = "Floor";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class RoundOutput_Floor_F extends ResthopperParameter {
 
 }
 
-class RoundOutput_Ceiling_C extends ResthopperParameter {
+class RoundOutput_ceiling_c extends ResthopperParameter {
 
 	public name: string = "Ceiling";
 	public nickName: string = "C";

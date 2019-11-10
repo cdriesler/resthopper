@@ -15,33 +15,33 @@ export default class Scale extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": ScaleInput_Geometry_G,
-		"Center_C": ScaleInput_Center_C,
-		"Factor_F": ScaleInput_Factor_F,
+		"geometry_g": ScaleInput_geometry_g,
+		"center_c": ScaleInput_center_c,
+		"factor_f": ScaleInput_factor_f,
 	}
 
 	public output:
 	{
-		"Geometry_G": ScaleOutput_Geometry_G,
-		"Transform_X": ScaleOutput_Transform_X,
+		"geometry_g": ScaleOutput_geometry_g,
+		"transform_x": ScaleOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new ScaleInput_Geometry_G(),
-			"Center_C": new ScaleInput_Center_C(),
-			"Factor_F": new ScaleInput_Factor_F(),
+			"geometry_g": new ScaleInput_geometry_g(),
+			"center_c": new ScaleInput_center_c(),
+			"factor_f": new ScaleInput_factor_f(),
 		}
 		this.output = {
-			"Geometry_G": new ScaleOutput_Geometry_G(),
-			"Transform_X": new ScaleOutput_Transform_X(),
+			"geometry_g": new ScaleOutput_geometry_g(),
+			"transform_x": new ScaleOutput_transform_x(),
 		}
 	}
 
 }
 
-class ScaleInput_Geometry_G extends ResthopperParameter {
+class ScaleInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class ScaleInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ScaleInput_Center_C extends ResthopperParameter {
+class ScaleInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class ScaleInput_Center_C extends ResthopperParameter {
 
 }
 
-class ScaleInput_Factor_F extends ResthopperParameter {
+class ScaleInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class ScaleInput_Factor_F extends ResthopperParameter {
 
 }
 
-class ScaleOutput_Geometry_G extends ResthopperParameter {
+class ScaleOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class ScaleOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ScaleOutput_Transform_X extends ResthopperParameter {
+class ScaleOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

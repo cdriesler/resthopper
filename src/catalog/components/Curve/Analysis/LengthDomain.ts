@@ -15,29 +15,29 @@ export default class LengthDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": LengthDomainInput_Curve_C,
-		"Domain_D": LengthDomainInput_Domain_D,
+		"curve_c": LengthDomainInput_curve_c,
+		"domain_d": LengthDomainInput_domain_d,
 	}
 
 	public output:
 	{
-		"Length_L": LengthDomainOutput_Length_L,
+		"length_l": LengthDomainOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new LengthDomainInput_Curve_C(),
-			"Domain_D": new LengthDomainInput_Domain_D(),
+			"curve_c": new LengthDomainInput_curve_c(),
+			"domain_d": new LengthDomainInput_domain_d(),
 		}
 		this.output = {
-			"Length_L": new LengthDomainOutput_Length_L(),
+			"length_l": new LengthDomainOutput_length_l(),
 		}
 	}
 
 }
 
-class LengthDomainInput_Curve_C extends ResthopperParameter {
+class LengthDomainInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class LengthDomainInput_Curve_C extends ResthopperParameter {
 
 }
 
-class LengthDomainInput_Domain_D extends ResthopperParameter {
+class LengthDomainInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class LengthDomainInput_Domain_D extends ResthopperParameter {
 
 }
 
-class LengthDomainOutput_Length_L extends ResthopperParameter {
+class LengthDomainOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

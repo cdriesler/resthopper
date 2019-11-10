@@ -15,29 +15,29 @@ export default class HorizontalFrame extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": HorizontalFrameInput_Curve_C,
-		"Parameter_t": HorizontalFrameInput_Parameter_t,
+		"curve_c": HorizontalFrameInput_curve_c,
+		"parameter_t": HorizontalFrameInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Frame_F": HorizontalFrameOutput_Frame_F,
+		"frame_f": HorizontalFrameOutput_frame_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new HorizontalFrameInput_Curve_C(),
-			"Parameter_t": new HorizontalFrameInput_Parameter_t(),
+			"curve_c": new HorizontalFrameInput_curve_c(),
+			"parameter_t": new HorizontalFrameInput_parameter_t(),
 		}
 		this.output = {
-			"Frame_F": new HorizontalFrameOutput_Frame_F(),
+			"frame_f": new HorizontalFrameOutput_frame_f(),
 		}
 	}
 
 }
 
-class HorizontalFrameInput_Curve_C extends ResthopperParameter {
+class HorizontalFrameInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class HorizontalFrameInput_Curve_C extends ResthopperParameter {
 
 }
 
-class HorizontalFrameInput_Parameter_t extends ResthopperParameter {
+class HorizontalFrameInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class HorizontalFrameInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class HorizontalFrameOutput_Frame_F extends ResthopperParameter {
+class HorizontalFrameOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";

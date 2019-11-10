@@ -15,33 +15,33 @@ export default class Similarity extends ResthopperComponent {
 
 	public input:
 	{
-		"FirstNumber_A": SimilarityInput_FirstNumber_A,
-		"SecondNumber_B": SimilarityInput_SecondNumber_B,
-		"Threshold_T": SimilarityInput_Threshold_T,
+		"firstnumber_a": SimilarityInput_firstnumber_a,
+		"secondnumber_b": SimilarityInput_secondnumber_b,
+		"threshold_t": SimilarityInput_threshold_t,
 	}
 
 	public output:
 	{
-		"Similarity_": SimilarityOutput_Similarity_,
-		"Absolutedifference_dt": SimilarityOutput_Absolutedifference_dt,
+		"similarity_": SimilarityOutput_similarity_,
+		"absolutedifference_dt": SimilarityOutput_absolutedifference_dt,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"FirstNumber_A": new SimilarityInput_FirstNumber_A(),
-			"SecondNumber_B": new SimilarityInput_SecondNumber_B(),
-			"Threshold_T": new SimilarityInput_Threshold_T(),
+			"firstnumber_a": new SimilarityInput_firstnumber_a(),
+			"secondnumber_b": new SimilarityInput_secondnumber_b(),
+			"threshold_t": new SimilarityInput_threshold_t(),
 		}
 		this.output = {
-			"Similarity_": new SimilarityOutput_Similarity_(),
-			"Absolutedifference_dt": new SimilarityOutput_Absolutedifference_dt(),
+			"similarity_": new SimilarityOutput_similarity_(),
+			"absolutedifference_dt": new SimilarityOutput_absolutedifference_dt(),
 		}
 	}
 
 }
 
-class SimilarityInput_FirstNumber_A extends ResthopperParameter {
+class SimilarityInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class SimilarityInput_FirstNumber_A extends ResthopperParameter {
 
 }
 
-class SimilarityInput_SecondNumber_B extends ResthopperParameter {
+class SimilarityInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class SimilarityInput_SecondNumber_B extends ResthopperParameter {
 
 }
 
-class SimilarityInput_Threshold_T extends ResthopperParameter {
+class SimilarityInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class SimilarityInput_Threshold_T extends ResthopperParameter {
 
 }
 
-class SimilarityOutput_Similarity_ extends ResthopperParameter {
+class SimilarityOutput_similarity_ extends ResthopperParameter {
 
 	public name: string = "Similarity";
 	public nickName: string = "";
@@ -97,7 +97,7 @@ class SimilarityOutput_Similarity_ extends ResthopperParameter {
 
 }
 
-class SimilarityOutput_Absolutedifference_dt extends ResthopperParameter {
+class SimilarityOutput_absolutedifference_dt extends ResthopperParameter {
 
 	public name: string = "Absolutedifference";
 	public nickName: string = "dt";

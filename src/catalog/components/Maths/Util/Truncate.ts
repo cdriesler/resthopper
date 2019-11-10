@@ -15,29 +15,29 @@ export default class Truncate extends ResthopperComponent {
 
 	public input:
 	{
-		"Input_I": TruncateInput_Input_I,
-		"Truncationfactor_t": TruncateInput_Truncationfactor_t,
+		"input_i": TruncateInput_input_i,
+		"truncationfactor_t": TruncateInput_truncationfactor_t,
 	}
 
 	public output:
 	{
-		"Result_T": TruncateOutput_Result_T,
+		"result_t": TruncateOutput_result_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input_I": new TruncateInput_Input_I(),
-			"Truncationfactor_t": new TruncateInput_Truncationfactor_t(),
+			"input_i": new TruncateInput_input_i(),
+			"truncationfactor_t": new TruncateInput_truncationfactor_t(),
 		}
 		this.output = {
-			"Result_T": new TruncateOutput_Result_T(),
+			"result_t": new TruncateOutput_result_t(),
 		}
 	}
 
 }
 
-class TruncateInput_Input_I extends ResthopperParameter {
+class TruncateInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class TruncateInput_Input_I extends ResthopperParameter {
 
 }
 
-class TruncateInput_Truncationfactor_t extends ResthopperParameter {
+class TruncateInput_truncationfactor_t extends ResthopperParameter {
 
 	public name: string = "Truncationfactor";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class TruncateInput_Truncationfactor_t extends ResthopperParameter {
 
 }
 
-class TruncateOutput_Result_T extends ResthopperParameter {
+class TruncateOutput_result_t extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "T";

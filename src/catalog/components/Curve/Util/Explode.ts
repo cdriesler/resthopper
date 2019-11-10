@@ -15,31 +15,31 @@ export default class Explode extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ExplodeInput_Curve_C,
-		"Recursive_R": ExplodeInput_Recursive_R,
+		"curve_c": ExplodeInput_curve_c,
+		"recursive_r": ExplodeInput_recursive_r,
 	}
 
 	public output:
 	{
-		"Segments_S": ExplodeOutput_Segments_S,
-		"Vertices_V": ExplodeOutput_Vertices_V,
+		"segments_s": ExplodeOutput_segments_s,
+		"vertices_v": ExplodeOutput_vertices_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ExplodeInput_Curve_C(),
-			"Recursive_R": new ExplodeInput_Recursive_R(),
+			"curve_c": new ExplodeInput_curve_c(),
+			"recursive_r": new ExplodeInput_recursive_r(),
 		}
 		this.output = {
-			"Segments_S": new ExplodeOutput_Segments_S(),
-			"Vertices_V": new ExplodeOutput_Vertices_V(),
+			"segments_s": new ExplodeOutput_segments_s(),
+			"vertices_v": new ExplodeOutput_vertices_v(),
 		}
 	}
 
 }
 
-class ExplodeInput_Curve_C extends ResthopperParameter {
+class ExplodeInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class ExplodeInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ExplodeInput_Recursive_R extends ResthopperParameter {
+class ExplodeInput_recursive_r extends ResthopperParameter {
 
 	public name: string = "Recursive";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class ExplodeInput_Recursive_R extends ResthopperParameter {
 
 }
 
-class ExplodeOutput_Segments_S extends ResthopperParameter {
+class ExplodeOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class ExplodeOutput_Segments_S extends ResthopperParameter {
 
 }
 
-class ExplodeOutput_Vertices_V extends ResthopperParameter {
+class ExplodeOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";

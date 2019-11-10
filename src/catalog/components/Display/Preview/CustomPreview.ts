@@ -15,8 +15,8 @@ export default class CustomPreview extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": CustomPreviewInput_Geometry_G,
-		"Material_M": CustomPreviewInput_Material_M,
+		"geometry_g": CustomPreviewInput_geometry_g,
+		"material_m": CustomPreviewInput_material_m,
 	}
 
 	public output:
@@ -27,8 +27,8 @@ export default class CustomPreview extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new CustomPreviewInput_Geometry_G(),
-			"Material_M": new CustomPreviewInput_Material_M(),
+			"geometry_g": new CustomPreviewInput_geometry_g(),
+			"material_m": new CustomPreviewInput_material_m(),
 		}
 		this.output = {
 
@@ -37,7 +37,7 @@ export default class CustomPreview extends ResthopperComponent {
 
 }
 
-class CustomPreviewInput_Geometry_G extends ResthopperParameter {
+class CustomPreviewInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class CustomPreviewInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CustomPreviewInput_Material_M extends ResthopperParameter {
+class CustomPreviewInput_material_m extends ResthopperParameter {
 
 	public name: string = "Material";
 	public nickName: string = "M";

@@ -15,33 +15,33 @@ export default class ColourRGBf extends ResthopperComponent {
 
 	public input:
 	{
-		"Alpha_A": ColourRGBfInput_Alpha_A,
-		"Red_R": ColourRGBfInput_Red_R,
-		"Green_G": ColourRGBfInput_Green_G,
-		"Blue_B": ColourRGBfInput_Blue_B,
+		"alpha_a": ColourRGBfInput_alpha_a,
+		"red_r": ColourRGBfInput_red_r,
+		"green_g": ColourRGBfInput_green_g,
+		"blue_b": ColourRGBfInput_blue_b,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourRGBfOutput_Colour_C,
+		"colour_c": ColourRGBfOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Alpha_A": new ColourRGBfInput_Alpha_A(),
-			"Red_R": new ColourRGBfInput_Red_R(),
-			"Green_G": new ColourRGBfInput_Green_G(),
-			"Blue_B": new ColourRGBfInput_Blue_B(),
+			"alpha_a": new ColourRGBfInput_alpha_a(),
+			"red_r": new ColourRGBfInput_red_r(),
+			"green_g": new ColourRGBfInput_green_g(),
+			"blue_b": new ColourRGBfInput_blue_b(),
 		}
 		this.output = {
-			"Colour_C": new ColourRGBfOutput_Colour_C(),
+			"colour_c": new ColourRGBfOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourRGBfInput_Alpha_A extends ResthopperParameter {
+class ColourRGBfInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class ColourRGBfInput_Alpha_A extends ResthopperParameter {
 
 }
 
-class ColourRGBfInput_Red_R extends ResthopperParameter {
+class ColourRGBfInput_red_r extends ResthopperParameter {
 
 	public name: string = "Red";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class ColourRGBfInput_Red_R extends ResthopperParameter {
 
 }
 
-class ColourRGBfInput_Green_G extends ResthopperParameter {
+class ColourRGBfInput_green_g extends ResthopperParameter {
 
 	public name: string = "Green";
 	public nickName: string = "G";
@@ -83,7 +83,7 @@ class ColourRGBfInput_Green_G extends ResthopperParameter {
 
 }
 
-class ColourRGBfInput_Blue_B extends ResthopperParameter {
+class ColourRGBfInput_blue_b extends ResthopperParameter {
 
 	public name: string = "Blue";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class ColourRGBfInput_Blue_B extends ResthopperParameter {
 
 }
 
-class ColourRGBfOutput_Colour_C extends ResthopperParameter {
+class ColourRGBfOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

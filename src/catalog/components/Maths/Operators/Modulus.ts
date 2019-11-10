@@ -15,29 +15,29 @@ export default class Modulus extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": ModulusInput_A_A,
-		"B_B": ModulusInput_B_B,
+		"a_a": ModulusInput_a_a,
+		"b_b": ModulusInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": ModulusOutput_Result_R,
+		"result_r": ModulusOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new ModulusInput_A_A(),
-			"B_B": new ModulusInput_B_B(),
+			"a_a": new ModulusInput_a_a(),
+			"b_b": new ModulusInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new ModulusOutput_Result_R(),
+			"result_r": new ModulusOutput_result_r(),
 		}
 	}
 
 }
 
-class ModulusInput_A_A extends ResthopperParameter {
+class ModulusInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class ModulusInput_A_A extends ResthopperParameter {
 
 }
 
-class ModulusInput_B_B extends ResthopperParameter {
+class ModulusInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class ModulusInput_B_B extends ResthopperParameter {
 
 }
 
-class ModulusOutput_Result_R extends ResthopperParameter {
+class ModulusOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

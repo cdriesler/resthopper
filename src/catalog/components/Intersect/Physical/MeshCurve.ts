@@ -15,31 +15,31 @@ export default class MeshCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshCurveInput_Mesh_M,
-		"Curve_C": MeshCurveInput_Curve_C,
+		"mesh_m": MeshCurveInput_mesh_m,
+		"curve_c": MeshCurveInput_curve_c,
 	}
 
 	public output:
 	{
-		"Points_X": MeshCurveOutput_Points_X,
-		"Faces_F": MeshCurveOutput_Faces_F,
+		"points_x": MeshCurveOutput_points_x,
+		"faces_f": MeshCurveOutput_faces_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshCurveInput_Mesh_M(),
-			"Curve_C": new MeshCurveInput_Curve_C(),
+			"mesh_m": new MeshCurveInput_mesh_m(),
+			"curve_c": new MeshCurveInput_curve_c(),
 		}
 		this.output = {
-			"Points_X": new MeshCurveOutput_Points_X(),
-			"Faces_F": new MeshCurveOutput_Faces_F(),
+			"points_x": new MeshCurveOutput_points_x(),
+			"faces_f": new MeshCurveOutput_faces_f(),
 		}
 	}
 
 }
 
-class MeshCurveInput_Mesh_M extends ResthopperParameter {
+class MeshCurveInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshCurveInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshCurveInput_Curve_C extends ResthopperParameter {
+class MeshCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class MeshCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class MeshCurveOutput_Points_X extends ResthopperParameter {
+class MeshCurveOutput_points_x extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "X";
@@ -81,7 +81,7 @@ class MeshCurveOutput_Points_X extends ResthopperParameter {
 
 }
 
-class MeshCurveOutput_Faces_F extends ResthopperParameter {
+class MeshCurveOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";

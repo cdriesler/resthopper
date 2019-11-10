@@ -15,33 +15,33 @@ export default class Cone extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": ConeInput_Base_B,
-		"Radius_R": ConeInput_Radius_R,
-		"Length_L": ConeInput_Length_L,
+		"base_b": ConeInput_base_b,
+		"radius_r": ConeInput_radius_r,
+		"length_l": ConeInput_length_l,
 	}
 
 	public output:
 	{
-		"Cone_C": ConeOutput_Cone_C,
-		"Tip_T": ConeOutput_Tip_T,
+		"cone_c": ConeOutput_cone_c,
+		"tip_t": ConeOutput_tip_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new ConeInput_Base_B(),
-			"Radius_R": new ConeInput_Radius_R(),
-			"Length_L": new ConeInput_Length_L(),
+			"base_b": new ConeInput_base_b(),
+			"radius_r": new ConeInput_radius_r(),
+			"length_l": new ConeInput_length_l(),
 		}
 		this.output = {
-			"Cone_C": new ConeOutput_Cone_C(),
-			"Tip_T": new ConeOutput_Tip_T(),
+			"cone_c": new ConeOutput_cone_c(),
+			"tip_t": new ConeOutput_tip_t(),
 		}
 	}
 
 }
 
-class ConeInput_Base_B extends ResthopperParameter {
+class ConeInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class ConeInput_Base_B extends ResthopperParameter {
 
 }
 
-class ConeInput_Radius_R extends ResthopperParameter {
+class ConeInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class ConeInput_Radius_R extends ResthopperParameter {
 
 }
 
-class ConeInput_Length_L extends ResthopperParameter {
+class ConeInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -83,7 +83,7 @@ class ConeInput_Length_L extends ResthopperParameter {
 
 }
 
-class ConeOutput_Cone_C extends ResthopperParameter {
+class ConeOutput_cone_c extends ResthopperParameter {
 
 	public name: string = "Cone";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class ConeOutput_Cone_C extends ResthopperParameter {
 
 }
 
-class ConeOutput_Tip_T extends ResthopperParameter {
+class ConeOutput_tip_t extends ResthopperParameter {
 
 	public name: string = "Tip";
 	public nickName: string = "T";

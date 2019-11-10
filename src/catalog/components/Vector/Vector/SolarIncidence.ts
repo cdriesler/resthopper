@@ -15,37 +15,37 @@ export default class SolarIncidence extends ResthopperComponent {
 
 	public input:
 	{
-		"Location_L": SolarIncidenceInput_Location_L,
-		"Time_T": SolarIncidenceInput_Time_T,
-		"Orientation_P": SolarIncidenceInput_Orientation_P,
+		"location_l": SolarIncidenceInput_location_l,
+		"time_t": SolarIncidenceInput_time_t,
+		"orientation_p": SolarIncidenceInput_orientation_p,
 	}
 
 	public output:
 	{
-		"Direction_D": SolarIncidenceOutput_Direction_D,
-		"Elevation_E": SolarIncidenceOutput_Elevation_E,
-		"Horizon_H": SolarIncidenceOutput_Horizon_H,
-		"Colour_C": SolarIncidenceOutput_Colour_C,
+		"direction_d": SolarIncidenceOutput_direction_d,
+		"elevation_e": SolarIncidenceOutput_elevation_e,
+		"horizon_h": SolarIncidenceOutput_horizon_h,
+		"colour_c": SolarIncidenceOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Location_L": new SolarIncidenceInput_Location_L(),
-			"Time_T": new SolarIncidenceInput_Time_T(),
-			"Orientation_P": new SolarIncidenceInput_Orientation_P(),
+			"location_l": new SolarIncidenceInput_location_l(),
+			"time_t": new SolarIncidenceInput_time_t(),
+			"orientation_p": new SolarIncidenceInput_orientation_p(),
 		}
 		this.output = {
-			"Direction_D": new SolarIncidenceOutput_Direction_D(),
-			"Elevation_E": new SolarIncidenceOutput_Elevation_E(),
-			"Horizon_H": new SolarIncidenceOutput_Horizon_H(),
-			"Colour_C": new SolarIncidenceOutput_Colour_C(),
+			"direction_d": new SolarIncidenceOutput_direction_d(),
+			"elevation_e": new SolarIncidenceOutput_elevation_e(),
+			"horizon_h": new SolarIncidenceOutput_horizon_h(),
+			"colour_c": new SolarIncidenceOutput_colour_c(),
 		}
 	}
 
 }
 
-class SolarIncidenceInput_Location_L extends ResthopperParameter {
+class SolarIncidenceInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
@@ -59,7 +59,7 @@ class SolarIncidenceInput_Location_L extends ResthopperParameter {
 
 }
 
-class SolarIncidenceInput_Time_T extends ResthopperParameter {
+class SolarIncidenceInput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
@@ -73,7 +73,7 @@ class SolarIncidenceInput_Time_T extends ResthopperParameter {
 
 }
 
-class SolarIncidenceInput_Orientation_P extends ResthopperParameter {
+class SolarIncidenceInput_orientation_p extends ResthopperParameter {
 
 	public name: string = "Orientation";
 	public nickName: string = "P";
@@ -87,7 +87,7 @@ class SolarIncidenceInput_Orientation_P extends ResthopperParameter {
 
 }
 
-class SolarIncidenceOutput_Direction_D extends ResthopperParameter {
+class SolarIncidenceOutput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -101,7 +101,7 @@ class SolarIncidenceOutput_Direction_D extends ResthopperParameter {
 
 }
 
-class SolarIncidenceOutput_Elevation_E extends ResthopperParameter {
+class SolarIncidenceOutput_elevation_e extends ResthopperParameter {
 
 	public name: string = "Elevation";
 	public nickName: string = "E";
@@ -115,7 +115,7 @@ class SolarIncidenceOutput_Elevation_E extends ResthopperParameter {
 
 }
 
-class SolarIncidenceOutput_Horizon_H extends ResthopperParameter {
+class SolarIncidenceOutput_horizon_h extends ResthopperParameter {
 
 	public name: string = "Horizon";
 	public nickName: string = "H";
@@ -129,7 +129,7 @@ class SolarIncidenceOutput_Horizon_H extends ResthopperParameter {
 
 }
 
-class SolarIncidenceOutput_Colour_C extends ResthopperParameter {
+class SolarIncidenceOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

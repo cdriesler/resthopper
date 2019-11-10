@@ -15,33 +15,33 @@ export default class ExtendCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ExtendCurveInput_Curve_C,
-		"Type_T": ExtendCurveInput_Type_T,
-		"Start_L0": ExtendCurveInput_Start_L0,
-		"End_L1": ExtendCurveInput_End_L1,
+		"curve_c": ExtendCurveInput_curve_c,
+		"type_t": ExtendCurveInput_type_t,
+		"start_l0": ExtendCurveInput_start_l0,
+		"end_l1": ExtendCurveInput_end_l1,
 	}
 
 	public output:
 	{
-		"Curve_C": ExtendCurveOutput_Curve_C,
+		"curve_c": ExtendCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ExtendCurveInput_Curve_C(),
-			"Type_T": new ExtendCurveInput_Type_T(),
-			"Start_L0": new ExtendCurveInput_Start_L0(),
-			"End_L1": new ExtendCurveInput_End_L1(),
+			"curve_c": new ExtendCurveInput_curve_c(),
+			"type_t": new ExtendCurveInput_type_t(),
+			"start_l0": new ExtendCurveInput_start_l0(),
+			"end_l1": new ExtendCurveInput_end_l1(),
 		}
 		this.output = {
-			"Curve_C": new ExtendCurveOutput_Curve_C(),
+			"curve_c": new ExtendCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class ExtendCurveInput_Curve_C extends ResthopperParameter {
+class ExtendCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class ExtendCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ExtendCurveInput_Type_T extends ResthopperParameter {
+class ExtendCurveInput_type_t extends ResthopperParameter {
 
 	public name: string = "Type";
 	public nickName: string = "T";
@@ -69,7 +69,7 @@ class ExtendCurveInput_Type_T extends ResthopperParameter {
 
 }
 
-class ExtendCurveInput_Start_L0 extends ResthopperParameter {
+class ExtendCurveInput_start_l0 extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "L0";
@@ -83,7 +83,7 @@ class ExtendCurveInput_Start_L0 extends ResthopperParameter {
 
 }
 
-class ExtendCurveInput_End_L1 extends ResthopperParameter {
+class ExtendCurveInput_end_l1 extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "L1";
@@ -97,7 +97,7 @@ class ExtendCurveInput_End_L1 extends ResthopperParameter {
 
 }
 
-class ExtendCurveOutput_Curve_C extends ResthopperParameter {
+class ExtendCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

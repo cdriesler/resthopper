@@ -15,33 +15,33 @@ export default class BrepClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": BrepClosestPointInput_Point_P,
-		"Brep_B": BrepClosestPointInput_Brep_B,
+		"point_p": BrepClosestPointInput_point_p,
+		"brep_b": BrepClosestPointInput_brep_b,
 	}
 
 	public output:
 	{
-		"Point_P": BrepClosestPointOutput_Point_P,
-		"Normal_N": BrepClosestPointOutput_Normal_N,
-		"Distance_D": BrepClosestPointOutput_Distance_D,
+		"point_p": BrepClosestPointOutput_point_p,
+		"normal_n": BrepClosestPointOutput_normal_n,
+		"distance_d": BrepClosestPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new BrepClosestPointInput_Point_P(),
-			"Brep_B": new BrepClosestPointInput_Brep_B(),
+			"point_p": new BrepClosestPointInput_point_p(),
+			"brep_b": new BrepClosestPointInput_brep_b(),
 		}
 		this.output = {
-			"Point_P": new BrepClosestPointOutput_Point_P(),
-			"Normal_N": new BrepClosestPointOutput_Normal_N(),
-			"Distance_D": new BrepClosestPointOutput_Distance_D(),
+			"point_p": new BrepClosestPointOutput_point_p(),
+			"normal_n": new BrepClosestPointOutput_normal_n(),
+			"distance_d": new BrepClosestPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class BrepClosestPointInput_Point_P extends ResthopperParameter {
+class BrepClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class BrepClosestPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class BrepClosestPointInput_Brep_B extends ResthopperParameter {
+class BrepClosestPointInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class BrepClosestPointInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepClosestPointOutput_Point_P extends ResthopperParameter {
+class BrepClosestPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class BrepClosestPointOutput_Point_P extends ResthopperParameter {
 
 }
 
-class BrepClosestPointOutput_Normal_N extends ResthopperParameter {
+class BrepClosestPointOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
@@ -97,7 +97,7 @@ class BrepClosestPointOutput_Normal_N extends ResthopperParameter {
 
 }
 
-class BrepClosestPointOutput_Distance_D extends ResthopperParameter {
+class BrepClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

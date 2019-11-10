@@ -15,31 +15,31 @@ export default class LineSDL extends ResthopperComponent {
 
 	public input:
 	{
-		"Start_S": LineSDLInput_Start_S,
-		"Direction_D": LineSDLInput_Direction_D,
-		"Length_L": LineSDLInput_Length_L,
+		"start_s": LineSDLInput_start_s,
+		"direction_d": LineSDLInput_direction_d,
+		"length_l": LineSDLInput_length_l,
 	}
 
 	public output:
 	{
-		"Line_L": LineSDLOutput_Line_L,
+		"line_l": LineSDLOutput_line_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Start_S": new LineSDLInput_Start_S(),
-			"Direction_D": new LineSDLInput_Direction_D(),
-			"Length_L": new LineSDLInput_Length_L(),
+			"start_s": new LineSDLInput_start_s(),
+			"direction_d": new LineSDLInput_direction_d(),
+			"length_l": new LineSDLInput_length_l(),
 		}
 		this.output = {
-			"Line_L": new LineSDLOutput_Line_L(),
+			"line_l": new LineSDLOutput_line_l(),
 		}
 	}
 
 }
 
-class LineSDLInput_Start_S extends ResthopperParameter {
+class LineSDLInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class LineSDLInput_Start_S extends ResthopperParameter {
 
 }
 
-class LineSDLInput_Direction_D extends ResthopperParameter {
+class LineSDLInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class LineSDLInput_Direction_D extends ResthopperParameter {
 
 }
 
-class LineSDLInput_Length_L extends ResthopperParameter {
+class LineSDLInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -81,7 +81,7 @@ class LineSDLInput_Length_L extends ResthopperParameter {
 
 }
 
-class LineSDLOutput_Line_L extends ResthopperParameter {
+class LineSDLOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";

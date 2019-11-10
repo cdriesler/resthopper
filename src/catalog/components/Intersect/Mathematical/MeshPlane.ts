@@ -15,29 +15,29 @@ export default class MeshPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshPlaneInput_Mesh_M,
-		"Plane_P": MeshPlaneInput_Plane_P,
+		"mesh_m": MeshPlaneInput_mesh_m,
+		"plane_p": MeshPlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Curves_C": MeshPlaneOutput_Curves_C,
+		"curves_c": MeshPlaneOutput_curves_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshPlaneInput_Mesh_M(),
-			"Plane_P": new MeshPlaneInput_Plane_P(),
+			"mesh_m": new MeshPlaneInput_mesh_m(),
+			"plane_p": new MeshPlaneInput_plane_p(),
 		}
 		this.output = {
-			"Curves_C": new MeshPlaneOutput_Curves_C(),
+			"curves_c": new MeshPlaneOutput_curves_c(),
 		}
 	}
 
 }
 
-class MeshPlaneInput_Mesh_M extends ResthopperParameter {
+class MeshPlaneInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class MeshPlaneInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshPlaneInput_Plane_P extends ResthopperParameter {
+class MeshPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class MeshPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MeshPlaneOutput_Curves_C extends ResthopperParameter {
+class MeshPlaneOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";

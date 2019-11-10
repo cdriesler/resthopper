@@ -15,31 +15,31 @@ export default class PolylineCollapse extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": PolylineCollapseInput_Polyline_P,
-		"Tolerance_t": PolylineCollapseInput_Tolerance_t,
+		"polyline_p": PolylineCollapseInput_polyline_p,
+		"tolerance_t": PolylineCollapseInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Polyline_Pl": PolylineCollapseOutput_Polyline_Pl,
-		"Count_N": PolylineCollapseOutput_Count_N,
+		"polyline_pl": PolylineCollapseOutput_polyline_pl,
+		"count_n": PolylineCollapseOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new PolylineCollapseInput_Polyline_P(),
-			"Tolerance_t": new PolylineCollapseInput_Tolerance_t(),
+			"polyline_p": new PolylineCollapseInput_polyline_p(),
+			"tolerance_t": new PolylineCollapseInput_tolerance_t(),
 		}
 		this.output = {
-			"Polyline_Pl": new PolylineCollapseOutput_Polyline_Pl(),
-			"Count_N": new PolylineCollapseOutput_Count_N(),
+			"polyline_pl": new PolylineCollapseOutput_polyline_pl(),
+			"count_n": new PolylineCollapseOutput_count_n(),
 		}
 	}
 
 }
 
-class PolylineCollapseInput_Polyline_P extends ResthopperParameter {
+class PolylineCollapseInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PolylineCollapseInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class PolylineCollapseInput_Tolerance_t extends ResthopperParameter {
+class PolylineCollapseInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
@@ -67,7 +67,7 @@ class PolylineCollapseInput_Tolerance_t extends ResthopperParameter {
 
 }
 
-class PolylineCollapseOutput_Polyline_Pl extends ResthopperParameter {
+class PolylineCollapseOutput_polyline_pl extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "Pl";
@@ -81,7 +81,7 @@ class PolylineCollapseOutput_Polyline_Pl extends ResthopperParameter {
 
 }
 
-class PolylineCollapseOutput_Count_N extends ResthopperParameter {
+class PolylineCollapseOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

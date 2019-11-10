@@ -15,29 +15,29 @@ export default class CopyTrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Source_S": CopyTrimInput_Source_S,
-		"Target_T": CopyTrimInput_Target_T,
+		"source_s": CopyTrimInput_source_s,
+		"target_t": CopyTrimInput_target_t,
 	}
 
 	public output:
 	{
-		"Surface_S": CopyTrimOutput_Surface_S,
+		"surface_s": CopyTrimOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Source_S": new CopyTrimInput_Source_S(),
-			"Target_T": new CopyTrimInput_Target_T(),
+			"source_s": new CopyTrimInput_source_s(),
+			"target_t": new CopyTrimInput_target_t(),
 		}
 		this.output = {
-			"Surface_S": new CopyTrimOutput_Surface_S(),
+			"surface_s": new CopyTrimOutput_surface_s(),
 		}
 	}
 
 }
 
-class CopyTrimInput_Source_S extends ResthopperParameter {
+class CopyTrimInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class CopyTrimInput_Source_S extends ResthopperParameter {
 
 }
 
-class CopyTrimInput_Target_T extends ResthopperParameter {
+class CopyTrimInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class CopyTrimInput_Target_T extends ResthopperParameter {
 
 }
 
-class CopyTrimOutput_Surface_S extends ResthopperParameter {
+class CopyTrimOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

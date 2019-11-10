@@ -15,33 +15,33 @@ export default class PopulateGeometry extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": PopulateGeometryInput_Geometry_G,
-		"Count_N": PopulateGeometryInput_Count_N,
-		"Seed_S": PopulateGeometryInput_Seed_S,
-		"Points_P": PopulateGeometryInput_Points_P,
+		"geometry_g": PopulateGeometryInput_geometry_g,
+		"count_n": PopulateGeometryInput_count_n,
+		"seed_s": PopulateGeometryInput_seed_s,
+		"points_p": PopulateGeometryInput_points_p,
 	}
 
 	public output:
 	{
-		"Population_P": PopulateGeometryOutput_Population_P,
+		"population_p": PopulateGeometryOutput_population_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new PopulateGeometryInput_Geometry_G(),
-			"Count_N": new PopulateGeometryInput_Count_N(),
-			"Seed_S": new PopulateGeometryInput_Seed_S(),
-			"Points_P": new PopulateGeometryInput_Points_P(),
+			"geometry_g": new PopulateGeometryInput_geometry_g(),
+			"count_n": new PopulateGeometryInput_count_n(),
+			"seed_s": new PopulateGeometryInput_seed_s(),
+			"points_p": new PopulateGeometryInput_points_p(),
 		}
 		this.output = {
-			"Population_P": new PopulateGeometryOutput_Population_P(),
+			"population_p": new PopulateGeometryOutput_population_p(),
 		}
 	}
 
 }
 
-class PopulateGeometryInput_Geometry_G extends ResthopperParameter {
+class PopulateGeometryInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class PopulateGeometryInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class PopulateGeometryInput_Count_N extends ResthopperParameter {
+class PopulateGeometryInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -69,7 +69,7 @@ class PopulateGeometryInput_Count_N extends ResthopperParameter {
 
 }
 
-class PopulateGeometryInput_Seed_S extends ResthopperParameter {
+class PopulateGeometryInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class PopulateGeometryInput_Seed_S extends ResthopperParameter {
 
 }
 
-class PopulateGeometryInput_Points_P extends ResthopperParameter {
+class PopulateGeometryInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class PopulateGeometryInput_Points_P extends ResthopperParameter {
 
 }
 
-class PopulateGeometryOutput_Population_P extends ResthopperParameter {
+class PopulateGeometryOutput_population_p extends ResthopperParameter {
 
 	public name: string = "Population";
 	public nickName: string = "P";

@@ -15,35 +15,35 @@ export default class DivideByDeviation extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": DivideByDeviationInput_Curve_C,
-		"Count_N": DivideByDeviationInput_Count_N,
+		"curve_c": DivideByDeviationInput_curve_c,
+		"count_n": DivideByDeviationInput_count_n,
 	}
 
 	public output:
 	{
-		"Points_P": DivideByDeviationOutput_Points_P,
-		"Tangents_T": DivideByDeviationOutput_Tangents_T,
-		"Parameters_t": DivideByDeviationOutput_Parameters_t,
-		"Deviation_d": DivideByDeviationOutput_Deviation_d,
+		"points_p": DivideByDeviationOutput_points_p,
+		"tangents_t": DivideByDeviationOutput_tangents_t,
+		"parameters_t": DivideByDeviationOutput_parameters_t,
+		"deviation_d": DivideByDeviationOutput_deviation_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new DivideByDeviationInput_Curve_C(),
-			"Count_N": new DivideByDeviationInput_Count_N(),
+			"curve_c": new DivideByDeviationInput_curve_c(),
+			"count_n": new DivideByDeviationInput_count_n(),
 		}
 		this.output = {
-			"Points_P": new DivideByDeviationOutput_Points_P(),
-			"Tangents_T": new DivideByDeviationOutput_Tangents_T(),
-			"Parameters_t": new DivideByDeviationOutput_Parameters_t(),
-			"Deviation_d": new DivideByDeviationOutput_Deviation_d(),
+			"points_p": new DivideByDeviationOutput_points_p(),
+			"tangents_t": new DivideByDeviationOutput_tangents_t(),
+			"parameters_t": new DivideByDeviationOutput_parameters_t(),
+			"deviation_d": new DivideByDeviationOutput_deviation_d(),
 		}
 	}
 
 }
 
-class DivideByDeviationInput_Curve_C extends ResthopperParameter {
+class DivideByDeviationInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class DivideByDeviationInput_Curve_C extends ResthopperParameter {
 
 }
 
-class DivideByDeviationInput_Count_N extends ResthopperParameter {
+class DivideByDeviationInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -71,7 +71,7 @@ class DivideByDeviationInput_Count_N extends ResthopperParameter {
 
 }
 
-class DivideByDeviationOutput_Points_P extends ResthopperParameter {
+class DivideByDeviationOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -85,7 +85,7 @@ class DivideByDeviationOutput_Points_P extends ResthopperParameter {
 
 }
 
-class DivideByDeviationOutput_Tangents_T extends ResthopperParameter {
+class DivideByDeviationOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class DivideByDeviationOutput_Tangents_T extends ResthopperParameter {
 
 }
 
-class DivideByDeviationOutput_Parameters_t extends ResthopperParameter {
+class DivideByDeviationOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
@@ -113,7 +113,7 @@ class DivideByDeviationOutput_Parameters_t extends ResthopperParameter {
 
 }
 
-class DivideByDeviationOutput_Deviation_d extends ResthopperParameter {
+class DivideByDeviationOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "d";

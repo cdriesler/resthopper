@@ -15,29 +15,29 @@ export default class DelaunayMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": DelaunayMeshInput_Points_P,
-		"Plane_Pl": DelaunayMeshInput_Plane_Pl,
+		"points_p": DelaunayMeshInput_points_p,
+		"plane_pl": DelaunayMeshInput_plane_pl,
 	}
 
 	public output:
 	{
-		"Mesh_M": DelaunayMeshOutput_Mesh_M,
+		"mesh_m": DelaunayMeshOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new DelaunayMeshInput_Points_P(),
-			"Plane_Pl": new DelaunayMeshInput_Plane_Pl(),
+			"points_p": new DelaunayMeshInput_points_p(),
+			"plane_pl": new DelaunayMeshInput_plane_pl(),
 		}
 		this.output = {
-			"Mesh_M": new DelaunayMeshOutput_Mesh_M(),
+			"mesh_m": new DelaunayMeshOutput_mesh_m(),
 		}
 	}
 
 }
 
-class DelaunayMeshInput_Points_P extends ResthopperParameter {
+class DelaunayMeshInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class DelaunayMeshInput_Points_P extends ResthopperParameter {
 
 }
 
-class DelaunayMeshInput_Plane_Pl extends ResthopperParameter {
+class DelaunayMeshInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -65,7 +65,7 @@ class DelaunayMeshInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class DelaunayMeshOutput_Mesh_M extends ResthopperParameter {
+class DelaunayMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

@@ -15,27 +15,27 @@ export default class Cube extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": CubeInput_Value_x,
+		"value_x": CubeInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": CubeOutput_Result_y,
+		"result_y": CubeOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new CubeInput_Value_x(),
+			"value_x": new CubeInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new CubeOutput_Result_y(),
+			"result_y": new CubeOutput_result_y(),
 		}
 	}
 
 }
 
-class CubeInput_Value_x extends ResthopperParameter {
+class CubeInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class CubeInput_Value_x extends ResthopperParameter {
 
 }
 
-class CubeOutput_Result_y extends ResthopperParameter {
+class CubeOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

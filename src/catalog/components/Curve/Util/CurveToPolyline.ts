@@ -15,35 +15,35 @@ export default class CurveToPolyline extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveToPolylineInput_Curve_C,
-		"Tolerancedistance_Td": CurveToPolylineInput_Tolerancedistance_Td,
-		"Toleranceangle_Ta": CurveToPolylineInput_Toleranceangle_Ta,
-		"MaxEdge_E": CurveToPolylineInput_MaxEdge_E,
+		"curve_c": CurveToPolylineInput_curve_c,
+		"tolerancedistance_td": CurveToPolylineInput_tolerancedistance_td,
+		"toleranceangle_ta": CurveToPolylineInput_toleranceangle_ta,
+		"maxedge_e": CurveToPolylineInput_maxedge_e,
 	}
 
 	public output:
 	{
-		"Polyline_P": CurveToPolylineOutput_Polyline_P,
-		"Segments_S": CurveToPolylineOutput_Segments_S,
+		"polyline_p": CurveToPolylineOutput_polyline_p,
+		"segments_s": CurveToPolylineOutput_segments_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveToPolylineInput_Curve_C(),
-			"Tolerancedistance_Td": new CurveToPolylineInput_Tolerancedistance_Td(),
-			"Toleranceangle_Ta": new CurveToPolylineInput_Toleranceangle_Ta(),
-			"MaxEdge_E": new CurveToPolylineInput_MaxEdge_E(),
+			"curve_c": new CurveToPolylineInput_curve_c(),
+			"tolerancedistance_td": new CurveToPolylineInput_tolerancedistance_td(),
+			"toleranceangle_ta": new CurveToPolylineInput_toleranceangle_ta(),
+			"maxedge_e": new CurveToPolylineInput_maxedge_e(),
 		}
 		this.output = {
-			"Polyline_P": new CurveToPolylineOutput_Polyline_P(),
-			"Segments_S": new CurveToPolylineOutput_Segments_S(),
+			"polyline_p": new CurveToPolylineOutput_polyline_p(),
+			"segments_s": new CurveToPolylineOutput_segments_s(),
 		}
 	}
 
 }
 
-class CurveToPolylineInput_Curve_C extends ResthopperParameter {
+class CurveToPolylineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class CurveToPolylineInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveToPolylineInput_Tolerancedistance_Td extends ResthopperParameter {
+class CurveToPolylineInput_tolerancedistance_td extends ResthopperParameter {
 
 	public name: string = "Tolerancedistance";
 	public nickName: string = "Td";
@@ -71,7 +71,7 @@ class CurveToPolylineInput_Tolerancedistance_Td extends ResthopperParameter {
 
 }
 
-class CurveToPolylineInput_Toleranceangle_Ta extends ResthopperParameter {
+class CurveToPolylineInput_toleranceangle_ta extends ResthopperParameter {
 
 	public name: string = "Toleranceangle";
 	public nickName: string = "Ta";
@@ -85,7 +85,7 @@ class CurveToPolylineInput_Toleranceangle_Ta extends ResthopperParameter {
 
 }
 
-class CurveToPolylineInput_MaxEdge_E extends ResthopperParameter {
+class CurveToPolylineInput_maxedge_e extends ResthopperParameter {
 
 	public name: string = "MaxEdge";
 	public nickName: string = "E";
@@ -99,7 +99,7 @@ class CurveToPolylineInput_MaxEdge_E extends ResthopperParameter {
 
 }
 
-class CurveToPolylineOutput_Polyline_P extends ResthopperParameter {
+class CurveToPolylineOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class CurveToPolylineOutput_Polyline_P extends ResthopperParameter {
 
 }
 
-class CurveToPolylineOutput_Segments_S extends ResthopperParameter {
+class CurveToPolylineOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";

@@ -15,27 +15,27 @@ export default class Epsilon extends ResthopperComponent {
 
 	public input:
 	{
-		"Factor_N": EpsilonInput_Factor_N,
+		"factor_n": EpsilonInput_factor_n,
 	}
 
 	public output:
 	{
-		"Output_y": EpsilonOutput_Output_y,
+		"output_y": EpsilonOutput_output_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Factor_N": new EpsilonInput_Factor_N(),
+			"factor_n": new EpsilonInput_factor_n(),
 		}
 		this.output = {
-			"Output_y": new EpsilonOutput_Output_y(),
+			"output_y": new EpsilonOutput_output_y(),
 		}
 	}
 
 }
 
-class EpsilonInput_Factor_N extends ResthopperParameter {
+class EpsilonInput_factor_n extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class EpsilonInput_Factor_N extends ResthopperParameter {
 
 }
 
-class EpsilonOutput_Output_y extends ResthopperParameter {
+class EpsilonOutput_output_y extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "y";

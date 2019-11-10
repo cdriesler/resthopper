@@ -15,37 +15,37 @@ export default class Barycentric extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": BarycentricInput_PointA_A,
-		"PointB_B": BarycentricInput_PointB_B,
-		"PointC_C": BarycentricInput_PointC_C,
-		"CoordinateU_U": BarycentricInput_CoordinateU_U,
-		"CoordinateV_V": BarycentricInput_CoordinateV_V,
-		"CoordinateW_W": BarycentricInput_CoordinateW_W,
+		"pointa_a": BarycentricInput_pointa_a,
+		"pointb_b": BarycentricInput_pointb_b,
+		"pointc_c": BarycentricInput_pointc_c,
+		"coordinateu_u": BarycentricInput_coordinateu_u,
+		"coordinatev_v": BarycentricInput_coordinatev_v,
+		"coordinatew_w": BarycentricInput_coordinatew_w,
 	}
 
 	public output:
 	{
-		"Point_P": BarycentricOutput_Point_P,
+		"point_p": BarycentricOutput_point_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new BarycentricInput_PointA_A(),
-			"PointB_B": new BarycentricInput_PointB_B(),
-			"PointC_C": new BarycentricInput_PointC_C(),
-			"CoordinateU_U": new BarycentricInput_CoordinateU_U(),
-			"CoordinateV_V": new BarycentricInput_CoordinateV_V(),
-			"CoordinateW_W": new BarycentricInput_CoordinateW_W(),
+			"pointa_a": new BarycentricInput_pointa_a(),
+			"pointb_b": new BarycentricInput_pointb_b(),
+			"pointc_c": new BarycentricInput_pointc_c(),
+			"coordinateu_u": new BarycentricInput_coordinateu_u(),
+			"coordinatev_v": new BarycentricInput_coordinatev_v(),
+			"coordinatew_w": new BarycentricInput_coordinatew_w(),
 		}
 		this.output = {
-			"Point_P": new BarycentricOutput_Point_P(),
+			"point_p": new BarycentricOutput_point_p(),
 		}
 	}
 
 }
 
-class BarycentricInput_PointA_A extends ResthopperParameter {
+class BarycentricInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class BarycentricInput_PointA_A extends ResthopperParameter {
 
 }
 
-class BarycentricInput_PointB_B extends ResthopperParameter {
+class BarycentricInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class BarycentricInput_PointB_B extends ResthopperParameter {
 
 }
 
-class BarycentricInput_PointC_C extends ResthopperParameter {
+class BarycentricInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class BarycentricInput_PointC_C extends ResthopperParameter {
 
 }
 
-class BarycentricInput_CoordinateU_U extends ResthopperParameter {
+class BarycentricInput_coordinateu_u extends ResthopperParameter {
 
 	public name: string = "CoordinateU";
 	public nickName: string = "U";
@@ -101,7 +101,7 @@ class BarycentricInput_CoordinateU_U extends ResthopperParameter {
 
 }
 
-class BarycentricInput_CoordinateV_V extends ResthopperParameter {
+class BarycentricInput_coordinatev_v extends ResthopperParameter {
 
 	public name: string = "CoordinateV";
 	public nickName: string = "V";
@@ -115,7 +115,7 @@ class BarycentricInput_CoordinateV_V extends ResthopperParameter {
 
 }
 
-class BarycentricInput_CoordinateW_W extends ResthopperParameter {
+class BarycentricInput_coordinatew_w extends ResthopperParameter {
 
 	public name: string = "CoordinateW";
 	public nickName: string = "W";
@@ -129,7 +129,7 @@ class BarycentricInput_CoordinateW_W extends ResthopperParameter {
 
 }
 
-class BarycentricOutput_Point_P extends ResthopperParameter {
+class BarycentricOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";

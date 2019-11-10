@@ -15,33 +15,33 @@ export default class Contourex extends ResthopperComponent {
 
 	public input:
 	{
-		"Shape_S": ContourexInput_Shape_S,
-		"Plane_P": ContourexInput_Plane_P,
-		"Offsets_O": ContourexInput_Offsets_O,
-		"Distances_D": ContourexInput_Distances_D,
+		"shape_s": ContourexInput_shape_s,
+		"plane_p": ContourexInput_plane_p,
+		"offsets_o": ContourexInput_offsets_o,
+		"distances_d": ContourexInput_distances_d,
 	}
 
 	public output:
 	{
-		"Contours_C": ContourexOutput_Contours_C,
+		"contours_c": ContourexOutput_contours_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Shape_S": new ContourexInput_Shape_S(),
-			"Plane_P": new ContourexInput_Plane_P(),
-			"Offsets_O": new ContourexInput_Offsets_O(),
-			"Distances_D": new ContourexInput_Distances_D(),
+			"shape_s": new ContourexInput_shape_s(),
+			"plane_p": new ContourexInput_plane_p(),
+			"offsets_o": new ContourexInput_offsets_o(),
+			"distances_d": new ContourexInput_distances_d(),
 		}
 		this.output = {
-			"Contours_C": new ContourexOutput_Contours_C(),
+			"contours_c": new ContourexOutput_contours_c(),
 		}
 	}
 
 }
 
-class ContourexInput_Shape_S extends ResthopperParameter {
+class ContourexInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class ContourexInput_Shape_S extends ResthopperParameter {
 
 }
 
-class ContourexInput_Plane_P extends ResthopperParameter {
+class ContourexInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class ContourexInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ContourexInput_Offsets_O extends ResthopperParameter {
+class ContourexInput_offsets_o extends ResthopperParameter {
 
 	public name: string = "Offsets";
 	public nickName: string = "O";
@@ -83,7 +83,7 @@ class ContourexInput_Offsets_O extends ResthopperParameter {
 
 }
 
-class ContourexInput_Distances_D extends ResthopperParameter {
+class ContourexInput_distances_d extends ResthopperParameter {
 
 	public name: string = "Distances";
 	public nickName: string = "D";
@@ -97,7 +97,7 @@ class ContourexInput_Distances_D extends ResthopperParameter {
 
 }
 
-class ContourexOutput_Contours_C extends ResthopperParameter {
+class ContourexOutput_contours_c extends ResthopperParameter {
 
 	public name: string = "Contours";
 	public nickName: string = "C";

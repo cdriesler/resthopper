@@ -15,29 +15,29 @@ export default class RepeatData extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": RepeatDataInput_Data_D,
-		"Length_L": RepeatDataInput_Length_L,
+		"data_d": RepeatDataInput_data_d,
+		"length_l": RepeatDataInput_length_l,
 	}
 
 	public output:
 	{
-		"Data_D": RepeatDataOutput_Data_D,
+		"data_d": RepeatDataOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new RepeatDataInput_Data_D(),
-			"Length_L": new RepeatDataInput_Length_L(),
+			"data_d": new RepeatDataInput_data_d(),
+			"length_l": new RepeatDataInput_length_l(),
 		}
 		this.output = {
-			"Data_D": new RepeatDataOutput_Data_D(),
+			"data_d": new RepeatDataOutput_data_d(),
 		}
 	}
 
 }
 
-class RepeatDataInput_Data_D extends ResthopperParameter {
+class RepeatDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class RepeatDataInput_Data_D extends ResthopperParameter {
 
 }
 
-class RepeatDataInput_Length_L extends ResthopperParameter {
+class RepeatDataInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -65,7 +65,7 @@ class RepeatDataInput_Length_L extends ResthopperParameter {
 
 }
 
-class RepeatDataOutput_Data_D extends ResthopperParameter {
+class RepeatDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

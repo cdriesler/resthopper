@@ -15,31 +15,31 @@ export default class Series extends ResthopperComponent {
 
 	public input:
 	{
-		"Start_S": SeriesInput_Start_S,
-		"Step_N": SeriesInput_Step_N,
-		"Count_C": SeriesInput_Count_C,
+		"start_s": SeriesInput_start_s,
+		"step_n": SeriesInput_step_n,
+		"count_c": SeriesInput_count_c,
 	}
 
 	public output:
 	{
-		"Series_S": SeriesOutput_Series_S,
+		"series_s": SeriesOutput_series_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Start_S": new SeriesInput_Start_S(),
-			"Step_N": new SeriesInput_Step_N(),
-			"Count_C": new SeriesInput_Count_C(),
+			"start_s": new SeriesInput_start_s(),
+			"step_n": new SeriesInput_step_n(),
+			"count_c": new SeriesInput_count_c(),
 		}
 		this.output = {
-			"Series_S": new SeriesOutput_Series_S(),
+			"series_s": new SeriesOutput_series_s(),
 		}
 	}
 
 }
 
-class SeriesInput_Start_S extends ResthopperParameter {
+class SeriesInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class SeriesInput_Start_S extends ResthopperParameter {
 
 }
 
-class SeriesInput_Step_N extends ResthopperParameter {
+class SeriesInput_step_n extends ResthopperParameter {
 
 	public name: string = "Step";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class SeriesInput_Step_N extends ResthopperParameter {
 
 }
 
-class SeriesInput_Count_C extends ResthopperParameter {
+class SeriesInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class SeriesInput_Count_C extends ResthopperParameter {
 
 }
 
-class SeriesOutput_Series_S extends ResthopperParameter {
+class SeriesOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";

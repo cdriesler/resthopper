@@ -15,31 +15,31 @@ export default class RegionIntersection extends ResthopperComponent {
 
 	public input:
 	{
-		"CurvesA_A": RegionIntersectionInput_CurvesA_A,
-		"CurvesB_B": RegionIntersectionInput_CurvesB_B,
-		"Plane_P": RegionIntersectionInput_Plane_P,
+		"curvesa_a": RegionIntersectionInput_curvesa_a,
+		"curvesb_b": RegionIntersectionInput_curvesb_b,
+		"plane_p": RegionIntersectionInput_plane_p,
 	}
 
 	public output:
 	{
-		"Result_R": RegionIntersectionOutput_Result_R,
+		"result_r": RegionIntersectionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurvesA_A": new RegionIntersectionInput_CurvesA_A(),
-			"CurvesB_B": new RegionIntersectionInput_CurvesB_B(),
-			"Plane_P": new RegionIntersectionInput_Plane_P(),
+			"curvesa_a": new RegionIntersectionInput_curvesa_a(),
+			"curvesb_b": new RegionIntersectionInput_curvesb_b(),
+			"plane_p": new RegionIntersectionInput_plane_p(),
 		}
 		this.output = {
-			"Result_R": new RegionIntersectionOutput_Result_R(),
+			"result_r": new RegionIntersectionOutput_result_r(),
 		}
 	}
 
 }
 
-class RegionIntersectionInput_CurvesA_A extends ResthopperParameter {
+class RegionIntersectionInput_curvesa_a extends ResthopperParameter {
 
 	public name: string = "CurvesA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class RegionIntersectionInput_CurvesA_A extends ResthopperParameter {
 
 }
 
-class RegionIntersectionInput_CurvesB_B extends ResthopperParameter {
+class RegionIntersectionInput_curvesb_b extends ResthopperParameter {
 
 	public name: string = "CurvesB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class RegionIntersectionInput_CurvesB_B extends ResthopperParameter {
 
 }
 
-class RegionIntersectionInput_Plane_P extends ResthopperParameter {
+class RegionIntersectionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class RegionIntersectionInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RegionIntersectionOutput_Result_R extends ResthopperParameter {
+class RegionIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

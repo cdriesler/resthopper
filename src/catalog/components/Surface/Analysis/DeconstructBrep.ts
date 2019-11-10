@@ -15,31 +15,31 @@ export default class DeconstructBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": DeconstructBrepInput_Brep_B,
+		"brep_b": DeconstructBrepInput_brep_b,
 	}
 
 	public output:
 	{
-		"Faces_F": DeconstructBrepOutput_Faces_F,
-		"Edges_E": DeconstructBrepOutput_Edges_E,
-		"Vertices_V": DeconstructBrepOutput_Vertices_V,
+		"faces_f": DeconstructBrepOutput_faces_f,
+		"edges_e": DeconstructBrepOutput_edges_e,
+		"vertices_v": DeconstructBrepOutput_vertices_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new DeconstructBrepInput_Brep_B(),
+			"brep_b": new DeconstructBrepInput_brep_b(),
 		}
 		this.output = {
-			"Faces_F": new DeconstructBrepOutput_Faces_F(),
-			"Edges_E": new DeconstructBrepOutput_Edges_E(),
-			"Vertices_V": new DeconstructBrepOutput_Vertices_V(),
+			"faces_f": new DeconstructBrepOutput_faces_f(),
+			"edges_e": new DeconstructBrepOutput_edges_e(),
+			"vertices_v": new DeconstructBrepOutput_vertices_v(),
 		}
 	}
 
 }
 
-class DeconstructBrepInput_Brep_B extends ResthopperParameter {
+class DeconstructBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class DeconstructBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class DeconstructBrepOutput_Faces_F extends ResthopperParameter {
+class DeconstructBrepOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class DeconstructBrepOutput_Faces_F extends ResthopperParameter {
 
 }
 
-class DeconstructBrepOutput_Edges_E extends ResthopperParameter {
+class DeconstructBrepOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class DeconstructBrepOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class DeconstructBrepOutput_Vertices_V extends ResthopperParameter {
+class DeconstructBrepOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";

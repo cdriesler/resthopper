@@ -15,31 +15,31 @@ export default class PullPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": PullPointInput_Point_P,
-		"Geometry_G": PullPointInput_Geometry_G,
+		"point_p": PullPointInput_point_p,
+		"geometry_g": PullPointInput_geometry_g,
 	}
 
 	public output:
 	{
-		"ClosestPoint_P": PullPointOutput_ClosestPoint_P,
-		"Distance_D": PullPointOutput_Distance_D,
+		"closestpoint_p": PullPointOutput_closestpoint_p,
+		"distance_d": PullPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new PullPointInput_Point_P(),
-			"Geometry_G": new PullPointInput_Geometry_G(),
+			"point_p": new PullPointInput_point_p(),
+			"geometry_g": new PullPointInput_geometry_g(),
 		}
 		this.output = {
-			"ClosestPoint_P": new PullPointOutput_ClosestPoint_P(),
-			"Distance_D": new PullPointOutput_Distance_D(),
+			"closestpoint_p": new PullPointOutput_closestpoint_p(),
+			"distance_d": new PullPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class PullPointInput_Point_P extends ResthopperParameter {
+class PullPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PullPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class PullPointInput_Geometry_G extends ResthopperParameter {
+class PullPointInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class PullPointInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class PullPointOutput_ClosestPoint_P extends ResthopperParameter {
+class PullPointOutput_closestpoint_p extends ResthopperParameter {
 
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class PullPointOutput_ClosestPoint_P extends ResthopperParameter {
 
 }
 
-class PullPointOutput_Distance_D extends ResthopperParameter {
+class PullPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

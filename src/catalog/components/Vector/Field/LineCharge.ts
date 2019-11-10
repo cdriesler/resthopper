@@ -15,31 +15,31 @@ export default class LineCharge extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LineChargeInput_Line_L,
-		"Charge_C": LineChargeInput_Charge_C,
-		"Bounds_B": LineChargeInput_Bounds_B,
+		"line_l": LineChargeInput_line_l,
+		"charge_c": LineChargeInput_charge_c,
+		"bounds_b": LineChargeInput_bounds_b,
 	}
 
 	public output:
 	{
-		"Field_F": LineChargeOutput_Field_F,
+		"field_f": LineChargeOutput_field_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LineChargeInput_Line_L(),
-			"Charge_C": new LineChargeInput_Charge_C(),
-			"Bounds_B": new LineChargeInput_Bounds_B(),
+			"line_l": new LineChargeInput_line_l(),
+			"charge_c": new LineChargeInput_charge_c(),
+			"bounds_b": new LineChargeInput_bounds_b(),
 		}
 		this.output = {
-			"Field_F": new LineChargeOutput_Field_F(),
+			"field_f": new LineChargeOutput_field_f(),
 		}
 	}
 
 }
 
-class LineChargeInput_Line_L extends ResthopperParameter {
+class LineChargeInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class LineChargeInput_Line_L extends ResthopperParameter {
 
 }
 
-class LineChargeInput_Charge_C extends ResthopperParameter {
+class LineChargeInput_charge_c extends ResthopperParameter {
 
 	public name: string = "Charge";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class LineChargeInput_Charge_C extends ResthopperParameter {
 
 }
 
-class LineChargeInput_Bounds_B extends ResthopperParameter {
+class LineChargeInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class LineChargeInput_Bounds_B extends ResthopperParameter {
 
 }
 
-class LineChargeOutput_Field_F extends ResthopperParameter {
+class LineChargeOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";

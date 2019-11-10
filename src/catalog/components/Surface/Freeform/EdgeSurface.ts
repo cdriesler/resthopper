@@ -15,33 +15,33 @@ export default class EdgeSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": EdgeSurfaceInput_CurveA_A,
-		"CurveB_B": EdgeSurfaceInput_CurveB_B,
-		"CurveC_C": EdgeSurfaceInput_CurveC_C,
-		"CurveD_D": EdgeSurfaceInput_CurveD_D,
+		"curvea_a": EdgeSurfaceInput_curvea_a,
+		"curveb_b": EdgeSurfaceInput_curveb_b,
+		"curvec_c": EdgeSurfaceInput_curvec_c,
+		"curved_d": EdgeSurfaceInput_curved_d,
 	}
 
 	public output:
 	{
-		"Surface_S": EdgeSurfaceOutput_Surface_S,
+		"surface_s": EdgeSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new EdgeSurfaceInput_CurveA_A(),
-			"CurveB_B": new EdgeSurfaceInput_CurveB_B(),
-			"CurveC_C": new EdgeSurfaceInput_CurveC_C(),
-			"CurveD_D": new EdgeSurfaceInput_CurveD_D(),
+			"curvea_a": new EdgeSurfaceInput_curvea_a(),
+			"curveb_b": new EdgeSurfaceInput_curveb_b(),
+			"curvec_c": new EdgeSurfaceInput_curvec_c(),
+			"curved_d": new EdgeSurfaceInput_curved_d(),
 		}
 		this.output = {
-			"Surface_S": new EdgeSurfaceOutput_Surface_S(),
+			"surface_s": new EdgeSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class EdgeSurfaceInput_CurveA_A extends ResthopperParameter {
+class EdgeSurfaceInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class EdgeSurfaceInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class EdgeSurfaceInput_CurveB_B extends ResthopperParameter {
+class EdgeSurfaceInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class EdgeSurfaceInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class EdgeSurfaceInput_CurveC_C extends ResthopperParameter {
+class EdgeSurfaceInput_curvec_c extends ResthopperParameter {
 
 	public name: string = "CurveC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class EdgeSurfaceInput_CurveC_C extends ResthopperParameter {
 
 }
 
-class EdgeSurfaceInput_CurveD_D extends ResthopperParameter {
+class EdgeSurfaceInput_curved_d extends ResthopperParameter {
 
 	public name: string = "CurveD";
 	public nickName: string = "D";
@@ -97,7 +97,7 @@ class EdgeSurfaceInput_CurveD_D extends ResthopperParameter {
 
 }
 
-class EdgeSurfaceOutput_Surface_S extends ResthopperParameter {
+class EdgeSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

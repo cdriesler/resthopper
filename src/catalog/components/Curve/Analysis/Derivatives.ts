@@ -15,31 +15,31 @@ export default class Derivatives extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": DerivativesInput_Curve_C,
-		"Parameter_t": DerivativesInput_Parameter_t,
+		"curve_c": DerivativesInput_curve_c,
+		"parameter_t": DerivativesInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Firstderivative_1": DerivativesOutput_Firstderivative_1,
-		"Point_P": DerivativesOutput_Point_P,
+		"firstderivative_1": DerivativesOutput_firstderivative_1,
+		"point_p": DerivativesOutput_point_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new DerivativesInput_Curve_C(),
-			"Parameter_t": new DerivativesInput_Parameter_t(),
+			"curve_c": new DerivativesInput_curve_c(),
+			"parameter_t": new DerivativesInput_parameter_t(),
 		}
 		this.output = {
-			"Firstderivative_1": new DerivativesOutput_Firstderivative_1(),
-			"Point_P": new DerivativesOutput_Point_P(),
+			"firstderivative_1": new DerivativesOutput_firstderivative_1(),
+			"point_p": new DerivativesOutput_point_p(),
 		}
 	}
 
 }
 
-class DerivativesInput_Curve_C extends ResthopperParameter {
+class DerivativesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class DerivativesInput_Curve_C extends ResthopperParameter {
 
 }
 
-class DerivativesInput_Parameter_t extends ResthopperParameter {
+class DerivativesInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -67,7 +67,7 @@ class DerivativesInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class DerivativesOutput_Firstderivative_1 extends ResthopperParameter {
+class DerivativesOutput_firstderivative_1 extends ResthopperParameter {
 
 	public name: string = "Firstderivative";
 	public nickName: string = "1";
@@ -81,7 +81,7 @@ class DerivativesOutput_Firstderivative_1 extends ResthopperParameter {
 
 }
 
-class DerivativesOutput_Point_P extends ResthopperParameter {
+class DerivativesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";

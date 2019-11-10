@@ -15,35 +15,35 @@ export default class LoftOptions extends ResthopperComponent {
 
 	public input:
 	{
-		"Closed_Cls": LoftOptionsInput_Closed_Cls,
-		"Adjust_Adj": LoftOptionsInput_Adjust_Adj,
-		"Rebuild_Rbd": LoftOptionsInput_Rebuild_Rbd,
-		"Refit_Rft": LoftOptionsInput_Refit_Rft,
-		"Type_T": LoftOptionsInput_Type_T,
+		"closed_cls": LoftOptionsInput_closed_cls,
+		"adjust_adj": LoftOptionsInput_adjust_adj,
+		"rebuild_rbd": LoftOptionsInput_rebuild_rbd,
+		"refit_rft": LoftOptionsInput_refit_rft,
+		"type_t": LoftOptionsInput_type_t,
 	}
 
 	public output:
 	{
-		"Options_O": LoftOptionsOutput_Options_O,
+		"options_o": LoftOptionsOutput_options_o,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Closed_Cls": new LoftOptionsInput_Closed_Cls(),
-			"Adjust_Adj": new LoftOptionsInput_Adjust_Adj(),
-			"Rebuild_Rbd": new LoftOptionsInput_Rebuild_Rbd(),
-			"Refit_Rft": new LoftOptionsInput_Refit_Rft(),
-			"Type_T": new LoftOptionsInput_Type_T(),
+			"closed_cls": new LoftOptionsInput_closed_cls(),
+			"adjust_adj": new LoftOptionsInput_adjust_adj(),
+			"rebuild_rbd": new LoftOptionsInput_rebuild_rbd(),
+			"refit_rft": new LoftOptionsInput_refit_rft(),
+			"type_t": new LoftOptionsInput_type_t(),
 		}
 		this.output = {
-			"Options_O": new LoftOptionsOutput_Options_O(),
+			"options_o": new LoftOptionsOutput_options_o(),
 		}
 	}
 
 }
 
-class LoftOptionsInput_Closed_Cls extends ResthopperParameter {
+class LoftOptionsInput_closed_cls extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "Cls";
@@ -57,7 +57,7 @@ class LoftOptionsInput_Closed_Cls extends ResthopperParameter {
 
 }
 
-class LoftOptionsInput_Adjust_Adj extends ResthopperParameter {
+class LoftOptionsInput_adjust_adj extends ResthopperParameter {
 
 	public name: string = "Adjust";
 	public nickName: string = "Adj";
@@ -71,7 +71,7 @@ class LoftOptionsInput_Adjust_Adj extends ResthopperParameter {
 
 }
 
-class LoftOptionsInput_Rebuild_Rbd extends ResthopperParameter {
+class LoftOptionsInput_rebuild_rbd extends ResthopperParameter {
 
 	public name: string = "Rebuild";
 	public nickName: string = "Rbd";
@@ -85,7 +85,7 @@ class LoftOptionsInput_Rebuild_Rbd extends ResthopperParameter {
 
 }
 
-class LoftOptionsInput_Refit_Rft extends ResthopperParameter {
+class LoftOptionsInput_refit_rft extends ResthopperParameter {
 
 	public name: string = "Refit";
 	public nickName: string = "Rft";
@@ -99,7 +99,7 @@ class LoftOptionsInput_Refit_Rft extends ResthopperParameter {
 
 }
 
-class LoftOptionsInput_Type_T extends ResthopperParameter {
+class LoftOptionsInput_type_t extends ResthopperParameter {
 
 	public name: string = "Type";
 	public nickName: string = "T";
@@ -113,7 +113,7 @@ class LoftOptionsInput_Type_T extends ResthopperParameter {
 
 }
 
-class LoftOptionsOutput_Options_O extends ResthopperParameter {
+class LoftOptionsOutput_options_o extends ResthopperParameter {
 
 	public name: string = "Options";
 	public nickName: string = "O";

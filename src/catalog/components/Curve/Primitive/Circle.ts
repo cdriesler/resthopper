@@ -15,29 +15,29 @@ export default class Circle extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": CircleInput_Plane_P,
-		"Radius_R": CircleInput_Radius_R,
+		"plane_p": CircleInput_plane_p,
+		"radius_r": CircleInput_radius_r,
 	}
 
 	public output:
 	{
-		"Circle_C": CircleOutput_Circle_C,
+		"circle_c": CircleOutput_circle_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new CircleInput_Plane_P(),
-			"Radius_R": new CircleInput_Radius_R(),
+			"plane_p": new CircleInput_plane_p(),
+			"radius_r": new CircleInput_radius_r(),
 		}
 		this.output = {
-			"Circle_C": new CircleOutput_Circle_C(),
+			"circle_c": new CircleOutput_circle_c(),
 		}
 	}
 
 }
 
-class CircleInput_Plane_P extends ResthopperParameter {
+class CircleInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class CircleInput_Plane_P extends ResthopperParameter {
 
 }
 
-class CircleInput_Radius_R extends ResthopperParameter {
+class CircleInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class CircleInput_Radius_R extends ResthopperParameter {
 
 }
 
-class CircleOutput_Circle_C extends ResthopperParameter {
+class CircleOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";

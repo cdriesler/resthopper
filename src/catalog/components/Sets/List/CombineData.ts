@@ -15,31 +15,31 @@ export default class CombineData extends ResthopperComponent {
 
 	public input:
 	{
-		"Input0_0": CombineDataInput_Input0_0,
-		"Input1_1": CombineDataInput_Input1_1,
+		"input0_0": CombineDataInput_input0_0,
+		"input1_1": CombineDataInput_input1_1,
 	}
 
 	public output:
 	{
-		"Result_R": CombineDataOutput_Result_R,
-		"Index_I": CombineDataOutput_Index_I,
+		"result_r": CombineDataOutput_result_r,
+		"index_i": CombineDataOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input0_0": new CombineDataInput_Input0_0(),
-			"Input1_1": new CombineDataInput_Input1_1(),
+			"input0_0": new CombineDataInput_input0_0(),
+			"input1_1": new CombineDataInput_input1_1(),
 		}
 		this.output = {
-			"Result_R": new CombineDataOutput_Result_R(),
-			"Index_I": new CombineDataOutput_Index_I(),
+			"result_r": new CombineDataOutput_result_r(),
+			"index_i": new CombineDataOutput_index_i(),
 		}
 	}
 
 }
 
-class CombineDataInput_Input0_0 extends ResthopperParameter {
+class CombineDataInput_input0_0 extends ResthopperParameter {
 
 	public name: string = "Input0";
 	public nickName: string = "0";
@@ -53,7 +53,7 @@ class CombineDataInput_Input0_0 extends ResthopperParameter {
 
 }
 
-class CombineDataInput_Input1_1 extends ResthopperParameter {
+class CombineDataInput_input1_1 extends ResthopperParameter {
 
 	public name: string = "Input1";
 	public nickName: string = "1";
@@ -67,7 +67,7 @@ class CombineDataInput_Input1_1 extends ResthopperParameter {
 
 }
 
-class CombineDataOutput_Result_R extends ResthopperParameter {
+class CombineDataOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class CombineDataOutput_Result_R extends ResthopperParameter {
 
 }
 
-class CombineDataOutput_Index_I extends ResthopperParameter {
+class CombineDataOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

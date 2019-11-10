@@ -15,27 +15,27 @@ export default class Bounds extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": BoundsInput_Numbers_N,
+		"numbers_n": BoundsInput_numbers_n,
 	}
 
 	public output:
 	{
-		"Domain_I": BoundsOutput_Domain_I,
+		"domain_i": BoundsOutput_domain_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new BoundsInput_Numbers_N(),
+			"numbers_n": new BoundsInput_numbers_n(),
 		}
 		this.output = {
-			"Domain_I": new BoundsOutput_Domain_I(),
+			"domain_i": new BoundsOutput_domain_i(),
 		}
 	}
 
 }
 
-class BoundsInput_Numbers_N extends ResthopperParameter {
+class BoundsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class BoundsInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class BoundsOutput_Domain_I extends ResthopperParameter {
+class BoundsOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";

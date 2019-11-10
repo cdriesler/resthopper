@@ -15,9 +15,9 @@ export default class MarkerDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": MarkerDimensionInput_Line_L,
-		"Text_T": MarkerDimensionInput_Text_T,
-		"Size_S": MarkerDimensionInput_Size_S,
+		"line_l": MarkerDimensionInput_line_l,
+		"text_t": MarkerDimensionInput_text_t,
+		"size_s": MarkerDimensionInput_size_s,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class MarkerDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new MarkerDimensionInput_Line_L(),
-			"Text_T": new MarkerDimensionInput_Text_T(),
-			"Size_S": new MarkerDimensionInput_Size_S(),
+			"line_l": new MarkerDimensionInput_line_l(),
+			"text_t": new MarkerDimensionInput_text_t(),
+			"size_s": new MarkerDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class MarkerDimension extends ResthopperComponent {
 
 }
 
-class MarkerDimensionInput_Line_L extends ResthopperParameter {
+class MarkerDimensionInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class MarkerDimensionInput_Line_L extends ResthopperParameter {
 
 }
 
-class MarkerDimensionInput_Text_T extends ResthopperParameter {
+class MarkerDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class MarkerDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class MarkerDimensionInput_Size_S extends ResthopperParameter {
+class MarkerDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

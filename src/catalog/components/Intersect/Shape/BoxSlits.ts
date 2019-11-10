@@ -15,31 +15,31 @@ export default class BoxSlits extends ResthopperComponent {
 
 	public input:
 	{
-		"Boxes_B": BoxSlitsInput_Boxes_B,
-		"Gap_G": BoxSlitsInput_Gap_G,
+		"boxes_b": BoxSlitsInput_boxes_b,
+		"gap_g": BoxSlitsInput_gap_g,
 	}
 
 	public output:
 	{
-		"Breps_B": BoxSlitsOutput_Breps_B,
-		"Topology_T": BoxSlitsOutput_Topology_T,
+		"breps_b": BoxSlitsOutput_breps_b,
+		"topology_t": BoxSlitsOutput_topology_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Boxes_B": new BoxSlitsInput_Boxes_B(),
-			"Gap_G": new BoxSlitsInput_Gap_G(),
+			"boxes_b": new BoxSlitsInput_boxes_b(),
+			"gap_g": new BoxSlitsInput_gap_g(),
 		}
 		this.output = {
-			"Breps_B": new BoxSlitsOutput_Breps_B(),
-			"Topology_T": new BoxSlitsOutput_Topology_T(),
+			"breps_b": new BoxSlitsOutput_breps_b(),
+			"topology_t": new BoxSlitsOutput_topology_t(),
 		}
 	}
 
 }
 
-class BoxSlitsInput_Boxes_B extends ResthopperParameter {
+class BoxSlitsInput_boxes_b extends ResthopperParameter {
 
 	public name: string = "Boxes";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BoxSlitsInput_Boxes_B extends ResthopperParameter {
 
 }
 
-class BoxSlitsInput_Gap_G extends ResthopperParameter {
+class BoxSlitsInput_gap_g extends ResthopperParameter {
 
 	public name: string = "Gap";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class BoxSlitsInput_Gap_G extends ResthopperParameter {
 
 }
 
-class BoxSlitsOutput_Breps_B extends ResthopperParameter {
+class BoxSlitsOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class BoxSlitsOutput_Breps_B extends ResthopperParameter {
 
 }
 
-class BoxSlitsOutput_Topology_T extends ResthopperParameter {
+class BoxSlitsOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";

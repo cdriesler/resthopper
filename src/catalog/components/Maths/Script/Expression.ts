@@ -15,29 +15,29 @@ export default class Expression extends ResthopperComponent {
 
 	public input:
 	{
-		"Variablex_x": ExpressionInput_Variablex_x,
-		"Variabley_y": ExpressionInput_Variabley_y,
+		"variablex_x": ExpressionInput_variablex_x,
+		"variabley_y": ExpressionInput_variabley_y,
 	}
 
 	public output:
 	{
-		"Result_R": ExpressionOutput_Result_R,
+		"result_r": ExpressionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Variablex_x": new ExpressionInput_Variablex_x(),
-			"Variabley_y": new ExpressionInput_Variabley_y(),
+			"variablex_x": new ExpressionInput_variablex_x(),
+			"variabley_y": new ExpressionInput_variabley_y(),
 		}
 		this.output = {
-			"Result_R": new ExpressionOutput_Result_R(),
+			"result_r": new ExpressionOutput_result_r(),
 		}
 	}
 
 }
 
-class ExpressionInput_Variablex_x extends ResthopperParameter {
+class ExpressionInput_variablex_x extends ResthopperParameter {
 
 	public name: string = "Variablex";
 	public nickName: string = "x";
@@ -51,7 +51,7 @@ class ExpressionInput_Variablex_x extends ResthopperParameter {
 
 }
 
-class ExpressionInput_Variabley_y extends ResthopperParameter {
+class ExpressionInput_variabley_y extends ResthopperParameter {
 
 	public name: string = "Variabley";
 	public nickName: string = "y";
@@ -65,7 +65,7 @@ class ExpressionInput_Variabley_y extends ResthopperParameter {
 
 }
 
-class ExpressionOutput_Result_R extends ResthopperParameter {
+class ExpressionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

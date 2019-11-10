@@ -15,31 +15,31 @@ export default class MirrorSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MirrorSurfaceInput_Geometry_G,
-		"Surface_S": MirrorSurfaceInput_Surface_S,
-		"Frame_F": MirrorSurfaceInput_Frame_F,
+		"geometry_g": MirrorSurfaceInput_geometry_g,
+		"surface_s": MirrorSurfaceInput_surface_s,
+		"frame_f": MirrorSurfaceInput_frame_f,
 	}
 
 	public output:
 	{
-		"Geometry_G": MirrorSurfaceOutput_Geometry_G,
+		"geometry_g": MirrorSurfaceOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MirrorSurfaceInput_Geometry_G(),
-			"Surface_S": new MirrorSurfaceInput_Surface_S(),
-			"Frame_F": new MirrorSurfaceInput_Frame_F(),
+			"geometry_g": new MirrorSurfaceInput_geometry_g(),
+			"surface_s": new MirrorSurfaceInput_surface_s(),
+			"frame_f": new MirrorSurfaceInput_frame_f(),
 		}
 		this.output = {
-			"Geometry_G": new MirrorSurfaceOutput_Geometry_G(),
+			"geometry_g": new MirrorSurfaceOutput_geometry_g(),
 		}
 	}
 
 }
 
-class MirrorSurfaceInput_Geometry_G extends ResthopperParameter {
+class MirrorSurfaceInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class MirrorSurfaceInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MirrorSurfaceInput_Surface_S extends ResthopperParameter {
+class MirrorSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class MirrorSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class MirrorSurfaceInput_Frame_F extends ResthopperParameter {
+class MirrorSurfaceInput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class MirrorSurfaceInput_Frame_F extends ResthopperParameter {
 
 }
 
-class MirrorSurfaceOutput_Geometry_G extends ResthopperParameter {
+class MirrorSurfaceOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

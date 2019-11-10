@@ -15,35 +15,35 @@ export default class SurfaceLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceLineInput_Surface_S,
-		"Line_L": SurfaceLineInput_Line_L,
+		"surface_s": SurfaceLineInput_surface_s,
+		"line_l": SurfaceLineInput_line_l,
 	}
 
 	public output:
 	{
-		"Curves_C": SurfaceLineOutput_Curves_C,
-		"Points_P": SurfaceLineOutput_Points_P,
-		"UVPoints_uv": SurfaceLineOutput_UVPoints_uv,
-		"Normal_N": SurfaceLineOutput_Normal_N,
+		"curves_c": SurfaceLineOutput_curves_c,
+		"points_p": SurfaceLineOutput_points_p,
+		"uvpoints_uv": SurfaceLineOutput_uvpoints_uv,
+		"normal_n": SurfaceLineOutput_normal_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceLineInput_Surface_S(),
-			"Line_L": new SurfaceLineInput_Line_L(),
+			"surface_s": new SurfaceLineInput_surface_s(),
+			"line_l": new SurfaceLineInput_line_l(),
 		}
 		this.output = {
-			"Curves_C": new SurfaceLineOutput_Curves_C(),
-			"Points_P": new SurfaceLineOutput_Points_P(),
-			"UVPoints_uv": new SurfaceLineOutput_UVPoints_uv(),
-			"Normal_N": new SurfaceLineOutput_Normal_N(),
+			"curves_c": new SurfaceLineOutput_curves_c(),
+			"points_p": new SurfaceLineOutput_points_p(),
+			"uvpoints_uv": new SurfaceLineOutput_uvpoints_uv(),
+			"normal_n": new SurfaceLineOutput_normal_n(),
 		}
 	}
 
 }
 
-class SurfaceLineInput_Surface_S extends ResthopperParameter {
+class SurfaceLineInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class SurfaceLineInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceLineInput_Line_L extends ResthopperParameter {
+class SurfaceLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -71,7 +71,7 @@ class SurfaceLineInput_Line_L extends ResthopperParameter {
 
 }
 
-class SurfaceLineOutput_Curves_C extends ResthopperParameter {
+class SurfaceLineOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class SurfaceLineOutput_Curves_C extends ResthopperParameter {
 
 }
 
-class SurfaceLineOutput_Points_P extends ResthopperParameter {
+class SurfaceLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -99,7 +99,7 @@ class SurfaceLineOutput_Points_P extends ResthopperParameter {
 
 }
 
-class SurfaceLineOutput_UVPoints_uv extends ResthopperParameter {
+class SurfaceLineOutput_uvpoints_uv extends ResthopperParameter {
 
 	public name: string = "UVPoints";
 	public nickName: string = "uv";
@@ -113,7 +113,7 @@ class SurfaceLineOutput_UVPoints_uv extends ResthopperParameter {
 
 }
 
-class SurfaceLineOutput_Normal_N extends ResthopperParameter {
+class SurfaceLineOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";

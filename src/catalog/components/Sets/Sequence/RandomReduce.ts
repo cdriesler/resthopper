@@ -15,31 +15,31 @@ export default class RandomReduce extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": RandomReduceInput_List_L,
-		"Reduction_R": RandomReduceInput_Reduction_R,
-		"Seed_S": RandomReduceInput_Seed_S,
+		"list_l": RandomReduceInput_list_l,
+		"reduction_r": RandomReduceInput_reduction_r,
+		"seed_s": RandomReduceInput_seed_s,
 	}
 
 	public output:
 	{
-		"List_L": RandomReduceOutput_List_L,
+		"list_l": RandomReduceOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new RandomReduceInput_List_L(),
-			"Reduction_R": new RandomReduceInput_Reduction_R(),
-			"Seed_S": new RandomReduceInput_Seed_S(),
+			"list_l": new RandomReduceInput_list_l(),
+			"reduction_r": new RandomReduceInput_reduction_r(),
+			"seed_s": new RandomReduceInput_seed_s(),
 		}
 		this.output = {
-			"List_L": new RandomReduceOutput_List_L(),
+			"list_l": new RandomReduceOutput_list_l(),
 		}
 	}
 
 }
 
-class RandomReduceInput_List_L extends ResthopperParameter {
+class RandomReduceInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class RandomReduceInput_List_L extends ResthopperParameter {
 
 }
 
-class RandomReduceInput_Reduction_R extends ResthopperParameter {
+class RandomReduceInput_reduction_r extends ResthopperParameter {
 
 	public name: string = "Reduction";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class RandomReduceInput_Reduction_R extends ResthopperParameter {
 
 }
 
-class RandomReduceInput_Seed_S extends ResthopperParameter {
+class RandomReduceInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class RandomReduceInput_Seed_S extends ResthopperParameter {
 
 }
 
-class RandomReduceOutput_List_L extends ResthopperParameter {
+class RandomReduceOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

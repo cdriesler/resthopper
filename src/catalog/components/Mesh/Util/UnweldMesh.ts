@@ -15,29 +15,29 @@ export default class UnweldMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": UnweldMeshInput_Mesh_M,
-		"Angle_A": UnweldMeshInput_Angle_A,
+		"mesh_m": UnweldMeshInput_mesh_m,
+		"angle_a": UnweldMeshInput_angle_a,
 	}
 
 	public output:
 	{
-		"Result_R": UnweldMeshOutput_Result_R,
+		"result_r": UnweldMeshOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new UnweldMeshInput_Mesh_M(),
-			"Angle_A": new UnweldMeshInput_Angle_A(),
+			"mesh_m": new UnweldMeshInput_mesh_m(),
+			"angle_a": new UnweldMeshInput_angle_a(),
 		}
 		this.output = {
-			"Result_R": new UnweldMeshOutput_Result_R(),
+			"result_r": new UnweldMeshOutput_result_r(),
 		}
 	}
 
 }
 
-class UnweldMeshInput_Mesh_M extends ResthopperParameter {
+class UnweldMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class UnweldMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class UnweldMeshInput_Angle_A extends ResthopperParameter {
+class UnweldMeshInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class UnweldMeshInput_Angle_A extends ResthopperParameter {
 
 }
 
-class UnweldMeshOutput_Result_R extends ResthopperParameter {
+class UnweldMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

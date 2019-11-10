@@ -15,29 +15,29 @@ export default class NumberstoPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": NumberstoPointsInput_Numbers_N,
-		"Mask_M": NumberstoPointsInput_Mask_M,
+		"numbers_n": NumberstoPointsInput_numbers_n,
+		"mask_m": NumberstoPointsInput_mask_m,
 	}
 
 	public output:
 	{
-		"Points_P": NumberstoPointsOutput_Points_P,
+		"points_p": NumberstoPointsOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new NumberstoPointsInput_Numbers_N(),
-			"Mask_M": new NumberstoPointsInput_Mask_M(),
+			"numbers_n": new NumberstoPointsInput_numbers_n(),
+			"mask_m": new NumberstoPointsInput_mask_m(),
 		}
 		this.output = {
-			"Points_P": new NumberstoPointsOutput_Points_P(),
+			"points_p": new NumberstoPointsOutput_points_p(),
 		}
 	}
 
 }
 
-class NumberstoPointsInput_Numbers_N extends ResthopperParameter {
+class NumberstoPointsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -51,7 +51,7 @@ class NumberstoPointsInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class NumberstoPointsInput_Mask_M extends ResthopperParameter {
+class NumberstoPointsInput_mask_m extends ResthopperParameter {
 
 	public name: string = "Mask";
 	public nickName: string = "M";
@@ -65,7 +65,7 @@ class NumberstoPointsInput_Mask_M extends ResthopperParameter {
 
 }
 
-class NumberstoPointsOutput_Points_P extends ResthopperParameter {
+class NumberstoPointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

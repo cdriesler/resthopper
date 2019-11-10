@@ -15,29 +15,29 @@ export default class VectorForce extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": VectorForceInput_Line_L,
-		"Bounds_B": VectorForceInput_Bounds_B,
+		"line_l": VectorForceInput_line_l,
+		"bounds_b": VectorForceInput_bounds_b,
 	}
 
 	public output:
 	{
-		"Field_F": VectorForceOutput_Field_F,
+		"field_f": VectorForceOutput_field_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new VectorForceInput_Line_L(),
-			"Bounds_B": new VectorForceInput_Bounds_B(),
+			"line_l": new VectorForceInput_line_l(),
+			"bounds_b": new VectorForceInput_bounds_b(),
 		}
 		this.output = {
-			"Field_F": new VectorForceOutput_Field_F(),
+			"field_f": new VectorForceOutput_field_f(),
 		}
 	}
 
 }
 
-class VectorForceInput_Line_L extends ResthopperParameter {
+class VectorForceInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class VectorForceInput_Line_L extends ResthopperParameter {
 
 }
 
-class VectorForceInput_Bounds_B extends ResthopperParameter {
+class VectorForceInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class VectorForceInput_Bounds_B extends ResthopperParameter {
 
 }
 
-class VectorForceOutput_Field_F extends ResthopperParameter {
+class VectorForceOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";

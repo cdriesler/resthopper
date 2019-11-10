@@ -15,33 +15,33 @@ export default class RailRevolution extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_P": RailRevolutionInput_Curve_P,
-		"Rail_R": RailRevolutionInput_Rail_R,
-		"Axis_A": RailRevolutionInput_Axis_A,
-		"Scale_S": RailRevolutionInput_Scale_S,
+		"curve_p": RailRevolutionInput_curve_p,
+		"rail_r": RailRevolutionInput_rail_r,
+		"axis_a": RailRevolutionInput_axis_a,
+		"scale_s": RailRevolutionInput_scale_s,
 	}
 
 	public output:
 	{
-		"Surface_S": RailRevolutionOutput_Surface_S,
+		"surface_s": RailRevolutionOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_P": new RailRevolutionInput_Curve_P(),
-			"Rail_R": new RailRevolutionInput_Rail_R(),
-			"Axis_A": new RailRevolutionInput_Axis_A(),
-			"Scale_S": new RailRevolutionInput_Scale_S(),
+			"curve_p": new RailRevolutionInput_curve_p(),
+			"rail_r": new RailRevolutionInput_rail_r(),
+			"axis_a": new RailRevolutionInput_axis_a(),
+			"scale_s": new RailRevolutionInput_scale_s(),
 		}
 		this.output = {
-			"Surface_S": new RailRevolutionOutput_Surface_S(),
+			"surface_s": new RailRevolutionOutput_surface_s(),
 		}
 	}
 
 }
 
-class RailRevolutionInput_Curve_P extends ResthopperParameter {
+class RailRevolutionInput_curve_p extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class RailRevolutionInput_Curve_P extends ResthopperParameter {
 
 }
 
-class RailRevolutionInput_Rail_R extends ResthopperParameter {
+class RailRevolutionInput_rail_r extends ResthopperParameter {
 
 	public name: string = "Rail";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class RailRevolutionInput_Rail_R extends ResthopperParameter {
 
 }
 
-class RailRevolutionInput_Axis_A extends ResthopperParameter {
+class RailRevolutionInput_axis_a extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class RailRevolutionInput_Axis_A extends ResthopperParameter {
 
 }
 
-class RailRevolutionInput_Scale_S extends ResthopperParameter {
+class RailRevolutionInput_scale_s extends ResthopperParameter {
 
 	public name: string = "Scale";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class RailRevolutionInput_Scale_S extends ResthopperParameter {
 
 }
 
-class RailRevolutionOutput_Surface_S extends ResthopperParameter {
+class RailRevolutionOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

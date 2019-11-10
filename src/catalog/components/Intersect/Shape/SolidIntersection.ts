@@ -15,29 +15,29 @@ export default class SolidIntersection extends ResthopperComponent {
 
 	public input:
 	{
-		"BrepsA_A": SolidIntersectionInput_BrepsA_A,
-		"BrepsB_B": SolidIntersectionInput_BrepsB_B,
+		"brepsa_a": SolidIntersectionInput_brepsa_a,
+		"brepsb_b": SolidIntersectionInput_brepsb_b,
 	}
 
 	public output:
 	{
-		"Result_R": SolidIntersectionOutput_Result_R,
+		"result_r": SolidIntersectionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"BrepsA_A": new SolidIntersectionInput_BrepsA_A(),
-			"BrepsB_B": new SolidIntersectionInput_BrepsB_B(),
+			"brepsa_a": new SolidIntersectionInput_brepsa_a(),
+			"brepsb_b": new SolidIntersectionInput_brepsb_b(),
 		}
 		this.output = {
-			"Result_R": new SolidIntersectionOutput_Result_R(),
+			"result_r": new SolidIntersectionOutput_result_r(),
 		}
 	}
 
 }
 
-class SolidIntersectionInput_BrepsA_A extends ResthopperParameter {
+class SolidIntersectionInput_brepsa_a extends ResthopperParameter {
 
 	public name: string = "BrepsA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SolidIntersectionInput_BrepsA_A extends ResthopperParameter {
 
 }
 
-class SolidIntersectionInput_BrepsB_B extends ResthopperParameter {
+class SolidIntersectionInput_brepsb_b extends ResthopperParameter {
 
 	public name: string = "BrepsB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SolidIntersectionInput_BrepsB_B extends ResthopperParameter {
 
 }
 
-class SolidIntersectionOutput_Result_R extends ResthopperParameter {
+class SolidIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

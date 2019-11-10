@@ -15,31 +15,31 @@ export default class DeleteConsecutive extends ResthopperComponent {
 
 	public input:
 	{
-		"Set_S": DeleteConsecutiveInput_Set_S,
-		"Wrap_W": DeleteConsecutiveInput_Wrap_W,
+		"set_s": DeleteConsecutiveInput_set_s,
+		"wrap_w": DeleteConsecutiveInput_wrap_w,
 	}
 
 	public output:
 	{
-		"Set_S": DeleteConsecutiveOutput_Set_S,
-		"Count_N": DeleteConsecutiveOutput_Count_N,
+		"set_s": DeleteConsecutiveOutput_set_s,
+		"count_n": DeleteConsecutiveOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Set_S": new DeleteConsecutiveInput_Set_S(),
-			"Wrap_W": new DeleteConsecutiveInput_Wrap_W(),
+			"set_s": new DeleteConsecutiveInput_set_s(),
+			"wrap_w": new DeleteConsecutiveInput_wrap_w(),
 		}
 		this.output = {
-			"Set_S": new DeleteConsecutiveOutput_Set_S(),
-			"Count_N": new DeleteConsecutiveOutput_Count_N(),
+			"set_s": new DeleteConsecutiveOutput_set_s(),
+			"count_n": new DeleteConsecutiveOutput_count_n(),
 		}
 	}
 
 }
 
-class DeleteConsecutiveInput_Set_S extends ResthopperParameter {
+class DeleteConsecutiveInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class DeleteConsecutiveInput_Set_S extends ResthopperParameter {
 
 }
 
-class DeleteConsecutiveInput_Wrap_W extends ResthopperParameter {
+class DeleteConsecutiveInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -67,7 +67,7 @@ class DeleteConsecutiveInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class DeleteConsecutiveOutput_Set_S extends ResthopperParameter {
+class DeleteConsecutiveOutput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class DeleteConsecutiveOutput_Set_S extends ResthopperParameter {
 
 }
 
-class DeleteConsecutiveOutput_Count_N extends ResthopperParameter {
+class DeleteConsecutiveOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

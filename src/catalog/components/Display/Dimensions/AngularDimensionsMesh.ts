@@ -15,12 +15,12 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": AngularDimensionsMeshInput_Mesh_M,
-		"Text_T": AngularDimensionsMeshInput_Text_T,
-		"Size_S": AngularDimensionsMeshInput_Size_S,
-		"LengthFactor_F": AngularDimensionsMeshInput_LengthFactor_F,
-		"MinimumAngle_A0": AngularDimensionsMeshInput_MinimumAngle_A0,
-		"MaximumAngle_A1": AngularDimensionsMeshInput_MaximumAngle_A1,
+		"mesh_m": AngularDimensionsMeshInput_mesh_m,
+		"text_t": AngularDimensionsMeshInput_text_t,
+		"size_s": AngularDimensionsMeshInput_size_s,
+		"lengthfactor_f": AngularDimensionsMeshInput_lengthfactor_f,
+		"minimumangle_a0": AngularDimensionsMeshInput_minimumangle_a0,
+		"maximumangle_a1": AngularDimensionsMeshInput_maximumangle_a1,
 	}
 
 	public output:
@@ -31,12 +31,12 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new AngularDimensionsMeshInput_Mesh_M(),
-			"Text_T": new AngularDimensionsMeshInput_Text_T(),
-			"Size_S": new AngularDimensionsMeshInput_Size_S(),
-			"LengthFactor_F": new AngularDimensionsMeshInput_LengthFactor_F(),
-			"MinimumAngle_A0": new AngularDimensionsMeshInput_MinimumAngle_A0(),
-			"MaximumAngle_A1": new AngularDimensionsMeshInput_MaximumAngle_A1(),
+			"mesh_m": new AngularDimensionsMeshInput_mesh_m(),
+			"text_t": new AngularDimensionsMeshInput_text_t(),
+			"size_s": new AngularDimensionsMeshInput_size_s(),
+			"lengthfactor_f": new AngularDimensionsMeshInput_lengthfactor_f(),
+			"minimumangle_a0": new AngularDimensionsMeshInput_minimumangle_a0(),
+			"maximumangle_a1": new AngularDimensionsMeshInput_maximumangle_a1(),
 		}
 		this.output = {
 
@@ -45,7 +45,7 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 
 }
 
-class AngularDimensionsMeshInput_Mesh_M extends ResthopperParameter {
+class AngularDimensionsMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -59,7 +59,7 @@ class AngularDimensionsMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class AngularDimensionsMeshInput_Text_T extends ResthopperParameter {
+class AngularDimensionsMeshInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -73,7 +73,7 @@ class AngularDimensionsMeshInput_Text_T extends ResthopperParameter {
 
 }
 
-class AngularDimensionsMeshInput_Size_S extends ResthopperParameter {
+class AngularDimensionsMeshInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -87,7 +87,7 @@ class AngularDimensionsMeshInput_Size_S extends ResthopperParameter {
 
 }
 
-class AngularDimensionsMeshInput_LengthFactor_F extends ResthopperParameter {
+class AngularDimensionsMeshInput_lengthfactor_f extends ResthopperParameter {
 
 	public name: string = "LengthFactor";
 	public nickName: string = "F";
@@ -101,7 +101,7 @@ class AngularDimensionsMeshInput_LengthFactor_F extends ResthopperParameter {
 
 }
 
-class AngularDimensionsMeshInput_MinimumAngle_A0 extends ResthopperParameter {
+class AngularDimensionsMeshInput_minimumangle_a0 extends ResthopperParameter {
 
 	public name: string = "MinimumAngle";
 	public nickName: string = "A0";
@@ -115,7 +115,7 @@ class AngularDimensionsMeshInput_MinimumAngle_A0 extends ResthopperParameter {
 
 }
 
-class AngularDimensionsMeshInput_MaximumAngle_A1 extends ResthopperParameter {
+class AngularDimensionsMeshInput_maximumangle_a1 extends ResthopperParameter {
 
 	public name: string = "MaximumAngle";
 	public nickName: string = "A1";

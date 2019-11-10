@@ -15,31 +15,31 @@ export default class SplitList extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": SplitListInput_List_L,
-		"Index_i": SplitListInput_Index_i,
+		"list_l": SplitListInput_list_l,
+		"index_i": SplitListInput_index_i,
 	}
 
 	public output:
 	{
-		"ListA_A": SplitListOutput_ListA_A,
-		"ListB_B": SplitListOutput_ListB_B,
+		"lista_a": SplitListOutput_lista_a,
+		"listb_b": SplitListOutput_listb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new SplitListInput_List_L(),
-			"Index_i": new SplitListInput_Index_i(),
+			"list_l": new SplitListInput_list_l(),
+			"index_i": new SplitListInput_index_i(),
 		}
 		this.output = {
-			"ListA_A": new SplitListOutput_ListA_A(),
-			"ListB_B": new SplitListOutput_ListB_B(),
+			"lista_a": new SplitListOutput_lista_a(),
+			"listb_b": new SplitListOutput_listb_b(),
 		}
 	}
 
 }
 
-class SplitListInput_List_L extends ResthopperParameter {
+class SplitListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class SplitListInput_List_L extends ResthopperParameter {
 
 }
 
-class SplitListInput_Index_i extends ResthopperParameter {
+class SplitListInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
@@ -67,7 +67,7 @@ class SplitListInput_Index_i extends ResthopperParameter {
 
 }
 
-class SplitListOutput_ListA_A extends ResthopperParameter {
+class SplitListOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class SplitListOutput_ListA_A extends ResthopperParameter {
 
 }
 
-class SplitListOutput_ListB_B extends ResthopperParameter {
+class SplitListOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";

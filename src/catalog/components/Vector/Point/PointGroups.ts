@@ -15,31 +15,31 @@ export default class PointGroups extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": PointGroupsInput_Points_P,
-		"Distance_D": PointGroupsInput_Distance_D,
+		"points_p": PointGroupsInput_points_p,
+		"distance_d": PointGroupsInput_distance_d,
 	}
 
 	public output:
 	{
-		"Groups_G": PointGroupsOutput_Groups_G,
-		"Indices_I": PointGroupsOutput_Indices_I,
+		"groups_g": PointGroupsOutput_groups_g,
+		"indices_i": PointGroupsOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new PointGroupsInput_Points_P(),
-			"Distance_D": new PointGroupsInput_Distance_D(),
+			"points_p": new PointGroupsInput_points_p(),
+			"distance_d": new PointGroupsInput_distance_d(),
 		}
 		this.output = {
-			"Groups_G": new PointGroupsOutput_Groups_G(),
-			"Indices_I": new PointGroupsOutput_Indices_I(),
+			"groups_g": new PointGroupsOutput_groups_g(),
+			"indices_i": new PointGroupsOutput_indices_i(),
 		}
 	}
 
 }
 
-class PointGroupsInput_Points_P extends ResthopperParameter {
+class PointGroupsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PointGroupsInput_Points_P extends ResthopperParameter {
 
 }
 
-class PointGroupsInput_Distance_D extends ResthopperParameter {
+class PointGroupsInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class PointGroupsInput_Distance_D extends ResthopperParameter {
 
 }
 
-class PointGroupsOutput_Groups_G extends ResthopperParameter {
+class PointGroupsOutput_groups_g extends ResthopperParameter {
 
 	public name: string = "Groups";
 	public nickName: string = "G";
@@ -81,7 +81,7 @@ class PointGroupsOutput_Groups_G extends ResthopperParameter {
 
 }
 
-class PointGroupsOutput_Indices_I extends ResthopperParameter {
+class PointGroupsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

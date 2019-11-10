@@ -15,29 +15,29 @@ export default class CurveFrame extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveFrameInput_Curve_C,
-		"Parameter_t": CurveFrameInput_Parameter_t,
+		"curve_c": CurveFrameInput_curve_c,
+		"parameter_t": CurveFrameInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Frame_F": CurveFrameOutput_Frame_F,
+		"frame_f": CurveFrameOutput_frame_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveFrameInput_Curve_C(),
-			"Parameter_t": new CurveFrameInput_Parameter_t(),
+			"curve_c": new CurveFrameInput_curve_c(),
+			"parameter_t": new CurveFrameInput_parameter_t(),
 		}
 		this.output = {
-			"Frame_F": new CurveFrameOutput_Frame_F(),
+			"frame_f": new CurveFrameOutput_frame_f(),
 		}
 	}
 
 }
 
-class CurveFrameInput_Curve_C extends ResthopperParameter {
+class CurveFrameInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class CurveFrameInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveFrameInput_Parameter_t extends ResthopperParameter {
+class CurveFrameInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class CurveFrameInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class CurveFrameOutput_Frame_F extends ResthopperParameter {
+class CurveFrameOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";

@@ -15,29 +15,29 @@ export default class CullFaces extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": CullFacesInput_Mesh_M,
-		"Pattern_P": CullFacesInput_Pattern_P,
+		"mesh_m": CullFacesInput_mesh_m,
+		"pattern_p": CullFacesInput_pattern_p,
 	}
 
 	public output:
 	{
-		"Mesh_M": CullFacesOutput_Mesh_M,
+		"mesh_m": CullFacesOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new CullFacesInput_Mesh_M(),
-			"Pattern_P": new CullFacesInput_Pattern_P(),
+			"mesh_m": new CullFacesInput_mesh_m(),
+			"pattern_p": new CullFacesInput_pattern_p(),
 		}
 		this.output = {
-			"Mesh_M": new CullFacesOutput_Mesh_M(),
+			"mesh_m": new CullFacesOutput_mesh_m(),
 		}
 	}
 
 }
 
-class CullFacesInput_Mesh_M extends ResthopperParameter {
+class CullFacesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class CullFacesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class CullFacesInput_Pattern_P extends ResthopperParameter {
+class CullFacesInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class CullFacesInput_Pattern_P extends ResthopperParameter {
 
 }
 
-class CullFacesOutput_Mesh_M extends ResthopperParameter {
+class CullFacesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

@@ -15,27 +15,27 @@ export default class GoldenRatio extends ResthopperComponent {
 
 	public input:
 	{
-		"Factor_N": GoldenRatioInput_Factor_N,
+		"factor_n": GoldenRatioInput_factor_n,
 	}
 
 	public output:
 	{
-		"Output_y": GoldenRatioOutput_Output_y,
+		"output_y": GoldenRatioOutput_output_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Factor_N": new GoldenRatioInput_Factor_N(),
+			"factor_n": new GoldenRatioInput_factor_n(),
 		}
 		this.output = {
-			"Output_y": new GoldenRatioOutput_Output_y(),
+			"output_y": new GoldenRatioOutput_output_y(),
 		}
 	}
 
 }
 
-class GoldenRatioInput_Factor_N extends ResthopperParameter {
+class GoldenRatioInput_factor_n extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class GoldenRatioInput_Factor_N extends ResthopperParameter {
 
 }
 
-class GoldenRatioOutput_Output_y extends ResthopperParameter {
+class GoldenRatioOutput_output_y extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "y";

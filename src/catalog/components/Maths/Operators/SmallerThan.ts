@@ -15,29 +15,29 @@ export default class SmallerThan extends ResthopperComponent {
 
 	public input:
 	{
-		"FirstNumber_A": SmallerThanInput_FirstNumber_A,
-		"SecondNumber_B": SmallerThanInput_SecondNumber_B,
+		"firstnumber_a": SmallerThanInput_firstnumber_a,
+		"secondnumber_b": SmallerThanInput_secondnumber_b,
 	}
 
 	public output:
 	{
-		"orEqualto_": SmallerThanOutput_orEqualto_,
+		"orequalto_": SmallerThanOutput_orequalto_,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"FirstNumber_A": new SmallerThanInput_FirstNumber_A(),
-			"SecondNumber_B": new SmallerThanInput_SecondNumber_B(),
+			"firstnumber_a": new SmallerThanInput_firstnumber_a(),
+			"secondnumber_b": new SmallerThanInput_secondnumber_b(),
 		}
 		this.output = {
-			"orEqualto_": new SmallerThanOutput_orEqualto_(),
+			"orequalto_": new SmallerThanOutput_orequalto_(),
 		}
 	}
 
 }
 
-class SmallerThanInput_FirstNumber_A extends ResthopperParameter {
+class SmallerThanInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SmallerThanInput_FirstNumber_A extends ResthopperParameter {
 
 }
 
-class SmallerThanInput_SecondNumber_B extends ResthopperParameter {
+class SmallerThanInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SmallerThanInput_SecondNumber_B extends ResthopperParameter {
 
 }
 
-class SmallerThanOutput_orEqualto_ extends ResthopperParameter {
+class SmallerThanOutput_orequalto_ extends ResthopperParameter {
 
 	public name: string = "orEqualto";
 	public nickName: string = "";

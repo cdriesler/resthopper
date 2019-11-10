@@ -15,31 +15,31 @@ export default class DirectionDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": DirectionDisplayInput_Field_F,
-		"Section_S": DirectionDisplayInput_Section_S,
-		"Samples_N": DirectionDisplayInput_Samples_N,
+		"field_f": DirectionDisplayInput_field_f,
+		"section_s": DirectionDisplayInput_section_s,
+		"samples_n": DirectionDisplayInput_samples_n,
 	}
 
 	public output:
 	{
-		"Display_D": DirectionDisplayOutput_Display_D,
+		"display_d": DirectionDisplayOutput_display_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new DirectionDisplayInput_Field_F(),
-			"Section_S": new DirectionDisplayInput_Section_S(),
-			"Samples_N": new DirectionDisplayInput_Samples_N(),
+			"field_f": new DirectionDisplayInput_field_f(),
+			"section_s": new DirectionDisplayInput_section_s(),
+			"samples_n": new DirectionDisplayInput_samples_n(),
 		}
 		this.output = {
-			"Display_D": new DirectionDisplayOutput_Display_D(),
+			"display_d": new DirectionDisplayOutput_display_d(),
 		}
 	}
 
 }
 
-class DirectionDisplayInput_Field_F extends ResthopperParameter {
+class DirectionDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -53,7 +53,7 @@ class DirectionDisplayInput_Field_F extends ResthopperParameter {
 
 }
 
-class DirectionDisplayInput_Section_S extends ResthopperParameter {
+class DirectionDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class DirectionDisplayInput_Section_S extends ResthopperParameter {
 
 }
 
-class DirectionDisplayInput_Samples_N extends ResthopperParameter {
+class DirectionDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";
@@ -81,7 +81,7 @@ class DirectionDisplayInput_Samples_N extends ResthopperParameter {
 
 }
 
-class DirectionDisplayOutput_Display_D extends ResthopperParameter {
+class DirectionDisplayOutput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";

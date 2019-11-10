@@ -15,33 +15,33 @@ export default class DomainBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": DomainBoxInput_Base_B,
-		"X_X": DomainBoxInput_X_X,
-		"Y_Y": DomainBoxInput_Y_Y,
-		"Z_Z": DomainBoxInput_Z_Z,
+		"base_b": DomainBoxInput_base_b,
+		"x_x": DomainBoxInput_x_x,
+		"y_y": DomainBoxInput_y_y,
+		"z_z": DomainBoxInput_z_z,
 	}
 
 	public output:
 	{
-		"Box_B": DomainBoxOutput_Box_B,
+		"box_b": DomainBoxOutput_box_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new DomainBoxInput_Base_B(),
-			"X_X": new DomainBoxInput_X_X(),
-			"Y_Y": new DomainBoxInput_Y_Y(),
-			"Z_Z": new DomainBoxInput_Z_Z(),
+			"base_b": new DomainBoxInput_base_b(),
+			"x_x": new DomainBoxInput_x_x(),
+			"y_y": new DomainBoxInput_y_y(),
+			"z_z": new DomainBoxInput_z_z(),
 		}
 		this.output = {
-			"Box_B": new DomainBoxOutput_Box_B(),
+			"box_b": new DomainBoxOutput_box_b(),
 		}
 	}
 
 }
 
-class DomainBoxInput_Base_B extends ResthopperParameter {
+class DomainBoxInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class DomainBoxInput_Base_B extends ResthopperParameter {
 
 }
 
-class DomainBoxInput_X_X extends ResthopperParameter {
+class DomainBoxInput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
@@ -69,7 +69,7 @@ class DomainBoxInput_X_X extends ResthopperParameter {
 
 }
 
-class DomainBoxInput_Y_Y extends ResthopperParameter {
+class DomainBoxInput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
@@ -83,7 +83,7 @@ class DomainBoxInput_Y_Y extends ResthopperParameter {
 
 }
 
-class DomainBoxInput_Z_Z extends ResthopperParameter {
+class DomainBoxInput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";
@@ -97,7 +97,7 @@ class DomainBoxInput_Z_Z extends ResthopperParameter {
 
 }
 
-class DomainBoxOutput_Box_B extends ResthopperParameter {
+class DomainBoxOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";

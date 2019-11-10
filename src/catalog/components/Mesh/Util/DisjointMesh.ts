@@ -15,27 +15,27 @@ export default class DisjointMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": DisjointMeshInput_Mesh_M,
+		"mesh_m": DisjointMeshInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Meshes_M": DisjointMeshOutput_Meshes_M,
+		"meshes_m": DisjointMeshOutput_meshes_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new DisjointMeshInput_Mesh_M(),
+			"mesh_m": new DisjointMeshInput_mesh_m(),
 		}
 		this.output = {
-			"Meshes_M": new DisjointMeshOutput_Meshes_M(),
+			"meshes_m": new DisjointMeshOutput_meshes_m(),
 		}
 	}
 
 }
 
-class DisjointMeshInput_Mesh_M extends ResthopperParameter {
+class DisjointMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -49,7 +49,7 @@ class DisjointMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class DisjointMeshOutput_Meshes_M extends ResthopperParameter {
+class DisjointMeshOutput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";

@@ -15,31 +15,31 @@ export default class Discontinuity extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": DiscontinuityInput_Curve_C,
-		"Level_L": DiscontinuityInput_Level_L,
+		"curve_c": DiscontinuityInput_curve_c,
+		"level_l": DiscontinuityInput_level_l,
 	}
 
 	public output:
 	{
-		"Points_P": DiscontinuityOutput_Points_P,
-		"Parameters_t": DiscontinuityOutput_Parameters_t,
+		"points_p": DiscontinuityOutput_points_p,
+		"parameters_t": DiscontinuityOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new DiscontinuityInput_Curve_C(),
-			"Level_L": new DiscontinuityInput_Level_L(),
+			"curve_c": new DiscontinuityInput_curve_c(),
+			"level_l": new DiscontinuityInput_level_l(),
 		}
 		this.output = {
-			"Points_P": new DiscontinuityOutput_Points_P(),
-			"Parameters_t": new DiscontinuityOutput_Parameters_t(),
+			"points_p": new DiscontinuityOutput_points_p(),
+			"parameters_t": new DiscontinuityOutput_parameters_t(),
 		}
 	}
 
 }
 
-class DiscontinuityInput_Curve_C extends ResthopperParameter {
+class DiscontinuityInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class DiscontinuityInput_Curve_C extends ResthopperParameter {
 
 }
 
-class DiscontinuityInput_Level_L extends ResthopperParameter {
+class DiscontinuityInput_level_l extends ResthopperParameter {
 
 	public name: string = "Level";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class DiscontinuityInput_Level_L extends ResthopperParameter {
 
 }
 
-class DiscontinuityOutput_Points_P extends ResthopperParameter {
+class DiscontinuityOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class DiscontinuityOutput_Points_P extends ResthopperParameter {
 
 }
 
-class DiscontinuityOutput_Parameters_t extends ResthopperParameter {
+class DiscontinuityOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

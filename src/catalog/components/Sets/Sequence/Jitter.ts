@@ -15,33 +15,33 @@ export default class Jitter extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": JitterInput_List_L,
-		"Jitter_J": JitterInput_Jitter_J,
-		"Seed_S": JitterInput_Seed_S,
+		"list_l": JitterInput_list_l,
+		"jitter_j": JitterInput_jitter_j,
+		"seed_s": JitterInput_seed_s,
 	}
 
 	public output:
 	{
-		"Values_V": JitterOutput_Values_V,
-		"Indices_I": JitterOutput_Indices_I,
+		"values_v": JitterOutput_values_v,
+		"indices_i": JitterOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new JitterInput_List_L(),
-			"Jitter_J": new JitterInput_Jitter_J(),
-			"Seed_S": new JitterInput_Seed_S(),
+			"list_l": new JitterInput_list_l(),
+			"jitter_j": new JitterInput_jitter_j(),
+			"seed_s": new JitterInput_seed_s(),
 		}
 		this.output = {
-			"Values_V": new JitterOutput_Values_V(),
-			"Indices_I": new JitterOutput_Indices_I(),
+			"values_v": new JitterOutput_values_v(),
+			"indices_i": new JitterOutput_indices_i(),
 		}
 	}
 
 }
 
-class JitterInput_List_L extends ResthopperParameter {
+class JitterInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class JitterInput_List_L extends ResthopperParameter {
 
 }
 
-class JitterInput_Jitter_J extends ResthopperParameter {
+class JitterInput_jitter_j extends ResthopperParameter {
 
 	public name: string = "Jitter";
 	public nickName: string = "J";
@@ -69,7 +69,7 @@ class JitterInput_Jitter_J extends ResthopperParameter {
 
 }
 
-class JitterInput_Seed_S extends ResthopperParameter {
+class JitterInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class JitterInput_Seed_S extends ResthopperParameter {
 
 }
 
-class JitterOutput_Values_V extends ResthopperParameter {
+class JitterOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class JitterOutput_Values_V extends ResthopperParameter {
 
 }
 
-class JitterOutput_Indices_I extends ResthopperParameter {
+class JitterOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

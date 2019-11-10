@@ -15,31 +15,31 @@ export default class AlignVertices extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": AlignVerticesInput_Mesh_M,
-		"Tolerance_T": AlignVerticesInput_Tolerance_T,
+		"mesh_m": AlignVerticesInput_mesh_m,
+		"tolerance_t": AlignVerticesInput_tolerance_t,
 	}
 
 	public output:
 	{
-		"Result_R": AlignVerticesOutput_Result_R,
-		"Count_N": AlignVerticesOutput_Count_N,
+		"result_r": AlignVerticesOutput_result_r,
+		"count_n": AlignVerticesOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new AlignVerticesInput_Mesh_M(),
-			"Tolerance_T": new AlignVerticesInput_Tolerance_T(),
+			"mesh_m": new AlignVerticesInput_mesh_m(),
+			"tolerance_t": new AlignVerticesInput_tolerance_t(),
 		}
 		this.output = {
-			"Result_R": new AlignVerticesOutput_Result_R(),
-			"Count_N": new AlignVerticesOutput_Count_N(),
+			"result_r": new AlignVerticesOutput_result_r(),
+			"count_n": new AlignVerticesOutput_count_n(),
 		}
 	}
 
 }
 
-class AlignVerticesInput_Mesh_M extends ResthopperParameter {
+class AlignVerticesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class AlignVerticesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class AlignVerticesInput_Tolerance_T extends ResthopperParameter {
+class AlignVerticesInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class AlignVerticesInput_Tolerance_T extends ResthopperParameter {
 
 }
 
-class AlignVerticesOutput_Result_R extends ResthopperParameter {
+class AlignVerticesOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class AlignVerticesOutput_Result_R extends ResthopperParameter {
 
 }
 
-class AlignVerticesOutput_Count_N extends ResthopperParameter {
+class AlignVerticesOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

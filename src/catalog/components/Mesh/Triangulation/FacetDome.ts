@@ -15,33 +15,33 @@ export default class FacetDome extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": FacetDomeInput_Points_P,
-		"Box_B": FacetDomeInput_Box_B,
-		"Radius_R": FacetDomeInput_Radius_R,
+		"points_p": FacetDomeInput_points_p,
+		"box_b": FacetDomeInput_box_b,
+		"radius_r": FacetDomeInput_radius_r,
 	}
 
 	public output:
 	{
-		"Pattern_P": FacetDomeOutput_Pattern_P,
-		"Dome_D": FacetDomeOutput_Dome_D,
+		"pattern_p": FacetDomeOutput_pattern_p,
+		"dome_d": FacetDomeOutput_dome_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new FacetDomeInput_Points_P(),
-			"Box_B": new FacetDomeInput_Box_B(),
-			"Radius_R": new FacetDomeInput_Radius_R(),
+			"points_p": new FacetDomeInput_points_p(),
+			"box_b": new FacetDomeInput_box_b(),
+			"radius_r": new FacetDomeInput_radius_r(),
 		}
 		this.output = {
-			"Pattern_P": new FacetDomeOutput_Pattern_P(),
-			"Dome_D": new FacetDomeOutput_Dome_D(),
+			"pattern_p": new FacetDomeOutput_pattern_p(),
+			"dome_d": new FacetDomeOutput_dome_d(),
 		}
 	}
 
 }
 
-class FacetDomeInput_Points_P extends ResthopperParameter {
+class FacetDomeInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class FacetDomeInput_Points_P extends ResthopperParameter {
 
 }
 
-class FacetDomeInput_Box_B extends ResthopperParameter {
+class FacetDomeInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class FacetDomeInput_Box_B extends ResthopperParameter {
 
 }
 
-class FacetDomeInput_Radius_R extends ResthopperParameter {
+class FacetDomeInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class FacetDomeInput_Radius_R extends ResthopperParameter {
 
 }
 
-class FacetDomeOutput_Pattern_P extends ResthopperParameter {
+class FacetDomeOutput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class FacetDomeOutput_Pattern_P extends ResthopperParameter {
 
 }
 
-class FacetDomeOutput_Dome_D extends ResthopperParameter {
+class FacetDomeOutput_dome_d extends ResthopperParameter {
 
 	public name: string = "Dome";
 	public nickName: string = "D";

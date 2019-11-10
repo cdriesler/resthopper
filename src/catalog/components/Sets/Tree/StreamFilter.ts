@@ -15,31 +15,31 @@ export default class StreamFilter extends ResthopperComponent {
 
 	public input:
 	{
-		"Stream0_0": StreamFilterInput_Stream0_0,
-		"Stream1_1": StreamFilterInput_Stream1_1,
-		"Gate_G": StreamFilterInput_Gate_G,
+		"stream0_0": StreamFilterInput_stream0_0,
+		"stream1_1": StreamFilterInput_stream1_1,
+		"gate_g": StreamFilterInput_gate_g,
 	}
 
 	public output:
 	{
-		"Stream_S": StreamFilterOutput_Stream_S,
+		"stream_s": StreamFilterOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Stream0_0": new StreamFilterInput_Stream0_0(),
-			"Stream1_1": new StreamFilterInput_Stream1_1(),
-			"Gate_G": new StreamFilterInput_Gate_G(),
+			"stream0_0": new StreamFilterInput_stream0_0(),
+			"stream1_1": new StreamFilterInput_stream1_1(),
+			"gate_g": new StreamFilterInput_gate_g(),
 		}
 		this.output = {
-			"Stream_S": new StreamFilterOutput_Stream_S(),
+			"stream_s": new StreamFilterOutput_stream_s(),
 		}
 	}
 
 }
 
-class StreamFilterInput_Stream0_0 extends ResthopperParameter {
+class StreamFilterInput_stream0_0 extends ResthopperParameter {
 
 	public name: string = "Stream0";
 	public nickName: string = "0";
@@ -53,7 +53,7 @@ class StreamFilterInput_Stream0_0 extends ResthopperParameter {
 
 }
 
-class StreamFilterInput_Stream1_1 extends ResthopperParameter {
+class StreamFilterInput_stream1_1 extends ResthopperParameter {
 
 	public name: string = "Stream1";
 	public nickName: string = "1";
@@ -67,7 +67,7 @@ class StreamFilterInput_Stream1_1 extends ResthopperParameter {
 
 }
 
-class StreamFilterInput_Gate_G extends ResthopperParameter {
+class StreamFilterInput_gate_g extends ResthopperParameter {
 
 	public name: string = "Gate";
 	public nickName: string = "G";
@@ -81,7 +81,7 @@ class StreamFilterInput_Gate_G extends ResthopperParameter {
 
 }
 
-class StreamFilterOutput_Stream_S extends ResthopperParameter {
+class StreamFilterOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

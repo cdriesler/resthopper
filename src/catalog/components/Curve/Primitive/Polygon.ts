@@ -15,35 +15,35 @@ export default class Polygon extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": PolygonInput_Plane_P,
-		"Radius_R": PolygonInput_Radius_R,
-		"Segments_S": PolygonInput_Segments_S,
-		"FilletRadius_Rf": PolygonInput_FilletRadius_Rf,
+		"plane_p": PolygonInput_plane_p,
+		"radius_r": PolygonInput_radius_r,
+		"segments_s": PolygonInput_segments_s,
+		"filletradius_rf": PolygonInput_filletradius_rf,
 	}
 
 	public output:
 	{
-		"Polygon_P": PolygonOutput_Polygon_P,
-		"Length_L": PolygonOutput_Length_L,
+		"polygon_p": PolygonOutput_polygon_p,
+		"length_l": PolygonOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new PolygonInput_Plane_P(),
-			"Radius_R": new PolygonInput_Radius_R(),
-			"Segments_S": new PolygonInput_Segments_S(),
-			"FilletRadius_Rf": new PolygonInput_FilletRadius_Rf(),
+			"plane_p": new PolygonInput_plane_p(),
+			"radius_r": new PolygonInput_radius_r(),
+			"segments_s": new PolygonInput_segments_s(),
+			"filletradius_rf": new PolygonInput_filletradius_rf(),
 		}
 		this.output = {
-			"Polygon_P": new PolygonOutput_Polygon_P(),
-			"Length_L": new PolygonOutput_Length_L(),
+			"polygon_p": new PolygonOutput_polygon_p(),
+			"length_l": new PolygonOutput_length_l(),
 		}
 	}
 
 }
 
-class PolygonInput_Plane_P extends ResthopperParameter {
+class PolygonInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class PolygonInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PolygonInput_Radius_R extends ResthopperParameter {
+class PolygonInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -71,7 +71,7 @@ class PolygonInput_Radius_R extends ResthopperParameter {
 
 }
 
-class PolygonInput_Segments_S extends ResthopperParameter {
+class PolygonInput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
@@ -85,7 +85,7 @@ class PolygonInput_Segments_S extends ResthopperParameter {
 
 }
 
-class PolygonInput_FilletRadius_Rf extends ResthopperParameter {
+class PolygonInput_filletradius_rf extends ResthopperParameter {
 
 	public name: string = "FilletRadius";
 	public nickName: string = "Rf";
@@ -99,7 +99,7 @@ class PolygonInput_FilletRadius_Rf extends ResthopperParameter {
 
 }
 
-class PolygonOutput_Polygon_P extends ResthopperParameter {
+class PolygonOutput_polygon_p extends ResthopperParameter {
 
 	public name: string = "Polygon";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class PolygonOutput_Polygon_P extends ResthopperParameter {
 
 }
 
-class PolygonOutput_Length_L extends ResthopperParameter {
+class PolygonOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

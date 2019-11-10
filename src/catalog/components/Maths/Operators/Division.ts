@@ -15,29 +15,29 @@ export default class Division extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": DivisionInput_A_A,
-		"B_B": DivisionInput_B_B,
+		"a_a": DivisionInput_a_a,
+		"b_b": DivisionInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": DivisionOutput_Result_R,
+		"result_r": DivisionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new DivisionInput_A_A(),
-			"B_B": new DivisionInput_B_B(),
+			"a_a": new DivisionInput_a_a(),
+			"b_b": new DivisionInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new DivisionOutput_Result_R(),
+			"result_r": new DivisionOutput_result_r(),
 		}
 	}
 
 }
 
-class DivisionInput_A_A extends ResthopperParameter {
+class DivisionInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class DivisionInput_A_A extends ResthopperParameter {
 
 }
 
-class DivisionInput_B_B extends ResthopperParameter {
+class DivisionInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class DivisionInput_B_B extends ResthopperParameter {
 
 }
 
-class DivisionOutput_Result_R extends ResthopperParameter {
+class DivisionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

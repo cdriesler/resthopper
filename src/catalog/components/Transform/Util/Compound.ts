@@ -15,27 +15,27 @@ export default class Compound extends ResthopperComponent {
 
 	public input:
 	{
-		"Transforms_T": CompoundInput_Transforms_T,
+		"transforms_t": CompoundInput_transforms_t,
 	}
 
 	public output:
 	{
-		"Compound_X": CompoundOutput_Compound_X,
+		"compound_x": CompoundOutput_compound_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Transforms_T": new CompoundInput_Transforms_T(),
+			"transforms_t": new CompoundInput_transforms_t(),
 		}
 		this.output = {
-			"Compound_X": new CompoundOutput_Compound_X(),
+			"compound_x": new CompoundOutput_compound_x(),
 		}
 	}
 
 }
 
-class CompoundInput_Transforms_T extends ResthopperParameter {
+class CompoundInput_transforms_t extends ResthopperParameter {
 
 	public name: string = "Transforms";
 	public nickName: string = "T";
@@ -49,7 +49,7 @@ class CompoundInput_Transforms_T extends ResthopperParameter {
 
 }
 
-class CompoundOutput_Compound_X extends ResthopperParameter {
+class CompoundOutput_compound_x extends ResthopperParameter {
 
 	public name: string = "Compound";
 	public nickName: string = "X";

@@ -15,33 +15,33 @@ export default class InEllipse extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": InEllipseInput_CornerA_A,
-		"CornerB_B": InEllipseInput_CornerB_B,
-		"CornerC_C": InEllipseInput_CornerC_C,
+		"cornera_a": InEllipseInput_cornera_a,
+		"cornerb_b": InEllipseInput_cornerb_b,
+		"cornerc_c": InEllipseInput_cornerc_c,
 	}
 
 	public output:
 	{
-		"Ellipse_E": InEllipseOutput_Ellipse_E,
-		"Plane_P": InEllipseOutput_Plane_P,
+		"ellipse_e": InEllipseOutput_ellipse_e,
+		"plane_p": InEllipseOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new InEllipseInput_CornerA_A(),
-			"CornerB_B": new InEllipseInput_CornerB_B(),
-			"CornerC_C": new InEllipseInput_CornerC_C(),
+			"cornera_a": new InEllipseInput_cornera_a(),
+			"cornerb_b": new InEllipseInput_cornerb_b(),
+			"cornerc_c": new InEllipseInput_cornerc_c(),
 		}
 		this.output = {
-			"Ellipse_E": new InEllipseOutput_Ellipse_E(),
-			"Plane_P": new InEllipseOutput_Plane_P(),
+			"ellipse_e": new InEllipseOutput_ellipse_e(),
+			"plane_p": new InEllipseOutput_plane_p(),
 		}
 	}
 
 }
 
-class InEllipseInput_CornerA_A extends ResthopperParameter {
+class InEllipseInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class InEllipseInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class InEllipseInput_CornerB_B extends ResthopperParameter {
+class InEllipseInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class InEllipseInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class InEllipseInput_CornerC_C extends ResthopperParameter {
+class InEllipseInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class InEllipseInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class InEllipseOutput_Ellipse_E extends ResthopperParameter {
+class InEllipseOutput_ellipse_e extends ResthopperParameter {
 
 	public name: string = "Ellipse";
 	public nickName: string = "E";
@@ -97,7 +97,7 @@ class InEllipseOutput_Ellipse_E extends ResthopperParameter {
 
 }
 
-class InEllipseOutput_Plane_P extends ResthopperParameter {
+class InEllipseOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

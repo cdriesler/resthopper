@@ -15,33 +15,33 @@ export default class BlendCurvePt extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": BlendCurvePtInput_CurveA_A,
-		"CurveB_B": BlendCurvePtInput_CurveB_B,
-		"Point_P": BlendCurvePtInput_Point_P,
-		"Continuity_C": BlendCurvePtInput_Continuity_C,
+		"curvea_a": BlendCurvePtInput_curvea_a,
+		"curveb_b": BlendCurvePtInput_curveb_b,
+		"point_p": BlendCurvePtInput_point_p,
+		"continuity_c": BlendCurvePtInput_continuity_c,
 	}
 
 	public output:
 	{
-		"Blend_B": BlendCurvePtOutput_Blend_B,
+		"blend_b": BlendCurvePtOutput_blend_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new BlendCurvePtInput_CurveA_A(),
-			"CurveB_B": new BlendCurvePtInput_CurveB_B(),
-			"Point_P": new BlendCurvePtInput_Point_P(),
-			"Continuity_C": new BlendCurvePtInput_Continuity_C(),
+			"curvea_a": new BlendCurvePtInput_curvea_a(),
+			"curveb_b": new BlendCurvePtInput_curveb_b(),
+			"point_p": new BlendCurvePtInput_point_p(),
+			"continuity_c": new BlendCurvePtInput_continuity_c(),
 		}
 		this.output = {
-			"Blend_B": new BlendCurvePtOutput_Blend_B(),
+			"blend_b": new BlendCurvePtOutput_blend_b(),
 		}
 	}
 
 }
 
-class BlendCurvePtInput_CurveA_A extends ResthopperParameter {
+class BlendCurvePtInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class BlendCurvePtInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class BlendCurvePtInput_CurveB_B extends ResthopperParameter {
+class BlendCurvePtInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class BlendCurvePtInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class BlendCurvePtInput_Point_P extends ResthopperParameter {
+class BlendCurvePtInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class BlendCurvePtInput_Point_P extends ResthopperParameter {
 
 }
 
-class BlendCurvePtInput_Continuity_C extends ResthopperParameter {
+class BlendCurvePtInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class BlendCurvePtInput_Continuity_C extends ResthopperParameter {
 
 }
 
-class BlendCurvePtOutput_Blend_B extends ResthopperParameter {
+class BlendCurvePtOutput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";

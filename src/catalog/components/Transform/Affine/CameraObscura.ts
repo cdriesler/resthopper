@@ -15,33 +15,33 @@ export default class CameraObscura extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": CameraObscuraInput_Geometry_G,
-		"Point_P": CameraObscuraInput_Point_P,
-		"Factor_F": CameraObscuraInput_Factor_F,
+		"geometry_g": CameraObscuraInput_geometry_g,
+		"point_p": CameraObscuraInput_point_p,
+		"factor_f": CameraObscuraInput_factor_f,
 	}
 
 	public output:
 	{
-		"Geometry_G": CameraObscuraOutput_Geometry_G,
-		"Transform_X": CameraObscuraOutput_Transform_X,
+		"geometry_g": CameraObscuraOutput_geometry_g,
+		"transform_x": CameraObscuraOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new CameraObscuraInput_Geometry_G(),
-			"Point_P": new CameraObscuraInput_Point_P(),
-			"Factor_F": new CameraObscuraInput_Factor_F(),
+			"geometry_g": new CameraObscuraInput_geometry_g(),
+			"point_p": new CameraObscuraInput_point_p(),
+			"factor_f": new CameraObscuraInput_factor_f(),
 		}
 		this.output = {
-			"Geometry_G": new CameraObscuraOutput_Geometry_G(),
-			"Transform_X": new CameraObscuraOutput_Transform_X(),
+			"geometry_g": new CameraObscuraOutput_geometry_g(),
+			"transform_x": new CameraObscuraOutput_transform_x(),
 		}
 	}
 
 }
 
-class CameraObscuraInput_Geometry_G extends ResthopperParameter {
+class CameraObscuraInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class CameraObscuraInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CameraObscuraInput_Point_P extends ResthopperParameter {
+class CameraObscuraInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class CameraObscuraInput_Point_P extends ResthopperParameter {
 
 }
 
-class CameraObscuraInput_Factor_F extends ResthopperParameter {
+class CameraObscuraInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class CameraObscuraInput_Factor_F extends ResthopperParameter {
 
 }
 
-class CameraObscuraOutput_Geometry_G extends ResthopperParameter {
+class CameraObscuraOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class CameraObscuraOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CameraObscuraOutput_Transform_X extends ResthopperParameter {
+class CameraObscuraOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

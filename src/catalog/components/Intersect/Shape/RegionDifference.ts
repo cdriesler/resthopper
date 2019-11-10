@@ -15,31 +15,31 @@ export default class RegionDifference extends ResthopperComponent {
 
 	public input:
 	{
-		"CurvesA_A": RegionDifferenceInput_CurvesA_A,
-		"CurvesB_B": RegionDifferenceInput_CurvesB_B,
-		"Plane_P": RegionDifferenceInput_Plane_P,
+		"curvesa_a": RegionDifferenceInput_curvesa_a,
+		"curvesb_b": RegionDifferenceInput_curvesb_b,
+		"plane_p": RegionDifferenceInput_plane_p,
 	}
 
 	public output:
 	{
-		"Result_R": RegionDifferenceOutput_Result_R,
+		"result_r": RegionDifferenceOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurvesA_A": new RegionDifferenceInput_CurvesA_A(),
-			"CurvesB_B": new RegionDifferenceInput_CurvesB_B(),
-			"Plane_P": new RegionDifferenceInput_Plane_P(),
+			"curvesa_a": new RegionDifferenceInput_curvesa_a(),
+			"curvesb_b": new RegionDifferenceInput_curvesb_b(),
+			"plane_p": new RegionDifferenceInput_plane_p(),
 		}
 		this.output = {
-			"Result_R": new RegionDifferenceOutput_Result_R(),
+			"result_r": new RegionDifferenceOutput_result_r(),
 		}
 	}
 
 }
 
-class RegionDifferenceInput_CurvesA_A extends ResthopperParameter {
+class RegionDifferenceInput_curvesa_a extends ResthopperParameter {
 
 	public name: string = "CurvesA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class RegionDifferenceInput_CurvesA_A extends ResthopperParameter {
 
 }
 
-class RegionDifferenceInput_CurvesB_B extends ResthopperParameter {
+class RegionDifferenceInput_curvesb_b extends ResthopperParameter {
 
 	public name: string = "CurvesB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class RegionDifferenceInput_CurvesB_B extends ResthopperParameter {
 
 }
 
-class RegionDifferenceInput_Plane_P extends ResthopperParameter {
+class RegionDifferenceInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class RegionDifferenceInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RegionDifferenceOutput_Result_R extends ResthopperParameter {
+class RegionDifferenceOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

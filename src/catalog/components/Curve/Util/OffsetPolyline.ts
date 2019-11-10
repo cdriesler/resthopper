@@ -15,31 +15,31 @@ export default class OffsetPolyline extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": OffsetPolylineInput_Polyline_P,
-		"Distance_D": OffsetPolylineInput_Distance_D,
+		"polyline_p": OffsetPolylineInput_polyline_p,
+		"distance_d": OffsetPolylineInput_distance_d,
 	}
 
 	public output:
 	{
-		"Offset_O": OffsetPolylineOutput_Offset_O,
-		"Valid_V": OffsetPolylineOutput_Valid_V,
+		"offset_o": OffsetPolylineOutput_offset_o,
+		"valid_v": OffsetPolylineOutput_valid_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new OffsetPolylineInput_Polyline_P(),
-			"Distance_D": new OffsetPolylineInput_Distance_D(),
+			"polyline_p": new OffsetPolylineInput_polyline_p(),
+			"distance_d": new OffsetPolylineInput_distance_d(),
 		}
 		this.output = {
-			"Offset_O": new OffsetPolylineOutput_Offset_O(),
-			"Valid_V": new OffsetPolylineOutput_Valid_V(),
+			"offset_o": new OffsetPolylineOutput_offset_o(),
+			"valid_v": new OffsetPolylineOutput_valid_v(),
 		}
 	}
 
 }
 
-class OffsetPolylineInput_Polyline_P extends ResthopperParameter {
+class OffsetPolylineInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class OffsetPolylineInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class OffsetPolylineInput_Distance_D extends ResthopperParameter {
+class OffsetPolylineInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetPolylineInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetPolylineOutput_Offset_O extends ResthopperParameter {
+class OffsetPolylineOutput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -81,7 +81,7 @@ class OffsetPolylineOutput_Offset_O extends ResthopperParameter {
 
 }
 
-class OffsetPolylineOutput_Valid_V extends ResthopperParameter {
+class OffsetPolylineOutput_valid_v extends ResthopperParameter {
 
 	public name: string = "Valid";
 	public nickName: string = "V";

@@ -15,29 +15,29 @@ export default class Amplitude extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": AmplitudeInput_Vector_V,
-		"Amplitude_A": AmplitudeInput_Amplitude_A,
+		"vector_v": AmplitudeInput_vector_v,
+		"amplitude_a": AmplitudeInput_amplitude_a,
 	}
 
 	public output:
 	{
-		"Vector_V": AmplitudeOutput_Vector_V,
+		"vector_v": AmplitudeOutput_vector_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new AmplitudeInput_Vector_V(),
-			"Amplitude_A": new AmplitudeInput_Amplitude_A(),
+			"vector_v": new AmplitudeInput_vector_v(),
+			"amplitude_a": new AmplitudeInput_amplitude_a(),
 		}
 		this.output = {
-			"Vector_V": new AmplitudeOutput_Vector_V(),
+			"vector_v": new AmplitudeOutput_vector_v(),
 		}
 	}
 
 }
 
-class AmplitudeInput_Vector_V extends ResthopperParameter {
+class AmplitudeInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -51,7 +51,7 @@ class AmplitudeInput_Vector_V extends ResthopperParameter {
 
 }
 
-class AmplitudeInput_Amplitude_A extends ResthopperParameter {
+class AmplitudeInput_amplitude_a extends ResthopperParameter {
 
 	public name: string = "Amplitude";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class AmplitudeInput_Amplitude_A extends ResthopperParameter {
 
 }
 
-class AmplitudeOutput_Vector_V extends ResthopperParameter {
+class AmplitudeOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";

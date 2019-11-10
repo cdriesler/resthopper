@@ -15,31 +15,31 @@ export default class DuplicateData extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": DuplicateDataInput_Data_D,
-		"Number_N": DuplicateDataInput_Number_N,
-		"Order_O": DuplicateDataInput_Order_O,
+		"data_d": DuplicateDataInput_data_d,
+		"number_n": DuplicateDataInput_number_n,
+		"order_o": DuplicateDataInput_order_o,
 	}
 
 	public output:
 	{
-		"Data_D": DuplicateDataOutput_Data_D,
+		"data_d": DuplicateDataOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new DuplicateDataInput_Data_D(),
-			"Number_N": new DuplicateDataInput_Number_N(),
-			"Order_O": new DuplicateDataInput_Order_O(),
+			"data_d": new DuplicateDataInput_data_d(),
+			"number_n": new DuplicateDataInput_number_n(),
+			"order_o": new DuplicateDataInput_order_o(),
 		}
 		this.output = {
-			"Data_D": new DuplicateDataOutput_Data_D(),
+			"data_d": new DuplicateDataOutput_data_d(),
 		}
 	}
 
 }
 
-class DuplicateDataInput_Data_D extends ResthopperParameter {
+class DuplicateDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -53,7 +53,7 @@ class DuplicateDataInput_Data_D extends ResthopperParameter {
 
 }
 
-class DuplicateDataInput_Number_N extends ResthopperParameter {
+class DuplicateDataInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class DuplicateDataInput_Number_N extends ResthopperParameter {
 
 }
 
-class DuplicateDataInput_Order_O extends ResthopperParameter {
+class DuplicateDataInput_order_o extends ResthopperParameter {
 
 	public name: string = "Order";
 	public nickName: string = "O";
@@ -81,7 +81,7 @@ class DuplicateDataInput_Order_O extends ResthopperParameter {
 
 }
 
-class DuplicateDataOutput_Data_D extends ResthopperParameter {
+class DuplicateDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

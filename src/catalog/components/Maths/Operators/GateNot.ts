@@ -15,27 +15,27 @@ export default class GateNot extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateNotInput_A_A,
+		"a_a": GateNotInput_a_a,
 	}
 
 	public output:
 	{
-		"Result_R": GateNotOutput_Result_R,
+		"result_r": GateNotOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateNotInput_A_A(),
+			"a_a": new GateNotInput_a_a(),
 		}
 		this.output = {
-			"Result_R": new GateNotOutput_Result_R(),
+			"result_r": new GateNotOutput_result_r(),
 		}
 	}
 
 }
 
-class GateNotInput_A_A extends ResthopperParameter {
+class GateNotInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -49,7 +49,7 @@ class GateNotInput_A_A extends ResthopperParameter {
 
 }
 
-class GateNotOutput_Result_R extends ResthopperParameter {
+class GateNotOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -15,33 +15,33 @@ export default class MeshDepth extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshDepthInput_Mesh_M,
-		"Minimum_Min": MeshDepthInput_Minimum_Min,
-		"Maximum_Max": MeshDepthInput_Maximum_Max,
+		"mesh_m": MeshDepthInput_mesh_m,
+		"minimum_min": MeshDepthInput_minimum_min,
+		"maximum_max": MeshDepthInput_maximum_max,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshDepthOutput_Mesh_M,
-		"Valid_V": MeshDepthOutput_Valid_V,
+		"mesh_m": MeshDepthOutput_mesh_m,
+		"valid_v": MeshDepthOutput_valid_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshDepthInput_Mesh_M(),
-			"Minimum_Min": new MeshDepthInput_Minimum_Min(),
-			"Maximum_Max": new MeshDepthInput_Maximum_Max(),
+			"mesh_m": new MeshDepthInput_mesh_m(),
+			"minimum_min": new MeshDepthInput_minimum_min(),
+			"maximum_max": new MeshDepthInput_maximum_max(),
 		}
 		this.output = {
-			"Mesh_M": new MeshDepthOutput_Mesh_M(),
-			"Valid_V": new MeshDepthOutput_Valid_V(),
+			"mesh_m": new MeshDepthOutput_mesh_m(),
+			"valid_v": new MeshDepthOutput_valid_v(),
 		}
 	}
 
 }
 
-class MeshDepthInput_Mesh_M extends ResthopperParameter {
+class MeshDepthInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class MeshDepthInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshDepthInput_Minimum_Min extends ResthopperParameter {
+class MeshDepthInput_minimum_min extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "Min";
@@ -69,7 +69,7 @@ class MeshDepthInput_Minimum_Min extends ResthopperParameter {
 
 }
 
-class MeshDepthInput_Maximum_Max extends ResthopperParameter {
+class MeshDepthInput_maximum_max extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "Max";
@@ -83,7 +83,7 @@ class MeshDepthInput_Maximum_Max extends ResthopperParameter {
 
 }
 
-class MeshDepthOutput_Mesh_M extends ResthopperParameter {
+class MeshDepthOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -97,7 +97,7 @@ class MeshDepthOutput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshDepthOutput_Valid_V extends ResthopperParameter {
+class MeshDepthOutput_valid_v extends ResthopperParameter {
 
 	public name: string = "Valid";
 	public nickName: string = "V";

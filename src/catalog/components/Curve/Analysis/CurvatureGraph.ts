@@ -15,9 +15,9 @@ export default class CurvatureGraph extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurvatureGraphInput_Curve_C,
-		"Density_D": CurvatureGraphInput_Density_D,
-		"Scale_S": CurvatureGraphInput_Scale_S,
+		"curve_c": CurvatureGraphInput_curve_c,
+		"density_d": CurvatureGraphInput_density_d,
+		"scale_s": CurvatureGraphInput_scale_s,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class CurvatureGraph extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurvatureGraphInput_Curve_C(),
-			"Density_D": new CurvatureGraphInput_Density_D(),
-			"Scale_S": new CurvatureGraphInput_Scale_S(),
+			"curve_c": new CurvatureGraphInput_curve_c(),
+			"density_d": new CurvatureGraphInput_density_d(),
+			"scale_s": new CurvatureGraphInput_scale_s(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class CurvatureGraph extends ResthopperComponent {
 
 }
 
-class CurvatureGraphInput_Curve_C extends ResthopperParameter {
+class CurvatureGraphInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CurvatureGraphInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurvatureGraphInput_Density_D extends ResthopperParameter {
+class CurvatureGraphInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class CurvatureGraphInput_Density_D extends ResthopperParameter {
 
 }
 
-class CurvatureGraphInput_Scale_S extends ResthopperParameter {
+class CurvatureGraphInput_scale_s extends ResthopperParameter {
 
 	public name: string = "Scale";
 	public nickName: string = "S";

@@ -15,31 +15,31 @@ export default class FitCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": FitCurveInput_Curve_C,
-		"Degree_D": FitCurveInput_Degree_D,
-		"Tolerance_Ft": FitCurveInput_Tolerance_Ft,
+		"curve_c": FitCurveInput_curve_c,
+		"degree_d": FitCurveInput_degree_d,
+		"tolerance_ft": FitCurveInput_tolerance_ft,
 	}
 
 	public output:
 	{
-		"Curve_C": FitCurveOutput_Curve_C,
+		"curve_c": FitCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new FitCurveInput_Curve_C(),
-			"Degree_D": new FitCurveInput_Degree_D(),
-			"Tolerance_Ft": new FitCurveInput_Tolerance_Ft(),
+			"curve_c": new FitCurveInput_curve_c(),
+			"degree_d": new FitCurveInput_degree_d(),
+			"tolerance_ft": new FitCurveInput_tolerance_ft(),
 		}
 		this.output = {
-			"Curve_C": new FitCurveOutput_Curve_C(),
+			"curve_c": new FitCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class FitCurveInput_Curve_C extends ResthopperParameter {
+class FitCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class FitCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class FitCurveInput_Degree_D extends ResthopperParameter {
+class FitCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class FitCurveInput_Degree_D extends ResthopperParameter {
 
 }
 
-class FitCurveInput_Tolerance_Ft extends ResthopperParameter {
+class FitCurveInput_tolerance_ft extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "Ft";
@@ -81,7 +81,7 @@ class FitCurveInput_Tolerance_Ft extends ResthopperParameter {
 
 }
 
-class FitCurveOutput_Curve_C extends ResthopperParameter {
+class FitCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

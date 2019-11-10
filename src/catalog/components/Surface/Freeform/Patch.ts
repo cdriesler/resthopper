@@ -15,35 +15,35 @@ export default class Patch extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": PatchInput_Curves_C,
-		"Points_P": PatchInput_Points_P,
-		"Spans_S": PatchInput_Spans_S,
-		"Flexibility_F": PatchInput_Flexibility_F,
-		"Trim_T": PatchInput_Trim_T,
+		"curves_c": PatchInput_curves_c,
+		"points_p": PatchInput_points_p,
+		"spans_s": PatchInput_spans_s,
+		"flexibility_f": PatchInput_flexibility_f,
+		"trim_t": PatchInput_trim_t,
 	}
 
 	public output:
 	{
-		"Patch_P": PatchOutput_Patch_P,
+		"patch_p": PatchOutput_patch_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new PatchInput_Curves_C(),
-			"Points_P": new PatchInput_Points_P(),
-			"Spans_S": new PatchInput_Spans_S(),
-			"Flexibility_F": new PatchInput_Flexibility_F(),
-			"Trim_T": new PatchInput_Trim_T(),
+			"curves_c": new PatchInput_curves_c(),
+			"points_p": new PatchInput_points_p(),
+			"spans_s": new PatchInput_spans_s(),
+			"flexibility_f": new PatchInput_flexibility_f(),
+			"trim_t": new PatchInput_trim_t(),
 		}
 		this.output = {
-			"Patch_P": new PatchOutput_Patch_P(),
+			"patch_p": new PatchOutput_patch_p(),
 		}
 	}
 
 }
 
-class PatchInput_Curves_C extends ResthopperParameter {
+class PatchInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class PatchInput_Curves_C extends ResthopperParameter {
 
 }
 
-class PatchInput_Points_P extends ResthopperParameter {
+class PatchInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class PatchInput_Points_P extends ResthopperParameter {
 
 }
 
-class PatchInput_Spans_S extends ResthopperParameter {
+class PatchInput_spans_s extends ResthopperParameter {
 
 	public name: string = "Spans";
 	public nickName: string = "S";
@@ -85,7 +85,7 @@ class PatchInput_Spans_S extends ResthopperParameter {
 
 }
 
-class PatchInput_Flexibility_F extends ResthopperParameter {
+class PatchInput_flexibility_f extends ResthopperParameter {
 
 	public name: string = "Flexibility";
 	public nickName: string = "F";
@@ -99,7 +99,7 @@ class PatchInput_Flexibility_F extends ResthopperParameter {
 
 }
 
-class PatchInput_Trim_T extends ResthopperParameter {
+class PatchInput_trim_t extends ResthopperParameter {
 
 	public name: string = "Trim";
 	public nickName: string = "T";
@@ -113,7 +113,7 @@ class PatchInput_Trim_T extends ResthopperParameter {
 
 }
 
-class PatchOutput_Patch_P extends ResthopperParameter {
+class PatchOutput_patch_p extends ResthopperParameter {
 
 	public name: string = "Patch";
 	public nickName: string = "P";

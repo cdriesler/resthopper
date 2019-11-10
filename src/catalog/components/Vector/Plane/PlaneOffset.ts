@@ -15,29 +15,29 @@ export default class PlaneOffset extends ResthopperComponent {
 
 	public input:
 	{
-		"BasePlane_P": PlaneOffsetInput_BasePlane_P,
-		"Offset_O": PlaneOffsetInput_Offset_O,
+		"baseplane_p": PlaneOffsetInput_baseplane_p,
+		"offset_o": PlaneOffsetInput_offset_o,
 	}
 
 	public output:
 	{
-		"Plane_Pl": PlaneOffsetOutput_Plane_Pl,
+		"plane_pl": PlaneOffsetOutput_plane_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"BasePlane_P": new PlaneOffsetInput_BasePlane_P(),
-			"Offset_O": new PlaneOffsetInput_Offset_O(),
+			"baseplane_p": new PlaneOffsetInput_baseplane_p(),
+			"offset_o": new PlaneOffsetInput_offset_o(),
 		}
 		this.output = {
-			"Plane_Pl": new PlaneOffsetOutput_Plane_Pl(),
+			"plane_pl": new PlaneOffsetOutput_plane_pl(),
 		}
 	}
 
 }
 
-class PlaneOffsetInput_BasePlane_P extends ResthopperParameter {
+class PlaneOffsetInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "BasePlane";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class PlaneOffsetInput_BasePlane_P extends ResthopperParameter {
 
 }
 
-class PlaneOffsetInput_Offset_O extends ResthopperParameter {
+class PlaneOffsetInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -65,7 +65,7 @@ class PlaneOffsetInput_Offset_O extends ResthopperParameter {
 
 }
 
-class PlaneOffsetOutput_Plane_Pl extends ResthopperParameter {
+class PlaneOffsetOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";

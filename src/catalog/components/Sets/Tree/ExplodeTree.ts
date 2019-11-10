@@ -15,27 +15,27 @@ export default class ExplodeTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": ExplodeTreeInput_Data_D,
+		"data_d": ExplodeTreeInput_data_d,
 	}
 
 	public output:
 	{
-		"Branch1_": ExplodeTreeOutput_Branch1_,
+		"branch1_": ExplodeTreeOutput_branch1_,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new ExplodeTreeInput_Data_D(),
+			"data_d": new ExplodeTreeInput_data_d(),
 		}
 		this.output = {
-			"Branch1_": new ExplodeTreeOutput_Branch1_(),
+			"branch1_": new ExplodeTreeOutput_branch1_(),
 		}
 	}
 
 }
 
-class ExplodeTreeInput_Data_D extends ResthopperParameter {
+class ExplodeTreeInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -49,7 +49,7 @@ class ExplodeTreeInput_Data_D extends ResthopperParameter {
 
 }
 
-class ExplodeTreeOutput_Branch1_ extends ResthopperParameter {
+class ExplodeTreeOutput_branch1_ extends ResthopperParameter {
 
 	public name: string = "Branch1";
 	public nickName: string = "";

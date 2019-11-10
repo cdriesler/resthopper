@@ -15,33 +15,33 @@ export default class ExtrudeLinear extends ResthopperComponent {
 
 	public input:
 	{
-		"Profile_P": ExtrudeLinearInput_Profile_P,
-		"OrientationP_Po": ExtrudeLinearInput_OrientationP_Po,
-		"Axis_A": ExtrudeLinearInput_Axis_A,
-		"OrientationA_Ao": ExtrudeLinearInput_OrientationA_Ao,
+		"profile_p": ExtrudeLinearInput_profile_p,
+		"orientationp_po": ExtrudeLinearInput_orientationp_po,
+		"axis_a": ExtrudeLinearInput_axis_a,
+		"orientationa_ao": ExtrudeLinearInput_orientationa_ao,
 	}
 
 	public output:
 	{
-		"Extrusion_E": ExtrudeLinearOutput_Extrusion_E,
+		"extrusion_e": ExtrudeLinearOutput_extrusion_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Profile_P": new ExtrudeLinearInput_Profile_P(),
-			"OrientationP_Po": new ExtrudeLinearInput_OrientationP_Po(),
-			"Axis_A": new ExtrudeLinearInput_Axis_A(),
-			"OrientationA_Ao": new ExtrudeLinearInput_OrientationA_Ao(),
+			"profile_p": new ExtrudeLinearInput_profile_p(),
+			"orientationp_po": new ExtrudeLinearInput_orientationp_po(),
+			"axis_a": new ExtrudeLinearInput_axis_a(),
+			"orientationa_ao": new ExtrudeLinearInput_orientationa_ao(),
 		}
 		this.output = {
-			"Extrusion_E": new ExtrudeLinearOutput_Extrusion_E(),
+			"extrusion_e": new ExtrudeLinearOutput_extrusion_e(),
 		}
 	}
 
 }
 
-class ExtrudeLinearInput_Profile_P extends ResthopperParameter {
+class ExtrudeLinearInput_profile_p extends ResthopperParameter {
 
 	public name: string = "Profile";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ExtrudeLinearInput_Profile_P extends ResthopperParameter {
 
 }
 
-class ExtrudeLinearInput_OrientationP_Po extends ResthopperParameter {
+class ExtrudeLinearInput_orientationp_po extends ResthopperParameter {
 
 	public name: string = "OrientationP";
 	public nickName: string = "Po";
@@ -69,7 +69,7 @@ class ExtrudeLinearInput_OrientationP_Po extends ResthopperParameter {
 
 }
 
-class ExtrudeLinearInput_Axis_A extends ResthopperParameter {
+class ExtrudeLinearInput_axis_a extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class ExtrudeLinearInput_Axis_A extends ResthopperParameter {
 
 }
 
-class ExtrudeLinearInput_OrientationA_Ao extends ResthopperParameter {
+class ExtrudeLinearInput_orientationa_ao extends ResthopperParameter {
 
 	public name: string = "OrientationA";
 	public nickName: string = "Ao";
@@ -97,7 +97,7 @@ class ExtrudeLinearInput_OrientationA_Ao extends ResthopperParameter {
 
 }
 
-class ExtrudeLinearOutput_Extrusion_E extends ResthopperParameter {
+class ExtrudeLinearOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";

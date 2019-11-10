@@ -15,33 +15,33 @@ export default class RectangleThreePt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": RectangleThreePtInput_PointA_A,
-		"PointB_B": RectangleThreePtInput_PointB_B,
-		"PointC_C": RectangleThreePtInput_PointC_C,
+		"pointa_a": RectangleThreePtInput_pointa_a,
+		"pointb_b": RectangleThreePtInput_pointb_b,
+		"pointc_c": RectangleThreePtInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Rectangle_R": RectangleThreePtOutput_Rectangle_R,
-		"Length_L": RectangleThreePtOutput_Length_L,
+		"rectangle_r": RectangleThreePtOutput_rectangle_r,
+		"length_l": RectangleThreePtOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new RectangleThreePtInput_PointA_A(),
-			"PointB_B": new RectangleThreePtInput_PointB_B(),
-			"PointC_C": new RectangleThreePtInput_PointC_C(),
+			"pointa_a": new RectangleThreePtInput_pointa_a(),
+			"pointb_b": new RectangleThreePtInput_pointb_b(),
+			"pointc_c": new RectangleThreePtInput_pointc_c(),
 		}
 		this.output = {
-			"Rectangle_R": new RectangleThreePtOutput_Rectangle_R(),
-			"Length_L": new RectangleThreePtOutput_Length_L(),
+			"rectangle_r": new RectangleThreePtOutput_rectangle_r(),
+			"length_l": new RectangleThreePtOutput_length_l(),
 		}
 	}
 
 }
 
-class RectangleThreePtInput_PointA_A extends ResthopperParameter {
+class RectangleThreePtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class RectangleThreePtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class RectangleThreePtInput_PointB_B extends ResthopperParameter {
+class RectangleThreePtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class RectangleThreePtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class RectangleThreePtInput_PointC_C extends ResthopperParameter {
+class RectangleThreePtInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class RectangleThreePtInput_PointC_C extends ResthopperParameter {
 
 }
 
-class RectangleThreePtOutput_Rectangle_R extends ResthopperParameter {
+class RectangleThreePtOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
@@ -97,7 +97,7 @@ class RectangleThreePtOutput_Rectangle_R extends ResthopperParameter {
 
 }
 
-class RectangleThreePtOutput_Length_L extends ResthopperParameter {
+class RectangleThreePtOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

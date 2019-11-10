@@ -15,31 +15,31 @@ export default class MaptoSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": MaptoSurfaceInput_Curve_C,
-		"Source_S": MaptoSurfaceInput_Source_S,
-		"Target_T": MaptoSurfaceInput_Target_T,
+		"curve_c": MaptoSurfaceInput_curve_c,
+		"source_s": MaptoSurfaceInput_source_s,
+		"target_t": MaptoSurfaceInput_target_t,
 	}
 
 	public output:
 	{
-		"Curve_C": MaptoSurfaceOutput_Curve_C,
+		"curve_c": MaptoSurfaceOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new MaptoSurfaceInput_Curve_C(),
-			"Source_S": new MaptoSurfaceInput_Source_S(),
-			"Target_T": new MaptoSurfaceInput_Target_T(),
+			"curve_c": new MaptoSurfaceInput_curve_c(),
+			"source_s": new MaptoSurfaceInput_source_s(),
+			"target_t": new MaptoSurfaceInput_target_t(),
 		}
 		this.output = {
-			"Curve_C": new MaptoSurfaceOutput_Curve_C(),
+			"curve_c": new MaptoSurfaceOutput_curve_c(),
 		}
 	}
 
 }
 
-class MaptoSurfaceInput_Curve_C extends ResthopperParameter {
+class MaptoSurfaceInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class MaptoSurfaceInput_Curve_C extends ResthopperParameter {
 
 }
 
-class MaptoSurfaceInput_Source_S extends ResthopperParameter {
+class MaptoSurfaceInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class MaptoSurfaceInput_Source_S extends ResthopperParameter {
 
 }
 
-class MaptoSurfaceInput_Target_T extends ResthopperParameter {
+class MaptoSurfaceInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class MaptoSurfaceInput_Target_T extends ResthopperParameter {
 
 }
 
-class MaptoSurfaceOutput_Curve_C extends ResthopperParameter {
+class MaptoSurfaceOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

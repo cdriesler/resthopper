@@ -15,33 +15,33 @@ export default class LinePlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LinePlaneInput_Line_L,
-		"Plane_P": LinePlaneInput_Plane_P,
+		"line_l": LinePlaneInput_line_l,
+		"plane_p": LinePlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Point_P": LinePlaneOutput_Point_P,
-		"ParamL_t": LinePlaneOutput_ParamL_t,
-		"ParamP_uv": LinePlaneOutput_ParamP_uv,
+		"point_p": LinePlaneOutput_point_p,
+		"paraml_t": LinePlaneOutput_paraml_t,
+		"paramp_uv": LinePlaneOutput_paramp_uv,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LinePlaneInput_Line_L(),
-			"Plane_P": new LinePlaneInput_Plane_P(),
+			"line_l": new LinePlaneInput_line_l(),
+			"plane_p": new LinePlaneInput_plane_p(),
 		}
 		this.output = {
-			"Point_P": new LinePlaneOutput_Point_P(),
-			"ParamL_t": new LinePlaneOutput_ParamL_t(),
-			"ParamP_uv": new LinePlaneOutput_ParamP_uv(),
+			"point_p": new LinePlaneOutput_point_p(),
+			"paraml_t": new LinePlaneOutput_paraml_t(),
+			"paramp_uv": new LinePlaneOutput_paramp_uv(),
 		}
 	}
 
 }
 
-class LinePlaneInput_Line_L extends ResthopperParameter {
+class LinePlaneInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class LinePlaneInput_Line_L extends ResthopperParameter {
 
 }
 
-class LinePlaneInput_Plane_P extends ResthopperParameter {
+class LinePlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class LinePlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class LinePlaneOutput_Point_P extends ResthopperParameter {
+class LinePlaneOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class LinePlaneOutput_Point_P extends ResthopperParameter {
 
 }
 
-class LinePlaneOutput_ParamL_t extends ResthopperParameter {
+class LinePlaneOutput_paraml_t extends ResthopperParameter {
 
 	public name: string = "ParamL";
 	public nickName: string = "t";
@@ -97,7 +97,7 @@ class LinePlaneOutput_ParamL_t extends ResthopperParameter {
 
 }
 
-class LinePlaneOutput_ParamP_uv extends ResthopperParameter {
+class LinePlaneOutput_paramp_uv extends ResthopperParameter {
 
 	public name: string = "ParamP";
 	public nickName: string = "uv";

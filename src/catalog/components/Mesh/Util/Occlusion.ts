@@ -15,33 +15,33 @@ export default class Occlusion extends ResthopperComponent {
 
 	public input:
 	{
-		"Samples_S": OcclusionInput_Samples_S,
-		"Obstructions_O": OcclusionInput_Obstructions_O,
-		"Rays_R": OcclusionInput_Rays_R,
+		"samples_s": OcclusionInput_samples_s,
+		"obstructions_o": OcclusionInput_obstructions_o,
+		"rays_r": OcclusionInput_rays_r,
 	}
 
 	public output:
 	{
-		"Hits_H": OcclusionOutput_Hits_H,
-		"Occlusion_O": OcclusionOutput_Occlusion_O,
+		"hits_h": OcclusionOutput_hits_h,
+		"occlusion_o": OcclusionOutput_occlusion_o,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Samples_S": new OcclusionInput_Samples_S(),
-			"Obstructions_O": new OcclusionInput_Obstructions_O(),
-			"Rays_R": new OcclusionInput_Rays_R(),
+			"samples_s": new OcclusionInput_samples_s(),
+			"obstructions_o": new OcclusionInput_obstructions_o(),
+			"rays_r": new OcclusionInput_rays_r(),
 		}
 		this.output = {
-			"Hits_H": new OcclusionOutput_Hits_H(),
-			"Occlusion_O": new OcclusionOutput_Occlusion_O(),
+			"hits_h": new OcclusionOutput_hits_h(),
+			"occlusion_o": new OcclusionOutput_occlusion_o(),
 		}
 	}
 
 }
 
-class OcclusionInput_Samples_S extends ResthopperParameter {
+class OcclusionInput_samples_s extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class OcclusionInput_Samples_S extends ResthopperParameter {
 
 }
 
-class OcclusionInput_Obstructions_O extends ResthopperParameter {
+class OcclusionInput_obstructions_o extends ResthopperParameter {
 
 	public name: string = "Obstructions";
 	public nickName: string = "O";
@@ -69,7 +69,7 @@ class OcclusionInput_Obstructions_O extends ResthopperParameter {
 
 }
 
-class OcclusionInput_Rays_R extends ResthopperParameter {
+class OcclusionInput_rays_r extends ResthopperParameter {
 
 	public name: string = "Rays";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class OcclusionInput_Rays_R extends ResthopperParameter {
 
 }
 
-class OcclusionOutput_Hits_H extends ResthopperParameter {
+class OcclusionOutput_hits_h extends ResthopperParameter {
 
 	public name: string = "Hits";
 	public nickName: string = "H";
@@ -97,7 +97,7 @@ class OcclusionOutput_Hits_H extends ResthopperParameter {
 
 }
 
-class OcclusionOutput_Occlusion_O extends ResthopperParameter {
+class OcclusionOutput_occlusion_o extends ResthopperParameter {
 
 	public name: string = "Occlusion";
 	public nickName: string = "O";

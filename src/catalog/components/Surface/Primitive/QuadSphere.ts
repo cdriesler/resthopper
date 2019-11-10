@@ -15,29 +15,29 @@ export default class QuadSphere extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": QuadSphereInput_Base_B,
-		"Radius_R": QuadSphereInput_Radius_R,
+		"base_b": QuadSphereInput_base_b,
+		"radius_r": QuadSphereInput_radius_r,
 	}
 
 	public output:
 	{
-		"Sphere_S": QuadSphereOutput_Sphere_S,
+		"sphere_s": QuadSphereOutput_sphere_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new QuadSphereInput_Base_B(),
-			"Radius_R": new QuadSphereInput_Radius_R(),
+			"base_b": new QuadSphereInput_base_b(),
+			"radius_r": new QuadSphereInput_radius_r(),
 		}
 		this.output = {
-			"Sphere_S": new QuadSphereOutput_Sphere_S(),
+			"sphere_s": new QuadSphereOutput_sphere_s(),
 		}
 	}
 
 }
 
-class QuadSphereInput_Base_B extends ResthopperParameter {
+class QuadSphereInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class QuadSphereInput_Base_B extends ResthopperParameter {
 
 }
 
-class QuadSphereInput_Radius_R extends ResthopperParameter {
+class QuadSphereInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class QuadSphereInput_Radius_R extends ResthopperParameter {
 
 }
 
-class QuadSphereOutput_Sphere_S extends ResthopperParameter {
+class QuadSphereOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";

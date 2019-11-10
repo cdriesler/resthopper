@@ -15,33 +15,33 @@ export default class ProjectAlong extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": ProjectAlongInput_Geometry_G,
-		"Plane_P": ProjectAlongInput_Plane_P,
-		"Direction_D": ProjectAlongInput_Direction_D,
+		"geometry_g": ProjectAlongInput_geometry_g,
+		"plane_p": ProjectAlongInput_plane_p,
+		"direction_d": ProjectAlongInput_direction_d,
 	}
 
 	public output:
 	{
-		"Geometry_G": ProjectAlongOutput_Geometry_G,
-		"Transform_X": ProjectAlongOutput_Transform_X,
+		"geometry_g": ProjectAlongOutput_geometry_g,
+		"transform_x": ProjectAlongOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new ProjectAlongInput_Geometry_G(),
-			"Plane_P": new ProjectAlongInput_Plane_P(),
-			"Direction_D": new ProjectAlongInput_Direction_D(),
+			"geometry_g": new ProjectAlongInput_geometry_g(),
+			"plane_p": new ProjectAlongInput_plane_p(),
+			"direction_d": new ProjectAlongInput_direction_d(),
 		}
 		this.output = {
-			"Geometry_G": new ProjectAlongOutput_Geometry_G(),
-			"Transform_X": new ProjectAlongOutput_Transform_X(),
+			"geometry_g": new ProjectAlongOutput_geometry_g(),
+			"transform_x": new ProjectAlongOutput_transform_x(),
 		}
 	}
 
 }
 
-class ProjectAlongInput_Geometry_G extends ResthopperParameter {
+class ProjectAlongInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class ProjectAlongInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ProjectAlongInput_Plane_P extends ResthopperParameter {
+class ProjectAlongInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class ProjectAlongInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ProjectAlongInput_Direction_D extends ResthopperParameter {
+class ProjectAlongInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -83,7 +83,7 @@ class ProjectAlongInput_Direction_D extends ResthopperParameter {
 
 }
 
-class ProjectAlongOutput_Geometry_G extends ResthopperParameter {
+class ProjectAlongOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class ProjectAlongOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ProjectAlongOutput_Transform_X extends ResthopperParameter {
+class ProjectAlongOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

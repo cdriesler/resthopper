@@ -15,35 +15,35 @@ export default class Ellipse extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": EllipseInput_Plane_P,
-		"Radius1_R1": EllipseInput_Radius1_R1,
-		"Radius2_R2": EllipseInput_Radius2_R2,
+		"plane_p": EllipseInput_plane_p,
+		"radius1_r1": EllipseInput_radius1_r1,
+		"radius2_r2": EllipseInput_radius2_r2,
 	}
 
 	public output:
 	{
-		"Ellipse_E": EllipseOutput_Ellipse_E,
-		"Focus1_F1": EllipseOutput_Focus1_F1,
-		"Focus2_F2": EllipseOutput_Focus2_F2,
+		"ellipse_e": EllipseOutput_ellipse_e,
+		"focus1_f1": EllipseOutput_focus1_f1,
+		"focus2_f2": EllipseOutput_focus2_f2,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new EllipseInput_Plane_P(),
-			"Radius1_R1": new EllipseInput_Radius1_R1(),
-			"Radius2_R2": new EllipseInput_Radius2_R2(),
+			"plane_p": new EllipseInput_plane_p(),
+			"radius1_r1": new EllipseInput_radius1_r1(),
+			"radius2_r2": new EllipseInput_radius2_r2(),
 		}
 		this.output = {
-			"Ellipse_E": new EllipseOutput_Ellipse_E(),
-			"Focus1_F1": new EllipseOutput_Focus1_F1(),
-			"Focus2_F2": new EllipseOutput_Focus2_F2(),
+			"ellipse_e": new EllipseOutput_ellipse_e(),
+			"focus1_f1": new EllipseOutput_focus1_f1(),
+			"focus2_f2": new EllipseOutput_focus2_f2(),
 		}
 	}
 
 }
 
-class EllipseInput_Plane_P extends ResthopperParameter {
+class EllipseInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class EllipseInput_Plane_P extends ResthopperParameter {
 
 }
 
-class EllipseInput_Radius1_R1 extends ResthopperParameter {
+class EllipseInput_radius1_r1 extends ResthopperParameter {
 
 	public name: string = "Radius1";
 	public nickName: string = "R1";
@@ -71,7 +71,7 @@ class EllipseInput_Radius1_R1 extends ResthopperParameter {
 
 }
 
-class EllipseInput_Radius2_R2 extends ResthopperParameter {
+class EllipseInput_radius2_r2 extends ResthopperParameter {
 
 	public name: string = "Radius2";
 	public nickName: string = "R2";
@@ -85,7 +85,7 @@ class EllipseInput_Radius2_R2 extends ResthopperParameter {
 
 }
 
-class EllipseOutput_Ellipse_E extends ResthopperParameter {
+class EllipseOutput_ellipse_e extends ResthopperParameter {
 
 	public name: string = "Ellipse";
 	public nickName: string = "E";
@@ -99,7 +99,7 @@ class EllipseOutput_Ellipse_E extends ResthopperParameter {
 
 }
 
-class EllipseOutput_Focus1_F1 extends ResthopperParameter {
+class EllipseOutput_focus1_f1 extends ResthopperParameter {
 
 	public name: string = "Focus1";
 	public nickName: string = "F1";
@@ -113,7 +113,7 @@ class EllipseOutput_Focus1_F1 extends ResthopperParameter {
 
 }
 
-class EllipseOutput_Focus2_F2 extends ResthopperParameter {
+class EllipseOutput_focus2_f2 extends ResthopperParameter {
 
 	public name: string = "Focus2";
 	public nickName: string = "F2";

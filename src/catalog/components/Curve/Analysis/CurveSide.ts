@@ -15,35 +15,35 @@ export default class CurveSide extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveSideInput_Curve_C,
-		"Point_P": CurveSideInput_Point_P,
-		"Plane_Pl": CurveSideInput_Plane_Pl,
+		"curve_c": CurveSideInput_curve_c,
+		"point_p": CurveSideInput_point_p,
+		"plane_pl": CurveSideInput_plane_pl,
 	}
 
 	public output:
 	{
-		"Side_S": CurveSideOutput_Side_S,
-		"Left_L": CurveSideOutput_Left_L,
-		"Right_R": CurveSideOutput_Right_R,
+		"side_s": CurveSideOutput_side_s,
+		"left_l": CurveSideOutput_left_l,
+		"right_r": CurveSideOutput_right_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveSideInput_Curve_C(),
-			"Point_P": new CurveSideInput_Point_P(),
-			"Plane_Pl": new CurveSideInput_Plane_Pl(),
+			"curve_c": new CurveSideInput_curve_c(),
+			"point_p": new CurveSideInput_point_p(),
+			"plane_pl": new CurveSideInput_plane_pl(),
 		}
 		this.output = {
-			"Side_S": new CurveSideOutput_Side_S(),
-			"Left_L": new CurveSideOutput_Left_L(),
-			"Right_R": new CurveSideOutput_Right_R(),
+			"side_s": new CurveSideOutput_side_s(),
+			"left_l": new CurveSideOutput_left_l(),
+			"right_r": new CurveSideOutput_right_r(),
 		}
 	}
 
 }
 
-class CurveSideInput_Curve_C extends ResthopperParameter {
+class CurveSideInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class CurveSideInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveSideInput_Point_P extends ResthopperParameter {
+class CurveSideInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class CurveSideInput_Point_P extends ResthopperParameter {
 
 }
 
-class CurveSideInput_Plane_Pl extends ResthopperParameter {
+class CurveSideInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -85,7 +85,7 @@ class CurveSideInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class CurveSideOutput_Side_S extends ResthopperParameter {
+class CurveSideOutput_side_s extends ResthopperParameter {
 
 	public name: string = "Side";
 	public nickName: string = "S";
@@ -99,7 +99,7 @@ class CurveSideOutput_Side_S extends ResthopperParameter {
 
 }
 
-class CurveSideOutput_Left_L extends ResthopperParameter {
+class CurveSideOutput_left_l extends ResthopperParameter {
 
 	public name: string = "Left";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class CurveSideOutput_Left_L extends ResthopperParameter {
 
 }
 
-class CurveSideOutput_Right_R extends ResthopperParameter {
+class CurveSideOutput_right_r extends ResthopperParameter {
 
 	public name: string = "Right";
 	public nickName: string = "R";

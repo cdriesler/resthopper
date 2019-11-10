@@ -15,12 +15,12 @@ export default class AlignedDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": AlignedDimensionInput_Plane_P,
-		"PointA_A": AlignedDimensionInput_PointA_A,
-		"PointB_B": AlignedDimensionInput_PointB_B,
-		"Offset_O": AlignedDimensionInput_Offset_O,
-		"Text_T": AlignedDimensionInput_Text_T,
-		"Size_S": AlignedDimensionInput_Size_S,
+		"plane_p": AlignedDimensionInput_plane_p,
+		"pointa_a": AlignedDimensionInput_pointa_a,
+		"pointb_b": AlignedDimensionInput_pointb_b,
+		"offset_o": AlignedDimensionInput_offset_o,
+		"text_t": AlignedDimensionInput_text_t,
+		"size_s": AlignedDimensionInput_size_s,
 	}
 
 	public output:
@@ -31,12 +31,12 @@ export default class AlignedDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new AlignedDimensionInput_Plane_P(),
-			"PointA_A": new AlignedDimensionInput_PointA_A(),
-			"PointB_B": new AlignedDimensionInput_PointB_B(),
-			"Offset_O": new AlignedDimensionInput_Offset_O(),
-			"Text_T": new AlignedDimensionInput_Text_T(),
-			"Size_S": new AlignedDimensionInput_Size_S(),
+			"plane_p": new AlignedDimensionInput_plane_p(),
+			"pointa_a": new AlignedDimensionInput_pointa_a(),
+			"pointb_b": new AlignedDimensionInput_pointb_b(),
+			"offset_o": new AlignedDimensionInput_offset_o(),
+			"text_t": new AlignedDimensionInput_text_t(),
+			"size_s": new AlignedDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -45,7 +45,7 @@ export default class AlignedDimension extends ResthopperComponent {
 
 }
 
-class AlignedDimensionInput_Plane_P extends ResthopperParameter {
+class AlignedDimensionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -59,7 +59,7 @@ class AlignedDimensionInput_Plane_P extends ResthopperParameter {
 
 }
 
-class AlignedDimensionInput_PointA_A extends ResthopperParameter {
+class AlignedDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -73,7 +73,7 @@ class AlignedDimensionInput_PointA_A extends ResthopperParameter {
 
 }
 
-class AlignedDimensionInput_PointB_B extends ResthopperParameter {
+class AlignedDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -87,7 +87,7 @@ class AlignedDimensionInput_PointB_B extends ResthopperParameter {
 
 }
 
-class AlignedDimensionInput_Offset_O extends ResthopperParameter {
+class AlignedDimensionInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -101,7 +101,7 @@ class AlignedDimensionInput_Offset_O extends ResthopperParameter {
 
 }
 
-class AlignedDimensionInput_Text_T extends ResthopperParameter {
+class AlignedDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -115,7 +115,7 @@ class AlignedDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class AlignedDimensionInput_Size_S extends ResthopperParameter {
+class AlignedDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

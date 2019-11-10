@@ -15,31 +15,31 @@ export default class PointInCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": PointInCurveInput_Point_P,
-		"Curve_C": PointInCurveInput_Curve_C,
+		"point_p": PointInCurveInput_point_p,
+		"curve_c": PointInCurveInput_curve_c,
 	}
 
 	public output:
 	{
-		"Relationship_R": PointInCurveOutput_Relationship_R,
-		"Point_P": PointInCurveOutput_Point_P,
+		"relationship_r": PointInCurveOutput_relationship_r,
+		"point_p": PointInCurveOutput_point_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new PointInCurveInput_Point_P(),
-			"Curve_C": new PointInCurveInput_Curve_C(),
+			"point_p": new PointInCurveInput_point_p(),
+			"curve_c": new PointInCurveInput_curve_c(),
 		}
 		this.output = {
-			"Relationship_R": new PointInCurveOutput_Relationship_R(),
-			"Point_P": new PointInCurveOutput_Point_P(),
+			"relationship_r": new PointInCurveOutput_relationship_r(),
+			"point_p": new PointInCurveOutput_point_p(),
 		}
 	}
 
 }
 
-class PointInCurveInput_Point_P extends ResthopperParameter {
+class PointInCurveInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PointInCurveInput_Point_P extends ResthopperParameter {
 
 }
 
-class PointInCurveInput_Curve_C extends ResthopperParameter {
+class PointInCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class PointInCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PointInCurveOutput_Relationship_R extends ResthopperParameter {
+class PointInCurveOutput_relationship_r extends ResthopperParameter {
 
 	public name: string = "Relationship";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class PointInCurveOutput_Relationship_R extends ResthopperParameter {
 
 }
 
-class PointInCurveOutput_Point_P extends ResthopperParameter {
+class PointInCurveOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";

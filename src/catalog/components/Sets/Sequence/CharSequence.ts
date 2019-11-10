@@ -15,31 +15,31 @@ export default class CharSequence extends ResthopperComponent {
 
 	public input:
 	{
-		"Count_C": CharSequenceInput_Count_C,
-		"CharPool_P": CharSequenceInput_CharPool_P,
-		"Format_F": CharSequenceInput_Format_F,
+		"count_c": CharSequenceInput_count_c,
+		"charpool_p": CharSequenceInput_charpool_p,
+		"format_f": CharSequenceInput_format_f,
 	}
 
 	public output:
 	{
-		"Sequence_S": CharSequenceOutput_Sequence_S,
+		"sequence_s": CharSequenceOutput_sequence_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Count_C": new CharSequenceInput_Count_C(),
-			"CharPool_P": new CharSequenceInput_CharPool_P(),
-			"Format_F": new CharSequenceInput_Format_F(),
+			"count_c": new CharSequenceInput_count_c(),
+			"charpool_p": new CharSequenceInput_charpool_p(),
+			"format_f": new CharSequenceInput_format_f(),
 		}
 		this.output = {
-			"Sequence_S": new CharSequenceOutput_Sequence_S(),
+			"sequence_s": new CharSequenceOutput_sequence_s(),
 		}
 	}
 
 }
 
-class CharSequenceInput_Count_C extends ResthopperParameter {
+class CharSequenceInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CharSequenceInput_Count_C extends ResthopperParameter {
 
 }
 
-class CharSequenceInput_CharPool_P extends ResthopperParameter {
+class CharSequenceInput_charpool_p extends ResthopperParameter {
 
 	public name: string = "CharPool";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class CharSequenceInput_CharPool_P extends ResthopperParameter {
 
 }
 
-class CharSequenceInput_Format_F extends ResthopperParameter {
+class CharSequenceInput_format_f extends ResthopperParameter {
 
 	public name: string = "Format";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class CharSequenceInput_Format_F extends ResthopperParameter {
 
 }
 
-class CharSequenceOutput_Sequence_S extends ResthopperParameter {
+class CharSequenceOutput_sequence_s extends ResthopperParameter {
 
 	public name: string = "Sequence";
 	public nickName: string = "S";

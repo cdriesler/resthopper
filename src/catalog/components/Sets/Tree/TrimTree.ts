@@ -15,29 +15,29 @@ export default class TrimTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": TrimTreeInput_Tree_T,
-		"Depth_D": TrimTreeInput_Depth_D,
+		"tree_t": TrimTreeInput_tree_t,
+		"depth_d": TrimTreeInput_depth_d,
 	}
 
 	public output:
 	{
-		"Tree_T": TrimTreeOutput_Tree_T,
+		"tree_t": TrimTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new TrimTreeInput_Tree_T(),
-			"Depth_D": new TrimTreeInput_Depth_D(),
+			"tree_t": new TrimTreeInput_tree_t(),
+			"depth_d": new TrimTreeInput_depth_d(),
 		}
 		this.output = {
-			"Tree_T": new TrimTreeOutput_Tree_T(),
+			"tree_t": new TrimTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class TrimTreeInput_Tree_T extends ResthopperParameter {
+class TrimTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class TrimTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class TrimTreeInput_Depth_D extends ResthopperParameter {
+class TrimTreeInput_depth_d extends ResthopperParameter {
 
 	public name: string = "Depth";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class TrimTreeInput_Depth_D extends ResthopperParameter {
 
 }
 
-class TrimTreeOutput_Tree_T extends ResthopperParameter {
+class TrimTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

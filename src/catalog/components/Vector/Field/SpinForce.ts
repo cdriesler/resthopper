@@ -15,35 +15,35 @@ export default class SpinForce extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": SpinForceInput_Plane_P,
-		"Strength_S": SpinForceInput_Strength_S,
-		"Radius_R": SpinForceInput_Radius_R,
-		"Decay_D": SpinForceInput_Decay_D,
-		"Bounds_B": SpinForceInput_Bounds_B,
+		"plane_p": SpinForceInput_plane_p,
+		"strength_s": SpinForceInput_strength_s,
+		"radius_r": SpinForceInput_radius_r,
+		"decay_d": SpinForceInput_decay_d,
+		"bounds_b": SpinForceInput_bounds_b,
 	}
 
 	public output:
 	{
-		"Field_F": SpinForceOutput_Field_F,
+		"field_f": SpinForceOutput_field_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new SpinForceInput_Plane_P(),
-			"Strength_S": new SpinForceInput_Strength_S(),
-			"Radius_R": new SpinForceInput_Radius_R(),
-			"Decay_D": new SpinForceInput_Decay_D(),
-			"Bounds_B": new SpinForceInput_Bounds_B(),
+			"plane_p": new SpinForceInput_plane_p(),
+			"strength_s": new SpinForceInput_strength_s(),
+			"radius_r": new SpinForceInput_radius_r(),
+			"decay_d": new SpinForceInput_decay_d(),
+			"bounds_b": new SpinForceInput_bounds_b(),
 		}
 		this.output = {
-			"Field_F": new SpinForceOutput_Field_F(),
+			"field_f": new SpinForceOutput_field_f(),
 		}
 	}
 
 }
 
-class SpinForceInput_Plane_P extends ResthopperParameter {
+class SpinForceInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class SpinForceInput_Plane_P extends ResthopperParameter {
 
 }
 
-class SpinForceInput_Strength_S extends ResthopperParameter {
+class SpinForceInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class SpinForceInput_Strength_S extends ResthopperParameter {
 
 }
 
-class SpinForceInput_Radius_R extends ResthopperParameter {
+class SpinForceInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -85,7 +85,7 @@ class SpinForceInput_Radius_R extends ResthopperParameter {
 
 }
 
-class SpinForceInput_Decay_D extends ResthopperParameter {
+class SpinForceInput_decay_d extends ResthopperParameter {
 
 	public name: string = "Decay";
 	public nickName: string = "D";
@@ -99,7 +99,7 @@ class SpinForceInput_Decay_D extends ResthopperParameter {
 
 }
 
-class SpinForceInput_Bounds_B extends ResthopperParameter {
+class SpinForceInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
@@ -113,7 +113,7 @@ class SpinForceInput_Bounds_B extends ResthopperParameter {
 
 }
 
-class SpinForceOutput_Field_F extends ResthopperParameter {
+class SpinForceOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";

@@ -15,33 +15,33 @@ export default class DeconstructPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": DeconstructPlaneInput_Plane_P,
+		"plane_p": DeconstructPlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Origin_O": DeconstructPlaneOutput_Origin_O,
-		"XAxis_X": DeconstructPlaneOutput_XAxis_X,
-		"YAxis_Y": DeconstructPlaneOutput_YAxis_Y,
-		"ZAxis_Z": DeconstructPlaneOutput_ZAxis_Z,
+		"origin_o": DeconstructPlaneOutput_origin_o,
+		"xaxis_x": DeconstructPlaneOutput_xaxis_x,
+		"yaxis_y": DeconstructPlaneOutput_yaxis_y,
+		"zaxis_z": DeconstructPlaneOutput_zaxis_z,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new DeconstructPlaneInput_Plane_P(),
+			"plane_p": new DeconstructPlaneInput_plane_p(),
 		}
 		this.output = {
-			"Origin_O": new DeconstructPlaneOutput_Origin_O(),
-			"XAxis_X": new DeconstructPlaneOutput_XAxis_X(),
-			"YAxis_Y": new DeconstructPlaneOutput_YAxis_Y(),
-			"ZAxis_Z": new DeconstructPlaneOutput_ZAxis_Z(),
+			"origin_o": new DeconstructPlaneOutput_origin_o(),
+			"xaxis_x": new DeconstructPlaneOutput_xaxis_x(),
+			"yaxis_y": new DeconstructPlaneOutput_yaxis_y(),
+			"zaxis_z": new DeconstructPlaneOutput_zaxis_z(),
 		}
 	}
 
 }
 
-class DeconstructPlaneInput_Plane_P extends ResthopperParameter {
+class DeconstructPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class DeconstructPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class DeconstructPlaneOutput_Origin_O extends ResthopperParameter {
+class DeconstructPlaneOutput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
@@ -69,7 +69,7 @@ class DeconstructPlaneOutput_Origin_O extends ResthopperParameter {
 
 }
 
-class DeconstructPlaneOutput_XAxis_X extends ResthopperParameter {
+class DeconstructPlaneOutput_xaxis_x extends ResthopperParameter {
 
 	public name: string = "XAxis";
 	public nickName: string = "X";
@@ -83,7 +83,7 @@ class DeconstructPlaneOutput_XAxis_X extends ResthopperParameter {
 
 }
 
-class DeconstructPlaneOutput_YAxis_Y extends ResthopperParameter {
+class DeconstructPlaneOutput_yaxis_y extends ResthopperParameter {
 
 	public name: string = "YAxis";
 	public nickName: string = "Y";
@@ -97,7 +97,7 @@ class DeconstructPlaneOutput_YAxis_Y extends ResthopperParameter {
 
 }
 
-class DeconstructPlaneOutput_ZAxis_Z extends ResthopperParameter {
+class DeconstructPlaneOutput_zaxis_z extends ResthopperParameter {
 
 	public name: string = "ZAxis";
 	public nickName: string = "Z";

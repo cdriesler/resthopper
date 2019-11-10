@@ -15,33 +15,33 @@ export default class Rotate extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": RotateInput_Geometry_G,
-		"Angle_A": RotateInput_Angle_A,
-		"Plane_P": RotateInput_Plane_P,
+		"geometry_g": RotateInput_geometry_g,
+		"angle_a": RotateInput_angle_a,
+		"plane_p": RotateInput_plane_p,
 	}
 
 	public output:
 	{
-		"Geometry_G": RotateOutput_Geometry_G,
-		"Transform_X": RotateOutput_Transform_X,
+		"geometry_g": RotateOutput_geometry_g,
+		"transform_x": RotateOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new RotateInput_Geometry_G(),
-			"Angle_A": new RotateInput_Angle_A(),
-			"Plane_P": new RotateInput_Plane_P(),
+			"geometry_g": new RotateInput_geometry_g(),
+			"angle_a": new RotateInput_angle_a(),
+			"plane_p": new RotateInput_plane_p(),
 		}
 		this.output = {
-			"Geometry_G": new RotateOutput_Geometry_G(),
-			"Transform_X": new RotateOutput_Transform_X(),
+			"geometry_g": new RotateOutput_geometry_g(),
+			"transform_x": new RotateOutput_transform_x(),
 		}
 	}
 
 }
 
-class RotateInput_Geometry_G extends ResthopperParameter {
+class RotateInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class RotateInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateInput_Angle_A extends ResthopperParameter {
+class RotateInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class RotateInput_Angle_A extends ResthopperParameter {
 
 }
 
-class RotateInput_Plane_P extends ResthopperParameter {
+class RotateInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class RotateInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RotateOutput_Geometry_G extends ResthopperParameter {
+class RotateOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class RotateOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateOutput_Transform_X extends ResthopperParameter {
+class RotateOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

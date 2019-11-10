@@ -15,33 +15,33 @@ export default class MoveAwayFrom extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MoveAwayFromInput_Geometry_G,
-		"Emitter_E": MoveAwayFromInput_Emitter_E,
-		"Distance_D": MoveAwayFromInput_Distance_D,
+		"geometry_g": MoveAwayFromInput_geometry_g,
+		"emitter_e": MoveAwayFromInput_emitter_e,
+		"distance_d": MoveAwayFromInput_distance_d,
 	}
 
 	public output:
 	{
-		"Geometry_G": MoveAwayFromOutput_Geometry_G,
-		"Transform_X": MoveAwayFromOutput_Transform_X,
+		"geometry_g": MoveAwayFromOutput_geometry_g,
+		"transform_x": MoveAwayFromOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MoveAwayFromInput_Geometry_G(),
-			"Emitter_E": new MoveAwayFromInput_Emitter_E(),
-			"Distance_D": new MoveAwayFromInput_Distance_D(),
+			"geometry_g": new MoveAwayFromInput_geometry_g(),
+			"emitter_e": new MoveAwayFromInput_emitter_e(),
+			"distance_d": new MoveAwayFromInput_distance_d(),
 		}
 		this.output = {
-			"Geometry_G": new MoveAwayFromOutput_Geometry_G(),
-			"Transform_X": new MoveAwayFromOutput_Transform_X(),
+			"geometry_g": new MoveAwayFromOutput_geometry_g(),
+			"transform_x": new MoveAwayFromOutput_transform_x(),
 		}
 	}
 
 }
 
-class MoveAwayFromInput_Geometry_G extends ResthopperParameter {
+class MoveAwayFromInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class MoveAwayFromInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveAwayFromInput_Emitter_E extends ResthopperParameter {
+class MoveAwayFromInput_emitter_e extends ResthopperParameter {
 
 	public name: string = "Emitter";
 	public nickName: string = "E";
@@ -69,7 +69,7 @@ class MoveAwayFromInput_Emitter_E extends ResthopperParameter {
 
 }
 
-class MoveAwayFromInput_Distance_D extends ResthopperParameter {
+class MoveAwayFromInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -83,7 +83,7 @@ class MoveAwayFromInput_Distance_D extends ResthopperParameter {
 
 }
 
-class MoveAwayFromOutput_Geometry_G extends ResthopperParameter {
+class MoveAwayFromOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class MoveAwayFromOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveAwayFromOutput_Transform_X extends ResthopperParameter {
+class MoveAwayFromOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

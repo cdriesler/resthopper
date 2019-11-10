@@ -15,29 +15,29 @@ export default class Retrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Source_S": RetrimInput_Source_S,
-		"Target_T": RetrimInput_Target_T,
+		"source_s": RetrimInput_source_s,
+		"target_t": RetrimInput_target_t,
 	}
 
 	public output:
 	{
-		"Surface_S": RetrimOutput_Surface_S,
+		"surface_s": RetrimOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Source_S": new RetrimInput_Source_S(),
-			"Target_T": new RetrimInput_Target_T(),
+			"source_s": new RetrimInput_source_s(),
+			"target_t": new RetrimInput_target_t(),
 		}
 		this.output = {
-			"Surface_S": new RetrimOutput_Surface_S(),
+			"surface_s": new RetrimOutput_surface_s(),
 		}
 	}
 
 }
 
-class RetrimInput_Source_S extends ResthopperParameter {
+class RetrimInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class RetrimInput_Source_S extends ResthopperParameter {
 
 }
 
-class RetrimInput_Target_T extends ResthopperParameter {
+class RetrimInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class RetrimInput_Target_T extends ResthopperParameter {
 
 }
 
-class RetrimOutput_Surface_S extends ResthopperParameter {
+class RetrimOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

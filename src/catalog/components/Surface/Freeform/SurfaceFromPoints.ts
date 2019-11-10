@@ -15,31 +15,31 @@ export default class SurfaceFromPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": SurfaceFromPointsInput_Points_P,
-		"UCount_U": SurfaceFromPointsInput_UCount_U,
-		"Interpolate_I": SurfaceFromPointsInput_Interpolate_I,
+		"points_p": SurfaceFromPointsInput_points_p,
+		"ucount_u": SurfaceFromPointsInput_ucount_u,
+		"interpolate_i": SurfaceFromPointsInput_interpolate_i,
 	}
 
 	public output:
 	{
-		"Surface_S": SurfaceFromPointsOutput_Surface_S,
+		"surface_s": SurfaceFromPointsOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new SurfaceFromPointsInput_Points_P(),
-			"UCount_U": new SurfaceFromPointsInput_UCount_U(),
-			"Interpolate_I": new SurfaceFromPointsInput_Interpolate_I(),
+			"points_p": new SurfaceFromPointsInput_points_p(),
+			"ucount_u": new SurfaceFromPointsInput_ucount_u(),
+			"interpolate_i": new SurfaceFromPointsInput_interpolate_i(),
 		}
 		this.output = {
-			"Surface_S": new SurfaceFromPointsOutput_Surface_S(),
+			"surface_s": new SurfaceFromPointsOutput_surface_s(),
 		}
 	}
 
 }
 
-class SurfaceFromPointsInput_Points_P extends ResthopperParameter {
+class SurfaceFromPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class SurfaceFromPointsInput_Points_P extends ResthopperParameter {
 
 }
 
-class SurfaceFromPointsInput_UCount_U extends ResthopperParameter {
+class SurfaceFromPointsInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -67,7 +67,7 @@ class SurfaceFromPointsInput_UCount_U extends ResthopperParameter {
 
 }
 
-class SurfaceFromPointsInput_Interpolate_I extends ResthopperParameter {
+class SurfaceFromPointsInput_interpolate_i extends ResthopperParameter {
 
 	public name: string = "Interpolate";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class SurfaceFromPointsInput_Interpolate_I extends ResthopperParameter {
 
 }
 
-class SurfaceFromPointsOutput_Surface_S extends ResthopperParameter {
+class SurfaceFromPointsOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

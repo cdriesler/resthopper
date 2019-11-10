@@ -15,35 +15,35 @@ export default class MultipleCurves extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": MultipleCurvesInput_Curves_C,
+		"curves_c": MultipleCurvesInput_curves_c,
 	}
 
 	public output:
 	{
-		"Points_P": MultipleCurvesOutput_Points_P,
-		"IndexA_iA": MultipleCurvesOutput_IndexA_iA,
-		"IndexB_iB": MultipleCurvesOutput_IndexB_iB,
-		"ParamA_tA": MultipleCurvesOutput_ParamA_tA,
-		"ParamB_tB": MultipleCurvesOutput_ParamB_tB,
+		"points_p": MultipleCurvesOutput_points_p,
+		"indexa_ia": MultipleCurvesOutput_indexa_ia,
+		"indexb_ib": MultipleCurvesOutput_indexb_ib,
+		"parama_ta": MultipleCurvesOutput_parama_ta,
+		"paramb_tb": MultipleCurvesOutput_paramb_tb,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new MultipleCurvesInput_Curves_C(),
+			"curves_c": new MultipleCurvesInput_curves_c(),
 		}
 		this.output = {
-			"Points_P": new MultipleCurvesOutput_Points_P(),
-			"IndexA_iA": new MultipleCurvesOutput_IndexA_iA(),
-			"IndexB_iB": new MultipleCurvesOutput_IndexB_iB(),
-			"ParamA_tA": new MultipleCurvesOutput_ParamA_tA(),
-			"ParamB_tB": new MultipleCurvesOutput_ParamB_tB(),
+			"points_p": new MultipleCurvesOutput_points_p(),
+			"indexa_ia": new MultipleCurvesOutput_indexa_ia(),
+			"indexb_ib": new MultipleCurvesOutput_indexb_ib(),
+			"parama_ta": new MultipleCurvesOutput_parama_ta(),
+			"paramb_tb": new MultipleCurvesOutput_paramb_tb(),
 		}
 	}
 
 }
 
-class MultipleCurvesInput_Curves_C extends ResthopperParameter {
+class MultipleCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class MultipleCurvesInput_Curves_C extends ResthopperParameter {
 
 }
 
-class MultipleCurvesOutput_Points_P extends ResthopperParameter {
+class MultipleCurvesOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class MultipleCurvesOutput_Points_P extends ResthopperParameter {
 
 }
 
-class MultipleCurvesOutput_IndexA_iA extends ResthopperParameter {
+class MultipleCurvesOutput_indexa_ia extends ResthopperParameter {
 
 	public name: string = "IndexA";
 	public nickName: string = "iA";
@@ -85,7 +85,7 @@ class MultipleCurvesOutput_IndexA_iA extends ResthopperParameter {
 
 }
 
-class MultipleCurvesOutput_IndexB_iB extends ResthopperParameter {
+class MultipleCurvesOutput_indexb_ib extends ResthopperParameter {
 
 	public name: string = "IndexB";
 	public nickName: string = "iB";
@@ -99,7 +99,7 @@ class MultipleCurvesOutput_IndexB_iB extends ResthopperParameter {
 
 }
 
-class MultipleCurvesOutput_ParamA_tA extends ResthopperParameter {
+class MultipleCurvesOutput_parama_ta extends ResthopperParameter {
 
 	public name: string = "ParamA";
 	public nickName: string = "tA";
@@ -113,7 +113,7 @@ class MultipleCurvesOutput_ParamA_tA extends ResthopperParameter {
 
 }
 
-class MultipleCurvesOutput_ParamB_tB extends ResthopperParameter {
+class MultipleCurvesOutput_paramb_tb extends ResthopperParameter {
 
 	public name: string = "ParamB";
 	public nickName: string = "tB";

@@ -15,29 +15,29 @@ export default class Concatenate extends ResthopperComponent {
 
 	public input:
 	{
-		"FragmentA_A": ConcatenateInput_FragmentA_A,
-		"FragmentB_B": ConcatenateInput_FragmentB_B,
+		"fragmenta_a": ConcatenateInput_fragmenta_a,
+		"fragmentb_b": ConcatenateInput_fragmentb_b,
 	}
 
 	public output:
 	{
-		"Result_R": ConcatenateOutput_Result_R,
+		"result_r": ConcatenateOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"FragmentA_A": new ConcatenateInput_FragmentA_A(),
-			"FragmentB_B": new ConcatenateInput_FragmentB_B(),
+			"fragmenta_a": new ConcatenateInput_fragmenta_a(),
+			"fragmentb_b": new ConcatenateInput_fragmentb_b(),
 		}
 		this.output = {
-			"Result_R": new ConcatenateOutput_Result_R(),
+			"result_r": new ConcatenateOutput_result_r(),
 		}
 	}
 
 }
 
-class ConcatenateInput_FragmentA_A extends ResthopperParameter {
+class ConcatenateInput_fragmenta_a extends ResthopperParameter {
 
 	public name: string = "FragmentA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class ConcatenateInput_FragmentA_A extends ResthopperParameter {
 
 }
 
-class ConcatenateInput_FragmentB_B extends ResthopperParameter {
+class ConcatenateInput_fragmentb_b extends ResthopperParameter {
 
 	public name: string = "FragmentB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class ConcatenateInput_FragmentB_B extends ResthopperParameter {
 
 }
 
-class ConcatenateOutput_Result_R extends ResthopperParameter {
+class ConcatenateOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

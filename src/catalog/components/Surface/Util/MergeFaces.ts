@@ -15,31 +15,31 @@ export default class MergeFaces extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": MergeFacesInput_Brep_B,
+		"brep_b": MergeFacesInput_brep_b,
 	}
 
 	public output:
 	{
-		"Breps_B": MergeFacesOutput_Breps_B,
-		"Before_N0": MergeFacesOutput_Before_N0,
-		"After_N1": MergeFacesOutput_After_N1,
+		"breps_b": MergeFacesOutput_breps_b,
+		"before_n0": MergeFacesOutput_before_n0,
+		"after_n1": MergeFacesOutput_after_n1,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new MergeFacesInput_Brep_B(),
+			"brep_b": new MergeFacesInput_brep_b(),
 		}
 		this.output = {
-			"Breps_B": new MergeFacesOutput_Breps_B(),
-			"Before_N0": new MergeFacesOutput_Before_N0(),
-			"After_N1": new MergeFacesOutput_After_N1(),
+			"breps_b": new MergeFacesOutput_breps_b(),
+			"before_n0": new MergeFacesOutput_before_n0(),
+			"after_n1": new MergeFacesOutput_after_n1(),
 		}
 	}
 
 }
 
-class MergeFacesInput_Brep_B extends ResthopperParameter {
+class MergeFacesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class MergeFacesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class MergeFacesOutput_Breps_B extends ResthopperParameter {
+class MergeFacesOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class MergeFacesOutput_Breps_B extends ResthopperParameter {
 
 }
 
-class MergeFacesOutput_Before_N0 extends ResthopperParameter {
+class MergeFacesOutput_before_n0 extends ResthopperParameter {
 
 	public name: string = "Before";
 	public nickName: string = "N0";
@@ -81,7 +81,7 @@ class MergeFacesOutput_Before_N0 extends ResthopperParameter {
 
 }
 
-class MergeFacesOutput_After_N1 extends ResthopperParameter {
+class MergeFacesOutput_after_n1 extends ResthopperParameter {
 
 	public name: string = "After";
 	public nickName: string = "N1";

@@ -15,27 +15,27 @@ export default class ArcCosine extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": ArcCosineInput_Value_x,
+		"value_x": ArcCosineInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": ArcCosineOutput_Result_y,
+		"result_y": ArcCosineOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new ArcCosineInput_Value_x(),
+			"value_x": new ArcCosineInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new ArcCosineOutput_Result_y(),
+			"result_y": new ArcCosineOutput_result_y(),
 		}
 	}
 
 }
 
-class ArcCosineInput_Value_x extends ResthopperParameter {
+class ArcCosineInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class ArcCosineInput_Value_x extends ResthopperParameter {
 
 }
 
-class ArcCosineOutput_Result_y extends ResthopperParameter {
+class ArcCosineOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

@@ -15,33 +15,33 @@ export default class SortText extends ResthopperComponent {
 
 	public input:
 	{
-		"Keys_K": SortTextInput_Keys_K,
-		"Values_V": SortTextInput_Values_V,
-		"Culture_C": SortTextInput_Culture_C,
+		"keys_k": SortTextInput_keys_k,
+		"values_v": SortTextInput_values_v,
+		"culture_c": SortTextInput_culture_c,
 	}
 
 	public output:
 	{
-		"Keys_K": SortTextOutput_Keys_K,
-		"Values_V": SortTextOutput_Values_V,
+		"keys_k": SortTextOutput_keys_k,
+		"values_v": SortTextOutput_values_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Keys_K": new SortTextInput_Keys_K(),
-			"Values_V": new SortTextInput_Values_V(),
-			"Culture_C": new SortTextInput_Culture_C(),
+			"keys_k": new SortTextInput_keys_k(),
+			"values_v": new SortTextInput_values_v(),
+			"culture_c": new SortTextInput_culture_c(),
 		}
 		this.output = {
-			"Keys_K": new SortTextOutput_Keys_K(),
-			"Values_V": new SortTextOutput_Values_V(),
+			"keys_k": new SortTextOutput_keys_k(),
+			"values_v": new SortTextOutput_values_v(),
 		}
 	}
 
 }
 
-class SortTextInput_Keys_K extends ResthopperParameter {
+class SortTextInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
@@ -55,7 +55,7 @@ class SortTextInput_Keys_K extends ResthopperParameter {
 
 }
 
-class SortTextInput_Values_V extends ResthopperParameter {
+class SortTextInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
@@ -69,7 +69,7 @@ class SortTextInput_Values_V extends ResthopperParameter {
 
 }
 
-class SortTextInput_Culture_C extends ResthopperParameter {
+class SortTextInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class SortTextInput_Culture_C extends ResthopperParameter {
 
 }
 
-class SortTextOutput_Keys_K extends ResthopperParameter {
+class SortTextOutput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
@@ -97,7 +97,7 @@ class SortTextOutput_Keys_K extends ResthopperParameter {
 
 }
 
-class SortTextOutput_Values_V extends ResthopperParameter {
+class SortTextOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";

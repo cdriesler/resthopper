@@ -15,33 +15,33 @@ export default class ConnectCurves extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": ConnectCurvesInput_Curves_C,
-		"Continuity_G": ConnectCurvesInput_Continuity_G,
-		"Close_L": ConnectCurvesInput_Close_L,
-		"Bulge_B": ConnectCurvesInput_Bulge_B,
+		"curves_c": ConnectCurvesInput_curves_c,
+		"continuity_g": ConnectCurvesInput_continuity_g,
+		"close_l": ConnectCurvesInput_close_l,
+		"bulge_b": ConnectCurvesInput_bulge_b,
 	}
 
 	public output:
 	{
-		"Curve_C": ConnectCurvesOutput_Curve_C,
+		"curve_c": ConnectCurvesOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new ConnectCurvesInput_Curves_C(),
-			"Continuity_G": new ConnectCurvesInput_Continuity_G(),
-			"Close_L": new ConnectCurvesInput_Close_L(),
-			"Bulge_B": new ConnectCurvesInput_Bulge_B(),
+			"curves_c": new ConnectCurvesInput_curves_c(),
+			"continuity_g": new ConnectCurvesInput_continuity_g(),
+			"close_l": new ConnectCurvesInput_close_l(),
+			"bulge_b": new ConnectCurvesInput_bulge_b(),
 		}
 		this.output = {
-			"Curve_C": new ConnectCurvesOutput_Curve_C(),
+			"curve_c": new ConnectCurvesOutput_curve_c(),
 		}
 	}
 
 }
 
-class ConnectCurvesInput_Curves_C extends ResthopperParameter {
+class ConnectCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class ConnectCurvesInput_Curves_C extends ResthopperParameter {
 
 }
 
-class ConnectCurvesInput_Continuity_G extends ResthopperParameter {
+class ConnectCurvesInput_continuity_g extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "G";
@@ -69,7 +69,7 @@ class ConnectCurvesInput_Continuity_G extends ResthopperParameter {
 
 }
 
-class ConnectCurvesInput_Close_L extends ResthopperParameter {
+class ConnectCurvesInput_close_l extends ResthopperParameter {
 
 	public name: string = "Close";
 	public nickName: string = "L";
@@ -83,7 +83,7 @@ class ConnectCurvesInput_Close_L extends ResthopperParameter {
 
 }
 
-class ConnectCurvesInput_Bulge_B extends ResthopperParameter {
+class ConnectCurvesInput_bulge_b extends ResthopperParameter {
 
 	public name: string = "Bulge";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class ConnectCurvesInput_Bulge_B extends ResthopperParameter {
 
 }
 
-class ConnectCurvesOutput_Curve_C extends ResthopperParameter {
+class ConnectCurvesOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

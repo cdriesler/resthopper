@@ -15,29 +15,29 @@ export default class DeleteFaces extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": DeleteFacesInput_Mesh_M,
-		"Indices_I": DeleteFacesInput_Indices_I,
+		"mesh_m": DeleteFacesInput_mesh_m,
+		"indices_i": DeleteFacesInput_indices_i,
 	}
 
 	public output:
 	{
-		"Mesh_M": DeleteFacesOutput_Mesh_M,
+		"mesh_m": DeleteFacesOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new DeleteFacesInput_Mesh_M(),
-			"Indices_I": new DeleteFacesInput_Indices_I(),
+			"mesh_m": new DeleteFacesInput_mesh_m(),
+			"indices_i": new DeleteFacesInput_indices_i(),
 		}
 		this.output = {
-			"Mesh_M": new DeleteFacesOutput_Mesh_M(),
+			"mesh_m": new DeleteFacesOutput_mesh_m(),
 		}
 	}
 
 }
 
-class DeleteFacesInput_Mesh_M extends ResthopperParameter {
+class DeleteFacesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class DeleteFacesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class DeleteFacesInput_Indices_I extends ResthopperParameter {
+class DeleteFacesInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -65,7 +65,7 @@ class DeleteFacesInput_Indices_I extends ResthopperParameter {
 
 }
 
-class DeleteFacesOutput_Mesh_M extends ResthopperParameter {
+class DeleteFacesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

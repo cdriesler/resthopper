@@ -15,31 +15,31 @@ export default class TextCase extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextCaseInput_Text_T,
-		"Culture_C": TextCaseInput_Culture_C,
+		"text_t": TextCaseInput_text_t,
+		"culture_c": TextCaseInput_culture_c,
 	}
 
 	public output:
 	{
-		"UpperCase_U": TextCaseOutput_UpperCase_U,
-		"LowerCase_L": TextCaseOutput_LowerCase_L,
+		"uppercase_u": TextCaseOutput_uppercase_u,
+		"lowercase_l": TextCaseOutput_lowercase_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextCaseInput_Text_T(),
-			"Culture_C": new TextCaseInput_Culture_C(),
+			"text_t": new TextCaseInput_text_t(),
+			"culture_c": new TextCaseInput_culture_c(),
 		}
 		this.output = {
-			"UpperCase_U": new TextCaseOutput_UpperCase_U(),
-			"LowerCase_L": new TextCaseOutput_LowerCase_L(),
+			"uppercase_u": new TextCaseOutput_uppercase_u(),
+			"lowercase_l": new TextCaseOutput_lowercase_l(),
 		}
 	}
 
 }
 
-class TextCaseInput_Text_T extends ResthopperParameter {
+class TextCaseInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class TextCaseInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextCaseInput_Culture_C extends ResthopperParameter {
+class TextCaseInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class TextCaseInput_Culture_C extends ResthopperParameter {
 
 }
 
-class TextCaseOutput_UpperCase_U extends ResthopperParameter {
+class TextCaseOutput_uppercase_u extends ResthopperParameter {
 
 	public name: string = "UpperCase";
 	public nickName: string = "U";
@@ -81,7 +81,7 @@ class TextCaseOutput_UpperCase_U extends ResthopperParameter {
 
 }
 
-class TextCaseOutput_LowerCase_L extends ResthopperParameter {
+class TextCaseOutput_lowercase_l extends ResthopperParameter {
 
 	public name: string = "LowerCase";
 	public nickName: string = "L";

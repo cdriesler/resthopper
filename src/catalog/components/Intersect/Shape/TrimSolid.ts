@@ -15,29 +15,29 @@ export default class TrimSolid extends ResthopperComponent {
 
 	public input:
 	{
-		"Shape_S": TrimSolidInput_Shape_S,
-		"Cutters_T": TrimSolidInput_Cutters_T,
+		"shape_s": TrimSolidInput_shape_s,
+		"cutters_t": TrimSolidInput_cutters_t,
 	}
 
 	public output:
 	{
-		"Result_R": TrimSolidOutput_Result_R,
+		"result_r": TrimSolidOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Shape_S": new TrimSolidInput_Shape_S(),
-			"Cutters_T": new TrimSolidInput_Cutters_T(),
+			"shape_s": new TrimSolidInput_shape_s(),
+			"cutters_t": new TrimSolidInput_cutters_t(),
 		}
 		this.output = {
-			"Result_R": new TrimSolidOutput_Result_R(),
+			"result_r": new TrimSolidOutput_result_r(),
 		}
 	}
 
 }
 
-class TrimSolidInput_Shape_S extends ResthopperParameter {
+class TrimSolidInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class TrimSolidInput_Shape_S extends ResthopperParameter {
 
 }
 
-class TrimSolidInput_Cutters_T extends ResthopperParameter {
+class TrimSolidInput_cutters_t extends ResthopperParameter {
 
 	public name: string = "Cutters";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class TrimSolidInput_Cutters_T extends ResthopperParameter {
 
 }
 
-class TrimSolidOutput_Result_R extends ResthopperParameter {
+class TrimSolidOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

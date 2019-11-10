@@ -15,35 +15,35 @@ export default class Rectangle extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": RectangleInput_Plane_P,
-		"XSize_X": RectangleInput_XSize_X,
-		"YSize_Y": RectangleInput_YSize_Y,
-		"Radius_R": RectangleInput_Radius_R,
+		"plane_p": RectangleInput_plane_p,
+		"xsize_x": RectangleInput_xsize_x,
+		"ysize_y": RectangleInput_ysize_y,
+		"radius_r": RectangleInput_radius_r,
 	}
 
 	public output:
 	{
-		"Rectangle_R": RectangleOutput_Rectangle_R,
-		"Length_L": RectangleOutput_Length_L,
+		"rectangle_r": RectangleOutput_rectangle_r,
+		"length_l": RectangleOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new RectangleInput_Plane_P(),
-			"XSize_X": new RectangleInput_XSize_X(),
-			"YSize_Y": new RectangleInput_YSize_Y(),
-			"Radius_R": new RectangleInput_Radius_R(),
+			"plane_p": new RectangleInput_plane_p(),
+			"xsize_x": new RectangleInput_xsize_x(),
+			"ysize_y": new RectangleInput_ysize_y(),
+			"radius_r": new RectangleInput_radius_r(),
 		}
 		this.output = {
-			"Rectangle_R": new RectangleOutput_Rectangle_R(),
-			"Length_L": new RectangleOutput_Length_L(),
+			"rectangle_r": new RectangleOutput_rectangle_r(),
+			"length_l": new RectangleOutput_length_l(),
 		}
 	}
 
 }
 
-class RectangleInput_Plane_P extends ResthopperParameter {
+class RectangleInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class RectangleInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RectangleInput_XSize_X extends ResthopperParameter {
+class RectangleInput_xsize_x extends ResthopperParameter {
 
 	public name: string = "XSize";
 	public nickName: string = "X";
@@ -71,7 +71,7 @@ class RectangleInput_XSize_X extends ResthopperParameter {
 
 }
 
-class RectangleInput_YSize_Y extends ResthopperParameter {
+class RectangleInput_ysize_y extends ResthopperParameter {
 
 	public name: string = "YSize";
 	public nickName: string = "Y";
@@ -85,7 +85,7 @@ class RectangleInput_YSize_Y extends ResthopperParameter {
 
 }
 
-class RectangleInput_Radius_R extends ResthopperParameter {
+class RectangleInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -99,7 +99,7 @@ class RectangleInput_Radius_R extends ResthopperParameter {
 
 }
 
-class RectangleOutput_Rectangle_R extends ResthopperParameter {
+class RectangleOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
@@ -113,7 +113,7 @@ class RectangleOutput_Rectangle_R extends ResthopperParameter {
 
 }
 
-class RectangleOutput_Length_L extends ResthopperParameter {
+class RectangleOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

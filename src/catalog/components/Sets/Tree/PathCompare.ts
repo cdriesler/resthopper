@@ -15,29 +15,29 @@ export default class PathCompare extends ResthopperComponent {
 
 	public input:
 	{
-		"Path_P": PathCompareInput_Path_P,
-		"Mask_M": PathCompareInput_Mask_M,
+		"path_p": PathCompareInput_path_p,
+		"mask_m": PathCompareInput_mask_m,
 	}
 
 	public output:
 	{
-		"Comparison_C": PathCompareOutput_Comparison_C,
+		"comparison_c": PathCompareOutput_comparison_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Path_P": new PathCompareInput_Path_P(),
-			"Mask_M": new PathCompareInput_Mask_M(),
+			"path_p": new PathCompareInput_path_p(),
+			"mask_m": new PathCompareInput_mask_m(),
 		}
 		this.output = {
-			"Comparison_C": new PathCompareOutput_Comparison_C(),
+			"comparison_c": new PathCompareOutput_comparison_c(),
 		}
 	}
 
 }
 
-class PathCompareInput_Path_P extends ResthopperParameter {
+class PathCompareInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class PathCompareInput_Path_P extends ResthopperParameter {
 
 }
 
-class PathCompareInput_Mask_M extends ResthopperParameter {
+class PathCompareInput_mask_m extends ResthopperParameter {
 
 	public name: string = "Mask";
 	public nickName: string = "M";
@@ -65,7 +65,7 @@ class PathCompareInput_Mask_M extends ResthopperParameter {
 
 }
 
-class PathCompareOutput_Comparison_C extends ResthopperParameter {
+class PathCompareOutput_comparison_c extends ResthopperParameter {
 
 	public name: string = "Comparison";
 	public nickName: string = "C";

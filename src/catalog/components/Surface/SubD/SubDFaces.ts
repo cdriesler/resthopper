@@ -15,33 +15,33 @@ export default class SubDFaces extends ResthopperComponent {
 
 	public input:
 	{
-		"SubD_S": SubDFacesInput_SubD_S,
+		"subd_s": SubDFacesInput_subd_s,
 	}
 
 	public output:
 	{
-		"Point_P": SubDFacesOutput_Point_P,
-		"Count_C": SubDFacesOutput_Count_C,
-		"Edges_E": SubDFacesOutput_Edges_E,
-		"Vertices_V": SubDFacesOutput_Vertices_V,
+		"point_p": SubDFacesOutput_point_p,
+		"count_c": SubDFacesOutput_count_c,
+		"edges_e": SubDFacesOutput_edges_e,
+		"vertices_v": SubDFacesOutput_vertices_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SubD_S": new SubDFacesInput_SubD_S(),
+			"subd_s": new SubDFacesInput_subd_s(),
 		}
 		this.output = {
-			"Point_P": new SubDFacesOutput_Point_P(),
-			"Count_C": new SubDFacesOutput_Count_C(),
-			"Edges_E": new SubDFacesOutput_Edges_E(),
-			"Vertices_V": new SubDFacesOutput_Vertices_V(),
+			"point_p": new SubDFacesOutput_point_p(),
+			"count_c": new SubDFacesOutput_count_c(),
+			"edges_e": new SubDFacesOutput_edges_e(),
+			"vertices_v": new SubDFacesOutput_vertices_v(),
 		}
 	}
 
 }
 
-class SubDFacesInput_SubD_S extends ResthopperParameter {
+class SubDFacesInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class SubDFacesInput_SubD_S extends ResthopperParameter {
 
 }
 
-class SubDFacesOutput_Point_P extends ResthopperParameter {
+class SubDFacesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class SubDFacesOutput_Point_P extends ResthopperParameter {
 
 }
 
-class SubDFacesOutput_Count_C extends ResthopperParameter {
+class SubDFacesOutput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class SubDFacesOutput_Count_C extends ResthopperParameter {
 
 }
 
-class SubDFacesOutput_Edges_E extends ResthopperParameter {
+class SubDFacesOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -97,7 +97,7 @@ class SubDFacesOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class SubDFacesOutput_Vertices_V extends ResthopperParameter {
+class SubDFacesOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";

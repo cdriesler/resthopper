@@ -15,29 +15,29 @@ export default class MeshIntersection extends ResthopperComponent {
 
 	public input:
 	{
-		"MeshesA_A": MeshIntersectionInput_MeshesA_A,
-		"MeshesB_B": MeshIntersectionInput_MeshesB_B,
+		"meshesa_a": MeshIntersectionInput_meshesa_a,
+		"meshesb_b": MeshIntersectionInput_meshesb_b,
 	}
 
 	public output:
 	{
-		"Result_R": MeshIntersectionOutput_Result_R,
+		"result_r": MeshIntersectionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"MeshesA_A": new MeshIntersectionInput_MeshesA_A(),
-			"MeshesB_B": new MeshIntersectionInput_MeshesB_B(),
+			"meshesa_a": new MeshIntersectionInput_meshesa_a(),
+			"meshesb_b": new MeshIntersectionInput_meshesb_b(),
 		}
 		this.output = {
-			"Result_R": new MeshIntersectionOutput_Result_R(),
+			"result_r": new MeshIntersectionOutput_result_r(),
 		}
 	}
 
 }
 
-class MeshIntersectionInput_MeshesA_A extends ResthopperParameter {
+class MeshIntersectionInput_meshesa_a extends ResthopperParameter {
 
 	public name: string = "MeshesA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MeshIntersectionInput_MeshesA_A extends ResthopperParameter {
 
 }
 
-class MeshIntersectionInput_MeshesB_B extends ResthopperParameter {
+class MeshIntersectionInput_meshesb_b extends ResthopperParameter {
 
 	public name: string = "MeshesB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MeshIntersectionInput_MeshesB_B extends ResthopperParameter {
 
 }
 
-class MeshIntersectionOutput_Result_R extends ResthopperParameter {
+class MeshIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

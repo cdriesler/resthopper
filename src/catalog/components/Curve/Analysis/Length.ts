@@ -15,27 +15,27 @@ export default class Length extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": LengthInput_Curve_C,
+		"curve_c": LengthInput_curve_c,
 	}
 
 	public output:
 	{
-		"Length_L": LengthOutput_Length_L,
+		"length_l": LengthOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new LengthInput_Curve_C(),
+			"curve_c": new LengthInput_curve_c(),
 		}
 		this.output = {
-			"Length_L": new LengthOutput_Length_L(),
+			"length_l": new LengthOutput_length_l(),
 		}
 	}
 
 }
 
-class LengthInput_Curve_C extends ResthopperParameter {
+class LengthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -49,7 +49,7 @@ class LengthInput_Curve_C extends ResthopperParameter {
 
 }
 
-class LengthOutput_Length_L extends ResthopperParameter {
+class LengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

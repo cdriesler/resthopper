@@ -15,8 +15,8 @@ export default class VectorDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Anchor_A": VectorDisplayInput_Anchor_A,
-		"Vector_V": VectorDisplayInput_Vector_V,
+		"anchor_a": VectorDisplayInput_anchor_a,
+		"vector_v": VectorDisplayInput_vector_v,
 	}
 
 	public output:
@@ -27,8 +27,8 @@ export default class VectorDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Anchor_A": new VectorDisplayInput_Anchor_A(),
-			"Vector_V": new VectorDisplayInput_Vector_V(),
+			"anchor_a": new VectorDisplayInput_anchor_a(),
+			"vector_v": new VectorDisplayInput_vector_v(),
 		}
 		this.output = {
 
@@ -37,7 +37,7 @@ export default class VectorDisplay extends ResthopperComponent {
 
 }
 
-class VectorDisplayInput_Anchor_A extends ResthopperParameter {
+class VectorDisplayInput_anchor_a extends ResthopperParameter {
 
 	public name: string = "Anchor";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class VectorDisplayInput_Anchor_A extends ResthopperParameter {
 
 }
 
-class VectorDisplayInput_Vector_V extends ResthopperParameter {
+class VectorDisplayInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";

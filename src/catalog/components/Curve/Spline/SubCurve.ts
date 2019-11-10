@@ -15,29 +15,29 @@ export default class SubCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Basecurve_C": SubCurveInput_Basecurve_C,
-		"Domain_D": SubCurveInput_Domain_D,
+		"basecurve_c": SubCurveInput_basecurve_c,
+		"domain_d": SubCurveInput_domain_d,
 	}
 
 	public output:
 	{
-		"Curve_C": SubCurveOutput_Curve_C,
+		"curve_c": SubCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Basecurve_C": new SubCurveInput_Basecurve_C(),
-			"Domain_D": new SubCurveInput_Domain_D(),
+			"basecurve_c": new SubCurveInput_basecurve_c(),
+			"domain_d": new SubCurveInput_domain_d(),
 		}
 		this.output = {
-			"Curve_C": new SubCurveOutput_Curve_C(),
+			"curve_c": new SubCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class SubCurveInput_Basecurve_C extends ResthopperParameter {
+class SubCurveInput_basecurve_c extends ResthopperParameter {
 
 	public name: string = "Basecurve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class SubCurveInput_Basecurve_C extends ResthopperParameter {
 
 }
 
-class SubCurveInput_Domain_D extends ResthopperParameter {
+class SubCurveInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class SubCurveInput_Domain_D extends ResthopperParameter {
 
 }
 
-class SubCurveOutput_Curve_C extends ResthopperParameter {
+class SubCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

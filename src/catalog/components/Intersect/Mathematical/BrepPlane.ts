@@ -15,31 +15,31 @@ export default class BrepPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepPlaneInput_Brep_B,
-		"Plane_P": BrepPlaneInput_Plane_P,
+		"brep_b": BrepPlaneInput_brep_b,
+		"plane_p": BrepPlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Curves_C": BrepPlaneOutput_Curves_C,
-		"Points_P": BrepPlaneOutput_Points_P,
+		"curves_c": BrepPlaneOutput_curves_c,
+		"points_p": BrepPlaneOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepPlaneInput_Brep_B(),
-			"Plane_P": new BrepPlaneInput_Plane_P(),
+			"brep_b": new BrepPlaneInput_brep_b(),
+			"plane_p": new BrepPlaneInput_plane_p(),
 		}
 		this.output = {
-			"Curves_C": new BrepPlaneOutput_Curves_C(),
-			"Points_P": new BrepPlaneOutput_Points_P(),
+			"curves_c": new BrepPlaneOutput_curves_c(),
+			"points_p": new BrepPlaneOutput_points_p(),
 		}
 	}
 
 }
 
-class BrepPlaneInput_Brep_B extends ResthopperParameter {
+class BrepPlaneInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BrepPlaneInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepPlaneInput_Plane_P extends ResthopperParameter {
+class BrepPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class BrepPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class BrepPlaneOutput_Curves_C extends ResthopperParameter {
+class BrepPlaneOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class BrepPlaneOutput_Curves_C extends ResthopperParameter {
 
 }
 
-class BrepPlaneOutput_Points_P extends ResthopperParameter {
+class BrepPlaneOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

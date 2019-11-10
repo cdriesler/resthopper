@@ -15,37 +15,37 @@ export default class MergeZeroSix extends ResthopperComponent {
 
 	public input:
 	{
-		"StreamA_A": MergeZeroSixInput_StreamA_A,
-		"StreamB_B": MergeZeroSixInput_StreamB_B,
-		"StreamC_C": MergeZeroSixInput_StreamC_C,
-		"StreamD_D": MergeZeroSixInput_StreamD_D,
-		"StreamE_E": MergeZeroSixInput_StreamE_E,
-		"StreamF_F": MergeZeroSixInput_StreamF_F,
+		"streama_a": MergeZeroSixInput_streama_a,
+		"streamb_b": MergeZeroSixInput_streamb_b,
+		"streamc_c": MergeZeroSixInput_streamc_c,
+		"streamd_d": MergeZeroSixInput_streamd_d,
+		"streame_e": MergeZeroSixInput_streame_e,
+		"streamf_f": MergeZeroSixInput_streamf_f,
 	}
 
 	public output:
 	{
-		"Stream_S": MergeZeroSixOutput_Stream_S,
+		"stream_s": MergeZeroSixOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StreamA_A": new MergeZeroSixInput_StreamA_A(),
-			"StreamB_B": new MergeZeroSixInput_StreamB_B(),
-			"StreamC_C": new MergeZeroSixInput_StreamC_C(),
-			"StreamD_D": new MergeZeroSixInput_StreamD_D(),
-			"StreamE_E": new MergeZeroSixInput_StreamE_E(),
-			"StreamF_F": new MergeZeroSixInput_StreamF_F(),
+			"streama_a": new MergeZeroSixInput_streama_a(),
+			"streamb_b": new MergeZeroSixInput_streamb_b(),
+			"streamc_c": new MergeZeroSixInput_streamc_c(),
+			"streamd_d": new MergeZeroSixInput_streamd_d(),
+			"streame_e": new MergeZeroSixInput_streame_e(),
+			"streamf_f": new MergeZeroSixInput_streamf_f(),
 		}
 		this.output = {
-			"Stream_S": new MergeZeroSixOutput_Stream_S(),
+			"stream_s": new MergeZeroSixOutput_stream_s(),
 		}
 	}
 
 }
 
-class MergeZeroSixInput_StreamA_A extends ResthopperParameter {
+class MergeZeroSixInput_streama_a extends ResthopperParameter {
 
 	public name: string = "StreamA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class MergeZeroSixInput_StreamA_A extends ResthopperParameter {
 
 }
 
-class MergeZeroSixInput_StreamB_B extends ResthopperParameter {
+class MergeZeroSixInput_streamb_b extends ResthopperParameter {
 
 	public name: string = "StreamB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class MergeZeroSixInput_StreamB_B extends ResthopperParameter {
 
 }
 
-class MergeZeroSixInput_StreamC_C extends ResthopperParameter {
+class MergeZeroSixInput_streamc_c extends ResthopperParameter {
 
 	public name: string = "StreamC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class MergeZeroSixInput_StreamC_C extends ResthopperParameter {
 
 }
 
-class MergeZeroSixInput_StreamD_D extends ResthopperParameter {
+class MergeZeroSixInput_streamd_d extends ResthopperParameter {
 
 	public name: string = "StreamD";
 	public nickName: string = "D";
@@ -101,7 +101,7 @@ class MergeZeroSixInput_StreamD_D extends ResthopperParameter {
 
 }
 
-class MergeZeroSixInput_StreamE_E extends ResthopperParameter {
+class MergeZeroSixInput_streame_e extends ResthopperParameter {
 
 	public name: string = "StreamE";
 	public nickName: string = "E";
@@ -115,7 +115,7 @@ class MergeZeroSixInput_StreamE_E extends ResthopperParameter {
 
 }
 
-class MergeZeroSixInput_StreamF_F extends ResthopperParameter {
+class MergeZeroSixInput_streamf_f extends ResthopperParameter {
 
 	public name: string = "StreamF";
 	public nickName: string = "F";
@@ -129,7 +129,7 @@ class MergeZeroSixInput_StreamF_F extends ResthopperParameter {
 
 }
 
-class MergeZeroSixOutput_Stream_S extends ResthopperParameter {
+class MergeZeroSixOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

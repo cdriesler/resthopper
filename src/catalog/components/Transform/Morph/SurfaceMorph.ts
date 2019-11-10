@@ -15,37 +15,37 @@ export default class SurfaceMorph extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SurfaceMorphInput_Geometry_G,
-		"Reference_R": SurfaceMorphInput_Reference_R,
-		"Surface_S": SurfaceMorphInput_Surface_S,
-		"UDomain_U": SurfaceMorphInput_UDomain_U,
-		"VDomain_V": SurfaceMorphInput_VDomain_V,
-		"WDomain_W": SurfaceMorphInput_WDomain_W,
+		"geometry_g": SurfaceMorphInput_geometry_g,
+		"reference_r": SurfaceMorphInput_reference_r,
+		"surface_s": SurfaceMorphInput_surface_s,
+		"udomain_u": SurfaceMorphInput_udomain_u,
+		"vdomain_v": SurfaceMorphInput_vdomain_v,
+		"wdomain_w": SurfaceMorphInput_wdomain_w,
 	}
 
 	public output:
 	{
-		"Geometry_G": SurfaceMorphOutput_Geometry_G,
+		"geometry_g": SurfaceMorphOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SurfaceMorphInput_Geometry_G(),
-			"Reference_R": new SurfaceMorphInput_Reference_R(),
-			"Surface_S": new SurfaceMorphInput_Surface_S(),
-			"UDomain_U": new SurfaceMorphInput_UDomain_U(),
-			"VDomain_V": new SurfaceMorphInput_VDomain_V(),
-			"WDomain_W": new SurfaceMorphInput_WDomain_W(),
+			"geometry_g": new SurfaceMorphInput_geometry_g(),
+			"reference_r": new SurfaceMorphInput_reference_r(),
+			"surface_s": new SurfaceMorphInput_surface_s(),
+			"udomain_u": new SurfaceMorphInput_udomain_u(),
+			"vdomain_v": new SurfaceMorphInput_vdomain_v(),
+			"wdomain_w": new SurfaceMorphInput_wdomain_w(),
 		}
 		this.output = {
-			"Geometry_G": new SurfaceMorphOutput_Geometry_G(),
+			"geometry_g": new SurfaceMorphOutput_geometry_g(),
 		}
 	}
 
 }
 
-class SurfaceMorphInput_Geometry_G extends ResthopperParameter {
+class SurfaceMorphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class SurfaceMorphInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SurfaceMorphInput_Reference_R extends ResthopperParameter {
+class SurfaceMorphInput_reference_r extends ResthopperParameter {
 
 	public name: string = "Reference";
 	public nickName: string = "R";
@@ -73,7 +73,7 @@ class SurfaceMorphInput_Reference_R extends ResthopperParameter {
 
 }
 
-class SurfaceMorphInput_Surface_S extends ResthopperParameter {
+class SurfaceMorphInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -87,7 +87,7 @@ class SurfaceMorphInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceMorphInput_UDomain_U extends ResthopperParameter {
+class SurfaceMorphInput_udomain_u extends ResthopperParameter {
 
 	public name: string = "UDomain";
 	public nickName: string = "U";
@@ -101,7 +101,7 @@ class SurfaceMorphInput_UDomain_U extends ResthopperParameter {
 
 }
 
-class SurfaceMorphInput_VDomain_V extends ResthopperParameter {
+class SurfaceMorphInput_vdomain_v extends ResthopperParameter {
 
 	public name: string = "VDomain";
 	public nickName: string = "V";
@@ -115,7 +115,7 @@ class SurfaceMorphInput_VDomain_V extends ResthopperParameter {
 
 }
 
-class SurfaceMorphInput_WDomain_W extends ResthopperParameter {
+class SurfaceMorphInput_wdomain_w extends ResthopperParameter {
 
 	public name: string = "WDomain";
 	public nickName: string = "W";
@@ -129,7 +129,7 @@ class SurfaceMorphInput_WDomain_W extends ResthopperParameter {
 
 }
 
-class SurfaceMorphOutput_Geometry_G extends ResthopperParameter {
+class SurfaceMorphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

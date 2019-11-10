@@ -15,33 +15,33 @@ export default class ToPolar extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": ToPolarInput_Point_P,
-		"System_S": ToPolarInput_System_S,
+		"point_p": ToPolarInput_point_p,
+		"system_s": ToPolarInput_system_s,
 	}
 
 	public output:
 	{
-		"Phi_P": ToPolarOutput_Phi_P,
-		"Theta_T": ToPolarOutput_Theta_T,
-		"Radius_R": ToPolarOutput_Radius_R,
+		"phi_p": ToPolarOutput_phi_p,
+		"theta_t": ToPolarOutput_theta_t,
+		"radius_r": ToPolarOutput_radius_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new ToPolarInput_Point_P(),
-			"System_S": new ToPolarInput_System_S(),
+			"point_p": new ToPolarInput_point_p(),
+			"system_s": new ToPolarInput_system_s(),
 		}
 		this.output = {
-			"Phi_P": new ToPolarOutput_Phi_P(),
-			"Theta_T": new ToPolarOutput_Theta_T(),
-			"Radius_R": new ToPolarOutput_Radius_R(),
+			"phi_p": new ToPolarOutput_phi_p(),
+			"theta_t": new ToPolarOutput_theta_t(),
+			"radius_r": new ToPolarOutput_radius_r(),
 		}
 	}
 
 }
 
-class ToPolarInput_Point_P extends ResthopperParameter {
+class ToPolarInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ToPolarInput_Point_P extends ResthopperParameter {
 
 }
 
-class ToPolarInput_System_S extends ResthopperParameter {
+class ToPolarInput_system_s extends ResthopperParameter {
 
 	public name: string = "System";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class ToPolarInput_System_S extends ResthopperParameter {
 
 }
 
-class ToPolarOutput_Phi_P extends ResthopperParameter {
+class ToPolarOutput_phi_p extends ResthopperParameter {
 
 	public name: string = "Phi";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class ToPolarOutput_Phi_P extends ResthopperParameter {
 
 }
 
-class ToPolarOutput_Theta_T extends ResthopperParameter {
+class ToPolarOutput_theta_t extends ResthopperParameter {
 
 	public name: string = "Theta";
 	public nickName: string = "T";
@@ -97,7 +97,7 @@ class ToPolarOutput_Theta_T extends ResthopperParameter {
 
 }
 
-class ToPolarOutput_Radius_R extends ResthopperParameter {
+class ToPolarOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";

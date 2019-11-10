@@ -15,33 +15,33 @@ export default class SubDfromMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": SubDfromMeshInput_Mesh_M,
-		"Creases_Cr": SubDfromMeshInput_Creases_Cr,
-		"Corners_Co": SubDfromMeshInput_Corners_Co,
-		"Interpolate_I": SubDfromMeshInput_Interpolate_I,
+		"mesh_m": SubDfromMeshInput_mesh_m,
+		"creases_cr": SubDfromMeshInput_creases_cr,
+		"corners_co": SubDfromMeshInput_corners_co,
+		"interpolate_i": SubDfromMeshInput_interpolate_i,
 	}
 
 	public output:
 	{
-		"SubD_S": SubDfromMeshOutput_SubD_S,
+		"subd_s": SubDfromMeshOutput_subd_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new SubDfromMeshInput_Mesh_M(),
-			"Creases_Cr": new SubDfromMeshInput_Creases_Cr(),
-			"Corners_Co": new SubDfromMeshInput_Corners_Co(),
-			"Interpolate_I": new SubDfromMeshInput_Interpolate_I(),
+			"mesh_m": new SubDfromMeshInput_mesh_m(),
+			"creases_cr": new SubDfromMeshInput_creases_cr(),
+			"corners_co": new SubDfromMeshInput_corners_co(),
+			"interpolate_i": new SubDfromMeshInput_interpolate_i(),
 		}
 		this.output = {
-			"SubD_S": new SubDfromMeshOutput_SubD_S(),
+			"subd_s": new SubDfromMeshOutput_subd_s(),
 		}
 	}
 
 }
 
-class SubDfromMeshInput_Mesh_M extends ResthopperParameter {
+class SubDfromMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class SubDfromMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class SubDfromMeshInput_Creases_Cr extends ResthopperParameter {
+class SubDfromMeshInput_creases_cr extends ResthopperParameter {
 
 	public name: string = "Creases";
 	public nickName: string = "Cr";
@@ -69,7 +69,7 @@ class SubDfromMeshInput_Creases_Cr extends ResthopperParameter {
 
 }
 
-class SubDfromMeshInput_Corners_Co extends ResthopperParameter {
+class SubDfromMeshInput_corners_co extends ResthopperParameter {
 
 	public name: string = "Corners";
 	public nickName: string = "Co";
@@ -83,7 +83,7 @@ class SubDfromMeshInput_Corners_Co extends ResthopperParameter {
 
 }
 
-class SubDfromMeshInput_Interpolate_I extends ResthopperParameter {
+class SubDfromMeshInput_interpolate_i extends ResthopperParameter {
 
 	public name: string = "Interpolate";
 	public nickName: string = "I";
@@ -97,7 +97,7 @@ class SubDfromMeshInput_Interpolate_I extends ResthopperParameter {
 
 }
 
-class SubDfromMeshOutput_SubD_S extends ResthopperParameter {
+class SubDfromMeshOutput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";

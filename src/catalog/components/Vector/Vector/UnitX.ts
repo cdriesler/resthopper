@@ -15,27 +15,27 @@ export default class UnitX extends ResthopperComponent {
 
 	public input:
 	{
-		"Factor_F": UnitXInput_Factor_F,
+		"factor_f": UnitXInput_factor_f,
 	}
 
 	public output:
 	{
-		"Unitvector_V": UnitXOutput_Unitvector_V,
+		"unitvector_v": UnitXOutput_unitvector_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Factor_F": new UnitXInput_Factor_F(),
+			"factor_f": new UnitXInput_factor_f(),
 		}
 		this.output = {
-			"Unitvector_V": new UnitXOutput_Unitvector_V(),
+			"unitvector_v": new UnitXOutput_unitvector_v(),
 		}
 	}
 
 }
 
-class UnitXInput_Factor_F extends ResthopperParameter {
+class UnitXInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -49,7 +49,7 @@ class UnitXInput_Factor_F extends ResthopperParameter {
 
 }
 
-class UnitXOutput_Unitvector_V extends ResthopperParameter {
+class UnitXOutput_unitvector_v extends ResthopperParameter {
 
 	public name: string = "Unitvector";
 	public nickName: string = "V";

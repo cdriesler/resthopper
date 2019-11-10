@@ -15,29 +15,29 @@ export default class RegionUnion extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": RegionUnionInput_Curves_C,
-		"Plane_P": RegionUnionInput_Plane_P,
+		"curves_c": RegionUnionInput_curves_c,
+		"plane_p": RegionUnionInput_plane_p,
 	}
 
 	public output:
 	{
-		"Result_R": RegionUnionOutput_Result_R,
+		"result_r": RegionUnionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new RegionUnionInput_Curves_C(),
-			"Plane_P": new RegionUnionInput_Plane_P(),
+			"curves_c": new RegionUnionInput_curves_c(),
+			"plane_p": new RegionUnionInput_plane_p(),
 		}
 		this.output = {
-			"Result_R": new RegionUnionOutput_Result_R(),
+			"result_r": new RegionUnionOutput_result_r(),
 		}
 	}
 
 }
 
-class RegionUnionInput_Curves_C extends ResthopperParameter {
+class RegionUnionInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class RegionUnionInput_Curves_C extends ResthopperParameter {
 
 }
 
-class RegionUnionInput_Plane_P extends ResthopperParameter {
+class RegionUnionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class RegionUnionInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RegionUnionOutput_Result_R extends ResthopperParameter {
+class RegionUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

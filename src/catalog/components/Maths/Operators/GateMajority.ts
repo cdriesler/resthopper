@@ -15,31 +15,31 @@ export default class GateMajority extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateMajorityInput_A_A,
-		"B_B": GateMajorityInput_B_B,
-		"C_C": GateMajorityInput_C_C,
+		"a_a": GateMajorityInput_a_a,
+		"b_b": GateMajorityInput_b_b,
+		"c_c": GateMajorityInput_c_c,
 	}
 
 	public output:
 	{
-		"Result_R": GateMajorityOutput_Result_R,
+		"result_r": GateMajorityOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateMajorityInput_A_A(),
-			"B_B": new GateMajorityInput_B_B(),
-			"C_C": new GateMajorityInput_C_C(),
+			"a_a": new GateMajorityInput_a_a(),
+			"b_b": new GateMajorityInput_b_b(),
+			"c_c": new GateMajorityInput_c_c(),
 		}
 		this.output = {
-			"Result_R": new GateMajorityOutput_Result_R(),
+			"result_r": new GateMajorityOutput_result_r(),
 		}
 	}
 
 }
 
-class GateMajorityInput_A_A extends ResthopperParameter {
+class GateMajorityInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class GateMajorityInput_A_A extends ResthopperParameter {
 
 }
 
-class GateMajorityInput_B_B extends ResthopperParameter {
+class GateMajorityInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class GateMajorityInput_B_B extends ResthopperParameter {
 
 }
 
-class GateMajorityInput_C_C extends ResthopperParameter {
+class GateMajorityInput_c_c extends ResthopperParameter {
 
 	public name: string = "C";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class GateMajorityInput_C_C extends ResthopperParameter {
 
 }
 
-class GateMajorityOutput_Result_R extends ResthopperParameter {
+class GateMajorityOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

@@ -15,35 +15,35 @@ export default class ArcSED extends ResthopperComponent {
 
 	public input:
 	{
-		"Start_S": ArcSEDInput_Start_S,
-		"End_E": ArcSEDInput_End_E,
-		"Direction_D": ArcSEDInput_Direction_D,
+		"start_s": ArcSEDInput_start_s,
+		"end_e": ArcSEDInput_end_e,
+		"direction_d": ArcSEDInput_direction_d,
 	}
 
 	public output:
 	{
-		"Arc_A": ArcSEDOutput_Arc_A,
-		"Plane_P": ArcSEDOutput_Plane_P,
-		"Radius_R": ArcSEDOutput_Radius_R,
+		"arc_a": ArcSEDOutput_arc_a,
+		"plane_p": ArcSEDOutput_plane_p,
+		"radius_r": ArcSEDOutput_radius_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Start_S": new ArcSEDInput_Start_S(),
-			"End_E": new ArcSEDInput_End_E(),
-			"Direction_D": new ArcSEDInput_Direction_D(),
+			"start_s": new ArcSEDInput_start_s(),
+			"end_e": new ArcSEDInput_end_e(),
+			"direction_d": new ArcSEDInput_direction_d(),
 		}
 		this.output = {
-			"Arc_A": new ArcSEDOutput_Arc_A(),
-			"Plane_P": new ArcSEDOutput_Plane_P(),
-			"Radius_R": new ArcSEDOutput_Radius_R(),
+			"arc_a": new ArcSEDOutput_arc_a(),
+			"plane_p": new ArcSEDOutput_plane_p(),
+			"radius_r": new ArcSEDOutput_radius_r(),
 		}
 	}
 
 }
 
-class ArcSEDInput_Start_S extends ResthopperParameter {
+class ArcSEDInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class ArcSEDInput_Start_S extends ResthopperParameter {
 
 }
 
-class ArcSEDInput_End_E extends ResthopperParameter {
+class ArcSEDInput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
@@ -71,7 +71,7 @@ class ArcSEDInput_End_E extends ResthopperParameter {
 
 }
 
-class ArcSEDInput_Direction_D extends ResthopperParameter {
+class ArcSEDInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -85,7 +85,7 @@ class ArcSEDInput_Direction_D extends ResthopperParameter {
 
 }
 
-class ArcSEDOutput_Arc_A extends ResthopperParameter {
+class ArcSEDOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class ArcSEDOutput_Arc_A extends ResthopperParameter {
 
 }
 
-class ArcSEDOutput_Plane_P extends ResthopperParameter {
+class ArcSEDOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class ArcSEDOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class ArcSEDOutput_Radius_R extends ResthopperParameter {
+class ArcSEDOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";

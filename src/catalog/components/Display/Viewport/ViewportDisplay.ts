@@ -15,11 +15,11 @@ export default class ViewportDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Visible_V": ViewportDisplayInput_Visible_V,
-		"Left_L": ViewportDisplayInput_Left_L,
-		"Top_T": ViewportDisplayInput_Top_T,
-		"Width_W": ViewportDisplayInput_Width_W,
-		"Height_H": ViewportDisplayInput_Height_H,
+		"visible_v": ViewportDisplayInput_visible_v,
+		"left_l": ViewportDisplayInput_left_l,
+		"top_t": ViewportDisplayInput_top_t,
+		"width_w": ViewportDisplayInput_width_w,
+		"height_h": ViewportDisplayInput_height_h,
 	}
 
 	public output:
@@ -30,11 +30,11 @@ export default class ViewportDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Visible_V": new ViewportDisplayInput_Visible_V(),
-			"Left_L": new ViewportDisplayInput_Left_L(),
-			"Top_T": new ViewportDisplayInput_Top_T(),
-			"Width_W": new ViewportDisplayInput_Width_W(),
-			"Height_H": new ViewportDisplayInput_Height_H(),
+			"visible_v": new ViewportDisplayInput_visible_v(),
+			"left_l": new ViewportDisplayInput_left_l(),
+			"top_t": new ViewportDisplayInput_top_t(),
+			"width_w": new ViewportDisplayInput_width_w(),
+			"height_h": new ViewportDisplayInput_height_h(),
 		}
 		this.output = {
 
@@ -43,7 +43,7 @@ export default class ViewportDisplay extends ResthopperComponent {
 
 }
 
-class ViewportDisplayInput_Visible_V extends ResthopperParameter {
+class ViewportDisplayInput_visible_v extends ResthopperParameter {
 
 	public name: string = "Visible";
 	public nickName: string = "V";
@@ -57,7 +57,7 @@ class ViewportDisplayInput_Visible_V extends ResthopperParameter {
 
 }
 
-class ViewportDisplayInput_Left_L extends ResthopperParameter {
+class ViewportDisplayInput_left_l extends ResthopperParameter {
 
 	public name: string = "Left";
 	public nickName: string = "L";
@@ -71,7 +71,7 @@ class ViewportDisplayInput_Left_L extends ResthopperParameter {
 
 }
 
-class ViewportDisplayInput_Top_T extends ResthopperParameter {
+class ViewportDisplayInput_top_t extends ResthopperParameter {
 
 	public name: string = "Top";
 	public nickName: string = "T";
@@ -85,7 +85,7 @@ class ViewportDisplayInput_Top_T extends ResthopperParameter {
 
 }
 
-class ViewportDisplayInput_Width_W extends ResthopperParameter {
+class ViewportDisplayInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
@@ -99,7 +99,7 @@ class ViewportDisplayInput_Width_W extends ResthopperParameter {
 
 }
 
-class ViewportDisplayInput_Height_H extends ResthopperParameter {
+class ViewportDisplayInput_height_h extends ResthopperParameter {
 
 	public name: string = "Height";
 	public nickName: string = "H";

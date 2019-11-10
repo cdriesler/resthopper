@@ -15,29 +15,29 @@ export default class Line extends ResthopperComponent {
 
 	public input:
 	{
-		"StartPoint_A": LineInput_StartPoint_A,
-		"EndPoint_B": LineInput_EndPoint_B,
+		"startpoint_a": LineInput_startpoint_a,
+		"endpoint_b": LineInput_endpoint_b,
 	}
 
 	public output:
 	{
-		"Line_L": LineOutput_Line_L,
+		"line_l": LineOutput_line_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StartPoint_A": new LineInput_StartPoint_A(),
-			"EndPoint_B": new LineInput_EndPoint_B(),
+			"startpoint_a": new LineInput_startpoint_a(),
+			"endpoint_b": new LineInput_endpoint_b(),
 		}
 		this.output = {
-			"Line_L": new LineOutput_Line_L(),
+			"line_l": new LineOutput_line_l(),
 		}
 	}
 
 }
 
-class LineInput_StartPoint_A extends ResthopperParameter {
+class LineInput_startpoint_a extends ResthopperParameter {
 
 	public name: string = "StartPoint";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class LineInput_StartPoint_A extends ResthopperParameter {
 
 }
 
-class LineInput_EndPoint_B extends ResthopperParameter {
+class LineInput_endpoint_b extends ResthopperParameter {
 
 	public name: string = "EndPoint";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class LineInput_EndPoint_B extends ResthopperParameter {
 
 }
 
-class LineOutput_Line_L extends ResthopperParameter {
+class LineOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";

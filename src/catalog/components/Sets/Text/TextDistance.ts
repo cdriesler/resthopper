@@ -15,31 +15,31 @@ export default class TextDistance extends ResthopperComponent {
 
 	public input:
 	{
-		"TextA_A": TextDistanceInput_TextA_A,
-		"TextB_B": TextDistanceInput_TextB_B,
-		"Case_C": TextDistanceInput_Case_C,
+		"texta_a": TextDistanceInput_texta_a,
+		"textb_b": TextDistanceInput_textb_b,
+		"case_c": TextDistanceInput_case_c,
 	}
 
 	public output:
 	{
-		"Distance_D": TextDistanceOutput_Distance_D,
+		"distance_d": TextDistanceOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"TextA_A": new TextDistanceInput_TextA_A(),
-			"TextB_B": new TextDistanceInput_TextB_B(),
-			"Case_C": new TextDistanceInput_Case_C(),
+			"texta_a": new TextDistanceInput_texta_a(),
+			"textb_b": new TextDistanceInput_textb_b(),
+			"case_c": new TextDistanceInput_case_c(),
 		}
 		this.output = {
-			"Distance_D": new TextDistanceOutput_Distance_D(),
+			"distance_d": new TextDistanceOutput_distance_d(),
 		}
 	}
 
 }
 
-class TextDistanceInput_TextA_A extends ResthopperParameter {
+class TextDistanceInput_texta_a extends ResthopperParameter {
 
 	public name: string = "TextA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class TextDistanceInput_TextA_A extends ResthopperParameter {
 
 }
 
-class TextDistanceInput_TextB_B extends ResthopperParameter {
+class TextDistanceInput_textb_b extends ResthopperParameter {
 
 	public name: string = "TextB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class TextDistanceInput_TextB_B extends ResthopperParameter {
 
 }
 
-class TextDistanceInput_Case_C extends ResthopperParameter {
+class TextDistanceInput_case_c extends ResthopperParameter {
 
 	public name: string = "Case";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class TextDistanceInput_Case_C extends ResthopperParameter {
 
 }
 
-class TextDistanceOutput_Distance_D extends ResthopperParameter {
+class TextDistanceOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

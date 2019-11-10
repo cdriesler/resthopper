@@ -15,29 +15,29 @@ export default class TextJoin extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextJoinInput_Text_T,
-		"Join_J": TextJoinInput_Join_J,
+		"text_t": TextJoinInput_text_t,
+		"join_j": TextJoinInput_join_j,
 	}
 
 	public output:
 	{
-		"Result_R": TextJoinOutput_Result_R,
+		"result_r": TextJoinOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextJoinInput_Text_T(),
-			"Join_J": new TextJoinInput_Join_J(),
+			"text_t": new TextJoinInput_text_t(),
+			"join_j": new TextJoinInput_join_j(),
 		}
 		this.output = {
-			"Result_R": new TextJoinOutput_Result_R(),
+			"result_r": new TextJoinOutput_result_r(),
 		}
 	}
 
 }
 
-class TextJoinInput_Text_T extends ResthopperParameter {
+class TextJoinInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class TextJoinInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextJoinInput_Join_J extends ResthopperParameter {
+class TextJoinInput_join_j extends ResthopperParameter {
 
 	public name: string = "Join";
 	public nickName: string = "J";
@@ -65,7 +65,7 @@ class TextJoinInput_Join_J extends ResthopperParameter {
 
 }
 
-class TextJoinOutput_Result_R extends ResthopperParameter {
+class TextJoinOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

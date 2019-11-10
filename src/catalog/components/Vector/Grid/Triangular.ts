@@ -15,35 +15,35 @@ export default class Triangular extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": TriangularInput_Plane_P,
-		"Size_S": TriangularInput_Size_S,
-		"ExtentX_Ex": TriangularInput_ExtentX_Ex,
-		"ExtentY_Ey": TriangularInput_ExtentY_Ey,
+		"plane_p": TriangularInput_plane_p,
+		"size_s": TriangularInput_size_s,
+		"extentx_ex": TriangularInput_extentx_ex,
+		"extenty_ey": TriangularInput_extenty_ey,
 	}
 
 	public output:
 	{
-		"Cells_C": TriangularOutput_Cells_C,
-		"Points_P": TriangularOutput_Points_P,
+		"cells_c": TriangularOutput_cells_c,
+		"points_p": TriangularOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new TriangularInput_Plane_P(),
-			"Size_S": new TriangularInput_Size_S(),
-			"ExtentX_Ex": new TriangularInput_ExtentX_Ex(),
-			"ExtentY_Ey": new TriangularInput_ExtentY_Ey(),
+			"plane_p": new TriangularInput_plane_p(),
+			"size_s": new TriangularInput_size_s(),
+			"extentx_ex": new TriangularInput_extentx_ex(),
+			"extenty_ey": new TriangularInput_extenty_ey(),
 		}
 		this.output = {
-			"Cells_C": new TriangularOutput_Cells_C(),
-			"Points_P": new TriangularOutput_Points_P(),
+			"cells_c": new TriangularOutput_cells_c(),
+			"points_p": new TriangularOutput_points_p(),
 		}
 	}
 
 }
 
-class TriangularInput_Plane_P extends ResthopperParameter {
+class TriangularInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class TriangularInput_Plane_P extends ResthopperParameter {
 
 }
 
-class TriangularInput_Size_S extends ResthopperParameter {
+class TriangularInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class TriangularInput_Size_S extends ResthopperParameter {
 
 }
 
-class TriangularInput_ExtentX_Ex extends ResthopperParameter {
+class TriangularInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
@@ -85,7 +85,7 @@ class TriangularInput_ExtentX_Ex extends ResthopperParameter {
 
 }
 
-class TriangularInput_ExtentY_Ey extends ResthopperParameter {
+class TriangularInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
@@ -99,7 +99,7 @@ class TriangularInput_ExtentY_Ey extends ResthopperParameter {
 
 }
 
-class TriangularOutput_Cells_C extends ResthopperParameter {
+class TriangularOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class TriangularOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class TriangularOutput_Points_P extends ResthopperParameter {
+class TriangularOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

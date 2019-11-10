@@ -15,27 +15,27 @@ export default class SubDControlPolygon extends ResthopperComponent {
 
 	public input:
 	{
-		"SubD_S": SubDControlPolygonInput_SubD_S,
+		"subd_s": SubDControlPolygonInput_subd_s,
 	}
 
 	public output:
 	{
-		"Mesh_M": SubDControlPolygonOutput_Mesh_M,
+		"mesh_m": SubDControlPolygonOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SubD_S": new SubDControlPolygonInput_SubD_S(),
+			"subd_s": new SubDControlPolygonInput_subd_s(),
 		}
 		this.output = {
-			"Mesh_M": new SubDControlPolygonOutput_Mesh_M(),
+			"mesh_m": new SubDControlPolygonOutput_mesh_m(),
 		}
 	}
 
 }
 
-class SubDControlPolygonInput_SubD_S extends ResthopperParameter {
+class SubDControlPolygonInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
@@ -49,7 +49,7 @@ class SubDControlPolygonInput_SubD_S extends ResthopperParameter {
 
 }
 
-class SubDControlPolygonOutput_Mesh_M extends ResthopperParameter {
+class SubDControlPolygonOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

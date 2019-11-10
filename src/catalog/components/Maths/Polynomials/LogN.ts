@@ -15,29 +15,29 @@ export default class LogN extends ResthopperComponent {
 
 	public input:
 	{
-		"Number_V": LogNInput_Number_V,
-		"Base_B": LogNInput_Base_B,
+		"number_v": LogNInput_number_v,
+		"base_b": LogNInput_base_b,
 	}
 
 	public output:
 	{
-		"Result_R": LogNOutput_Result_R,
+		"result_r": LogNOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Number_V": new LogNInput_Number_V(),
-			"Base_B": new LogNInput_Base_B(),
+			"number_v": new LogNInput_number_v(),
+			"base_b": new LogNInput_base_b(),
 		}
 		this.output = {
-			"Result_R": new LogNOutput_Result_R(),
+			"result_r": new LogNOutput_result_r(),
 		}
 	}
 
 }
 
-class LogNInput_Number_V extends ResthopperParameter {
+class LogNInput_number_v extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "V";
@@ -51,7 +51,7 @@ class LogNInput_Number_V extends ResthopperParameter {
 
 }
 
-class LogNInput_Base_B extends ResthopperParameter {
+class LogNInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class LogNInput_Base_B extends ResthopperParameter {
 
 }
 
-class LogNOutput_Result_R extends ResthopperParameter {
+class LogNOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

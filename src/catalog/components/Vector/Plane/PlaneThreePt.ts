@@ -15,31 +15,31 @@ export default class PlaneThreePt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": PlaneThreePtInput_PointA_A,
-		"PointB_B": PlaneThreePtInput_PointB_B,
-		"PointC_C": PlaneThreePtInput_PointC_C,
+		"pointa_a": PlaneThreePtInput_pointa_a,
+		"pointb_b": PlaneThreePtInput_pointb_b,
+		"pointc_c": PlaneThreePtInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Plane_Pl": PlaneThreePtOutput_Plane_Pl,
+		"plane_pl": PlaneThreePtOutput_plane_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new PlaneThreePtInput_PointA_A(),
-			"PointB_B": new PlaneThreePtInput_PointB_B(),
-			"PointC_C": new PlaneThreePtInput_PointC_C(),
+			"pointa_a": new PlaneThreePtInput_pointa_a(),
+			"pointb_b": new PlaneThreePtInput_pointb_b(),
+			"pointc_c": new PlaneThreePtInput_pointc_c(),
 		}
 		this.output = {
-			"Plane_Pl": new PlaneThreePtOutput_Plane_Pl(),
+			"plane_pl": new PlaneThreePtOutput_plane_pl(),
 		}
 	}
 
 }
 
-class PlaneThreePtInput_PointA_A extends ResthopperParameter {
+class PlaneThreePtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class PlaneThreePtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class PlaneThreePtInput_PointB_B extends ResthopperParameter {
+class PlaneThreePtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class PlaneThreePtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class PlaneThreePtInput_PointC_C extends ResthopperParameter {
+class PlaneThreePtInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class PlaneThreePtInput_PointC_C extends ResthopperParameter {
 
 }
 
-class PlaneThreePtOutput_Plane_Pl extends ResthopperParameter {
+class PlaneThreePtOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";

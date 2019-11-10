@@ -15,31 +15,31 @@ export default class CapHolesEx extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": CapHolesExInput_Brep_B,
+		"brep_b": CapHolesExInput_brep_b,
 	}
 
 	public output:
 	{
-		"Brep_B": CapHolesExOutput_Brep_B,
-		"Caps_C": CapHolesExOutput_Caps_C,
-		"Solid_S": CapHolesExOutput_Solid_S,
+		"brep_b": CapHolesExOutput_brep_b,
+		"caps_c": CapHolesExOutput_caps_c,
+		"solid_s": CapHolesExOutput_solid_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new CapHolesExInput_Brep_B(),
+			"brep_b": new CapHolesExInput_brep_b(),
 		}
 		this.output = {
-			"Brep_B": new CapHolesExOutput_Brep_B(),
-			"Caps_C": new CapHolesExOutput_Caps_C(),
-			"Solid_S": new CapHolesExOutput_Solid_S(),
+			"brep_b": new CapHolesExOutput_brep_b(),
+			"caps_c": new CapHolesExOutput_caps_c(),
+			"solid_s": new CapHolesExOutput_solid_s(),
 		}
 	}
 
 }
 
-class CapHolesExInput_Brep_B extends ResthopperParameter {
+class CapHolesExInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class CapHolesExInput_Brep_B extends ResthopperParameter {
 
 }
 
-class CapHolesExOutput_Brep_B extends ResthopperParameter {
+class CapHolesExOutput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class CapHolesExOutput_Brep_B extends ResthopperParameter {
 
 }
 
-class CapHolesExOutput_Caps_C extends ResthopperParameter {
+class CapHolesExOutput_caps_c extends ResthopperParameter {
 
 	public name: string = "Caps";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class CapHolesExOutput_Caps_C extends ResthopperParameter {
 
 }
 
-class CapHolesExOutput_Solid_S extends ResthopperParameter {
+class CapHolesExOutput_solid_s extends ResthopperParameter {
 
 	public name: string = "Solid";
 	public nickName: string = "S";

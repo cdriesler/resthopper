@@ -15,31 +15,31 @@ export default class MeshSphereEx extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": MeshSphereExInput_Base_B,
-		"Radius_R": MeshSphereExInput_Radius_R,
-		"Count_C": MeshSphereExInput_Count_C,
+		"base_b": MeshSphereExInput_base_b,
+		"radius_r": MeshSphereExInput_radius_r,
+		"count_c": MeshSphereExInput_count_c,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshSphereExOutput_Mesh_M,
+		"mesh_m": MeshSphereExOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new MeshSphereExInput_Base_B(),
-			"Radius_R": new MeshSphereExInput_Radius_R(),
-			"Count_C": new MeshSphereExInput_Count_C(),
+			"base_b": new MeshSphereExInput_base_b(),
+			"radius_r": new MeshSphereExInput_radius_r(),
+			"count_c": new MeshSphereExInput_count_c(),
 		}
 		this.output = {
-			"Mesh_M": new MeshSphereExOutput_Mesh_M(),
+			"mesh_m": new MeshSphereExOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshSphereExInput_Base_B extends ResthopperParameter {
+class MeshSphereExInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class MeshSphereExInput_Base_B extends ResthopperParameter {
 
 }
 
-class MeshSphereExInput_Radius_R extends ResthopperParameter {
+class MeshSphereExInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class MeshSphereExInput_Radius_R extends ResthopperParameter {
 
 }
 
-class MeshSphereExInput_Count_C extends ResthopperParameter {
+class MeshSphereExInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MeshSphereExInput_Count_C extends ResthopperParameter {
 
 }
 
-class MeshSphereExOutput_Mesh_M extends ResthopperParameter {
+class MeshSphereExOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

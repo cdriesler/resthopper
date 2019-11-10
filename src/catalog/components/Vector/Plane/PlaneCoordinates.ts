@@ -15,33 +15,33 @@ export default class PlaneCoordinates extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": PlaneCoordinatesInput_Point_P,
-		"System_S": PlaneCoordinatesInput_System_S,
+		"point_p": PlaneCoordinatesInput_point_p,
+		"system_s": PlaneCoordinatesInput_system_s,
 	}
 
 	public output:
 	{
-		"Xcoordinate_X": PlaneCoordinatesOutput_Xcoordinate_X,
-		"Ycoordinate_Y": PlaneCoordinatesOutput_Ycoordinate_Y,
-		"Zcoordinate_Z": PlaneCoordinatesOutput_Zcoordinate_Z,
+		"xcoordinate_x": PlaneCoordinatesOutput_xcoordinate_x,
+		"ycoordinate_y": PlaneCoordinatesOutput_ycoordinate_y,
+		"zcoordinate_z": PlaneCoordinatesOutput_zcoordinate_z,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new PlaneCoordinatesInput_Point_P(),
-			"System_S": new PlaneCoordinatesInput_System_S(),
+			"point_p": new PlaneCoordinatesInput_point_p(),
+			"system_s": new PlaneCoordinatesInput_system_s(),
 		}
 		this.output = {
-			"Xcoordinate_X": new PlaneCoordinatesOutput_Xcoordinate_X(),
-			"Ycoordinate_Y": new PlaneCoordinatesOutput_Ycoordinate_Y(),
-			"Zcoordinate_Z": new PlaneCoordinatesOutput_Zcoordinate_Z(),
+			"xcoordinate_x": new PlaneCoordinatesOutput_xcoordinate_x(),
+			"ycoordinate_y": new PlaneCoordinatesOutput_ycoordinate_y(),
+			"zcoordinate_z": new PlaneCoordinatesOutput_zcoordinate_z(),
 		}
 	}
 
 }
 
-class PlaneCoordinatesInput_Point_P extends ResthopperParameter {
+class PlaneCoordinatesInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PlaneCoordinatesInput_Point_P extends ResthopperParameter {
 
 }
 
-class PlaneCoordinatesInput_System_S extends ResthopperParameter {
+class PlaneCoordinatesInput_system_s extends ResthopperParameter {
 
 	public name: string = "System";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class PlaneCoordinatesInput_System_S extends ResthopperParameter {
 
 }
 
-class PlaneCoordinatesOutput_Xcoordinate_X extends ResthopperParameter {
+class PlaneCoordinatesOutput_xcoordinate_x extends ResthopperParameter {
 
 	public name: string = "Xcoordinate";
 	public nickName: string = "X";
@@ -83,7 +83,7 @@ class PlaneCoordinatesOutput_Xcoordinate_X extends ResthopperParameter {
 
 }
 
-class PlaneCoordinatesOutput_Ycoordinate_Y extends ResthopperParameter {
+class PlaneCoordinatesOutput_ycoordinate_y extends ResthopperParameter {
 
 	public name: string = "Ycoordinate";
 	public nickName: string = "Y";
@@ -97,7 +97,7 @@ class PlaneCoordinatesOutput_Ycoordinate_Y extends ResthopperParameter {
 
 }
 
-class PlaneCoordinatesOutput_Zcoordinate_Z extends ResthopperParameter {
+class PlaneCoordinatesOutput_zcoordinate_z extends ResthopperParameter {
 
 	public name: string = "Zcoordinate";
 	public nickName: string = "Z";

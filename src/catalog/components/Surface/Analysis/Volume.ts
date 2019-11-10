@@ -15,29 +15,29 @@ export default class Volume extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": VolumeInput_Geometry_G,
+		"geometry_g": VolumeInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Volume_V": VolumeOutput_Volume_V,
-		"Centroid_C": VolumeOutput_Centroid_C,
+		"volume_v": VolumeOutput_volume_v,
+		"centroid_c": VolumeOutput_centroid_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new VolumeInput_Geometry_G(),
+			"geometry_g": new VolumeInput_geometry_g(),
 		}
 		this.output = {
-			"Volume_V": new VolumeOutput_Volume_V(),
-			"Centroid_C": new VolumeOutput_Centroid_C(),
+			"volume_v": new VolumeOutput_volume_v(),
+			"centroid_c": new VolumeOutput_centroid_c(),
 		}
 	}
 
 }
 
-class VolumeInput_Geometry_G extends ResthopperParameter {
+class VolumeInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class VolumeInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class VolumeOutput_Volume_V extends ResthopperParameter {
+class VolumeOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
@@ -65,7 +65,7 @@ class VolumeOutput_Volume_V extends ResthopperParameter {
 
 }
 
-class VolumeOutput_Centroid_C extends ResthopperParameter {
+class VolumeOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";

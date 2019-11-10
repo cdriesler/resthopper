@@ -15,35 +15,35 @@ export default class ShearAngle extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": ShearAngleInput_Geometry_G,
-		"Base_P": ShearAngleInput_Base_P,
-		"AngleX_Ax": ShearAngleInput_AngleX_Ax,
-		"AngleY_Ay": ShearAngleInput_AngleY_Ay,
+		"geometry_g": ShearAngleInput_geometry_g,
+		"base_p": ShearAngleInput_base_p,
+		"anglex_ax": ShearAngleInput_anglex_ax,
+		"angley_ay": ShearAngleInput_angley_ay,
 	}
 
 	public output:
 	{
-		"Geometry_G": ShearAngleOutput_Geometry_G,
-		"Transform_X": ShearAngleOutput_Transform_X,
+		"geometry_g": ShearAngleOutput_geometry_g,
+		"transform_x": ShearAngleOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new ShearAngleInput_Geometry_G(),
-			"Base_P": new ShearAngleInput_Base_P(),
-			"AngleX_Ax": new ShearAngleInput_AngleX_Ax(),
-			"AngleY_Ay": new ShearAngleInput_AngleY_Ay(),
+			"geometry_g": new ShearAngleInput_geometry_g(),
+			"base_p": new ShearAngleInput_base_p(),
+			"anglex_ax": new ShearAngleInput_anglex_ax(),
+			"angley_ay": new ShearAngleInput_angley_ay(),
 		}
 		this.output = {
-			"Geometry_G": new ShearAngleOutput_Geometry_G(),
-			"Transform_X": new ShearAngleOutput_Transform_X(),
+			"geometry_g": new ShearAngleOutput_geometry_g(),
+			"transform_x": new ShearAngleOutput_transform_x(),
 		}
 	}
 
 }
 
-class ShearAngleInput_Geometry_G extends ResthopperParameter {
+class ShearAngleInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class ShearAngleInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ShearAngleInput_Base_P extends ResthopperParameter {
+class ShearAngleInput_base_p extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class ShearAngleInput_Base_P extends ResthopperParameter {
 
 }
 
-class ShearAngleInput_AngleX_Ax extends ResthopperParameter {
+class ShearAngleInput_anglex_ax extends ResthopperParameter {
 
 	public name: string = "AngleX";
 	public nickName: string = "Ax";
@@ -85,7 +85,7 @@ class ShearAngleInput_AngleX_Ax extends ResthopperParameter {
 
 }
 
-class ShearAngleInput_AngleY_Ay extends ResthopperParameter {
+class ShearAngleInput_angley_ay extends ResthopperParameter {
 
 	public name: string = "AngleY";
 	public nickName: string = "Ay";
@@ -99,7 +99,7 @@ class ShearAngleInput_AngleY_Ay extends ResthopperParameter {
 
 }
 
-class ShearAngleOutput_Geometry_G extends ResthopperParameter {
+class ShearAngleOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class ShearAngleOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ShearAngleOutput_Transform_X extends ResthopperParameter {
+class ShearAngleOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

@@ -15,29 +15,29 @@ export default class CollisionManyMany extends ResthopperComponent {
 
 	public input:
 	{
-		"Colliders_C": CollisionManyManyInput_Colliders_C,
+		"colliders_c": CollisionManyManyInput_colliders_c,
 	}
 
 	public output:
 	{
-		"Collision_C": CollisionManyManyOutput_Collision_C,
-		"Indices_I": CollisionManyManyOutput_Indices_I,
+		"collision_c": CollisionManyManyOutput_collision_c,
+		"indices_i": CollisionManyManyOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Colliders_C": new CollisionManyManyInput_Colliders_C(),
+			"colliders_c": new CollisionManyManyInput_colliders_c(),
 		}
 		this.output = {
-			"Collision_C": new CollisionManyManyOutput_Collision_C(),
-			"Indices_I": new CollisionManyManyOutput_Indices_I(),
+			"collision_c": new CollisionManyManyOutput_collision_c(),
+			"indices_i": new CollisionManyManyOutput_indices_i(),
 		}
 	}
 
 }
 
-class CollisionManyManyInput_Colliders_C extends ResthopperParameter {
+class CollisionManyManyInput_colliders_c extends ResthopperParameter {
 
 	public name: string = "Colliders";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class CollisionManyManyInput_Colliders_C extends ResthopperParameter {
 
 }
 
-class CollisionManyManyOutput_Collision_C extends ResthopperParameter {
+class CollisionManyManyOutput_collision_c extends ResthopperParameter {
 
 	public name: string = "Collision";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class CollisionManyManyOutput_Collision_C extends ResthopperParameter {
 
 }
 
-class CollisionManyManyOutput_Indices_I extends ResthopperParameter {
+class CollisionManyManyOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

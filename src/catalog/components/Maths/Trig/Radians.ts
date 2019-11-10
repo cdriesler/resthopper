@@ -15,27 +15,27 @@ export default class Radians extends ResthopperComponent {
 
 	public input:
 	{
-		"Degrees_D": RadiansInput_Degrees_D,
+		"degrees_d": RadiansInput_degrees_d,
 	}
 
 	public output:
 	{
-		"Radians_R": RadiansOutput_Radians_R,
+		"radians_r": RadiansOutput_radians_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Degrees_D": new RadiansInput_Degrees_D(),
+			"degrees_d": new RadiansInput_degrees_d(),
 		}
 		this.output = {
-			"Radians_R": new RadiansOutput_Radians_R(),
+			"radians_r": new RadiansOutput_radians_r(),
 		}
 	}
 
 }
 
-class RadiansInput_Degrees_D extends ResthopperParameter {
+class RadiansInput_degrees_d extends ResthopperParameter {
 
 	public name: string = "Degrees";
 	public nickName: string = "D";
@@ -49,7 +49,7 @@ class RadiansInput_Degrees_D extends ResthopperParameter {
 
 }
 
-class RadiansOutput_Radians_R extends ResthopperParameter {
+class RadiansOutput_radians_r extends ResthopperParameter {
 
 	public name: string = "Radians";
 	public nickName: string = "R";

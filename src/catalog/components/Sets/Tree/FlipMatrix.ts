@@ -15,27 +15,27 @@ export default class FlipMatrix extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": FlipMatrixInput_Data_D,
+		"data_d": FlipMatrixInput_data_d,
 	}
 
 	public output:
 	{
-		"Data_D": FlipMatrixOutput_Data_D,
+		"data_d": FlipMatrixOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new FlipMatrixInput_Data_D(),
+			"data_d": new FlipMatrixInput_data_d(),
 		}
 		this.output = {
-			"Data_D": new FlipMatrixOutput_Data_D(),
+			"data_d": new FlipMatrixOutput_data_d(),
 		}
 	}
 
 }
 
-class FlipMatrixInput_Data_D extends ResthopperParameter {
+class FlipMatrixInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -49,7 +49,7 @@ class FlipMatrixInput_Data_D extends ResthopperParameter {
 
 }
 
-class FlipMatrixOutput_Data_D extends ResthopperParameter {
+class FlipMatrixOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

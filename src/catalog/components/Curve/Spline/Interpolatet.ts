@@ -15,37 +15,37 @@ export default class Interpolatet extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": InterpolatetInput_Vertices_V,
-		"TangentStart_Ts": InterpolatetInput_TangentStart_Ts,
-		"TangentEnd_Te": InterpolatetInput_TangentEnd_Te,
-		"KnotStyle_K": InterpolatetInput_KnotStyle_K,
+		"vertices_v": InterpolatetInput_vertices_v,
+		"tangentstart_ts": InterpolatetInput_tangentstart_ts,
+		"tangentend_te": InterpolatetInput_tangentend_te,
+		"knotstyle_k": InterpolatetInput_knotstyle_k,
 	}
 
 	public output:
 	{
-		"Curve_C": InterpolatetOutput_Curve_C,
-		"Length_L": InterpolatetOutput_Length_L,
-		"Domain_D": InterpolatetOutput_Domain_D,
+		"curve_c": InterpolatetOutput_curve_c,
+		"length_l": InterpolatetOutput_length_l,
+		"domain_d": InterpolatetOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new InterpolatetInput_Vertices_V(),
-			"TangentStart_Ts": new InterpolatetInput_TangentStart_Ts(),
-			"TangentEnd_Te": new InterpolatetInput_TangentEnd_Te(),
-			"KnotStyle_K": new InterpolatetInput_KnotStyle_K(),
+			"vertices_v": new InterpolatetInput_vertices_v(),
+			"tangentstart_ts": new InterpolatetInput_tangentstart_ts(),
+			"tangentend_te": new InterpolatetInput_tangentend_te(),
+			"knotstyle_k": new InterpolatetInput_knotstyle_k(),
 		}
 		this.output = {
-			"Curve_C": new InterpolatetOutput_Curve_C(),
-			"Length_L": new InterpolatetOutput_Length_L(),
-			"Domain_D": new InterpolatetOutput_Domain_D(),
+			"curve_c": new InterpolatetOutput_curve_c(),
+			"length_l": new InterpolatetOutput_length_l(),
+			"domain_d": new InterpolatetOutput_domain_d(),
 		}
 	}
 
 }
 
-class InterpolatetInput_Vertices_V extends ResthopperParameter {
+class InterpolatetInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -59,7 +59,7 @@ class InterpolatetInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class InterpolatetInput_TangentStart_Ts extends ResthopperParameter {
+class InterpolatetInput_tangentstart_ts extends ResthopperParameter {
 
 	public name: string = "TangentStart";
 	public nickName: string = "Ts";
@@ -73,7 +73,7 @@ class InterpolatetInput_TangentStart_Ts extends ResthopperParameter {
 
 }
 
-class InterpolatetInput_TangentEnd_Te extends ResthopperParameter {
+class InterpolatetInput_tangentend_te extends ResthopperParameter {
 
 	public name: string = "TangentEnd";
 	public nickName: string = "Te";
@@ -87,7 +87,7 @@ class InterpolatetInput_TangentEnd_Te extends ResthopperParameter {
 
 }
 
-class InterpolatetInput_KnotStyle_K extends ResthopperParameter {
+class InterpolatetInput_knotstyle_k extends ResthopperParameter {
 
 	public name: string = "KnotStyle";
 	public nickName: string = "K";
@@ -101,7 +101,7 @@ class InterpolatetInput_KnotStyle_K extends ResthopperParameter {
 
 }
 
-class InterpolatetOutput_Curve_C extends ResthopperParameter {
+class InterpolatetOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -115,7 +115,7 @@ class InterpolatetOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class InterpolatetOutput_Length_L extends ResthopperParameter {
+class InterpolatetOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -129,7 +129,7 @@ class InterpolatetOutput_Length_L extends ResthopperParameter {
 
 }
 
-class InterpolatetOutput_Domain_D extends ResthopperParameter {
+class InterpolatetOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

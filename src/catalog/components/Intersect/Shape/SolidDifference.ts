@@ -15,29 +15,29 @@ export default class SolidDifference extends ResthopperComponent {
 
 	public input:
 	{
-		"BrepsA_A": SolidDifferenceInput_BrepsA_A,
-		"BrepsB_B": SolidDifferenceInput_BrepsB_B,
+		"brepsa_a": SolidDifferenceInput_brepsa_a,
+		"brepsb_b": SolidDifferenceInput_brepsb_b,
 	}
 
 	public output:
 	{
-		"Result_R": SolidDifferenceOutput_Result_R,
+		"result_r": SolidDifferenceOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"BrepsA_A": new SolidDifferenceInput_BrepsA_A(),
-			"BrepsB_B": new SolidDifferenceInput_BrepsB_B(),
+			"brepsa_a": new SolidDifferenceInput_brepsa_a(),
+			"brepsb_b": new SolidDifferenceInput_brepsb_b(),
 		}
 		this.output = {
-			"Result_R": new SolidDifferenceOutput_Result_R(),
+			"result_r": new SolidDifferenceOutput_result_r(),
 		}
 	}
 
 }
 
-class SolidDifferenceInput_BrepsA_A extends ResthopperParameter {
+class SolidDifferenceInput_brepsa_a extends ResthopperParameter {
 
 	public name: string = "BrepsA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SolidDifferenceInput_BrepsA_A extends ResthopperParameter {
 
 }
 
-class SolidDifferenceInput_BrepsB_B extends ResthopperParameter {
+class SolidDifferenceInput_brepsb_b extends ResthopperParameter {
 
 	public name: string = "BrepsB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SolidDifferenceInput_BrepsB_B extends ResthopperParameter {
 
 }
 
-class SolidDifferenceOutput_Result_R extends ResthopperParameter {
+class SolidDifferenceOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

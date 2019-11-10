@@ -15,31 +15,31 @@ export default class Project extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ProjectInput_Curve_C,
-		"Brep_B": ProjectInput_Brep_B,
-		"Direction_D": ProjectInput_Direction_D,
+		"curve_c": ProjectInput_curve_c,
+		"brep_b": ProjectInput_brep_b,
+		"direction_d": ProjectInput_direction_d,
 	}
 
 	public output:
 	{
-		"Curve_C": ProjectOutput_Curve_C,
+		"curve_c": ProjectOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ProjectInput_Curve_C(),
-			"Brep_B": new ProjectInput_Brep_B(),
-			"Direction_D": new ProjectInput_Direction_D(),
+			"curve_c": new ProjectInput_curve_c(),
+			"brep_b": new ProjectInput_brep_b(),
+			"direction_d": new ProjectInput_direction_d(),
 		}
 		this.output = {
-			"Curve_C": new ProjectOutput_Curve_C(),
+			"curve_c": new ProjectOutput_curve_c(),
 		}
 	}
 
 }
 
-class ProjectInput_Curve_C extends ResthopperParameter {
+class ProjectInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class ProjectInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ProjectInput_Brep_B extends ResthopperParameter {
+class ProjectInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class ProjectInput_Brep_B extends ResthopperParameter {
 
 }
 
-class ProjectInput_Direction_D extends ResthopperParameter {
+class ProjectInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -81,7 +81,7 @@ class ProjectInput_Direction_D extends ResthopperParameter {
 
 }
 
-class ProjectOutput_Curve_C extends ResthopperParameter {
+class ProjectOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

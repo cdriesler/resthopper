@@ -15,29 +15,29 @@ export default class MassMultiplication extends ResthopperComponent {
 
 	public input:
 	{
-		"Input_I": MassMultiplicationInput_Input_I,
+		"input_i": MassMultiplicationInput_input_i,
 	}
 
 	public output:
 	{
-		"Result_R": MassMultiplicationOutput_Result_R,
-		"PartialResults_Pr": MassMultiplicationOutput_PartialResults_Pr,
+		"result_r": MassMultiplicationOutput_result_r,
+		"partialresults_pr": MassMultiplicationOutput_partialresults_pr,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input_I": new MassMultiplicationInput_Input_I(),
+			"input_i": new MassMultiplicationInput_input_i(),
 		}
 		this.output = {
-			"Result_R": new MassMultiplicationOutput_Result_R(),
-			"PartialResults_Pr": new MassMultiplicationOutput_PartialResults_Pr(),
+			"result_r": new MassMultiplicationOutput_result_r(),
+			"partialresults_pr": new MassMultiplicationOutput_partialresults_pr(),
 		}
 	}
 
 }
 
-class MassMultiplicationInput_Input_I extends ResthopperParameter {
+class MassMultiplicationInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class MassMultiplicationInput_Input_I extends ResthopperParameter {
 
 }
 
-class MassMultiplicationOutput_Result_R extends ResthopperParameter {
+class MassMultiplicationOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class MassMultiplicationOutput_Result_R extends ResthopperParameter {
 
 }
 
-class MassMultiplicationOutput_PartialResults_Pr extends ResthopperParameter {
+class MassMultiplicationOutput_partialresults_pr extends ResthopperParameter {
 
 	public name: string = "PartialResults";
 	public nickName: string = "Pr";

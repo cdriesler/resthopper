@@ -15,29 +15,29 @@ export default class SetDifferenceS extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SetDifferenceSInput_SetA_A,
-		"SetB_B": SetDifferenceSInput_SetB_B,
+		"seta_a": SetDifferenceSInput_seta_a,
+		"setb_b": SetDifferenceSInput_setb_b,
 	}
 
 	public output:
 	{
-		"ExDifference_X": SetDifferenceSOutput_ExDifference_X,
+		"exdifference_x": SetDifferenceSOutput_exdifference_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SetDifferenceSInput_SetA_A(),
-			"SetB_B": new SetDifferenceSInput_SetB_B(),
+			"seta_a": new SetDifferenceSInput_seta_a(),
+			"setb_b": new SetDifferenceSInput_setb_b(),
 		}
 		this.output = {
-			"ExDifference_X": new SetDifferenceSOutput_ExDifference_X(),
+			"exdifference_x": new SetDifferenceSOutput_exdifference_x(),
 		}
 	}
 
 }
 
-class SetDifferenceSInput_SetA_A extends ResthopperParameter {
+class SetDifferenceSInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SetDifferenceSInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SetDifferenceSInput_SetB_B extends ResthopperParameter {
+class SetDifferenceSInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SetDifferenceSInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SetDifferenceSOutput_ExDifference_X extends ResthopperParameter {
+class SetDifferenceSOutput_exdifference_x extends ResthopperParameter {
 
 	public name: string = "ExDifference";
 	public nickName: string = "X";

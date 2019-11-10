@@ -15,27 +15,27 @@ export default class YZPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Origin_O": YZPlaneInput_Origin_O,
+		"origin_o": YZPlaneInput_origin_o,
 	}
 
 	public output:
 	{
-		"Plane_P": YZPlaneOutput_Plane_P,
+		"plane_p": YZPlaneOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Origin_O": new YZPlaneInput_Origin_O(),
+			"origin_o": new YZPlaneInput_origin_o(),
 		}
 		this.output = {
-			"Plane_P": new YZPlaneOutput_Plane_P(),
+			"plane_p": new YZPlaneOutput_plane_p(),
 		}
 	}
 
 }
 
-class YZPlaneInput_Origin_O extends ResthopperParameter {
+class YZPlaneInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
@@ -49,7 +49,7 @@ class YZPlaneInput_Origin_O extends ResthopperParameter {
 
 }
 
-class YZPlaneOutput_Plane_P extends ResthopperParameter {
+class YZPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

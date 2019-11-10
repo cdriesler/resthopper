@@ -15,31 +15,31 @@ export default class TrimwithBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": TrimwithBrepInput_Curve_C,
-		"Brep_B": TrimwithBrepInput_Brep_B,
+		"curve_c": TrimwithBrepInput_curve_c,
+		"brep_b": TrimwithBrepInput_brep_b,
 	}
 
 	public output:
 	{
-		"Inside_Ci": TrimwithBrepOutput_Inside_Ci,
-		"Outside_Co": TrimwithBrepOutput_Outside_Co,
+		"inside_ci": TrimwithBrepOutput_inside_ci,
+		"outside_co": TrimwithBrepOutput_outside_co,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new TrimwithBrepInput_Curve_C(),
-			"Brep_B": new TrimwithBrepInput_Brep_B(),
+			"curve_c": new TrimwithBrepInput_curve_c(),
+			"brep_b": new TrimwithBrepInput_brep_b(),
 		}
 		this.output = {
-			"Inside_Ci": new TrimwithBrepOutput_Inside_Ci(),
-			"Outside_Co": new TrimwithBrepOutput_Outside_Co(),
+			"inside_ci": new TrimwithBrepOutput_inside_ci(),
+			"outside_co": new TrimwithBrepOutput_outside_co(),
 		}
 	}
 
 }
 
-class TrimwithBrepInput_Curve_C extends ResthopperParameter {
+class TrimwithBrepInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class TrimwithBrepInput_Curve_C extends ResthopperParameter {
 
 }
 
-class TrimwithBrepInput_Brep_B extends ResthopperParameter {
+class TrimwithBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class TrimwithBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class TrimwithBrepOutput_Inside_Ci extends ResthopperParameter {
+class TrimwithBrepOutput_inside_ci extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "Ci";
@@ -81,7 +81,7 @@ class TrimwithBrepOutput_Inside_Ci extends ResthopperParameter {
 
 }
 
-class TrimwithBrepOutput_Outside_Co extends ResthopperParameter {
+class TrimwithBrepOutput_outside_co extends ResthopperParameter {
 
 	public name: string = "Outside";
 	public nickName: string = "Co";

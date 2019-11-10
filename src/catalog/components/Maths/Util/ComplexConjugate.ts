@@ -15,27 +15,27 @@ export default class ComplexConjugate extends ResthopperComponent {
 
 	public input:
 	{
-		"Complex_C": ComplexConjugateInput_Complex_C,
+		"complex_c": ComplexConjugateInput_complex_c,
 	}
 
 	public output:
 	{
-		"Conjugate_C": ComplexConjugateOutput_Conjugate_C,
+		"conjugate_c": ComplexConjugateOutput_conjugate_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Complex_C": new ComplexConjugateInput_Complex_C(),
+			"complex_c": new ComplexConjugateInput_complex_c(),
 		}
 		this.output = {
-			"Conjugate_C": new ComplexConjugateOutput_Conjugate_C(),
+			"conjugate_c": new ComplexConjugateOutput_conjugate_c(),
 		}
 	}
 
 }
 
-class ComplexConjugateInput_Complex_C extends ResthopperParameter {
+class ComplexConjugateInput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";
@@ -49,7 +49,7 @@ class ComplexConjugateInput_Complex_C extends ResthopperParameter {
 
 }
 
-class ComplexConjugateOutput_Conjugate_C extends ResthopperParameter {
+class ComplexConjugateOutput_conjugate_c extends ResthopperParameter {
 
 	public name: string = "Conjugate";
 	public nickName: string = "C";

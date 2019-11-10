@@ -15,33 +15,33 @@ export default class PlaneClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_S": PlaneClosestPointInput_Point_S,
-		"Plane_P": PlaneClosestPointInput_Plane_P,
+		"point_s": PlaneClosestPointInput_point_s,
+		"plane_p": PlaneClosestPointInput_plane_p,
 	}
 
 	public output:
 	{
-		"Point_P": PlaneClosestPointOutput_Point_P,
-		"UVPoint_uv": PlaneClosestPointOutput_UVPoint_uv,
-		"Distance_D": PlaneClosestPointOutput_Distance_D,
+		"point_p": PlaneClosestPointOutput_point_p,
+		"uvpoint_uv": PlaneClosestPointOutput_uvpoint_uv,
+		"distance_d": PlaneClosestPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_S": new PlaneClosestPointInput_Point_S(),
-			"Plane_P": new PlaneClosestPointInput_Plane_P(),
+			"point_s": new PlaneClosestPointInput_point_s(),
+			"plane_p": new PlaneClosestPointInput_plane_p(),
 		}
 		this.output = {
-			"Point_P": new PlaneClosestPointOutput_Point_P(),
-			"UVPoint_uv": new PlaneClosestPointOutput_UVPoint_uv(),
-			"Distance_D": new PlaneClosestPointOutput_Distance_D(),
+			"point_p": new PlaneClosestPointOutput_point_p(),
+			"uvpoint_uv": new PlaneClosestPointOutput_uvpoint_uv(),
+			"distance_d": new PlaneClosestPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class PlaneClosestPointInput_Point_S extends ResthopperParameter {
+class PlaneClosestPointInput_point_s extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class PlaneClosestPointInput_Point_S extends ResthopperParameter {
 
 }
 
-class PlaneClosestPointInput_Plane_P extends ResthopperParameter {
+class PlaneClosestPointInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class PlaneClosestPointInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PlaneClosestPointOutput_Point_P extends ResthopperParameter {
+class PlaneClosestPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class PlaneClosestPointOutput_Point_P extends ResthopperParameter {
 
 }
 
-class PlaneClosestPointOutput_UVPoint_uv extends ResthopperParameter {
+class PlaneClosestPointOutput_uvpoint_uv extends ResthopperParameter {
 
 	public name: string = "UVPoint";
 	public nickName: string = "uv";
@@ -97,7 +97,7 @@ class PlaneClosestPointOutput_UVPoint_uv extends ResthopperParameter {
 
 }
 
-class PlaneClosestPointOutput_Distance_D extends ResthopperParameter {
+class PlaneClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

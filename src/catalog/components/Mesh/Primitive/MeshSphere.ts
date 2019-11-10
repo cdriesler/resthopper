@@ -15,33 +15,33 @@ export default class MeshSphere extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": MeshSphereInput_Base_B,
-		"Radius_R": MeshSphereInput_Radius_R,
-		"UCount_U": MeshSphereInput_UCount_U,
-		"VCount_V": MeshSphereInput_VCount_V,
+		"base_b": MeshSphereInput_base_b,
+		"radius_r": MeshSphereInput_radius_r,
+		"ucount_u": MeshSphereInput_ucount_u,
+		"vcount_v": MeshSphereInput_vcount_v,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshSphereOutput_Mesh_M,
+		"mesh_m": MeshSphereOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new MeshSphereInput_Base_B(),
-			"Radius_R": new MeshSphereInput_Radius_R(),
-			"UCount_U": new MeshSphereInput_UCount_U(),
-			"VCount_V": new MeshSphereInput_VCount_V(),
+			"base_b": new MeshSphereInput_base_b(),
+			"radius_r": new MeshSphereInput_radius_r(),
+			"ucount_u": new MeshSphereInput_ucount_u(),
+			"vcount_v": new MeshSphereInput_vcount_v(),
 		}
 		this.output = {
-			"Mesh_M": new MeshSphereOutput_Mesh_M(),
+			"mesh_m": new MeshSphereOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshSphereInput_Base_B extends ResthopperParameter {
+class MeshSphereInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class MeshSphereInput_Base_B extends ResthopperParameter {
 
 }
 
-class MeshSphereInput_Radius_R extends ResthopperParameter {
+class MeshSphereInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class MeshSphereInput_Radius_R extends ResthopperParameter {
 
 }
 
-class MeshSphereInput_UCount_U extends ResthopperParameter {
+class MeshSphereInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -83,7 +83,7 @@ class MeshSphereInput_UCount_U extends ResthopperParameter {
 
 }
 
-class MeshSphereInput_VCount_V extends ResthopperParameter {
+class MeshSphereInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class MeshSphereInput_VCount_V extends ResthopperParameter {
 
 }
 
-class MeshSphereOutput_Mesh_M extends ResthopperParameter {
+class MeshSphereOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

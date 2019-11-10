@@ -15,29 +15,29 @@ export default class ControlPolygon extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ControlPolygonInput_Curve_C,
+		"curve_c": ControlPolygonInput_curve_c,
 	}
 
 	public output:
 	{
-		"Polygon_C": ControlPolygonOutput_Polygon_C,
-		"Points_P": ControlPolygonOutput_Points_P,
+		"polygon_c": ControlPolygonOutput_polygon_c,
+		"points_p": ControlPolygonOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ControlPolygonInput_Curve_C(),
+			"curve_c": new ControlPolygonInput_curve_c(),
 		}
 		this.output = {
-			"Polygon_C": new ControlPolygonOutput_Polygon_C(),
-			"Points_P": new ControlPolygonOutput_Points_P(),
+			"polygon_c": new ControlPolygonOutput_polygon_c(),
+			"points_p": new ControlPolygonOutput_points_p(),
 		}
 	}
 
 }
 
-class ControlPolygonInput_Curve_C extends ResthopperParameter {
+class ControlPolygonInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class ControlPolygonInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ControlPolygonOutput_Polygon_C extends ResthopperParameter {
+class ControlPolygonOutput_polygon_c extends ResthopperParameter {
 
 	public name: string = "Polygon";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class ControlPolygonOutput_Polygon_C extends ResthopperParameter {
 
 }
 
-class ControlPolygonOutput_Points_P extends ResthopperParameter {
+class ControlPolygonOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

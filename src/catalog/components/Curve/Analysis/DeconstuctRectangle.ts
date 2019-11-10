@@ -15,31 +15,31 @@ export default class DeconstuctRectangle extends ResthopperComponent {
 
 	public input:
 	{
-		"Rectangle_R": DeconstuctRectangleInput_Rectangle_R,
+		"rectangle_r": DeconstuctRectangleInput_rectangle_r,
 	}
 
 	public output:
 	{
-		"BasePlane_B": DeconstuctRectangleOutput_BasePlane_B,
-		"XInterval_X": DeconstuctRectangleOutput_XInterval_X,
-		"YInterval_Y": DeconstuctRectangleOutput_YInterval_Y,
+		"baseplane_b": DeconstuctRectangleOutput_baseplane_b,
+		"xinterval_x": DeconstuctRectangleOutput_xinterval_x,
+		"yinterval_y": DeconstuctRectangleOutput_yinterval_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Rectangle_R": new DeconstuctRectangleInput_Rectangle_R(),
+			"rectangle_r": new DeconstuctRectangleInput_rectangle_r(),
 		}
 		this.output = {
-			"BasePlane_B": new DeconstuctRectangleOutput_BasePlane_B(),
-			"XInterval_X": new DeconstuctRectangleOutput_XInterval_X(),
-			"YInterval_Y": new DeconstuctRectangleOutput_YInterval_Y(),
+			"baseplane_b": new DeconstuctRectangleOutput_baseplane_b(),
+			"xinterval_x": new DeconstuctRectangleOutput_xinterval_x(),
+			"yinterval_y": new DeconstuctRectangleOutput_yinterval_y(),
 		}
 	}
 
 }
 
-class DeconstuctRectangleInput_Rectangle_R extends ResthopperParameter {
+class DeconstuctRectangleInput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class DeconstuctRectangleInput_Rectangle_R extends ResthopperParameter {
 
 }
 
-class DeconstuctRectangleOutput_BasePlane_B extends ResthopperParameter {
+class DeconstuctRectangleOutput_baseplane_b extends ResthopperParameter {
 
 	public name: string = "BasePlane";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class DeconstuctRectangleOutput_BasePlane_B extends ResthopperParameter {
 
 }
 
-class DeconstuctRectangleOutput_XInterval_X extends ResthopperParameter {
+class DeconstuctRectangleOutput_xinterval_x extends ResthopperParameter {
 
 	public name: string = "XInterval";
 	public nickName: string = "X";
@@ -81,7 +81,7 @@ class DeconstuctRectangleOutput_XInterval_X extends ResthopperParameter {
 
 }
 
-class DeconstuctRectangleOutput_YInterval_Y extends ResthopperParameter {
+class DeconstuctRectangleOutput_yinterval_y extends ResthopperParameter {
 
 	public name: string = "YInterval";
 	public nickName: string = "Y";

@@ -15,29 +15,29 @@ export default class ShapeInBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": ShapeInBrepInput_Brep_B,
-		"Shape_S": ShapeInBrepInput_Shape_S,
+		"brep_b": ShapeInBrepInput_brep_b,
+		"shape_s": ShapeInBrepInput_shape_s,
 	}
 
 	public output:
 	{
-		"Relation_R": ShapeInBrepOutput_Relation_R,
+		"relation_r": ShapeInBrepOutput_relation_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new ShapeInBrepInput_Brep_B(),
-			"Shape_S": new ShapeInBrepInput_Shape_S(),
+			"brep_b": new ShapeInBrepInput_brep_b(),
+			"shape_s": new ShapeInBrepInput_shape_s(),
 		}
 		this.output = {
-			"Relation_R": new ShapeInBrepOutput_Relation_R(),
+			"relation_r": new ShapeInBrepOutput_relation_r(),
 		}
 	}
 
 }
 
-class ShapeInBrepInput_Brep_B extends ResthopperParameter {
+class ShapeInBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class ShapeInBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class ShapeInBrepInput_Shape_S extends ResthopperParameter {
+class ShapeInBrepInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class ShapeInBrepInput_Shape_S extends ResthopperParameter {
 
 }
 
-class ShapeInBrepOutput_Relation_R extends ResthopperParameter {
+class ShapeInBrepOutput_relation_r extends ResthopperParameter {
 
 	public name: string = "Relation";
 	public nickName: string = "R";

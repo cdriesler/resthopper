@@ -15,31 +15,31 @@ export default class SetMajority extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SetMajorityInput_SetA_A,
-		"SetB_B": SetMajorityInput_SetB_B,
-		"SetC_C": SetMajorityInput_SetC_C,
+		"seta_a": SetMajorityInput_seta_a,
+		"setb_b": SetMajorityInput_setb_b,
+		"setc_c": SetMajorityInput_setc_c,
 	}
 
 	public output:
 	{
-		"Result_R": SetMajorityOutput_Result_R,
+		"result_r": SetMajorityOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SetMajorityInput_SetA_A(),
-			"SetB_B": new SetMajorityInput_SetB_B(),
-			"SetC_C": new SetMajorityInput_SetC_C(),
+			"seta_a": new SetMajorityInput_seta_a(),
+			"setb_b": new SetMajorityInput_setb_b(),
+			"setc_c": new SetMajorityInput_setc_c(),
 		}
 		this.output = {
-			"Result_R": new SetMajorityOutput_Result_R(),
+			"result_r": new SetMajorityOutput_result_r(),
 		}
 	}
 
 }
 
-class SetMajorityInput_SetA_A extends ResthopperParameter {
+class SetMajorityInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class SetMajorityInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SetMajorityInput_SetB_B extends ResthopperParameter {
+class SetMajorityInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class SetMajorityInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SetMajorityInput_SetC_C extends ResthopperParameter {
+class SetMajorityInput_setc_c extends ResthopperParameter {
 
 	public name: string = "SetC";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class SetMajorityInput_SetC_C extends ResthopperParameter {
 
 }
 
-class SetMajorityOutput_Result_R extends ResthopperParameter {
+class SetMajorityOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

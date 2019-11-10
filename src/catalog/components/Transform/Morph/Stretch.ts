@@ -15,33 +15,33 @@ export default class Stretch extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": StretchInput_Geometry_G,
-		"Axis_X": StretchInput_Axis_X,
-		"Length_L": StretchInput_Length_L,
-		"Rigid_R": StretchInput_Rigid_R,
+		"geometry_g": StretchInput_geometry_g,
+		"axis_x": StretchInput_axis_x,
+		"length_l": StretchInput_length_l,
+		"rigid_r": StretchInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": StretchOutput_Geometry_G,
+		"geometry_g": StretchOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new StretchInput_Geometry_G(),
-			"Axis_X": new StretchInput_Axis_X(),
-			"Length_L": new StretchInput_Length_L(),
-			"Rigid_R": new StretchInput_Rigid_R(),
+			"geometry_g": new StretchInput_geometry_g(),
+			"axis_x": new StretchInput_axis_x(),
+			"length_l": new StretchInput_length_l(),
+			"rigid_r": new StretchInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new StretchOutput_Geometry_G(),
+			"geometry_g": new StretchOutput_geometry_g(),
 		}
 	}
 
 }
 
-class StretchInput_Geometry_G extends ResthopperParameter {
+class StretchInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class StretchInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class StretchInput_Axis_X extends ResthopperParameter {
+class StretchInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
@@ -69,7 +69,7 @@ class StretchInput_Axis_X extends ResthopperParameter {
 
 }
 
-class StretchInput_Length_L extends ResthopperParameter {
+class StretchInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -83,7 +83,7 @@ class StretchInput_Length_L extends ResthopperParameter {
 
 }
 
-class StretchInput_Rigid_R extends ResthopperParameter {
+class StretchInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -97,7 +97,7 @@ class StretchInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class StretchOutput_Geometry_G extends ResthopperParameter {
+class StretchOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

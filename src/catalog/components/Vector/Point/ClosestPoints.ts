@@ -15,35 +15,35 @@ export default class ClosestPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": ClosestPointsInput_Point_P,
-		"Cloud_C": ClosestPointsInput_Cloud_C,
-		"Count_N": ClosestPointsInput_Count_N,
+		"point_p": ClosestPointsInput_point_p,
+		"cloud_c": ClosestPointsInput_cloud_c,
+		"count_n": ClosestPointsInput_count_n,
 	}
 
 	public output:
 	{
-		"ClosestPoint_P": ClosestPointsOutput_ClosestPoint_P,
-		"CPIndex_i": ClosestPointsOutput_CPIndex_i,
-		"Distance_D": ClosestPointsOutput_Distance_D,
+		"closestpoint_p": ClosestPointsOutput_closestpoint_p,
+		"cpindex_i": ClosestPointsOutput_cpindex_i,
+		"distance_d": ClosestPointsOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new ClosestPointsInput_Point_P(),
-			"Cloud_C": new ClosestPointsInput_Cloud_C(),
-			"Count_N": new ClosestPointsInput_Count_N(),
+			"point_p": new ClosestPointsInput_point_p(),
+			"cloud_c": new ClosestPointsInput_cloud_c(),
+			"count_n": new ClosestPointsInput_count_n(),
 		}
 		this.output = {
-			"ClosestPoint_P": new ClosestPointsOutput_ClosestPoint_P(),
-			"CPIndex_i": new ClosestPointsOutput_CPIndex_i(),
-			"Distance_D": new ClosestPointsOutput_Distance_D(),
+			"closestpoint_p": new ClosestPointsOutput_closestpoint_p(),
+			"cpindex_i": new ClosestPointsOutput_cpindex_i(),
+			"distance_d": new ClosestPointsOutput_distance_d(),
 		}
 	}
 
 }
 
-class ClosestPointsInput_Point_P extends ResthopperParameter {
+class ClosestPointsInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class ClosestPointsInput_Point_P extends ResthopperParameter {
 
 }
 
-class ClosestPointsInput_Cloud_C extends ResthopperParameter {
+class ClosestPointsInput_cloud_c extends ResthopperParameter {
 
 	public name: string = "Cloud";
 	public nickName: string = "C";
@@ -71,7 +71,7 @@ class ClosestPointsInput_Cloud_C extends ResthopperParameter {
 
 }
 
-class ClosestPointsInput_Count_N extends ResthopperParameter {
+class ClosestPointsInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -85,7 +85,7 @@ class ClosestPointsInput_Count_N extends ResthopperParameter {
 
 }
 
-class ClosestPointsOutput_ClosestPoint_P extends ResthopperParameter {
+class ClosestPointsOutput_closestpoint_p extends ResthopperParameter {
 
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
@@ -99,7 +99,7 @@ class ClosestPointsOutput_ClosestPoint_P extends ResthopperParameter {
 
 }
 
-class ClosestPointsOutput_CPIndex_i extends ResthopperParameter {
+class ClosestPointsOutput_cpindex_i extends ResthopperParameter {
 
 	public name: string = "CPIndex";
 	public nickName: string = "i";
@@ -113,7 +113,7 @@ class ClosestPointsOutput_CPIndex_i extends ResthopperParameter {
 
 }
 
-class ClosestPointsOutput_Distance_D extends ResthopperParameter {
+class ClosestPointsOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

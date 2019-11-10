@@ -15,29 +15,29 @@ export default class BrepJoin extends ResthopperComponent {
 
 	public input:
 	{
-		"Breps_B": BrepJoinInput_Breps_B,
+		"breps_b": BrepJoinInput_breps_b,
 	}
 
 	public output:
 	{
-		"Breps_B": BrepJoinOutput_Breps_B,
-		"Closed_C": BrepJoinOutput_Closed_C,
+		"breps_b": BrepJoinOutput_breps_b,
+		"closed_c": BrepJoinOutput_closed_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Breps_B": new BrepJoinInput_Breps_B(),
+			"breps_b": new BrepJoinInput_breps_b(),
 		}
 		this.output = {
-			"Breps_B": new BrepJoinOutput_Breps_B(),
-			"Closed_C": new BrepJoinOutput_Closed_C(),
+			"breps_b": new BrepJoinOutput_breps_b(),
+			"closed_c": new BrepJoinOutput_closed_c(),
 		}
 	}
 
 }
 
-class BrepJoinInput_Breps_B extends ResthopperParameter {
+class BrepJoinInput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class BrepJoinInput_Breps_B extends ResthopperParameter {
 
 }
 
-class BrepJoinOutput_Breps_B extends ResthopperParameter {
+class BrepJoinOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class BrepJoinOutput_Breps_B extends ResthopperParameter {
 
 }
 
-class BrepJoinOutput_Closed_C extends ResthopperParameter {
+class BrepJoinOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";

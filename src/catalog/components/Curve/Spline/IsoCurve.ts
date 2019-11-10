@@ -15,31 +15,31 @@ export default class IsoCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": IsoCurveInput_Surface_S,
-		"UVpoint_uv": IsoCurveInput_UVpoint_uv,
+		"surface_s": IsoCurveInput_surface_s,
+		"uvpoint_uv": IsoCurveInput_uvpoint_uv,
 	}
 
 	public output:
 	{
-		"UIsocurve_U": IsoCurveOutput_UIsocurve_U,
-		"VIsocurve_V": IsoCurveOutput_VIsocurve_V,
+		"uisocurve_u": IsoCurveOutput_uisocurve_u,
+		"visocurve_v": IsoCurveOutput_visocurve_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new IsoCurveInput_Surface_S(),
-			"UVpoint_uv": new IsoCurveInput_UVpoint_uv(),
+			"surface_s": new IsoCurveInput_surface_s(),
+			"uvpoint_uv": new IsoCurveInput_uvpoint_uv(),
 		}
 		this.output = {
-			"UIsocurve_U": new IsoCurveOutput_UIsocurve_U(),
-			"VIsocurve_V": new IsoCurveOutput_VIsocurve_V(),
+			"uisocurve_u": new IsoCurveOutput_uisocurve_u(),
+			"visocurve_v": new IsoCurveOutput_visocurve_v(),
 		}
 	}
 
 }
 
-class IsoCurveInput_Surface_S extends ResthopperParameter {
+class IsoCurveInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class IsoCurveInput_Surface_S extends ResthopperParameter {
 
 }
 
-class IsoCurveInput_UVpoint_uv extends ResthopperParameter {
+class IsoCurveInput_uvpoint_uv extends ResthopperParameter {
 
 	public name: string = "UVpoint";
 	public nickName: string = "uv";
@@ -67,7 +67,7 @@ class IsoCurveInput_UVpoint_uv extends ResthopperParameter {
 
 }
 
-class IsoCurveOutput_UIsocurve_U extends ResthopperParameter {
+class IsoCurveOutput_uisocurve_u extends ResthopperParameter {
 
 	public name: string = "UIsocurve";
 	public nickName: string = "U";
@@ -81,7 +81,7 @@ class IsoCurveOutput_UIsocurve_U extends ResthopperParameter {
 
 }
 
-class IsoCurveOutput_VIsocurve_V extends ResthopperParameter {
+class IsoCurveOutput_visocurve_v extends ResthopperParameter {
 
 	public name: string = "VIsocurve";
 	public nickName: string = "V";

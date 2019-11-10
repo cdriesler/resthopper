@@ -15,31 +15,31 @@ export default class SurfaceBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceBoxInput_Surface_S,
-		"Domain_D": SurfaceBoxInput_Domain_D,
-		"Height_H": SurfaceBoxInput_Height_H,
+		"surface_s": SurfaceBoxInput_surface_s,
+		"domain_d": SurfaceBoxInput_domain_d,
+		"height_h": SurfaceBoxInput_height_h,
 	}
 
 	public output:
 	{
-		"TwistedBox_B": SurfaceBoxOutput_TwistedBox_B,
+		"twistedbox_b": SurfaceBoxOutput_twistedbox_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceBoxInput_Surface_S(),
-			"Domain_D": new SurfaceBoxInput_Domain_D(),
-			"Height_H": new SurfaceBoxInput_Height_H(),
+			"surface_s": new SurfaceBoxInput_surface_s(),
+			"domain_d": new SurfaceBoxInput_domain_d(),
+			"height_h": new SurfaceBoxInput_height_h(),
 		}
 		this.output = {
-			"TwistedBox_B": new SurfaceBoxOutput_TwistedBox_B(),
+			"twistedbox_b": new SurfaceBoxOutput_twistedbox_b(),
 		}
 	}
 
 }
 
-class SurfaceBoxInput_Surface_S extends ResthopperParameter {
+class SurfaceBoxInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class SurfaceBoxInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceBoxInput_Domain_D extends ResthopperParameter {
+class SurfaceBoxInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class SurfaceBoxInput_Domain_D extends ResthopperParameter {
 
 }
 
-class SurfaceBoxInput_Height_H extends ResthopperParameter {
+class SurfaceBoxInput_height_h extends ResthopperParameter {
 
 	public name: string = "Height";
 	public nickName: string = "H";
@@ -81,7 +81,7 @@ class SurfaceBoxInput_Height_H extends ResthopperParameter {
 
 }
 
-class SurfaceBoxOutput_TwistedBox_B extends ResthopperParameter {
+class SurfaceBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";

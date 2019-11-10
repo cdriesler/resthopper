@@ -15,31 +15,31 @@ export default class StreamGate extends ResthopperComponent {
 
 	public input:
 	{
-		"Stream_S": StreamGateInput_Stream_S,
-		"Gate_G": StreamGateInput_Gate_G,
+		"stream_s": StreamGateInput_stream_s,
+		"gate_g": StreamGateInput_gate_g,
 	}
 
 	public output:
 	{
-		"Target0_0": StreamGateOutput_Target0_0,
-		"Target1_1": StreamGateOutput_Target1_1,
+		"target0_0": StreamGateOutput_target0_0,
+		"target1_1": StreamGateOutput_target1_1,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Stream_S": new StreamGateInput_Stream_S(),
-			"Gate_G": new StreamGateInput_Gate_G(),
+			"stream_s": new StreamGateInput_stream_s(),
+			"gate_g": new StreamGateInput_gate_g(),
 		}
 		this.output = {
-			"Target0_0": new StreamGateOutput_Target0_0(),
-			"Target1_1": new StreamGateOutput_Target1_1(),
+			"target0_0": new StreamGateOutput_target0_0(),
+			"target1_1": new StreamGateOutput_target1_1(),
 		}
 	}
 
 }
 
-class StreamGateInput_Stream_S extends ResthopperParameter {
+class StreamGateInput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class StreamGateInput_Stream_S extends ResthopperParameter {
 
 }
 
-class StreamGateInput_Gate_G extends ResthopperParameter {
+class StreamGateInput_gate_g extends ResthopperParameter {
 
 	public name: string = "Gate";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class StreamGateInput_Gate_G extends ResthopperParameter {
 
 }
 
-class StreamGateOutput_Target0_0 extends ResthopperParameter {
+class StreamGateOutput_target0_0 extends ResthopperParameter {
 
 	public name: string = "Target0";
 	public nickName: string = "0";
@@ -81,7 +81,7 @@ class StreamGateOutput_Target0_0 extends ResthopperParameter {
 
 }
 
-class StreamGateOutput_Target1_1 extends ResthopperParameter {
+class StreamGateOutput_target1_1 extends ResthopperParameter {
 
 	public name: string = "Target1";
 	public nickName: string = "1";

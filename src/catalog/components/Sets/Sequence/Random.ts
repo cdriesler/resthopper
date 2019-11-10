@@ -15,31 +15,31 @@ export default class Random extends ResthopperComponent {
 
 	public input:
 	{
-		"Range_R": RandomInput_Range_R,
-		"Number_N": RandomInput_Number_N,
-		"Seed_S": RandomInput_Seed_S,
+		"range_r": RandomInput_range_r,
+		"number_n": RandomInput_number_n,
+		"seed_s": RandomInput_seed_s,
 	}
 
 	public output:
 	{
-		"Random_R": RandomOutput_Random_R,
+		"random_r": RandomOutput_random_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Range_R": new RandomInput_Range_R(),
-			"Number_N": new RandomInput_Number_N(),
-			"Seed_S": new RandomInput_Seed_S(),
+			"range_r": new RandomInput_range_r(),
+			"number_n": new RandomInput_number_n(),
+			"seed_s": new RandomInput_seed_s(),
 		}
 		this.output = {
-			"Random_R": new RandomOutput_Random_R(),
+			"random_r": new RandomOutput_random_r(),
 		}
 	}
 
 }
 
-class RandomInput_Range_R extends ResthopperParameter {
+class RandomInput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class RandomInput_Range_R extends ResthopperParameter {
 
 }
 
-class RandomInput_Number_N extends ResthopperParameter {
+class RandomInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class RandomInput_Number_N extends ResthopperParameter {
 
 }
 
-class RandomInput_Seed_S extends ResthopperParameter {
+class RandomInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class RandomInput_Seed_S extends ResthopperParameter {
 
 }
 
-class RandomOutput_Random_R extends ResthopperParameter {
+class RandomOutput_random_r extends ResthopperParameter {
 
 	public name: string = "Random";
 	public nickName: string = "R";

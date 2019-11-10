@@ -15,27 +15,27 @@ export default class MergeFields extends ResthopperComponent {
 
 	public input:
 	{
-		"Fields_F": MergeFieldsInput_Fields_F,
+		"fields_f": MergeFieldsInput_fields_f,
 	}
 
 	public output:
 	{
-		"Field_F": MergeFieldsOutput_Field_F,
+		"field_f": MergeFieldsOutput_field_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Fields_F": new MergeFieldsInput_Fields_F(),
+			"fields_f": new MergeFieldsInput_fields_f(),
 		}
 		this.output = {
-			"Field_F": new MergeFieldsOutput_Field_F(),
+			"field_f": new MergeFieldsOutput_field_f(),
 		}
 	}
 
 }
 
-class MergeFieldsInput_Fields_F extends ResthopperParameter {
+class MergeFieldsInput_fields_f extends ResthopperParameter {
 
 	public name: string = "Fields";
 	public nickName: string = "F";
@@ -49,7 +49,7 @@ class MergeFieldsInput_Fields_F extends ResthopperParameter {
 
 }
 
-class MergeFieldsOutput_Field_F extends ResthopperParameter {
+class MergeFieldsOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";

@@ -15,31 +15,31 @@ export default class SplitwithBreps extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": SplitwithBrepsInput_Curve_C,
-		"Brep_B": SplitwithBrepsInput_Brep_B,
+		"curve_c": SplitwithBrepsInput_curve_c,
+		"brep_b": SplitwithBrepsInput_brep_b,
 	}
 
 	public output:
 	{
-		"Curve_C": SplitwithBrepsOutput_Curve_C,
-		"Points_P": SplitwithBrepsOutput_Points_P,
+		"curve_c": SplitwithBrepsOutput_curve_c,
+		"points_p": SplitwithBrepsOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new SplitwithBrepsInput_Curve_C(),
-			"Brep_B": new SplitwithBrepsInput_Brep_B(),
+			"curve_c": new SplitwithBrepsInput_curve_c(),
+			"brep_b": new SplitwithBrepsInput_brep_b(),
 		}
 		this.output = {
-			"Curve_C": new SplitwithBrepsOutput_Curve_C(),
-			"Points_P": new SplitwithBrepsOutput_Points_P(),
+			"curve_c": new SplitwithBrepsOutput_curve_c(),
+			"points_p": new SplitwithBrepsOutput_points_p(),
 		}
 	}
 
 }
 
-class SplitwithBrepsInput_Curve_C extends ResthopperParameter {
+class SplitwithBrepsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class SplitwithBrepsInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SplitwithBrepsInput_Brep_B extends ResthopperParameter {
+class SplitwithBrepsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class SplitwithBrepsInput_Brep_B extends ResthopperParameter {
 
 }
 
-class SplitwithBrepsOutput_Curve_C extends ResthopperParameter {
+class SplitwithBrepsOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class SplitwithBrepsOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class SplitwithBrepsOutput_Points_P extends ResthopperParameter {
+class SplitwithBrepsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

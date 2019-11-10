@@ -15,33 +15,33 @@ export default class VectorTwoPt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": VectorTwoPtInput_PointA_A,
-		"PointB_B": VectorTwoPtInput_PointB_B,
-		"Unitize_U": VectorTwoPtInput_Unitize_U,
+		"pointa_a": VectorTwoPtInput_pointa_a,
+		"pointb_b": VectorTwoPtInput_pointb_b,
+		"unitize_u": VectorTwoPtInput_unitize_u,
 	}
 
 	public output:
 	{
-		"Vector_V": VectorTwoPtOutput_Vector_V,
-		"Length_L": VectorTwoPtOutput_Length_L,
+		"vector_v": VectorTwoPtOutput_vector_v,
+		"length_l": VectorTwoPtOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new VectorTwoPtInput_PointA_A(),
-			"PointB_B": new VectorTwoPtInput_PointB_B(),
-			"Unitize_U": new VectorTwoPtInput_Unitize_U(),
+			"pointa_a": new VectorTwoPtInput_pointa_a(),
+			"pointb_b": new VectorTwoPtInput_pointb_b(),
+			"unitize_u": new VectorTwoPtInput_unitize_u(),
 		}
 		this.output = {
-			"Vector_V": new VectorTwoPtOutput_Vector_V(),
-			"Length_L": new VectorTwoPtOutput_Length_L(),
+			"vector_v": new VectorTwoPtOutput_vector_v(),
+			"length_l": new VectorTwoPtOutput_length_l(),
 		}
 	}
 
 }
 
-class VectorTwoPtInput_PointA_A extends ResthopperParameter {
+class VectorTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class VectorTwoPtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class VectorTwoPtInput_PointB_B extends ResthopperParameter {
+class VectorTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class VectorTwoPtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class VectorTwoPtInput_Unitize_U extends ResthopperParameter {
+class VectorTwoPtInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
@@ -83,7 +83,7 @@ class VectorTwoPtInput_Unitize_U extends ResthopperParameter {
 
 }
 
-class VectorTwoPtOutput_Vector_V extends ResthopperParameter {
+class VectorTwoPtOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class VectorTwoPtOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class VectorTwoPtOutput_Length_L extends ResthopperParameter {
+class VectorTwoPtOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

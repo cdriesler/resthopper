@@ -15,27 +15,27 @@ export default class BoundsTwoD extends ResthopperComponent {
 
 	public input:
 	{
-		"Coordinates_C": BoundsTwoDInput_Coordinates_C,
+		"coordinates_c": BoundsTwoDInput_coordinates_c,
 	}
 
 	public output:
 	{
-		"Domain_I": BoundsTwoDOutput_Domain_I,
+		"domain_i": BoundsTwoDOutput_domain_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Coordinates_C": new BoundsTwoDInput_Coordinates_C(),
+			"coordinates_c": new BoundsTwoDInput_coordinates_c(),
 		}
 		this.output = {
-			"Domain_I": new BoundsTwoDOutput_Domain_I(),
+			"domain_i": new BoundsTwoDOutput_domain_i(),
 		}
 	}
 
 }
 
-class BoundsTwoDInput_Coordinates_C extends ResthopperParameter {
+class BoundsTwoDInput_coordinates_c extends ResthopperParameter {
 
 	public name: string = "Coordinates";
 	public nickName: string = "C";
@@ -49,7 +49,7 @@ class BoundsTwoDInput_Coordinates_C extends ResthopperParameter {
 
 }
 
-class BoundsTwoDOutput_Domain_I extends ResthopperParameter {
+class BoundsTwoDOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";

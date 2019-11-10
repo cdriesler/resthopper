@@ -15,31 +15,31 @@ export default class OffsetonSrf extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": OffsetonSrfInput_Curve_C,
-		"Distance_D": OffsetonSrfInput_Distance_D,
-		"Surface_S": OffsetonSrfInput_Surface_S,
+		"curve_c": OffsetonSrfInput_curve_c,
+		"distance_d": OffsetonSrfInput_distance_d,
+		"surface_s": OffsetonSrfInput_surface_s,
 	}
 
 	public output:
 	{
-		"Curve_C": OffsetonSrfOutput_Curve_C,
+		"curve_c": OffsetonSrfOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new OffsetonSrfInput_Curve_C(),
-			"Distance_D": new OffsetonSrfInput_Distance_D(),
-			"Surface_S": new OffsetonSrfInput_Surface_S(),
+			"curve_c": new OffsetonSrfInput_curve_c(),
+			"distance_d": new OffsetonSrfInput_distance_d(),
+			"surface_s": new OffsetonSrfInput_surface_s(),
 		}
 		this.output = {
-			"Curve_C": new OffsetonSrfOutput_Curve_C(),
+			"curve_c": new OffsetonSrfOutput_curve_c(),
 		}
 	}
 
 }
 
-class OffsetonSrfInput_Curve_C extends ResthopperParameter {
+class OffsetonSrfInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class OffsetonSrfInput_Curve_C extends ResthopperParameter {
 
 }
 
-class OffsetonSrfInput_Distance_D extends ResthopperParameter {
+class OffsetonSrfInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetonSrfInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetonSrfInput_Surface_S extends ResthopperParameter {
+class OffsetonSrfInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class OffsetonSrfInput_Surface_S extends ResthopperParameter {
 
 }
 
-class OffsetonSrfOutput_Curve_C extends ResthopperParameter {
+class OffsetonSrfOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

@@ -15,31 +15,31 @@ export default class BrepTopology extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepTopologyInput_Brep_B,
+		"brep_b": BrepTopologyInput_brep_b,
 	}
 
 	public output:
 	{
-		"FaceFaceAdjacency_FF": BrepTopologyOutput_FaceFaceAdjacency_FF,
-		"FaceEdgeAdjacency_FE": BrepTopologyOutput_FaceEdgeAdjacency_FE,
-		"EdgeFaceAdjacency_EF": BrepTopologyOutput_EdgeFaceAdjacency_EF,
+		"facefaceadjacency_ff": BrepTopologyOutput_facefaceadjacency_ff,
+		"faceedgeadjacency_fe": BrepTopologyOutput_faceedgeadjacency_fe,
+		"edgefaceadjacency_ef": BrepTopologyOutput_edgefaceadjacency_ef,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepTopologyInput_Brep_B(),
+			"brep_b": new BrepTopologyInput_brep_b(),
 		}
 		this.output = {
-			"FaceFaceAdjacency_FF": new BrepTopologyOutput_FaceFaceAdjacency_FF(),
-			"FaceEdgeAdjacency_FE": new BrepTopologyOutput_FaceEdgeAdjacency_FE(),
-			"EdgeFaceAdjacency_EF": new BrepTopologyOutput_EdgeFaceAdjacency_EF(),
+			"facefaceadjacency_ff": new BrepTopologyOutput_facefaceadjacency_ff(),
+			"faceedgeadjacency_fe": new BrepTopologyOutput_faceedgeadjacency_fe(),
+			"edgefaceadjacency_ef": new BrepTopologyOutput_edgefaceadjacency_ef(),
 		}
 	}
 
 }
 
-class BrepTopologyInput_Brep_B extends ResthopperParameter {
+class BrepTopologyInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BrepTopologyInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepTopologyOutput_FaceFaceAdjacency_FF extends ResthopperParameter {
+class BrepTopologyOutput_facefaceadjacency_ff extends ResthopperParameter {
 
 	public name: string = "FaceFaceAdjacency";
 	public nickName: string = "FF";
@@ -67,7 +67,7 @@ class BrepTopologyOutput_FaceFaceAdjacency_FF extends ResthopperParameter {
 
 }
 
-class BrepTopologyOutput_FaceEdgeAdjacency_FE extends ResthopperParameter {
+class BrepTopologyOutput_faceedgeadjacency_fe extends ResthopperParameter {
 
 	public name: string = "FaceEdgeAdjacency";
 	public nickName: string = "FE";
@@ -81,7 +81,7 @@ class BrepTopologyOutput_FaceEdgeAdjacency_FE extends ResthopperParameter {
 
 }
 
-class BrepTopologyOutput_EdgeFaceAdjacency_EF extends ResthopperParameter {
+class BrepTopologyOutput_edgefaceadjacency_ef extends ResthopperParameter {
 
 	public name: string = "EdgeFaceAdjacency";
 	public nickName: string = "EF";

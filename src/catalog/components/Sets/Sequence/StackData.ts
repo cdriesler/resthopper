@@ -15,29 +15,29 @@ export default class StackData extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": StackDataInput_Data_D,
-		"Stack_S": StackDataInput_Stack_S,
+		"data_d": StackDataInput_data_d,
+		"stack_s": StackDataInput_stack_s,
 	}
 
 	public output:
 	{
-		"Data_D": StackDataOutput_Data_D,
+		"data_d": StackDataOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new StackDataInput_Data_D(),
-			"Stack_S": new StackDataInput_Stack_S(),
+			"data_d": new StackDataInput_data_d(),
+			"stack_s": new StackDataInput_stack_s(),
 		}
 		this.output = {
-			"Data_D": new StackDataOutput_Data_D(),
+			"data_d": new StackDataOutput_data_d(),
 		}
 	}
 
 }
 
-class StackDataInput_Data_D extends ResthopperParameter {
+class StackDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class StackDataInput_Data_D extends ResthopperParameter {
 
 }
 
-class StackDataInput_Stack_S extends ResthopperParameter {
+class StackDataInput_stack_s extends ResthopperParameter {
 
 	public name: string = "Stack";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class StackDataInput_Stack_S extends ResthopperParameter {
 
 }
 
-class StackDataOutput_Data_D extends ResthopperParameter {
+class StackDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

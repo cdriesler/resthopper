@@ -15,31 +15,31 @@ export default class EvaluateField extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": EvaluateFieldInput_Field_F,
-		"Point_P": EvaluateFieldInput_Point_P,
+		"field_f": EvaluateFieldInput_field_f,
+		"point_p": EvaluateFieldInput_point_p,
 	}
 
 	public output:
 	{
-		"Tensor_T": EvaluateFieldOutput_Tensor_T,
-		"Strength_S": EvaluateFieldOutput_Strength_S,
+		"tensor_t": EvaluateFieldOutput_tensor_t,
+		"strength_s": EvaluateFieldOutput_strength_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new EvaluateFieldInput_Field_F(),
-			"Point_P": new EvaluateFieldInput_Point_P(),
+			"field_f": new EvaluateFieldInput_field_f(),
+			"point_p": new EvaluateFieldInput_point_p(),
 		}
 		this.output = {
-			"Tensor_T": new EvaluateFieldOutput_Tensor_T(),
-			"Strength_S": new EvaluateFieldOutput_Strength_S(),
+			"tensor_t": new EvaluateFieldOutput_tensor_t(),
+			"strength_s": new EvaluateFieldOutput_strength_s(),
 		}
 	}
 
 }
 
-class EvaluateFieldInput_Field_F extends ResthopperParameter {
+class EvaluateFieldInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -53,7 +53,7 @@ class EvaluateFieldInput_Field_F extends ResthopperParameter {
 
 }
 
-class EvaluateFieldInput_Point_P extends ResthopperParameter {
+class EvaluateFieldInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class EvaluateFieldInput_Point_P extends ResthopperParameter {
 
 }
 
-class EvaluateFieldOutput_Tensor_T extends ResthopperParameter {
+class EvaluateFieldOutput_tensor_t extends ResthopperParameter {
 
 	public name: string = "Tensor";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class EvaluateFieldOutput_Tensor_T extends ResthopperParameter {
 
 }
 
-class EvaluateFieldOutput_Strength_S extends ResthopperParameter {
+class EvaluateFieldOutput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";

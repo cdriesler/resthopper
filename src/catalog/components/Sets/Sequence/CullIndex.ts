@@ -15,31 +15,31 @@ export default class CullIndex extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": CullIndexInput_List_L,
-		"Indices_I": CullIndexInput_Indices_I,
-		"Wrap_W": CullIndexInput_Wrap_W,
+		"list_l": CullIndexInput_list_l,
+		"indices_i": CullIndexInput_indices_i,
+		"wrap_w": CullIndexInput_wrap_w,
 	}
 
 	public output:
 	{
-		"List_L": CullIndexOutput_List_L,
+		"list_l": CullIndexOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new CullIndexInput_List_L(),
-			"Indices_I": new CullIndexInput_Indices_I(),
-			"Wrap_W": new CullIndexInput_Wrap_W(),
+			"list_l": new CullIndexInput_list_l(),
+			"indices_i": new CullIndexInput_indices_i(),
+			"wrap_w": new CullIndexInput_wrap_w(),
 		}
 		this.output = {
-			"List_L": new CullIndexOutput_List_L(),
+			"list_l": new CullIndexOutput_list_l(),
 		}
 	}
 
 }
 
-class CullIndexInput_List_L extends ResthopperParameter {
+class CullIndexInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class CullIndexInput_List_L extends ResthopperParameter {
 
 }
 
-class CullIndexInput_Indices_I extends ResthopperParameter {
+class CullIndexInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -67,7 +67,7 @@ class CullIndexInput_Indices_I extends ResthopperParameter {
 
 }
 
-class CullIndexInput_Wrap_W extends ResthopperParameter {
+class CullIndexInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -81,7 +81,7 @@ class CullIndexInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class CullIndexOutput_List_L extends ResthopperParameter {
+class CullIndexOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

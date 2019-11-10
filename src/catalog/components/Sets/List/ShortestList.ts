@@ -15,31 +15,31 @@ export default class ShortestList extends ResthopperComponent {
 
 	public input:
 	{
-		"ListA_A": ShortestListInput_ListA_A,
-		"ListB_B": ShortestListInput_ListB_B,
+		"lista_a": ShortestListInput_lista_a,
+		"listb_b": ShortestListInput_listb_b,
 	}
 
 	public output:
 	{
-		"ListA_A": ShortestListOutput_ListA_A,
-		"ListB_B": ShortestListOutput_ListB_B,
+		"lista_a": ShortestListOutput_lista_a,
+		"listb_b": ShortestListOutput_listb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"ListA_A": new ShortestListInput_ListA_A(),
-			"ListB_B": new ShortestListInput_ListB_B(),
+			"lista_a": new ShortestListInput_lista_a(),
+			"listb_b": new ShortestListInput_listb_b(),
 		}
 		this.output = {
-			"ListA_A": new ShortestListOutput_ListA_A(),
-			"ListB_B": new ShortestListOutput_ListB_B(),
+			"lista_a": new ShortestListOutput_lista_a(),
+			"listb_b": new ShortestListOutput_listb_b(),
 		}
 	}
 
 }
 
-class ShortestListInput_ListA_A extends ResthopperParameter {
+class ShortestListInput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class ShortestListInput_ListA_A extends ResthopperParameter {
 
 }
 
-class ShortestListInput_ListB_B extends ResthopperParameter {
+class ShortestListInput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class ShortestListInput_ListB_B extends ResthopperParameter {
 
 }
 
-class ShortestListOutput_ListA_A extends ResthopperParameter {
+class ShortestListOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class ShortestListOutput_ListA_A extends ResthopperParameter {
 
 }
 
-class ShortestListOutput_ListB_B extends ResthopperParameter {
+class ShortestListOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";

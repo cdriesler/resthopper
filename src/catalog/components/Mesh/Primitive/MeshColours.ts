@@ -15,29 +15,29 @@ export default class MeshColours extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshColoursInput_Mesh_M,
-		"Colours_C": MeshColoursInput_Colours_C,
+		"mesh_m": MeshColoursInput_mesh_m,
+		"colours_c": MeshColoursInput_colours_c,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshColoursOutput_Mesh_M,
+		"mesh_m": MeshColoursOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshColoursInput_Mesh_M(),
-			"Colours_C": new MeshColoursInput_Colours_C(),
+			"mesh_m": new MeshColoursInput_mesh_m(),
+			"colours_c": new MeshColoursInput_colours_c(),
 		}
 		this.output = {
-			"Mesh_M": new MeshColoursOutput_Mesh_M(),
+			"mesh_m": new MeshColoursOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshColoursInput_Mesh_M extends ResthopperParameter {
+class MeshColoursInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class MeshColoursInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshColoursInput_Colours_C extends ResthopperParameter {
+class MeshColoursInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class MeshColoursInput_Colours_C extends ResthopperParameter {
 
 }
 
-class MeshColoursOutput_Mesh_M extends ResthopperParameter {
+class MeshColoursOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

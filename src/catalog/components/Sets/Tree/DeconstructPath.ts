@@ -15,27 +15,27 @@ export default class DeconstructPath extends ResthopperComponent {
 
 	public input:
 	{
-		"Branch_B": DeconstructPathInput_Branch_B,
+		"branch_b": DeconstructPathInput_branch_b,
 	}
 
 	public output:
 	{
-		"Indices_I": DeconstructPathOutput_Indices_I,
+		"indices_i": DeconstructPathOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Branch_B": new DeconstructPathInput_Branch_B(),
+			"branch_b": new DeconstructPathInput_branch_b(),
 		}
 		this.output = {
-			"Indices_I": new DeconstructPathOutput_Indices_I(),
+			"indices_i": new DeconstructPathOutput_indices_i(),
 		}
 	}
 
 }
 
-class DeconstructPathInput_Branch_B extends ResthopperParameter {
+class DeconstructPathInput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class DeconstructPathInput_Branch_B extends ResthopperParameter {
 
 }
 
-class DeconstructPathOutput_Indices_I extends ResthopperParameter {
+class DeconstructPathOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

@@ -15,37 +15,37 @@ export default class Centroid extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": CentroidInput_PointA_A,
-		"PointB_B": CentroidInput_PointB_B,
-		"PointC_C": CentroidInput_PointC_C,
+		"pointa_a": CentroidInput_pointa_a,
+		"pointb_b": CentroidInput_pointb_b,
+		"pointc_c": CentroidInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Centroid_C": CentroidOutput_Centroid_C,
-		"MedianAB_AB": CentroidOutput_MedianAB_AB,
-		"MedianBC_BC": CentroidOutput_MedianBC_BC,
-		"MedianCA_CA": CentroidOutput_MedianCA_CA,
+		"centroid_c": CentroidOutput_centroid_c,
+		"medianab_ab": CentroidOutput_medianab_ab,
+		"medianbc_bc": CentroidOutput_medianbc_bc,
+		"medianca_ca": CentroidOutput_medianca_ca,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new CentroidInput_PointA_A(),
-			"PointB_B": new CentroidInput_PointB_B(),
-			"PointC_C": new CentroidInput_PointC_C(),
+			"pointa_a": new CentroidInput_pointa_a(),
+			"pointb_b": new CentroidInput_pointb_b(),
+			"pointc_c": new CentroidInput_pointc_c(),
 		}
 		this.output = {
-			"Centroid_C": new CentroidOutput_Centroid_C(),
-			"MedianAB_AB": new CentroidOutput_MedianAB_AB(),
-			"MedianBC_BC": new CentroidOutput_MedianBC_BC(),
-			"MedianCA_CA": new CentroidOutput_MedianCA_CA(),
+			"centroid_c": new CentroidOutput_centroid_c(),
+			"medianab_ab": new CentroidOutput_medianab_ab(),
+			"medianbc_bc": new CentroidOutput_medianbc_bc(),
+			"medianca_ca": new CentroidOutput_medianca_ca(),
 		}
 	}
 
 }
 
-class CentroidInput_PointA_A extends ResthopperParameter {
+class CentroidInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class CentroidInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CentroidInput_PointB_B extends ResthopperParameter {
+class CentroidInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class CentroidInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CentroidInput_PointC_C extends ResthopperParameter {
+class CentroidInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class CentroidInput_PointC_C extends ResthopperParameter {
 
 }
 
-class CentroidOutput_Centroid_C extends ResthopperParameter {
+class CentroidOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
@@ -101,7 +101,7 @@ class CentroidOutput_Centroid_C extends ResthopperParameter {
 
 }
 
-class CentroidOutput_MedianAB_AB extends ResthopperParameter {
+class CentroidOutput_medianab_ab extends ResthopperParameter {
 
 	public name: string = "MedianAB";
 	public nickName: string = "AB";
@@ -115,7 +115,7 @@ class CentroidOutput_MedianAB_AB extends ResthopperParameter {
 
 }
 
-class CentroidOutput_MedianBC_BC extends ResthopperParameter {
+class CentroidOutput_medianbc_bc extends ResthopperParameter {
 
 	public name: string = "MedianBC";
 	public nickName: string = "BC";
@@ -129,7 +129,7 @@ class CentroidOutput_MedianBC_BC extends ResthopperParameter {
 
 }
 
-class CentroidOutput_MedianCA_CA extends ResthopperParameter {
+class CentroidOutput_medianca_ca extends ResthopperParameter {
 
 	public name: string = "MedianCA";
 	public nickName: string = "CA";

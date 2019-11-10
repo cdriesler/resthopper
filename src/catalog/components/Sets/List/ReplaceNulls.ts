@@ -15,31 +15,31 @@ export default class ReplaceNulls extends ResthopperComponent {
 
 	public input:
 	{
-		"Items_I": ReplaceNullsInput_Items_I,
-		"Replacements_R": ReplaceNullsInput_Replacements_R,
+		"items_i": ReplaceNullsInput_items_i,
+		"replacements_r": ReplaceNullsInput_replacements_r,
 	}
 
 	public output:
 	{
-		"Items_I": ReplaceNullsOutput_Items_I,
-		"Count_N": ReplaceNullsOutput_Count_N,
+		"items_i": ReplaceNullsOutput_items_i,
+		"count_n": ReplaceNullsOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Items_I": new ReplaceNullsInput_Items_I(),
-			"Replacements_R": new ReplaceNullsInput_Replacements_R(),
+			"items_i": new ReplaceNullsInput_items_i(),
+			"replacements_r": new ReplaceNullsInput_replacements_r(),
 		}
 		this.output = {
-			"Items_I": new ReplaceNullsOutput_Items_I(),
-			"Count_N": new ReplaceNullsOutput_Count_N(),
+			"items_i": new ReplaceNullsOutput_items_i(),
+			"count_n": new ReplaceNullsOutput_count_n(),
 		}
 	}
 
 }
 
-class ReplaceNullsInput_Items_I extends ResthopperParameter {
+class ReplaceNullsInput_items_i extends ResthopperParameter {
 
 	public name: string = "Items";
 	public nickName: string = "I";
@@ -53,7 +53,7 @@ class ReplaceNullsInput_Items_I extends ResthopperParameter {
 
 }
 
-class ReplaceNullsInput_Replacements_R extends ResthopperParameter {
+class ReplaceNullsInput_replacements_r extends ResthopperParameter {
 
 	public name: string = "Replacements";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class ReplaceNullsInput_Replacements_R extends ResthopperParameter {
 
 }
 
-class ReplaceNullsOutput_Items_I extends ResthopperParameter {
+class ReplaceNullsOutput_items_i extends ResthopperParameter {
 
 	public name: string = "Items";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class ReplaceNullsOutput_Items_I extends ResthopperParameter {
 
 }
 
-class ReplaceNullsOutput_Count_N extends ResthopperParameter {
+class ReplaceNullsOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

@@ -15,31 +15,31 @@ export default class MeshSplitPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshSplitPlaneInput_Mesh_M,
-		"Plane_P": MeshSplitPlaneInput_Plane_P,
+		"mesh_m": MeshSplitPlaneInput_mesh_m,
+		"plane_p": MeshSplitPlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Above_A": MeshSplitPlaneOutput_Above_A,
-		"Below_B": MeshSplitPlaneOutput_Below_B,
+		"above_a": MeshSplitPlaneOutput_above_a,
+		"below_b": MeshSplitPlaneOutput_below_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshSplitPlaneInput_Mesh_M(),
-			"Plane_P": new MeshSplitPlaneInput_Plane_P(),
+			"mesh_m": new MeshSplitPlaneInput_mesh_m(),
+			"plane_p": new MeshSplitPlaneInput_plane_p(),
 		}
 		this.output = {
-			"Above_A": new MeshSplitPlaneOutput_Above_A(),
-			"Below_B": new MeshSplitPlaneOutput_Below_B(),
+			"above_a": new MeshSplitPlaneOutput_above_a(),
+			"below_b": new MeshSplitPlaneOutput_below_b(),
 		}
 	}
 
 }
 
-class MeshSplitPlaneInput_Mesh_M extends ResthopperParameter {
+class MeshSplitPlaneInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshSplitPlaneInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshSplitPlaneInput_Plane_P extends ResthopperParameter {
+class MeshSplitPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class MeshSplitPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MeshSplitPlaneOutput_Above_A extends ResthopperParameter {
+class MeshSplitPlaneOutput_above_a extends ResthopperParameter {
 
 	public name: string = "Above";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class MeshSplitPlaneOutput_Above_A extends ResthopperParameter {
 
 }
 
-class MeshSplitPlaneOutput_Below_B extends ResthopperParameter {
+class MeshSplitPlaneOutput_below_b extends ResthopperParameter {
 
 	public name: string = "Below";
 	public nickName: string = "B";

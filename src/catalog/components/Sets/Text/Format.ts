@@ -15,33 +15,33 @@ export default class Format extends ResthopperComponent {
 
 	public input:
 	{
-		"Data0_0": FormatInput_Data0_0,
-		"Data1_1": FormatInput_Data1_1,
-		"Format_F": FormatInput_Format_F,
-		"Culture_C": FormatInput_Culture_C,
+		"data0_0": FormatInput_data0_0,
+		"data1_1": FormatInput_data1_1,
+		"format_f": FormatInput_format_f,
+		"culture_c": FormatInput_culture_c,
 	}
 
 	public output:
 	{
-		"Text_T": FormatOutput_Text_T,
+		"text_t": FormatOutput_text_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data0_0": new FormatInput_Data0_0(),
-			"Data1_1": new FormatInput_Data1_1(),
-			"Format_F": new FormatInput_Format_F(),
-			"Culture_C": new FormatInput_Culture_C(),
+			"data0_0": new FormatInput_data0_0(),
+			"data1_1": new FormatInput_data1_1(),
+			"format_f": new FormatInput_format_f(),
+			"culture_c": new FormatInput_culture_c(),
 		}
 		this.output = {
-			"Text_T": new FormatOutput_Text_T(),
+			"text_t": new FormatOutput_text_t(),
 		}
 	}
 
 }
 
-class FormatInput_Data0_0 extends ResthopperParameter {
+class FormatInput_data0_0 extends ResthopperParameter {
 
 	public name: string = "Data0";
 	public nickName: string = "0";
@@ -55,7 +55,7 @@ class FormatInput_Data0_0 extends ResthopperParameter {
 
 }
 
-class FormatInput_Data1_1 extends ResthopperParameter {
+class FormatInput_data1_1 extends ResthopperParameter {
 
 	public name: string = "Data1";
 	public nickName: string = "1";
@@ -69,7 +69,7 @@ class FormatInput_Data1_1 extends ResthopperParameter {
 
 }
 
-class FormatInput_Format_F extends ResthopperParameter {
+class FormatInput_format_f extends ResthopperParameter {
 
 	public name: string = "Format";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class FormatInput_Format_F extends ResthopperParameter {
 
 }
 
-class FormatInput_Culture_C extends ResthopperParameter {
+class FormatInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class FormatInput_Culture_C extends ResthopperParameter {
 
 }
 
-class FormatOutput_Text_T extends ResthopperParameter {
+class FormatOutput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";

@@ -15,31 +15,31 @@ export default class Deconstruct extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": DeconstructInput_Point_P,
+		"point_p": DeconstructInput_point_p,
 	}
 
 	public output:
 	{
-		"Xcomponent_X": DeconstructOutput_Xcomponent_X,
-		"Ycomponent_Y": DeconstructOutput_Ycomponent_Y,
-		"Zcomponent_Z": DeconstructOutput_Zcomponent_Z,
+		"xcomponent_x": DeconstructOutput_xcomponent_x,
+		"ycomponent_y": DeconstructOutput_ycomponent_y,
+		"zcomponent_z": DeconstructOutput_zcomponent_z,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new DeconstructInput_Point_P(),
+			"point_p": new DeconstructInput_point_p(),
 		}
 		this.output = {
-			"Xcomponent_X": new DeconstructOutput_Xcomponent_X(),
-			"Ycomponent_Y": new DeconstructOutput_Ycomponent_Y(),
-			"Zcomponent_Z": new DeconstructOutput_Zcomponent_Z(),
+			"xcomponent_x": new DeconstructOutput_xcomponent_x(),
+			"ycomponent_y": new DeconstructOutput_ycomponent_y(),
+			"zcomponent_z": new DeconstructOutput_zcomponent_z(),
 		}
 	}
 
 }
 
-class DeconstructInput_Point_P extends ResthopperParameter {
+class DeconstructInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class DeconstructInput_Point_P extends ResthopperParameter {
 
 }
 
-class DeconstructOutput_Xcomponent_X extends ResthopperParameter {
+class DeconstructOutput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class DeconstructOutput_Xcomponent_X extends ResthopperParameter {
 
 }
 
-class DeconstructOutput_Ycomponent_Y extends ResthopperParameter {
+class DeconstructOutput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
@@ -81,7 +81,7 @@ class DeconstructOutput_Ycomponent_Y extends ResthopperParameter {
 
 }
 
-class DeconstructOutput_Zcomponent_Z extends ResthopperParameter {
+class DeconstructOutput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";

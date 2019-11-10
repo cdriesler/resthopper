@@ -15,31 +15,31 @@ export default class CircleFit extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": CircleFitInput_Points_P,
+		"points_p": CircleFitInput_points_p,
 	}
 
 	public output:
 	{
-		"Circle_C": CircleFitOutput_Circle_C,
-		"Radius_R": CircleFitOutput_Radius_R,
-		"Deviation_D": CircleFitOutput_Deviation_D,
+		"circle_c": CircleFitOutput_circle_c,
+		"radius_r": CircleFitOutput_radius_r,
+		"deviation_d": CircleFitOutput_deviation_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new CircleFitInput_Points_P(),
+			"points_p": new CircleFitInput_points_p(),
 		}
 		this.output = {
-			"Circle_C": new CircleFitOutput_Circle_C(),
-			"Radius_R": new CircleFitOutput_Radius_R(),
-			"Deviation_D": new CircleFitOutput_Deviation_D(),
+			"circle_c": new CircleFitOutput_circle_c(),
+			"radius_r": new CircleFitOutput_radius_r(),
+			"deviation_d": new CircleFitOutput_deviation_d(),
 		}
 	}
 
 }
 
-class CircleFitInput_Points_P extends ResthopperParameter {
+class CircleFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class CircleFitInput_Points_P extends ResthopperParameter {
 
 }
 
-class CircleFitOutput_Circle_C extends ResthopperParameter {
+class CircleFitOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class CircleFitOutput_Circle_C extends ResthopperParameter {
 
 }
 
-class CircleFitOutput_Radius_R extends ResthopperParameter {
+class CircleFitOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class CircleFitOutput_Radius_R extends ResthopperParameter {
 
 }
 
-class CircleFitOutput_Deviation_D extends ResthopperParameter {
+class CircleFitOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";

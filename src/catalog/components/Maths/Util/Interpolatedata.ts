@@ -15,29 +15,29 @@ export default class Interpolatedata extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": InterpolatedataInput_Data_D,
-		"Parameter_t": InterpolatedataInput_Parameter_t,
+		"data_d": InterpolatedataInput_data_d,
+		"parameter_t": InterpolatedataInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Value_V": InterpolatedataOutput_Value_V,
+		"value_v": InterpolatedataOutput_value_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new InterpolatedataInput_Data_D(),
-			"Parameter_t": new InterpolatedataInput_Parameter_t(),
+			"data_d": new InterpolatedataInput_data_d(),
+			"parameter_t": new InterpolatedataInput_parameter_t(),
 		}
 		this.output = {
-			"Value_V": new InterpolatedataOutput_Value_V(),
+			"value_v": new InterpolatedataOutput_value_v(),
 		}
 	}
 
 }
 
-class InterpolatedataInput_Data_D extends ResthopperParameter {
+class InterpolatedataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class InterpolatedataInput_Data_D extends ResthopperParameter {
 
 }
 
-class InterpolatedataInput_Parameter_t extends ResthopperParameter {
+class InterpolatedataInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class InterpolatedataInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class InterpolatedataOutput_Value_V extends ResthopperParameter {
+class InterpolatedataOutput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";

@@ -15,31 +15,31 @@ export default class Multiply extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": MultiplyInput_Vector_V,
-		"Factor_F": MultiplyInput_Factor_F,
+		"vector_v": MultiplyInput_vector_v,
+		"factor_f": MultiplyInput_factor_f,
 	}
 
 	public output:
 	{
-		"Vector_V": MultiplyOutput_Vector_V,
-		"Length_L": MultiplyOutput_Length_L,
+		"vector_v": MultiplyOutput_vector_v,
+		"length_l": MultiplyOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new MultiplyInput_Vector_V(),
-			"Factor_F": new MultiplyInput_Factor_F(),
+			"vector_v": new MultiplyInput_vector_v(),
+			"factor_f": new MultiplyInput_factor_f(),
 		}
 		this.output = {
-			"Vector_V": new MultiplyOutput_Vector_V(),
-			"Length_L": new MultiplyOutput_Length_L(),
+			"vector_v": new MultiplyOutput_vector_v(),
+			"length_l": new MultiplyOutput_length_l(),
 		}
 	}
 
 }
 
-class MultiplyInput_Vector_V extends ResthopperParameter {
+class MultiplyInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class MultiplyInput_Vector_V extends ResthopperParameter {
 
 }
 
-class MultiplyInput_Factor_F extends ResthopperParameter {
+class MultiplyInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class MultiplyInput_Factor_F extends ResthopperParameter {
 
 }
 
-class MultiplyOutput_Vector_V extends ResthopperParameter {
+class MultiplyOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -81,7 +81,7 @@ class MultiplyOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class MultiplyOutput_Length_L extends ResthopperParameter {
+class MultiplyOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

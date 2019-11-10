@@ -15,37 +15,37 @@ export default class Maelstrom extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MaelstromInput_Geometry_G,
-		"Plane_P": MaelstromInput_Plane_P,
-		"First_R0": MaelstromInput_First_R0,
-		"Second_R1": MaelstromInput_Second_R1,
-		"Angle_A": MaelstromInput_Angle_A,
-		"Rigid_R": MaelstromInput_Rigid_R,
+		"geometry_g": MaelstromInput_geometry_g,
+		"plane_p": MaelstromInput_plane_p,
+		"first_r0": MaelstromInput_first_r0,
+		"second_r1": MaelstromInput_second_r1,
+		"angle_a": MaelstromInput_angle_a,
+		"rigid_r": MaelstromInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": MaelstromOutput_Geometry_G,
+		"geometry_g": MaelstromOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MaelstromInput_Geometry_G(),
-			"Plane_P": new MaelstromInput_Plane_P(),
-			"First_R0": new MaelstromInput_First_R0(),
-			"Second_R1": new MaelstromInput_Second_R1(),
-			"Angle_A": new MaelstromInput_Angle_A(),
-			"Rigid_R": new MaelstromInput_Rigid_R(),
+			"geometry_g": new MaelstromInput_geometry_g(),
+			"plane_p": new MaelstromInput_plane_p(),
+			"first_r0": new MaelstromInput_first_r0(),
+			"second_r1": new MaelstromInput_second_r1(),
+			"angle_a": new MaelstromInput_angle_a(),
+			"rigid_r": new MaelstromInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new MaelstromOutput_Geometry_G(),
+			"geometry_g": new MaelstromOutput_geometry_g(),
 		}
 	}
 
 }
 
-class MaelstromInput_Geometry_G extends ResthopperParameter {
+class MaelstromInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class MaelstromInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MaelstromInput_Plane_P extends ResthopperParameter {
+class MaelstromInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -73,7 +73,7 @@ class MaelstromInput_Plane_P extends ResthopperParameter {
 
 }
 
-class MaelstromInput_First_R0 extends ResthopperParameter {
+class MaelstromInput_first_r0 extends ResthopperParameter {
 
 	public name: string = "First";
 	public nickName: string = "R0";
@@ -87,7 +87,7 @@ class MaelstromInput_First_R0 extends ResthopperParameter {
 
 }
 
-class MaelstromInput_Second_R1 extends ResthopperParameter {
+class MaelstromInput_second_r1 extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "R1";
@@ -101,7 +101,7 @@ class MaelstromInput_Second_R1 extends ResthopperParameter {
 
 }
 
-class MaelstromInput_Angle_A extends ResthopperParameter {
+class MaelstromInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -115,7 +115,7 @@ class MaelstromInput_Angle_A extends ResthopperParameter {
 
 }
 
-class MaelstromInput_Rigid_R extends ResthopperParameter {
+class MaelstromInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -129,7 +129,7 @@ class MaelstromInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class MaelstromOutput_Geometry_G extends ResthopperParameter {
+class MaelstromOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

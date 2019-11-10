@@ -15,31 +15,31 @@ export default class PointInBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": PointInBrepInput_Brep_B,
-		"Point_P": PointInBrepInput_Point_P,
-		"Strict_S": PointInBrepInput_Strict_S,
+		"brep_b": PointInBrepInput_brep_b,
+		"point_p": PointInBrepInput_point_p,
+		"strict_s": PointInBrepInput_strict_s,
 	}
 
 	public output:
 	{
-		"Inside_I": PointInBrepOutput_Inside_I,
+		"inside_i": PointInBrepOutput_inside_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new PointInBrepInput_Brep_B(),
-			"Point_P": new PointInBrepInput_Point_P(),
-			"Strict_S": new PointInBrepInput_Strict_S(),
+			"brep_b": new PointInBrepInput_brep_b(),
+			"point_p": new PointInBrepInput_point_p(),
+			"strict_s": new PointInBrepInput_strict_s(),
 		}
 		this.output = {
-			"Inside_I": new PointInBrepOutput_Inside_I(),
+			"inside_i": new PointInBrepOutput_inside_i(),
 		}
 	}
 
 }
 
-class PointInBrepInput_Brep_B extends ResthopperParameter {
+class PointInBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class PointInBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class PointInBrepInput_Point_P extends ResthopperParameter {
+class PointInBrepInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class PointInBrepInput_Point_P extends ResthopperParameter {
 
 }
 
-class PointInBrepInput_Strict_S extends ResthopperParameter {
+class PointInBrepInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class PointInBrepInput_Strict_S extends ResthopperParameter {
 
 }
 
-class PointInBrepOutput_Inside_I extends ResthopperParameter {
+class PointInBrepOutput_inside_i extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "I";

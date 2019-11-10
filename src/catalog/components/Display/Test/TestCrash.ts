@@ -15,7 +15,7 @@ export default class TestCrash extends ResthopperComponent {
 
 	public input:
 	{
-		"Crash_C": TestCrashInput_Crash_C,
+		"crash_c": TestCrashInput_crash_c,
 	}
 
 	public output:
@@ -26,7 +26,7 @@ export default class TestCrash extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Crash_C": new TestCrashInput_Crash_C(),
+			"crash_c": new TestCrashInput_crash_c(),
 		}
 		this.output = {
 
@@ -35,7 +35,7 @@ export default class TestCrash extends ResthopperComponent {
 
 }
 
-class TestCrashInput_Crash_C extends ResthopperParameter {
+class TestCrashInput_crash_c extends ResthopperParameter {
 
 	public name: string = "Crash";
 	public nickName: string = "C";

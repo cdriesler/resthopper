@@ -15,27 +15,27 @@ export default class ComplexModulus extends ResthopperComponent {
 
 	public input:
 	{
-		"Complex_C": ComplexModulusInput_Complex_C,
+		"complex_c": ComplexModulusInput_complex_c,
 	}
 
 	public output:
 	{
-		"Modulus_M": ComplexModulusOutput_Modulus_M,
+		"modulus_m": ComplexModulusOutput_modulus_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Complex_C": new ComplexModulusInput_Complex_C(),
+			"complex_c": new ComplexModulusInput_complex_c(),
 		}
 		this.output = {
-			"Modulus_M": new ComplexModulusOutput_Modulus_M(),
+			"modulus_m": new ComplexModulusOutput_modulus_m(),
 		}
 	}
 
 }
 
-class ComplexModulusInput_Complex_C extends ResthopperParameter {
+class ComplexModulusInput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";
@@ -49,7 +49,7 @@ class ComplexModulusInput_Complex_C extends ResthopperParameter {
 
 }
 
-class ComplexModulusOutput_Modulus_M extends ResthopperParameter {
+class ComplexModulusOutput_modulus_m extends ResthopperParameter {
 
 	public name: string = "Modulus";
 	public nickName: string = "M";

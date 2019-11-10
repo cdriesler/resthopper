@@ -15,35 +15,35 @@ export default class PolarArray extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": PolarArrayInput_Geometry_G,
-		"Plane_P": PolarArrayInput_Plane_P,
-		"Count_N": PolarArrayInput_Count_N,
-		"Angle_A": PolarArrayInput_Angle_A,
+		"geometry_g": PolarArrayInput_geometry_g,
+		"plane_p": PolarArrayInput_plane_p,
+		"count_n": PolarArrayInput_count_n,
+		"angle_a": PolarArrayInput_angle_a,
 	}
 
 	public output:
 	{
-		"Geometry_G": PolarArrayOutput_Geometry_G,
-		"Transform_X": PolarArrayOutput_Transform_X,
+		"geometry_g": PolarArrayOutput_geometry_g,
+		"transform_x": PolarArrayOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new PolarArrayInput_Geometry_G(),
-			"Plane_P": new PolarArrayInput_Plane_P(),
-			"Count_N": new PolarArrayInput_Count_N(),
-			"Angle_A": new PolarArrayInput_Angle_A(),
+			"geometry_g": new PolarArrayInput_geometry_g(),
+			"plane_p": new PolarArrayInput_plane_p(),
+			"count_n": new PolarArrayInput_count_n(),
+			"angle_a": new PolarArrayInput_angle_a(),
 		}
 		this.output = {
-			"Geometry_G": new PolarArrayOutput_Geometry_G(),
-			"Transform_X": new PolarArrayOutput_Transform_X(),
+			"geometry_g": new PolarArrayOutput_geometry_g(),
+			"transform_x": new PolarArrayOutput_transform_x(),
 		}
 	}
 
 }
 
-class PolarArrayInput_Geometry_G extends ResthopperParameter {
+class PolarArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class PolarArrayInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class PolarArrayInput_Plane_P extends ResthopperParameter {
+class PolarArrayInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class PolarArrayInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PolarArrayInput_Count_N extends ResthopperParameter {
+class PolarArrayInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -85,7 +85,7 @@ class PolarArrayInput_Count_N extends ResthopperParameter {
 
 }
 
-class PolarArrayInput_Angle_A extends ResthopperParameter {
+class PolarArrayInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class PolarArrayInput_Angle_A extends ResthopperParameter {
 
 }
 
-class PolarArrayOutput_Geometry_G extends ResthopperParameter {
+class PolarArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class PolarArrayOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class PolarArrayOutput_Transform_X extends ResthopperParameter {
+class PolarArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

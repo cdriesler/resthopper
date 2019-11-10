@@ -15,31 +15,31 @@ export default class Weave extends ResthopperComponent {
 
 	public input:
 	{
-		"Stream0_0": WeaveInput_Stream0_0,
-		"Stream1_1": WeaveInput_Stream1_1,
-		"Pattern_P": WeaveInput_Pattern_P,
+		"stream0_0": WeaveInput_stream0_0,
+		"stream1_1": WeaveInput_stream1_1,
+		"pattern_p": WeaveInput_pattern_p,
 	}
 
 	public output:
 	{
-		"Weave_W": WeaveOutput_Weave_W,
+		"weave_w": WeaveOutput_weave_w,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Stream0_0": new WeaveInput_Stream0_0(),
-			"Stream1_1": new WeaveInput_Stream1_1(),
-			"Pattern_P": new WeaveInput_Pattern_P(),
+			"stream0_0": new WeaveInput_stream0_0(),
+			"stream1_1": new WeaveInput_stream1_1(),
+			"pattern_p": new WeaveInput_pattern_p(),
 		}
 		this.output = {
-			"Weave_W": new WeaveOutput_Weave_W(),
+			"weave_w": new WeaveOutput_weave_w(),
 		}
 	}
 
 }
 
-class WeaveInput_Stream0_0 extends ResthopperParameter {
+class WeaveInput_stream0_0 extends ResthopperParameter {
 
 	public name: string = "Stream0";
 	public nickName: string = "0";
@@ -53,7 +53,7 @@ class WeaveInput_Stream0_0 extends ResthopperParameter {
 
 }
 
-class WeaveInput_Stream1_1 extends ResthopperParameter {
+class WeaveInput_stream1_1 extends ResthopperParameter {
 
 	public name: string = "Stream1";
 	public nickName: string = "1";
@@ -67,7 +67,7 @@ class WeaveInput_Stream1_1 extends ResthopperParameter {
 
 }
 
-class WeaveInput_Pattern_P extends ResthopperParameter {
+class WeaveInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class WeaveInput_Pattern_P extends ResthopperParameter {
 
 }
 
-class WeaveOutput_Weave_W extends ResthopperParameter {
+class WeaveOutput_weave_w extends ResthopperParameter {
 
 	public name: string = "Weave";
 	public nickName: string = "W";

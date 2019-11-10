@@ -15,39 +15,39 @@ export default class BiArc extends ResthopperComponent {
 
 	public input:
 	{
-		"StartPoint_S": BiArcInput_StartPoint_S,
-		"StartTangent_Ts": BiArcInput_StartTangent_Ts,
-		"EndPoint_E": BiArcInput_EndPoint_E,
-		"EndTangent_Te": BiArcInput_EndTangent_Te,
-		"Ratio_R": BiArcInput_Ratio_R,
+		"startpoint_s": BiArcInput_startpoint_s,
+		"starttangent_ts": BiArcInput_starttangent_ts,
+		"endpoint_e": BiArcInput_endpoint_e,
+		"endtangent_te": BiArcInput_endtangent_te,
+		"ratio_r": BiArcInput_ratio_r,
 	}
 
 	public output:
 	{
-		"Firstarc_A1": BiArcOutput_Firstarc_A1,
-		"Secondarc_A2": BiArcOutput_Secondarc_A2,
-		"BiArc_B": BiArcOutput_BiArc_B,
+		"firstarc_a1": BiArcOutput_firstarc_a1,
+		"secondarc_a2": BiArcOutput_secondarc_a2,
+		"biarc_b": BiArcOutput_biarc_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StartPoint_S": new BiArcInput_StartPoint_S(),
-			"StartTangent_Ts": new BiArcInput_StartTangent_Ts(),
-			"EndPoint_E": new BiArcInput_EndPoint_E(),
-			"EndTangent_Te": new BiArcInput_EndTangent_Te(),
-			"Ratio_R": new BiArcInput_Ratio_R(),
+			"startpoint_s": new BiArcInput_startpoint_s(),
+			"starttangent_ts": new BiArcInput_starttangent_ts(),
+			"endpoint_e": new BiArcInput_endpoint_e(),
+			"endtangent_te": new BiArcInput_endtangent_te(),
+			"ratio_r": new BiArcInput_ratio_r(),
 		}
 		this.output = {
-			"Firstarc_A1": new BiArcOutput_Firstarc_A1(),
-			"Secondarc_A2": new BiArcOutput_Secondarc_A2(),
-			"BiArc_B": new BiArcOutput_BiArc_B(),
+			"firstarc_a1": new BiArcOutput_firstarc_a1(),
+			"secondarc_a2": new BiArcOutput_secondarc_a2(),
+			"biarc_b": new BiArcOutput_biarc_b(),
 		}
 	}
 
 }
 
-class BiArcInput_StartPoint_S extends ResthopperParameter {
+class BiArcInput_startpoint_s extends ResthopperParameter {
 
 	public name: string = "StartPoint";
 	public nickName: string = "S";
@@ -61,7 +61,7 @@ class BiArcInput_StartPoint_S extends ResthopperParameter {
 
 }
 
-class BiArcInput_StartTangent_Ts extends ResthopperParameter {
+class BiArcInput_starttangent_ts extends ResthopperParameter {
 
 	public name: string = "StartTangent";
 	public nickName: string = "Ts";
@@ -75,7 +75,7 @@ class BiArcInput_StartTangent_Ts extends ResthopperParameter {
 
 }
 
-class BiArcInput_EndPoint_E extends ResthopperParameter {
+class BiArcInput_endpoint_e extends ResthopperParameter {
 
 	public name: string = "EndPoint";
 	public nickName: string = "E";
@@ -89,7 +89,7 @@ class BiArcInput_EndPoint_E extends ResthopperParameter {
 
 }
 
-class BiArcInput_EndTangent_Te extends ResthopperParameter {
+class BiArcInput_endtangent_te extends ResthopperParameter {
 
 	public name: string = "EndTangent";
 	public nickName: string = "Te";
@@ -103,7 +103,7 @@ class BiArcInput_EndTangent_Te extends ResthopperParameter {
 
 }
 
-class BiArcInput_Ratio_R extends ResthopperParameter {
+class BiArcInput_ratio_r extends ResthopperParameter {
 
 	public name: string = "Ratio";
 	public nickName: string = "R";
@@ -117,7 +117,7 @@ class BiArcInput_Ratio_R extends ResthopperParameter {
 
 }
 
-class BiArcOutput_Firstarc_A1 extends ResthopperParameter {
+class BiArcOutput_firstarc_a1 extends ResthopperParameter {
 
 	public name: string = "Firstarc";
 	public nickName: string = "A1";
@@ -131,7 +131,7 @@ class BiArcOutput_Firstarc_A1 extends ResthopperParameter {
 
 }
 
-class BiArcOutput_Secondarc_A2 extends ResthopperParameter {
+class BiArcOutput_secondarc_a2 extends ResthopperParameter {
 
 	public name: string = "Secondarc";
 	public nickName: string = "A2";
@@ -145,7 +145,7 @@ class BiArcOutput_Secondarc_A2 extends ResthopperParameter {
 
 }
 
-class BiArcOutput_BiArc_B extends ResthopperParameter {
+class BiArcOutput_biarc_b extends ResthopperParameter {
 
 	public name: string = "BiArc";
 	public nickName: string = "B";

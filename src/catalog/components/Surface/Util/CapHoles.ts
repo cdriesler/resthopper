@@ -15,27 +15,27 @@ export default class CapHoles extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": CapHolesInput_Brep_B,
+		"brep_b": CapHolesInput_brep_b,
 	}
 
 	public output:
 	{
-		"Brep_B": CapHolesOutput_Brep_B,
+		"brep_b": CapHolesOutput_brep_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new CapHolesInput_Brep_B(),
+			"brep_b": new CapHolesInput_brep_b(),
 		}
 		this.output = {
-			"Brep_B": new CapHolesOutput_Brep_B(),
+			"brep_b": new CapHolesOutput_brep_b(),
 		}
 	}
 
 }
 
-class CapHolesInput_Brep_B extends ResthopperParameter {
+class CapHolesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class CapHolesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class CapHolesOutput_Brep_B extends ResthopperParameter {
+class CapHolesOutput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";

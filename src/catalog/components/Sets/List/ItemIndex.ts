@@ -15,29 +15,29 @@ export default class ItemIndex extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ItemIndexInput_List_L,
-		"Item_i": ItemIndexInput_Item_i,
+		"list_l": ItemIndexInput_list_l,
+		"item_i": ItemIndexInput_item_i,
 	}
 
 	public output:
 	{
-		"Index_i": ItemIndexOutput_Index_i,
+		"index_i": ItemIndexOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ItemIndexInput_List_L(),
-			"Item_i": new ItemIndexInput_Item_i(),
+			"list_l": new ItemIndexInput_list_l(),
+			"item_i": new ItemIndexInput_item_i(),
 		}
 		this.output = {
-			"Index_i": new ItemIndexOutput_Index_i(),
+			"index_i": new ItemIndexOutput_index_i(),
 		}
 	}
 
 }
 
-class ItemIndexInput_List_L extends ResthopperParameter {
+class ItemIndexInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class ItemIndexInput_List_L extends ResthopperParameter {
 
 }
 
-class ItemIndexInput_Item_i extends ResthopperParameter {
+class ItemIndexInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "i";
@@ -65,7 +65,7 @@ class ItemIndexInput_Item_i extends ResthopperParameter {
 
 }
 
-class ItemIndexOutput_Index_i extends ResthopperParameter {
+class ItemIndexOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";

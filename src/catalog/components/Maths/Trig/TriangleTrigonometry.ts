@@ -15,39 +15,39 @@ export default class TriangleTrigonometry extends ResthopperComponent {
 
 	public input:
 	{
-		"Gamma_": TriangleTrigonometryInput_Gamma_,
-		"Alength_A": TriangleTrigonometryInput_Alength_A,
-		"Blength_B": TriangleTrigonometryInput_Blength_B,
-		"Clength_C": TriangleTrigonometryInput_Clength_C,
+		"gamma_": TriangleTrigonometryInput_gamma_,
+		"alength_a": TriangleTrigonometryInput_alength_a,
+		"blength_b": TriangleTrigonometryInput_blength_b,
+		"clength_c": TriangleTrigonometryInput_clength_c,
 	}
 
 	public output:
 	{
-		"Gamma_": TriangleTrigonometryOutput_Gamma_,
-		"Alength_A": TriangleTrigonometryOutput_Alength_A,
-		"Blength_B": TriangleTrigonometryOutput_Blength_B,
-		"Clength_C": TriangleTrigonometryOutput_Clength_C,
+		"gamma_": TriangleTrigonometryOutput_gamma_,
+		"alength_a": TriangleTrigonometryOutput_alength_a,
+		"blength_b": TriangleTrigonometryOutput_blength_b,
+		"clength_c": TriangleTrigonometryOutput_clength_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Gamma_": new TriangleTrigonometryInput_Gamma_(),
-			"Alength_A": new TriangleTrigonometryInput_Alength_A(),
-			"Blength_B": new TriangleTrigonometryInput_Blength_B(),
-			"Clength_C": new TriangleTrigonometryInput_Clength_C(),
+			"gamma_": new TriangleTrigonometryInput_gamma_(),
+			"alength_a": new TriangleTrigonometryInput_alength_a(),
+			"blength_b": new TriangleTrigonometryInput_blength_b(),
+			"clength_c": new TriangleTrigonometryInput_clength_c(),
 		}
 		this.output = {
-			"Gamma_": new TriangleTrigonometryOutput_Gamma_(),
-			"Alength_A": new TriangleTrigonometryOutput_Alength_A(),
-			"Blength_B": new TriangleTrigonometryOutput_Blength_B(),
-			"Clength_C": new TriangleTrigonometryOutput_Clength_C(),
+			"gamma_": new TriangleTrigonometryOutput_gamma_(),
+			"alength_a": new TriangleTrigonometryOutput_alength_a(),
+			"blength_b": new TriangleTrigonometryOutput_blength_b(),
+			"clength_c": new TriangleTrigonometryOutput_clength_c(),
 		}
 	}
 
 }
 
-class TriangleTrigonometryInput_Gamma_ extends ResthopperParameter {
+class TriangleTrigonometryInput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
@@ -61,7 +61,7 @@ class TriangleTrigonometryInput_Gamma_ extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryInput_Alength_A extends ResthopperParameter {
+class TriangleTrigonometryInput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
@@ -75,7 +75,7 @@ class TriangleTrigonometryInput_Alength_A extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryInput_Blength_B extends ResthopperParameter {
+class TriangleTrigonometryInput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
@@ -89,7 +89,7 @@ class TriangleTrigonometryInput_Blength_B extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryInput_Clength_C extends ResthopperParameter {
+class TriangleTrigonometryInput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";
@@ -103,7 +103,7 @@ class TriangleTrigonometryInput_Clength_C extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryOutput_Gamma_ extends ResthopperParameter {
+class TriangleTrigonometryOutput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
@@ -117,7 +117,7 @@ class TriangleTrigonometryOutput_Gamma_ extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryOutput_Alength_A extends ResthopperParameter {
+class TriangleTrigonometryOutput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
@@ -131,7 +131,7 @@ class TriangleTrigonometryOutput_Alength_A extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryOutput_Blength_B extends ResthopperParameter {
+class TriangleTrigonometryOutput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
@@ -145,7 +145,7 @@ class TriangleTrigonometryOutput_Blength_B extends ResthopperParameter {
 
 }
 
-class TriangleTrigonometryOutput_Clength_C extends ResthopperParameter {
+class TriangleTrigonometryOutput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";

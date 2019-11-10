@@ -15,37 +15,37 @@ export default class SphereFourPt extends ResthopperComponent {
 
 	public input:
 	{
-		"Point1_P1": SphereFourPtInput_Point1_P1,
-		"Point2_P2": SphereFourPtInput_Point2_P2,
-		"Point3_P3": SphereFourPtInput_Point3_P3,
-		"Point4_P4": SphereFourPtInput_Point4_P4,
+		"point1_p1": SphereFourPtInput_point1_p1,
+		"point2_p2": SphereFourPtInput_point2_p2,
+		"point3_p3": SphereFourPtInput_point3_p3,
+		"point4_p4": SphereFourPtInput_point4_p4,
 	}
 
 	public output:
 	{
-		"Center_C": SphereFourPtOutput_Center_C,
-		"Radius_R": SphereFourPtOutput_Radius_R,
-		"Sphere_S": SphereFourPtOutput_Sphere_S,
+		"center_c": SphereFourPtOutput_center_c,
+		"radius_r": SphereFourPtOutput_radius_r,
+		"sphere_s": SphereFourPtOutput_sphere_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point1_P1": new SphereFourPtInput_Point1_P1(),
-			"Point2_P2": new SphereFourPtInput_Point2_P2(),
-			"Point3_P3": new SphereFourPtInput_Point3_P3(),
-			"Point4_P4": new SphereFourPtInput_Point4_P4(),
+			"point1_p1": new SphereFourPtInput_point1_p1(),
+			"point2_p2": new SphereFourPtInput_point2_p2(),
+			"point3_p3": new SphereFourPtInput_point3_p3(),
+			"point4_p4": new SphereFourPtInput_point4_p4(),
 		}
 		this.output = {
-			"Center_C": new SphereFourPtOutput_Center_C(),
-			"Radius_R": new SphereFourPtOutput_Radius_R(),
-			"Sphere_S": new SphereFourPtOutput_Sphere_S(),
+			"center_c": new SphereFourPtOutput_center_c(),
+			"radius_r": new SphereFourPtOutput_radius_r(),
+			"sphere_s": new SphereFourPtOutput_sphere_s(),
 		}
 	}
 
 }
 
-class SphereFourPtInput_Point1_P1 extends ResthopperParameter {
+class SphereFourPtInput_point1_p1 extends ResthopperParameter {
 
 	public name: string = "Point1";
 	public nickName: string = "P1";
@@ -59,7 +59,7 @@ class SphereFourPtInput_Point1_P1 extends ResthopperParameter {
 
 }
 
-class SphereFourPtInput_Point2_P2 extends ResthopperParameter {
+class SphereFourPtInput_point2_p2 extends ResthopperParameter {
 
 	public name: string = "Point2";
 	public nickName: string = "P2";
@@ -73,7 +73,7 @@ class SphereFourPtInput_Point2_P2 extends ResthopperParameter {
 
 }
 
-class SphereFourPtInput_Point3_P3 extends ResthopperParameter {
+class SphereFourPtInput_point3_p3 extends ResthopperParameter {
 
 	public name: string = "Point3";
 	public nickName: string = "P3";
@@ -87,7 +87,7 @@ class SphereFourPtInput_Point3_P3 extends ResthopperParameter {
 
 }
 
-class SphereFourPtInput_Point4_P4 extends ResthopperParameter {
+class SphereFourPtInput_point4_p4 extends ResthopperParameter {
 
 	public name: string = "Point4";
 	public nickName: string = "P4";
@@ -101,7 +101,7 @@ class SphereFourPtInput_Point4_P4 extends ResthopperParameter {
 
 }
 
-class SphereFourPtOutput_Center_C extends ResthopperParameter {
+class SphereFourPtOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -115,7 +115,7 @@ class SphereFourPtOutput_Center_C extends ResthopperParameter {
 
 }
 
-class SphereFourPtOutput_Radius_R extends ResthopperParameter {
+class SphereFourPtOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -129,7 +129,7 @@ class SphereFourPtOutput_Radius_R extends ResthopperParameter {
 
 }
 
-class SphereFourPtOutput_Sphere_S extends ResthopperParameter {
+class SphereFourPtOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";

@@ -15,31 +15,31 @@ export default class TreeStatistics extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": TreeStatisticsInput_Tree_T,
+		"tree_t": TreeStatisticsInput_tree_t,
 	}
 
 	public output:
 	{
-		"Paths_P": TreeStatisticsOutput_Paths_P,
-		"Length_L": TreeStatisticsOutput_Length_L,
-		"Count_C": TreeStatisticsOutput_Count_C,
+		"paths_p": TreeStatisticsOutput_paths_p,
+		"length_l": TreeStatisticsOutput_length_l,
+		"count_c": TreeStatisticsOutput_count_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new TreeStatisticsInput_Tree_T(),
+			"tree_t": new TreeStatisticsInput_tree_t(),
 		}
 		this.output = {
-			"Paths_P": new TreeStatisticsOutput_Paths_P(),
-			"Length_L": new TreeStatisticsOutput_Length_L(),
-			"Count_C": new TreeStatisticsOutput_Count_C(),
+			"paths_p": new TreeStatisticsOutput_paths_p(),
+			"length_l": new TreeStatisticsOutput_length_l(),
+			"count_c": new TreeStatisticsOutput_count_c(),
 		}
 	}
 
 }
 
-class TreeStatisticsInput_Tree_T extends ResthopperParameter {
+class TreeStatisticsInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class TreeStatisticsInput_Tree_T extends ResthopperParameter {
 
 }
 
-class TreeStatisticsOutput_Paths_P extends ResthopperParameter {
+class TreeStatisticsOutput_paths_p extends ResthopperParameter {
 
 	public name: string = "Paths";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class TreeStatisticsOutput_Paths_P extends ResthopperParameter {
 
 }
 
-class TreeStatisticsOutput_Length_L extends ResthopperParameter {
+class TreeStatisticsOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -81,7 +81,7 @@ class TreeStatisticsOutput_Length_L extends ResthopperParameter {
 
 }
 
-class TreeStatisticsOutput_Count_C extends ResthopperParameter {
+class TreeStatisticsOutput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";

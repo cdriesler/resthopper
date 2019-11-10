@@ -15,29 +15,29 @@ export default class PullCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PullCurveInput_Curve_C,
-		"Surface_S": PullCurveInput_Surface_S,
+		"curve_c": PullCurveInput_curve_c,
+		"surface_s": PullCurveInput_surface_s,
 	}
 
 	public output:
 	{
-		"Curve_C": PullCurveOutput_Curve_C,
+		"curve_c": PullCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PullCurveInput_Curve_C(),
-			"Surface_S": new PullCurveInput_Surface_S(),
+			"curve_c": new PullCurveInput_curve_c(),
+			"surface_s": new PullCurveInput_surface_s(),
 		}
 		this.output = {
-			"Curve_C": new PullCurveOutput_Curve_C(),
+			"curve_c": new PullCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class PullCurveInput_Curve_C extends ResthopperParameter {
+class PullCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class PullCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PullCurveInput_Surface_S extends ResthopperParameter {
+class PullCurveInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class PullCurveInput_Surface_S extends ResthopperParameter {
 
 }
 
-class PullCurveOutput_Curve_C extends ResthopperParameter {
+class PullCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

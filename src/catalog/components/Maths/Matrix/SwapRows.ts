@@ -15,31 +15,31 @@ export default class SwapRows extends ResthopperComponent {
 
 	public input:
 	{
-		"Matrix_M": SwapRowsInput_Matrix_M,
-		"RowA_A": SwapRowsInput_RowA_A,
-		"RowB_B": SwapRowsInput_RowB_B,
+		"matrix_m": SwapRowsInput_matrix_m,
+		"rowa_a": SwapRowsInput_rowa_a,
+		"rowb_b": SwapRowsInput_rowb_b,
 	}
 
 	public output:
 	{
-		"Matrix_M": SwapRowsOutput_Matrix_M,
+		"matrix_m": SwapRowsOutput_matrix_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Matrix_M": new SwapRowsInput_Matrix_M(),
-			"RowA_A": new SwapRowsInput_RowA_A(),
-			"RowB_B": new SwapRowsInput_RowB_B(),
+			"matrix_m": new SwapRowsInput_matrix_m(),
+			"rowa_a": new SwapRowsInput_rowa_a(),
+			"rowb_b": new SwapRowsInput_rowb_b(),
 		}
 		this.output = {
-			"Matrix_M": new SwapRowsOutput_Matrix_M(),
+			"matrix_m": new SwapRowsOutput_matrix_m(),
 		}
 	}
 
 }
 
-class SwapRowsInput_Matrix_M extends ResthopperParameter {
+class SwapRowsInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class SwapRowsInput_Matrix_M extends ResthopperParameter {
 
 }
 
-class SwapRowsInput_RowA_A extends ResthopperParameter {
+class SwapRowsInput_rowa_a extends ResthopperParameter {
 
 	public name: string = "RowA";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class SwapRowsInput_RowA_A extends ResthopperParameter {
 
 }
 
-class SwapRowsInput_RowB_B extends ResthopperParameter {
+class SwapRowsInput_rowb_b extends ResthopperParameter {
 
 	public name: string = "RowB";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class SwapRowsInput_RowB_B extends ResthopperParameter {
 
 }
 
-class SwapRowsOutput_Matrix_M extends ResthopperParameter {
+class SwapRowsOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";

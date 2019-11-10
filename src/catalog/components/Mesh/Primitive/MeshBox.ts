@@ -15,33 +15,33 @@ export default class MeshBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": MeshBoxInput_Base_B,
-		"XCount_X": MeshBoxInput_XCount_X,
-		"YCount_Y": MeshBoxInput_YCount_Y,
-		"ZCount_Z": MeshBoxInput_ZCount_Z,
+		"base_b": MeshBoxInput_base_b,
+		"xcount_x": MeshBoxInput_xcount_x,
+		"ycount_y": MeshBoxInput_ycount_y,
+		"zcount_z": MeshBoxInput_zcount_z,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshBoxOutput_Mesh_M,
+		"mesh_m": MeshBoxOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new MeshBoxInput_Base_B(),
-			"XCount_X": new MeshBoxInput_XCount_X(),
-			"YCount_Y": new MeshBoxInput_YCount_Y(),
-			"ZCount_Z": new MeshBoxInput_ZCount_Z(),
+			"base_b": new MeshBoxInput_base_b(),
+			"xcount_x": new MeshBoxInput_xcount_x(),
+			"ycount_y": new MeshBoxInput_ycount_y(),
+			"zcount_z": new MeshBoxInput_zcount_z(),
 		}
 		this.output = {
-			"Mesh_M": new MeshBoxOutput_Mesh_M(),
+			"mesh_m": new MeshBoxOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshBoxInput_Base_B extends ResthopperParameter {
+class MeshBoxInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class MeshBoxInput_Base_B extends ResthopperParameter {
 
 }
 
-class MeshBoxInput_XCount_X extends ResthopperParameter {
+class MeshBoxInput_xcount_x extends ResthopperParameter {
 
 	public name: string = "XCount";
 	public nickName: string = "X";
@@ -69,7 +69,7 @@ class MeshBoxInput_XCount_X extends ResthopperParameter {
 
 }
 
-class MeshBoxInput_YCount_Y extends ResthopperParameter {
+class MeshBoxInput_ycount_y extends ResthopperParameter {
 
 	public name: string = "YCount";
 	public nickName: string = "Y";
@@ -83,7 +83,7 @@ class MeshBoxInput_YCount_Y extends ResthopperParameter {
 
 }
 
-class MeshBoxInput_ZCount_Z extends ResthopperParameter {
+class MeshBoxInput_zcount_z extends ResthopperParameter {
 
 	public name: string = "ZCount";
 	public nickName: string = "Z";
@@ -97,7 +97,7 @@ class MeshBoxInput_ZCount_Z extends ResthopperParameter {
 
 }
 
-class MeshBoxOutput_Mesh_M extends ResthopperParameter {
+class MeshBoxOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

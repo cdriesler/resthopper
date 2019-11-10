@@ -15,35 +15,35 @@ export default class Twist extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": TwistInput_Geometry_G,
-		"Axis_X": TwistInput_Axis_X,
-		"Angle_A": TwistInput_Angle_A,
-		"Infinite_I": TwistInput_Infinite_I,
-		"Rigid_R": TwistInput_Rigid_R,
+		"geometry_g": TwistInput_geometry_g,
+		"axis_x": TwistInput_axis_x,
+		"angle_a": TwistInput_angle_a,
+		"infinite_i": TwistInput_infinite_i,
+		"rigid_r": TwistInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": TwistOutput_Geometry_G,
+		"geometry_g": TwistOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new TwistInput_Geometry_G(),
-			"Axis_X": new TwistInput_Axis_X(),
-			"Angle_A": new TwistInput_Angle_A(),
-			"Infinite_I": new TwistInput_Infinite_I(),
-			"Rigid_R": new TwistInput_Rigid_R(),
+			"geometry_g": new TwistInput_geometry_g(),
+			"axis_x": new TwistInput_axis_x(),
+			"angle_a": new TwistInput_angle_a(),
+			"infinite_i": new TwistInput_infinite_i(),
+			"rigid_r": new TwistInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new TwistOutput_Geometry_G(),
+			"geometry_g": new TwistOutput_geometry_g(),
 		}
 	}
 
 }
 
-class TwistInput_Geometry_G extends ResthopperParameter {
+class TwistInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class TwistInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class TwistInput_Axis_X extends ResthopperParameter {
+class TwistInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
@@ -71,7 +71,7 @@ class TwistInput_Axis_X extends ResthopperParameter {
 
 }
 
-class TwistInput_Angle_A extends ResthopperParameter {
+class TwistInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -85,7 +85,7 @@ class TwistInput_Angle_A extends ResthopperParameter {
 
 }
 
-class TwistInput_Infinite_I extends ResthopperParameter {
+class TwistInput_infinite_i extends ResthopperParameter {
 
 	public name: string = "Infinite";
 	public nickName: string = "I";
@@ -99,7 +99,7 @@ class TwistInput_Infinite_I extends ResthopperParameter {
 
 }
 
-class TwistInput_Rigid_R extends ResthopperParameter {
+class TwistInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -113,7 +113,7 @@ class TwistInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class TwistOutput_Geometry_G extends ResthopperParameter {
+class TwistOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

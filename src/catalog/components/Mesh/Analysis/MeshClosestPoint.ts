@@ -15,31 +15,31 @@ export default class MeshClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": MeshClosestPointInput_Point_P,
-		"Mesh_M": MeshClosestPointInput_Mesh_M,
+		"point_p": MeshClosestPointInput_point_p,
+		"mesh_m": MeshClosestPointInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Parameter_P": MeshClosestPointOutput_Parameter_P,
-		"Index_I": MeshClosestPointOutput_Index_I,
+		"parameter_p": MeshClosestPointOutput_parameter_p,
+		"index_i": MeshClosestPointOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new MeshClosestPointInput_Point_P(),
-			"Mesh_M": new MeshClosestPointInput_Mesh_M(),
+			"point_p": new MeshClosestPointInput_point_p(),
+			"mesh_m": new MeshClosestPointInput_mesh_m(),
 		}
 		this.output = {
-			"Parameter_P": new MeshClosestPointOutput_Parameter_P(),
-			"Index_I": new MeshClosestPointOutput_Index_I(),
+			"parameter_p": new MeshClosestPointOutput_parameter_p(),
+			"index_i": new MeshClosestPointOutput_index_i(),
 		}
 	}
 
 }
 
-class MeshClosestPointInput_Point_P extends ResthopperParameter {
+class MeshClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class MeshClosestPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class MeshClosestPointInput_Mesh_M extends ResthopperParameter {
+class MeshClosestPointInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -67,7 +67,7 @@ class MeshClosestPointInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshClosestPointOutput_Parameter_P extends ResthopperParameter {
+class MeshClosestPointOutput_parameter_p extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class MeshClosestPointOutput_Parameter_P extends ResthopperParameter {
 
 }
 
-class MeshClosestPointOutput_Index_I extends ResthopperParameter {
+class MeshClosestPointOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

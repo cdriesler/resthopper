@@ -15,31 +15,31 @@ export default class SwapColumns extends ResthopperComponent {
 
 	public input:
 	{
-		"Matrix_M": SwapColumnsInput_Matrix_M,
-		"ColumnA_A": SwapColumnsInput_ColumnA_A,
-		"ColumnB_B": SwapColumnsInput_ColumnB_B,
+		"matrix_m": SwapColumnsInput_matrix_m,
+		"columna_a": SwapColumnsInput_columna_a,
+		"columnb_b": SwapColumnsInput_columnb_b,
 	}
 
 	public output:
 	{
-		"Matrix_M": SwapColumnsOutput_Matrix_M,
+		"matrix_m": SwapColumnsOutput_matrix_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Matrix_M": new SwapColumnsInput_Matrix_M(),
-			"ColumnA_A": new SwapColumnsInput_ColumnA_A(),
-			"ColumnB_B": new SwapColumnsInput_ColumnB_B(),
+			"matrix_m": new SwapColumnsInput_matrix_m(),
+			"columna_a": new SwapColumnsInput_columna_a(),
+			"columnb_b": new SwapColumnsInput_columnb_b(),
 		}
 		this.output = {
-			"Matrix_M": new SwapColumnsOutput_Matrix_M(),
+			"matrix_m": new SwapColumnsOutput_matrix_m(),
 		}
 	}
 
 }
 
-class SwapColumnsInput_Matrix_M extends ResthopperParameter {
+class SwapColumnsInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class SwapColumnsInput_Matrix_M extends ResthopperParameter {
 
 }
 
-class SwapColumnsInput_ColumnA_A extends ResthopperParameter {
+class SwapColumnsInput_columna_a extends ResthopperParameter {
 
 	public name: string = "ColumnA";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class SwapColumnsInput_ColumnA_A extends ResthopperParameter {
 
 }
 
-class SwapColumnsInput_ColumnB_B extends ResthopperParameter {
+class SwapColumnsInput_columnb_b extends ResthopperParameter {
 
 	public name: string = "ColumnB";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class SwapColumnsInput_ColumnB_B extends ResthopperParameter {
 
 }
 
-class SwapColumnsOutput_Matrix_M extends ResthopperParameter {
+class SwapColumnsOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";

@@ -15,29 +15,29 @@ export default class AdjustPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": AdjustPlaneInput_Plane_P,
-		"Normal_N": AdjustPlaneInput_Normal_N,
+		"plane_p": AdjustPlaneInput_plane_p,
+		"normal_n": AdjustPlaneInput_normal_n,
 	}
 
 	public output:
 	{
-		"Plane_P": AdjustPlaneOutput_Plane_P,
+		"plane_p": AdjustPlaneOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new AdjustPlaneInput_Plane_P(),
-			"Normal_N": new AdjustPlaneInput_Normal_N(),
+			"plane_p": new AdjustPlaneInput_plane_p(),
+			"normal_n": new AdjustPlaneInput_normal_n(),
 		}
 		this.output = {
-			"Plane_P": new AdjustPlaneOutput_Plane_P(),
+			"plane_p": new AdjustPlaneOutput_plane_p(),
 		}
 	}
 
 }
 
-class AdjustPlaneInput_Plane_P extends ResthopperParameter {
+class AdjustPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class AdjustPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class AdjustPlaneInput_Normal_N extends ResthopperParameter {
+class AdjustPlaneInput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
@@ -65,7 +65,7 @@ class AdjustPlaneInput_Normal_N extends ResthopperParameter {
 
 }
 
-class AdjustPlaneOutput_Plane_P extends ResthopperParameter {
+class AdjustPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

@@ -15,11 +15,11 @@ export default class LinearDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LinearDimensionInput_Line_L,
-		"PointA_A": LinearDimensionInput_PointA_A,
-		"PointB_B": LinearDimensionInput_PointB_B,
-		"Text_T": LinearDimensionInput_Text_T,
-		"Size_S": LinearDimensionInput_Size_S,
+		"line_l": LinearDimensionInput_line_l,
+		"pointa_a": LinearDimensionInput_pointa_a,
+		"pointb_b": LinearDimensionInput_pointb_b,
+		"text_t": LinearDimensionInput_text_t,
+		"size_s": LinearDimensionInput_size_s,
 	}
 
 	public output:
@@ -30,11 +30,11 @@ export default class LinearDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LinearDimensionInput_Line_L(),
-			"PointA_A": new LinearDimensionInput_PointA_A(),
-			"PointB_B": new LinearDimensionInput_PointB_B(),
-			"Text_T": new LinearDimensionInput_Text_T(),
-			"Size_S": new LinearDimensionInput_Size_S(),
+			"line_l": new LinearDimensionInput_line_l(),
+			"pointa_a": new LinearDimensionInput_pointa_a(),
+			"pointb_b": new LinearDimensionInput_pointb_b(),
+			"text_t": new LinearDimensionInput_text_t(),
+			"size_s": new LinearDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -43,7 +43,7 @@ export default class LinearDimension extends ResthopperComponent {
 
 }
 
-class LinearDimensionInput_Line_L extends ResthopperParameter {
+class LinearDimensionInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -57,7 +57,7 @@ class LinearDimensionInput_Line_L extends ResthopperParameter {
 
 }
 
-class LinearDimensionInput_PointA_A extends ResthopperParameter {
+class LinearDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -71,7 +71,7 @@ class LinearDimensionInput_PointA_A extends ResthopperParameter {
 
 }
 
-class LinearDimensionInput_PointB_B extends ResthopperParameter {
+class LinearDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -85,7 +85,7 @@ class LinearDimensionInput_PointB_B extends ResthopperParameter {
 
 }
 
-class LinearDimensionInput_Text_T extends ResthopperParameter {
+class LinearDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class LinearDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class LinearDimensionInput_Size_S extends ResthopperParameter {
+class LinearDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

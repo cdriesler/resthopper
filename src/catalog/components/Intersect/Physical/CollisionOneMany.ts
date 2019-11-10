@@ -15,31 +15,31 @@ export default class CollisionOneMany extends ResthopperComponent {
 
 	public input:
 	{
-		"Collider_C": CollisionOneManyInput_Collider_C,
-		"Obstacles_O": CollisionOneManyInput_Obstacles_O,
+		"collider_c": CollisionOneManyInput_collider_c,
+		"obstacles_o": CollisionOneManyInput_obstacles_o,
 	}
 
 	public output:
 	{
-		"Collision_C": CollisionOneManyOutput_Collision_C,
-		"Index_I": CollisionOneManyOutput_Index_I,
+		"collision_c": CollisionOneManyOutput_collision_c,
+		"index_i": CollisionOneManyOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Collider_C": new CollisionOneManyInput_Collider_C(),
-			"Obstacles_O": new CollisionOneManyInput_Obstacles_O(),
+			"collider_c": new CollisionOneManyInput_collider_c(),
+			"obstacles_o": new CollisionOneManyInput_obstacles_o(),
 		}
 		this.output = {
-			"Collision_C": new CollisionOneManyOutput_Collision_C(),
-			"Index_I": new CollisionOneManyOutput_Index_I(),
+			"collision_c": new CollisionOneManyOutput_collision_c(),
+			"index_i": new CollisionOneManyOutput_index_i(),
 		}
 	}
 
 }
 
-class CollisionOneManyInput_Collider_C extends ResthopperParameter {
+class CollisionOneManyInput_collider_c extends ResthopperParameter {
 
 	public name: string = "Collider";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CollisionOneManyInput_Collider_C extends ResthopperParameter {
 
 }
 
-class CollisionOneManyInput_Obstacles_O extends ResthopperParameter {
+class CollisionOneManyInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
@@ -67,7 +67,7 @@ class CollisionOneManyInput_Obstacles_O extends ResthopperParameter {
 
 }
 
-class CollisionOneManyOutput_Collision_C extends ResthopperParameter {
+class CollisionOneManyOutput_collision_c extends ResthopperParameter {
 
 	public name: string = "Collision";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class CollisionOneManyOutput_Collision_C extends ResthopperParameter {
 
 }
 
-class CollisionOneManyOutput_Index_I extends ResthopperParameter {
+class CollisionOneManyOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

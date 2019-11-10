@@ -15,39 +15,39 @@ export default class Taper extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": TaperInput_Geometry_G,
-		"Axis_X": TaperInput_Axis_X,
-		"Start_R0": TaperInput_Start_R0,
-		"End_R1": TaperInput_End_R1,
-		"Flat_F": TaperInput_Flat_F,
-		"Infinite_I": TaperInput_Infinite_I,
-		"Rigid_R": TaperInput_Rigid_R,
+		"geometry_g": TaperInput_geometry_g,
+		"axis_x": TaperInput_axis_x,
+		"start_r0": TaperInput_start_r0,
+		"end_r1": TaperInput_end_r1,
+		"flat_f": TaperInput_flat_f,
+		"infinite_i": TaperInput_infinite_i,
+		"rigid_r": TaperInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": TaperOutput_Geometry_G,
+		"geometry_g": TaperOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new TaperInput_Geometry_G(),
-			"Axis_X": new TaperInput_Axis_X(),
-			"Start_R0": new TaperInput_Start_R0(),
-			"End_R1": new TaperInput_End_R1(),
-			"Flat_F": new TaperInput_Flat_F(),
-			"Infinite_I": new TaperInput_Infinite_I(),
-			"Rigid_R": new TaperInput_Rigid_R(),
+			"geometry_g": new TaperInput_geometry_g(),
+			"axis_x": new TaperInput_axis_x(),
+			"start_r0": new TaperInput_start_r0(),
+			"end_r1": new TaperInput_end_r1(),
+			"flat_f": new TaperInput_flat_f(),
+			"infinite_i": new TaperInput_infinite_i(),
+			"rigid_r": new TaperInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new TaperOutput_Geometry_G(),
+			"geometry_g": new TaperOutput_geometry_g(),
 		}
 	}
 
 }
 
-class TaperInput_Geometry_G extends ResthopperParameter {
+class TaperInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -61,7 +61,7 @@ class TaperInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class TaperInput_Axis_X extends ResthopperParameter {
+class TaperInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
@@ -75,7 +75,7 @@ class TaperInput_Axis_X extends ResthopperParameter {
 
 }
 
-class TaperInput_Start_R0 extends ResthopperParameter {
+class TaperInput_start_r0 extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "R0";
@@ -89,7 +89,7 @@ class TaperInput_Start_R0 extends ResthopperParameter {
 
 }
 
-class TaperInput_End_R1 extends ResthopperParameter {
+class TaperInput_end_r1 extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "R1";
@@ -103,7 +103,7 @@ class TaperInput_End_R1 extends ResthopperParameter {
 
 }
 
-class TaperInput_Flat_F extends ResthopperParameter {
+class TaperInput_flat_f extends ResthopperParameter {
 
 	public name: string = "Flat";
 	public nickName: string = "F";
@@ -117,7 +117,7 @@ class TaperInput_Flat_F extends ResthopperParameter {
 
 }
 
-class TaperInput_Infinite_I extends ResthopperParameter {
+class TaperInput_infinite_i extends ResthopperParameter {
 
 	public name: string = "Infinite";
 	public nickName: string = "I";
@@ -131,7 +131,7 @@ class TaperInput_Infinite_I extends ResthopperParameter {
 
 }
 
-class TaperInput_Rigid_R extends ResthopperParameter {
+class TaperInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -145,7 +145,7 @@ class TaperInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class TaperOutput_Geometry_G extends ResthopperParameter {
+class TaperOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

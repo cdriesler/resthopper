@@ -15,27 +15,27 @@ export default class ArcSine extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": ArcSineInput_Value_x,
+		"value_x": ArcSineInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": ArcSineOutput_Result_y,
+		"result_y": ArcSineOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new ArcSineInput_Value_x(),
+			"value_x": new ArcSineInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new ArcSineOutput_Result_y(),
+			"result_y": new ArcSineOutput_result_y(),
 		}
 	}
 
 }
 
-class ArcSineInput_Value_x extends ResthopperParameter {
+class ArcSineInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class ArcSineInput_Value_x extends ResthopperParameter {
 
 }
 
-class ArcSineOutput_Result_y extends ResthopperParameter {
+class ArcSineOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

@@ -15,29 +15,29 @@ export default class RuledSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": RuledSurfaceInput_CurveA_A,
-		"CurveB_B": RuledSurfaceInput_CurveB_B,
+		"curvea_a": RuledSurfaceInput_curvea_a,
+		"curveb_b": RuledSurfaceInput_curveb_b,
 	}
 
 	public output:
 	{
-		"Surface_S": RuledSurfaceOutput_Surface_S,
+		"surface_s": RuledSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new RuledSurfaceInput_CurveA_A(),
-			"CurveB_B": new RuledSurfaceInput_CurveB_B(),
+			"curvea_a": new RuledSurfaceInput_curvea_a(),
+			"curveb_b": new RuledSurfaceInput_curveb_b(),
 		}
 		this.output = {
-			"Surface_S": new RuledSurfaceOutput_Surface_S(),
+			"surface_s": new RuledSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class RuledSurfaceInput_CurveA_A extends ResthopperParameter {
+class RuledSurfaceInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class RuledSurfaceInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class RuledSurfaceInput_CurveB_B extends ResthopperParameter {
+class RuledSurfaceInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class RuledSurfaceInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class RuledSurfaceOutput_Surface_S extends ResthopperParameter {
+class RuledSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

@@ -15,35 +15,35 @@ export default class ClosedEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": ClosedEdgesInput_Brep_B,
-		"Tangency_T": ClosedEdgesInput_Tangency_T,
+		"brep_b": ClosedEdgesInput_brep_b,
+		"tangency_t": ClosedEdgesInput_tangency_t,
 	}
 
 	public output:
 	{
-		"Closed_C": ClosedEdgesOutput_Closed_C,
-		"ClosedIndices_Ci": ClosedEdgesOutput_ClosedIndices_Ci,
-		"Open_O": ClosedEdgesOutput_Open_O,
-		"OpenIndices_Oi": ClosedEdgesOutput_OpenIndices_Oi,
+		"closed_c": ClosedEdgesOutput_closed_c,
+		"closedindices_ci": ClosedEdgesOutput_closedindices_ci,
+		"open_o": ClosedEdgesOutput_open_o,
+		"openindices_oi": ClosedEdgesOutput_openindices_oi,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new ClosedEdgesInput_Brep_B(),
-			"Tangency_T": new ClosedEdgesInput_Tangency_T(),
+			"brep_b": new ClosedEdgesInput_brep_b(),
+			"tangency_t": new ClosedEdgesInput_tangency_t(),
 		}
 		this.output = {
-			"Closed_C": new ClosedEdgesOutput_Closed_C(),
-			"ClosedIndices_Ci": new ClosedEdgesOutput_ClosedIndices_Ci(),
-			"Open_O": new ClosedEdgesOutput_Open_O(),
-			"OpenIndices_Oi": new ClosedEdgesOutput_OpenIndices_Oi(),
+			"closed_c": new ClosedEdgesOutput_closed_c(),
+			"closedindices_ci": new ClosedEdgesOutput_closedindices_ci(),
+			"open_o": new ClosedEdgesOutput_open_o(),
+			"openindices_oi": new ClosedEdgesOutput_openindices_oi(),
 		}
 	}
 
 }
 
-class ClosedEdgesInput_Brep_B extends ResthopperParameter {
+class ClosedEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -57,7 +57,7 @@ class ClosedEdgesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class ClosedEdgesInput_Tangency_T extends ResthopperParameter {
+class ClosedEdgesInput_tangency_t extends ResthopperParameter {
 
 	public name: string = "Tangency";
 	public nickName: string = "T";
@@ -71,7 +71,7 @@ class ClosedEdgesInput_Tangency_T extends ResthopperParameter {
 
 }
 
-class ClosedEdgesOutput_Closed_C extends ResthopperParameter {
+class ClosedEdgesOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class ClosedEdgesOutput_Closed_C extends ResthopperParameter {
 
 }
 
-class ClosedEdgesOutput_ClosedIndices_Ci extends ResthopperParameter {
+class ClosedEdgesOutput_closedindices_ci extends ResthopperParameter {
 
 	public name: string = "ClosedIndices";
 	public nickName: string = "Ci";
@@ -99,7 +99,7 @@ class ClosedEdgesOutput_ClosedIndices_Ci extends ResthopperParameter {
 
 }
 
-class ClosedEdgesOutput_Open_O extends ResthopperParameter {
+class ClosedEdgesOutput_open_o extends ResthopperParameter {
 
 	public name: string = "Open";
 	public nickName: string = "O";
@@ -113,7 +113,7 @@ class ClosedEdgesOutput_Open_O extends ResthopperParameter {
 
 }
 
-class ClosedEdgesOutput_OpenIndices_Oi extends ResthopperParameter {
+class ClosedEdgesOutput_openindices_oi extends ResthopperParameter {
 
 	public name: string = "OpenIndices";
 	public nickName: string = "Oi";

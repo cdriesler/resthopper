@@ -15,31 +15,31 @@ export default class CircleCNR extends ResthopperComponent {
 
 	public input:
 	{
-		"Center_C": CircleCNRInput_Center_C,
-		"Normal_N": CircleCNRInput_Normal_N,
-		"Radius_R": CircleCNRInput_Radius_R,
+		"center_c": CircleCNRInput_center_c,
+		"normal_n": CircleCNRInput_normal_n,
+		"radius_r": CircleCNRInput_radius_r,
 	}
 
 	public output:
 	{
-		"Circle_C": CircleCNROutput_Circle_C,
+		"circle_c": CircleCNROutput_circle_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Center_C": new CircleCNRInput_Center_C(),
-			"Normal_N": new CircleCNRInput_Normal_N(),
-			"Radius_R": new CircleCNRInput_Radius_R(),
+			"center_c": new CircleCNRInput_center_c(),
+			"normal_n": new CircleCNRInput_normal_n(),
+			"radius_r": new CircleCNRInput_radius_r(),
 		}
 		this.output = {
-			"Circle_C": new CircleCNROutput_Circle_C(),
+			"circle_c": new CircleCNROutput_circle_c(),
 		}
 	}
 
 }
 
-class CircleCNRInput_Center_C extends ResthopperParameter {
+class CircleCNRInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class CircleCNRInput_Center_C extends ResthopperParameter {
 
 }
 
-class CircleCNRInput_Normal_N extends ResthopperParameter {
+class CircleCNRInput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class CircleCNRInput_Normal_N extends ResthopperParameter {
 
 }
 
-class CircleCNRInput_Radius_R extends ResthopperParameter {
+class CircleCNRInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class CircleCNRInput_Radius_R extends ResthopperParameter {
 
 }
 
-class CircleCNROutput_Circle_C extends ResthopperParameter {
+class CircleCNROutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";

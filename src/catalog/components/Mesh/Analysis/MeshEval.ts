@@ -15,33 +15,33 @@ export default class MeshEval extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshEvalInput_Mesh_M,
-		"Parameter_P": MeshEvalInput_Parameter_P,
+		"mesh_m": MeshEvalInput_mesh_m,
+		"parameter_p": MeshEvalInput_parameter_p,
 	}
 
 	public output:
 	{
-		"Point_P": MeshEvalOutput_Point_P,
-		"Normal_N": MeshEvalOutput_Normal_N,
-		"Colour_C": MeshEvalOutput_Colour_C,
+		"point_p": MeshEvalOutput_point_p,
+		"normal_n": MeshEvalOutput_normal_n,
+		"colour_c": MeshEvalOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshEvalInput_Mesh_M(),
-			"Parameter_P": new MeshEvalInput_Parameter_P(),
+			"mesh_m": new MeshEvalInput_mesh_m(),
+			"parameter_p": new MeshEvalInput_parameter_p(),
 		}
 		this.output = {
-			"Point_P": new MeshEvalOutput_Point_P(),
-			"Normal_N": new MeshEvalOutput_Normal_N(),
-			"Colour_C": new MeshEvalOutput_Colour_C(),
+			"point_p": new MeshEvalOutput_point_p(),
+			"normal_n": new MeshEvalOutput_normal_n(),
+			"colour_c": new MeshEvalOutput_colour_c(),
 		}
 	}
 
 }
 
-class MeshEvalInput_Mesh_M extends ResthopperParameter {
+class MeshEvalInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class MeshEvalInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshEvalInput_Parameter_P extends ResthopperParameter {
+class MeshEvalInput_parameter_p extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class MeshEvalInput_Parameter_P extends ResthopperParameter {
 
 }
 
-class MeshEvalOutput_Point_P extends ResthopperParameter {
+class MeshEvalOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class MeshEvalOutput_Point_P extends ResthopperParameter {
 
 }
 
-class MeshEvalOutput_Normal_N extends ResthopperParameter {
+class MeshEvalOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
@@ -97,7 +97,7 @@ class MeshEvalOutput_Normal_N extends ResthopperParameter {
 
 }
 
-class MeshEvalOutput_Colour_C extends ResthopperParameter {
+class MeshEvalOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

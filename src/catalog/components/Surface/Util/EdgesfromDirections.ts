@@ -15,37 +15,37 @@ export default class EdgesfromDirections extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": EdgesfromDirectionsInput_Brep_B,
-		"Directions_D": EdgesfromDirectionsInput_Directions_D,
-		"Reflex_R": EdgesfromDirectionsInput_Reflex_R,
-		"Angle_A": EdgesfromDirectionsInput_Angle_A,
+		"brep_b": EdgesfromDirectionsInput_brep_b,
+		"directions_d": EdgesfromDirectionsInput_directions_d,
+		"reflex_r": EdgesfromDirectionsInput_reflex_r,
+		"angle_a": EdgesfromDirectionsInput_angle_a,
 	}
 
 	public output:
 	{
-		"Edges_E": EdgesfromDirectionsOutput_Edges_E,
-		"Indices_I": EdgesfromDirectionsOutput_Indices_I,
-		"Map_M": EdgesfromDirectionsOutput_Map_M,
+		"edges_e": EdgesfromDirectionsOutput_edges_e,
+		"indices_i": EdgesfromDirectionsOutput_indices_i,
+		"map_m": EdgesfromDirectionsOutput_map_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new EdgesfromDirectionsInput_Brep_B(),
-			"Directions_D": new EdgesfromDirectionsInput_Directions_D(),
-			"Reflex_R": new EdgesfromDirectionsInput_Reflex_R(),
-			"Angle_A": new EdgesfromDirectionsInput_Angle_A(),
+			"brep_b": new EdgesfromDirectionsInput_brep_b(),
+			"directions_d": new EdgesfromDirectionsInput_directions_d(),
+			"reflex_r": new EdgesfromDirectionsInput_reflex_r(),
+			"angle_a": new EdgesfromDirectionsInput_angle_a(),
 		}
 		this.output = {
-			"Edges_E": new EdgesfromDirectionsOutput_Edges_E(),
-			"Indices_I": new EdgesfromDirectionsOutput_Indices_I(),
-			"Map_M": new EdgesfromDirectionsOutput_Map_M(),
+			"edges_e": new EdgesfromDirectionsOutput_edges_e(),
+			"indices_i": new EdgesfromDirectionsOutput_indices_i(),
+			"map_m": new EdgesfromDirectionsOutput_map_m(),
 		}
 	}
 
 }
 
-class EdgesfromDirectionsInput_Brep_B extends ResthopperParameter {
+class EdgesfromDirectionsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -59,7 +59,7 @@ class EdgesfromDirectionsInput_Brep_B extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsInput_Directions_D extends ResthopperParameter {
+class EdgesfromDirectionsInput_directions_d extends ResthopperParameter {
 
 	public name: string = "Directions";
 	public nickName: string = "D";
@@ -73,7 +73,7 @@ class EdgesfromDirectionsInput_Directions_D extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsInput_Reflex_R extends ResthopperParameter {
+class EdgesfromDirectionsInput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";
@@ -87,7 +87,7 @@ class EdgesfromDirectionsInput_Reflex_R extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsInput_Angle_A extends ResthopperParameter {
+class EdgesfromDirectionsInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -101,7 +101,7 @@ class EdgesfromDirectionsInput_Angle_A extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsOutput_Edges_E extends ResthopperParameter {
+class EdgesfromDirectionsOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -115,7 +115,7 @@ class EdgesfromDirectionsOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsOutput_Indices_I extends ResthopperParameter {
+class EdgesfromDirectionsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -129,7 +129,7 @@ class EdgesfromDirectionsOutput_Indices_I extends ResthopperParameter {
 
 }
 
-class EdgesfromDirectionsOutput_Map_M extends ResthopperParameter {
+class EdgesfromDirectionsOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";

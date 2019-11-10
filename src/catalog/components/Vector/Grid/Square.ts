@@ -15,35 +15,35 @@ export default class Square extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": SquareInput_Plane_P,
-		"Size_S": SquareInput_Size_S,
-		"ExtentX_Ex": SquareInput_ExtentX_Ex,
-		"ExtentY_Ey": SquareInput_ExtentY_Ey,
+		"plane_p": SquareInput_plane_p,
+		"size_s": SquareInput_size_s,
+		"extentx_ex": SquareInput_extentx_ex,
+		"extenty_ey": SquareInput_extenty_ey,
 	}
 
 	public output:
 	{
-		"Cells_C": SquareOutput_Cells_C,
-		"Points_P": SquareOutput_Points_P,
+		"cells_c": SquareOutput_cells_c,
+		"points_p": SquareOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new SquareInput_Plane_P(),
-			"Size_S": new SquareInput_Size_S(),
-			"ExtentX_Ex": new SquareInput_ExtentX_Ex(),
-			"ExtentY_Ey": new SquareInput_ExtentY_Ey(),
+			"plane_p": new SquareInput_plane_p(),
+			"size_s": new SquareInput_size_s(),
+			"extentx_ex": new SquareInput_extentx_ex(),
+			"extenty_ey": new SquareInput_extenty_ey(),
 		}
 		this.output = {
-			"Cells_C": new SquareOutput_Cells_C(),
-			"Points_P": new SquareOutput_Points_P(),
+			"cells_c": new SquareOutput_cells_c(),
+			"points_p": new SquareOutput_points_p(),
 		}
 	}
 
 }
 
-class SquareInput_Plane_P extends ResthopperParameter {
+class SquareInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class SquareInput_Plane_P extends ResthopperParameter {
 
 }
 
-class SquareInput_Size_S extends ResthopperParameter {
+class SquareInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class SquareInput_Size_S extends ResthopperParameter {
 
 }
 
-class SquareInput_ExtentX_Ex extends ResthopperParameter {
+class SquareInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
@@ -85,7 +85,7 @@ class SquareInput_ExtentX_Ex extends ResthopperParameter {
 
 }
 
-class SquareInput_ExtentY_Ey extends ResthopperParameter {
+class SquareInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
@@ -99,7 +99,7 @@ class SquareInput_ExtentY_Ey extends ResthopperParameter {
 
 }
 
-class SquareOutput_Cells_C extends ResthopperParameter {
+class SquareOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class SquareOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class SquareOutput_Points_P extends ResthopperParameter {
+class SquareOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

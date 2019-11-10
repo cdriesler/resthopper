@@ -15,31 +15,31 @@ export default class OffsetSurfaceLoose extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": OffsetSurfaceLooseInput_Surface_S,
-		"Distance_D": OffsetSurfaceLooseInput_Distance_D,
-		"Retrim_T": OffsetSurfaceLooseInput_Retrim_T,
+		"surface_s": OffsetSurfaceLooseInput_surface_s,
+		"distance_d": OffsetSurfaceLooseInput_distance_d,
+		"retrim_t": OffsetSurfaceLooseInput_retrim_t,
 	}
 
 	public output:
 	{
-		"Surface_S": OffsetSurfaceLooseOutput_Surface_S,
+		"surface_s": OffsetSurfaceLooseOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new OffsetSurfaceLooseInput_Surface_S(),
-			"Distance_D": new OffsetSurfaceLooseInput_Distance_D(),
-			"Retrim_T": new OffsetSurfaceLooseInput_Retrim_T(),
+			"surface_s": new OffsetSurfaceLooseInput_surface_s(),
+			"distance_d": new OffsetSurfaceLooseInput_distance_d(),
+			"retrim_t": new OffsetSurfaceLooseInput_retrim_t(),
 		}
 		this.output = {
-			"Surface_S": new OffsetSurfaceLooseOutput_Surface_S(),
+			"surface_s": new OffsetSurfaceLooseOutput_surface_s(),
 		}
 	}
 
 }
 
-class OffsetSurfaceLooseInput_Surface_S extends ResthopperParameter {
+class OffsetSurfaceLooseInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class OffsetSurfaceLooseInput_Surface_S extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceLooseInput_Distance_D extends ResthopperParameter {
+class OffsetSurfaceLooseInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetSurfaceLooseInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceLooseInput_Retrim_T extends ResthopperParameter {
+class OffsetSurfaceLooseInput_retrim_t extends ResthopperParameter {
 
 	public name: string = "Retrim";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class OffsetSurfaceLooseInput_Retrim_T extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceLooseOutput_Surface_S extends ResthopperParameter {
+class OffsetSurfaceLooseOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

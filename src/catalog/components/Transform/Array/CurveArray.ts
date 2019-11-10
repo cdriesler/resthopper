@@ -15,33 +15,33 @@ export default class CurveArray extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": CurveArrayInput_Geometry_G,
-		"Curve_C": CurveArrayInput_Curve_C,
-		"Count_N": CurveArrayInput_Count_N,
+		"geometry_g": CurveArrayInput_geometry_g,
+		"curve_c": CurveArrayInput_curve_c,
+		"count_n": CurveArrayInput_count_n,
 	}
 
 	public output:
 	{
-		"Geometry_G": CurveArrayOutput_Geometry_G,
-		"Transform_X": CurveArrayOutput_Transform_X,
+		"geometry_g": CurveArrayOutput_geometry_g,
+		"transform_x": CurveArrayOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new CurveArrayInput_Geometry_G(),
-			"Curve_C": new CurveArrayInput_Curve_C(),
-			"Count_N": new CurveArrayInput_Count_N(),
+			"geometry_g": new CurveArrayInput_geometry_g(),
+			"curve_c": new CurveArrayInput_curve_c(),
+			"count_n": new CurveArrayInput_count_n(),
 		}
 		this.output = {
-			"Geometry_G": new CurveArrayOutput_Geometry_G(),
-			"Transform_X": new CurveArrayOutput_Transform_X(),
+			"geometry_g": new CurveArrayOutput_geometry_g(),
+			"transform_x": new CurveArrayOutput_transform_x(),
 		}
 	}
 
 }
 
-class CurveArrayInput_Geometry_G extends ResthopperParameter {
+class CurveArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class CurveArrayInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CurveArrayInput_Curve_C extends ResthopperParameter {
+class CurveArrayInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class CurveArrayInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveArrayInput_Count_N extends ResthopperParameter {
+class CurveArrayInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -83,7 +83,7 @@ class CurveArrayInput_Count_N extends ResthopperParameter {
 
 }
 
-class CurveArrayOutput_Geometry_G extends ResthopperParameter {
+class CurveArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class CurveArrayOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CurveArrayOutput_Transform_X extends ResthopperParameter {
+class CurveArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

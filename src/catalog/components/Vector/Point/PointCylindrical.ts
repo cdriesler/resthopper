@@ -15,33 +15,33 @@ export default class PointCylindrical extends ResthopperComponent {
 
 	public input:
 	{
-		"Baseplane_P": PointCylindricalInput_Baseplane_P,
-		"Angle_A": PointCylindricalInput_Angle_A,
-		"Radius_R": PointCylindricalInput_Radius_R,
-		"Elevation_E": PointCylindricalInput_Elevation_E,
+		"baseplane_p": PointCylindricalInput_baseplane_p,
+		"angle_a": PointCylindricalInput_angle_a,
+		"radius_r": PointCylindricalInput_radius_r,
+		"elevation_e": PointCylindricalInput_elevation_e,
 	}
 
 	public output:
 	{
-		"Point_Pt": PointCylindricalOutput_Point_Pt,
+		"point_pt": PointCylindricalOutput_point_pt,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Baseplane_P": new PointCylindricalInput_Baseplane_P(),
-			"Angle_A": new PointCylindricalInput_Angle_A(),
-			"Radius_R": new PointCylindricalInput_Radius_R(),
-			"Elevation_E": new PointCylindricalInput_Elevation_E(),
+			"baseplane_p": new PointCylindricalInput_baseplane_p(),
+			"angle_a": new PointCylindricalInput_angle_a(),
+			"radius_r": new PointCylindricalInput_radius_r(),
+			"elevation_e": new PointCylindricalInput_elevation_e(),
 		}
 		this.output = {
-			"Point_Pt": new PointCylindricalOutput_Point_Pt(),
+			"point_pt": new PointCylindricalOutput_point_pt(),
 		}
 	}
 
 }
 
-class PointCylindricalInput_Baseplane_P extends ResthopperParameter {
+class PointCylindricalInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PointCylindricalInput_Baseplane_P extends ResthopperParameter {
 
 }
 
-class PointCylindricalInput_Angle_A extends ResthopperParameter {
+class PointCylindricalInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class PointCylindricalInput_Angle_A extends ResthopperParameter {
 
 }
 
-class PointCylindricalInput_Radius_R extends ResthopperParameter {
+class PointCylindricalInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class PointCylindricalInput_Radius_R extends ResthopperParameter {
 
 }
 
-class PointCylindricalInput_Elevation_E extends ResthopperParameter {
+class PointCylindricalInput_elevation_e extends ResthopperParameter {
 
 	public name: string = "Elevation";
 	public nickName: string = "E";
@@ -97,7 +97,7 @@ class PointCylindricalInput_Elevation_E extends ResthopperParameter {
 
 }
 
-class PointCylindricalOutput_Point_Pt extends ResthopperParameter {
+class PointCylindricalOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";

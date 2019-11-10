@@ -15,29 +15,29 @@ export default class GateNor extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateNorInput_A_A,
-		"B_B": GateNorInput_B_B,
+		"a_a": GateNorInput_a_a,
+		"b_b": GateNorInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": GateNorOutput_Result_R,
+		"result_r": GateNorOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateNorInput_A_A(),
-			"B_B": new GateNorInput_B_B(),
+			"a_a": new GateNorInput_a_a(),
+			"b_b": new GateNorInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new GateNorOutput_Result_R(),
+			"result_r": new GateNorOutput_result_r(),
 		}
 	}
 
 }
 
-class GateNorInput_A_A extends ResthopperParameter {
+class GateNorInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class GateNorInput_A_A extends ResthopperParameter {
 
 }
 
-class GateNorInput_B_B extends ResthopperParameter {
+class GateNorInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class GateNorInput_B_B extends ResthopperParameter {
 
 }
 
-class GateNorOutput_Result_R extends ResthopperParameter {
+class GateNorOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

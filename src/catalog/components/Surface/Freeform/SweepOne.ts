@@ -15,31 +15,31 @@ export default class SweepOne extends ResthopperComponent {
 
 	public input:
 	{
-		"Rail_R": SweepOneInput_Rail_R,
-		"Sections_S": SweepOneInput_Sections_S,
-		"Miter_M": SweepOneInput_Miter_M,
+		"rail_r": SweepOneInput_rail_r,
+		"sections_s": SweepOneInput_sections_s,
+		"miter_m": SweepOneInput_miter_m,
 	}
 
 	public output:
 	{
-		"Brep_S": SweepOneOutput_Brep_S,
+		"brep_s": SweepOneOutput_brep_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Rail_R": new SweepOneInput_Rail_R(),
-			"Sections_S": new SweepOneInput_Sections_S(),
-			"Miter_M": new SweepOneInput_Miter_M(),
+			"rail_r": new SweepOneInput_rail_r(),
+			"sections_s": new SweepOneInput_sections_s(),
+			"miter_m": new SweepOneInput_miter_m(),
 		}
 		this.output = {
-			"Brep_S": new SweepOneOutput_Brep_S(),
+			"brep_s": new SweepOneOutput_brep_s(),
 		}
 	}
 
 }
 
-class SweepOneInput_Rail_R extends ResthopperParameter {
+class SweepOneInput_rail_r extends ResthopperParameter {
 
 	public name: string = "Rail";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class SweepOneInput_Rail_R extends ResthopperParameter {
 
 }
 
-class SweepOneInput_Sections_S extends ResthopperParameter {
+class SweepOneInput_sections_s extends ResthopperParameter {
 
 	public name: string = "Sections";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class SweepOneInput_Sections_S extends ResthopperParameter {
 
 }
 
-class SweepOneInput_Miter_M extends ResthopperParameter {
+class SweepOneInput_miter_m extends ResthopperParameter {
 
 	public name: string = "Miter";
 	public nickName: string = "M";
@@ -81,7 +81,7 @@ class SweepOneInput_Miter_M extends ResthopperParameter {
 
 }
 
-class SweepOneOutput_Brep_S extends ResthopperParameter {
+class SweepOneOutput_brep_s extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "S";

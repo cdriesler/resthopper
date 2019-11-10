@@ -15,29 +15,29 @@ export default class PolyLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": PolyLineInput_Vertices_V,
-		"Closed_C": PolyLineInput_Closed_C,
+		"vertices_v": PolyLineInput_vertices_v,
+		"closed_c": PolyLineInput_closed_c,
 	}
 
 	public output:
 	{
-		"Polyline_Pl": PolyLineOutput_Polyline_Pl,
+		"polyline_pl": PolyLineOutput_polyline_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new PolyLineInput_Vertices_V(),
-			"Closed_C": new PolyLineInput_Closed_C(),
+			"vertices_v": new PolyLineInput_vertices_v(),
+			"closed_c": new PolyLineInput_closed_c(),
 		}
 		this.output = {
-			"Polyline_Pl": new PolyLineOutput_Polyline_Pl(),
+			"polyline_pl": new PolyLineOutput_polyline_pl(),
 		}
 	}
 
 }
 
-class PolyLineInput_Vertices_V extends ResthopperParameter {
+class PolyLineInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -51,7 +51,7 @@ class PolyLineInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class PolyLineInput_Closed_C extends ResthopperParameter {
+class PolyLineInput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class PolyLineInput_Closed_C extends ResthopperParameter {
 
 }
 
-class PolyLineOutput_Polyline_Pl extends ResthopperParameter {
+class PolyLineOutput_polyline_pl extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "Pl";

@@ -15,31 +15,31 @@ export default class DeleteVertices extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": DeleteVerticesInput_Mesh_M,
-		"Indices_I": DeleteVerticesInput_Indices_I,
-		"Shrink_S": DeleteVerticesInput_Shrink_S,
+		"mesh_m": DeleteVerticesInput_mesh_m,
+		"indices_i": DeleteVerticesInput_indices_i,
+		"shrink_s": DeleteVerticesInput_shrink_s,
 	}
 
 	public output:
 	{
-		"Mesh_M": DeleteVerticesOutput_Mesh_M,
+		"mesh_m": DeleteVerticesOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new DeleteVerticesInput_Mesh_M(),
-			"Indices_I": new DeleteVerticesInput_Indices_I(),
-			"Shrink_S": new DeleteVerticesInput_Shrink_S(),
+			"mesh_m": new DeleteVerticesInput_mesh_m(),
+			"indices_i": new DeleteVerticesInput_indices_i(),
+			"shrink_s": new DeleteVerticesInput_shrink_s(),
 		}
 		this.output = {
-			"Mesh_M": new DeleteVerticesOutput_Mesh_M(),
+			"mesh_m": new DeleteVerticesOutput_mesh_m(),
 		}
 	}
 
 }
 
-class DeleteVerticesInput_Mesh_M extends ResthopperParameter {
+class DeleteVerticesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class DeleteVerticesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class DeleteVerticesInput_Indices_I extends ResthopperParameter {
+class DeleteVerticesInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -67,7 +67,7 @@ class DeleteVerticesInput_Indices_I extends ResthopperParameter {
 
 }
 
-class DeleteVerticesInput_Shrink_S extends ResthopperParameter {
+class DeleteVerticesInput_shrink_s extends ResthopperParameter {
 
 	public name: string = "Shrink";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class DeleteVerticesInput_Shrink_S extends ResthopperParameter {
 
 }
 
-class DeleteVerticesOutput_Mesh_M extends ResthopperParameter {
+class DeleteVerticesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

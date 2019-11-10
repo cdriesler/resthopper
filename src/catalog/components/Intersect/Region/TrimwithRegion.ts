@@ -15,33 +15,33 @@ export default class TrimwithRegion extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": TrimwithRegionInput_Curve_C,
-		"Region_R": TrimwithRegionInput_Region_R,
-		"Plane_P": TrimwithRegionInput_Plane_P,
+		"curve_c": TrimwithRegionInput_curve_c,
+		"region_r": TrimwithRegionInput_region_r,
+		"plane_p": TrimwithRegionInput_plane_p,
 	}
 
 	public output:
 	{
-		"Inside_Ci": TrimwithRegionOutput_Inside_Ci,
-		"Outside_Co": TrimwithRegionOutput_Outside_Co,
+		"inside_ci": TrimwithRegionOutput_inside_ci,
+		"outside_co": TrimwithRegionOutput_outside_co,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new TrimwithRegionInput_Curve_C(),
-			"Region_R": new TrimwithRegionInput_Region_R(),
-			"Plane_P": new TrimwithRegionInput_Plane_P(),
+			"curve_c": new TrimwithRegionInput_curve_c(),
+			"region_r": new TrimwithRegionInput_region_r(),
+			"plane_p": new TrimwithRegionInput_plane_p(),
 		}
 		this.output = {
-			"Inside_Ci": new TrimwithRegionOutput_Inside_Ci(),
-			"Outside_Co": new TrimwithRegionOutput_Outside_Co(),
+			"inside_ci": new TrimwithRegionOutput_inside_ci(),
+			"outside_co": new TrimwithRegionOutput_outside_co(),
 		}
 	}
 
 }
 
-class TrimwithRegionInput_Curve_C extends ResthopperParameter {
+class TrimwithRegionInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class TrimwithRegionInput_Curve_C extends ResthopperParameter {
 
 }
 
-class TrimwithRegionInput_Region_R extends ResthopperParameter {
+class TrimwithRegionInput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";
@@ -69,7 +69,7 @@ class TrimwithRegionInput_Region_R extends ResthopperParameter {
 
 }
 
-class TrimwithRegionInput_Plane_P extends ResthopperParameter {
+class TrimwithRegionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class TrimwithRegionInput_Plane_P extends ResthopperParameter {
 
 }
 
-class TrimwithRegionOutput_Inside_Ci extends ResthopperParameter {
+class TrimwithRegionOutput_inside_ci extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "Ci";
@@ -97,7 +97,7 @@ class TrimwithRegionOutput_Inside_Ci extends ResthopperParameter {
 
 }
 
-class TrimwithRegionOutput_Outside_Co extends ResthopperParameter {
+class TrimwithRegionOutput_outside_co extends ResthopperParameter {
 
 	public name: string = "Outside";
 	public nickName: string = "Co";

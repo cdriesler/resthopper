@@ -15,37 +15,37 @@ export default class CatenaryEx extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": CatenaryExInput_PointA_A,
-		"PointB_B": CatenaryExInput_PointB_B,
-		"Lengths_L": CatenaryExInput_Lengths_L,
-		"Weights_W": CatenaryExInput_Weights_W,
-		"Gravity_G": CatenaryExInput_Gravity_G,
+		"pointa_a": CatenaryExInput_pointa_a,
+		"pointb_b": CatenaryExInput_pointb_b,
+		"lengths_l": CatenaryExInput_lengths_l,
+		"weights_w": CatenaryExInput_weights_w,
+		"gravity_g": CatenaryExInput_gravity_g,
 	}
 
 	public output:
 	{
-		"Catenary_C": CatenaryExOutput_Catenary_C,
-		"Segments_S": CatenaryExOutput_Segments_S,
+		"catenary_c": CatenaryExOutput_catenary_c,
+		"segments_s": CatenaryExOutput_segments_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new CatenaryExInput_PointA_A(),
-			"PointB_B": new CatenaryExInput_PointB_B(),
-			"Lengths_L": new CatenaryExInput_Lengths_L(),
-			"Weights_W": new CatenaryExInput_Weights_W(),
-			"Gravity_G": new CatenaryExInput_Gravity_G(),
+			"pointa_a": new CatenaryExInput_pointa_a(),
+			"pointb_b": new CatenaryExInput_pointb_b(),
+			"lengths_l": new CatenaryExInput_lengths_l(),
+			"weights_w": new CatenaryExInput_weights_w(),
+			"gravity_g": new CatenaryExInput_gravity_g(),
 		}
 		this.output = {
-			"Catenary_C": new CatenaryExOutput_Catenary_C(),
-			"Segments_S": new CatenaryExOutput_Segments_S(),
+			"catenary_c": new CatenaryExOutput_catenary_c(),
+			"segments_s": new CatenaryExOutput_segments_s(),
 		}
 	}
 
 }
 
-class CatenaryExInput_PointA_A extends ResthopperParameter {
+class CatenaryExInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class CatenaryExInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CatenaryExInput_PointB_B extends ResthopperParameter {
+class CatenaryExInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class CatenaryExInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CatenaryExInput_Lengths_L extends ResthopperParameter {
+class CatenaryExInput_lengths_l extends ResthopperParameter {
 
 	public name: string = "Lengths";
 	public nickName: string = "L";
@@ -87,7 +87,7 @@ class CatenaryExInput_Lengths_L extends ResthopperParameter {
 
 }
 
-class CatenaryExInput_Weights_W extends ResthopperParameter {
+class CatenaryExInput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
@@ -101,7 +101,7 @@ class CatenaryExInput_Weights_W extends ResthopperParameter {
 
 }
 
-class CatenaryExInput_Gravity_G extends ResthopperParameter {
+class CatenaryExInput_gravity_g extends ResthopperParameter {
 
 	public name: string = "Gravity";
 	public nickName: string = "G";
@@ -115,7 +115,7 @@ class CatenaryExInput_Gravity_G extends ResthopperParameter {
 
 }
 
-class CatenaryExOutput_Catenary_C extends ResthopperParameter {
+class CatenaryExOutput_catenary_c extends ResthopperParameter {
 
 	public name: string = "Catenary";
 	public nickName: string = "C";
@@ -129,7 +129,7 @@ class CatenaryExOutput_Catenary_C extends ResthopperParameter {
 
 }
 
-class CatenaryExOutput_Segments_S extends ResthopperParameter {
+class CatenaryExOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";

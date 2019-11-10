@@ -15,27 +15,27 @@ export default class VectorLength extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": VectorLengthInput_Vector_V,
+		"vector_v": VectorLengthInput_vector_v,
 	}
 
 	public output:
 	{
-		"Length_L": VectorLengthOutput_Length_L,
+		"length_l": VectorLengthOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new VectorLengthInput_Vector_V(),
+			"vector_v": new VectorLengthInput_vector_v(),
 		}
 		this.output = {
-			"Length_L": new VectorLengthOutput_Length_L(),
+			"length_l": new VectorLengthOutput_length_l(),
 		}
 	}
 
 }
 
-class VectorLengthInput_Vector_V extends ResthopperParameter {
+class VectorLengthInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -49,7 +49,7 @@ class VectorLengthInput_Vector_V extends ResthopperParameter {
 
 }
 
-class VectorLengthOutput_Length_L extends ResthopperParameter {
+class VectorLengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

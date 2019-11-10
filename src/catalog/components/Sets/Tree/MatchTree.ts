@@ -15,29 +15,29 @@ export default class MatchTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": MatchTreeInput_Tree_T,
-		"Guide_G": MatchTreeInput_Guide_G,
+		"tree_t": MatchTreeInput_tree_t,
+		"guide_g": MatchTreeInput_guide_g,
 	}
 
 	public output:
 	{
-		"Tree_T": MatchTreeOutput_Tree_T,
+		"tree_t": MatchTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new MatchTreeInput_Tree_T(),
-			"Guide_G": new MatchTreeInput_Guide_G(),
+			"tree_t": new MatchTreeInput_tree_t(),
+			"guide_g": new MatchTreeInput_guide_g(),
 		}
 		this.output = {
-			"Tree_T": new MatchTreeOutput_Tree_T(),
+			"tree_t": new MatchTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class MatchTreeInput_Tree_T extends ResthopperParameter {
+class MatchTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class MatchTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class MatchTreeInput_Guide_G extends ResthopperParameter {
+class MatchTreeInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
@@ -65,7 +65,7 @@ class MatchTreeInput_Guide_G extends ResthopperParameter {
 
 }
 
-class MatchTreeOutput_Tree_T extends ResthopperParameter {
+class MatchTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

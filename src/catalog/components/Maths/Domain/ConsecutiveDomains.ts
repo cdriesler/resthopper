@@ -15,29 +15,29 @@ export default class ConsecutiveDomains extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": ConsecutiveDomainsInput_Numbers_N,
-		"Additive_A": ConsecutiveDomainsInput_Additive_A,
+		"numbers_n": ConsecutiveDomainsInput_numbers_n,
+		"additive_a": ConsecutiveDomainsInput_additive_a,
 	}
 
 	public output:
 	{
-		"Domains_D": ConsecutiveDomainsOutput_Domains_D,
+		"domains_d": ConsecutiveDomainsOutput_domains_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new ConsecutiveDomainsInput_Numbers_N(),
-			"Additive_A": new ConsecutiveDomainsInput_Additive_A(),
+			"numbers_n": new ConsecutiveDomainsInput_numbers_n(),
+			"additive_a": new ConsecutiveDomainsInput_additive_a(),
 		}
 		this.output = {
-			"Domains_D": new ConsecutiveDomainsOutput_Domains_D(),
+			"domains_d": new ConsecutiveDomainsOutput_domains_d(),
 		}
 	}
 
 }
 
-class ConsecutiveDomainsInput_Numbers_N extends ResthopperParameter {
+class ConsecutiveDomainsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -51,7 +51,7 @@ class ConsecutiveDomainsInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class ConsecutiveDomainsInput_Additive_A extends ResthopperParameter {
+class ConsecutiveDomainsInput_additive_a extends ResthopperParameter {
 
 	public name: string = "Additive";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class ConsecutiveDomainsInput_Additive_A extends ResthopperParameter {
 
 }
 
-class ConsecutiveDomainsOutput_Domains_D extends ResthopperParameter {
+class ConsecutiveDomainsOutput_domains_d extends ResthopperParameter {
 
 	public name: string = "Domains";
 	public nickName: string = "D";

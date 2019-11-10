@@ -15,33 +15,33 @@ export default class ReplaceItems extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ReplaceItemsInput_List_L,
-		"Item_I": ReplaceItemsInput_Item_I,
-		"Indices_i": ReplaceItemsInput_Indices_i,
-		"Wrap_W": ReplaceItemsInput_Wrap_W,
+		"list_l": ReplaceItemsInput_list_l,
+		"item_i": ReplaceItemsInput_item_i,
+		"indices_i": ReplaceItemsInput_indices_i,
+		"wrap_w": ReplaceItemsInput_wrap_w,
 	}
 
 	public output:
 	{
-		"List_L": ReplaceItemsOutput_List_L,
+		"list_l": ReplaceItemsOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ReplaceItemsInput_List_L(),
-			"Item_I": new ReplaceItemsInput_Item_I(),
-			"Indices_i": new ReplaceItemsInput_Indices_i(),
-			"Wrap_W": new ReplaceItemsInput_Wrap_W(),
+			"list_l": new ReplaceItemsInput_list_l(),
+			"item_i": new ReplaceItemsInput_item_i(),
+			"indices_i": new ReplaceItemsInput_indices_i(),
+			"wrap_w": new ReplaceItemsInput_wrap_w(),
 		}
 		this.output = {
-			"List_L": new ReplaceItemsOutput_List_L(),
+			"list_l": new ReplaceItemsOutput_list_l(),
 		}
 	}
 
 }
 
-class ReplaceItemsInput_List_L extends ResthopperParameter {
+class ReplaceItemsInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class ReplaceItemsInput_List_L extends ResthopperParameter {
 
 }
 
-class ReplaceItemsInput_Item_I extends ResthopperParameter {
+class ReplaceItemsInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
@@ -69,7 +69,7 @@ class ReplaceItemsInput_Item_I extends ResthopperParameter {
 
 }
 
-class ReplaceItemsInput_Indices_i extends ResthopperParameter {
+class ReplaceItemsInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "i";
@@ -83,7 +83,7 @@ class ReplaceItemsInput_Indices_i extends ResthopperParameter {
 
 }
 
-class ReplaceItemsInput_Wrap_W extends ResthopperParameter {
+class ReplaceItemsInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -97,7 +97,7 @@ class ReplaceItemsInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class ReplaceItemsOutput_List_L extends ResthopperParameter {
+class ReplaceItemsOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

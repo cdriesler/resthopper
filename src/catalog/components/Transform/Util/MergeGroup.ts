@@ -15,29 +15,29 @@ export default class MergeGroup extends ResthopperComponent {
 
 	public input:
 	{
-		"GroupA_A": MergeGroupInput_GroupA_A,
-		"GroupB_B": MergeGroupInput_GroupB_B,
+		"groupa_a": MergeGroupInput_groupa_a,
+		"groupb_b": MergeGroupInput_groupb_b,
 	}
 
 	public output:
 	{
-		"Group_G": MergeGroupOutput_Group_G,
+		"group_g": MergeGroupOutput_group_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"GroupA_A": new MergeGroupInput_GroupA_A(),
-			"GroupB_B": new MergeGroupInput_GroupB_B(),
+			"groupa_a": new MergeGroupInput_groupa_a(),
+			"groupb_b": new MergeGroupInput_groupb_b(),
 		}
 		this.output = {
-			"Group_G": new MergeGroupOutput_Group_G(),
+			"group_g": new MergeGroupOutput_group_g(),
 		}
 	}
 
 }
 
-class MergeGroupInput_GroupA_A extends ResthopperParameter {
+class MergeGroupInput_groupa_a extends ResthopperParameter {
 
 	public name: string = "GroupA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MergeGroupInput_GroupA_A extends ResthopperParameter {
 
 }
 
-class MergeGroupInput_GroupB_B extends ResthopperParameter {
+class MergeGroupInput_groupb_b extends ResthopperParameter {
 
 	public name: string = "GroupB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MergeGroupInput_GroupB_B extends ResthopperParameter {
 
 }
 
-class MergeGroupOutput_Group_G extends ResthopperParameter {
+class MergeGroupOutput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";

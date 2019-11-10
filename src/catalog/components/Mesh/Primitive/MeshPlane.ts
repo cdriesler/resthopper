@@ -15,33 +15,33 @@ export default class MeshPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Boundary_B": MeshPlaneInput_Boundary_B,
-		"Widthcount_W": MeshPlaneInput_Widthcount_W,
-		"Heightcount_H": MeshPlaneInput_Heightcount_H,
+		"boundary_b": MeshPlaneInput_boundary_b,
+		"widthcount_w": MeshPlaneInput_widthcount_w,
+		"heightcount_h": MeshPlaneInput_heightcount_h,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshPlaneOutput_Mesh_M,
-		"Area_A": MeshPlaneOutput_Area_A,
+		"mesh_m": MeshPlaneOutput_mesh_m,
+		"area_a": MeshPlaneOutput_area_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Boundary_B": new MeshPlaneInput_Boundary_B(),
-			"Widthcount_W": new MeshPlaneInput_Widthcount_W(),
-			"Heightcount_H": new MeshPlaneInput_Heightcount_H(),
+			"boundary_b": new MeshPlaneInput_boundary_b(),
+			"widthcount_w": new MeshPlaneInput_widthcount_w(),
+			"heightcount_h": new MeshPlaneInput_heightcount_h(),
 		}
 		this.output = {
-			"Mesh_M": new MeshPlaneOutput_Mesh_M(),
-			"Area_A": new MeshPlaneOutput_Area_A(),
+			"mesh_m": new MeshPlaneOutput_mesh_m(),
+			"area_a": new MeshPlaneOutput_area_a(),
 		}
 	}
 
 }
 
-class MeshPlaneInput_Boundary_B extends ResthopperParameter {
+class MeshPlaneInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
@@ -55,7 +55,7 @@ class MeshPlaneInput_Boundary_B extends ResthopperParameter {
 
 }
 
-class MeshPlaneInput_Widthcount_W extends ResthopperParameter {
+class MeshPlaneInput_widthcount_w extends ResthopperParameter {
 
 	public name: string = "Widthcount";
 	public nickName: string = "W";
@@ -69,7 +69,7 @@ class MeshPlaneInput_Widthcount_W extends ResthopperParameter {
 
 }
 
-class MeshPlaneInput_Heightcount_H extends ResthopperParameter {
+class MeshPlaneInput_heightcount_h extends ResthopperParameter {
 
 	public name: string = "Heightcount";
 	public nickName: string = "H";
@@ -83,7 +83,7 @@ class MeshPlaneInput_Heightcount_H extends ResthopperParameter {
 
 }
 
-class MeshPlaneOutput_Mesh_M extends ResthopperParameter {
+class MeshPlaneOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -97,7 +97,7 @@ class MeshPlaneOutput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshPlaneOutput_Area_A extends ResthopperParameter {
+class MeshPlaneOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";

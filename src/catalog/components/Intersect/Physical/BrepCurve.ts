@@ -15,31 +15,31 @@ export default class BrepCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepCurveInput_Brep_B,
-		"Curve_C": BrepCurveInput_Curve_C,
+		"brep_b": BrepCurveInput_brep_b,
+		"curve_c": BrepCurveInput_curve_c,
 	}
 
 	public output:
 	{
-		"Curves_C": BrepCurveOutput_Curves_C,
-		"Points_P": BrepCurveOutput_Points_P,
+		"curves_c": BrepCurveOutput_curves_c,
+		"points_p": BrepCurveOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepCurveInput_Brep_B(),
-			"Curve_C": new BrepCurveInput_Curve_C(),
+			"brep_b": new BrepCurveInput_brep_b(),
+			"curve_c": new BrepCurveInput_curve_c(),
 		}
 		this.output = {
-			"Curves_C": new BrepCurveOutput_Curves_C(),
-			"Points_P": new BrepCurveOutput_Points_P(),
+			"curves_c": new BrepCurveOutput_curves_c(),
+			"points_p": new BrepCurveOutput_points_p(),
 		}
 	}
 
 }
 
-class BrepCurveInput_Brep_B extends ResthopperParameter {
+class BrepCurveInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BrepCurveInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepCurveInput_Curve_C extends ResthopperParameter {
+class BrepCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class BrepCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class BrepCurveOutput_Curves_C extends ResthopperParameter {
+class BrepCurveOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class BrepCurveOutput_Curves_C extends ResthopperParameter {
 
 }
 
-class BrepCurveOutput_Points_P extends ResthopperParameter {
+class BrepCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

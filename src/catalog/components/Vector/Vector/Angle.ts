@@ -15,33 +15,33 @@ export default class Angle extends ResthopperComponent {
 
 	public input:
 	{
-		"VectorA_A": AngleInput_VectorA_A,
-		"VectorB_B": AngleInput_VectorB_B,
-		"Plane_P": AngleInput_Plane_P,
+		"vectora_a": AngleInput_vectora_a,
+		"vectorb_b": AngleInput_vectorb_b,
+		"plane_p": AngleInput_plane_p,
 	}
 
 	public output:
 	{
-		"Angle_A": AngleOutput_Angle_A,
-		"Reflex_R": AngleOutput_Reflex_R,
+		"angle_a": AngleOutput_angle_a,
+		"reflex_r": AngleOutput_reflex_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"VectorA_A": new AngleInput_VectorA_A(),
-			"VectorB_B": new AngleInput_VectorB_B(),
-			"Plane_P": new AngleInput_Plane_P(),
+			"vectora_a": new AngleInput_vectora_a(),
+			"vectorb_b": new AngleInput_vectorb_b(),
+			"plane_p": new AngleInput_plane_p(),
 		}
 		this.output = {
-			"Angle_A": new AngleOutput_Angle_A(),
-			"Reflex_R": new AngleOutput_Reflex_R(),
+			"angle_a": new AngleOutput_angle_a(),
+			"reflex_r": new AngleOutput_reflex_r(),
 		}
 	}
 
 }
 
-class AngleInput_VectorA_A extends ResthopperParameter {
+class AngleInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class AngleInput_VectorA_A extends ResthopperParameter {
 
 }
 
-class AngleInput_VectorB_B extends ResthopperParameter {
+class AngleInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class AngleInput_VectorB_B extends ResthopperParameter {
 
 }
 
-class AngleInput_Plane_P extends ResthopperParameter {
+class AngleInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class AngleInput_Plane_P extends ResthopperParameter {
 
 }
 
-class AngleOutput_Angle_A extends ResthopperParameter {
+class AngleOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class AngleOutput_Angle_A extends ResthopperParameter {
 
 }
 
-class AngleOutput_Reflex_R extends ResthopperParameter {
+class AngleOutput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";

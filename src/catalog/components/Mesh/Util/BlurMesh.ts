@@ -15,29 +15,29 @@ export default class BlurMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": BlurMeshInput_Mesh_M,
-		"Iterations_I": BlurMeshInput_Iterations_I,
+		"mesh_m": BlurMeshInput_mesh_m,
+		"iterations_i": BlurMeshInput_iterations_i,
 	}
 
 	public output:
 	{
-		"Mesh_M": BlurMeshOutput_Mesh_M,
+		"mesh_m": BlurMeshOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new BlurMeshInput_Mesh_M(),
-			"Iterations_I": new BlurMeshInput_Iterations_I(),
+			"mesh_m": new BlurMeshInput_mesh_m(),
+			"iterations_i": new BlurMeshInput_iterations_i(),
 		}
 		this.output = {
-			"Mesh_M": new BlurMeshOutput_Mesh_M(),
+			"mesh_m": new BlurMeshOutput_mesh_m(),
 		}
 	}
 
 }
 
-class BlurMeshInput_Mesh_M extends ResthopperParameter {
+class BlurMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class BlurMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class BlurMeshInput_Iterations_I extends ResthopperParameter {
+class BlurMeshInput_iterations_i extends ResthopperParameter {
 
 	public name: string = "Iterations";
 	public nickName: string = "I";
@@ -65,7 +65,7 @@ class BlurMeshInput_Iterations_I extends ResthopperParameter {
 
 }
 
-class BlurMeshOutput_Mesh_M extends ResthopperParameter {
+class BlurMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

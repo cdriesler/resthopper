@@ -15,33 +15,33 @@ export default class TangentArcs extends ResthopperComponent {
 
 	public input:
 	{
-		"CircleA_A": TangentArcsInput_CircleA_A,
-		"CircleB_B": TangentArcsInput_CircleB_B,
-		"Radius_R": TangentArcsInput_Radius_R,
+		"circlea_a": TangentArcsInput_circlea_a,
+		"circleb_b": TangentArcsInput_circleb_b,
+		"radius_r": TangentArcsInput_radius_r,
 	}
 
 	public output:
 	{
-		"ArcA_A": TangentArcsOutput_ArcA_A,
-		"ArcB_B": TangentArcsOutput_ArcB_B,
+		"arca_a": TangentArcsOutput_arca_a,
+		"arcb_b": TangentArcsOutput_arcb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CircleA_A": new TangentArcsInput_CircleA_A(),
-			"CircleB_B": new TangentArcsInput_CircleB_B(),
-			"Radius_R": new TangentArcsInput_Radius_R(),
+			"circlea_a": new TangentArcsInput_circlea_a(),
+			"circleb_b": new TangentArcsInput_circleb_b(),
+			"radius_r": new TangentArcsInput_radius_r(),
 		}
 		this.output = {
-			"ArcA_A": new TangentArcsOutput_ArcA_A(),
-			"ArcB_B": new TangentArcsOutput_ArcB_B(),
+			"arca_a": new TangentArcsOutput_arca_a(),
+			"arcb_b": new TangentArcsOutput_arcb_b(),
 		}
 	}
 
 }
 
-class TangentArcsInput_CircleA_A extends ResthopperParameter {
+class TangentArcsInput_circlea_a extends ResthopperParameter {
 
 	public name: string = "CircleA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class TangentArcsInput_CircleA_A extends ResthopperParameter {
 
 }
 
-class TangentArcsInput_CircleB_B extends ResthopperParameter {
+class TangentArcsInput_circleb_b extends ResthopperParameter {
 
 	public name: string = "CircleB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class TangentArcsInput_CircleB_B extends ResthopperParameter {
 
 }
 
-class TangentArcsInput_Radius_R extends ResthopperParameter {
+class TangentArcsInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class TangentArcsInput_Radius_R extends ResthopperParameter {
 
 }
 
-class TangentArcsOutput_ArcA_A extends ResthopperParameter {
+class TangentArcsOutput_arca_a extends ResthopperParameter {
 
 	public name: string = "ArcA";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class TangentArcsOutput_ArcA_A extends ResthopperParameter {
 
 }
 
-class TangentArcsOutput_ArcB_B extends ResthopperParameter {
+class TangentArcsOutput_arcb_b extends ResthopperParameter {
 
 	public name: string = "ArcB";
 	public nickName: string = "B";

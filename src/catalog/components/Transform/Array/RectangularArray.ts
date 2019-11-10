@@ -15,35 +15,35 @@ export default class RectangularArray extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": RectangularArrayInput_Geometry_G,
-		"Cell_C": RectangularArrayInput_Cell_C,
-		"XCount_X": RectangularArrayInput_XCount_X,
-		"YCount_Y": RectangularArrayInput_YCount_Y,
+		"geometry_g": RectangularArrayInput_geometry_g,
+		"cell_c": RectangularArrayInput_cell_c,
+		"xcount_x": RectangularArrayInput_xcount_x,
+		"ycount_y": RectangularArrayInput_ycount_y,
 	}
 
 	public output:
 	{
-		"Geometry_G": RectangularArrayOutput_Geometry_G,
-		"Transform_X": RectangularArrayOutput_Transform_X,
+		"geometry_g": RectangularArrayOutput_geometry_g,
+		"transform_x": RectangularArrayOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new RectangularArrayInput_Geometry_G(),
-			"Cell_C": new RectangularArrayInput_Cell_C(),
-			"XCount_X": new RectangularArrayInput_XCount_X(),
-			"YCount_Y": new RectangularArrayInput_YCount_Y(),
+			"geometry_g": new RectangularArrayInput_geometry_g(),
+			"cell_c": new RectangularArrayInput_cell_c(),
+			"xcount_x": new RectangularArrayInput_xcount_x(),
+			"ycount_y": new RectangularArrayInput_ycount_y(),
 		}
 		this.output = {
-			"Geometry_G": new RectangularArrayOutput_Geometry_G(),
-			"Transform_X": new RectangularArrayOutput_Transform_X(),
+			"geometry_g": new RectangularArrayOutput_geometry_g(),
+			"transform_x": new RectangularArrayOutput_transform_x(),
 		}
 	}
 
 }
 
-class RectangularArrayInput_Geometry_G extends ResthopperParameter {
+class RectangularArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class RectangularArrayInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RectangularArrayInput_Cell_C extends ResthopperParameter {
+class RectangularArrayInput_cell_c extends ResthopperParameter {
 
 	public name: string = "Cell";
 	public nickName: string = "C";
@@ -71,7 +71,7 @@ class RectangularArrayInput_Cell_C extends ResthopperParameter {
 
 }
 
-class RectangularArrayInput_XCount_X extends ResthopperParameter {
+class RectangularArrayInput_xcount_x extends ResthopperParameter {
 
 	public name: string = "XCount";
 	public nickName: string = "X";
@@ -85,7 +85,7 @@ class RectangularArrayInput_XCount_X extends ResthopperParameter {
 
 }
 
-class RectangularArrayInput_YCount_Y extends ResthopperParameter {
+class RectangularArrayInput_ycount_y extends ResthopperParameter {
 
 	public name: string = "YCount";
 	public nickName: string = "Y";
@@ -99,7 +99,7 @@ class RectangularArrayInput_YCount_Y extends ResthopperParameter {
 
 }
 
-class RectangularArrayOutput_Geometry_G extends ResthopperParameter {
+class RectangularArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class RectangularArrayOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RectangularArrayOutput_Transform_X extends ResthopperParameter {
+class RectangularArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

@@ -15,33 +15,33 @@ export default class Quadrangulate extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": QuadrangulateInput_Mesh_M,
-		"Angle_A": QuadrangulateInput_Angle_A,
-		"Ratio_R": QuadrangulateInput_Ratio_R,
+		"mesh_m": QuadrangulateInput_mesh_m,
+		"angle_a": QuadrangulateInput_angle_a,
+		"ratio_r": QuadrangulateInput_ratio_r,
 	}
 
 	public output:
 	{
-		"Mesh_M": QuadrangulateOutput_Mesh_M,
-		"Count_N": QuadrangulateOutput_Count_N,
+		"mesh_m": QuadrangulateOutput_mesh_m,
+		"count_n": QuadrangulateOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new QuadrangulateInput_Mesh_M(),
-			"Angle_A": new QuadrangulateInput_Angle_A(),
-			"Ratio_R": new QuadrangulateInput_Ratio_R(),
+			"mesh_m": new QuadrangulateInput_mesh_m(),
+			"angle_a": new QuadrangulateInput_angle_a(),
+			"ratio_r": new QuadrangulateInput_ratio_r(),
 		}
 		this.output = {
-			"Mesh_M": new QuadrangulateOutput_Mesh_M(),
-			"Count_N": new QuadrangulateOutput_Count_N(),
+			"mesh_m": new QuadrangulateOutput_mesh_m(),
+			"count_n": new QuadrangulateOutput_count_n(),
 		}
 	}
 
 }
 
-class QuadrangulateInput_Mesh_M extends ResthopperParameter {
+class QuadrangulateInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class QuadrangulateInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class QuadrangulateInput_Angle_A extends ResthopperParameter {
+class QuadrangulateInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class QuadrangulateInput_Angle_A extends ResthopperParameter {
 
 }
 
-class QuadrangulateInput_Ratio_R extends ResthopperParameter {
+class QuadrangulateInput_ratio_r extends ResthopperParameter {
 
 	public name: string = "Ratio";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class QuadrangulateInput_Ratio_R extends ResthopperParameter {
 
 }
 
-class QuadrangulateOutput_Mesh_M extends ResthopperParameter {
+class QuadrangulateOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -97,7 +97,7 @@ class QuadrangulateOutput_Mesh_M extends ResthopperParameter {
 
 }
 
-class QuadrangulateOutput_Count_N extends ResthopperParameter {
+class QuadrangulateOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

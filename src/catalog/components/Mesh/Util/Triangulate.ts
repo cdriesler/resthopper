@@ -15,29 +15,29 @@ export default class Triangulate extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": TriangulateInput_Mesh_M,
+		"mesh_m": TriangulateInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Mesh_M": TriangulateOutput_Mesh_M,
-		"Count_N": TriangulateOutput_Count_N,
+		"mesh_m": TriangulateOutput_mesh_m,
+		"count_n": TriangulateOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new TriangulateInput_Mesh_M(),
+			"mesh_m": new TriangulateInput_mesh_m(),
 		}
 		this.output = {
-			"Mesh_M": new TriangulateOutput_Mesh_M(),
-			"Count_N": new TriangulateOutput_Count_N(),
+			"mesh_m": new TriangulateOutput_mesh_m(),
+			"count_n": new TriangulateOutput_count_n(),
 		}
 	}
 
 }
 
-class TriangulateInput_Mesh_M extends ResthopperParameter {
+class TriangulateInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class TriangulateInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class TriangulateOutput_Mesh_M extends ResthopperParameter {
+class TriangulateOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -65,7 +65,7 @@ class TriangulateOutput_Mesh_M extends ResthopperParameter {
 
 }
 
-class TriangulateOutput_Count_N extends ResthopperParameter {
+class TriangulateOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

@@ -15,37 +15,37 @@ export default class BoxArray extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": BoxArrayInput_Geometry_G,
-		"Cell_C": BoxArrayInput_Cell_C,
-		"XCount_X": BoxArrayInput_XCount_X,
-		"YCount_Y": BoxArrayInput_YCount_Y,
-		"ZCount_Z": BoxArrayInput_ZCount_Z,
+		"geometry_g": BoxArrayInput_geometry_g,
+		"cell_c": BoxArrayInput_cell_c,
+		"xcount_x": BoxArrayInput_xcount_x,
+		"ycount_y": BoxArrayInput_ycount_y,
+		"zcount_z": BoxArrayInput_zcount_z,
 	}
 
 	public output:
 	{
-		"Geometry_G": BoxArrayOutput_Geometry_G,
-		"Transform_X": BoxArrayOutput_Transform_X,
+		"geometry_g": BoxArrayOutput_geometry_g,
+		"transform_x": BoxArrayOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new BoxArrayInput_Geometry_G(),
-			"Cell_C": new BoxArrayInput_Cell_C(),
-			"XCount_X": new BoxArrayInput_XCount_X(),
-			"YCount_Y": new BoxArrayInput_YCount_Y(),
-			"ZCount_Z": new BoxArrayInput_ZCount_Z(),
+			"geometry_g": new BoxArrayInput_geometry_g(),
+			"cell_c": new BoxArrayInput_cell_c(),
+			"xcount_x": new BoxArrayInput_xcount_x(),
+			"ycount_y": new BoxArrayInput_ycount_y(),
+			"zcount_z": new BoxArrayInput_zcount_z(),
 		}
 		this.output = {
-			"Geometry_G": new BoxArrayOutput_Geometry_G(),
-			"Transform_X": new BoxArrayOutput_Transform_X(),
+			"geometry_g": new BoxArrayOutput_geometry_g(),
+			"transform_x": new BoxArrayOutput_transform_x(),
 		}
 	}
 
 }
 
-class BoxArrayInput_Geometry_G extends ResthopperParameter {
+class BoxArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class BoxArrayInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BoxArrayInput_Cell_C extends ResthopperParameter {
+class BoxArrayInput_cell_c extends ResthopperParameter {
 
 	public name: string = "Cell";
 	public nickName: string = "C";
@@ -73,7 +73,7 @@ class BoxArrayInput_Cell_C extends ResthopperParameter {
 
 }
 
-class BoxArrayInput_XCount_X extends ResthopperParameter {
+class BoxArrayInput_xcount_x extends ResthopperParameter {
 
 	public name: string = "XCount";
 	public nickName: string = "X";
@@ -87,7 +87,7 @@ class BoxArrayInput_XCount_X extends ResthopperParameter {
 
 }
 
-class BoxArrayInput_YCount_Y extends ResthopperParameter {
+class BoxArrayInput_ycount_y extends ResthopperParameter {
 
 	public name: string = "YCount";
 	public nickName: string = "Y";
@@ -101,7 +101,7 @@ class BoxArrayInput_YCount_Y extends ResthopperParameter {
 
 }
 
-class BoxArrayInput_ZCount_Z extends ResthopperParameter {
+class BoxArrayInput_zcount_z extends ResthopperParameter {
 
 	public name: string = "ZCount";
 	public nickName: string = "Z";
@@ -115,7 +115,7 @@ class BoxArrayInput_ZCount_Z extends ResthopperParameter {
 
 }
 
-class BoxArrayOutput_Geometry_G extends ResthopperParameter {
+class BoxArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -129,7 +129,7 @@ class BoxArrayOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class BoxArrayOutput_Transform_X extends ResthopperParameter {
+class BoxArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

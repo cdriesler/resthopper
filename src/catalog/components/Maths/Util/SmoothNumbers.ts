@@ -15,27 +15,27 @@ export default class SmoothNumbers extends ResthopperComponent {
 
 	public input:
 	{
-		"Numbers_N": SmoothNumbersInput_Numbers_N,
+		"numbers_n": SmoothNumbersInput_numbers_n,
 	}
 
 	public output:
 	{
-		"Numbers_N": SmoothNumbersOutput_Numbers_N,
+		"numbers_n": SmoothNumbersOutput_numbers_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Numbers_N": new SmoothNumbersInput_Numbers_N(),
+			"numbers_n": new SmoothNumbersInput_numbers_n(),
 		}
 		this.output = {
-			"Numbers_N": new SmoothNumbersOutput_Numbers_N(),
+			"numbers_n": new SmoothNumbersOutput_numbers_n(),
 		}
 	}
 
 }
 
-class SmoothNumbersInput_Numbers_N extends ResthopperParameter {
+class SmoothNumbersInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class SmoothNumbersInput_Numbers_N extends ResthopperParameter {
 
 }
 
-class SmoothNumbersOutput_Numbers_N extends ResthopperParameter {
+class SmoothNumbersOutput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";

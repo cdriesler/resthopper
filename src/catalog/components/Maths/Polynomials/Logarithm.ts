@@ -15,27 +15,27 @@ export default class Logarithm extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": LogarithmInput_Value_x,
+		"value_x": LogarithmInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": LogarithmOutput_Result_y,
+		"result_y": LogarithmOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new LogarithmInput_Value_x(),
+			"value_x": new LogarithmInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new LogarithmOutput_Result_y(),
+			"result_y": new LogarithmOutput_result_y(),
 		}
 	}
 
 }
 
-class LogarithmInput_Value_x extends ResthopperParameter {
+class LogarithmInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class LogarithmInput_Value_x extends ResthopperParameter {
 
 }
 
-class LogarithmOutput_Result_y extends ResthopperParameter {
+class LogarithmOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

@@ -15,10 +15,10 @@ export default class VectorDisplayEx extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": VectorDisplayExInput_Point_P,
-		"Vector_V": VectorDisplayExInput_Vector_V,
-		"Colour_C": VectorDisplayExInput_Colour_C,
-		"Width_W": VectorDisplayExInput_Width_W,
+		"point_p": VectorDisplayExInput_point_p,
+		"vector_v": VectorDisplayExInput_vector_v,
+		"colour_c": VectorDisplayExInput_colour_c,
+		"width_w": VectorDisplayExInput_width_w,
 	}
 
 	public output:
@@ -29,10 +29,10 @@ export default class VectorDisplayEx extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new VectorDisplayExInput_Point_P(),
-			"Vector_V": new VectorDisplayExInput_Vector_V(),
-			"Colour_C": new VectorDisplayExInput_Colour_C(),
-			"Width_W": new VectorDisplayExInput_Width_W(),
+			"point_p": new VectorDisplayExInput_point_p(),
+			"vector_v": new VectorDisplayExInput_vector_v(),
+			"colour_c": new VectorDisplayExInput_colour_c(),
+			"width_w": new VectorDisplayExInput_width_w(),
 		}
 		this.output = {
 
@@ -41,7 +41,7 @@ export default class VectorDisplayEx extends ResthopperComponent {
 
 }
 
-class VectorDisplayExInput_Point_P extends ResthopperParameter {
+class VectorDisplayExInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class VectorDisplayExInput_Point_P extends ResthopperParameter {
 
 }
 
-class VectorDisplayExInput_Vector_V extends ResthopperParameter {
+class VectorDisplayExInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -69,7 +69,7 @@ class VectorDisplayExInput_Vector_V extends ResthopperParameter {
 
 }
 
-class VectorDisplayExInput_Colour_C extends ResthopperParameter {
+class VectorDisplayExInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -83,7 +83,7 @@ class VectorDisplayExInput_Colour_C extends ResthopperParameter {
 
 }
 
-class VectorDisplayExInput_Width_W extends ResthopperParameter {
+class VectorDisplayExInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";

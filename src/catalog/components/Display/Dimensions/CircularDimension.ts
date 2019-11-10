@@ -15,11 +15,11 @@ export default class CircularDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Circle_C": CircularDimensionInput_Circle_C,
-		"PointA_A": CircularDimensionInput_PointA_A,
-		"PointB_B": CircularDimensionInput_PointB_B,
-		"Text_T": CircularDimensionInput_Text_T,
-		"Size_S": CircularDimensionInput_Size_S,
+		"circle_c": CircularDimensionInput_circle_c,
+		"pointa_a": CircularDimensionInput_pointa_a,
+		"pointb_b": CircularDimensionInput_pointb_b,
+		"text_t": CircularDimensionInput_text_t,
+		"size_s": CircularDimensionInput_size_s,
 	}
 
 	public output:
@@ -30,11 +30,11 @@ export default class CircularDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Circle_C": new CircularDimensionInput_Circle_C(),
-			"PointA_A": new CircularDimensionInput_PointA_A(),
-			"PointB_B": new CircularDimensionInput_PointB_B(),
-			"Text_T": new CircularDimensionInput_Text_T(),
-			"Size_S": new CircularDimensionInput_Size_S(),
+			"circle_c": new CircularDimensionInput_circle_c(),
+			"pointa_a": new CircularDimensionInput_pointa_a(),
+			"pointb_b": new CircularDimensionInput_pointb_b(),
+			"text_t": new CircularDimensionInput_text_t(),
+			"size_s": new CircularDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -43,7 +43,7 @@ export default class CircularDimension extends ResthopperComponent {
 
 }
 
-class CircularDimensionInput_Circle_C extends ResthopperParameter {
+class CircularDimensionInput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class CircularDimensionInput_Circle_C extends ResthopperParameter {
 
 }
 
-class CircularDimensionInput_PointA_A extends ResthopperParameter {
+class CircularDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -71,7 +71,7 @@ class CircularDimensionInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CircularDimensionInput_PointB_B extends ResthopperParameter {
+class CircularDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -85,7 +85,7 @@ class CircularDimensionInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CircularDimensionInput_Text_T extends ResthopperParameter {
+class CircularDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class CircularDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class CircularDimensionInput_Size_S extends ResthopperParameter {
+class CircularDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

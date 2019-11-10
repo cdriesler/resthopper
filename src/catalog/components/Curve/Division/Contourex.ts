@@ -15,35 +15,35 @@ export default class Contourex extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ContourexInput_Curve_C,
-		"Plane_P": ContourexInput_Plane_P,
-		"Offsets_O": ContourexInput_Offsets_O,
-		"Distances_D": ContourexInput_Distances_D,
+		"curve_c": ContourexInput_curve_c,
+		"plane_p": ContourexInput_plane_p,
+		"offsets_o": ContourexInput_offsets_o,
+		"distances_d": ContourexInput_distances_d,
 	}
 
 	public output:
 	{
-		"Contours_C": ContourexOutput_Contours_C,
-		"Parameters_t": ContourexOutput_Parameters_t,
+		"contours_c": ContourexOutput_contours_c,
+		"parameters_t": ContourexOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ContourexInput_Curve_C(),
-			"Plane_P": new ContourexInput_Plane_P(),
-			"Offsets_O": new ContourexInput_Offsets_O(),
-			"Distances_D": new ContourexInput_Distances_D(),
+			"curve_c": new ContourexInput_curve_c(),
+			"plane_p": new ContourexInput_plane_p(),
+			"offsets_o": new ContourexInput_offsets_o(),
+			"distances_d": new ContourexInput_distances_d(),
 		}
 		this.output = {
-			"Contours_C": new ContourexOutput_Contours_C(),
-			"Parameters_t": new ContourexOutput_Parameters_t(),
+			"contours_c": new ContourexOutput_contours_c(),
+			"parameters_t": new ContourexOutput_parameters_t(),
 		}
 	}
 
 }
 
-class ContourexInput_Curve_C extends ResthopperParameter {
+class ContourexInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class ContourexInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ContourexInput_Plane_P extends ResthopperParameter {
+class ContourexInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class ContourexInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ContourexInput_Offsets_O extends ResthopperParameter {
+class ContourexInput_offsets_o extends ResthopperParameter {
 
 	public name: string = "Offsets";
 	public nickName: string = "O";
@@ -85,7 +85,7 @@ class ContourexInput_Offsets_O extends ResthopperParameter {
 
 }
 
-class ContourexInput_Distances_D extends ResthopperParameter {
+class ContourexInput_distances_d extends ResthopperParameter {
 
 	public name: string = "Distances";
 	public nickName: string = "D";
@@ -99,7 +99,7 @@ class ContourexInput_Distances_D extends ResthopperParameter {
 
 }
 
-class ContourexOutput_Contours_C extends ResthopperParameter {
+class ContourexOutput_contours_c extends ResthopperParameter {
 
 	public name: string = "Contours";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class ContourexOutput_Contours_C extends ResthopperParameter {
 
 }
 
-class ContourexOutput_Parameters_t extends ResthopperParameter {
+class ContourexOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

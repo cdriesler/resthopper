@@ -15,29 +15,29 @@ export default class FlattenTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": FlattenTreeInput_Tree_T,
-		"Path_P": FlattenTreeInput_Path_P,
+		"tree_t": FlattenTreeInput_tree_t,
+		"path_p": FlattenTreeInput_path_p,
 	}
 
 	public output:
 	{
-		"Tree_T": FlattenTreeOutput_Tree_T,
+		"tree_t": FlattenTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new FlattenTreeInput_Tree_T(),
-			"Path_P": new FlattenTreeInput_Path_P(),
+			"tree_t": new FlattenTreeInput_tree_t(),
+			"path_p": new FlattenTreeInput_path_p(),
 		}
 		this.output = {
-			"Tree_T": new FlattenTreeOutput_Tree_T(),
+			"tree_t": new FlattenTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class FlattenTreeInput_Tree_T extends ResthopperParameter {
+class FlattenTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class FlattenTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class FlattenTreeInput_Path_P extends ResthopperParameter {
+class FlattenTreeInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class FlattenTreeInput_Path_P extends ResthopperParameter {
 
 }
 
-class FlattenTreeOutput_Tree_T extends ResthopperParameter {
+class FlattenTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

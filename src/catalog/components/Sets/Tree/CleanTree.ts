@@ -15,31 +15,31 @@ export default class CleanTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": CleanTreeInput_Tree_T,
-		"CleanInvalid_X": CleanTreeInput_CleanInvalid_X,
-		"CleanEmpty_E": CleanTreeInput_CleanEmpty_E,
+		"tree_t": CleanTreeInput_tree_t,
+		"cleaninvalid_x": CleanTreeInput_cleaninvalid_x,
+		"cleanempty_e": CleanTreeInput_cleanempty_e,
 	}
 
 	public output:
 	{
-		"Tree_T": CleanTreeOutput_Tree_T,
+		"tree_t": CleanTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new CleanTreeInput_Tree_T(),
-			"CleanInvalid_X": new CleanTreeInput_CleanInvalid_X(),
-			"CleanEmpty_E": new CleanTreeInput_CleanEmpty_E(),
+			"tree_t": new CleanTreeInput_tree_t(),
+			"cleaninvalid_x": new CleanTreeInput_cleaninvalid_x(),
+			"cleanempty_e": new CleanTreeInput_cleanempty_e(),
 		}
 		this.output = {
-			"Tree_T": new CleanTreeOutput_Tree_T(),
+			"tree_t": new CleanTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class CleanTreeInput_Tree_T extends ResthopperParameter {
+class CleanTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class CleanTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class CleanTreeInput_CleanInvalid_X extends ResthopperParameter {
+class CleanTreeInput_cleaninvalid_x extends ResthopperParameter {
 
 	public name: string = "CleanInvalid";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class CleanTreeInput_CleanInvalid_X extends ResthopperParameter {
 
 }
 
-class CleanTreeInput_CleanEmpty_E extends ResthopperParameter {
+class CleanTreeInput_cleanempty_e extends ResthopperParameter {
 
 	public name: string = "CleanEmpty";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class CleanTreeInput_CleanEmpty_E extends ResthopperParameter {
 
 }
 
-class CleanTreeOutput_Tree_T extends ResthopperParameter {
+class CleanTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

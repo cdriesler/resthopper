@@ -15,33 +15,33 @@ export default class PointCharge extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": PointChargeInput_Point_P,
-		"Charge_C": PointChargeInput_Charge_C,
-		"Decay_D": PointChargeInput_Decay_D,
-		"Bounds_B": PointChargeInput_Bounds_B,
+		"point_p": PointChargeInput_point_p,
+		"charge_c": PointChargeInput_charge_c,
+		"decay_d": PointChargeInput_decay_d,
+		"bounds_b": PointChargeInput_bounds_b,
 	}
 
 	public output:
 	{
-		"Field_F": PointChargeOutput_Field_F,
+		"field_f": PointChargeOutput_field_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new PointChargeInput_Point_P(),
-			"Charge_C": new PointChargeInput_Charge_C(),
-			"Decay_D": new PointChargeInput_Decay_D(),
-			"Bounds_B": new PointChargeInput_Bounds_B(),
+			"point_p": new PointChargeInput_point_p(),
+			"charge_c": new PointChargeInput_charge_c(),
+			"decay_d": new PointChargeInput_decay_d(),
+			"bounds_b": new PointChargeInput_bounds_b(),
 		}
 		this.output = {
-			"Field_F": new PointChargeOutput_Field_F(),
+			"field_f": new PointChargeOutput_field_f(),
 		}
 	}
 
 }
 
-class PointChargeInput_Point_P extends ResthopperParameter {
+class PointChargeInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PointChargeInput_Point_P extends ResthopperParameter {
 
 }
 
-class PointChargeInput_Charge_C extends ResthopperParameter {
+class PointChargeInput_charge_c extends ResthopperParameter {
 
 	public name: string = "Charge";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class PointChargeInput_Charge_C extends ResthopperParameter {
 
 }
 
-class PointChargeInput_Decay_D extends ResthopperParameter {
+class PointChargeInput_decay_d extends ResthopperParameter {
 
 	public name: string = "Decay";
 	public nickName: string = "D";
@@ -83,7 +83,7 @@ class PointChargeInput_Decay_D extends ResthopperParameter {
 
 }
 
-class PointChargeInput_Bounds_B extends ResthopperParameter {
+class PointChargeInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class PointChargeInput_Bounds_B extends ResthopperParameter {
 
 }
 
-class PointChargeOutput_Field_F extends ResthopperParameter {
+class PointChargeOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";

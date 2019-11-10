@@ -15,27 +15,27 @@ export default class Split extends ResthopperComponent {
 
 	public input:
 	{
-		"Transform_T": SplitInput_Transform_T,
+		"transform_t": SplitInput_transform_t,
 	}
 
 	public output:
 	{
-		"Fragments_F": SplitOutput_Fragments_F,
+		"fragments_f": SplitOutput_fragments_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Transform_T": new SplitInput_Transform_T(),
+			"transform_t": new SplitInput_transform_t(),
 		}
 		this.output = {
-			"Fragments_F": new SplitOutput_Fragments_F(),
+			"fragments_f": new SplitOutput_fragments_f(),
 		}
 	}
 
 }
 
-class SplitInput_Transform_T extends ResthopperParameter {
+class SplitInput_transform_t extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "T";
@@ -49,7 +49,7 @@ class SplitInput_Transform_T extends ResthopperParameter {
 
 }
 
-class SplitOutput_Fragments_F extends ResthopperParameter {
+class SplitOutput_fragments_f extends ResthopperParameter {
 
 	public name: string = "Fragments";
 	public nickName: string = "F";

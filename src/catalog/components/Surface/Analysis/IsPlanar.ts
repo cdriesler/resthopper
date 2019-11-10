@@ -15,31 +15,31 @@ export default class IsPlanar extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": IsPlanarInput_Surface_S,
-		"Interior_I": IsPlanarInput_Interior_I,
+		"surface_s": IsPlanarInput_surface_s,
+		"interior_i": IsPlanarInput_interior_i,
 	}
 
 	public output:
 	{
-		"Planar_F": IsPlanarOutput_Planar_F,
-		"Plane_P": IsPlanarOutput_Plane_P,
+		"planar_f": IsPlanarOutput_planar_f,
+		"plane_p": IsPlanarOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new IsPlanarInput_Surface_S(),
-			"Interior_I": new IsPlanarInput_Interior_I(),
+			"surface_s": new IsPlanarInput_surface_s(),
+			"interior_i": new IsPlanarInput_interior_i(),
 		}
 		this.output = {
-			"Planar_F": new IsPlanarOutput_Planar_F(),
-			"Plane_P": new IsPlanarOutput_Plane_P(),
+			"planar_f": new IsPlanarOutput_planar_f(),
+			"plane_p": new IsPlanarOutput_plane_p(),
 		}
 	}
 
 }
 
-class IsPlanarInput_Surface_S extends ResthopperParameter {
+class IsPlanarInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class IsPlanarInput_Surface_S extends ResthopperParameter {
 
 }
 
-class IsPlanarInput_Interior_I extends ResthopperParameter {
+class IsPlanarInput_interior_i extends ResthopperParameter {
 
 	public name: string = "Interior";
 	public nickName: string = "I";
@@ -67,7 +67,7 @@ class IsPlanarInput_Interior_I extends ResthopperParameter {
 
 }
 
-class IsPlanarOutput_Planar_F extends ResthopperParameter {
+class IsPlanarOutput_planar_f extends ResthopperParameter {
 
 	public name: string = "Planar";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class IsPlanarOutput_Planar_F extends ResthopperParameter {
 
 }
 
-class IsPlanarOutput_Plane_P extends ResthopperParameter {
+class IsPlanarOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

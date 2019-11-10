@@ -15,29 +15,29 @@ export default class BoxRectangle extends ResthopperComponent {
 
 	public input:
 	{
-		"Rectangle_R": BoxRectangleInput_Rectangle_R,
-		"Height_H": BoxRectangleInput_Height_H,
+		"rectangle_r": BoxRectangleInput_rectangle_r,
+		"height_h": BoxRectangleInput_height_h,
 	}
 
 	public output:
 	{
-		"Box_B": BoxRectangleOutput_Box_B,
+		"box_b": BoxRectangleOutput_box_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Rectangle_R": new BoxRectangleInput_Rectangle_R(),
-			"Height_H": new BoxRectangleInput_Height_H(),
+			"rectangle_r": new BoxRectangleInput_rectangle_r(),
+			"height_h": new BoxRectangleInput_height_h(),
 		}
 		this.output = {
-			"Box_B": new BoxRectangleOutput_Box_B(),
+			"box_b": new BoxRectangleOutput_box_b(),
 		}
 	}
 
 }
 
-class BoxRectangleInput_Rectangle_R extends ResthopperParameter {
+class BoxRectangleInput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
@@ -51,7 +51,7 @@ class BoxRectangleInput_Rectangle_R extends ResthopperParameter {
 
 }
 
-class BoxRectangleInput_Height_H extends ResthopperParameter {
+class BoxRectangleInput_height_h extends ResthopperParameter {
 
 	public name: string = "Height";
 	public nickName: string = "H";
@@ -65,7 +65,7 @@ class BoxRectangleInput_Height_H extends ResthopperParameter {
 
 }
 
-class BoxRectangleOutput_Box_B extends ResthopperParameter {
+class BoxRectangleOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";

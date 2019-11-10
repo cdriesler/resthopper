@@ -15,33 +15,33 @@ export default class SplitARGB extends ResthopperComponent {
 
 	public input:
 	{
-		"Colour_C": SplitARGBInput_Colour_C,
+		"colour_c": SplitARGBInput_colour_c,
 	}
 
 	public output:
 	{
-		"Alpha_A": SplitARGBOutput_Alpha_A,
-		"Red_R": SplitARGBOutput_Red_R,
-		"Green_G": SplitARGBOutput_Green_G,
-		"Blue_B": SplitARGBOutput_Blue_B,
+		"alpha_a": SplitARGBOutput_alpha_a,
+		"red_r": SplitARGBOutput_red_r,
+		"green_g": SplitARGBOutput_green_g,
+		"blue_b": SplitARGBOutput_blue_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Colour_C": new SplitARGBInput_Colour_C(),
+			"colour_c": new SplitARGBInput_colour_c(),
 		}
 		this.output = {
-			"Alpha_A": new SplitARGBOutput_Alpha_A(),
-			"Red_R": new SplitARGBOutput_Red_R(),
-			"Green_G": new SplitARGBOutput_Green_G(),
-			"Blue_B": new SplitARGBOutput_Blue_B(),
+			"alpha_a": new SplitARGBOutput_alpha_a(),
+			"red_r": new SplitARGBOutput_red_r(),
+			"green_g": new SplitARGBOutput_green_g(),
+			"blue_b": new SplitARGBOutput_blue_b(),
 		}
 	}
 
 }
 
-class SplitARGBInput_Colour_C extends ResthopperParameter {
+class SplitARGBInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class SplitARGBInput_Colour_C extends ResthopperParameter {
 
 }
 
-class SplitARGBOutput_Alpha_A extends ResthopperParameter {
+class SplitARGBOutput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class SplitARGBOutput_Alpha_A extends ResthopperParameter {
 
 }
 
-class SplitARGBOutput_Red_R extends ResthopperParameter {
+class SplitARGBOutput_red_r extends ResthopperParameter {
 
 	public name: string = "Red";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class SplitARGBOutput_Red_R extends ResthopperParameter {
 
 }
 
-class SplitARGBOutput_Green_G extends ResthopperParameter {
+class SplitARGBOutput_green_g extends ResthopperParameter {
 
 	public name: string = "Green";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class SplitARGBOutput_Green_G extends ResthopperParameter {
 
 }
 
-class SplitARGBOutput_Blue_B extends ResthopperParameter {
+class SplitARGBOutput_blue_b extends ResthopperParameter {
 
 	public name: string = "Blue";
 	public nickName: string = "B";

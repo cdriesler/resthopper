@@ -15,35 +15,35 @@ export default class SmoothMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": SmoothMeshInput_Mesh_M,
-		"Strength_S": SmoothMeshInput_Strength_S,
-		"SkipNaked_N": SmoothMeshInput_SkipNaked_N,
-		"Iterations_I": SmoothMeshInput_Iterations_I,
-		"Limit_L": SmoothMeshInput_Limit_L,
+		"mesh_m": SmoothMeshInput_mesh_m,
+		"strength_s": SmoothMeshInput_strength_s,
+		"skipnaked_n": SmoothMeshInput_skipnaked_n,
+		"iterations_i": SmoothMeshInput_iterations_i,
+		"limit_l": SmoothMeshInput_limit_l,
 	}
 
 	public output:
 	{
-		"Mesh_M": SmoothMeshOutput_Mesh_M,
+		"mesh_m": SmoothMeshOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new SmoothMeshInput_Mesh_M(),
-			"Strength_S": new SmoothMeshInput_Strength_S(),
-			"SkipNaked_N": new SmoothMeshInput_SkipNaked_N(),
-			"Iterations_I": new SmoothMeshInput_Iterations_I(),
-			"Limit_L": new SmoothMeshInput_Limit_L(),
+			"mesh_m": new SmoothMeshInput_mesh_m(),
+			"strength_s": new SmoothMeshInput_strength_s(),
+			"skipnaked_n": new SmoothMeshInput_skipnaked_n(),
+			"iterations_i": new SmoothMeshInput_iterations_i(),
+			"limit_l": new SmoothMeshInput_limit_l(),
 		}
 		this.output = {
-			"Mesh_M": new SmoothMeshOutput_Mesh_M(),
+			"mesh_m": new SmoothMeshOutput_mesh_m(),
 		}
 	}
 
 }
 
-class SmoothMeshInput_Mesh_M extends ResthopperParameter {
+class SmoothMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -57,7 +57,7 @@ class SmoothMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class SmoothMeshInput_Strength_S extends ResthopperParameter {
+class SmoothMeshInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class SmoothMeshInput_Strength_S extends ResthopperParameter {
 
 }
 
-class SmoothMeshInput_SkipNaked_N extends ResthopperParameter {
+class SmoothMeshInput_skipnaked_n extends ResthopperParameter {
 
 	public name: string = "SkipNaked";
 	public nickName: string = "N";
@@ -85,7 +85,7 @@ class SmoothMeshInput_SkipNaked_N extends ResthopperParameter {
 
 }
 
-class SmoothMeshInput_Iterations_I extends ResthopperParameter {
+class SmoothMeshInput_iterations_i extends ResthopperParameter {
 
 	public name: string = "Iterations";
 	public nickName: string = "I";
@@ -99,7 +99,7 @@ class SmoothMeshInput_Iterations_I extends ResthopperParameter {
 
 }
 
-class SmoothMeshInput_Limit_L extends ResthopperParameter {
+class SmoothMeshInput_limit_l extends ResthopperParameter {
 
 	public name: string = "Limit";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class SmoothMeshInput_Limit_L extends ResthopperParameter {
 
 }
 
-class SmoothMeshOutput_Mesh_M extends ResthopperParameter {
+class SmoothMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

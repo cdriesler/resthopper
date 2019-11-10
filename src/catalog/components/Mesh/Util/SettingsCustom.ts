@@ -15,45 +15,45 @@ export default class SettingsCustom extends ResthopperComponent {
 
 	public input:
 	{
-		"StitchSeams_Stitch": SettingsCustomInput_StitchSeams_Stitch,
-		"SimplePlanes_Planes": SettingsCustomInput_SimplePlanes_Planes,
-		"Refine_Refine": SettingsCustomInput_Refine_Refine,
-		"MinCount_Min": SettingsCustomInput_MinCount_Min,
-		"MaxCount_Max": SettingsCustomInput_MaxCount_Max,
-		"AspectRatio_Aspect": SettingsCustomInput_AspectRatio_Aspect,
-		"MaxDistance_MaxDist": SettingsCustomInput_MaxDistance_MaxDist,
-		"MaxAngle_MaxAngle": SettingsCustomInput_MaxAngle_MaxAngle,
-		"MinEdge_MinEdge": SettingsCustomInput_MinEdge_MinEdge,
-		"MaxEdge_MaxEdge": SettingsCustomInput_MaxEdge_MaxEdge,
+		"stitchseams_stitch": SettingsCustomInput_stitchseams_stitch,
+		"simpleplanes_planes": SettingsCustomInput_simpleplanes_planes,
+		"refine_refine": SettingsCustomInput_refine_refine,
+		"mincount_min": SettingsCustomInput_mincount_min,
+		"maxcount_max": SettingsCustomInput_maxcount_max,
+		"aspectratio_aspect": SettingsCustomInput_aspectratio_aspect,
+		"maxdistance_maxdist": SettingsCustomInput_maxdistance_maxdist,
+		"maxangle_maxangle": SettingsCustomInput_maxangle_maxangle,
+		"minedge_minedge": SettingsCustomInput_minedge_minedge,
+		"maxedge_maxedge": SettingsCustomInput_maxedge_maxedge,
 	}
 
 	public output:
 	{
-		"Settings_S": SettingsCustomOutput_Settings_S,
+		"settings_s": SettingsCustomOutput_settings_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StitchSeams_Stitch": new SettingsCustomInput_StitchSeams_Stitch(),
-			"SimplePlanes_Planes": new SettingsCustomInput_SimplePlanes_Planes(),
-			"Refine_Refine": new SettingsCustomInput_Refine_Refine(),
-			"MinCount_Min": new SettingsCustomInput_MinCount_Min(),
-			"MaxCount_Max": new SettingsCustomInput_MaxCount_Max(),
-			"AspectRatio_Aspect": new SettingsCustomInput_AspectRatio_Aspect(),
-			"MaxDistance_MaxDist": new SettingsCustomInput_MaxDistance_MaxDist(),
-			"MaxAngle_MaxAngle": new SettingsCustomInput_MaxAngle_MaxAngle(),
-			"MinEdge_MinEdge": new SettingsCustomInput_MinEdge_MinEdge(),
-			"MaxEdge_MaxEdge": new SettingsCustomInput_MaxEdge_MaxEdge(),
+			"stitchseams_stitch": new SettingsCustomInput_stitchseams_stitch(),
+			"simpleplanes_planes": new SettingsCustomInput_simpleplanes_planes(),
+			"refine_refine": new SettingsCustomInput_refine_refine(),
+			"mincount_min": new SettingsCustomInput_mincount_min(),
+			"maxcount_max": new SettingsCustomInput_maxcount_max(),
+			"aspectratio_aspect": new SettingsCustomInput_aspectratio_aspect(),
+			"maxdistance_maxdist": new SettingsCustomInput_maxdistance_maxdist(),
+			"maxangle_maxangle": new SettingsCustomInput_maxangle_maxangle(),
+			"minedge_minedge": new SettingsCustomInput_minedge_minedge(),
+			"maxedge_maxedge": new SettingsCustomInput_maxedge_maxedge(),
 		}
 		this.output = {
-			"Settings_S": new SettingsCustomOutput_Settings_S(),
+			"settings_s": new SettingsCustomOutput_settings_s(),
 		}
 	}
 
 }
 
-class SettingsCustomInput_StitchSeams_Stitch extends ResthopperParameter {
+class SettingsCustomInput_stitchseams_stitch extends ResthopperParameter {
 
 	public name: string = "StitchSeams";
 	public nickName: string = "Stitch";
@@ -67,7 +67,7 @@ class SettingsCustomInput_StitchSeams_Stitch extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_SimplePlanes_Planes extends ResthopperParameter {
+class SettingsCustomInput_simpleplanes_planes extends ResthopperParameter {
 
 	public name: string = "SimplePlanes";
 	public nickName: string = "Planes";
@@ -81,7 +81,7 @@ class SettingsCustomInput_SimplePlanes_Planes extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_Refine_Refine extends ResthopperParameter {
+class SettingsCustomInput_refine_refine extends ResthopperParameter {
 
 	public name: string = "Refine";
 	public nickName: string = "Refine";
@@ -95,7 +95,7 @@ class SettingsCustomInput_Refine_Refine extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MinCount_Min extends ResthopperParameter {
+class SettingsCustomInput_mincount_min extends ResthopperParameter {
 
 	public name: string = "MinCount";
 	public nickName: string = "Min";
@@ -109,7 +109,7 @@ class SettingsCustomInput_MinCount_Min extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MaxCount_Max extends ResthopperParameter {
+class SettingsCustomInput_maxcount_max extends ResthopperParameter {
 
 	public name: string = "MaxCount";
 	public nickName: string = "Max";
@@ -123,7 +123,7 @@ class SettingsCustomInput_MaxCount_Max extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_AspectRatio_Aspect extends ResthopperParameter {
+class SettingsCustomInput_aspectratio_aspect extends ResthopperParameter {
 
 	public name: string = "AspectRatio";
 	public nickName: string = "Aspect";
@@ -137,7 +137,7 @@ class SettingsCustomInput_AspectRatio_Aspect extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MaxDistance_MaxDist extends ResthopperParameter {
+class SettingsCustomInput_maxdistance_maxdist extends ResthopperParameter {
 
 	public name: string = "MaxDistance";
 	public nickName: string = "MaxDist";
@@ -151,7 +151,7 @@ class SettingsCustomInput_MaxDistance_MaxDist extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MaxAngle_MaxAngle extends ResthopperParameter {
+class SettingsCustomInput_maxangle_maxangle extends ResthopperParameter {
 
 	public name: string = "MaxAngle";
 	public nickName: string = "MaxAngle";
@@ -165,7 +165,7 @@ class SettingsCustomInput_MaxAngle_MaxAngle extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MinEdge_MinEdge extends ResthopperParameter {
+class SettingsCustomInput_minedge_minedge extends ResthopperParameter {
 
 	public name: string = "MinEdge";
 	public nickName: string = "MinEdge";
@@ -179,7 +179,7 @@ class SettingsCustomInput_MinEdge_MinEdge extends ResthopperParameter {
 
 }
 
-class SettingsCustomInput_MaxEdge_MaxEdge extends ResthopperParameter {
+class SettingsCustomInput_maxedge_maxedge extends ResthopperParameter {
 
 	public name: string = "MaxEdge";
 	public nickName: string = "MaxEdge";
@@ -193,7 +193,7 @@ class SettingsCustomInput_MaxEdge_MaxEdge extends ResthopperParameter {
 
 }
 
-class SettingsCustomOutput_Settings_S extends ResthopperParameter {
+class SettingsCustomOutput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";

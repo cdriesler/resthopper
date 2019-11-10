@@ -15,31 +15,31 @@ export default class ShiftList extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ShiftListInput_List_L,
-		"Shift_S": ShiftListInput_Shift_S,
-		"Wrap_W": ShiftListInput_Wrap_W,
+		"list_l": ShiftListInput_list_l,
+		"shift_s": ShiftListInput_shift_s,
+		"wrap_w": ShiftListInput_wrap_w,
 	}
 
 	public output:
 	{
-		"List_L": ShiftListOutput_List_L,
+		"list_l": ShiftListOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ShiftListInput_List_L(),
-			"Shift_S": new ShiftListInput_Shift_S(),
-			"Wrap_W": new ShiftListInput_Wrap_W(),
+			"list_l": new ShiftListInput_list_l(),
+			"shift_s": new ShiftListInput_shift_s(),
+			"wrap_w": new ShiftListInput_wrap_w(),
 		}
 		this.output = {
-			"List_L": new ShiftListOutput_List_L(),
+			"list_l": new ShiftListOutput_list_l(),
 		}
 	}
 
 }
 
-class ShiftListInput_List_L extends ResthopperParameter {
+class ShiftListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class ShiftListInput_List_L extends ResthopperParameter {
 
 }
 
-class ShiftListInput_Shift_S extends ResthopperParameter {
+class ShiftListInput_shift_s extends ResthopperParameter {
 
 	public name: string = "Shift";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class ShiftListInput_Shift_S extends ResthopperParameter {
 
 }
 
-class ShiftListInput_Wrap_W extends ResthopperParameter {
+class ShiftListInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -81,7 +81,7 @@ class ShiftListInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class ShiftListOutput_List_L extends ResthopperParameter {
+class ShiftListOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

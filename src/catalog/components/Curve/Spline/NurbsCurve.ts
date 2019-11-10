@@ -15,35 +15,35 @@ export default class NurbsCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": NurbsCurveInput_Vertices_V,
-		"Degree_D": NurbsCurveInput_Degree_D,
-		"Periodic_P": NurbsCurveInput_Periodic_P,
+		"vertices_v": NurbsCurveInput_vertices_v,
+		"degree_d": NurbsCurveInput_degree_d,
+		"periodic_p": NurbsCurveInput_periodic_p,
 	}
 
 	public output:
 	{
-		"Curve_C": NurbsCurveOutput_Curve_C,
-		"Length_L": NurbsCurveOutput_Length_L,
-		"Domain_D": NurbsCurveOutput_Domain_D,
+		"curve_c": NurbsCurveOutput_curve_c,
+		"length_l": NurbsCurveOutput_length_l,
+		"domain_d": NurbsCurveOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new NurbsCurveInput_Vertices_V(),
-			"Degree_D": new NurbsCurveInput_Degree_D(),
-			"Periodic_P": new NurbsCurveInput_Periodic_P(),
+			"vertices_v": new NurbsCurveInput_vertices_v(),
+			"degree_d": new NurbsCurveInput_degree_d(),
+			"periodic_p": new NurbsCurveInput_periodic_p(),
 		}
 		this.output = {
-			"Curve_C": new NurbsCurveOutput_Curve_C(),
-			"Length_L": new NurbsCurveOutput_Length_L(),
-			"Domain_D": new NurbsCurveOutput_Domain_D(),
+			"curve_c": new NurbsCurveOutput_curve_c(),
+			"length_l": new NurbsCurveOutput_length_l(),
+			"domain_d": new NurbsCurveOutput_domain_d(),
 		}
 	}
 
 }
 
-class NurbsCurveInput_Vertices_V extends ResthopperParameter {
+class NurbsCurveInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -57,7 +57,7 @@ class NurbsCurveInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class NurbsCurveInput_Degree_D extends ResthopperParameter {
+class NurbsCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -71,7 +71,7 @@ class NurbsCurveInput_Degree_D extends ResthopperParameter {
 
 }
 
-class NurbsCurveInput_Periodic_P extends ResthopperParameter {
+class NurbsCurveInput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";
@@ -85,7 +85,7 @@ class NurbsCurveInput_Periodic_P extends ResthopperParameter {
 
 }
 
-class NurbsCurveOutput_Curve_C extends ResthopperParameter {
+class NurbsCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class NurbsCurveOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class NurbsCurveOutput_Length_L extends ResthopperParameter {
+class NurbsCurveOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class NurbsCurveOutput_Length_L extends ResthopperParameter {
 
 }
 
-class NurbsCurveOutput_Domain_D extends ResthopperParameter {
+class NurbsCurveOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

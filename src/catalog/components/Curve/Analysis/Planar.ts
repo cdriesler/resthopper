@@ -15,31 +15,31 @@ export default class Planar extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PlanarInput_Curve_C,
+		"curve_c": PlanarInput_curve_c,
 	}
 
 	public output:
 	{
-		"Planar_p": PlanarOutput_Planar_p,
-		"Plane_P": PlanarOutput_Plane_P,
-		"Deviation_D": PlanarOutput_Deviation_D,
+		"planar_p": PlanarOutput_planar_p,
+		"plane_p": PlanarOutput_plane_p,
+		"deviation_d": PlanarOutput_deviation_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PlanarInput_Curve_C(),
+			"curve_c": new PlanarInput_curve_c(),
 		}
 		this.output = {
-			"Planar_p": new PlanarOutput_Planar_p(),
-			"Plane_P": new PlanarOutput_Plane_P(),
-			"Deviation_D": new PlanarOutput_Deviation_D(),
+			"planar_p": new PlanarOutput_planar_p(),
+			"plane_p": new PlanarOutput_plane_p(),
+			"deviation_d": new PlanarOutput_deviation_d(),
 		}
 	}
 
 }
 
-class PlanarInput_Curve_C extends ResthopperParameter {
+class PlanarInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class PlanarInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PlanarOutput_Planar_p extends ResthopperParameter {
+class PlanarOutput_planar_p extends ResthopperParameter {
 
 	public name: string = "Planar";
 	public nickName: string = "p";
@@ -67,7 +67,7 @@ class PlanarOutput_Planar_p extends ResthopperParameter {
 
 }
 
-class PlanarOutput_Plane_P extends ResthopperParameter {
+class PlanarOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class PlanarOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class PlanarOutput_Deviation_D extends ResthopperParameter {
+class PlanarOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";

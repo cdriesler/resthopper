@@ -15,39 +15,39 @@ export default class RightTrigonometry extends ResthopperComponent {
 
 	public input:
 	{
-		"Beta_": RightTrigonometryInput_Beta_,
-		"Plength_P": RightTrigonometryInput_Plength_P,
-		"Qlength_Q": RightTrigonometryInput_Qlength_Q,
-		"Rlength_R": RightTrigonometryInput_Rlength_R,
+		"beta_": RightTrigonometryInput_beta_,
+		"plength_p": RightTrigonometryInput_plength_p,
+		"qlength_q": RightTrigonometryInput_qlength_q,
+		"rlength_r": RightTrigonometryInput_rlength_r,
 	}
 
 	public output:
 	{
-		"Beta_": RightTrigonometryOutput_Beta_,
-		"Plength_P": RightTrigonometryOutput_Plength_P,
-		"Qlength_Q": RightTrigonometryOutput_Qlength_Q,
-		"Rlength_R": RightTrigonometryOutput_Rlength_R,
+		"beta_": RightTrigonometryOutput_beta_,
+		"plength_p": RightTrigonometryOutput_plength_p,
+		"qlength_q": RightTrigonometryOutput_qlength_q,
+		"rlength_r": RightTrigonometryOutput_rlength_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Beta_": new RightTrigonometryInput_Beta_(),
-			"Plength_P": new RightTrigonometryInput_Plength_P(),
-			"Qlength_Q": new RightTrigonometryInput_Qlength_Q(),
-			"Rlength_R": new RightTrigonometryInput_Rlength_R(),
+			"beta_": new RightTrigonometryInput_beta_(),
+			"plength_p": new RightTrigonometryInput_plength_p(),
+			"qlength_q": new RightTrigonometryInput_qlength_q(),
+			"rlength_r": new RightTrigonometryInput_rlength_r(),
 		}
 		this.output = {
-			"Beta_": new RightTrigonometryOutput_Beta_(),
-			"Plength_P": new RightTrigonometryOutput_Plength_P(),
-			"Qlength_Q": new RightTrigonometryOutput_Qlength_Q(),
-			"Rlength_R": new RightTrigonometryOutput_Rlength_R(),
+			"beta_": new RightTrigonometryOutput_beta_(),
+			"plength_p": new RightTrigonometryOutput_plength_p(),
+			"qlength_q": new RightTrigonometryOutput_qlength_q(),
+			"rlength_r": new RightTrigonometryOutput_rlength_r(),
 		}
 	}
 
 }
 
-class RightTrigonometryInput_Beta_ extends ResthopperParameter {
+class RightTrigonometryInput_beta_ extends ResthopperParameter {
 
 	public name: string = "Beta";
 	public nickName: string = "";
@@ -61,7 +61,7 @@ class RightTrigonometryInput_Beta_ extends ResthopperParameter {
 
 }
 
-class RightTrigonometryInput_Plength_P extends ResthopperParameter {
+class RightTrigonometryInput_plength_p extends ResthopperParameter {
 
 	public name: string = "Plength";
 	public nickName: string = "P";
@@ -75,7 +75,7 @@ class RightTrigonometryInput_Plength_P extends ResthopperParameter {
 
 }
 
-class RightTrigonometryInput_Qlength_Q extends ResthopperParameter {
+class RightTrigonometryInput_qlength_q extends ResthopperParameter {
 
 	public name: string = "Qlength";
 	public nickName: string = "Q";
@@ -89,7 +89,7 @@ class RightTrigonometryInput_Qlength_Q extends ResthopperParameter {
 
 }
 
-class RightTrigonometryInput_Rlength_R extends ResthopperParameter {
+class RightTrigonometryInput_rlength_r extends ResthopperParameter {
 
 	public name: string = "Rlength";
 	public nickName: string = "R";
@@ -103,7 +103,7 @@ class RightTrigonometryInput_Rlength_R extends ResthopperParameter {
 
 }
 
-class RightTrigonometryOutput_Beta_ extends ResthopperParameter {
+class RightTrigonometryOutput_beta_ extends ResthopperParameter {
 
 	public name: string = "Beta";
 	public nickName: string = "";
@@ -117,7 +117,7 @@ class RightTrigonometryOutput_Beta_ extends ResthopperParameter {
 
 }
 
-class RightTrigonometryOutput_Plength_P extends ResthopperParameter {
+class RightTrigonometryOutput_plength_p extends ResthopperParameter {
 
 	public name: string = "Plength";
 	public nickName: string = "P";
@@ -131,7 +131,7 @@ class RightTrigonometryOutput_Plength_P extends ResthopperParameter {
 
 }
 
-class RightTrigonometryOutput_Qlength_Q extends ResthopperParameter {
+class RightTrigonometryOutput_qlength_q extends ResthopperParameter {
 
 	public name: string = "Qlength";
 	public nickName: string = "Q";
@@ -145,7 +145,7 @@ class RightTrigonometryOutput_Qlength_Q extends ResthopperParameter {
 
 }
 
-class RightTrigonometryOutput_Rlength_R extends ResthopperParameter {
+class RightTrigonometryOutput_rlength_r extends ResthopperParameter {
 
 	public name: string = "Rlength";
 	public nickName: string = "R";

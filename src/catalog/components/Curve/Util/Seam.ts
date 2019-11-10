@@ -15,29 +15,29 @@ export default class Seam extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": SeamInput_Curve_C,
-		"Seam_t": SeamInput_Seam_t,
+		"curve_c": SeamInput_curve_c,
+		"seam_t": SeamInput_seam_t,
 	}
 
 	public output:
 	{
-		"Curve_C": SeamOutput_Curve_C,
+		"curve_c": SeamOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new SeamInput_Curve_C(),
-			"Seam_t": new SeamInput_Seam_t(),
+			"curve_c": new SeamInput_curve_c(),
+			"seam_t": new SeamInput_seam_t(),
 		}
 		this.output = {
-			"Curve_C": new SeamOutput_Curve_C(),
+			"curve_c": new SeamOutput_curve_c(),
 		}
 	}
 
 }
 
-class SeamInput_Curve_C extends ResthopperParameter {
+class SeamInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class SeamInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SeamInput_Seam_t extends ResthopperParameter {
+class SeamInput_seam_t extends ResthopperParameter {
 
 	public name: string = "Seam";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class SeamInput_Seam_t extends ResthopperParameter {
 
 }
 
-class SeamOutput_Curve_C extends ResthopperParameter {
+class SeamOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

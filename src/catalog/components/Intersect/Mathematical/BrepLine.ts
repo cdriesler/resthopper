@@ -15,31 +15,31 @@ export default class BrepLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepLineInput_Brep_B,
-		"Line_L": BrepLineInput_Line_L,
+		"brep_b": BrepLineInput_brep_b,
+		"line_l": BrepLineInput_line_l,
 	}
 
 	public output:
 	{
-		"Curves_C": BrepLineOutput_Curves_C,
-		"Points_P": BrepLineOutput_Points_P,
+		"curves_c": BrepLineOutput_curves_c,
+		"points_p": BrepLineOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepLineInput_Brep_B(),
-			"Line_L": new BrepLineInput_Line_L(),
+			"brep_b": new BrepLineInput_brep_b(),
+			"line_l": new BrepLineInput_line_l(),
 		}
 		this.output = {
-			"Curves_C": new BrepLineOutput_Curves_C(),
-			"Points_P": new BrepLineOutput_Points_P(),
+			"curves_c": new BrepLineOutput_curves_c(),
+			"points_p": new BrepLineOutput_points_p(),
 		}
 	}
 
 }
 
-class BrepLineInput_Brep_B extends ResthopperParameter {
+class BrepLineInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class BrepLineInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepLineInput_Line_L extends ResthopperParameter {
+class BrepLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class BrepLineInput_Line_L extends ResthopperParameter {
 
 }
 
-class BrepLineOutput_Curves_C extends ResthopperParameter {
+class BrepLineOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class BrepLineOutput_Curves_C extends ResthopperParameter {
 
 }
 
-class BrepLineOutput_Points_P extends ResthopperParameter {
+class BrepLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

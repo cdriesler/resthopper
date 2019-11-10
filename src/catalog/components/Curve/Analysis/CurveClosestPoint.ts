@@ -15,33 +15,33 @@ export default class CurveClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": CurveClosestPointInput_Point_P,
-		"Curve_C": CurveClosestPointInput_Curve_C,
+		"point_p": CurveClosestPointInput_point_p,
+		"curve_c": CurveClosestPointInput_curve_c,
 	}
 
 	public output:
 	{
-		"Point_P": CurveClosestPointOutput_Point_P,
-		"Parameter_t": CurveClosestPointOutput_Parameter_t,
-		"Distance_D": CurveClosestPointOutput_Distance_D,
+		"point_p": CurveClosestPointOutput_point_p,
+		"parameter_t": CurveClosestPointOutput_parameter_t,
+		"distance_d": CurveClosestPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new CurveClosestPointInput_Point_P(),
-			"Curve_C": new CurveClosestPointInput_Curve_C(),
+			"point_p": new CurveClosestPointInput_point_p(),
+			"curve_c": new CurveClosestPointInput_curve_c(),
 		}
 		this.output = {
-			"Point_P": new CurveClosestPointOutput_Point_P(),
-			"Parameter_t": new CurveClosestPointOutput_Parameter_t(),
-			"Distance_D": new CurveClosestPointOutput_Distance_D(),
+			"point_p": new CurveClosestPointOutput_point_p(),
+			"parameter_t": new CurveClosestPointOutput_parameter_t(),
+			"distance_d": new CurveClosestPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class CurveClosestPointInput_Point_P extends ResthopperParameter {
+class CurveClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class CurveClosestPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class CurveClosestPointInput_Curve_C extends ResthopperParameter {
+class CurveClosestPointInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class CurveClosestPointInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveClosestPointOutput_Point_P extends ResthopperParameter {
+class CurveClosestPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CurveClosestPointOutput_Point_P extends ResthopperParameter {
 
 }
 
-class CurveClosestPointOutput_Parameter_t extends ResthopperParameter {
+class CurveClosestPointOutput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -97,7 +97,7 @@ class CurveClosestPointOutput_Parameter_t extends ResthopperParameter {
 
 }
 
-class CurveClosestPointOutput_Distance_D extends ResthopperParameter {
+class CurveClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

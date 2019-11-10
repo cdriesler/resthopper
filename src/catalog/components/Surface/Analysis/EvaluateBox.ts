@@ -15,37 +15,37 @@ export default class EvaluateBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Box_B": EvaluateBoxInput_Box_B,
-		"Uparameter_U": EvaluateBoxInput_Uparameter_U,
-		"Vparameter_V": EvaluateBoxInput_Vparameter_V,
-		"Wparameter_W": EvaluateBoxInput_Wparameter_W,
+		"box_b": EvaluateBoxInput_box_b,
+		"uparameter_u": EvaluateBoxInput_uparameter_u,
+		"vparameter_v": EvaluateBoxInput_vparameter_v,
+		"wparameter_w": EvaluateBoxInput_wparameter_w,
 	}
 
 	public output:
 	{
-		"Plane_Pl": EvaluateBoxOutput_Plane_Pl,
-		"Point_Pt": EvaluateBoxOutput_Point_Pt,
-		"Include_I": EvaluateBoxOutput_Include_I,
+		"plane_pl": EvaluateBoxOutput_plane_pl,
+		"point_pt": EvaluateBoxOutput_point_pt,
+		"include_i": EvaluateBoxOutput_include_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Box_B": new EvaluateBoxInput_Box_B(),
-			"Uparameter_U": new EvaluateBoxInput_Uparameter_U(),
-			"Vparameter_V": new EvaluateBoxInput_Vparameter_V(),
-			"Wparameter_W": new EvaluateBoxInput_Wparameter_W(),
+			"box_b": new EvaluateBoxInput_box_b(),
+			"uparameter_u": new EvaluateBoxInput_uparameter_u(),
+			"vparameter_v": new EvaluateBoxInput_vparameter_v(),
+			"wparameter_w": new EvaluateBoxInput_wparameter_w(),
 		}
 		this.output = {
-			"Plane_Pl": new EvaluateBoxOutput_Plane_Pl(),
-			"Point_Pt": new EvaluateBoxOutput_Point_Pt(),
-			"Include_I": new EvaluateBoxOutput_Include_I(),
+			"plane_pl": new EvaluateBoxOutput_plane_pl(),
+			"point_pt": new EvaluateBoxOutput_point_pt(),
+			"include_i": new EvaluateBoxOutput_include_i(),
 		}
 	}
 
 }
 
-class EvaluateBoxInput_Box_B extends ResthopperParameter {
+class EvaluateBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -59,7 +59,7 @@ class EvaluateBoxInput_Box_B extends ResthopperParameter {
 
 }
 
-class EvaluateBoxInput_Uparameter_U extends ResthopperParameter {
+class EvaluateBoxInput_uparameter_u extends ResthopperParameter {
 
 	public name: string = "Uparameter";
 	public nickName: string = "U";
@@ -73,7 +73,7 @@ class EvaluateBoxInput_Uparameter_U extends ResthopperParameter {
 
 }
 
-class EvaluateBoxInput_Vparameter_V extends ResthopperParameter {
+class EvaluateBoxInput_vparameter_v extends ResthopperParameter {
 
 	public name: string = "Vparameter";
 	public nickName: string = "V";
@@ -87,7 +87,7 @@ class EvaluateBoxInput_Vparameter_V extends ResthopperParameter {
 
 }
 
-class EvaluateBoxInput_Wparameter_W extends ResthopperParameter {
+class EvaluateBoxInput_wparameter_w extends ResthopperParameter {
 
 	public name: string = "Wparameter";
 	public nickName: string = "W";
@@ -101,7 +101,7 @@ class EvaluateBoxInput_Wparameter_W extends ResthopperParameter {
 
 }
 
-class EvaluateBoxOutput_Plane_Pl extends ResthopperParameter {
+class EvaluateBoxOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -115,7 +115,7 @@ class EvaluateBoxOutput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class EvaluateBoxOutput_Point_Pt extends ResthopperParameter {
+class EvaluateBoxOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
@@ -129,7 +129,7 @@ class EvaluateBoxOutput_Point_Pt extends ResthopperParameter {
 
 }
 
-class EvaluateBoxOutput_Include_I extends ResthopperParameter {
+class EvaluateBoxOutput_include_i extends ResthopperParameter {
 
 	public name: string = "Include";
 	public nickName: string = "I";

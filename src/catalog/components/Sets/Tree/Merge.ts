@@ -15,29 +15,29 @@ export default class Merge extends ResthopperComponent {
 
 	public input:
 	{
-		"StreamA_A": MergeInput_StreamA_A,
-		"StreamB_B": MergeInput_StreamB_B,
+		"streama_a": MergeInput_streama_a,
+		"streamb_b": MergeInput_streamb_b,
 	}
 
 	public output:
 	{
-		"Stream_S": MergeOutput_Stream_S,
+		"stream_s": MergeOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StreamA_A": new MergeInput_StreamA_A(),
-			"StreamB_B": new MergeInput_StreamB_B(),
+			"streama_a": new MergeInput_streama_a(),
+			"streamb_b": new MergeInput_streamb_b(),
 		}
 		this.output = {
-			"Stream_S": new MergeOutput_Stream_S(),
+			"stream_s": new MergeOutput_stream_s(),
 		}
 	}
 
 }
 
-class MergeInput_StreamA_A extends ResthopperParameter {
+class MergeInput_streama_a extends ResthopperParameter {
 
 	public name: string = "StreamA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MergeInput_StreamA_A extends ResthopperParameter {
 
 }
 
-class MergeInput_StreamB_B extends ResthopperParameter {
+class MergeInput_streamb_b extends ResthopperParameter {
 
 	public name: string = "StreamB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MergeInput_StreamB_B extends ResthopperParameter {
 
 }
 
-class MergeOutput_Stream_S extends ResthopperParameter {
+class MergeOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

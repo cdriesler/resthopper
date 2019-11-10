@@ -15,27 +15,27 @@ export default class FragmentPatch extends ResthopperComponent {
 
 	public input:
 	{
-		"Boundary_B": FragmentPatchInput_Boundary_B,
+		"boundary_b": FragmentPatchInput_boundary_b,
 	}
 
 	public output:
 	{
-		"Patch_P": FragmentPatchOutput_Patch_P,
+		"patch_p": FragmentPatchOutput_patch_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Boundary_B": new FragmentPatchInput_Boundary_B(),
+			"boundary_b": new FragmentPatchInput_boundary_b(),
 		}
 		this.output = {
-			"Patch_P": new FragmentPatchOutput_Patch_P(),
+			"patch_p": new FragmentPatchOutput_patch_p(),
 		}
 	}
 
 }
 
-class FragmentPatchInput_Boundary_B extends ResthopperParameter {
+class FragmentPatchInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class FragmentPatchInput_Boundary_B extends ResthopperParameter {
 
 }
 
-class FragmentPatchOutput_Patch_P extends ResthopperParameter {
+class FragmentPatchOutput_patch_p extends ResthopperParameter {
 
 	public name: string = "Patch";
 	public nickName: string = "P";

@@ -15,33 +15,33 @@ export default class CurveNearestObject extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveNearestObjectInput_Curve_C,
-		"Geometry_G": CurveNearestObjectInput_Geometry_G,
+		"curve_c": CurveNearestObjectInput_curve_c,
+		"geometry_g": CurveNearestObjectInput_geometry_g,
 	}
 
 	public output:
 	{
-		"PointA_A": CurveNearestObjectOutput_PointA_A,
-		"PointB_B": CurveNearestObjectOutput_PointB_B,
-		"Index_I": CurveNearestObjectOutput_Index_I,
+		"pointa_a": CurveNearestObjectOutput_pointa_a,
+		"pointb_b": CurveNearestObjectOutput_pointb_b,
+		"index_i": CurveNearestObjectOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveNearestObjectInput_Curve_C(),
-			"Geometry_G": new CurveNearestObjectInput_Geometry_G(),
+			"curve_c": new CurveNearestObjectInput_curve_c(),
+			"geometry_g": new CurveNearestObjectInput_geometry_g(),
 		}
 		this.output = {
-			"PointA_A": new CurveNearestObjectOutput_PointA_A(),
-			"PointB_B": new CurveNearestObjectOutput_PointB_B(),
-			"Index_I": new CurveNearestObjectOutput_Index_I(),
+			"pointa_a": new CurveNearestObjectOutput_pointa_a(),
+			"pointb_b": new CurveNearestObjectOutput_pointb_b(),
+			"index_i": new CurveNearestObjectOutput_index_i(),
 		}
 	}
 
 }
 
-class CurveNearestObjectInput_Curve_C extends ResthopperParameter {
+class CurveNearestObjectInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class CurveNearestObjectInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveNearestObjectInput_Geometry_G extends ResthopperParameter {
+class CurveNearestObjectInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -69,7 +69,7 @@ class CurveNearestObjectInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class CurveNearestObjectOutput_PointA_A extends ResthopperParameter {
+class CurveNearestObjectOutput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class CurveNearestObjectOutput_PointA_A extends ResthopperParameter {
 
 }
 
-class CurveNearestObjectOutput_PointB_B extends ResthopperParameter {
+class CurveNearestObjectOutput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class CurveNearestObjectOutput_PointB_B extends ResthopperParameter {
 
 }
 
-class CurveNearestObjectOutput_Index_I extends ResthopperParameter {
+class CurveNearestObjectOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

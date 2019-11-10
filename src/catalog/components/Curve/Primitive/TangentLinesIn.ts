@@ -15,31 +15,31 @@ export default class TangentLinesIn extends ResthopperComponent {
 
 	public input:
 	{
-		"CircleA_A": TangentLinesInInput_CircleA_A,
-		"CircleB_B": TangentLinesInInput_CircleB_B,
+		"circlea_a": TangentLinesInInput_circlea_a,
+		"circleb_b": TangentLinesInInput_circleb_b,
 	}
 
 	public output:
 	{
-		"Tangent1_T1": TangentLinesInOutput_Tangent1_T1,
-		"Tangent2_T2": TangentLinesInOutput_Tangent2_T2,
+		"tangent1_t1": TangentLinesInOutput_tangent1_t1,
+		"tangent2_t2": TangentLinesInOutput_tangent2_t2,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CircleA_A": new TangentLinesInInput_CircleA_A(),
-			"CircleB_B": new TangentLinesInInput_CircleB_B(),
+			"circlea_a": new TangentLinesInInput_circlea_a(),
+			"circleb_b": new TangentLinesInInput_circleb_b(),
 		}
 		this.output = {
-			"Tangent1_T1": new TangentLinesInOutput_Tangent1_T1(),
-			"Tangent2_T2": new TangentLinesInOutput_Tangent2_T2(),
+			"tangent1_t1": new TangentLinesInOutput_tangent1_t1(),
+			"tangent2_t2": new TangentLinesInOutput_tangent2_t2(),
 		}
 	}
 
 }
 
-class TangentLinesInInput_CircleA_A extends ResthopperParameter {
+class TangentLinesInInput_circlea_a extends ResthopperParameter {
 
 	public name: string = "CircleA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class TangentLinesInInput_CircleA_A extends ResthopperParameter {
 
 }
 
-class TangentLinesInInput_CircleB_B extends ResthopperParameter {
+class TangentLinesInInput_circleb_b extends ResthopperParameter {
 
 	public name: string = "CircleB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class TangentLinesInInput_CircleB_B extends ResthopperParameter {
 
 }
 
-class TangentLinesInOutput_Tangent1_T1 extends ResthopperParameter {
+class TangentLinesInOutput_tangent1_t1 extends ResthopperParameter {
 
 	public name: string = "Tangent1";
 	public nickName: string = "T1";
@@ -81,7 +81,7 @@ class TangentLinesInOutput_Tangent1_T1 extends ResthopperParameter {
 
 }
 
-class TangentLinesInOutput_Tangent2_T2 extends ResthopperParameter {
+class TangentLinesInOutput_tangent2_t2 extends ResthopperParameter {
 
 	public name: string = "Tangent2";
 	public nickName: string = "T2";

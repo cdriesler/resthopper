@@ -15,29 +15,29 @@ export default class ExtrudeAlong extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": ExtrudeAlongInput_Base_B,
-		"Curve_C": ExtrudeAlongInput_Curve_C,
+		"base_b": ExtrudeAlongInput_base_b,
+		"curve_c": ExtrudeAlongInput_curve_c,
 	}
 
 	public output:
 	{
-		"Extrusion_E": ExtrudeAlongOutput_Extrusion_E,
+		"extrusion_e": ExtrudeAlongOutput_extrusion_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new ExtrudeAlongInput_Base_B(),
-			"Curve_C": new ExtrudeAlongInput_Curve_C(),
+			"base_b": new ExtrudeAlongInput_base_b(),
+			"curve_c": new ExtrudeAlongInput_curve_c(),
 		}
 		this.output = {
-			"Extrusion_E": new ExtrudeAlongOutput_Extrusion_E(),
+			"extrusion_e": new ExtrudeAlongOutput_extrusion_e(),
 		}
 	}
 
 }
 
-class ExtrudeAlongInput_Base_B extends ResthopperParameter {
+class ExtrudeAlongInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class ExtrudeAlongInput_Base_B extends ResthopperParameter {
 
 }
 
-class ExtrudeAlongInput_Curve_C extends ResthopperParameter {
+class ExtrudeAlongInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class ExtrudeAlongInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ExtrudeAlongOutput_Extrusion_E extends ResthopperParameter {
+class ExtrudeAlongOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";

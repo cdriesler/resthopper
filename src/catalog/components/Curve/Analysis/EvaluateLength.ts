@@ -15,35 +15,35 @@ export default class EvaluateLength extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": EvaluateLengthInput_Curve_C,
-		"Length_L": EvaluateLengthInput_Length_L,
-		"Normalized_N": EvaluateLengthInput_Normalized_N,
+		"curve_c": EvaluateLengthInput_curve_c,
+		"length_l": EvaluateLengthInput_length_l,
+		"normalized_n": EvaluateLengthInput_normalized_n,
 	}
 
 	public output:
 	{
-		"Point_P": EvaluateLengthOutput_Point_P,
-		"Tangent_T": EvaluateLengthOutput_Tangent_T,
-		"Parameter_t": EvaluateLengthOutput_Parameter_t,
+		"point_p": EvaluateLengthOutput_point_p,
+		"tangent_t": EvaluateLengthOutput_tangent_t,
+		"parameter_t": EvaluateLengthOutput_parameter_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new EvaluateLengthInput_Curve_C(),
-			"Length_L": new EvaluateLengthInput_Length_L(),
-			"Normalized_N": new EvaluateLengthInput_Normalized_N(),
+			"curve_c": new EvaluateLengthInput_curve_c(),
+			"length_l": new EvaluateLengthInput_length_l(),
+			"normalized_n": new EvaluateLengthInput_normalized_n(),
 		}
 		this.output = {
-			"Point_P": new EvaluateLengthOutput_Point_P(),
-			"Tangent_T": new EvaluateLengthOutput_Tangent_T(),
-			"Parameter_t": new EvaluateLengthOutput_Parameter_t(),
+			"point_p": new EvaluateLengthOutput_point_p(),
+			"tangent_t": new EvaluateLengthOutput_tangent_t(),
+			"parameter_t": new EvaluateLengthOutput_parameter_t(),
 		}
 	}
 
 }
 
-class EvaluateLengthInput_Curve_C extends ResthopperParameter {
+class EvaluateLengthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -57,7 +57,7 @@ class EvaluateLengthInput_Curve_C extends ResthopperParameter {
 
 }
 
-class EvaluateLengthInput_Length_L extends ResthopperParameter {
+class EvaluateLengthInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -71,7 +71,7 @@ class EvaluateLengthInput_Length_L extends ResthopperParameter {
 
 }
 
-class EvaluateLengthInput_Normalized_N extends ResthopperParameter {
+class EvaluateLengthInput_normalized_n extends ResthopperParameter {
 
 	public name: string = "Normalized";
 	public nickName: string = "N";
@@ -85,7 +85,7 @@ class EvaluateLengthInput_Normalized_N extends ResthopperParameter {
 
 }
 
-class EvaluateLengthOutput_Point_P extends ResthopperParameter {
+class EvaluateLengthOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -99,7 +99,7 @@ class EvaluateLengthOutput_Point_P extends ResthopperParameter {
 
 }
 
-class EvaluateLengthOutput_Tangent_T extends ResthopperParameter {
+class EvaluateLengthOutput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
@@ -113,7 +113,7 @@ class EvaluateLengthOutput_Tangent_T extends ResthopperParameter {
 
 }
 
-class EvaluateLengthOutput_Parameter_t extends ResthopperParameter {
+class EvaluateLengthOutput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";

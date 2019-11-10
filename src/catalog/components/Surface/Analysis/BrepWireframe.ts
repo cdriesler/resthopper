@@ -15,29 +15,29 @@ export default class BrepWireframe extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": BrepWireframeInput_Brep_B,
-		"Density_D": BrepWireframeInput_Density_D,
+		"brep_b": BrepWireframeInput_brep_b,
+		"density_d": BrepWireframeInput_density_d,
 	}
 
 	public output:
 	{
-		"Wireframe_W": BrepWireframeOutput_Wireframe_W,
+		"wireframe_w": BrepWireframeOutput_wireframe_w,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new BrepWireframeInput_Brep_B(),
-			"Density_D": new BrepWireframeInput_Density_D(),
+			"brep_b": new BrepWireframeInput_brep_b(),
+			"density_d": new BrepWireframeInput_density_d(),
 		}
 		this.output = {
-			"Wireframe_W": new BrepWireframeOutput_Wireframe_W(),
+			"wireframe_w": new BrepWireframeOutput_wireframe_w(),
 		}
 	}
 
 }
 
-class BrepWireframeInput_Brep_B extends ResthopperParameter {
+class BrepWireframeInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class BrepWireframeInput_Brep_B extends ResthopperParameter {
 
 }
 
-class BrepWireframeInput_Density_D extends ResthopperParameter {
+class BrepWireframeInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class BrepWireframeInput_Density_D extends ResthopperParameter {
 
 }
 
-class BrepWireframeOutput_Wireframe_W extends ResthopperParameter {
+class BrepWireframeOutput_wireframe_w extends ResthopperParameter {
 
 	public name: string = "Wireframe";
 	public nickName: string = "W";

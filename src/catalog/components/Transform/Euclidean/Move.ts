@@ -15,31 +15,31 @@ export default class Move extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MoveInput_Geometry_G,
-		"Motion_T": MoveInput_Motion_T,
+		"geometry_g": MoveInput_geometry_g,
+		"motion_t": MoveInput_motion_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": MoveOutput_Geometry_G,
-		"Transform_X": MoveOutput_Transform_X,
+		"geometry_g": MoveOutput_geometry_g,
+		"transform_x": MoveOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MoveInput_Geometry_G(),
-			"Motion_T": new MoveInput_Motion_T(),
+			"geometry_g": new MoveInput_geometry_g(),
+			"motion_t": new MoveInput_motion_t(),
 		}
 		this.output = {
-			"Geometry_G": new MoveOutput_Geometry_G(),
-			"Transform_X": new MoveOutput_Transform_X(),
+			"geometry_g": new MoveOutput_geometry_g(),
+			"transform_x": new MoveOutput_transform_x(),
 		}
 	}
 
 }
 
-class MoveInput_Geometry_G extends ResthopperParameter {
+class MoveInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class MoveInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveInput_Motion_T extends ResthopperParameter {
+class MoveInput_motion_t extends ResthopperParameter {
 
 	public name: string = "Motion";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class MoveInput_Motion_T extends ResthopperParameter {
 
 }
 
-class MoveOutput_Geometry_G extends ResthopperParameter {
+class MoveOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -81,7 +81,7 @@ class MoveOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MoveOutput_Transform_X extends ResthopperParameter {
+class MoveOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

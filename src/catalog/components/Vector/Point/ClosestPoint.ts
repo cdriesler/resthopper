@@ -15,33 +15,33 @@ export default class ClosestPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": ClosestPointInput_Point_P,
-		"Cloud_C": ClosestPointInput_Cloud_C,
+		"point_p": ClosestPointInput_point_p,
+		"cloud_c": ClosestPointInput_cloud_c,
 	}
 
 	public output:
 	{
-		"ClosestPoint_P": ClosestPointOutput_ClosestPoint_P,
-		"CPIndex_i": ClosestPointOutput_CPIndex_i,
-		"Distance_D": ClosestPointOutput_Distance_D,
+		"closestpoint_p": ClosestPointOutput_closestpoint_p,
+		"cpindex_i": ClosestPointOutput_cpindex_i,
+		"distance_d": ClosestPointOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new ClosestPointInput_Point_P(),
-			"Cloud_C": new ClosestPointInput_Cloud_C(),
+			"point_p": new ClosestPointInput_point_p(),
+			"cloud_c": new ClosestPointInput_cloud_c(),
 		}
 		this.output = {
-			"ClosestPoint_P": new ClosestPointOutput_ClosestPoint_P(),
-			"CPIndex_i": new ClosestPointOutput_CPIndex_i(),
-			"Distance_D": new ClosestPointOutput_Distance_D(),
+			"closestpoint_p": new ClosestPointOutput_closestpoint_p(),
+			"cpindex_i": new ClosestPointOutput_cpindex_i(),
+			"distance_d": new ClosestPointOutput_distance_d(),
 		}
 	}
 
 }
 
-class ClosestPointInput_Point_P extends ResthopperParameter {
+class ClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ClosestPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class ClosestPointInput_Cloud_C extends ResthopperParameter {
+class ClosestPointInput_cloud_c extends ResthopperParameter {
 
 	public name: string = "Cloud";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class ClosestPointInput_Cloud_C extends ResthopperParameter {
 
 }
 
-class ClosestPointOutput_ClosestPoint_P extends ResthopperParameter {
+class ClosestPointOutput_closestpoint_p extends ResthopperParameter {
 
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class ClosestPointOutput_ClosestPoint_P extends ResthopperParameter {
 
 }
 
-class ClosestPointOutput_CPIndex_i extends ResthopperParameter {
+class ClosestPointOutput_cpindex_i extends ResthopperParameter {
 
 	public name: string = "CPIndex";
 	public nickName: string = "i";
@@ -97,7 +97,7 @@ class ClosestPointOutput_CPIndex_i extends ResthopperParameter {
 
 }
 
-class ClosestPointOutput_Distance_D extends ResthopperParameter {
+class ClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

@@ -15,33 +15,33 @@ export default class PointPolar extends ResthopperComponent {
 
 	public input:
 	{
-		"Baseplane_P": PointPolarInput_Baseplane_P,
-		"XYangle_xy": PointPolarInput_XYangle_xy,
-		"Zangle_z": PointPolarInput_Zangle_z,
-		"Offset_d": PointPolarInput_Offset_d,
+		"baseplane_p": PointPolarInput_baseplane_p,
+		"xyangle_xy": PointPolarInput_xyangle_xy,
+		"zangle_z": PointPolarInput_zangle_z,
+		"offset_d": PointPolarInput_offset_d,
 	}
 
 	public output:
 	{
-		"Point_Pt": PointPolarOutput_Point_Pt,
+		"point_pt": PointPolarOutput_point_pt,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Baseplane_P": new PointPolarInput_Baseplane_P(),
-			"XYangle_xy": new PointPolarInput_XYangle_xy(),
-			"Zangle_z": new PointPolarInput_Zangle_z(),
-			"Offset_d": new PointPolarInput_Offset_d(),
+			"baseplane_p": new PointPolarInput_baseplane_p(),
+			"xyangle_xy": new PointPolarInput_xyangle_xy(),
+			"zangle_z": new PointPolarInput_zangle_z(),
+			"offset_d": new PointPolarInput_offset_d(),
 		}
 		this.output = {
-			"Point_Pt": new PointPolarOutput_Point_Pt(),
+			"point_pt": new PointPolarOutput_point_pt(),
 		}
 	}
 
 }
 
-class PointPolarInput_Baseplane_P extends ResthopperParameter {
+class PointPolarInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PointPolarInput_Baseplane_P extends ResthopperParameter {
 
 }
 
-class PointPolarInput_XYangle_xy extends ResthopperParameter {
+class PointPolarInput_xyangle_xy extends ResthopperParameter {
 
 	public name: string = "XYangle";
 	public nickName: string = "xy";
@@ -69,7 +69,7 @@ class PointPolarInput_XYangle_xy extends ResthopperParameter {
 
 }
 
-class PointPolarInput_Zangle_z extends ResthopperParameter {
+class PointPolarInput_zangle_z extends ResthopperParameter {
 
 	public name: string = "Zangle";
 	public nickName: string = "z";
@@ -83,7 +83,7 @@ class PointPolarInput_Zangle_z extends ResthopperParameter {
 
 }
 
-class PointPolarInput_Offset_d extends ResthopperParameter {
+class PointPolarInput_offset_d extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "d";
@@ -97,7 +97,7 @@ class PointPolarInput_Offset_d extends ResthopperParameter {
 
 }
 
-class PointPolarOutput_Point_Pt extends ResthopperParameter {
+class PointPolarOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";

@@ -15,33 +15,33 @@ export default class PopulateTwoD extends ResthopperComponent {
 
 	public input:
 	{
-		"Region_R": PopulateTwoDInput_Region_R,
-		"Count_N": PopulateTwoDInput_Count_N,
-		"Seed_S": PopulateTwoDInput_Seed_S,
-		"Points_P": PopulateTwoDInput_Points_P,
+		"region_r": PopulateTwoDInput_region_r,
+		"count_n": PopulateTwoDInput_count_n,
+		"seed_s": PopulateTwoDInput_seed_s,
+		"points_p": PopulateTwoDInput_points_p,
 	}
 
 	public output:
 	{
-		"Population_P": PopulateTwoDOutput_Population_P,
+		"population_p": PopulateTwoDOutput_population_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Region_R": new PopulateTwoDInput_Region_R(),
-			"Count_N": new PopulateTwoDInput_Count_N(),
-			"Seed_S": new PopulateTwoDInput_Seed_S(),
-			"Points_P": new PopulateTwoDInput_Points_P(),
+			"region_r": new PopulateTwoDInput_region_r(),
+			"count_n": new PopulateTwoDInput_count_n(),
+			"seed_s": new PopulateTwoDInput_seed_s(),
+			"points_p": new PopulateTwoDInput_points_p(),
 		}
 		this.output = {
-			"Population_P": new PopulateTwoDOutput_Population_P(),
+			"population_p": new PopulateTwoDOutput_population_p(),
 		}
 	}
 
 }
 
-class PopulateTwoDInput_Region_R extends ResthopperParameter {
+class PopulateTwoDInput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";
@@ -55,7 +55,7 @@ class PopulateTwoDInput_Region_R extends ResthopperParameter {
 
 }
 
-class PopulateTwoDInput_Count_N extends ResthopperParameter {
+class PopulateTwoDInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -69,7 +69,7 @@ class PopulateTwoDInput_Count_N extends ResthopperParameter {
 
 }
 
-class PopulateTwoDInput_Seed_S extends ResthopperParameter {
+class PopulateTwoDInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class PopulateTwoDInput_Seed_S extends ResthopperParameter {
 
 }
 
-class PopulateTwoDInput_Points_P extends ResthopperParameter {
+class PopulateTwoDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class PopulateTwoDInput_Points_P extends ResthopperParameter {
 
 }
 
-class PopulateTwoDOutput_Population_P extends ResthopperParameter {
+class PopulateTwoDOutput_population_p extends ResthopperParameter {
 
 	public name: string = "Population";
 	public nickName: string = "P";

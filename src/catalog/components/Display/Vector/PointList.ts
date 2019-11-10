@@ -15,8 +15,8 @@ export default class PointList extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": PointListInput_Points_P,
-		"Size_S": PointListInput_Size_S,
+		"points_p": PointListInput_points_p,
+		"size_s": PointListInput_size_s,
 	}
 
 	public output:
@@ -27,8 +27,8 @@ export default class PointList extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new PointListInput_Points_P(),
-			"Size_S": new PointListInput_Size_S(),
+			"points_p": new PointListInput_points_p(),
+			"size_s": new PointListInput_size_s(),
 		}
 		this.output = {
 
@@ -37,7 +37,7 @@ export default class PointList extends ResthopperComponent {
 
 }
 
-class PointListInput_Points_P extends ResthopperParameter {
+class PointListInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class PointListInput_Points_P extends ResthopperParameter {
 
 }
 
-class PointListInput_Size_S extends ResthopperParameter {
+class PointListInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

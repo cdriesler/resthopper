@@ -15,35 +15,35 @@ export default class KinkyCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": KinkyCurveInput_Vertices_V,
-		"Degree_D": KinkyCurveInput_Degree_D,
-		"Angle_A": KinkyCurveInput_Angle_A,
+		"vertices_v": KinkyCurveInput_vertices_v,
+		"degree_d": KinkyCurveInput_degree_d,
+		"angle_a": KinkyCurveInput_angle_a,
 	}
 
 	public output:
 	{
-		"Curve_C": KinkyCurveOutput_Curve_C,
-		"Length_L": KinkyCurveOutput_Length_L,
-		"Domain_D": KinkyCurveOutput_Domain_D,
+		"curve_c": KinkyCurveOutput_curve_c,
+		"length_l": KinkyCurveOutput_length_l,
+		"domain_d": KinkyCurveOutput_domain_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new KinkyCurveInput_Vertices_V(),
-			"Degree_D": new KinkyCurveInput_Degree_D(),
-			"Angle_A": new KinkyCurveInput_Angle_A(),
+			"vertices_v": new KinkyCurveInput_vertices_v(),
+			"degree_d": new KinkyCurveInput_degree_d(),
+			"angle_a": new KinkyCurveInput_angle_a(),
 		}
 		this.output = {
-			"Curve_C": new KinkyCurveOutput_Curve_C(),
-			"Length_L": new KinkyCurveOutput_Length_L(),
-			"Domain_D": new KinkyCurveOutput_Domain_D(),
+			"curve_c": new KinkyCurveOutput_curve_c(),
+			"length_l": new KinkyCurveOutput_length_l(),
+			"domain_d": new KinkyCurveOutput_domain_d(),
 		}
 	}
 
 }
 
-class KinkyCurveInput_Vertices_V extends ResthopperParameter {
+class KinkyCurveInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -57,7 +57,7 @@ class KinkyCurveInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class KinkyCurveInput_Degree_D extends ResthopperParameter {
+class KinkyCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -71,7 +71,7 @@ class KinkyCurveInput_Degree_D extends ResthopperParameter {
 
 }
 
-class KinkyCurveInput_Angle_A extends ResthopperParameter {
+class KinkyCurveInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -85,7 +85,7 @@ class KinkyCurveInput_Angle_A extends ResthopperParameter {
 
 }
 
-class KinkyCurveOutput_Curve_C extends ResthopperParameter {
+class KinkyCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class KinkyCurveOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class KinkyCurveOutput_Length_L extends ResthopperParameter {
+class KinkyCurveOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -113,7 +113,7 @@ class KinkyCurveOutput_Length_L extends ResthopperParameter {
 
 }
 
-class KinkyCurveOutput_Domain_D extends ResthopperParameter {
+class KinkyCurveOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";

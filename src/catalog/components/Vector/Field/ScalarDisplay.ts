@@ -15,31 +15,31 @@ export default class ScalarDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": ScalarDisplayInput_Field_F,
-		"Section_S": ScalarDisplayInput_Section_S,
-		"Samples_N": ScalarDisplayInput_Samples_N,
+		"field_f": ScalarDisplayInput_field_f,
+		"section_s": ScalarDisplayInput_section_s,
+		"samples_n": ScalarDisplayInput_samples_n,
 	}
 
 	public output:
 	{
-		"Display_D": ScalarDisplayOutput_Display_D,
+		"display_d": ScalarDisplayOutput_display_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new ScalarDisplayInput_Field_F(),
-			"Section_S": new ScalarDisplayInput_Section_S(),
-			"Samples_N": new ScalarDisplayInput_Samples_N(),
+			"field_f": new ScalarDisplayInput_field_f(),
+			"section_s": new ScalarDisplayInput_section_s(),
+			"samples_n": new ScalarDisplayInput_samples_n(),
 		}
 		this.output = {
-			"Display_D": new ScalarDisplayOutput_Display_D(),
+			"display_d": new ScalarDisplayOutput_display_d(),
 		}
 	}
 
 }
 
-class ScalarDisplayInput_Field_F extends ResthopperParameter {
+class ScalarDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -53,7 +53,7 @@ class ScalarDisplayInput_Field_F extends ResthopperParameter {
 
 }
 
-class ScalarDisplayInput_Section_S extends ResthopperParameter {
+class ScalarDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class ScalarDisplayInput_Section_S extends ResthopperParameter {
 
 }
 
-class ScalarDisplayInput_Samples_N extends ResthopperParameter {
+class ScalarDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";
@@ -81,7 +81,7 @@ class ScalarDisplayInput_Samples_N extends ResthopperParameter {
 
 }
 
-class ScalarDisplayOutput_Display_D extends ResthopperParameter {
+class ScalarDisplayOutput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";

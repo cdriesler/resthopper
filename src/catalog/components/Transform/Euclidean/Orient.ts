@@ -15,33 +15,33 @@ export default class Orient extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": OrientInput_Geometry_G,
-		"Source_A": OrientInput_Source_A,
-		"Target_B": OrientInput_Target_B,
+		"geometry_g": OrientInput_geometry_g,
+		"source_a": OrientInput_source_a,
+		"target_b": OrientInput_target_b,
 	}
 
 	public output:
 	{
-		"Geometry_G": OrientOutput_Geometry_G,
-		"Transform_X": OrientOutput_Transform_X,
+		"geometry_g": OrientOutput_geometry_g,
+		"transform_x": OrientOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new OrientInput_Geometry_G(),
-			"Source_A": new OrientInput_Source_A(),
-			"Target_B": new OrientInput_Target_B(),
+			"geometry_g": new OrientInput_geometry_g(),
+			"source_a": new OrientInput_source_a(),
+			"target_b": new OrientInput_target_b(),
 		}
 		this.output = {
-			"Geometry_G": new OrientOutput_Geometry_G(),
-			"Transform_X": new OrientOutput_Transform_X(),
+			"geometry_g": new OrientOutput_geometry_g(),
+			"transform_x": new OrientOutput_transform_x(),
 		}
 	}
 
 }
 
-class OrientInput_Geometry_G extends ResthopperParameter {
+class OrientInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class OrientInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class OrientInput_Source_A extends ResthopperParameter {
+class OrientInput_source_a extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class OrientInput_Source_A extends ResthopperParameter {
 
 }
 
-class OrientInput_Target_B extends ResthopperParameter {
+class OrientInput_target_b extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "B";
@@ -83,7 +83,7 @@ class OrientInput_Target_B extends ResthopperParameter {
 
 }
 
-class OrientOutput_Geometry_G extends ResthopperParameter {
+class OrientOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class OrientOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class OrientOutput_Transform_X extends ResthopperParameter {
+class OrientOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

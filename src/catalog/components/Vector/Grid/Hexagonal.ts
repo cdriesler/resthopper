@@ -15,35 +15,35 @@ export default class Hexagonal extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": HexagonalInput_Plane_P,
-		"Size_S": HexagonalInput_Size_S,
-		"ExtentX_Ex": HexagonalInput_ExtentX_Ex,
-		"ExtentY_Ey": HexagonalInput_ExtentY_Ey,
+		"plane_p": HexagonalInput_plane_p,
+		"size_s": HexagonalInput_size_s,
+		"extentx_ex": HexagonalInput_extentx_ex,
+		"extenty_ey": HexagonalInput_extenty_ey,
 	}
 
 	public output:
 	{
-		"Cells_C": HexagonalOutput_Cells_C,
-		"Points_P": HexagonalOutput_Points_P,
+		"cells_c": HexagonalOutput_cells_c,
+		"points_p": HexagonalOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new HexagonalInput_Plane_P(),
-			"Size_S": new HexagonalInput_Size_S(),
-			"ExtentX_Ex": new HexagonalInput_ExtentX_Ex(),
-			"ExtentY_Ey": new HexagonalInput_ExtentY_Ey(),
+			"plane_p": new HexagonalInput_plane_p(),
+			"size_s": new HexagonalInput_size_s(),
+			"extentx_ex": new HexagonalInput_extentx_ex(),
+			"extenty_ey": new HexagonalInput_extenty_ey(),
 		}
 		this.output = {
-			"Cells_C": new HexagonalOutput_Cells_C(),
-			"Points_P": new HexagonalOutput_Points_P(),
+			"cells_c": new HexagonalOutput_cells_c(),
+			"points_p": new HexagonalOutput_points_p(),
 		}
 	}
 
 }
 
-class HexagonalInput_Plane_P extends ResthopperParameter {
+class HexagonalInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class HexagonalInput_Plane_P extends ResthopperParameter {
 
 }
 
-class HexagonalInput_Size_S extends ResthopperParameter {
+class HexagonalInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
@@ -71,7 +71,7 @@ class HexagonalInput_Size_S extends ResthopperParameter {
 
 }
 
-class HexagonalInput_ExtentX_Ex extends ResthopperParameter {
+class HexagonalInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
@@ -85,7 +85,7 @@ class HexagonalInput_ExtentX_Ex extends ResthopperParameter {
 
 }
 
-class HexagonalInput_ExtentY_Ey extends ResthopperParameter {
+class HexagonalInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
@@ -99,7 +99,7 @@ class HexagonalInput_ExtentY_Ey extends ResthopperParameter {
 
 }
 
-class HexagonalOutput_Cells_C extends ResthopperParameter {
+class HexagonalOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -113,7 +113,7 @@ class HexagonalOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class HexagonalOutput_Points_P extends ResthopperParameter {
+class HexagonalOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

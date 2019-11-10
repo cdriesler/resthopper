@@ -15,27 +15,27 @@ export default class MeshUnion extends ResthopperComponent {
 
 	public input:
 	{
-		"Meshes_M": MeshUnionInput_Meshes_M,
+		"meshes_m": MeshUnionInput_meshes_m,
 	}
 
 	public output:
 	{
-		"Result_R": MeshUnionOutput_Result_R,
+		"result_r": MeshUnionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Meshes_M": new MeshUnionInput_Meshes_M(),
+			"meshes_m": new MeshUnionInput_meshes_m(),
 		}
 		this.output = {
-			"Result_R": new MeshUnionOutput_Result_R(),
+			"result_r": new MeshUnionOutput_result_r(),
 		}
 	}
 
 }
 
-class MeshUnionInput_Meshes_M extends ResthopperParameter {
+class MeshUnionInput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";
@@ -49,7 +49,7 @@ class MeshUnionInput_Meshes_M extends ResthopperParameter {
 
 }
 
-class MeshUnionOutput_Result_R extends ResthopperParameter {
+class MeshUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

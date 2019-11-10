@@ -15,31 +15,31 @@ export default class Project extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": ProjectInput_Geometry_G,
-		"Plane_P": ProjectInput_Plane_P,
+		"geometry_g": ProjectInput_geometry_g,
+		"plane_p": ProjectInput_plane_p,
 	}
 
 	public output:
 	{
-		"Geometry_G": ProjectOutput_Geometry_G,
-		"Transform_X": ProjectOutput_Transform_X,
+		"geometry_g": ProjectOutput_geometry_g,
+		"transform_x": ProjectOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new ProjectInput_Geometry_G(),
-			"Plane_P": new ProjectInput_Plane_P(),
+			"geometry_g": new ProjectInput_geometry_g(),
+			"plane_p": new ProjectInput_plane_p(),
 		}
 		this.output = {
-			"Geometry_G": new ProjectOutput_Geometry_G(),
-			"Transform_X": new ProjectOutput_Transform_X(),
+			"geometry_g": new ProjectOutput_geometry_g(),
+			"transform_x": new ProjectOutput_transform_x(),
 		}
 	}
 
 }
 
-class ProjectInput_Geometry_G extends ResthopperParameter {
+class ProjectInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class ProjectInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ProjectInput_Plane_P extends ResthopperParameter {
+class ProjectInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class ProjectInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ProjectOutput_Geometry_G extends ResthopperParameter {
+class ProjectOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -81,7 +81,7 @@ class ProjectOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ProjectOutput_Transform_X extends ResthopperParameter {
+class ProjectOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

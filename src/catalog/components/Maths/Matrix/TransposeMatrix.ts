@@ -15,27 +15,27 @@ export default class TransposeMatrix extends ResthopperComponent {
 
 	public input:
 	{
-		"Matrix_M": TransposeMatrixInput_Matrix_M,
+		"matrix_m": TransposeMatrixInput_matrix_m,
 	}
 
 	public output:
 	{
-		"Matrix_M": TransposeMatrixOutput_Matrix_M,
+		"matrix_m": TransposeMatrixOutput_matrix_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Matrix_M": new TransposeMatrixInput_Matrix_M(),
+			"matrix_m": new TransposeMatrixInput_matrix_m(),
 		}
 		this.output = {
-			"Matrix_M": new TransposeMatrixOutput_Matrix_M(),
+			"matrix_m": new TransposeMatrixOutput_matrix_m(),
 		}
 	}
 
 }
 
-class TransposeMatrixInput_Matrix_M extends ResthopperParameter {
+class TransposeMatrixInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
@@ -49,7 +49,7 @@ class TransposeMatrixInput_Matrix_M extends ResthopperParameter {
 
 }
 
-class TransposeMatrixOutput_Matrix_M extends ResthopperParameter {
+class TransposeMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";

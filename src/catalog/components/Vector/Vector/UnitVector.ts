@@ -15,27 +15,27 @@ export default class UnitVector extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": UnitVectorInput_Vector_V,
+		"vector_v": UnitVectorInput_vector_v,
 	}
 
 	public output:
 	{
-		"Vector_V": UnitVectorOutput_Vector_V,
+		"vector_v": UnitVectorOutput_vector_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new UnitVectorInput_Vector_V(),
+			"vector_v": new UnitVectorInput_vector_v(),
 		}
 		this.output = {
-			"Vector_V": new UnitVectorOutput_Vector_V(),
+			"vector_v": new UnitVectorOutput_vector_v(),
 		}
 	}
 
 }
 
-class UnitVectorInput_Vector_V extends ResthopperParameter {
+class UnitVectorInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -49,7 +49,7 @@ class UnitVectorInput_Vector_V extends ResthopperParameter {
 
 }
 
-class UnitVectorOutput_Vector_V extends ResthopperParameter {
+class UnitVectorOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";

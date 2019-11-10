@@ -15,29 +15,29 @@ export default class Range extends ResthopperComponent {
 
 	public input:
 	{
-		"Domain_D": RangeInput_Domain_D,
-		"Steps_N": RangeInput_Steps_N,
+		"domain_d": RangeInput_domain_d,
+		"steps_n": RangeInput_steps_n,
 	}
 
 	public output:
 	{
-		"Range_R": RangeOutput_Range_R,
+		"range_r": RangeOutput_range_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Domain_D": new RangeInput_Domain_D(),
-			"Steps_N": new RangeInput_Steps_N(),
+			"domain_d": new RangeInput_domain_d(),
+			"steps_n": new RangeInput_steps_n(),
 		}
 		this.output = {
-			"Range_R": new RangeOutput_Range_R(),
+			"range_r": new RangeOutput_range_r(),
 		}
 	}
 
 }
 
-class RangeInput_Domain_D extends ResthopperParameter {
+class RangeInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class RangeInput_Domain_D extends ResthopperParameter {
 
 }
 
-class RangeInput_Steps_N extends ResthopperParameter {
+class RangeInput_steps_n extends ResthopperParameter {
 
 	public name: string = "Steps";
 	public nickName: string = "N";
@@ -65,7 +65,7 @@ class RangeInput_Steps_N extends ResthopperParameter {
 
 }
 
-class RangeOutput_Range_R extends ResthopperParameter {
+class RangeOutput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";

@@ -15,29 +15,29 @@ export default class RotatePlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": RotatePlaneInput_Plane_P,
-		"Angle_A": RotatePlaneInput_Angle_A,
+		"plane_p": RotatePlaneInput_plane_p,
+		"angle_a": RotatePlaneInput_angle_a,
 	}
 
 	public output:
 	{
-		"Plane_P": RotatePlaneOutput_Plane_P,
+		"plane_p": RotatePlaneOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new RotatePlaneInput_Plane_P(),
-			"Angle_A": new RotatePlaneInput_Angle_A(),
+			"plane_p": new RotatePlaneInput_plane_p(),
+			"angle_a": new RotatePlaneInput_angle_a(),
 		}
 		this.output = {
-			"Plane_P": new RotatePlaneOutput_Plane_P(),
+			"plane_p": new RotatePlaneOutput_plane_p(),
 		}
 	}
 
 }
 
-class RotatePlaneInput_Plane_P extends ResthopperParameter {
+class RotatePlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class RotatePlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RotatePlaneInput_Angle_A extends ResthopperParameter {
+class RotatePlaneInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -65,7 +65,7 @@ class RotatePlaneInput_Angle_A extends ResthopperParameter {
 
 }
 
-class RotatePlaneOutput_Plane_P extends ResthopperParameter {
+class RotatePlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

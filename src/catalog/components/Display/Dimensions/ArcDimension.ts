@@ -15,10 +15,10 @@ export default class ArcDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Arc_A": ArcDimensionInput_Arc_A,
-		"Offset_O": ArcDimensionInput_Offset_O,
-		"Text_T": ArcDimensionInput_Text_T,
-		"Size_S": ArcDimensionInput_Size_S,
+		"arc_a": ArcDimensionInput_arc_a,
+		"offset_o": ArcDimensionInput_offset_o,
+		"text_t": ArcDimensionInput_text_t,
+		"size_s": ArcDimensionInput_size_s,
 	}
 
 	public output:
@@ -29,10 +29,10 @@ export default class ArcDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Arc_A": new ArcDimensionInput_Arc_A(),
-			"Offset_O": new ArcDimensionInput_Offset_O(),
-			"Text_T": new ArcDimensionInput_Text_T(),
-			"Size_S": new ArcDimensionInput_Size_S(),
+			"arc_a": new ArcDimensionInput_arc_a(),
+			"offset_o": new ArcDimensionInput_offset_o(),
+			"text_t": new ArcDimensionInput_text_t(),
+			"size_s": new ArcDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -41,7 +41,7 @@ export default class ArcDimension extends ResthopperComponent {
 
 }
 
-class ArcDimensionInput_Arc_A extends ResthopperParameter {
+class ArcDimensionInput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class ArcDimensionInput_Arc_A extends ResthopperParameter {
 
 }
 
-class ArcDimensionInput_Offset_O extends ResthopperParameter {
+class ArcDimensionInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -69,7 +69,7 @@ class ArcDimensionInput_Offset_O extends ResthopperParameter {
 
 }
 
-class ArcDimensionInput_Text_T extends ResthopperParameter {
+class ArcDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class ArcDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class ArcDimensionInput_Size_S extends ResthopperParameter {
+class ArcDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

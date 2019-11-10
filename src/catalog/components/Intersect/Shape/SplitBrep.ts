@@ -15,29 +15,29 @@ export default class SplitBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": SplitBrepInput_Brep_B,
-		"Cutter_C": SplitBrepInput_Cutter_C,
+		"brep_b": SplitBrepInput_brep_b,
+		"cutter_c": SplitBrepInput_cutter_c,
 	}
 
 	public output:
 	{
-		"Result_R": SplitBrepOutput_Result_R,
+		"result_r": SplitBrepOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new SplitBrepInput_Brep_B(),
-			"Cutter_C": new SplitBrepInput_Cutter_C(),
+			"brep_b": new SplitBrepInput_brep_b(),
+			"cutter_c": new SplitBrepInput_cutter_c(),
 		}
 		this.output = {
-			"Result_R": new SplitBrepOutput_Result_R(),
+			"result_r": new SplitBrepOutput_result_r(),
 		}
 	}
 
 }
 
-class SplitBrepInput_Brep_B extends ResthopperParameter {
+class SplitBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class SplitBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class SplitBrepInput_Cutter_C extends ResthopperParameter {
+class SplitBrepInput_cutter_c extends ResthopperParameter {
 
 	public name: string = "Cutter";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class SplitBrepInput_Cutter_C extends ResthopperParameter {
 
 }
 
-class SplitBrepOutput_Result_R extends ResthopperParameter {
+class SplitBrepOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

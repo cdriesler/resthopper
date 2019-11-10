@@ -15,35 +15,35 @@ export default class IsoVistRay extends ResthopperComponent {
 
 	public input:
 	{
-		"Sample_S": IsoVistRayInput_Sample_S,
-		"Radius_R": IsoVistRayInput_Radius_R,
-		"Obstacles_O": IsoVistRayInput_Obstacles_O,
+		"sample_s": IsoVistRayInput_sample_s,
+		"radius_r": IsoVistRayInput_radius_r,
+		"obstacles_o": IsoVistRayInput_obstacles_o,
 	}
 
 	public output:
 	{
-		"Point_P": IsoVistRayOutput_Point_P,
-		"Distance_D": IsoVistRayOutput_Distance_D,
-		"Index_I": IsoVistRayOutput_Index_I,
+		"point_p": IsoVistRayOutput_point_p,
+		"distance_d": IsoVistRayOutput_distance_d,
+		"index_i": IsoVistRayOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Sample_S": new IsoVistRayInput_Sample_S(),
-			"Radius_R": new IsoVistRayInput_Radius_R(),
-			"Obstacles_O": new IsoVistRayInput_Obstacles_O(),
+			"sample_s": new IsoVistRayInput_sample_s(),
+			"radius_r": new IsoVistRayInput_radius_r(),
+			"obstacles_o": new IsoVistRayInput_obstacles_o(),
 		}
 		this.output = {
-			"Point_P": new IsoVistRayOutput_Point_P(),
-			"Distance_D": new IsoVistRayOutput_Distance_D(),
-			"Index_I": new IsoVistRayOutput_Index_I(),
+			"point_p": new IsoVistRayOutput_point_p(),
+			"distance_d": new IsoVistRayOutput_distance_d(),
+			"index_i": new IsoVistRayOutput_index_i(),
 		}
 	}
 
 }
 
-class IsoVistRayInput_Sample_S extends ResthopperParameter {
+class IsoVistRayInput_sample_s extends ResthopperParameter {
 
 	public name: string = "Sample";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class IsoVistRayInput_Sample_S extends ResthopperParameter {
 
 }
 
-class IsoVistRayInput_Radius_R extends ResthopperParameter {
+class IsoVistRayInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -71,7 +71,7 @@ class IsoVistRayInput_Radius_R extends ResthopperParameter {
 
 }
 
-class IsoVistRayInput_Obstacles_O extends ResthopperParameter {
+class IsoVistRayInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
@@ -85,7 +85,7 @@ class IsoVistRayInput_Obstacles_O extends ResthopperParameter {
 
 }
 
-class IsoVistRayOutput_Point_P extends ResthopperParameter {
+class IsoVistRayOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -99,7 +99,7 @@ class IsoVistRayOutput_Point_P extends ResthopperParameter {
 
 }
 
-class IsoVistRayOutput_Distance_D extends ResthopperParameter {
+class IsoVistRayOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -113,7 +113,7 @@ class IsoVistRayOutput_Distance_D extends ResthopperParameter {
 
 }
 
-class IsoVistRayOutput_Index_I extends ResthopperParameter {
+class IsoVistRayOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

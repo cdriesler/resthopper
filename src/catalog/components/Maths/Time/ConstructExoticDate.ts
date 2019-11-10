@@ -15,31 +15,31 @@ export default class ConstructExoticDate extends ResthopperComponent {
 
 	public input:
 	{
-		"Year_Y": ConstructExoticDateInput_Year_Y,
-		"Month_M": ConstructExoticDateInput_Month_M,
-		"Day_D": ConstructExoticDateInput_Day_D,
+		"year_y": ConstructExoticDateInput_year_y,
+		"month_m": ConstructExoticDateInput_month_m,
+		"day_d": ConstructExoticDateInput_day_d,
 	}
 
 	public output:
 	{
-		"Time_T": ConstructExoticDateOutput_Time_T,
+		"time_t": ConstructExoticDateOutput_time_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Year_Y": new ConstructExoticDateInput_Year_Y(),
-			"Month_M": new ConstructExoticDateInput_Month_M(),
-			"Day_D": new ConstructExoticDateInput_Day_D(),
+			"year_y": new ConstructExoticDateInput_year_y(),
+			"month_m": new ConstructExoticDateInput_month_m(),
+			"day_d": new ConstructExoticDateInput_day_d(),
 		}
 		this.output = {
-			"Time_T": new ConstructExoticDateOutput_Time_T(),
+			"time_t": new ConstructExoticDateOutput_time_t(),
 		}
 	}
 
 }
 
-class ConstructExoticDateInput_Year_Y extends ResthopperParameter {
+class ConstructExoticDateInput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
@@ -53,7 +53,7 @@ class ConstructExoticDateInput_Year_Y extends ResthopperParameter {
 
 }
 
-class ConstructExoticDateInput_Month_M extends ResthopperParameter {
+class ConstructExoticDateInput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
@@ -67,7 +67,7 @@ class ConstructExoticDateInput_Month_M extends ResthopperParameter {
 
 }
 
-class ConstructExoticDateInput_Day_D extends ResthopperParameter {
+class ConstructExoticDateInput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
@@ -81,7 +81,7 @@ class ConstructExoticDateInput_Day_D extends ResthopperParameter {
 
 }
 
-class ConstructExoticDateOutput_Time_T extends ResthopperParameter {
+class ConstructExoticDateOutput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";

@@ -15,7 +15,7 @@ export default class PointOrder extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": PointOrderInput_Points_P,
+		"points_p": PointOrderInput_points_p,
 	}
 
 	public output:
@@ -26,7 +26,7 @@ export default class PointOrder extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new PointOrderInput_Points_P(),
+			"points_p": new PointOrderInput_points_p(),
 		}
 		this.output = {
 
@@ -35,7 +35,7 @@ export default class PointOrder extends ResthopperComponent {
 
 }
 
-class PointOrderInput_Points_P extends ResthopperParameter {
+class PointOrderInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

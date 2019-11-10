@@ -15,33 +15,33 @@ export default class PopulateThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Region_R": PopulateThreeDInput_Region_R,
-		"Count_N": PopulateThreeDInput_Count_N,
-		"Seed_S": PopulateThreeDInput_Seed_S,
-		"Points_P": PopulateThreeDInput_Points_P,
+		"region_r": PopulateThreeDInput_region_r,
+		"count_n": PopulateThreeDInput_count_n,
+		"seed_s": PopulateThreeDInput_seed_s,
+		"points_p": PopulateThreeDInput_points_p,
 	}
 
 	public output:
 	{
-		"Population_P": PopulateThreeDOutput_Population_P,
+		"population_p": PopulateThreeDOutput_population_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Region_R": new PopulateThreeDInput_Region_R(),
-			"Count_N": new PopulateThreeDInput_Count_N(),
-			"Seed_S": new PopulateThreeDInput_Seed_S(),
-			"Points_P": new PopulateThreeDInput_Points_P(),
+			"region_r": new PopulateThreeDInput_region_r(),
+			"count_n": new PopulateThreeDInput_count_n(),
+			"seed_s": new PopulateThreeDInput_seed_s(),
+			"points_p": new PopulateThreeDInput_points_p(),
 		}
 		this.output = {
-			"Population_P": new PopulateThreeDOutput_Population_P(),
+			"population_p": new PopulateThreeDOutput_population_p(),
 		}
 	}
 
 }
 
-class PopulateThreeDInput_Region_R extends ResthopperParameter {
+class PopulateThreeDInput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";
@@ -55,7 +55,7 @@ class PopulateThreeDInput_Region_R extends ResthopperParameter {
 
 }
 
-class PopulateThreeDInput_Count_N extends ResthopperParameter {
+class PopulateThreeDInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -69,7 +69,7 @@ class PopulateThreeDInput_Count_N extends ResthopperParameter {
 
 }
 
-class PopulateThreeDInput_Seed_S extends ResthopperParameter {
+class PopulateThreeDInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class PopulateThreeDInput_Seed_S extends ResthopperParameter {
 
 }
 
-class PopulateThreeDInput_Points_P extends ResthopperParameter {
+class PopulateThreeDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class PopulateThreeDInput_Points_P extends ResthopperParameter {
 
 }
 
-class PopulateThreeDOutput_Population_P extends ResthopperParameter {
+class PopulateThreeDOutput_population_p extends ResthopperParameter {
 
 	public name: string = "Population";
 	public nickName: string = "P";

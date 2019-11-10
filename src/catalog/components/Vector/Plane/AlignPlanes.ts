@@ -15,29 +15,29 @@ export default class AlignPlanes extends ResthopperComponent {
 
 	public input:
 	{
-		"Planes_P": AlignPlanesInput_Planes_P,
-		"Master_M": AlignPlanesInput_Master_M,
+		"planes_p": AlignPlanesInput_planes_p,
+		"master_m": AlignPlanesInput_master_m,
 	}
 
 	public output:
 	{
-		"Planes_P": AlignPlanesOutput_Planes_P,
+		"planes_p": AlignPlanesOutput_planes_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Planes_P": new AlignPlanesInput_Planes_P(),
-			"Master_M": new AlignPlanesInput_Master_M(),
+			"planes_p": new AlignPlanesInput_planes_p(),
+			"master_m": new AlignPlanesInput_master_m(),
 		}
 		this.output = {
-			"Planes_P": new AlignPlanesOutput_Planes_P(),
+			"planes_p": new AlignPlanesOutput_planes_p(),
 		}
 	}
 
 }
 
-class AlignPlanesInput_Planes_P extends ResthopperParameter {
+class AlignPlanesInput_planes_p extends ResthopperParameter {
 
 	public name: string = "Planes";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class AlignPlanesInput_Planes_P extends ResthopperParameter {
 
 }
 
-class AlignPlanesInput_Master_M extends ResthopperParameter {
+class AlignPlanesInput_master_m extends ResthopperParameter {
 
 	public name: string = "Master";
 	public nickName: string = "M";
@@ -65,7 +65,7 @@ class AlignPlanesInput_Master_M extends ResthopperParameter {
 
 }
 
-class AlignPlanesOutput_Planes_P extends ResthopperParameter {
+class AlignPlanesOutput_planes_p extends ResthopperParameter {
 
 	public name: string = "Planes";
 	public nickName: string = "P";

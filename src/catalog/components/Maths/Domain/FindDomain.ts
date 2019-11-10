@@ -15,33 +15,33 @@ export default class FindDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"Domains_D": FindDomainInput_Domains_D,
-		"Number_N": FindDomainInput_Number_N,
-		"Strict_S": FindDomainInput_Strict_S,
+		"domains_d": FindDomainInput_domains_d,
+		"number_n": FindDomainInput_number_n,
+		"strict_s": FindDomainInput_strict_s,
 	}
 
 	public output:
 	{
-		"Index_I": FindDomainOutput_Index_I,
-		"Neighbour_N": FindDomainOutput_Neighbour_N,
+		"index_i": FindDomainOutput_index_i,
+		"neighbour_n": FindDomainOutput_neighbour_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Domains_D": new FindDomainInput_Domains_D(),
-			"Number_N": new FindDomainInput_Number_N(),
-			"Strict_S": new FindDomainInput_Strict_S(),
+			"domains_d": new FindDomainInput_domains_d(),
+			"number_n": new FindDomainInput_number_n(),
+			"strict_s": new FindDomainInput_strict_s(),
 		}
 		this.output = {
-			"Index_I": new FindDomainOutput_Index_I(),
-			"Neighbour_N": new FindDomainOutput_Neighbour_N(),
+			"index_i": new FindDomainOutput_index_i(),
+			"neighbour_n": new FindDomainOutput_neighbour_n(),
 		}
 	}
 
 }
 
-class FindDomainInput_Domains_D extends ResthopperParameter {
+class FindDomainInput_domains_d extends ResthopperParameter {
 
 	public name: string = "Domains";
 	public nickName: string = "D";
@@ -55,7 +55,7 @@ class FindDomainInput_Domains_D extends ResthopperParameter {
 
 }
 
-class FindDomainInput_Number_N extends ResthopperParameter {
+class FindDomainInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
@@ -69,7 +69,7 @@ class FindDomainInput_Number_N extends ResthopperParameter {
 
 }
 
-class FindDomainInput_Strict_S extends ResthopperParameter {
+class FindDomainInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class FindDomainInput_Strict_S extends ResthopperParameter {
 
 }
 
-class FindDomainOutput_Index_I extends ResthopperParameter {
+class FindDomainOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
@@ -97,7 +97,7 @@ class FindDomainOutput_Index_I extends ResthopperParameter {
 
 }
 
-class FindDomainOutput_Neighbour_N extends ResthopperParameter {
+class FindDomainOutput_neighbour_n extends ResthopperParameter {
 
 	public name: string = "Neighbour";
 	public nickName: string = "N";

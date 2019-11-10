@@ -15,29 +15,29 @@ export default class Isotrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": IsotrimInput_Surface_S,
-		"Domain_D": IsotrimInput_Domain_D,
+		"surface_s": IsotrimInput_surface_s,
+		"domain_d": IsotrimInput_domain_d,
 	}
 
 	public output:
 	{
-		"Surface_S": IsotrimOutput_Surface_S,
+		"surface_s": IsotrimOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new IsotrimInput_Surface_S(),
-			"Domain_D": new IsotrimInput_Domain_D(),
+			"surface_s": new IsotrimInput_surface_s(),
+			"domain_d": new IsotrimInput_domain_d(),
 		}
 		this.output = {
-			"Surface_S": new IsotrimOutput_Surface_S(),
+			"surface_s": new IsotrimOutput_surface_s(),
 		}
 	}
 
 }
 
-class IsotrimInput_Surface_S extends ResthopperParameter {
+class IsotrimInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class IsotrimInput_Surface_S extends ResthopperParameter {
 
 }
 
-class IsotrimInput_Domain_D extends ResthopperParameter {
+class IsotrimInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class IsotrimInput_Domain_D extends ResthopperParameter {
 
 }
 
-class IsotrimOutput_Surface_S extends ResthopperParameter {
+class IsotrimOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

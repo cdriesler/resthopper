@@ -15,29 +15,29 @@ export default class SurfaceSplit extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceSplitInput_Surface_S,
-		"Curves_C": SurfaceSplitInput_Curves_C,
+		"surface_s": SurfaceSplitInput_surface_s,
+		"curves_c": SurfaceSplitInput_curves_c,
 	}
 
 	public output:
 	{
-		"Fragments_F": SurfaceSplitOutput_Fragments_F,
+		"fragments_f": SurfaceSplitOutput_fragments_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceSplitInput_Surface_S(),
-			"Curves_C": new SurfaceSplitInput_Curves_C(),
+			"surface_s": new SurfaceSplitInput_surface_s(),
+			"curves_c": new SurfaceSplitInput_curves_c(),
 		}
 		this.output = {
-			"Fragments_F": new SurfaceSplitOutput_Fragments_F(),
+			"fragments_f": new SurfaceSplitOutput_fragments_f(),
 		}
 	}
 
 }
 
-class SurfaceSplitInput_Surface_S extends ResthopperParameter {
+class SurfaceSplitInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class SurfaceSplitInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceSplitInput_Curves_C extends ResthopperParameter {
+class SurfaceSplitInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class SurfaceSplitInput_Curves_C extends ResthopperParameter {
 
 }
 
-class SurfaceSplitOutput_Fragments_F extends ResthopperParameter {
+class SurfaceSplitOutput_fragments_f extends ResthopperParameter {
 
 	public name: string = "Fragments";
 	public nickName: string = "F";

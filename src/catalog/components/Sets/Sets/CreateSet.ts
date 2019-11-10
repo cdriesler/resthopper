@@ -15,29 +15,29 @@ export default class CreateSet extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": CreateSetInput_List_L,
+		"list_l": CreateSetInput_list_l,
 	}
 
 	public output:
 	{
-		"Set_S": CreateSetOutput_Set_S,
-		"Map_M": CreateSetOutput_Map_M,
+		"set_s": CreateSetOutput_set_s,
+		"map_m": CreateSetOutput_map_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new CreateSetInput_List_L(),
+			"list_l": new CreateSetInput_list_l(),
 		}
 		this.output = {
-			"Set_S": new CreateSetOutput_Set_S(),
-			"Map_M": new CreateSetOutput_Map_M(),
+			"set_s": new CreateSetOutput_set_s(),
+			"map_m": new CreateSetOutput_map_m(),
 		}
 	}
 
 }
 
-class CreateSetInput_List_L extends ResthopperParameter {
+class CreateSetInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class CreateSetInput_List_L extends ResthopperParameter {
 
 }
 
-class CreateSetOutput_Set_S extends ResthopperParameter {
+class CreateSetOutput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class CreateSetOutput_Set_S extends ResthopperParameter {
 
 }
 
-class CreateSetOutput_Map_M extends ResthopperParameter {
+class CreateSetOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";

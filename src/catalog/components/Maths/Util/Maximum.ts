@@ -15,29 +15,29 @@ export default class Maximum extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": MaximumInput_A_A,
-		"B_B": MaximumInput_B_B,
+		"a_a": MaximumInput_a_a,
+		"b_b": MaximumInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": MaximumOutput_Result_R,
+		"result_r": MaximumOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new MaximumInput_A_A(),
-			"B_B": new MaximumInput_B_B(),
+			"a_a": new MaximumInput_a_a(),
+			"b_b": new MaximumInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new MaximumOutput_Result_R(),
+			"result_r": new MaximumOutput_result_r(),
 		}
 	}
 
 }
 
-class MaximumInput_A_A extends ResthopperParameter {
+class MaximumInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MaximumInput_A_A extends ResthopperParameter {
 
 }
 
-class MaximumInput_B_B extends ResthopperParameter {
+class MaximumInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MaximumInput_B_B extends ResthopperParameter {
 
 }
 
-class MaximumOutput_Result_R extends ResthopperParameter {
+class MaximumOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

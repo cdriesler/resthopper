@@ -15,31 +15,31 @@ export default class MirrorCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MirrorCurveInput_Geometry_G,
-		"Curve_C": MirrorCurveInput_Curve_C,
-		"Tangent_T": MirrorCurveInput_Tangent_T,
+		"geometry_g": MirrorCurveInput_geometry_g,
+		"curve_c": MirrorCurveInput_curve_c,
+		"tangent_t": MirrorCurveInput_tangent_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": MirrorCurveOutput_Geometry_G,
+		"geometry_g": MirrorCurveOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MirrorCurveInput_Geometry_G(),
-			"Curve_C": new MirrorCurveInput_Curve_C(),
-			"Tangent_T": new MirrorCurveInput_Tangent_T(),
+			"geometry_g": new MirrorCurveInput_geometry_g(),
+			"curve_c": new MirrorCurveInput_curve_c(),
+			"tangent_t": new MirrorCurveInput_tangent_t(),
 		}
 		this.output = {
-			"Geometry_G": new MirrorCurveOutput_Geometry_G(),
+			"geometry_g": new MirrorCurveOutput_geometry_g(),
 		}
 	}
 
 }
 
-class MirrorCurveInput_Geometry_G extends ResthopperParameter {
+class MirrorCurveInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -53,7 +53,7 @@ class MirrorCurveInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MirrorCurveInput_Curve_C extends ResthopperParameter {
+class MirrorCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class MirrorCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class MirrorCurveInput_Tangent_T extends ResthopperParameter {
+class MirrorCurveInput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class MirrorCurveInput_Tangent_T extends ResthopperParameter {
 
 }
 
-class MirrorCurveOutput_Geometry_G extends ResthopperParameter {
+class MirrorCurveOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

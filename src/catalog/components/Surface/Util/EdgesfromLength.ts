@@ -15,31 +15,31 @@ export default class EdgesfromLength extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": EdgesfromLengthInput_Brep_B,
-		"Maximum_L": EdgesfromLengthInput_Maximum_L,
+		"brep_b": EdgesfromLengthInput_brep_b,
+		"maximum_l": EdgesfromLengthInput_maximum_l,
 	}
 
 	public output:
 	{
-		"Edges_E": EdgesfromLengthOutput_Edges_E,
-		"Indices_I": EdgesfromLengthOutput_Indices_I,
+		"edges_e": EdgesfromLengthOutput_edges_e,
+		"indices_i": EdgesfromLengthOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new EdgesfromLengthInput_Brep_B(),
-			"Maximum_L": new EdgesfromLengthInput_Maximum_L(),
+			"brep_b": new EdgesfromLengthInput_brep_b(),
+			"maximum_l": new EdgesfromLengthInput_maximum_l(),
 		}
 		this.output = {
-			"Edges_E": new EdgesfromLengthOutput_Edges_E(),
-			"Indices_I": new EdgesfromLengthOutput_Indices_I(),
+			"edges_e": new EdgesfromLengthOutput_edges_e(),
+			"indices_i": new EdgesfromLengthOutput_indices_i(),
 		}
 	}
 
 }
 
-class EdgesfromLengthInput_Brep_B extends ResthopperParameter {
+class EdgesfromLengthInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class EdgesfromLengthInput_Brep_B extends ResthopperParameter {
 
 }
 
-class EdgesfromLengthInput_Maximum_L extends ResthopperParameter {
+class EdgesfromLengthInput_maximum_l extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class EdgesfromLengthInput_Maximum_L extends ResthopperParameter {
 
 }
 
-class EdgesfromLengthOutput_Edges_E extends ResthopperParameter {
+class EdgesfromLengthOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class EdgesfromLengthOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class EdgesfromLengthOutput_Indices_I extends ResthopperParameter {
+class EdgesfromLengthOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

@@ -15,29 +15,29 @@ export default class Distance extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": DistanceInput_PointA_A,
-		"PointB_B": DistanceInput_PointB_B,
+		"pointa_a": DistanceInput_pointa_a,
+		"pointb_b": DistanceInput_pointb_b,
 	}
 
 	public output:
 	{
-		"Distance_D": DistanceOutput_Distance_D,
+		"distance_d": DistanceOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new DistanceInput_PointA_A(),
-			"PointB_B": new DistanceInput_PointB_B(),
+			"pointa_a": new DistanceInput_pointa_a(),
+			"pointb_b": new DistanceInput_pointb_b(),
 		}
 		this.output = {
-			"Distance_D": new DistanceOutput_Distance_D(),
+			"distance_d": new DistanceOutput_distance_d(),
 		}
 	}
 
 }
 
-class DistanceInput_PointA_A extends ResthopperParameter {
+class DistanceInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class DistanceInput_PointA_A extends ResthopperParameter {
 
 }
 
-class DistanceInput_PointB_B extends ResthopperParameter {
+class DistanceInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class DistanceInput_PointB_B extends ResthopperParameter {
 
 }
 
-class DistanceOutput_Distance_D extends ResthopperParameter {
+class DistanceOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

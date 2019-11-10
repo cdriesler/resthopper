@@ -15,33 +15,33 @@ export default class SplitAHSV extends ResthopperComponent {
 
 	public input:
 	{
-		"Colour_C": SplitAHSVInput_Colour_C,
+		"colour_c": SplitAHSVInput_colour_c,
 	}
 
 	public output:
 	{
-		"Alpha_A": SplitAHSVOutput_Alpha_A,
-		"Hue_H": SplitAHSVOutput_Hue_H,
-		"Saturation_S": SplitAHSVOutput_Saturation_S,
-		"Value_V": SplitAHSVOutput_Value_V,
+		"alpha_a": SplitAHSVOutput_alpha_a,
+		"hue_h": SplitAHSVOutput_hue_h,
+		"saturation_s": SplitAHSVOutput_saturation_s,
+		"value_v": SplitAHSVOutput_value_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Colour_C": new SplitAHSVInput_Colour_C(),
+			"colour_c": new SplitAHSVInput_colour_c(),
 		}
 		this.output = {
-			"Alpha_A": new SplitAHSVOutput_Alpha_A(),
-			"Hue_H": new SplitAHSVOutput_Hue_H(),
-			"Saturation_S": new SplitAHSVOutput_Saturation_S(),
-			"Value_V": new SplitAHSVOutput_Value_V(),
+			"alpha_a": new SplitAHSVOutput_alpha_a(),
+			"hue_h": new SplitAHSVOutput_hue_h(),
+			"saturation_s": new SplitAHSVOutput_saturation_s(),
+			"value_v": new SplitAHSVOutput_value_v(),
 		}
 	}
 
 }
 
-class SplitAHSVInput_Colour_C extends ResthopperParameter {
+class SplitAHSVInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class SplitAHSVInput_Colour_C extends ResthopperParameter {
 
 }
 
-class SplitAHSVOutput_Alpha_A extends ResthopperParameter {
+class SplitAHSVOutput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class SplitAHSVOutput_Alpha_A extends ResthopperParameter {
 
 }
 
-class SplitAHSVOutput_Hue_H extends ResthopperParameter {
+class SplitAHSVOutput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
@@ -83,7 +83,7 @@ class SplitAHSVOutput_Hue_H extends ResthopperParameter {
 
 }
 
-class SplitAHSVOutput_Saturation_S extends ResthopperParameter {
+class SplitAHSVOutput_saturation_s extends ResthopperParameter {
 
 	public name: string = "Saturation";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class SplitAHSVOutput_Saturation_S extends ResthopperParameter {
 
 }
 
-class SplitAHSVOutput_Value_V extends ResthopperParameter {
+class SplitAHSVOutput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";

@@ -15,33 +15,33 @@ export default class RemapNumbers extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_V": RemapNumbersInput_Value_V,
-		"Source_S": RemapNumbersInput_Source_S,
-		"Target_T": RemapNumbersInput_Target_T,
+		"value_v": RemapNumbersInput_value_v,
+		"source_s": RemapNumbersInput_source_s,
+		"target_t": RemapNumbersInput_target_t,
 	}
 
 	public output:
 	{
-		"Mapped_R": RemapNumbersOutput_Mapped_R,
-		"Clipped_C": RemapNumbersOutput_Clipped_C,
+		"mapped_r": RemapNumbersOutput_mapped_r,
+		"clipped_c": RemapNumbersOutput_clipped_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_V": new RemapNumbersInput_Value_V(),
-			"Source_S": new RemapNumbersInput_Source_S(),
-			"Target_T": new RemapNumbersInput_Target_T(),
+			"value_v": new RemapNumbersInput_value_v(),
+			"source_s": new RemapNumbersInput_source_s(),
+			"target_t": new RemapNumbersInput_target_t(),
 		}
 		this.output = {
-			"Mapped_R": new RemapNumbersOutput_Mapped_R(),
-			"Clipped_C": new RemapNumbersOutput_Clipped_C(),
+			"mapped_r": new RemapNumbersOutput_mapped_r(),
+			"clipped_c": new RemapNumbersOutput_clipped_c(),
 		}
 	}
 
 }
 
-class RemapNumbersInput_Value_V extends ResthopperParameter {
+class RemapNumbersInput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
@@ -55,7 +55,7 @@ class RemapNumbersInput_Value_V extends ResthopperParameter {
 
 }
 
-class RemapNumbersInput_Source_S extends ResthopperParameter {
+class RemapNumbersInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class RemapNumbersInput_Source_S extends ResthopperParameter {
 
 }
 
-class RemapNumbersInput_Target_T extends ResthopperParameter {
+class RemapNumbersInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class RemapNumbersInput_Target_T extends ResthopperParameter {
 
 }
 
-class RemapNumbersOutput_Mapped_R extends ResthopperParameter {
+class RemapNumbersOutput_mapped_r extends ResthopperParameter {
 
 	public name: string = "Mapped";
 	public nickName: string = "R";
@@ -97,7 +97,7 @@ class RemapNumbersOutput_Mapped_R extends ResthopperParameter {
 
 }
 
-class RemapNumbersOutput_Clipped_C extends ResthopperParameter {
+class RemapNumbersOutput_clipped_c extends ResthopperParameter {
 
 	public name: string = "Clipped";
 	public nickName: string = "C";

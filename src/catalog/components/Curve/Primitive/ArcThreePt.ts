@@ -15,35 +15,35 @@ export default class ArcThreePt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": ArcThreePtInput_PointA_A,
-		"PointB_B": ArcThreePtInput_PointB_B,
-		"PointC_C": ArcThreePtInput_PointC_C,
+		"pointa_a": ArcThreePtInput_pointa_a,
+		"pointb_b": ArcThreePtInput_pointb_b,
+		"pointc_c": ArcThreePtInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Arc_A": ArcThreePtOutput_Arc_A,
-		"Plane_P": ArcThreePtOutput_Plane_P,
-		"Radius_R": ArcThreePtOutput_Radius_R,
+		"arc_a": ArcThreePtOutput_arc_a,
+		"plane_p": ArcThreePtOutput_plane_p,
+		"radius_r": ArcThreePtOutput_radius_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new ArcThreePtInput_PointA_A(),
-			"PointB_B": new ArcThreePtInput_PointB_B(),
-			"PointC_C": new ArcThreePtInput_PointC_C(),
+			"pointa_a": new ArcThreePtInput_pointa_a(),
+			"pointb_b": new ArcThreePtInput_pointb_b(),
+			"pointc_c": new ArcThreePtInput_pointc_c(),
 		}
 		this.output = {
-			"Arc_A": new ArcThreePtOutput_Arc_A(),
-			"Plane_P": new ArcThreePtOutput_Plane_P(),
-			"Radius_R": new ArcThreePtOutput_Radius_R(),
+			"arc_a": new ArcThreePtOutput_arc_a(),
+			"plane_p": new ArcThreePtOutput_plane_p(),
+			"radius_r": new ArcThreePtOutput_radius_r(),
 		}
 	}
 
 }
 
-class ArcThreePtInput_PointA_A extends ResthopperParameter {
+class ArcThreePtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -57,7 +57,7 @@ class ArcThreePtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class ArcThreePtInput_PointB_B extends ResthopperParameter {
+class ArcThreePtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class ArcThreePtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class ArcThreePtInput_PointC_C extends ResthopperParameter {
+class ArcThreePtInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class ArcThreePtInput_PointC_C extends ResthopperParameter {
 
 }
 
-class ArcThreePtOutput_Arc_A extends ResthopperParameter {
+class ArcThreePtOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class ArcThreePtOutput_Arc_A extends ResthopperParameter {
 
 }
 
-class ArcThreePtOutput_Plane_P extends ResthopperParameter {
+class ArcThreePtOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class ArcThreePtOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class ArcThreePtOutput_Radius_R extends ResthopperParameter {
+class ArcThreePtOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";

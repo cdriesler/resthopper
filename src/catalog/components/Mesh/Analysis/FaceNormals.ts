@@ -15,29 +15,29 @@ export default class FaceNormals extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": FaceNormalsInput_Mesh_M,
+		"mesh_m": FaceNormalsInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Centers_C": FaceNormalsOutput_Centers_C,
-		"Normals_N": FaceNormalsOutput_Normals_N,
+		"centers_c": FaceNormalsOutput_centers_c,
+		"normals_n": FaceNormalsOutput_normals_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new FaceNormalsInput_Mesh_M(),
+			"mesh_m": new FaceNormalsInput_mesh_m(),
 		}
 		this.output = {
-			"Centers_C": new FaceNormalsOutput_Centers_C(),
-			"Normals_N": new FaceNormalsOutput_Normals_N(),
+			"centers_c": new FaceNormalsOutput_centers_c(),
+			"normals_n": new FaceNormalsOutput_normals_n(),
 		}
 	}
 
 }
 
-class FaceNormalsInput_Mesh_M extends ResthopperParameter {
+class FaceNormalsInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class FaceNormalsInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class FaceNormalsOutput_Centers_C extends ResthopperParameter {
+class FaceNormalsOutput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class FaceNormalsOutput_Centers_C extends ResthopperParameter {
 
 }
 
-class FaceNormalsOutput_Normals_N extends ResthopperParameter {
+class FaceNormalsOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";

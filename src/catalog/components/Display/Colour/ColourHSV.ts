@@ -15,33 +15,33 @@ export default class ColourHSV extends ResthopperComponent {
 
 	public input:
 	{
-		"Alpha_A": ColourHSVInput_Alpha_A,
-		"Hue_H": ColourHSVInput_Hue_H,
-		"Saturation_S": ColourHSVInput_Saturation_S,
-		"Value_V": ColourHSVInput_Value_V,
+		"alpha_a": ColourHSVInput_alpha_a,
+		"hue_h": ColourHSVInput_hue_h,
+		"saturation_s": ColourHSVInput_saturation_s,
+		"value_v": ColourHSVInput_value_v,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourHSVOutput_Colour_C,
+		"colour_c": ColourHSVOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Alpha_A": new ColourHSVInput_Alpha_A(),
-			"Hue_H": new ColourHSVInput_Hue_H(),
-			"Saturation_S": new ColourHSVInput_Saturation_S(),
-			"Value_V": new ColourHSVInput_Value_V(),
+			"alpha_a": new ColourHSVInput_alpha_a(),
+			"hue_h": new ColourHSVInput_hue_h(),
+			"saturation_s": new ColourHSVInput_saturation_s(),
+			"value_v": new ColourHSVInput_value_v(),
 		}
 		this.output = {
-			"Colour_C": new ColourHSVOutput_Colour_C(),
+			"colour_c": new ColourHSVOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourHSVInput_Alpha_A extends ResthopperParameter {
+class ColourHSVInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class ColourHSVInput_Alpha_A extends ResthopperParameter {
 
 }
 
-class ColourHSVInput_Hue_H extends ResthopperParameter {
+class ColourHSVInput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
@@ -69,7 +69,7 @@ class ColourHSVInput_Hue_H extends ResthopperParameter {
 
 }
 
-class ColourHSVInput_Saturation_S extends ResthopperParameter {
+class ColourHSVInput_saturation_s extends ResthopperParameter {
 
 	public name: string = "Saturation";
 	public nickName: string = "S";
@@ -83,7 +83,7 @@ class ColourHSVInput_Saturation_S extends ResthopperParameter {
 
 }
 
-class ColourHSVInput_Value_V extends ResthopperParameter {
+class ColourHSVInput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class ColourHSVInput_Value_V extends ResthopperParameter {
 
 }
 
-class ColourHSVOutput_Colour_C extends ResthopperParameter {
+class ColourHSVOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

@@ -15,29 +15,29 @@ export default class Power extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": PowerInput_A_A,
-		"B_B": PowerInput_B_B,
+		"a_a": PowerInput_a_a,
+		"b_b": PowerInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": PowerOutput_Result_R,
+		"result_r": PowerOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new PowerInput_A_A(),
-			"B_B": new PowerInput_B_B(),
+			"a_a": new PowerInput_a_a(),
+			"b_b": new PowerInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new PowerOutput_Result_R(),
+			"result_r": new PowerOutput_result_r(),
 		}
 	}
 
 }
 
-class PowerInput_A_A extends ResthopperParameter {
+class PowerInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class PowerInput_A_A extends ResthopperParameter {
 
 }
 
-class PowerInput_B_B extends ResthopperParameter {
+class PowerInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class PowerInput_B_B extends ResthopperParameter {
 
 }
 
-class PowerOutput_Result_R extends ResthopperParameter {
+class PowerOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

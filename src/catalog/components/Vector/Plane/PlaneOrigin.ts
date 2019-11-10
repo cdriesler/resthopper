@@ -15,29 +15,29 @@ export default class PlaneOrigin extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": PlaneOriginInput_Base_B,
-		"Origin_O": PlaneOriginInput_Origin_O,
+		"base_b": PlaneOriginInput_base_b,
+		"origin_o": PlaneOriginInput_origin_o,
 	}
 
 	public output:
 	{
-		"Plane_Pl": PlaneOriginOutput_Plane_Pl,
+		"plane_pl": PlaneOriginOutput_plane_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new PlaneOriginInput_Base_B(),
-			"Origin_O": new PlaneOriginInput_Origin_O(),
+			"base_b": new PlaneOriginInput_base_b(),
+			"origin_o": new PlaneOriginInput_origin_o(),
 		}
 		this.output = {
-			"Plane_Pl": new PlaneOriginOutput_Plane_Pl(),
+			"plane_pl": new PlaneOriginOutput_plane_pl(),
 		}
 	}
 
 }
 
-class PlaneOriginInput_Base_B extends ResthopperParameter {
+class PlaneOriginInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class PlaneOriginInput_Base_B extends ResthopperParameter {
 
 }
 
-class PlaneOriginInput_Origin_O extends ResthopperParameter {
+class PlaneOriginInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
@@ -65,7 +65,7 @@ class PlaneOriginInput_Origin_O extends ResthopperParameter {
 
 }
 
-class PlaneOriginOutput_Plane_Pl extends ResthopperParameter {
+class PlaneOriginOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";

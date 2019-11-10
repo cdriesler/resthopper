@@ -15,27 +15,27 @@ export default class MeshJoin extends ResthopperComponent {
 
 	public input:
 	{
-		"Meshes_M": MeshJoinInput_Meshes_M,
+		"meshes_m": MeshJoinInput_meshes_m,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshJoinOutput_Mesh_M,
+		"mesh_m": MeshJoinOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Meshes_M": new MeshJoinInput_Meshes_M(),
+			"meshes_m": new MeshJoinInput_meshes_m(),
 		}
 		this.output = {
-			"Mesh_M": new MeshJoinOutput_Mesh_M(),
+			"mesh_m": new MeshJoinOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshJoinInput_Meshes_M extends ResthopperParameter {
+class MeshJoinInput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";
@@ -49,7 +49,7 @@ class MeshJoinInput_Meshes_M extends ResthopperParameter {
 
 }
 
-class MeshJoinOutput_Mesh_M extends ResthopperParameter {
+class MeshJoinOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

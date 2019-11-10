@@ -15,33 +15,33 @@ export default class FlipMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": FlipMeshInput_Mesh_M,
-		"VertexNormals_Vn": FlipMeshInput_VertexNormals_Vn,
-		"FaceNormals_Fn": FlipMeshInput_FaceNormals_Fn,
-		"FaceOrientation_Fo": FlipMeshInput_FaceOrientation_Fo,
+		"mesh_m": FlipMeshInput_mesh_m,
+		"vertexnormals_vn": FlipMeshInput_vertexnormals_vn,
+		"facenormals_fn": FlipMeshInput_facenormals_fn,
+		"faceorientation_fo": FlipMeshInput_faceorientation_fo,
 	}
 
 	public output:
 	{
-		"Result_R": FlipMeshOutput_Result_R,
+		"result_r": FlipMeshOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new FlipMeshInput_Mesh_M(),
-			"VertexNormals_Vn": new FlipMeshInput_VertexNormals_Vn(),
-			"FaceNormals_Fn": new FlipMeshInput_FaceNormals_Fn(),
-			"FaceOrientation_Fo": new FlipMeshInput_FaceOrientation_Fo(),
+			"mesh_m": new FlipMeshInput_mesh_m(),
+			"vertexnormals_vn": new FlipMeshInput_vertexnormals_vn(),
+			"facenormals_fn": new FlipMeshInput_facenormals_fn(),
+			"faceorientation_fo": new FlipMeshInput_faceorientation_fo(),
 		}
 		this.output = {
-			"Result_R": new FlipMeshOutput_Result_R(),
+			"result_r": new FlipMeshOutput_result_r(),
 		}
 	}
 
 }
 
-class FlipMeshInput_Mesh_M extends ResthopperParameter {
+class FlipMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class FlipMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class FlipMeshInput_VertexNormals_Vn extends ResthopperParameter {
+class FlipMeshInput_vertexnormals_vn extends ResthopperParameter {
 
 	public name: string = "VertexNormals";
 	public nickName: string = "Vn";
@@ -69,7 +69,7 @@ class FlipMeshInput_VertexNormals_Vn extends ResthopperParameter {
 
 }
 
-class FlipMeshInput_FaceNormals_Fn extends ResthopperParameter {
+class FlipMeshInput_facenormals_fn extends ResthopperParameter {
 
 	public name: string = "FaceNormals";
 	public nickName: string = "Fn";
@@ -83,7 +83,7 @@ class FlipMeshInput_FaceNormals_Fn extends ResthopperParameter {
 
 }
 
-class FlipMeshInput_FaceOrientation_Fo extends ResthopperParameter {
+class FlipMeshInput_faceorientation_fo extends ResthopperParameter {
 
 	public name: string = "FaceOrientation";
 	public nickName: string = "Fo";
@@ -97,7 +97,7 @@ class FlipMeshInput_FaceOrientation_Fo extends ResthopperParameter {
 
 }
 
-class FlipMeshOutput_Result_R extends ResthopperParameter {
+class FlipMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

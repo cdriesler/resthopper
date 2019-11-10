@@ -15,31 +15,31 @@ export default class OffsetCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Corners_C": OffsetCurveInput_Corners_C,
-		"Distance_D": OffsetCurveInput_Distance_D,
-		"Plane_P": OffsetCurveInput_Plane_P,
+		"corners_c": OffsetCurveInput_corners_c,
+		"distance_d": OffsetCurveInput_distance_d,
+		"plane_p": OffsetCurveInput_plane_p,
 	}
 
 	public output:
 	{
-		"Curve_C": OffsetCurveOutput_Curve_C,
+		"curve_c": OffsetCurveOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Corners_C": new OffsetCurveInput_Corners_C(),
-			"Distance_D": new OffsetCurveInput_Distance_D(),
-			"Plane_P": new OffsetCurveInput_Plane_P(),
+			"corners_c": new OffsetCurveInput_corners_c(),
+			"distance_d": new OffsetCurveInput_distance_d(),
+			"plane_p": new OffsetCurveInput_plane_p(),
 		}
 		this.output = {
-			"Curve_C": new OffsetCurveOutput_Curve_C(),
+			"curve_c": new OffsetCurveOutput_curve_c(),
 		}
 	}
 
 }
 
-class OffsetCurveInput_Corners_C extends ResthopperParameter {
+class OffsetCurveInput_corners_c extends ResthopperParameter {
 
 	public name: string = "Corners";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class OffsetCurveInput_Corners_C extends ResthopperParameter {
 
 }
 
-class OffsetCurveInput_Distance_D extends ResthopperParameter {
+class OffsetCurveInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetCurveInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetCurveInput_Plane_P extends ResthopperParameter {
+class OffsetCurveInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class OffsetCurveInput_Plane_P extends ResthopperParameter {
 
 }
 
-class OffsetCurveOutput_Curve_C extends ResthopperParameter {
+class OffsetCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

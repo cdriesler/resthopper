@@ -15,31 +15,31 @@ export default class SplitTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": SplitTreeInput_Data_D,
-		"Masks_M": SplitTreeInput_Masks_M,
+		"data_d": SplitTreeInput_data_d,
+		"masks_m": SplitTreeInput_masks_m,
 	}
 
 	public output:
 	{
-		"Positive_P": SplitTreeOutput_Positive_P,
-		"Negative_N": SplitTreeOutput_Negative_N,
+		"positive_p": SplitTreeOutput_positive_p,
+		"negative_n": SplitTreeOutput_negative_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new SplitTreeInput_Data_D(),
-			"Masks_M": new SplitTreeInput_Masks_M(),
+			"data_d": new SplitTreeInput_data_d(),
+			"masks_m": new SplitTreeInput_masks_m(),
 		}
 		this.output = {
-			"Positive_P": new SplitTreeOutput_Positive_P(),
-			"Negative_N": new SplitTreeOutput_Negative_N(),
+			"positive_p": new SplitTreeOutput_positive_p(),
+			"negative_n": new SplitTreeOutput_negative_n(),
 		}
 	}
 
 }
 
-class SplitTreeInput_Data_D extends ResthopperParameter {
+class SplitTreeInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -53,7 +53,7 @@ class SplitTreeInput_Data_D extends ResthopperParameter {
 
 }
 
-class SplitTreeInput_Masks_M extends ResthopperParameter {
+class SplitTreeInput_masks_m extends ResthopperParameter {
 
 	public name: string = "Masks";
 	public nickName: string = "M";
@@ -67,7 +67,7 @@ class SplitTreeInput_Masks_M extends ResthopperParameter {
 
 }
 
-class SplitTreeOutput_Positive_P extends ResthopperParameter {
+class SplitTreeOutput_positive_p extends ResthopperParameter {
 
 	public name: string = "Positive";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class SplitTreeOutput_Positive_P extends ResthopperParameter {
 
 }
 
-class SplitTreeOutput_Negative_N extends ResthopperParameter {
+class SplitTreeOutput_negative_n extends ResthopperParameter {
 
 	public name: string = "Negative";
 	public nickName: string = "N";

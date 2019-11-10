@@ -15,12 +15,12 @@ export default class AngularDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Center_C": AngularDimensionInput_Center_C,
-		"PointA_A": AngularDimensionInput_PointA_A,
-		"PointB_B": AngularDimensionInput_PointB_B,
-		"Reflex_R": AngularDimensionInput_Reflex_R,
-		"Text_T": AngularDimensionInput_Text_T,
-		"Size_S": AngularDimensionInput_Size_S,
+		"center_c": AngularDimensionInput_center_c,
+		"pointa_a": AngularDimensionInput_pointa_a,
+		"pointb_b": AngularDimensionInput_pointb_b,
+		"reflex_r": AngularDimensionInput_reflex_r,
+		"text_t": AngularDimensionInput_text_t,
+		"size_s": AngularDimensionInput_size_s,
 	}
 
 	public output:
@@ -31,12 +31,12 @@ export default class AngularDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Center_C": new AngularDimensionInput_Center_C(),
-			"PointA_A": new AngularDimensionInput_PointA_A(),
-			"PointB_B": new AngularDimensionInput_PointB_B(),
-			"Reflex_R": new AngularDimensionInput_Reflex_R(),
-			"Text_T": new AngularDimensionInput_Text_T(),
-			"Size_S": new AngularDimensionInput_Size_S(),
+			"center_c": new AngularDimensionInput_center_c(),
+			"pointa_a": new AngularDimensionInput_pointa_a(),
+			"pointb_b": new AngularDimensionInput_pointb_b(),
+			"reflex_r": new AngularDimensionInput_reflex_r(),
+			"text_t": new AngularDimensionInput_text_t(),
+			"size_s": new AngularDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -45,7 +45,7 @@ export default class AngularDimension extends ResthopperComponent {
 
 }
 
-class AngularDimensionInput_Center_C extends ResthopperParameter {
+class AngularDimensionInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -59,7 +59,7 @@ class AngularDimensionInput_Center_C extends ResthopperParameter {
 
 }
 
-class AngularDimensionInput_PointA_A extends ResthopperParameter {
+class AngularDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -73,7 +73,7 @@ class AngularDimensionInput_PointA_A extends ResthopperParameter {
 
 }
 
-class AngularDimensionInput_PointB_B extends ResthopperParameter {
+class AngularDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -87,7 +87,7 @@ class AngularDimensionInput_PointB_B extends ResthopperParameter {
 
 }
 
-class AngularDimensionInput_Reflex_R extends ResthopperParameter {
+class AngularDimensionInput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";
@@ -101,7 +101,7 @@ class AngularDimensionInput_Reflex_R extends ResthopperParameter {
 
 }
 
-class AngularDimensionInput_Text_T extends ResthopperParameter {
+class AngularDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -115,7 +115,7 @@ class AngularDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class AngularDimensionInput_Size_S extends ResthopperParameter {
+class AngularDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

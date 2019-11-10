@@ -15,29 +15,29 @@ export default class ShiftPaths extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": ShiftPathsInput_Data_D,
-		"Offset_O": ShiftPathsInput_Offset_O,
+		"data_d": ShiftPathsInput_data_d,
+		"offset_o": ShiftPathsInput_offset_o,
 	}
 
 	public output:
 	{
-		"Data_D": ShiftPathsOutput_Data_D,
+		"data_d": ShiftPathsOutput_data_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new ShiftPathsInput_Data_D(),
-			"Offset_O": new ShiftPathsInput_Offset_O(),
+			"data_d": new ShiftPathsInput_data_d(),
+			"offset_o": new ShiftPathsInput_offset_o(),
 		}
 		this.output = {
-			"Data_D": new ShiftPathsOutput_Data_D(),
+			"data_d": new ShiftPathsOutput_data_d(),
 		}
 	}
 
 }
 
-class ShiftPathsInput_Data_D extends ResthopperParameter {
+class ShiftPathsInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -51,7 +51,7 @@ class ShiftPathsInput_Data_D extends ResthopperParameter {
 
 }
 
-class ShiftPathsInput_Offset_O extends ResthopperParameter {
+class ShiftPathsInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
@@ -65,7 +65,7 @@ class ShiftPathsInput_Offset_O extends ResthopperParameter {
 
 }
 
-class ShiftPathsOutput_Data_D extends ResthopperParameter {
+class ShiftPathsOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";

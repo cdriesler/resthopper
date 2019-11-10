@@ -15,27 +15,27 @@ export default class Cosine extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": CosineInput_Value_x,
+		"value_x": CosineInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": CosineOutput_Result_y,
+		"result_y": CosineOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new CosineInput_Value_x(),
+			"value_x": new CosineInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new CosineOutput_Result_y(),
+			"result_y": new CosineOutput_result_y(),
 		}
 	}
 
 }
 
-class CosineInput_Value_x extends ResthopperParameter {
+class CosineInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class CosineInput_Value_x extends ResthopperParameter {
 
 }
 
-class CosineOutput_Result_y extends ResthopperParameter {
+class CosineOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

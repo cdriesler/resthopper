@@ -15,31 +15,31 @@ export default class LongestList extends ResthopperComponent {
 
 	public input:
 	{
-		"ListA_A": LongestListInput_ListA_A,
-		"ListB_B": LongestListInput_ListB_B,
+		"lista_a": LongestListInput_lista_a,
+		"listb_b": LongestListInput_listb_b,
 	}
 
 	public output:
 	{
-		"ListA_A": LongestListOutput_ListA_A,
-		"ListB_B": LongestListOutput_ListB_B,
+		"lista_a": LongestListOutput_lista_a,
+		"listb_b": LongestListOutput_listb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"ListA_A": new LongestListInput_ListA_A(),
-			"ListB_B": new LongestListInput_ListB_B(),
+			"lista_a": new LongestListInput_lista_a(),
+			"listb_b": new LongestListInput_listb_b(),
 		}
 		this.output = {
-			"ListA_A": new LongestListOutput_ListA_A(),
-			"ListB_B": new LongestListOutput_ListB_B(),
+			"lista_a": new LongestListOutput_lista_a(),
+			"listb_b": new LongestListOutput_listb_b(),
 		}
 	}
 
 }
 
-class LongestListInput_ListA_A extends ResthopperParameter {
+class LongestListInput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class LongestListInput_ListA_A extends ResthopperParameter {
 
 }
 
-class LongestListInput_ListB_B extends ResthopperParameter {
+class LongestListInput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class LongestListInput_ListB_B extends ResthopperParameter {
 
 }
 
-class LongestListOutput_ListA_A extends ResthopperParameter {
+class LongestListOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class LongestListOutput_ListA_A extends ResthopperParameter {
 
 }
 
-class LongestListOutput_ListB_B extends ResthopperParameter {
+class LongestListOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";

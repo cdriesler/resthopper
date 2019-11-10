@@ -15,35 +15,35 @@ export default class BoxProperties extends ResthopperComponent {
 
 	public input:
 	{
-		"Box_B": BoxPropertiesInput_Box_B,
+		"box_b": BoxPropertiesInput_box_b,
 	}
 
 	public output:
 	{
-		"Center_C": BoxPropertiesOutput_Center_C,
-		"Diagonal_D": BoxPropertiesOutput_Diagonal_D,
-		"Area_A": BoxPropertiesOutput_Area_A,
-		"Volume_V": BoxPropertiesOutput_Volume_V,
-		"Degeneracy_d": BoxPropertiesOutput_Degeneracy_d,
+		"center_c": BoxPropertiesOutput_center_c,
+		"diagonal_d": BoxPropertiesOutput_diagonal_d,
+		"area_a": BoxPropertiesOutput_area_a,
+		"volume_v": BoxPropertiesOutput_volume_v,
+		"degeneracy_d": BoxPropertiesOutput_degeneracy_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Box_B": new BoxPropertiesInput_Box_B(),
+			"box_b": new BoxPropertiesInput_box_b(),
 		}
 		this.output = {
-			"Center_C": new BoxPropertiesOutput_Center_C(),
-			"Diagonal_D": new BoxPropertiesOutput_Diagonal_D(),
-			"Area_A": new BoxPropertiesOutput_Area_A(),
-			"Volume_V": new BoxPropertiesOutput_Volume_V(),
-			"Degeneracy_d": new BoxPropertiesOutput_Degeneracy_d(),
+			"center_c": new BoxPropertiesOutput_center_c(),
+			"diagonal_d": new BoxPropertiesOutput_diagonal_d(),
+			"area_a": new BoxPropertiesOutput_area_a(),
+			"volume_v": new BoxPropertiesOutput_volume_v(),
+			"degeneracy_d": new BoxPropertiesOutput_degeneracy_d(),
 		}
 	}
 
 }
 
-class BoxPropertiesInput_Box_B extends ResthopperParameter {
+class BoxPropertiesInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -57,7 +57,7 @@ class BoxPropertiesInput_Box_B extends ResthopperParameter {
 
 }
 
-class BoxPropertiesOutput_Center_C extends ResthopperParameter {
+class BoxPropertiesOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -71,7 +71,7 @@ class BoxPropertiesOutput_Center_C extends ResthopperParameter {
 
 }
 
-class BoxPropertiesOutput_Diagonal_D extends ResthopperParameter {
+class BoxPropertiesOutput_diagonal_d extends ResthopperParameter {
 
 	public name: string = "Diagonal";
 	public nickName: string = "D";
@@ -85,7 +85,7 @@ class BoxPropertiesOutput_Diagonal_D extends ResthopperParameter {
 
 }
 
-class BoxPropertiesOutput_Area_A extends ResthopperParameter {
+class BoxPropertiesOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class BoxPropertiesOutput_Area_A extends ResthopperParameter {
 
 }
 
-class BoxPropertiesOutput_Volume_V extends ResthopperParameter {
+class BoxPropertiesOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
@@ -113,7 +113,7 @@ class BoxPropertiesOutput_Volume_V extends ResthopperParameter {
 
 }
 
-class BoxPropertiesOutput_Degeneracy_d extends ResthopperParameter {
+class BoxPropertiesOutput_degeneracy_d extends ResthopperParameter {
 
 	public name: string = "Degeneracy";
 	public nickName: string = "d";

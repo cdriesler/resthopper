@@ -15,29 +15,29 @@ export default class SumSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": SumSurfaceInput_CurveA_A,
-		"CurveB_B": SumSurfaceInput_CurveB_B,
+		"curvea_a": SumSurfaceInput_curvea_a,
+		"curveb_b": SumSurfaceInput_curveb_b,
 	}
 
 	public output:
 	{
-		"Surface_S": SumSurfaceOutput_Surface_S,
+		"surface_s": SumSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new SumSurfaceInput_CurveA_A(),
-			"CurveB_B": new SumSurfaceInput_CurveB_B(),
+			"curvea_a": new SumSurfaceInput_curvea_a(),
+			"curveb_b": new SumSurfaceInput_curveb_b(),
 		}
 		this.output = {
-			"Surface_S": new SumSurfaceOutput_Surface_S(),
+			"surface_s": new SumSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class SumSurfaceInput_CurveA_A extends ResthopperParameter {
+class SumSurfaceInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SumSurfaceInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class SumSurfaceInput_CurveB_B extends ResthopperParameter {
+class SumSurfaceInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SumSurfaceInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class SumSurfaceOutput_Surface_S extends ResthopperParameter {
+class SumSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

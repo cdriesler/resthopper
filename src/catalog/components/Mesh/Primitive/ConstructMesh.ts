@@ -15,31 +15,31 @@ export default class ConstructMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Vertices_V": ConstructMeshInput_Vertices_V,
-		"Faces_F": ConstructMeshInput_Faces_F,
-		"Colours_C": ConstructMeshInput_Colours_C,
+		"vertices_v": ConstructMeshInput_vertices_v,
+		"faces_f": ConstructMeshInput_faces_f,
+		"colours_c": ConstructMeshInput_colours_c,
 	}
 
 	public output:
 	{
-		"Mesh_M": ConstructMeshOutput_Mesh_M,
+		"mesh_m": ConstructMeshOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vertices_V": new ConstructMeshInput_Vertices_V(),
-			"Faces_F": new ConstructMeshInput_Faces_F(),
-			"Colours_C": new ConstructMeshInput_Colours_C(),
+			"vertices_v": new ConstructMeshInput_vertices_v(),
+			"faces_f": new ConstructMeshInput_faces_f(),
+			"colours_c": new ConstructMeshInput_colours_c(),
 		}
 		this.output = {
-			"Mesh_M": new ConstructMeshOutput_Mesh_M(),
+			"mesh_m": new ConstructMeshOutput_mesh_m(),
 		}
 	}
 
 }
 
-class ConstructMeshInput_Vertices_V extends ResthopperParameter {
+class ConstructMeshInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class ConstructMeshInput_Vertices_V extends ResthopperParameter {
 
 }
 
-class ConstructMeshInput_Faces_F extends ResthopperParameter {
+class ConstructMeshInput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class ConstructMeshInput_Faces_F extends ResthopperParameter {
 
 }
 
-class ConstructMeshInput_Colours_C extends ResthopperParameter {
+class ConstructMeshInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class ConstructMeshInput_Colours_C extends ResthopperParameter {
 
 }
 
-class ConstructMeshOutput_Mesh_M extends ResthopperParameter {
+class ConstructMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

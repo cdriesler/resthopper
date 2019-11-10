@@ -15,9 +15,9 @@ export default class CloudDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": CloudDisplayInput_Points_P,
-		"Colours_C": CloudDisplayInput_Colours_C,
-		"Size_S": CloudDisplayInput_Size_S,
+		"points_p": CloudDisplayInput_points_p,
+		"colours_c": CloudDisplayInput_colours_c,
+		"size_s": CloudDisplayInput_size_s,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class CloudDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new CloudDisplayInput_Points_P(),
-			"Colours_C": new CloudDisplayInput_Colours_C(),
-			"Size_S": new CloudDisplayInput_Size_S(),
+			"points_p": new CloudDisplayInput_points_p(),
+			"colours_c": new CloudDisplayInput_colours_c(),
+			"size_s": new CloudDisplayInput_size_s(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class CloudDisplay extends ResthopperComponent {
 
 }
 
-class CloudDisplayInput_Points_P extends ResthopperParameter {
+class CloudDisplayInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class CloudDisplayInput_Points_P extends ResthopperParameter {
 
 }
 
-class CloudDisplayInput_Colours_C extends ResthopperParameter {
+class CloudDisplayInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class CloudDisplayInput_Colours_C extends ResthopperParameter {
 
 }
 
-class CloudDisplayInput_Size_S extends ResthopperParameter {
+class CloudDisplayInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

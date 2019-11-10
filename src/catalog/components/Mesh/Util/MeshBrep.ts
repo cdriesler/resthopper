@@ -15,29 +15,29 @@ export default class MeshBrep extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": MeshBrepInput_Brep_B,
-		"Settings_S": MeshBrepInput_Settings_S,
+		"brep_b": MeshBrepInput_brep_b,
+		"settings_s": MeshBrepInput_settings_s,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshBrepOutput_Mesh_M,
+		"mesh_m": MeshBrepOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new MeshBrepInput_Brep_B(),
-			"Settings_S": new MeshBrepInput_Settings_S(),
+			"brep_b": new MeshBrepInput_brep_b(),
+			"settings_s": new MeshBrepInput_settings_s(),
 		}
 		this.output = {
-			"Mesh_M": new MeshBrepOutput_Mesh_M(),
+			"mesh_m": new MeshBrepOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshBrepInput_Brep_B extends ResthopperParameter {
+class MeshBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -51,7 +51,7 @@ class MeshBrepInput_Brep_B extends ResthopperParameter {
 
 }
 
-class MeshBrepInput_Settings_S extends ResthopperParameter {
+class MeshBrepInput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";
@@ -65,7 +65,7 @@ class MeshBrepInput_Settings_S extends ResthopperParameter {
 
 }
 
-class MeshBrepOutput_Mesh_M extends ResthopperParameter {
+class MeshBrepOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

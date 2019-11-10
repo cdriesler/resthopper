@@ -15,41 +15,41 @@ export default class SymbolAdvanced extends ResthopperComponent {
 
 	public input:
 	{
-		"Style_X": SymbolAdvancedInput_Style_X,
-		"SizePrimary_S1": SymbolAdvancedInput_SizePrimary_S1,
-		"SizeSecondary_S2": SymbolAdvancedInput_SizeSecondary_S2,
-		"Rotation_R": SymbolAdvancedInput_Rotation_R,
-		"Fill_Cf": SymbolAdvancedInput_Fill_Cf,
-		"Edge_Ce": SymbolAdvancedInput_Edge_Ce,
-		"Width_W": SymbolAdvancedInput_Width_W,
-		"Adjust_A": SymbolAdvancedInput_Adjust_A,
+		"style_x": SymbolAdvancedInput_style_x,
+		"sizeprimary_s1": SymbolAdvancedInput_sizeprimary_s1,
+		"sizesecondary_s2": SymbolAdvancedInput_sizesecondary_s2,
+		"rotation_r": SymbolAdvancedInput_rotation_r,
+		"fill_cf": SymbolAdvancedInput_fill_cf,
+		"edge_ce": SymbolAdvancedInput_edge_ce,
+		"width_w": SymbolAdvancedInput_width_w,
+		"adjust_a": SymbolAdvancedInput_adjust_a,
 	}
 
 	public output:
 	{
-		"SymbolDisplay_D": SymbolAdvancedOutput_SymbolDisplay_D,
+		"symboldisplay_d": SymbolAdvancedOutput_symboldisplay_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Style_X": new SymbolAdvancedInput_Style_X(),
-			"SizePrimary_S1": new SymbolAdvancedInput_SizePrimary_S1(),
-			"SizeSecondary_S2": new SymbolAdvancedInput_SizeSecondary_S2(),
-			"Rotation_R": new SymbolAdvancedInput_Rotation_R(),
-			"Fill_Cf": new SymbolAdvancedInput_Fill_Cf(),
-			"Edge_Ce": new SymbolAdvancedInput_Edge_Ce(),
-			"Width_W": new SymbolAdvancedInput_Width_W(),
-			"Adjust_A": new SymbolAdvancedInput_Adjust_A(),
+			"style_x": new SymbolAdvancedInput_style_x(),
+			"sizeprimary_s1": new SymbolAdvancedInput_sizeprimary_s1(),
+			"sizesecondary_s2": new SymbolAdvancedInput_sizesecondary_s2(),
+			"rotation_r": new SymbolAdvancedInput_rotation_r(),
+			"fill_cf": new SymbolAdvancedInput_fill_cf(),
+			"edge_ce": new SymbolAdvancedInput_edge_ce(),
+			"width_w": new SymbolAdvancedInput_width_w(),
+			"adjust_a": new SymbolAdvancedInput_adjust_a(),
 		}
 		this.output = {
-			"SymbolDisplay_D": new SymbolAdvancedOutput_SymbolDisplay_D(),
+			"symboldisplay_d": new SymbolAdvancedOutput_symboldisplay_d(),
 		}
 	}
 
 }
 
-class SymbolAdvancedInput_Style_X extends ResthopperParameter {
+class SymbolAdvancedInput_style_x extends ResthopperParameter {
 
 	public name: string = "Style";
 	public nickName: string = "X";
@@ -63,7 +63,7 @@ class SymbolAdvancedInput_Style_X extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_SizePrimary_S1 extends ResthopperParameter {
+class SymbolAdvancedInput_sizeprimary_s1 extends ResthopperParameter {
 
 	public name: string = "SizePrimary";
 	public nickName: string = "S1";
@@ -77,7 +77,7 @@ class SymbolAdvancedInput_SizePrimary_S1 extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_SizeSecondary_S2 extends ResthopperParameter {
+class SymbolAdvancedInput_sizesecondary_s2 extends ResthopperParameter {
 
 	public name: string = "SizeSecondary";
 	public nickName: string = "S2";
@@ -91,7 +91,7 @@ class SymbolAdvancedInput_SizeSecondary_S2 extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_Rotation_R extends ResthopperParameter {
+class SymbolAdvancedInput_rotation_r extends ResthopperParameter {
 
 	public name: string = "Rotation";
 	public nickName: string = "R";
@@ -105,7 +105,7 @@ class SymbolAdvancedInput_Rotation_R extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_Fill_Cf extends ResthopperParameter {
+class SymbolAdvancedInput_fill_cf extends ResthopperParameter {
 
 	public name: string = "Fill";
 	public nickName: string = "Cf";
@@ -119,7 +119,7 @@ class SymbolAdvancedInput_Fill_Cf extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_Edge_Ce extends ResthopperParameter {
+class SymbolAdvancedInput_edge_ce extends ResthopperParameter {
 
 	public name: string = "Edge";
 	public nickName: string = "Ce";
@@ -133,7 +133,7 @@ class SymbolAdvancedInput_Edge_Ce extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_Width_W extends ResthopperParameter {
+class SymbolAdvancedInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
@@ -147,7 +147,7 @@ class SymbolAdvancedInput_Width_W extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedInput_Adjust_A extends ResthopperParameter {
+class SymbolAdvancedInput_adjust_a extends ResthopperParameter {
 
 	public name: string = "Adjust";
 	public nickName: string = "A";
@@ -161,7 +161,7 @@ class SymbolAdvancedInput_Adjust_A extends ResthopperParameter {
 
 }
 
-class SymbolAdvancedOutput_SymbolDisplay_D extends ResthopperParameter {
+class SymbolAdvancedOutput_symboldisplay_d extends ResthopperParameter {
 
 	public name: string = "SymbolDisplay";
 	public nickName: string = "D";

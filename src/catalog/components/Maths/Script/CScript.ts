@@ -22,7 +22,7 @@ export default class CScript extends ResthopperComponent {
 	public output:
 	{
 		"out_out": CScriptOutput_out_out,
-		"A_A": CScriptOutput_A_A,
+		"a_a": CScriptOutput_a_a,
 	}
 
 	constructor() {
@@ -33,7 +33,7 @@ export default class CScript extends ResthopperComponent {
 		}
 		this.output = {
 			"out_out": new CScriptOutput_out_out(),
-			"A_A": new CScriptOutput_A_A(),
+			"a_a": new CScriptOutput_a_a(),
 		}
 	}
 
@@ -81,7 +81,7 @@ class CScriptOutput_out_out extends ResthopperParameter {
 
 }
 
-class CScriptOutput_A_A extends ResthopperParameter {
+class CScriptOutput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";

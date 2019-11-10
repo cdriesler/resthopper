@@ -15,29 +15,29 @@ export default class CreateComplex extends ResthopperComponent {
 
 	public input:
 	{
-		"Real_R": CreateComplexInput_Real_R,
-		"Imaginary_i": CreateComplexInput_Imaginary_i,
+		"real_r": CreateComplexInput_real_r,
+		"imaginary_i": CreateComplexInput_imaginary_i,
 	}
 
 	public output:
 	{
-		"Complex_C": CreateComplexOutput_Complex_C,
+		"complex_c": CreateComplexOutput_complex_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Real_R": new CreateComplexInput_Real_R(),
-			"Imaginary_i": new CreateComplexInput_Imaginary_i(),
+			"real_r": new CreateComplexInput_real_r(),
+			"imaginary_i": new CreateComplexInput_imaginary_i(),
 		}
 		this.output = {
-			"Complex_C": new CreateComplexOutput_Complex_C(),
+			"complex_c": new CreateComplexOutput_complex_c(),
 		}
 	}
 
 }
 
-class CreateComplexInput_Real_R extends ResthopperParameter {
+class CreateComplexInput_real_r extends ResthopperParameter {
 
 	public name: string = "Real";
 	public nickName: string = "R";
@@ -51,7 +51,7 @@ class CreateComplexInput_Real_R extends ResthopperParameter {
 
 }
 
-class CreateComplexInput_Imaginary_i extends ResthopperParameter {
+class CreateComplexInput_imaginary_i extends ResthopperParameter {
 
 	public name: string = "Imaginary";
 	public nickName: string = "i";
@@ -65,7 +65,7 @@ class CreateComplexInput_Imaginary_i extends ResthopperParameter {
 
 }
 
-class CreateComplexOutput_Complex_C extends ResthopperParameter {
+class CreateComplexOutput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";

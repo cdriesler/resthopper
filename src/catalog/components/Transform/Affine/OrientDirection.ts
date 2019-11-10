@@ -15,37 +15,37 @@ export default class OrientDirection extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": OrientDirectionInput_Geometry_G,
-		"PointA_pA": OrientDirectionInput_PointA_pA,
-		"DirectionA_dA": OrientDirectionInput_DirectionA_dA,
-		"PointB_pB": OrientDirectionInput_PointB_pB,
-		"DirectionB_dB": OrientDirectionInput_DirectionB_dB,
+		"geometry_g": OrientDirectionInput_geometry_g,
+		"pointa_pa": OrientDirectionInput_pointa_pa,
+		"directiona_da": OrientDirectionInput_directiona_da,
+		"pointb_pb": OrientDirectionInput_pointb_pb,
+		"directionb_db": OrientDirectionInput_directionb_db,
 	}
 
 	public output:
 	{
-		"Geometry_G": OrientDirectionOutput_Geometry_G,
-		"Transform_X": OrientDirectionOutput_Transform_X,
+		"geometry_g": OrientDirectionOutput_geometry_g,
+		"transform_x": OrientDirectionOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new OrientDirectionInput_Geometry_G(),
-			"PointA_pA": new OrientDirectionInput_PointA_pA(),
-			"DirectionA_dA": new OrientDirectionInput_DirectionA_dA(),
-			"PointB_pB": new OrientDirectionInput_PointB_pB(),
-			"DirectionB_dB": new OrientDirectionInput_DirectionB_dB(),
+			"geometry_g": new OrientDirectionInput_geometry_g(),
+			"pointa_pa": new OrientDirectionInput_pointa_pa(),
+			"directiona_da": new OrientDirectionInput_directiona_da(),
+			"pointb_pb": new OrientDirectionInput_pointb_pb(),
+			"directionb_db": new OrientDirectionInput_directionb_db(),
 		}
 		this.output = {
-			"Geometry_G": new OrientDirectionOutput_Geometry_G(),
-			"Transform_X": new OrientDirectionOutput_Transform_X(),
+			"geometry_g": new OrientDirectionOutput_geometry_g(),
+			"transform_x": new OrientDirectionOutput_transform_x(),
 		}
 	}
 
 }
 
-class OrientDirectionInput_Geometry_G extends ResthopperParameter {
+class OrientDirectionInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class OrientDirectionInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class OrientDirectionInput_PointA_pA extends ResthopperParameter {
+class OrientDirectionInput_pointa_pa extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "pA";
@@ -73,7 +73,7 @@ class OrientDirectionInput_PointA_pA extends ResthopperParameter {
 
 }
 
-class OrientDirectionInput_DirectionA_dA extends ResthopperParameter {
+class OrientDirectionInput_directiona_da extends ResthopperParameter {
 
 	public name: string = "DirectionA";
 	public nickName: string = "dA";
@@ -87,7 +87,7 @@ class OrientDirectionInput_DirectionA_dA extends ResthopperParameter {
 
 }
 
-class OrientDirectionInput_PointB_pB extends ResthopperParameter {
+class OrientDirectionInput_pointb_pb extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "pB";
@@ -101,7 +101,7 @@ class OrientDirectionInput_PointB_pB extends ResthopperParameter {
 
 }
 
-class OrientDirectionInput_DirectionB_dB extends ResthopperParameter {
+class OrientDirectionInput_directionb_db extends ResthopperParameter {
 
 	public name: string = "DirectionB";
 	public nickName: string = "dB";
@@ -115,7 +115,7 @@ class OrientDirectionInput_DirectionB_dB extends ResthopperParameter {
 
 }
 
-class OrientDirectionOutput_Geometry_G extends ResthopperParameter {
+class OrientDirectionOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -129,7 +129,7 @@ class OrientDirectionOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class OrientDirectionOutput_Transform_X extends ResthopperParameter {
+class OrientDirectionOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

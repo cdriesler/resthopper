@@ -15,29 +15,29 @@ export default class PointInTrim extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": PointInTrimInput_Surface_S,
-		"UVPoint_P": PointInTrimInput_UVPoint_P,
+		"surface_s": PointInTrimInput_surface_s,
+		"uvpoint_p": PointInTrimInput_uvpoint_p,
 	}
 
 	public output:
 	{
-		"Inclusion_I": PointInTrimOutput_Inclusion_I,
+		"inclusion_i": PointInTrimOutput_inclusion_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new PointInTrimInput_Surface_S(),
-			"UVPoint_P": new PointInTrimInput_UVPoint_P(),
+			"surface_s": new PointInTrimInput_surface_s(),
+			"uvpoint_p": new PointInTrimInput_uvpoint_p(),
 		}
 		this.output = {
-			"Inclusion_I": new PointInTrimOutput_Inclusion_I(),
+			"inclusion_i": new PointInTrimOutput_inclusion_i(),
 		}
 	}
 
 }
 
-class PointInTrimInput_Surface_S extends ResthopperParameter {
+class PointInTrimInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class PointInTrimInput_Surface_S extends ResthopperParameter {
 
 }
 
-class PointInTrimInput_UVPoint_P extends ResthopperParameter {
+class PointInTrimInput_uvpoint_p extends ResthopperParameter {
 
 	public name: string = "UVPoint";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class PointInTrimInput_UVPoint_P extends ResthopperParameter {
 
 }
 
-class PointInTrimOutput_Inclusion_I extends ResthopperParameter {
+class PointInTrimOutput_inclusion_i extends ResthopperParameter {
 
 	public name: string = "Inclusion";
 	public nickName: string = "I";

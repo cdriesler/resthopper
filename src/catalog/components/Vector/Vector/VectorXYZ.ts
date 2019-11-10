@@ -15,33 +15,33 @@ export default class VectorXYZ extends ResthopperComponent {
 
 	public input:
 	{
-		"Xcomponent_X": VectorXYZInput_Xcomponent_X,
-		"Ycomponent_Y": VectorXYZInput_Ycomponent_Y,
-		"Zcomponent_Z": VectorXYZInput_Zcomponent_Z,
+		"xcomponent_x": VectorXYZInput_xcomponent_x,
+		"ycomponent_y": VectorXYZInput_ycomponent_y,
+		"zcomponent_z": VectorXYZInput_zcomponent_z,
 	}
 
 	public output:
 	{
-		"Vector_V": VectorXYZOutput_Vector_V,
-		"Length_L": VectorXYZOutput_Length_L,
+		"vector_v": VectorXYZOutput_vector_v,
+		"length_l": VectorXYZOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Xcomponent_X": new VectorXYZInput_Xcomponent_X(),
-			"Ycomponent_Y": new VectorXYZInput_Ycomponent_Y(),
-			"Zcomponent_Z": new VectorXYZInput_Zcomponent_Z(),
+			"xcomponent_x": new VectorXYZInput_xcomponent_x(),
+			"ycomponent_y": new VectorXYZInput_ycomponent_y(),
+			"zcomponent_z": new VectorXYZInput_zcomponent_z(),
 		}
 		this.output = {
-			"Vector_V": new VectorXYZOutput_Vector_V(),
-			"Length_L": new VectorXYZOutput_Length_L(),
+			"vector_v": new VectorXYZOutput_vector_v(),
+			"length_l": new VectorXYZOutput_length_l(),
 		}
 	}
 
 }
 
-class VectorXYZInput_Xcomponent_X extends ResthopperParameter {
+class VectorXYZInput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
@@ -55,7 +55,7 @@ class VectorXYZInput_Xcomponent_X extends ResthopperParameter {
 
 }
 
-class VectorXYZInput_Ycomponent_Y extends ResthopperParameter {
+class VectorXYZInput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
@@ -69,7 +69,7 @@ class VectorXYZInput_Ycomponent_Y extends ResthopperParameter {
 
 }
 
-class VectorXYZInput_Zcomponent_Z extends ResthopperParameter {
+class VectorXYZInput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
@@ -83,7 +83,7 @@ class VectorXYZInput_Zcomponent_Z extends ResthopperParameter {
 
 }
 
-class VectorXYZOutput_Vector_V extends ResthopperParameter {
+class VectorXYZOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -97,7 +97,7 @@ class VectorXYZOutput_Vector_V extends ResthopperParameter {
 
 }
 
-class VectorXYZOutput_Length_L extends ResthopperParameter {
+class VectorXYZOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

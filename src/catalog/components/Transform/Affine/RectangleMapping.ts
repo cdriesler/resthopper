@@ -15,33 +15,33 @@ export default class RectangleMapping extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": RectangleMappingInput_Geometry_G,
-		"Source_S": RectangleMappingInput_Source_S,
-		"Target_T": RectangleMappingInput_Target_T,
+		"geometry_g": RectangleMappingInput_geometry_g,
+		"source_s": RectangleMappingInput_source_s,
+		"target_t": RectangleMappingInput_target_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": RectangleMappingOutput_Geometry_G,
-		"Transform_X": RectangleMappingOutput_Transform_X,
+		"geometry_g": RectangleMappingOutput_geometry_g,
+		"transform_x": RectangleMappingOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new RectangleMappingInput_Geometry_G(),
-			"Source_S": new RectangleMappingInput_Source_S(),
-			"Target_T": new RectangleMappingInput_Target_T(),
+			"geometry_g": new RectangleMappingInput_geometry_g(),
+			"source_s": new RectangleMappingInput_source_s(),
+			"target_t": new RectangleMappingInput_target_t(),
 		}
 		this.output = {
-			"Geometry_G": new RectangleMappingOutput_Geometry_G(),
-			"Transform_X": new RectangleMappingOutput_Transform_X(),
+			"geometry_g": new RectangleMappingOutput_geometry_g(),
+			"transform_x": new RectangleMappingOutput_transform_x(),
 		}
 	}
 
 }
 
-class RectangleMappingInput_Geometry_G extends ResthopperParameter {
+class RectangleMappingInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -55,7 +55,7 @@ class RectangleMappingInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RectangleMappingInput_Source_S extends ResthopperParameter {
+class RectangleMappingInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class RectangleMappingInput_Source_S extends ResthopperParameter {
 
 }
 
-class RectangleMappingInput_Target_T extends ResthopperParameter {
+class RectangleMappingInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class RectangleMappingInput_Target_T extends ResthopperParameter {
 
 }
 
-class RectangleMappingOutput_Geometry_G extends ResthopperParameter {
+class RectangleMappingOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class RectangleMappingOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RectangleMappingOutput_Transform_X extends ResthopperParameter {
+class RectangleMappingOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

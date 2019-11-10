@@ -15,29 +15,29 @@ export default class SetIntersection extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SetIntersectionInput_SetA_A,
-		"SetB_B": SetIntersectionInput_SetB_B,
+		"seta_a": SetIntersectionInput_seta_a,
+		"setb_b": SetIntersectionInput_setb_b,
 	}
 
 	public output:
 	{
-		"Union_U": SetIntersectionOutput_Union_U,
+		"union_u": SetIntersectionOutput_union_u,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SetIntersectionInput_SetA_A(),
-			"SetB_B": new SetIntersectionInput_SetB_B(),
+			"seta_a": new SetIntersectionInput_seta_a(),
+			"setb_b": new SetIntersectionInput_setb_b(),
 		}
 		this.output = {
-			"Union_U": new SetIntersectionOutput_Union_U(),
+			"union_u": new SetIntersectionOutput_union_u(),
 		}
 	}
 
 }
 
-class SetIntersectionInput_SetA_A extends ResthopperParameter {
+class SetIntersectionInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SetIntersectionInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SetIntersectionInput_SetB_B extends ResthopperParameter {
+class SetIntersectionInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SetIntersectionInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SetIntersectionOutput_Union_U extends ResthopperParameter {
+class SetIntersectionOutput_union_u extends ResthopperParameter {
 
 	public name: string = "Union";
 	public nickName: string = "U";

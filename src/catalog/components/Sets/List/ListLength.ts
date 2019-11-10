@@ -15,27 +15,27 @@ export default class ListLength extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ListLengthInput_List_L,
+		"list_l": ListLengthInput_list_l,
 	}
 
 	public output:
 	{
-		"Length_L": ListLengthOutput_Length_L,
+		"length_l": ListLengthOutput_length_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ListLengthInput_List_L(),
+			"list_l": new ListLengthInput_list_l(),
 		}
 		this.output = {
-			"Length_L": new ListLengthOutput_Length_L(),
+			"length_l": new ListLengthOutput_length_l(),
 		}
 	}
 
 }
 
-class ListLengthInput_List_L extends ResthopperParameter {
+class ListLengthInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -49,7 +49,7 @@ class ListLengthInput_List_L extends ResthopperParameter {
 
 }
 
-class ListLengthOutput_Length_L extends ResthopperParameter {
+class ListLengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";

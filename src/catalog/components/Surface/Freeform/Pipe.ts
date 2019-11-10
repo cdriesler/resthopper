@@ -15,31 +15,31 @@ export default class Pipe extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": PipeInput_Curve_C,
-		"Radius_R": PipeInput_Radius_R,
-		"Caps_E": PipeInput_Caps_E,
+		"curve_c": PipeInput_curve_c,
+		"radius_r": PipeInput_radius_r,
+		"caps_e": PipeInput_caps_e,
 	}
 
 	public output:
 	{
-		"Pipe_P": PipeOutput_Pipe_P,
+		"pipe_p": PipeOutput_pipe_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new PipeInput_Curve_C(),
-			"Radius_R": new PipeInput_Radius_R(),
-			"Caps_E": new PipeInput_Caps_E(),
+			"curve_c": new PipeInput_curve_c(),
+			"radius_r": new PipeInput_radius_r(),
+			"caps_e": new PipeInput_caps_e(),
 		}
 		this.output = {
-			"Pipe_P": new PipeOutput_Pipe_P(),
+			"pipe_p": new PipeOutput_pipe_p(),
 		}
 	}
 
 }
 
-class PipeInput_Curve_C extends ResthopperParameter {
+class PipeInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class PipeInput_Curve_C extends ResthopperParameter {
 
 }
 
-class PipeInput_Radius_R extends ResthopperParameter {
+class PipeInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class PipeInput_Radius_R extends ResthopperParameter {
 
 }
 
-class PipeInput_Caps_E extends ResthopperParameter {
+class PipeInput_caps_e extends ResthopperParameter {
 
 	public name: string = "Caps";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class PipeInput_Caps_E extends ResthopperParameter {
 
 }
 
-class PipeOutput_Pipe_P extends ResthopperParameter {
+class PipeOutput_pipe_p extends ResthopperParameter {
 
 	public name: string = "Pipe";
 	public nickName: string = "P";

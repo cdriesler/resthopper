@@ -15,33 +15,33 @@ export default class Catenary extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": CatenaryInput_PointA_A,
-		"PointB_B": CatenaryInput_PointB_B,
-		"Length_L": CatenaryInput_Length_L,
-		"Gravity_G": CatenaryInput_Gravity_G,
+		"pointa_a": CatenaryInput_pointa_a,
+		"pointb_b": CatenaryInput_pointb_b,
+		"length_l": CatenaryInput_length_l,
+		"gravity_g": CatenaryInput_gravity_g,
 	}
 
 	public output:
 	{
-		"Catenary_C": CatenaryOutput_Catenary_C,
+		"catenary_c": CatenaryOutput_catenary_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new CatenaryInput_PointA_A(),
-			"PointB_B": new CatenaryInput_PointB_B(),
-			"Length_L": new CatenaryInput_Length_L(),
-			"Gravity_G": new CatenaryInput_Gravity_G(),
+			"pointa_a": new CatenaryInput_pointa_a(),
+			"pointb_b": new CatenaryInput_pointb_b(),
+			"length_l": new CatenaryInput_length_l(),
+			"gravity_g": new CatenaryInput_gravity_g(),
 		}
 		this.output = {
-			"Catenary_C": new CatenaryOutput_Catenary_C(),
+			"catenary_c": new CatenaryOutput_catenary_c(),
 		}
 	}
 
 }
 
-class CatenaryInput_PointA_A extends ResthopperParameter {
+class CatenaryInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class CatenaryInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CatenaryInput_PointB_B extends ResthopperParameter {
+class CatenaryInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class CatenaryInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CatenaryInput_Length_L extends ResthopperParameter {
+class CatenaryInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -83,7 +83,7 @@ class CatenaryInput_Length_L extends ResthopperParameter {
 
 }
 
-class CatenaryInput_Gravity_G extends ResthopperParameter {
+class CatenaryInput_gravity_g extends ResthopperParameter {
 
 	public name: string = "Gravity";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class CatenaryInput_Gravity_G extends ResthopperParameter {
 
 }
 
-class CatenaryOutput_Catenary_C extends ResthopperParameter {
+class CatenaryOutput_catenary_c extends ResthopperParameter {
 
 	public name: string = "Catenary";
 	public nickName: string = "C";

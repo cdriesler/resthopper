@@ -15,33 +15,33 @@ export default class ColourXYZ extends ResthopperComponent {
 
 	public input:
 	{
-		"Alpha_A": ColourXYZInput_Alpha_A,
-		"X_X": ColourXYZInput_X_X,
-		"Y_Y": ColourXYZInput_Y_Y,
-		"Z_Z": ColourXYZInput_Z_Z,
+		"alpha_a": ColourXYZInput_alpha_a,
+		"x_x": ColourXYZInput_x_x,
+		"y_y": ColourXYZInput_y_y,
+		"z_z": ColourXYZInput_z_z,
 	}
 
 	public output:
 	{
-		"Colour_C": ColourXYZOutput_Colour_C,
+		"colour_c": ColourXYZOutput_colour_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Alpha_A": new ColourXYZInput_Alpha_A(),
-			"X_X": new ColourXYZInput_X_X(),
-			"Y_Y": new ColourXYZInput_Y_Y(),
-			"Z_Z": new ColourXYZInput_Z_Z(),
+			"alpha_a": new ColourXYZInput_alpha_a(),
+			"x_x": new ColourXYZInput_x_x(),
+			"y_y": new ColourXYZInput_y_y(),
+			"z_z": new ColourXYZInput_z_z(),
 		}
 		this.output = {
-			"Colour_C": new ColourXYZOutput_Colour_C(),
+			"colour_c": new ColourXYZOutput_colour_c(),
 		}
 	}
 
 }
 
-class ColourXYZInput_Alpha_A extends ResthopperParameter {
+class ColourXYZInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class ColourXYZInput_Alpha_A extends ResthopperParameter {
 
 }
 
-class ColourXYZInput_X_X extends ResthopperParameter {
+class ColourXYZInput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
@@ -69,7 +69,7 @@ class ColourXYZInput_X_X extends ResthopperParameter {
 
 }
 
-class ColourXYZInput_Y_Y extends ResthopperParameter {
+class ColourXYZInput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
@@ -83,7 +83,7 @@ class ColourXYZInput_Y_Y extends ResthopperParameter {
 
 }
 
-class ColourXYZInput_Z_Z extends ResthopperParameter {
+class ColourXYZInput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";
@@ -97,7 +97,7 @@ class ColourXYZInput_Z_Z extends ResthopperParameter {
 
 }
 
-class ColourXYZOutput_Colour_C extends ResthopperParameter {
+class ColourXYZOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";

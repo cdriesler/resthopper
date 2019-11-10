@@ -15,31 +15,31 @@ export default class MeshSpray extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshSprayInput_Mesh_M,
-		"Points_P": MeshSprayInput_Points_P,
-		"Colours_C": MeshSprayInput_Colours_C,
+		"mesh_m": MeshSprayInput_mesh_m,
+		"points_p": MeshSprayInput_points_p,
+		"colours_c": MeshSprayInput_colours_c,
 	}
 
 	public output:
 	{
-		"Mesh_M": MeshSprayOutput_Mesh_M,
+		"mesh_m": MeshSprayOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshSprayInput_Mesh_M(),
-			"Points_P": new MeshSprayInput_Points_P(),
-			"Colours_C": new MeshSprayInput_Colours_C(),
+			"mesh_m": new MeshSprayInput_mesh_m(),
+			"points_p": new MeshSprayInput_points_p(),
+			"colours_c": new MeshSprayInput_colours_c(),
 		}
 		this.output = {
-			"Mesh_M": new MeshSprayOutput_Mesh_M(),
+			"mesh_m": new MeshSprayOutput_mesh_m(),
 		}
 	}
 
 }
 
-class MeshSprayInput_Mesh_M extends ResthopperParameter {
+class MeshSprayInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshSprayInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshSprayInput_Points_P extends ResthopperParameter {
+class MeshSprayInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class MeshSprayInput_Points_P extends ResthopperParameter {
 
 }
 
-class MeshSprayInput_Colours_C extends ResthopperParameter {
+class MeshSprayInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MeshSprayInput_Colours_C extends ResthopperParameter {
 
 }
 
-class MeshSprayOutput_Mesh_M extends ResthopperParameter {
+class MeshSprayOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

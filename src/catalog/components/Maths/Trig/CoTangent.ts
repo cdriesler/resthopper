@@ -15,27 +15,27 @@ export default class CoTangent extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": CoTangentInput_Value_x,
+		"value_x": CoTangentInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": CoTangentOutput_Result_y,
+		"result_y": CoTangentOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new CoTangentInput_Value_x(),
+			"value_x": new CoTangentInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new CoTangentOutput_Result_y(),
+			"result_y": new CoTangentOutput_result_y(),
 		}
 	}
 
 }
 
-class CoTangentInput_Value_x extends ResthopperParameter {
+class CoTangentInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class CoTangentInput_Value_x extends ResthopperParameter {
 
 }
 
-class CoTangentOutput_Result_y extends ResthopperParameter {
+class CoTangentOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

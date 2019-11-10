@@ -15,31 +15,31 @@ export default class SweepTwo extends ResthopperComponent {
 
 	public input:
 	{
-		"Rail2_R": SweepTwoInput_Rail2_R,
-		"Sections_S": SweepTwoInput_Sections_S,
-		"SameHeight_H": SweepTwoInput_SameHeight_H,
+		"rail2_r": SweepTwoInput_rail2_r,
+		"sections_s": SweepTwoInput_sections_s,
+		"sameheight_h": SweepTwoInput_sameheight_h,
 	}
 
 	public output:
 	{
-		"Brep_S": SweepTwoOutput_Brep_S,
+		"brep_s": SweepTwoOutput_brep_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Rail2_R": new SweepTwoInput_Rail2_R(),
-			"Sections_S": new SweepTwoInput_Sections_S(),
-			"SameHeight_H": new SweepTwoInput_SameHeight_H(),
+			"rail2_r": new SweepTwoInput_rail2_r(),
+			"sections_s": new SweepTwoInput_sections_s(),
+			"sameheight_h": new SweepTwoInput_sameheight_h(),
 		}
 		this.output = {
-			"Brep_S": new SweepTwoOutput_Brep_S(),
+			"brep_s": new SweepTwoOutput_brep_s(),
 		}
 	}
 
 }
 
-class SweepTwoInput_Rail2_R extends ResthopperParameter {
+class SweepTwoInput_rail2_r extends ResthopperParameter {
 
 	public name: string = "Rail2";
 	public nickName: string = "R";
@@ -53,7 +53,7 @@ class SweepTwoInput_Rail2_R extends ResthopperParameter {
 
 }
 
-class SweepTwoInput_Sections_S extends ResthopperParameter {
+class SweepTwoInput_sections_s extends ResthopperParameter {
 
 	public name: string = "Sections";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class SweepTwoInput_Sections_S extends ResthopperParameter {
 
 }
 
-class SweepTwoInput_SameHeight_H extends ResthopperParameter {
+class SweepTwoInput_sameheight_h extends ResthopperParameter {
 
 	public name: string = "SameHeight";
 	public nickName: string = "H";
@@ -81,7 +81,7 @@ class SweepTwoInput_SameHeight_H extends ResthopperParameter {
 
 }
 
-class SweepTwoOutput_Brep_S extends ResthopperParameter {
+class SweepTwoOutput_brep_s extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "S";

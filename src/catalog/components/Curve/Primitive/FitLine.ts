@@ -15,27 +15,27 @@ export default class FitLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": FitLineInput_Points_P,
+		"points_p": FitLineInput_points_p,
 	}
 
 	public output:
 	{
-		"Line_L": FitLineOutput_Line_L,
+		"line_l": FitLineOutput_line_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new FitLineInput_Points_P(),
+			"points_p": new FitLineInput_points_p(),
 		}
 		this.output = {
-			"Line_L": new FitLineOutput_Line_L(),
+			"line_l": new FitLineOutput_line_l(),
 		}
 	}
 
 }
 
-class FitLineInput_Points_P extends ResthopperParameter {
+class FitLineInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -49,7 +49,7 @@ class FitLineInput_Points_P extends ResthopperParameter {
 
 }
 
-class FitLineOutput_Line_L extends ResthopperParameter {
+class FitLineOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";

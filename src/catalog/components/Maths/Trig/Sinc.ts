@@ -15,27 +15,27 @@ export default class Sinc extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": SincInput_Value_x,
+		"value_x": SincInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": SincOutput_Result_y,
+		"result_y": SincOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new SincInput_Value_x(),
+			"value_x": new SincInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new SincOutput_Result_y(),
+			"result_y": new SincOutput_result_y(),
 		}
 	}
 
 }
 
-class SincInput_Value_x extends ResthopperParameter {
+class SincInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class SincInput_Value_x extends ResthopperParameter {
 
 }
 
-class SincOutput_Result_y extends ResthopperParameter {
+class SincOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

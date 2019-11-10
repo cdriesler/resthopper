@@ -15,33 +15,33 @@ export default class MeshRay extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshRayInput_Mesh_M,
-		"Point_P": MeshRayInput_Point_P,
-		"Direction_D": MeshRayInput_Direction_D,
+		"mesh_m": MeshRayInput_mesh_m,
+		"point_p": MeshRayInput_point_p,
+		"direction_d": MeshRayInput_direction_d,
 	}
 
 	public output:
 	{
-		"Point_X": MeshRayOutput_Point_X,
-		"Hit_H": MeshRayOutput_Hit_H,
+		"point_x": MeshRayOutput_point_x,
+		"hit_h": MeshRayOutput_hit_h,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshRayInput_Mesh_M(),
-			"Point_P": new MeshRayInput_Point_P(),
-			"Direction_D": new MeshRayInput_Direction_D(),
+			"mesh_m": new MeshRayInput_mesh_m(),
+			"point_p": new MeshRayInput_point_p(),
+			"direction_d": new MeshRayInput_direction_d(),
 		}
 		this.output = {
-			"Point_X": new MeshRayOutput_Point_X(),
-			"Hit_H": new MeshRayOutput_Hit_H(),
+			"point_x": new MeshRayOutput_point_x(),
+			"hit_h": new MeshRayOutput_hit_h(),
 		}
 	}
 
 }
 
-class MeshRayInput_Mesh_M extends ResthopperParameter {
+class MeshRayInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -55,7 +55,7 @@ class MeshRayInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshRayInput_Point_P extends ResthopperParameter {
+class MeshRayInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class MeshRayInput_Point_P extends ResthopperParameter {
 
 }
 
-class MeshRayInput_Direction_D extends ResthopperParameter {
+class MeshRayInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -83,7 +83,7 @@ class MeshRayInput_Direction_D extends ResthopperParameter {
 
 }
 
-class MeshRayOutput_Point_X extends ResthopperParameter {
+class MeshRayOutput_point_x extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "X";
@@ -97,7 +97,7 @@ class MeshRayOutput_Point_X extends ResthopperParameter {
 
 }
 
-class MeshRayOutput_Hit_H extends ResthopperParameter {
+class MeshRayOutput_hit_h extends ResthopperParameter {
 
 	public name: string = "Hit";
 	public nickName: string = "H";

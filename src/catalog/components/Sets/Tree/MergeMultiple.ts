@@ -15,29 +15,29 @@ export default class MergeMultiple extends ResthopperComponent {
 
 	public input:
 	{
-		"Stream0_0": MergeMultipleInput_Stream0_0,
-		"Stream1_1": MergeMultipleInput_Stream1_1,
+		"stream0_0": MergeMultipleInput_stream0_0,
+		"stream1_1": MergeMultipleInput_stream1_1,
 	}
 
 	public output:
 	{
-		"Stream_S": MergeMultipleOutput_Stream_S,
+		"stream_s": MergeMultipleOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Stream0_0": new MergeMultipleInput_Stream0_0(),
-			"Stream1_1": new MergeMultipleInput_Stream1_1(),
+			"stream0_0": new MergeMultipleInput_stream0_0(),
+			"stream1_1": new MergeMultipleInput_stream1_1(),
 		}
 		this.output = {
-			"Stream_S": new MergeMultipleOutput_Stream_S(),
+			"stream_s": new MergeMultipleOutput_stream_s(),
 		}
 	}
 
 }
 
-class MergeMultipleInput_Stream0_0 extends ResthopperParameter {
+class MergeMultipleInput_stream0_0 extends ResthopperParameter {
 
 	public name: string = "Stream0";
 	public nickName: string = "0";
@@ -51,7 +51,7 @@ class MergeMultipleInput_Stream0_0 extends ResthopperParameter {
 
 }
 
-class MergeMultipleInput_Stream1_1 extends ResthopperParameter {
+class MergeMultipleInput_stream1_1 extends ResthopperParameter {
 
 	public name: string = "Stream1";
 	public nickName: string = "1";
@@ -65,7 +65,7 @@ class MergeMultipleInput_Stream1_1 extends ResthopperParameter {
 
 }
 
-class MergeMultipleOutput_Stream_S extends ResthopperParameter {
+class MergeMultipleOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

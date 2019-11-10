@@ -15,31 +15,31 @@ export default class TextFragment extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextFragmentInput_Text_T,
-		"Start_i": TextFragmentInput_Start_i,
-		"Count_N": TextFragmentInput_Count_N,
+		"text_t": TextFragmentInput_text_t,
+		"start_i": TextFragmentInput_start_i,
+		"count_n": TextFragmentInput_count_n,
 	}
 
 	public output:
 	{
-		"Fragment_F": TextFragmentOutput_Fragment_F,
+		"fragment_f": TextFragmentOutput_fragment_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextFragmentInput_Text_T(),
-			"Start_i": new TextFragmentInput_Start_i(),
-			"Count_N": new TextFragmentInput_Count_N(),
+			"text_t": new TextFragmentInput_text_t(),
+			"start_i": new TextFragmentInput_start_i(),
+			"count_n": new TextFragmentInput_count_n(),
 		}
 		this.output = {
-			"Fragment_F": new TextFragmentOutput_Fragment_F(),
+			"fragment_f": new TextFragmentOutput_fragment_f(),
 		}
 	}
 
 }
 
-class TextFragmentInput_Text_T extends ResthopperParameter {
+class TextFragmentInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class TextFragmentInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextFragmentInput_Start_i extends ResthopperParameter {
+class TextFragmentInput_start_i extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "i";
@@ -67,7 +67,7 @@ class TextFragmentInput_Start_i extends ResthopperParameter {
 
 }
 
-class TextFragmentInput_Count_N extends ResthopperParameter {
+class TextFragmentInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -81,7 +81,7 @@ class TextFragmentInput_Count_N extends ResthopperParameter {
 
 }
 
-class TextFragmentOutput_Fragment_F extends ResthopperParameter {
+class TextFragmentOutput_fragment_f extends ResthopperParameter {
 
 	public name: string = "Fragment";
 	public nickName: string = "F";

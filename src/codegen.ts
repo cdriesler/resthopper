@@ -181,21 +181,21 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             "",
             "\tpublic input:",
             "\t{",
-            Object.keys(c.input).map(x => `\t\t"${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}": ${className}Input_${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")},`).join("\n"),
+            Object.keys(c.input).map(x => `\t\t"${c.input[x].getUniqueName()}": ${className}Input_${c.input[x].getUniqueName()},`).join("\n"),
             "\t}",
             "",
             "\tpublic output:",
             "\t{",
-            Object.keys(c.output).map(x => `\t\t"${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}": ${className}Output_${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")},`).join("\n"),
+            Object.keys(c.output).map(x => `\t\t"${c.output[x].getUniqueName()}": ${className}Output_${c.output[x].getUniqueName()},`).join("\n"),
             "\t}",
             "",
             "\tconstructor() {",
             "\t\tsuper();",
             "\t\tthis.input = {",
-            Object.keys(c.input).map(x => `\t\t\t"${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}": new ${className}Input_${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}(),`).join("\n"),
+            Object.keys(c.input).map(x => `\t\t\t"${c.input[x].getUniqueName()}": new ${className}Input_${c.input[x].getUniqueName()}(),`).join("\n"),
             "\t\t}",
             "\t\tthis.output = {",
-            Object.keys(c.output).map(x => `\t\t\t"${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}": new ${className}Output_${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}(),`).join("\n"),
+            Object.keys(c.output).map(x => `\t\t\t"${c.output[x].getUniqueName()}": new ${className}Output_${c.output[x].getUniqueName()}(),`).join("\n"),
             "\t\t}",
             "\t}",
             "",
@@ -207,7 +207,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             const i = c.input[x];
 
             text = text.concat([
-                `class ${className}Input_${i.name.replace(" ", "")}_${i.nickName.replace(" ", "")} extends ResthopperParameter {`,
+                `class ${className}Input_${i.getUniqueName()} extends ResthopperParameter {`,
                 "",
                 `\tpublic name: string = "${i.name}";`,
                 `\tpublic nickName: string = "${i.nickName}";`,
@@ -228,7 +228,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             const o = c.output[x];
 
             text = text.concat([
-                `class ${className}Output_${o.name.replace(" ", "")}_${o.nickName.replace(" ", "")} extends ResthopperParameter {`,
+                `class ${className}Output_${o.getUniqueName()} extends ResthopperParameter {`,
                 "",
                 `\tpublic name: string = "${o.name}";`,
                 `\tpublic nickName: string = "${o.nickName}";`,

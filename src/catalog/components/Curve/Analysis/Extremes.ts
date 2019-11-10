@@ -15,31 +15,31 @@ export default class Extremes extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ExtremesInput_Curve_C,
-		"Plane_P": ExtremesInput_Plane_P,
+		"curve_c": ExtremesInput_curve_c,
+		"plane_p": ExtremesInput_plane_p,
 	}
 
 	public output:
 	{
-		"Highest_H": ExtremesOutput_Highest_H,
-		"Lowest_L": ExtremesOutput_Lowest_L,
+		"highest_h": ExtremesOutput_highest_h,
+		"lowest_l": ExtremesOutput_lowest_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ExtremesInput_Curve_C(),
-			"Plane_P": new ExtremesInput_Plane_P(),
+			"curve_c": new ExtremesInput_curve_c(),
+			"plane_p": new ExtremesInput_plane_p(),
 		}
 		this.output = {
-			"Highest_H": new ExtremesOutput_Highest_H(),
-			"Lowest_L": new ExtremesOutput_Lowest_L(),
+			"highest_h": new ExtremesOutput_highest_h(),
+			"lowest_l": new ExtremesOutput_lowest_l(),
 		}
 	}
 
 }
 
-class ExtremesInput_Curve_C extends ResthopperParameter {
+class ExtremesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class ExtremesInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ExtremesInput_Plane_P extends ResthopperParameter {
+class ExtremesInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class ExtremesInput_Plane_P extends ResthopperParameter {
 
 }
 
-class ExtremesOutput_Highest_H extends ResthopperParameter {
+class ExtremesOutput_highest_h extends ResthopperParameter {
 
 	public name: string = "Highest";
 	public nickName: string = "H";
@@ -81,7 +81,7 @@ class ExtremesOutput_Highest_H extends ResthopperParameter {
 
 }
 
-class ExtremesOutput_Lowest_L extends ResthopperParameter {
+class ExtremesOutput_lowest_l extends ResthopperParameter {
 
 	public name: string = "Lowest";
 	public nickName: string = "L";

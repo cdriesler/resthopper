@@ -15,27 +15,27 @@ export default class ReverseList extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": ReverseListInput_List_L,
+		"list_l": ReverseListInput_list_l,
 	}
 
 	public output:
 	{
-		"List_L": ReverseListOutput_List_L,
+		"list_l": ReverseListOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new ReverseListInput_List_L(),
+			"list_l": new ReverseListInput_list_l(),
 		}
 		this.output = {
-			"List_L": new ReverseListOutput_List_L(),
+			"list_l": new ReverseListOutput_list_l(),
 		}
 	}
 
 }
 
-class ReverseListInput_List_L extends ResthopperParameter {
+class ReverseListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -49,7 +49,7 @@ class ReverseListInput_List_L extends ResthopperParameter {
 
 }
 
-class ReverseListOutput_List_L extends ResthopperParameter {
+class ReverseListOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

@@ -15,33 +15,33 @@ export default class ProjectPoint extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": ProjectPointInput_Point_P,
-		"Direction_D": ProjectPointInput_Direction_D,
-		"Geometry_G": ProjectPointInput_Geometry_G,
+		"point_p": ProjectPointInput_point_p,
+		"direction_d": ProjectPointInput_direction_d,
+		"geometry_g": ProjectPointInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Point_P": ProjectPointOutput_Point_P,
-		"Index_I": ProjectPointOutput_Index_I,
+		"point_p": ProjectPointOutput_point_p,
+		"index_i": ProjectPointOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new ProjectPointInput_Point_P(),
-			"Direction_D": new ProjectPointInput_Direction_D(),
-			"Geometry_G": new ProjectPointInput_Geometry_G(),
+			"point_p": new ProjectPointInput_point_p(),
+			"direction_d": new ProjectPointInput_direction_d(),
+			"geometry_g": new ProjectPointInput_geometry_g(),
 		}
 		this.output = {
-			"Point_P": new ProjectPointOutput_Point_P(),
-			"Index_I": new ProjectPointOutput_Index_I(),
+			"point_p": new ProjectPointOutput_point_p(),
+			"index_i": new ProjectPointOutput_index_i(),
 		}
 	}
 
 }
 
-class ProjectPointInput_Point_P extends ResthopperParameter {
+class ProjectPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ProjectPointInput_Point_P extends ResthopperParameter {
 
 }
 
-class ProjectPointInput_Direction_D extends ResthopperParameter {
+class ProjectPointInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -69,7 +69,7 @@ class ProjectPointInput_Direction_D extends ResthopperParameter {
 
 }
 
-class ProjectPointInput_Geometry_G extends ResthopperParameter {
+class ProjectPointInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -83,7 +83,7 @@ class ProjectPointInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class ProjectPointOutput_Point_P extends ResthopperParameter {
+class ProjectPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -97,7 +97,7 @@ class ProjectPointOutput_Point_P extends ResthopperParameter {
 
 }
 
-class ProjectPointOutput_Index_I extends ResthopperParameter {
+class ProjectPointOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

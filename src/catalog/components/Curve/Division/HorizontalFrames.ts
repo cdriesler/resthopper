@@ -15,31 +15,31 @@ export default class HorizontalFrames extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": HorizontalFramesInput_Curve_C,
-		"Count_N": HorizontalFramesInput_Count_N,
+		"curve_c": HorizontalFramesInput_curve_c,
+		"count_n": HorizontalFramesInput_count_n,
 	}
 
 	public output:
 	{
-		"Frames_F": HorizontalFramesOutput_Frames_F,
-		"Parameters_t": HorizontalFramesOutput_Parameters_t,
+		"frames_f": HorizontalFramesOutput_frames_f,
+		"parameters_t": HorizontalFramesOutput_parameters_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new HorizontalFramesInput_Curve_C(),
-			"Count_N": new HorizontalFramesInput_Count_N(),
+			"curve_c": new HorizontalFramesInput_curve_c(),
+			"count_n": new HorizontalFramesInput_count_n(),
 		}
 		this.output = {
-			"Frames_F": new HorizontalFramesOutput_Frames_F(),
-			"Parameters_t": new HorizontalFramesOutput_Parameters_t(),
+			"frames_f": new HorizontalFramesOutput_frames_f(),
+			"parameters_t": new HorizontalFramesOutput_parameters_t(),
 		}
 	}
 
 }
 
-class HorizontalFramesInput_Curve_C extends ResthopperParameter {
+class HorizontalFramesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class HorizontalFramesInput_Curve_C extends ResthopperParameter {
 
 }
 
-class HorizontalFramesInput_Count_N extends ResthopperParameter {
+class HorizontalFramesInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class HorizontalFramesInput_Count_N extends ResthopperParameter {
 
 }
 
-class HorizontalFramesOutput_Frames_F extends ResthopperParameter {
+class HorizontalFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class HorizontalFramesOutput_Frames_F extends ResthopperParameter {
 
 }
 
-class HorizontalFramesOutput_Parameters_t extends ResthopperParameter {
+class HorizontalFramesOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";

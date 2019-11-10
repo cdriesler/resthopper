@@ -15,29 +15,29 @@ export default class WeightedAverage extends ResthopperComponent {
 
 	public input:
 	{
-		"Input_I": WeightedAverageInput_Input_I,
-		"Weights_W": WeightedAverageInput_Weights_W,
+		"input_i": WeightedAverageInput_input_i,
+		"weights_w": WeightedAverageInput_weights_w,
 	}
 
 	public output:
 	{
-		"Arithmeticmean_AM": WeightedAverageOutput_Arithmeticmean_AM,
+		"arithmeticmean_am": WeightedAverageOutput_arithmeticmean_am,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Input_I": new WeightedAverageInput_Input_I(),
-			"Weights_W": new WeightedAverageInput_Weights_W(),
+			"input_i": new WeightedAverageInput_input_i(),
+			"weights_w": new WeightedAverageInput_weights_w(),
 		}
 		this.output = {
-			"Arithmeticmean_AM": new WeightedAverageOutput_Arithmeticmean_AM(),
+			"arithmeticmean_am": new WeightedAverageOutput_arithmeticmean_am(),
 		}
 	}
 
 }
 
-class WeightedAverageInput_Input_I extends ResthopperParameter {
+class WeightedAverageInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
@@ -51,7 +51,7 @@ class WeightedAverageInput_Input_I extends ResthopperParameter {
 
 }
 
-class WeightedAverageInput_Weights_W extends ResthopperParameter {
+class WeightedAverageInput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
@@ -65,7 +65,7 @@ class WeightedAverageInput_Weights_W extends ResthopperParameter {
 
 }
 
-class WeightedAverageOutput_Arithmeticmean_AM extends ResthopperParameter {
+class WeightedAverageOutput_arithmeticmean_am extends ResthopperParameter {
 
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";

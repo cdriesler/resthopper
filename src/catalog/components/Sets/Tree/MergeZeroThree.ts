@@ -15,31 +15,31 @@ export default class MergeZeroThree extends ResthopperComponent {
 
 	public input:
 	{
-		"StreamA_A": MergeZeroThreeInput_StreamA_A,
-		"StreamB_B": MergeZeroThreeInput_StreamB_B,
-		"StreamC_C": MergeZeroThreeInput_StreamC_C,
+		"streama_a": MergeZeroThreeInput_streama_a,
+		"streamb_b": MergeZeroThreeInput_streamb_b,
+		"streamc_c": MergeZeroThreeInput_streamc_c,
 	}
 
 	public output:
 	{
-		"Stream_S": MergeZeroThreeOutput_Stream_S,
+		"stream_s": MergeZeroThreeOutput_stream_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"StreamA_A": new MergeZeroThreeInput_StreamA_A(),
-			"StreamB_B": new MergeZeroThreeInput_StreamB_B(),
-			"StreamC_C": new MergeZeroThreeInput_StreamC_C(),
+			"streama_a": new MergeZeroThreeInput_streama_a(),
+			"streamb_b": new MergeZeroThreeInput_streamb_b(),
+			"streamc_c": new MergeZeroThreeInput_streamc_c(),
 		}
 		this.output = {
-			"Stream_S": new MergeZeroThreeOutput_Stream_S(),
+			"stream_s": new MergeZeroThreeOutput_stream_s(),
 		}
 	}
 
 }
 
-class MergeZeroThreeInput_StreamA_A extends ResthopperParameter {
+class MergeZeroThreeInput_streama_a extends ResthopperParameter {
 
 	public name: string = "StreamA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class MergeZeroThreeInput_StreamA_A extends ResthopperParameter {
 
 }
 
-class MergeZeroThreeInput_StreamB_B extends ResthopperParameter {
+class MergeZeroThreeInput_streamb_b extends ResthopperParameter {
 
 	public name: string = "StreamB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class MergeZeroThreeInput_StreamB_B extends ResthopperParameter {
 
 }
 
-class MergeZeroThreeInput_StreamC_C extends ResthopperParameter {
+class MergeZeroThreeInput_streamc_c extends ResthopperParameter {
 
 	public name: string = "StreamC";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MergeZeroThreeInput_StreamC_C extends ResthopperParameter {
 
 }
 
-class MergeZeroThreeOutput_Stream_S extends ResthopperParameter {
+class MergeZeroThreeOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";

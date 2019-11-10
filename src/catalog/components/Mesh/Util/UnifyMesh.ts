@@ -15,29 +15,29 @@ export default class UnifyMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": UnifyMeshInput_Mesh_M,
+		"mesh_m": UnifyMeshInput_mesh_m,
 	}
 
 	public output:
 	{
-		"Result_R": UnifyMeshOutput_Result_R,
-		"Count_N": UnifyMeshOutput_Count_N,
+		"result_r": UnifyMeshOutput_result_r,
+		"count_n": UnifyMeshOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new UnifyMeshInput_Mesh_M(),
+			"mesh_m": new UnifyMeshInput_mesh_m(),
 		}
 		this.output = {
-			"Result_R": new UnifyMeshOutput_Result_R(),
-			"Count_N": new UnifyMeshOutput_Count_N(),
+			"result_r": new UnifyMeshOutput_result_r(),
+			"count_n": new UnifyMeshOutput_count_n(),
 		}
 	}
 
 }
 
-class UnifyMeshInput_Mesh_M extends ResthopperParameter {
+class UnifyMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -51,7 +51,7 @@ class UnifyMeshInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class UnifyMeshOutput_Result_R extends ResthopperParameter {
+class UnifyMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
@@ -65,7 +65,7 @@ class UnifyMeshOutput_Result_R extends ResthopperParameter {
 
 }
 
-class UnifyMeshOutput_Count_N extends ResthopperParameter {
+class UnifyMeshOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

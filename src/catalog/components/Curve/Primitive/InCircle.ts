@@ -15,35 +15,35 @@ export default class InCircle extends ResthopperComponent {
 
 	public input:
 	{
-		"CornerA_A": InCircleInput_CornerA_A,
-		"CornerB_B": InCircleInput_CornerB_B,
-		"CornerC_C": InCircleInput_CornerC_C,
+		"cornera_a": InCircleInput_cornera_a,
+		"cornerb_b": InCircleInput_cornerb_b,
+		"cornerc_c": InCircleInput_cornerc_c,
 	}
 
 	public output:
 	{
-		"Circle_C": InCircleOutput_Circle_C,
-		"Plane_P": InCircleOutput_Plane_P,
-		"Radius_R": InCircleOutput_Radius_R,
+		"circle_c": InCircleOutput_circle_c,
+		"plane_p": InCircleOutput_plane_p,
+		"radius_r": InCircleOutput_radius_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CornerA_A": new InCircleInput_CornerA_A(),
-			"CornerB_B": new InCircleInput_CornerB_B(),
-			"CornerC_C": new InCircleInput_CornerC_C(),
+			"cornera_a": new InCircleInput_cornera_a(),
+			"cornerb_b": new InCircleInput_cornerb_b(),
+			"cornerc_c": new InCircleInput_cornerc_c(),
 		}
 		this.output = {
-			"Circle_C": new InCircleOutput_Circle_C(),
-			"Plane_P": new InCircleOutput_Plane_P(),
-			"Radius_R": new InCircleOutput_Radius_R(),
+			"circle_c": new InCircleOutput_circle_c(),
+			"plane_p": new InCircleOutput_plane_p(),
+			"radius_r": new InCircleOutput_radius_r(),
 		}
 	}
 
 }
 
-class InCircleInput_CornerA_A extends ResthopperParameter {
+class InCircleInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -57,7 +57,7 @@ class InCircleInput_CornerA_A extends ResthopperParameter {
 
 }
 
-class InCircleInput_CornerB_B extends ResthopperParameter {
+class InCircleInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class InCircleInput_CornerB_B extends ResthopperParameter {
 
 }
 
-class InCircleInput_CornerC_C extends ResthopperParameter {
+class InCircleInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class InCircleInput_CornerC_C extends ResthopperParameter {
 
 }
 
-class InCircleOutput_Circle_C extends ResthopperParameter {
+class InCircleOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class InCircleOutput_Circle_C extends ResthopperParameter {
 
 }
 
-class InCircleOutput_Plane_P extends ResthopperParameter {
+class InCircleOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class InCircleOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class InCircleOutput_Radius_R extends ResthopperParameter {
+class InCircleOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";

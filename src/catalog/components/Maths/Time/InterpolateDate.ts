@@ -15,31 +15,31 @@ export default class InterpolateDate extends ResthopperComponent {
 
 	public input:
 	{
-		"DateA_A": InterpolateDateInput_DateA_A,
-		"DateB_B": InterpolateDateInput_DateB_B,
-		"Interpolation_t": InterpolateDateInput_Interpolation_t,
+		"datea_a": InterpolateDateInput_datea_a,
+		"dateb_b": InterpolateDateInput_dateb_b,
+		"interpolation_t": InterpolateDateInput_interpolation_t,
 	}
 
 	public output:
 	{
-		"Date_D": InterpolateDateOutput_Date_D,
+		"date_d": InterpolateDateOutput_date_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"DateA_A": new InterpolateDateInput_DateA_A(),
-			"DateB_B": new InterpolateDateInput_DateB_B(),
-			"Interpolation_t": new InterpolateDateInput_Interpolation_t(),
+			"datea_a": new InterpolateDateInput_datea_a(),
+			"dateb_b": new InterpolateDateInput_dateb_b(),
+			"interpolation_t": new InterpolateDateInput_interpolation_t(),
 		}
 		this.output = {
-			"Date_D": new InterpolateDateOutput_Date_D(),
+			"date_d": new InterpolateDateOutput_date_d(),
 		}
 	}
 
 }
 
-class InterpolateDateInput_DateA_A extends ResthopperParameter {
+class InterpolateDateInput_datea_a extends ResthopperParameter {
 
 	public name: string = "DateA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class InterpolateDateInput_DateA_A extends ResthopperParameter {
 
 }
 
-class InterpolateDateInput_DateB_B extends ResthopperParameter {
+class InterpolateDateInput_dateb_b extends ResthopperParameter {
 
 	public name: string = "DateB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class InterpolateDateInput_DateB_B extends ResthopperParameter {
 
 }
 
-class InterpolateDateInput_Interpolation_t extends ResthopperParameter {
+class InterpolateDateInput_interpolation_t extends ResthopperParameter {
 
 	public name: string = "Interpolation";
 	public nickName: string = "t";
@@ -81,7 +81,7 @@ class InterpolateDateInput_Interpolation_t extends ResthopperParameter {
 
 }
 
-class InterpolateDateOutput_Date_D extends ResthopperParameter {
+class InterpolateDateOutput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";

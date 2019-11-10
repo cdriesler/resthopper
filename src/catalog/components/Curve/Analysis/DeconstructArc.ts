@@ -15,31 +15,31 @@ export default class DeconstructArc extends ResthopperComponent {
 
 	public input:
 	{
-		"Arc_A": DeconstructArcInput_Arc_A,
+		"arc_a": DeconstructArcInput_arc_a,
 	}
 
 	public output:
 	{
-		"BasePlane_B": DeconstructArcOutput_BasePlane_B,
-		"Radius_R": DeconstructArcOutput_Radius_R,
-		"Angle_A": DeconstructArcOutput_Angle_A,
+		"baseplane_b": DeconstructArcOutput_baseplane_b,
+		"radius_r": DeconstructArcOutput_radius_r,
+		"angle_a": DeconstructArcOutput_angle_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Arc_A": new DeconstructArcInput_Arc_A(),
+			"arc_a": new DeconstructArcInput_arc_a(),
 		}
 		this.output = {
-			"BasePlane_B": new DeconstructArcOutput_BasePlane_B(),
-			"Radius_R": new DeconstructArcOutput_Radius_R(),
-			"Angle_A": new DeconstructArcOutput_Angle_A(),
+			"baseplane_b": new DeconstructArcOutput_baseplane_b(),
+			"radius_r": new DeconstructArcOutput_radius_r(),
+			"angle_a": new DeconstructArcOutput_angle_a(),
 		}
 	}
 
 }
 
-class DeconstructArcInput_Arc_A extends ResthopperParameter {
+class DeconstructArcInput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class DeconstructArcInput_Arc_A extends ResthopperParameter {
 
 }
 
-class DeconstructArcOutput_BasePlane_B extends ResthopperParameter {
+class DeconstructArcOutput_baseplane_b extends ResthopperParameter {
 
 	public name: string = "BasePlane";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class DeconstructArcOutput_BasePlane_B extends ResthopperParameter {
 
 }
 
-class DeconstructArcOutput_Radius_R extends ResthopperParameter {
+class DeconstructArcOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class DeconstructArcOutput_Radius_R extends ResthopperParameter {
 
 }
 
-class DeconstructArcOutput_Angle_A extends ResthopperParameter {
+class DeconstructArcOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";

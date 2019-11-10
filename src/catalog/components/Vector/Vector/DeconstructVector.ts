@@ -15,31 +15,31 @@ export default class DeconstructVector extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": DeconstructVectorInput_Vector_V,
+		"vector_v": DeconstructVectorInput_vector_v,
 	}
 
 	public output:
 	{
-		"Xcomponent_X": DeconstructVectorOutput_Xcomponent_X,
-		"Ycomponent_Y": DeconstructVectorOutput_Ycomponent_Y,
-		"Zcomponent_Z": DeconstructVectorOutput_Zcomponent_Z,
+		"xcomponent_x": DeconstructVectorOutput_xcomponent_x,
+		"ycomponent_y": DeconstructVectorOutput_ycomponent_y,
+		"zcomponent_z": DeconstructVectorOutput_zcomponent_z,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new DeconstructVectorInput_Vector_V(),
+			"vector_v": new DeconstructVectorInput_vector_v(),
 		}
 		this.output = {
-			"Xcomponent_X": new DeconstructVectorOutput_Xcomponent_X(),
-			"Ycomponent_Y": new DeconstructVectorOutput_Ycomponent_Y(),
-			"Zcomponent_Z": new DeconstructVectorOutput_Zcomponent_Z(),
+			"xcomponent_x": new DeconstructVectorOutput_xcomponent_x(),
+			"ycomponent_y": new DeconstructVectorOutput_ycomponent_y(),
+			"zcomponent_z": new DeconstructVectorOutput_zcomponent_z(),
 		}
 	}
 
 }
 
-class DeconstructVectorInput_Vector_V extends ResthopperParameter {
+class DeconstructVectorInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class DeconstructVectorInput_Vector_V extends ResthopperParameter {
 
 }
 
-class DeconstructVectorOutput_Xcomponent_X extends ResthopperParameter {
+class DeconstructVectorOutput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class DeconstructVectorOutput_Xcomponent_X extends ResthopperParameter {
 
 }
 
-class DeconstructVectorOutput_Ycomponent_Y extends ResthopperParameter {
+class DeconstructVectorOutput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
@@ -81,7 +81,7 @@ class DeconstructVectorOutput_Ycomponent_Y extends ResthopperParameter {
 
 }
 
-class DeconstructVectorOutput_Zcomponent_Z extends ResthopperParameter {
+class DeconstructVectorOutput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";

@@ -15,31 +15,31 @@ export default class PlaneSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": PlaneSurfaceInput_Plane_P,
-		"XSize_X": PlaneSurfaceInput_XSize_X,
-		"YSize_Y": PlaneSurfaceInput_YSize_Y,
+		"plane_p": PlaneSurfaceInput_plane_p,
+		"xsize_x": PlaneSurfaceInput_xsize_x,
+		"ysize_y": PlaneSurfaceInput_ysize_y,
 	}
 
 	public output:
 	{
-		"Plane_P": PlaneSurfaceOutput_Plane_P,
+		"plane_p": PlaneSurfaceOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new PlaneSurfaceInput_Plane_P(),
-			"XSize_X": new PlaneSurfaceInput_XSize_X(),
-			"YSize_Y": new PlaneSurfaceInput_YSize_Y(),
+			"plane_p": new PlaneSurfaceInput_plane_p(),
+			"xsize_x": new PlaneSurfaceInput_xsize_x(),
+			"ysize_y": new PlaneSurfaceInput_ysize_y(),
 		}
 		this.output = {
-			"Plane_P": new PlaneSurfaceOutput_Plane_P(),
+			"plane_p": new PlaneSurfaceOutput_plane_p(),
 		}
 	}
 
 }
 
-class PlaneSurfaceInput_Plane_P extends ResthopperParameter {
+class PlaneSurfaceInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PlaneSurfaceInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PlaneSurfaceInput_XSize_X extends ResthopperParameter {
+class PlaneSurfaceInput_xsize_x extends ResthopperParameter {
 
 	public name: string = "XSize";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class PlaneSurfaceInput_XSize_X extends ResthopperParameter {
 
 }
 
-class PlaneSurfaceInput_YSize_Y extends ResthopperParameter {
+class PlaneSurfaceInput_ysize_y extends ResthopperParameter {
 
 	public name: string = "YSize";
 	public nickName: string = "Y";
@@ -81,7 +81,7 @@ class PlaneSurfaceInput_YSize_Y extends ResthopperParameter {
 
 }
 
-class PlaneSurfaceOutput_Plane_P extends ResthopperParameter {
+class PlaneSurfaceOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

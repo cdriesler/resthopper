@@ -15,37 +15,37 @@ export default class PolygonEdge extends ResthopperComponent {
 
 	public input:
 	{
-		"EdgeStart_E0": PolygonEdgeInput_EdgeStart_E0,
-		"EdgeEnd_E1": PolygonEdgeInput_EdgeEnd_E1,
-		"PlanePoint_P": PolygonEdgeInput_PlanePoint_P,
-		"Segments_S": PolygonEdgeInput_Segments_S,
+		"edgestart_e0": PolygonEdgeInput_edgestart_e0,
+		"edgeend_e1": PolygonEdgeInput_edgeend_e1,
+		"planepoint_p": PolygonEdgeInput_planepoint_p,
+		"segments_s": PolygonEdgeInput_segments_s,
 	}
 
 	public output:
 	{
-		"Polygon_P": PolygonEdgeOutput_Polygon_P,
-		"Centre_C": PolygonEdgeOutput_Centre_C,
-		"EdgeRadius_Rc": PolygonEdgeOutput_EdgeRadius_Rc,
+		"polygon_p": PolygonEdgeOutput_polygon_p,
+		"centre_c": PolygonEdgeOutput_centre_c,
+		"edgeradius_rc": PolygonEdgeOutput_edgeradius_rc,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"EdgeStart_E0": new PolygonEdgeInput_EdgeStart_E0(),
-			"EdgeEnd_E1": new PolygonEdgeInput_EdgeEnd_E1(),
-			"PlanePoint_P": new PolygonEdgeInput_PlanePoint_P(),
-			"Segments_S": new PolygonEdgeInput_Segments_S(),
+			"edgestart_e0": new PolygonEdgeInput_edgestart_e0(),
+			"edgeend_e1": new PolygonEdgeInput_edgeend_e1(),
+			"planepoint_p": new PolygonEdgeInput_planepoint_p(),
+			"segments_s": new PolygonEdgeInput_segments_s(),
 		}
 		this.output = {
-			"Polygon_P": new PolygonEdgeOutput_Polygon_P(),
-			"Centre_C": new PolygonEdgeOutput_Centre_C(),
-			"EdgeRadius_Rc": new PolygonEdgeOutput_EdgeRadius_Rc(),
+			"polygon_p": new PolygonEdgeOutput_polygon_p(),
+			"centre_c": new PolygonEdgeOutput_centre_c(),
+			"edgeradius_rc": new PolygonEdgeOutput_edgeradius_rc(),
 		}
 	}
 
 }
 
-class PolygonEdgeInput_EdgeStart_E0 extends ResthopperParameter {
+class PolygonEdgeInput_edgestart_e0 extends ResthopperParameter {
 
 	public name: string = "EdgeStart";
 	public nickName: string = "E0";
@@ -59,7 +59,7 @@ class PolygonEdgeInput_EdgeStart_E0 extends ResthopperParameter {
 
 }
 
-class PolygonEdgeInput_EdgeEnd_E1 extends ResthopperParameter {
+class PolygonEdgeInput_edgeend_e1 extends ResthopperParameter {
 
 	public name: string = "EdgeEnd";
 	public nickName: string = "E1";
@@ -73,7 +73,7 @@ class PolygonEdgeInput_EdgeEnd_E1 extends ResthopperParameter {
 
 }
 
-class PolygonEdgeInput_PlanePoint_P extends ResthopperParameter {
+class PolygonEdgeInput_planepoint_p extends ResthopperParameter {
 
 	public name: string = "PlanePoint";
 	public nickName: string = "P";
@@ -87,7 +87,7 @@ class PolygonEdgeInput_PlanePoint_P extends ResthopperParameter {
 
 }
 
-class PolygonEdgeInput_Segments_S extends ResthopperParameter {
+class PolygonEdgeInput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
@@ -101,7 +101,7 @@ class PolygonEdgeInput_Segments_S extends ResthopperParameter {
 
 }
 
-class PolygonEdgeOutput_Polygon_P extends ResthopperParameter {
+class PolygonEdgeOutput_polygon_p extends ResthopperParameter {
 
 	public name: string = "Polygon";
 	public nickName: string = "P";
@@ -115,7 +115,7 @@ class PolygonEdgeOutput_Polygon_P extends ResthopperParameter {
 
 }
 
-class PolygonEdgeOutput_Centre_C extends ResthopperParameter {
+class PolygonEdgeOutput_centre_c extends ResthopperParameter {
 
 	public name: string = "Centre";
 	public nickName: string = "C";
@@ -129,7 +129,7 @@ class PolygonEdgeOutput_Centre_C extends ResthopperParameter {
 
 }
 
-class PolygonEdgeOutput_EdgeRadius_Rc extends ResthopperParameter {
+class PolygonEdgeOutput_edgeradius_rc extends ResthopperParameter {
 
 	public name: string = "EdgeRadius";
 	public nickName: string = "Rc";

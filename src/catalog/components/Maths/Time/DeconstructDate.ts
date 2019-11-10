@@ -15,37 +15,37 @@ export default class DeconstructDate extends ResthopperComponent {
 
 	public input:
 	{
-		"Date_D": DeconstructDateInput_Date_D,
+		"date_d": DeconstructDateInput_date_d,
 	}
 
 	public output:
 	{
-		"Year_Y": DeconstructDateOutput_Year_Y,
-		"Month_M": DeconstructDateOutput_Month_M,
-		"Day_D": DeconstructDateOutput_Day_D,
-		"Hour_h": DeconstructDateOutput_Hour_h,
-		"Minute_m": DeconstructDateOutput_Minute_m,
-		"Second_s": DeconstructDateOutput_Second_s,
+		"year_y": DeconstructDateOutput_year_y,
+		"month_m": DeconstructDateOutput_month_m,
+		"day_d": DeconstructDateOutput_day_d,
+		"hour_h": DeconstructDateOutput_hour_h,
+		"minute_m": DeconstructDateOutput_minute_m,
+		"second_s": DeconstructDateOutput_second_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Date_D": new DeconstructDateInput_Date_D(),
+			"date_d": new DeconstructDateInput_date_d(),
 		}
 		this.output = {
-			"Year_Y": new DeconstructDateOutput_Year_Y(),
-			"Month_M": new DeconstructDateOutput_Month_M(),
-			"Day_D": new DeconstructDateOutput_Day_D(),
-			"Hour_h": new DeconstructDateOutput_Hour_h(),
-			"Minute_m": new DeconstructDateOutput_Minute_m(),
-			"Second_s": new DeconstructDateOutput_Second_s(),
+			"year_y": new DeconstructDateOutput_year_y(),
+			"month_m": new DeconstructDateOutput_month_m(),
+			"day_d": new DeconstructDateOutput_day_d(),
+			"hour_h": new DeconstructDateOutput_hour_h(),
+			"minute_m": new DeconstructDateOutput_minute_m(),
+			"second_s": new DeconstructDateOutput_second_s(),
 		}
 	}
 
 }
 
-class DeconstructDateInput_Date_D extends ResthopperParameter {
+class DeconstructDateInput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
@@ -59,7 +59,7 @@ class DeconstructDateInput_Date_D extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Year_Y extends ResthopperParameter {
+class DeconstructDateOutput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
@@ -73,7 +73,7 @@ class DeconstructDateOutput_Year_Y extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Month_M extends ResthopperParameter {
+class DeconstructDateOutput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
@@ -87,7 +87,7 @@ class DeconstructDateOutput_Month_M extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Day_D extends ResthopperParameter {
+class DeconstructDateOutput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
@@ -101,7 +101,7 @@ class DeconstructDateOutput_Day_D extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Hour_h extends ResthopperParameter {
+class DeconstructDateOutput_hour_h extends ResthopperParameter {
 
 	public name: string = "Hour";
 	public nickName: string = "h";
@@ -115,7 +115,7 @@ class DeconstructDateOutput_Hour_h extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Minute_m extends ResthopperParameter {
+class DeconstructDateOutput_minute_m extends ResthopperParameter {
 
 	public name: string = "Minute";
 	public nickName: string = "m";
@@ -129,7 +129,7 @@ class DeconstructDateOutput_Minute_m extends ResthopperParameter {
 
 }
 
-class DeconstructDateOutput_Second_s extends ResthopperParameter {
+class DeconstructDateOutput_second_s extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "s";

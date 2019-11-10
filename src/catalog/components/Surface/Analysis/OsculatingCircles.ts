@@ -15,33 +15,33 @@ export default class OsculatingCircles extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": OsculatingCirclesInput_Surface_S,
-		"Point_uv": OsculatingCirclesInput_Point_uv,
+		"surface_s": OsculatingCirclesInput_surface_s,
+		"point_uv": OsculatingCirclesInput_point_uv,
 	}
 
 	public output:
 	{
-		"Point_P": OsculatingCirclesOutput_Point_P,
-		"Firstcircle_C1": OsculatingCirclesOutput_Firstcircle_C1,
-		"Secondcircle_C2": OsculatingCirclesOutput_Secondcircle_C2,
+		"point_p": OsculatingCirclesOutput_point_p,
+		"firstcircle_c1": OsculatingCirclesOutput_firstcircle_c1,
+		"secondcircle_c2": OsculatingCirclesOutput_secondcircle_c2,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new OsculatingCirclesInput_Surface_S(),
-			"Point_uv": new OsculatingCirclesInput_Point_uv(),
+			"surface_s": new OsculatingCirclesInput_surface_s(),
+			"point_uv": new OsculatingCirclesInput_point_uv(),
 		}
 		this.output = {
-			"Point_P": new OsculatingCirclesOutput_Point_P(),
-			"Firstcircle_C1": new OsculatingCirclesOutput_Firstcircle_C1(),
-			"Secondcircle_C2": new OsculatingCirclesOutput_Secondcircle_C2(),
+			"point_p": new OsculatingCirclesOutput_point_p(),
+			"firstcircle_c1": new OsculatingCirclesOutput_firstcircle_c1(),
+			"secondcircle_c2": new OsculatingCirclesOutput_secondcircle_c2(),
 		}
 	}
 
 }
 
-class OsculatingCirclesInput_Surface_S extends ResthopperParameter {
+class OsculatingCirclesInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class OsculatingCirclesInput_Surface_S extends ResthopperParameter {
 
 }
 
-class OsculatingCirclesInput_Point_uv extends ResthopperParameter {
+class OsculatingCirclesInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
@@ -69,7 +69,7 @@ class OsculatingCirclesInput_Point_uv extends ResthopperParameter {
 
 }
 
-class OsculatingCirclesOutput_Point_P extends ResthopperParameter {
+class OsculatingCirclesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class OsculatingCirclesOutput_Point_P extends ResthopperParameter {
 
 }
 
-class OsculatingCirclesOutput_Firstcircle_C1 extends ResthopperParameter {
+class OsculatingCirclesOutput_firstcircle_c1 extends ResthopperParameter {
 
 	public name: string = "Firstcircle";
 	public nickName: string = "C1";
@@ -97,7 +97,7 @@ class OsculatingCirclesOutput_Firstcircle_C1 extends ResthopperParameter {
 
 }
 
-class OsculatingCirclesOutput_Secondcircle_C2 extends ResthopperParameter {
+class OsculatingCirclesOutput_secondcircle_c2 extends ResthopperParameter {
 
 	public name: string = "Secondcircle";
 	public nickName: string = "C2";

@@ -15,29 +15,29 @@ export default class OffsetLooseThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": OffsetLooseThreeDInput_Curve_C,
-		"Distance_D": OffsetLooseThreeDInput_Distance_D,
+		"curve_c": OffsetLooseThreeDInput_curve_c,
+		"distance_d": OffsetLooseThreeDInput_distance_d,
 	}
 
 	public output:
 	{
-		"Curve_C": OffsetLooseThreeDOutput_Curve_C,
+		"curve_c": OffsetLooseThreeDOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new OffsetLooseThreeDInput_Curve_C(),
-			"Distance_D": new OffsetLooseThreeDInput_Distance_D(),
+			"curve_c": new OffsetLooseThreeDInput_curve_c(),
+			"distance_d": new OffsetLooseThreeDInput_distance_d(),
 		}
 		this.output = {
-			"Curve_C": new OffsetLooseThreeDOutput_Curve_C(),
+			"curve_c": new OffsetLooseThreeDOutput_curve_c(),
 		}
 	}
 
 }
 
-class OffsetLooseThreeDInput_Curve_C extends ResthopperParameter {
+class OffsetLooseThreeDInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class OffsetLooseThreeDInput_Curve_C extends ResthopperParameter {
 
 }
 
-class OffsetLooseThreeDInput_Distance_D extends ResthopperParameter {
+class OffsetLooseThreeDInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class OffsetLooseThreeDInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetLooseThreeDOutput_Curve_C extends ResthopperParameter {
+class OffsetLooseThreeDOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

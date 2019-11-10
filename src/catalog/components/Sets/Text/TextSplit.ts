@@ -15,29 +15,29 @@ export default class TextSplit extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": TextSplitInput_Text_T,
-		"Separators_C": TextSplitInput_Separators_C,
+		"text_t": TextSplitInput_text_t,
+		"separators_c": TextSplitInput_separators_c,
 	}
 
 	public output:
 	{
-		"Result_R": TextSplitOutput_Result_R,
+		"result_r": TextSplitOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new TextSplitInput_Text_T(),
-			"Separators_C": new TextSplitInput_Separators_C(),
+			"text_t": new TextSplitInput_text_t(),
+			"separators_c": new TextSplitInput_separators_c(),
 		}
 		this.output = {
-			"Result_R": new TextSplitOutput_Result_R(),
+			"result_r": new TextSplitOutput_result_r(),
 		}
 	}
 
 }
 
-class TextSplitInput_Text_T extends ResthopperParameter {
+class TextSplitInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class TextSplitInput_Text_T extends ResthopperParameter {
 
 }
 
-class TextSplitInput_Separators_C extends ResthopperParameter {
+class TextSplitInput_separators_c extends ResthopperParameter {
 
 	public name: string = "Separators";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class TextSplitInput_Separators_C extends ResthopperParameter {
 
 }
 
-class TextSplitOutput_Result_R extends ResthopperParameter {
+class TextSplitOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

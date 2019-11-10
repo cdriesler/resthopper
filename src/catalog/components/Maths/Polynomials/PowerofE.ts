@@ -15,27 +15,27 @@ export default class PowerofE extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": PowerofEInput_Value_x,
+		"value_x": PowerofEInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": PowerofEOutput_Result_y,
+		"result_y": PowerofEOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new PowerofEInput_Value_x(),
+			"value_x": new PowerofEInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new PowerofEOutput_Result_y(),
+			"result_y": new PowerofEOutput_result_y(),
 		}
 	}
 
 }
 
-class PowerofEInput_Value_x extends ResthopperParameter {
+class PowerofEInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class PowerofEInput_Value_x extends ResthopperParameter {
 
 }
 
-class PowerofEOutput_Result_y extends ResthopperParameter {
+class PowerofEOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

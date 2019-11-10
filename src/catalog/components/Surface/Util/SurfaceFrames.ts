@@ -15,33 +15,33 @@ export default class SurfaceFrames extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceFramesInput_Surface_S,
-		"UCount_U": SurfaceFramesInput_UCount_U,
-		"VCount_V": SurfaceFramesInput_VCount_V,
+		"surface_s": SurfaceFramesInput_surface_s,
+		"ucount_u": SurfaceFramesInput_ucount_u,
+		"vcount_v": SurfaceFramesInput_vcount_v,
 	}
 
 	public output:
 	{
-		"Frames_F": SurfaceFramesOutput_Frames_F,
-		"Parameters_uv": SurfaceFramesOutput_Parameters_uv,
+		"frames_f": SurfaceFramesOutput_frames_f,
+		"parameters_uv": SurfaceFramesOutput_parameters_uv,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceFramesInput_Surface_S(),
-			"UCount_U": new SurfaceFramesInput_UCount_U(),
-			"VCount_V": new SurfaceFramesInput_VCount_V(),
+			"surface_s": new SurfaceFramesInput_surface_s(),
+			"ucount_u": new SurfaceFramesInput_ucount_u(),
+			"vcount_v": new SurfaceFramesInput_vcount_v(),
 		}
 		this.output = {
-			"Frames_F": new SurfaceFramesOutput_Frames_F(),
-			"Parameters_uv": new SurfaceFramesOutput_Parameters_uv(),
+			"frames_f": new SurfaceFramesOutput_frames_f(),
+			"parameters_uv": new SurfaceFramesOutput_parameters_uv(),
 		}
 	}
 
 }
 
-class SurfaceFramesInput_Surface_S extends ResthopperParameter {
+class SurfaceFramesInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class SurfaceFramesInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceFramesInput_UCount_U extends ResthopperParameter {
+class SurfaceFramesInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
@@ -69,7 +69,7 @@ class SurfaceFramesInput_UCount_U extends ResthopperParameter {
 
 }
 
-class SurfaceFramesInput_VCount_V extends ResthopperParameter {
+class SurfaceFramesInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
@@ -83,7 +83,7 @@ class SurfaceFramesInput_VCount_V extends ResthopperParameter {
 
 }
 
-class SurfaceFramesOutput_Frames_F extends ResthopperParameter {
+class SurfaceFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
@@ -97,7 +97,7 @@ class SurfaceFramesOutput_Frames_F extends ResthopperParameter {
 
 }
 
-class SurfaceFramesOutput_Parameters_uv extends ResthopperParameter {
+class SurfaceFramesOutput_parameters_uv extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "uv";

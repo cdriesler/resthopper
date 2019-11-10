@@ -15,31 +15,31 @@ export default class Rotate extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": RotateInput_Vector_V,
-		"Axis_X": RotateInput_Axis_X,
-		"Angle_A": RotateInput_Angle_A,
+		"vector_v": RotateInput_vector_v,
+		"axis_x": RotateInput_axis_x,
+		"angle_a": RotateInput_angle_a,
 	}
 
 	public output:
 	{
-		"Vector_V": RotateOutput_Vector_V,
+		"vector_v": RotateOutput_vector_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new RotateInput_Vector_V(),
-			"Axis_X": new RotateInput_Axis_X(),
-			"Angle_A": new RotateInput_Angle_A(),
+			"vector_v": new RotateInput_vector_v(),
+			"axis_x": new RotateInput_axis_x(),
+			"angle_a": new RotateInput_angle_a(),
 		}
 		this.output = {
-			"Vector_V": new RotateOutput_Vector_V(),
+			"vector_v": new RotateOutput_vector_v(),
 		}
 	}
 
 }
 
-class RotateInput_Vector_V extends ResthopperParameter {
+class RotateInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -53,7 +53,7 @@ class RotateInput_Vector_V extends ResthopperParameter {
 
 }
 
-class RotateInput_Axis_X extends ResthopperParameter {
+class RotateInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
@@ -67,7 +67,7 @@ class RotateInput_Axis_X extends ResthopperParameter {
 
 }
 
-class RotateInput_Angle_A extends ResthopperParameter {
+class RotateInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class RotateInput_Angle_A extends ResthopperParameter {
 
 }
 
-class RotateOutput_Vector_V extends ResthopperParameter {
+class RotateOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";

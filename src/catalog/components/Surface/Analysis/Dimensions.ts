@@ -15,29 +15,29 @@ export default class Dimensions extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": DimensionsInput_Surface_S,
+		"surface_s": DimensionsInput_surface_s,
 	}
 
 	public output:
 	{
-		"Udimension_U": DimensionsOutput_Udimension_U,
-		"Vdimension_V": DimensionsOutput_Vdimension_V,
+		"udimension_u": DimensionsOutput_udimension_u,
+		"vdimension_v": DimensionsOutput_vdimension_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new DimensionsInput_Surface_S(),
+			"surface_s": new DimensionsInput_surface_s(),
 		}
 		this.output = {
-			"Udimension_U": new DimensionsOutput_Udimension_U(),
-			"Vdimension_V": new DimensionsOutput_Vdimension_V(),
+			"udimension_u": new DimensionsOutput_udimension_u(),
+			"vdimension_v": new DimensionsOutput_vdimension_v(),
 		}
 	}
 
 }
 
-class DimensionsInput_Surface_S extends ResthopperParameter {
+class DimensionsInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class DimensionsInput_Surface_S extends ResthopperParameter {
 
 }
 
-class DimensionsOutput_Udimension_U extends ResthopperParameter {
+class DimensionsOutput_udimension_u extends ResthopperParameter {
 
 	public name: string = "Udimension";
 	public nickName: string = "U";
@@ -65,7 +65,7 @@ class DimensionsOutput_Udimension_U extends ResthopperParameter {
 
 }
 
-class DimensionsOutput_Vdimension_V extends ResthopperParameter {
+class DimensionsOutput_vdimension_v extends ResthopperParameter {
 
 	public name: string = "Vdimension";
 	public nickName: string = "V";

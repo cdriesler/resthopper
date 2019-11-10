@@ -15,27 +15,27 @@ export default class SolidUnion extends ResthopperComponent {
 
 	public input:
 	{
-		"Breps_B": SolidUnionInput_Breps_B,
+		"breps_b": SolidUnionInput_breps_b,
 	}
 
 	public output:
 	{
-		"Result_R": SolidUnionOutput_Result_R,
+		"result_r": SolidUnionOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Breps_B": new SolidUnionInput_Breps_B(),
+			"breps_b": new SolidUnionInput_breps_b(),
 		}
 		this.output = {
-			"Result_R": new SolidUnionOutput_Result_R(),
+			"result_r": new SolidUnionOutput_result_r(),
 		}
 	}
 
 }
 
-class SolidUnionInput_Breps_B extends ResthopperParameter {
+class SolidUnionInput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class SolidUnionInput_Breps_B extends ResthopperParameter {
 
 }
 
-class SolidUnionOutput_Result_R extends ResthopperParameter {
+class SolidUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

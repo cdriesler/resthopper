@@ -15,35 +15,35 @@ export default class CircleThreePt extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": CircleThreePtInput_PointA_A,
-		"PointB_B": CircleThreePtInput_PointB_B,
-		"PointC_C": CircleThreePtInput_PointC_C,
+		"pointa_a": CircleThreePtInput_pointa_a,
+		"pointb_b": CircleThreePtInput_pointb_b,
+		"pointc_c": CircleThreePtInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Circle_C": CircleThreePtOutput_Circle_C,
-		"Plane_P": CircleThreePtOutput_Plane_P,
-		"Radius_R": CircleThreePtOutput_Radius_R,
+		"circle_c": CircleThreePtOutput_circle_c,
+		"plane_p": CircleThreePtOutput_plane_p,
+		"radius_r": CircleThreePtOutput_radius_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new CircleThreePtInput_PointA_A(),
-			"PointB_B": new CircleThreePtInput_PointB_B(),
-			"PointC_C": new CircleThreePtInput_PointC_C(),
+			"pointa_a": new CircleThreePtInput_pointa_a(),
+			"pointb_b": new CircleThreePtInput_pointb_b(),
+			"pointc_c": new CircleThreePtInput_pointc_c(),
 		}
 		this.output = {
-			"Circle_C": new CircleThreePtOutput_Circle_C(),
-			"Plane_P": new CircleThreePtOutput_Plane_P(),
-			"Radius_R": new CircleThreePtOutput_Radius_R(),
+			"circle_c": new CircleThreePtOutput_circle_c(),
+			"plane_p": new CircleThreePtOutput_plane_p(),
+			"radius_r": new CircleThreePtOutput_radius_r(),
 		}
 	}
 
 }
 
-class CircleThreePtInput_PointA_A extends ResthopperParameter {
+class CircleThreePtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -57,7 +57,7 @@ class CircleThreePtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class CircleThreePtInput_PointB_B extends ResthopperParameter {
+class CircleThreePtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class CircleThreePtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class CircleThreePtInput_PointC_C extends ResthopperParameter {
+class CircleThreePtInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class CircleThreePtInput_PointC_C extends ResthopperParameter {
 
 }
 
-class CircleThreePtOutput_Circle_C extends ResthopperParameter {
+class CircleThreePtOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
@@ -99,7 +99,7 @@ class CircleThreePtOutput_Circle_C extends ResthopperParameter {
 
 }
 
-class CircleThreePtOutput_Plane_P extends ResthopperParameter {
+class CircleThreePtOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -113,7 +113,7 @@ class CircleThreePtOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class CircleThreePtOutput_Radius_R extends ResthopperParameter {
+class CircleThreePtOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";

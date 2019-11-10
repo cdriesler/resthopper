@@ -15,31 +15,31 @@ export default class Entwine extends ResthopperComponent {
 
 	public input:
 	{
-		"Branch00_00": EntwineInput_Branch00_00,
-		"Branch01_01": EntwineInput_Branch01_01,
-		"Branch02_02": EntwineInput_Branch02_02,
+		"branch00_00": EntwineInput_branch00_00,
+		"branch01_01": EntwineInput_branch01_01,
+		"branch02_02": EntwineInput_branch02_02,
 	}
 
 	public output:
 	{
-		"Result_R": EntwineOutput_Result_R,
+		"result_r": EntwineOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Branch00_00": new EntwineInput_Branch00_00(),
-			"Branch01_01": new EntwineInput_Branch01_01(),
-			"Branch02_02": new EntwineInput_Branch02_02(),
+			"branch00_00": new EntwineInput_branch00_00(),
+			"branch01_01": new EntwineInput_branch01_01(),
+			"branch02_02": new EntwineInput_branch02_02(),
 		}
 		this.output = {
-			"Result_R": new EntwineOutput_Result_R(),
+			"result_r": new EntwineOutput_result_r(),
 		}
 	}
 
 }
 
-class EntwineInput_Branch00_00 extends ResthopperParameter {
+class EntwineInput_branch00_00 extends ResthopperParameter {
 
 	public name: string = "Branch00";
 	public nickName: string = "00";
@@ -53,7 +53,7 @@ class EntwineInput_Branch00_00 extends ResthopperParameter {
 
 }
 
-class EntwineInput_Branch01_01 extends ResthopperParameter {
+class EntwineInput_branch01_01 extends ResthopperParameter {
 
 	public name: string = "Branch01";
 	public nickName: string = "01";
@@ -67,7 +67,7 @@ class EntwineInput_Branch01_01 extends ResthopperParameter {
 
 }
 
-class EntwineInput_Branch02_02 extends ResthopperParameter {
+class EntwineInput_branch02_02 extends ResthopperParameter {
 
 	public name: string = "Branch02";
 	public nickName: string = "02";
@@ -81,7 +81,7 @@ class EntwineInput_Branch02_02 extends ResthopperParameter {
 
 }
 
-class EntwineOutput_Result_R extends ResthopperParameter {
+class EntwineOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

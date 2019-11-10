@@ -15,27 +15,27 @@ export default class Ungroup extends ResthopperComponent {
 
 	public input:
 	{
-		"Group_G": UngroupInput_Group_G,
+		"group_g": UngroupInput_group_g,
 	}
 
 	public output:
 	{
-		"Objects_O": UngroupOutput_Objects_O,
+		"objects_o": UngroupOutput_objects_o,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Group_G": new UngroupInput_Group_G(),
+			"group_g": new UngroupInput_group_g(),
 		}
 		this.output = {
-			"Objects_O": new UngroupOutput_Objects_O(),
+			"objects_o": new UngroupOutput_objects_o(),
 		}
 	}
 
 }
 
-class UngroupInput_Group_G extends ResthopperParameter {
+class UngroupInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -49,7 +49,7 @@ class UngroupInput_Group_G extends ResthopperParameter {
 
 }
 
-class UngroupOutput_Objects_O extends ResthopperParameter {
+class UngroupOutput_objects_o extends ResthopperParameter {
 
 	public name: string = "Objects";
 	public nickName: string = "O";

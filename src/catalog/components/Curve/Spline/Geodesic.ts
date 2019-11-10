@@ -15,29 +15,29 @@ export default class Geodesic extends ResthopperComponent {
 
 	public input:
 	{
-		"Start_S": GeodesicInput_Start_S,
-		"End_E": GeodesicInput_End_E,
+		"start_s": GeodesicInput_start_s,
+		"end_e": GeodesicInput_end_e,
 	}
 
 	public output:
 	{
-		"Geodesic_G": GeodesicOutput_Geodesic_G,
+		"geodesic_g": GeodesicOutput_geodesic_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Start_S": new GeodesicInput_Start_S(),
-			"End_E": new GeodesicInput_End_E(),
+			"start_s": new GeodesicInput_start_s(),
+			"end_e": new GeodesicInput_end_e(),
 		}
 		this.output = {
-			"Geodesic_G": new GeodesicOutput_Geodesic_G(),
+			"geodesic_g": new GeodesicOutput_geodesic_g(),
 		}
 	}
 
 }
 
-class GeodesicInput_Start_S extends ResthopperParameter {
+class GeodesicInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class GeodesicInput_Start_S extends ResthopperParameter {
 
 }
 
-class GeodesicInput_End_E extends ResthopperParameter {
+class GeodesicInput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
@@ -65,7 +65,7 @@ class GeodesicInput_End_E extends ResthopperParameter {
 
 }
 
-class GeodesicOutput_Geodesic_G extends ResthopperParameter {
+class GeodesicOutput_geodesic_g extends ResthopperParameter {
 
 	public name: string = "Geodesic";
 	public nickName: string = "G";

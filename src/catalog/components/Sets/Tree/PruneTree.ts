@@ -15,31 +15,31 @@ export default class PruneTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": PruneTreeInput_Tree_T,
-		"Minimum_N0": PruneTreeInput_Minimum_N0,
-		"Maximum_N1": PruneTreeInput_Maximum_N1,
+		"tree_t": PruneTreeInput_tree_t,
+		"minimum_n0": PruneTreeInput_minimum_n0,
+		"maximum_n1": PruneTreeInput_maximum_n1,
 	}
 
 	public output:
 	{
-		"Tree_T": PruneTreeOutput_Tree_T,
+		"tree_t": PruneTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new PruneTreeInput_Tree_T(),
-			"Minimum_N0": new PruneTreeInput_Minimum_N0(),
-			"Maximum_N1": new PruneTreeInput_Maximum_N1(),
+			"tree_t": new PruneTreeInput_tree_t(),
+			"minimum_n0": new PruneTreeInput_minimum_n0(),
+			"maximum_n1": new PruneTreeInput_maximum_n1(),
 		}
 		this.output = {
-			"Tree_T": new PruneTreeOutput_Tree_T(),
+			"tree_t": new PruneTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class PruneTreeInput_Tree_T extends ResthopperParameter {
+class PruneTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class PruneTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class PruneTreeInput_Minimum_N0 extends ResthopperParameter {
+class PruneTreeInput_minimum_n0 extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "N0";
@@ -67,7 +67,7 @@ class PruneTreeInput_Minimum_N0 extends ResthopperParameter {
 
 }
 
-class PruneTreeInput_Maximum_N1 extends ResthopperParameter {
+class PruneTreeInput_maximum_n1 extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "N1";
@@ -81,7 +81,7 @@ class PruneTreeInput_Maximum_N1 extends ResthopperParameter {
 
 }
 
-class PruneTreeOutput_Tree_T extends ResthopperParameter {
+class PruneTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

@@ -15,31 +15,31 @@ export default class SmoothPolyline extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": SmoothPolylineInput_Polyline_P,
-		"Strength_S": SmoothPolylineInput_Strength_S,
-		"Times_T": SmoothPolylineInput_Times_T,
+		"polyline_p": SmoothPolylineInput_polyline_p,
+		"strength_s": SmoothPolylineInput_strength_s,
+		"times_t": SmoothPolylineInput_times_t,
 	}
 
 	public output:
 	{
-		"Polyline_P": SmoothPolylineOutput_Polyline_P,
+		"polyline_p": SmoothPolylineOutput_polyline_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new SmoothPolylineInput_Polyline_P(),
-			"Strength_S": new SmoothPolylineInput_Strength_S(),
-			"Times_T": new SmoothPolylineInput_Times_T(),
+			"polyline_p": new SmoothPolylineInput_polyline_p(),
+			"strength_s": new SmoothPolylineInput_strength_s(),
+			"times_t": new SmoothPolylineInput_times_t(),
 		}
 		this.output = {
-			"Polyline_P": new SmoothPolylineOutput_Polyline_P(),
+			"polyline_p": new SmoothPolylineOutput_polyline_p(),
 		}
 	}
 
 }
 
-class SmoothPolylineInput_Polyline_P extends ResthopperParameter {
+class SmoothPolylineInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class SmoothPolylineInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class SmoothPolylineInput_Strength_S extends ResthopperParameter {
+class SmoothPolylineInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class SmoothPolylineInput_Strength_S extends ResthopperParameter {
 
 }
 
-class SmoothPolylineInput_Times_T extends ResthopperParameter {
+class SmoothPolylineInput_times_t extends ResthopperParameter {
 
 	public name: string = "Times";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class SmoothPolylineInput_Times_T extends ResthopperParameter {
 
 }
 
-class SmoothPolylineOutput_Polyline_P extends ResthopperParameter {
+class SmoothPolylineOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";

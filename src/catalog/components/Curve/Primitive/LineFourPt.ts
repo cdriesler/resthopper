@@ -15,31 +15,31 @@ export default class LineFourPt extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LineFourPtInput_Line_L,
-		"PointA_A": LineFourPtInput_PointA_A,
-		"PointB_B": LineFourPtInput_PointB_B,
+		"line_l": LineFourPtInput_line_l,
+		"pointa_a": LineFourPtInput_pointa_a,
+		"pointb_b": LineFourPtInput_pointb_b,
 	}
 
 	public output:
 	{
-		"Line_L": LineFourPtOutput_Line_L,
+		"line_l": LineFourPtOutput_line_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LineFourPtInput_Line_L(),
-			"PointA_A": new LineFourPtInput_PointA_A(),
-			"PointB_B": new LineFourPtInput_PointB_B(),
+			"line_l": new LineFourPtInput_line_l(),
+			"pointa_a": new LineFourPtInput_pointa_a(),
+			"pointb_b": new LineFourPtInput_pointb_b(),
 		}
 		this.output = {
-			"Line_L": new LineFourPtOutput_Line_L(),
+			"line_l": new LineFourPtOutput_line_l(),
 		}
 	}
 
 }
 
-class LineFourPtInput_Line_L extends ResthopperParameter {
+class LineFourPtInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class LineFourPtInput_Line_L extends ResthopperParameter {
 
 }
 
-class LineFourPtInput_PointA_A extends ResthopperParameter {
+class LineFourPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -67,7 +67,7 @@ class LineFourPtInput_PointA_A extends ResthopperParameter {
 
 }
 
-class LineFourPtInput_PointB_B extends ResthopperParameter {
+class LineFourPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -81,7 +81,7 @@ class LineFourPtInput_PointB_B extends ResthopperParameter {
 
 }
 
-class LineFourPtOutput_Line_L extends ResthopperParameter {
+class LineFourPtOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";

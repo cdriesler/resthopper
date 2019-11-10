@@ -15,27 +15,27 @@ export default class Reverse extends ResthopperComponent {
 
 	public input:
 	{
-		"Vector_V": ReverseInput_Vector_V,
+		"vector_v": ReverseInput_vector_v,
 	}
 
 	public output:
 	{
-		"Vector_V": ReverseOutput_Vector_V,
+		"vector_v": ReverseOutput_vector_v,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Vector_V": new ReverseInput_Vector_V(),
+			"vector_v": new ReverseInput_vector_v(),
 		}
 		this.output = {
-			"Vector_V": new ReverseOutput_Vector_V(),
+			"vector_v": new ReverseOutput_vector_v(),
 		}
 	}
 
 }
 
-class ReverseInput_Vector_V extends ResthopperParameter {
+class ReverseInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
@@ -49,7 +49,7 @@ class ReverseInput_Vector_V extends ResthopperParameter {
 
 }
 
-class ReverseOutput_Vector_V extends ResthopperParameter {
+class ReverseOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";

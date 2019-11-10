@@ -15,33 +15,33 @@ export default class ExtrudeAngled extends ResthopperComponent {
 
 	public input:
 	{
-		"Polyline_P": ExtrudeAngledInput_Polyline_P,
-		"Baseheight_Hb": ExtrudeAngledInput_Baseheight_Hb,
-		"Topheight_Ht": ExtrudeAngledInput_Topheight_Ht,
-		"Angles_A": ExtrudeAngledInput_Angles_A,
+		"polyline_p": ExtrudeAngledInput_polyline_p,
+		"baseheight_hb": ExtrudeAngledInput_baseheight_hb,
+		"topheight_ht": ExtrudeAngledInput_topheight_ht,
+		"angles_a": ExtrudeAngledInput_angles_a,
 	}
 
 	public output:
 	{
-		"Shape_S": ExtrudeAngledOutput_Shape_S,
+		"shape_s": ExtrudeAngledOutput_shape_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Polyline_P": new ExtrudeAngledInput_Polyline_P(),
-			"Baseheight_Hb": new ExtrudeAngledInput_Baseheight_Hb(),
-			"Topheight_Ht": new ExtrudeAngledInput_Topheight_Ht(),
-			"Angles_A": new ExtrudeAngledInput_Angles_A(),
+			"polyline_p": new ExtrudeAngledInput_polyline_p(),
+			"baseheight_hb": new ExtrudeAngledInput_baseheight_hb(),
+			"topheight_ht": new ExtrudeAngledInput_topheight_ht(),
+			"angles_a": new ExtrudeAngledInput_angles_a(),
 		}
 		this.output = {
-			"Shape_S": new ExtrudeAngledOutput_Shape_S(),
+			"shape_s": new ExtrudeAngledOutput_shape_s(),
 		}
 	}
 
 }
 
-class ExtrudeAngledInput_Polyline_P extends ResthopperParameter {
+class ExtrudeAngledInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class ExtrudeAngledInput_Polyline_P extends ResthopperParameter {
 
 }
 
-class ExtrudeAngledInput_Baseheight_Hb extends ResthopperParameter {
+class ExtrudeAngledInput_baseheight_hb extends ResthopperParameter {
 
 	public name: string = "Baseheight";
 	public nickName: string = "Hb";
@@ -69,7 +69,7 @@ class ExtrudeAngledInput_Baseheight_Hb extends ResthopperParameter {
 
 }
 
-class ExtrudeAngledInput_Topheight_Ht extends ResthopperParameter {
+class ExtrudeAngledInput_topheight_ht extends ResthopperParameter {
 
 	public name: string = "Topheight";
 	public nickName: string = "Ht";
@@ -83,7 +83,7 @@ class ExtrudeAngledInput_Topheight_Ht extends ResthopperParameter {
 
 }
 
-class ExtrudeAngledInput_Angles_A extends ResthopperParameter {
+class ExtrudeAngledInput_angles_a extends ResthopperParameter {
 
 	public name: string = "Angles";
 	public nickName: string = "A";
@@ -97,7 +97,7 @@ class ExtrudeAngledInput_Angles_A extends ResthopperParameter {
 
 }
 
-class ExtrudeAngledOutput_Shape_S extends ResthopperParameter {
+class ExtrudeAngledOutput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";

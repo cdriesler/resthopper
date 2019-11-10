@@ -15,31 +15,31 @@ export default class Cylinder extends ResthopperComponent {
 
 	public input:
 	{
-		"Base_B": CylinderInput_Base_B,
-		"Radius_R": CylinderInput_Radius_R,
-		"Length_L": CylinderInput_Length_L,
+		"base_b": CylinderInput_base_b,
+		"radius_r": CylinderInput_radius_r,
+		"length_l": CylinderInput_length_l,
 	}
 
 	public output:
 	{
-		"Cylinder_C": CylinderOutput_Cylinder_C,
+		"cylinder_c": CylinderOutput_cylinder_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Base_B": new CylinderInput_Base_B(),
-			"Radius_R": new CylinderInput_Radius_R(),
-			"Length_L": new CylinderInput_Length_L(),
+			"base_b": new CylinderInput_base_b(),
+			"radius_r": new CylinderInput_radius_r(),
+			"length_l": new CylinderInput_length_l(),
 		}
 		this.output = {
-			"Cylinder_C": new CylinderOutput_Cylinder_C(),
+			"cylinder_c": new CylinderOutput_cylinder_c(),
 		}
 	}
 
 }
 
-class CylinderInput_Base_B extends ResthopperParameter {
+class CylinderInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class CylinderInput_Base_B extends ResthopperParameter {
 
 }
 
-class CylinderInput_Radius_R extends ResthopperParameter {
+class CylinderInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -67,7 +67,7 @@ class CylinderInput_Radius_R extends ResthopperParameter {
 
 }
 
-class CylinderInput_Length_L extends ResthopperParameter {
+class CylinderInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -81,7 +81,7 @@ class CylinderInput_Length_L extends ResthopperParameter {
 
 }
 
-class CylinderOutput_Cylinder_C extends ResthopperParameter {
+class CylinderOutput_cylinder_c extends ResthopperParameter {
 
 	public name: string = "Cylinder";
 	public nickName: string = "C";

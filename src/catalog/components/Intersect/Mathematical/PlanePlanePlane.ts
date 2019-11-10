@@ -15,37 +15,37 @@ export default class PlanePlanePlane extends ResthopperComponent {
 
 	public input:
 	{
-		"PlaneA_A": PlanePlanePlaneInput_PlaneA_A,
-		"PlaneB_B": PlanePlanePlaneInput_PlaneB_B,
-		"PlaneC_C": PlanePlanePlaneInput_PlaneC_C,
+		"planea_a": PlanePlanePlaneInput_planea_a,
+		"planeb_b": PlanePlanePlaneInput_planeb_b,
+		"planec_c": PlanePlanePlaneInput_planec_c,
 	}
 
 	public output:
 	{
-		"Point_Pt": PlanePlanePlaneOutput_Point_Pt,
-		"LineAB_AB": PlanePlanePlaneOutput_LineAB_AB,
-		"LineAC_AC": PlanePlanePlaneOutput_LineAC_AC,
-		"LineBC_BC": PlanePlanePlaneOutput_LineBC_BC,
+		"point_pt": PlanePlanePlaneOutput_point_pt,
+		"lineab_ab": PlanePlanePlaneOutput_lineab_ab,
+		"lineac_ac": PlanePlanePlaneOutput_lineac_ac,
+		"linebc_bc": PlanePlanePlaneOutput_linebc_bc,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PlaneA_A": new PlanePlanePlaneInput_PlaneA_A(),
-			"PlaneB_B": new PlanePlanePlaneInput_PlaneB_B(),
-			"PlaneC_C": new PlanePlanePlaneInput_PlaneC_C(),
+			"planea_a": new PlanePlanePlaneInput_planea_a(),
+			"planeb_b": new PlanePlanePlaneInput_planeb_b(),
+			"planec_c": new PlanePlanePlaneInput_planec_c(),
 		}
 		this.output = {
-			"Point_Pt": new PlanePlanePlaneOutput_Point_Pt(),
-			"LineAB_AB": new PlanePlanePlaneOutput_LineAB_AB(),
-			"LineAC_AC": new PlanePlanePlaneOutput_LineAC_AC(),
-			"LineBC_BC": new PlanePlanePlaneOutput_LineBC_BC(),
+			"point_pt": new PlanePlanePlaneOutput_point_pt(),
+			"lineab_ab": new PlanePlanePlaneOutput_lineab_ab(),
+			"lineac_ac": new PlanePlanePlaneOutput_lineac_ac(),
+			"linebc_bc": new PlanePlanePlaneOutput_linebc_bc(),
 		}
 	}
 
 }
 
-class PlanePlanePlaneInput_PlaneA_A extends ResthopperParameter {
+class PlanePlanePlaneInput_planea_a extends ResthopperParameter {
 
 	public name: string = "PlaneA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class PlanePlanePlaneInput_PlaneA_A extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneInput_PlaneB_B extends ResthopperParameter {
+class PlanePlanePlaneInput_planeb_b extends ResthopperParameter {
 
 	public name: string = "PlaneB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class PlanePlanePlaneInput_PlaneB_B extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneInput_PlaneC_C extends ResthopperParameter {
+class PlanePlanePlaneInput_planec_c extends ResthopperParameter {
 
 	public name: string = "PlaneC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class PlanePlanePlaneInput_PlaneC_C extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneOutput_Point_Pt extends ResthopperParameter {
+class PlanePlanePlaneOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
@@ -101,7 +101,7 @@ class PlanePlanePlaneOutput_Point_Pt extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneOutput_LineAB_AB extends ResthopperParameter {
+class PlanePlanePlaneOutput_lineab_ab extends ResthopperParameter {
 
 	public name: string = "LineAB";
 	public nickName: string = "AB";
@@ -115,7 +115,7 @@ class PlanePlanePlaneOutput_LineAB_AB extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneOutput_LineAC_AC extends ResthopperParameter {
+class PlanePlanePlaneOutput_lineac_ac extends ResthopperParameter {
 
 	public name: string = "LineAC";
 	public nickName: string = "AC";
@@ -129,7 +129,7 @@ class PlanePlanePlaneOutput_LineAC_AC extends ResthopperParameter {
 
 }
 
-class PlanePlanePlaneOutput_LineBC_BC extends ResthopperParameter {
+class PlanePlanePlaneOutput_linebc_bc extends ResthopperParameter {
 
 	public name: string = "LineBC";
 	public nickName: string = "BC";

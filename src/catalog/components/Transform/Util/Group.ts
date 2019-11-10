@@ -15,27 +15,27 @@ export default class Group extends ResthopperComponent {
 
 	public input:
 	{
-		"Objects_O": GroupInput_Objects_O,
+		"objects_o": GroupInput_objects_o,
 	}
 
 	public output:
 	{
-		"Group_G": GroupOutput_Group_G,
+		"group_g": GroupOutput_group_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Objects_O": new GroupInput_Objects_O(),
+			"objects_o": new GroupInput_objects_o(),
 		}
 		this.output = {
-			"Group_G": new GroupOutput_Group_G(),
+			"group_g": new GroupOutput_group_g(),
 		}
 	}
 
 }
 
-class GroupInput_Objects_O extends ResthopperParameter {
+class GroupInput_objects_o extends ResthopperParameter {
 
 	public name: string = "Objects";
 	public nickName: string = "O";
@@ -49,7 +49,7 @@ class GroupInput_Objects_O extends ResthopperParameter {
 
 }
 
-class GroupOutput_Group_G extends ResthopperParameter {
+class GroupOutput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";

@@ -15,29 +15,29 @@ export default class Minimum extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": MinimumInput_A_A,
-		"B_B": MinimumInput_B_B,
+		"a_a": MinimumInput_a_a,
+		"b_b": MinimumInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": MinimumOutput_Result_R,
+		"result_r": MinimumOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new MinimumInput_A_A(),
-			"B_B": new MinimumInput_B_B(),
+			"a_a": new MinimumInput_a_a(),
+			"b_b": new MinimumInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new MinimumOutput_Result_R(),
+			"result_r": new MinimumOutput_result_r(),
 		}
 	}
 
 }
 
-class MinimumInput_A_A extends ResthopperParameter {
+class MinimumInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class MinimumInput_A_A extends ResthopperParameter {
 
 }
 
-class MinimumInput_B_B extends ResthopperParameter {
+class MinimumInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class MinimumInput_B_B extends ResthopperParameter {
 
 }
 
-class MinimumOutput_Result_R extends ResthopperParameter {
+class MinimumOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

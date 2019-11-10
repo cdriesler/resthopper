@@ -15,35 +15,35 @@ export default class QuadTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": QuadTreeInput_Points_P,
-		"Plane_Pl": QuadTreeInput_Plane_Pl,
-		"Square_S": QuadTreeInput_Square_S,
-		"Group_G": QuadTreeInput_Group_G,
+		"points_p": QuadTreeInput_points_p,
+		"plane_pl": QuadTreeInput_plane_pl,
+		"square_s": QuadTreeInput_square_s,
+		"group_g": QuadTreeInput_group_g,
 	}
 
 	public output:
 	{
-		"Quads_Q": QuadTreeOutput_Quads_Q,
-		"Points_P": QuadTreeOutput_Points_P,
+		"quads_q": QuadTreeOutput_quads_q,
+		"points_p": QuadTreeOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new QuadTreeInput_Points_P(),
-			"Plane_Pl": new QuadTreeInput_Plane_Pl(),
-			"Square_S": new QuadTreeInput_Square_S(),
-			"Group_G": new QuadTreeInput_Group_G(),
+			"points_p": new QuadTreeInput_points_p(),
+			"plane_pl": new QuadTreeInput_plane_pl(),
+			"square_s": new QuadTreeInput_square_s(),
+			"group_g": new QuadTreeInput_group_g(),
 		}
 		this.output = {
-			"Quads_Q": new QuadTreeOutput_Quads_Q(),
-			"Points_P": new QuadTreeOutput_Points_P(),
+			"quads_q": new QuadTreeOutput_quads_q(),
+			"points_p": new QuadTreeOutput_points_p(),
 		}
 	}
 
 }
 
-class QuadTreeInput_Points_P extends ResthopperParameter {
+class QuadTreeInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class QuadTreeInput_Points_P extends ResthopperParameter {
 
 }
 
-class QuadTreeInput_Plane_Pl extends ResthopperParameter {
+class QuadTreeInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -71,7 +71,7 @@ class QuadTreeInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class QuadTreeInput_Square_S extends ResthopperParameter {
+class QuadTreeInput_square_s extends ResthopperParameter {
 
 	public name: string = "Square";
 	public nickName: string = "S";
@@ -85,7 +85,7 @@ class QuadTreeInput_Square_S extends ResthopperParameter {
 
 }
 
-class QuadTreeInput_Group_G extends ResthopperParameter {
+class QuadTreeInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -99,7 +99,7 @@ class QuadTreeInput_Group_G extends ResthopperParameter {
 
 }
 
-class QuadTreeOutput_Quads_Q extends ResthopperParameter {
+class QuadTreeOutput_quads_q extends ResthopperParameter {
 
 	public name: string = "Quads";
 	public nickName: string = "Q";
@@ -113,7 +113,7 @@ class QuadTreeOutput_Quads_Q extends ResthopperParameter {
 
 }
 
-class QuadTreeOutput_Points_P extends ResthopperParameter {
+class QuadTreeOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

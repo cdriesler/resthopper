@@ -15,33 +15,33 @@ export default class CurveLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveLineInput_Curve_C,
-		"Line_L": CurveLineInput_Line_L,
+		"curve_c": CurveLineInput_curve_c,
+		"line_l": CurveLineInput_line_l,
 	}
 
 	public output:
 	{
-		"Points_P": CurveLineOutput_Points_P,
-		"Params_t": CurveLineOutput_Params_t,
-		"Count_N": CurveLineOutput_Count_N,
+		"points_p": CurveLineOutput_points_p,
+		"params_t": CurveLineOutput_params_t,
+		"count_n": CurveLineOutput_count_n,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveLineInput_Curve_C(),
-			"Line_L": new CurveLineInput_Line_L(),
+			"curve_c": new CurveLineInput_curve_c(),
+			"line_l": new CurveLineInput_line_l(),
 		}
 		this.output = {
-			"Points_P": new CurveLineOutput_Points_P(),
-			"Params_t": new CurveLineOutput_Params_t(),
-			"Count_N": new CurveLineOutput_Count_N(),
+			"points_p": new CurveLineOutput_points_p(),
+			"params_t": new CurveLineOutput_params_t(),
+			"count_n": new CurveLineOutput_count_n(),
 		}
 	}
 
 }
 
-class CurveLineInput_Curve_C extends ResthopperParameter {
+class CurveLineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class CurveLineInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveLineInput_Line_L extends ResthopperParameter {
+class CurveLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -69,7 +69,7 @@ class CurveLineInput_Line_L extends ResthopperParameter {
 
 }
 
-class CurveLineOutput_Points_P extends ResthopperParameter {
+class CurveLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CurveLineOutput_Points_P extends ResthopperParameter {
 
 }
 
-class CurveLineOutput_Params_t extends ResthopperParameter {
+class CurveLineOutput_params_t extends ResthopperParameter {
 
 	public name: string = "Params";
 	public nickName: string = "t";
@@ -97,7 +97,7 @@ class CurveLineOutput_Params_t extends ResthopperParameter {
 
 }
 
-class CurveLineOutput_Count_N extends ResthopperParameter {
+class CurveLineOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";

@@ -15,29 +15,29 @@ export default class LinePt extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LinePtInput_Line_L,
-		"Point_P": LinePtInput_Point_P,
+		"line_l": LinePtInput_line_l,
+		"point_p": LinePtInput_point_p,
 	}
 
 	public output:
 	{
-		"Plane_Pl": LinePtOutput_Plane_Pl,
+		"plane_pl": LinePtOutput_plane_pl,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LinePtInput_Line_L(),
-			"Point_P": new LinePtInput_Point_P(),
+			"line_l": new LinePtInput_line_l(),
+			"point_p": new LinePtInput_point_p(),
 		}
 		this.output = {
-			"Plane_Pl": new LinePtOutput_Plane_Pl(),
+			"plane_pl": new LinePtOutput_plane_pl(),
 		}
 	}
 
 }
 
-class LinePtInput_Line_L extends ResthopperParameter {
+class LinePtInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -51,7 +51,7 @@ class LinePtInput_Line_L extends ResthopperParameter {
 
 }
 
-class LinePtInput_Point_P extends ResthopperParameter {
+class LinePtInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class LinePtInput_Point_P extends ResthopperParameter {
 
 }
 
-class LinePtOutput_Plane_Pl extends ResthopperParameter {
+class LinePtOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";

@@ -15,33 +15,33 @@ export default class OcTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": OcTreeInput_Points_P,
-		"Square_S": OcTreeInput_Square_S,
-		"Group_G": OcTreeInput_Group_G,
+		"points_p": OcTreeInput_points_p,
+		"square_s": OcTreeInput_square_s,
+		"group_g": OcTreeInput_group_g,
 	}
 
 	public output:
 	{
-		"Boxes_B": OcTreeOutput_Boxes_B,
-		"Points_P": OcTreeOutput_Points_P,
+		"boxes_b": OcTreeOutput_boxes_b,
+		"points_p": OcTreeOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new OcTreeInput_Points_P(),
-			"Square_S": new OcTreeInput_Square_S(),
-			"Group_G": new OcTreeInput_Group_G(),
+			"points_p": new OcTreeInput_points_p(),
+			"square_s": new OcTreeInput_square_s(),
+			"group_g": new OcTreeInput_group_g(),
 		}
 		this.output = {
-			"Boxes_B": new OcTreeOutput_Boxes_B(),
-			"Points_P": new OcTreeOutput_Points_P(),
+			"boxes_b": new OcTreeOutput_boxes_b(),
+			"points_p": new OcTreeOutput_points_p(),
 		}
 	}
 
 }
 
-class OcTreeInput_Points_P extends ResthopperParameter {
+class OcTreeInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class OcTreeInput_Points_P extends ResthopperParameter {
 
 }
 
-class OcTreeInput_Square_S extends ResthopperParameter {
+class OcTreeInput_square_s extends ResthopperParameter {
 
 	public name: string = "Square";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class OcTreeInput_Square_S extends ResthopperParameter {
 
 }
 
-class OcTreeInput_Group_G extends ResthopperParameter {
+class OcTreeInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
@@ -83,7 +83,7 @@ class OcTreeInput_Group_G extends ResthopperParameter {
 
 }
 
-class OcTreeOutput_Boxes_B extends ResthopperParameter {
+class OcTreeOutput_boxes_b extends ResthopperParameter {
 
 	public name: string = "Boxes";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class OcTreeOutput_Boxes_B extends ResthopperParameter {
 
 }
 
-class OcTreeOutput_Points_P extends ResthopperParameter {
+class OcTreeOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

@@ -15,29 +15,29 @@ export default class ControlPointLoft extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": ControlPointLoftInput_Curves_C,
-		"Degree_D": ControlPointLoftInput_Degree_D,
+		"curves_c": ControlPointLoftInput_curves_c,
+		"degree_d": ControlPointLoftInput_degree_d,
 	}
 
 	public output:
 	{
-		"Surface_S": ControlPointLoftOutput_Surface_S,
+		"surface_s": ControlPointLoftOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new ControlPointLoftInput_Curves_C(),
-			"Degree_D": new ControlPointLoftInput_Degree_D(),
+			"curves_c": new ControlPointLoftInput_curves_c(),
+			"degree_d": new ControlPointLoftInput_degree_d(),
 		}
 		this.output = {
-			"Surface_S": new ControlPointLoftOutput_Surface_S(),
+			"surface_s": new ControlPointLoftOutput_surface_s(),
 		}
 	}
 
 }
 
-class ControlPointLoftInput_Curves_C extends ResthopperParameter {
+class ControlPointLoftInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class ControlPointLoftInput_Curves_C extends ResthopperParameter {
 
 }
 
-class ControlPointLoftInput_Degree_D extends ResthopperParameter {
+class ControlPointLoftInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
@@ -65,7 +65,7 @@ class ControlPointLoftInput_Degree_D extends ResthopperParameter {
 
 }
 
-class ControlPointLoftOutput_Surface_S extends ResthopperParameter {
+class ControlPointLoftOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

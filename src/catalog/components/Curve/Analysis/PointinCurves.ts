@@ -15,33 +15,33 @@ export default class PointinCurves extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": PointinCurvesInput_Point_P,
-		"Curves_C": PointinCurvesInput_Curves_C,
+		"point_p": PointinCurvesInput_point_p,
+		"curves_c": PointinCurvesInput_curves_c,
 	}
 
 	public output:
 	{
-		"Relationship_R": PointinCurvesOutput_Relationship_R,
-		"Index_I": PointinCurvesOutput_Index_I,
-		"Point_P": PointinCurvesOutput_Point_P,
+		"relationship_r": PointinCurvesOutput_relationship_r,
+		"index_i": PointinCurvesOutput_index_i,
+		"point_p": PointinCurvesOutput_point_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new PointinCurvesInput_Point_P(),
-			"Curves_C": new PointinCurvesInput_Curves_C(),
+			"point_p": new PointinCurvesInput_point_p(),
+			"curves_c": new PointinCurvesInput_curves_c(),
 		}
 		this.output = {
-			"Relationship_R": new PointinCurvesOutput_Relationship_R(),
-			"Index_I": new PointinCurvesOutput_Index_I(),
-			"Point_P": new PointinCurvesOutput_Point_P(),
+			"relationship_r": new PointinCurvesOutput_relationship_r(),
+			"index_i": new PointinCurvesOutput_index_i(),
+			"point_p": new PointinCurvesOutput_point_p(),
 		}
 	}
 
 }
 
-class PointinCurvesInput_Point_P extends ResthopperParameter {
+class PointinCurvesInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class PointinCurvesInput_Point_P extends ResthopperParameter {
 
 }
 
-class PointinCurvesInput_Curves_C extends ResthopperParameter {
+class PointinCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -69,7 +69,7 @@ class PointinCurvesInput_Curves_C extends ResthopperParameter {
 
 }
 
-class PointinCurvesOutput_Relationship_R extends ResthopperParameter {
+class PointinCurvesOutput_relationship_r extends ResthopperParameter {
 
 	public name: string = "Relationship";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class PointinCurvesOutput_Relationship_R extends ResthopperParameter {
 
 }
 
-class PointinCurvesOutput_Index_I extends ResthopperParameter {
+class PointinCurvesOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
@@ -97,7 +97,7 @@ class PointinCurvesOutput_Index_I extends ResthopperParameter {
 
 }
 
-class PointinCurvesOutput_Point_P extends ResthopperParameter {
+class PointinCurvesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";

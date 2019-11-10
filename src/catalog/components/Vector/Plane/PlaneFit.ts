@@ -15,29 +15,29 @@ export default class PlaneFit extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": PlaneFitInput_Points_P,
+		"points_p": PlaneFitInput_points_p,
 	}
 
 	public output:
 	{
-		"Plane_Pl": PlaneFitOutput_Plane_Pl,
-		"Deviation_dx": PlaneFitOutput_Deviation_dx,
+		"plane_pl": PlaneFitOutput_plane_pl,
+		"deviation_dx": PlaneFitOutput_deviation_dx,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new PlaneFitInput_Points_P(),
+			"points_p": new PlaneFitInput_points_p(),
 		}
 		this.output = {
-			"Plane_Pl": new PlaneFitOutput_Plane_Pl(),
-			"Deviation_dx": new PlaneFitOutput_Deviation_dx(),
+			"plane_pl": new PlaneFitOutput_plane_pl(),
+			"deviation_dx": new PlaneFitOutput_deviation_dx(),
 		}
 	}
 
 }
 
-class PlaneFitInput_Points_P extends ResthopperParameter {
+class PlaneFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class PlaneFitInput_Points_P extends ResthopperParameter {
 
 }
 
-class PlaneFitOutput_Plane_Pl extends ResthopperParameter {
+class PlaneFitOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -65,7 +65,7 @@ class PlaneFitOutput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class PlaneFitOutput_Deviation_dx extends ResthopperParameter {
+class PlaneFitOutput_deviation_dx extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "dx";

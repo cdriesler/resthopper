@@ -15,35 +15,35 @@ export default class VolumeMoments extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": VolumeMomentsInput_Geometry_G,
+		"geometry_g": VolumeMomentsInput_geometry_g,
 	}
 
 	public output:
 	{
-		"Volume_V": VolumeMomentsOutput_Volume_V,
-		"Centroid_C": VolumeMomentsOutput_Centroid_C,
-		"Inertiaerror_I": VolumeMomentsOutput_Inertiaerror_I,
-		"Secondaryerror_S": VolumeMomentsOutput_Secondaryerror_S,
-		"Gyration_G": VolumeMomentsOutput_Gyration_G,
+		"volume_v": VolumeMomentsOutput_volume_v,
+		"centroid_c": VolumeMomentsOutput_centroid_c,
+		"inertiaerror_i": VolumeMomentsOutput_inertiaerror_i,
+		"secondaryerror_s": VolumeMomentsOutput_secondaryerror_s,
+		"gyration_g": VolumeMomentsOutput_gyration_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new VolumeMomentsInput_Geometry_G(),
+			"geometry_g": new VolumeMomentsInput_geometry_g(),
 		}
 		this.output = {
-			"Volume_V": new VolumeMomentsOutput_Volume_V(),
-			"Centroid_C": new VolumeMomentsOutput_Centroid_C(),
-			"Inertiaerror_I": new VolumeMomentsOutput_Inertiaerror_I(),
-			"Secondaryerror_S": new VolumeMomentsOutput_Secondaryerror_S(),
-			"Gyration_G": new VolumeMomentsOutput_Gyration_G(),
+			"volume_v": new VolumeMomentsOutput_volume_v(),
+			"centroid_c": new VolumeMomentsOutput_centroid_c(),
+			"inertiaerror_i": new VolumeMomentsOutput_inertiaerror_i(),
+			"secondaryerror_s": new VolumeMomentsOutput_secondaryerror_s(),
+			"gyration_g": new VolumeMomentsOutput_gyration_g(),
 		}
 	}
 
 }
 
-class VolumeMomentsInput_Geometry_G extends ResthopperParameter {
+class VolumeMomentsInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class VolumeMomentsInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class VolumeMomentsOutput_Volume_V extends ResthopperParameter {
+class VolumeMomentsOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
@@ -71,7 +71,7 @@ class VolumeMomentsOutput_Volume_V extends ResthopperParameter {
 
 }
 
-class VolumeMomentsOutput_Centroid_C extends ResthopperParameter {
+class VolumeMomentsOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class VolumeMomentsOutput_Centroid_C extends ResthopperParameter {
 
 }
 
-class VolumeMomentsOutput_Inertiaerror_I extends ResthopperParameter {
+class VolumeMomentsOutput_inertiaerror_i extends ResthopperParameter {
 
 	public name: string = "Inertiaerror";
 	public nickName: string = "I";
@@ -99,7 +99,7 @@ class VolumeMomentsOutput_Inertiaerror_I extends ResthopperParameter {
 
 }
 
-class VolumeMomentsOutput_Secondaryerror_S extends ResthopperParameter {
+class VolumeMomentsOutput_secondaryerror_s extends ResthopperParameter {
 
 	public name: string = "Secondaryerror";
 	public nickName: string = "S";
@@ -113,7 +113,7 @@ class VolumeMomentsOutput_Secondaryerror_S extends ResthopperParameter {
 
 }
 
-class VolumeMomentsOutput_Gyration_G extends ResthopperParameter {
+class VolumeMomentsOutput_gyration_g extends ResthopperParameter {
 
 	public name: string = "Gyration";
 	public nickName: string = "G";

@@ -15,29 +15,29 @@ export default class SubDVertices extends ResthopperComponent {
 
 	public input:
 	{
-		"SubD_S": SubDVerticesInput_SubD_S,
+		"subd_s": SubDVerticesInput_subd_s,
 	}
 
 	public output:
 	{
-		"Point_P": SubDVerticesOutput_Point_P,
-		"Id_I": SubDVerticesOutput_Id_I,
+		"point_p": SubDVerticesOutput_point_p,
+		"id_i": SubDVerticesOutput_id_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SubD_S": new SubDVerticesInput_SubD_S(),
+			"subd_s": new SubDVerticesInput_subd_s(),
 		}
 		this.output = {
-			"Point_P": new SubDVerticesOutput_Point_P(),
-			"Id_I": new SubDVerticesOutput_Id_I(),
+			"point_p": new SubDVerticesOutput_point_p(),
+			"id_i": new SubDVerticesOutput_id_i(),
 		}
 	}
 
 }
 
-class SubDVerticesInput_SubD_S extends ResthopperParameter {
+class SubDVerticesInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
@@ -51,7 +51,7 @@ class SubDVerticesInput_SubD_S extends ResthopperParameter {
 
 }
 
-class SubDVerticesOutput_Point_P extends ResthopperParameter {
+class SubDVerticesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class SubDVerticesOutput_Point_P extends ResthopperParameter {
 
 }
 
-class SubDVerticesOutput_Id_I extends ResthopperParameter {
+class SubDVerticesOutput_id_i extends ResthopperParameter {
 
 	public name: string = "Id";
 	public nickName: string = "I";

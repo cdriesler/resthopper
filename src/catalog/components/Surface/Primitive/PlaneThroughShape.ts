@@ -15,31 +15,31 @@ export default class PlaneThroughShape extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": PlaneThroughShapeInput_Plane_P,
-		"Shape_S": PlaneThroughShapeInput_Shape_S,
-		"Inflate_I": PlaneThroughShapeInput_Inflate_I,
+		"plane_p": PlaneThroughShapeInput_plane_p,
+		"shape_s": PlaneThroughShapeInput_shape_s,
+		"inflate_i": PlaneThroughShapeInput_inflate_i,
 	}
 
 	public output:
 	{
-		"Surface_S": PlaneThroughShapeOutput_Surface_S,
+		"surface_s": PlaneThroughShapeOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new PlaneThroughShapeInput_Plane_P(),
-			"Shape_S": new PlaneThroughShapeInput_Shape_S(),
-			"Inflate_I": new PlaneThroughShapeInput_Inflate_I(),
+			"plane_p": new PlaneThroughShapeInput_plane_p(),
+			"shape_s": new PlaneThroughShapeInput_shape_s(),
+			"inflate_i": new PlaneThroughShapeInput_inflate_i(),
 		}
 		this.output = {
-			"Surface_S": new PlaneThroughShapeOutput_Surface_S(),
+			"surface_s": new PlaneThroughShapeOutput_surface_s(),
 		}
 	}
 
 }
 
-class PlaneThroughShapeInput_Plane_P extends ResthopperParameter {
+class PlaneThroughShapeInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class PlaneThroughShapeInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PlaneThroughShapeInput_Shape_S extends ResthopperParameter {
+class PlaneThroughShapeInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class PlaneThroughShapeInput_Shape_S extends ResthopperParameter {
 
 }
 
-class PlaneThroughShapeInput_Inflate_I extends ResthopperParameter {
+class PlaneThroughShapeInput_inflate_i extends ResthopperParameter {
 
 	public name: string = "Inflate";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class PlaneThroughShapeInput_Inflate_I extends ResthopperParameter {
 
 }
 
-class PlaneThroughShapeOutput_Surface_S extends ResthopperParameter {
+class PlaneThroughShapeOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

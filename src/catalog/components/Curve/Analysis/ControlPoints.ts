@@ -15,31 +15,31 @@ export default class ControlPoints extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ControlPointsInput_Curve_C,
+		"curve_c": ControlPointsInput_curve_c,
 	}
 
 	public output:
 	{
-		"Points_P": ControlPointsOutput_Points_P,
-		"Weights_W": ControlPointsOutput_Weights_W,
-		"Knots_K": ControlPointsOutput_Knots_K,
+		"points_p": ControlPointsOutput_points_p,
+		"weights_w": ControlPointsOutput_weights_w,
+		"knots_k": ControlPointsOutput_knots_k,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ControlPointsInput_Curve_C(),
+			"curve_c": new ControlPointsInput_curve_c(),
 		}
 		this.output = {
-			"Points_P": new ControlPointsOutput_Points_P(),
-			"Weights_W": new ControlPointsOutput_Weights_W(),
-			"Knots_K": new ControlPointsOutput_Knots_K(),
+			"points_p": new ControlPointsOutput_points_p(),
+			"weights_w": new ControlPointsOutput_weights_w(),
+			"knots_k": new ControlPointsOutput_knots_k(),
 		}
 	}
 
 }
 
-class ControlPointsInput_Curve_C extends ResthopperParameter {
+class ControlPointsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class ControlPointsInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ControlPointsOutput_Points_P extends ResthopperParameter {
+class ControlPointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class ControlPointsOutput_Points_P extends ResthopperParameter {
 
 }
 
-class ControlPointsOutput_Weights_W extends ResthopperParameter {
+class ControlPointsOutput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
@@ -81,7 +81,7 @@ class ControlPointsOutput_Weights_W extends ResthopperParameter {
 
 }
 
-class ControlPointsOutput_Knots_K extends ResthopperParameter {
+class ControlPointsOutput_knots_k extends ResthopperParameter {
 
 	public name: string = "Knots";
 	public nickName: string = "K";

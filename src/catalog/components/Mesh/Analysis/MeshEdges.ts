@@ -15,31 +15,31 @@ export default class MeshEdges extends ResthopperComponent {
 
 	public input:
 	{
-		"Mesh_M": MeshEdgesInput_Mesh_M,
+		"mesh_m": MeshEdgesInput_mesh_m,
 	}
 
 	public output:
 	{
-		"NakedEdges_E1": MeshEdgesOutput_NakedEdges_E1,
-		"InteriorEdges_E2": MeshEdgesOutput_InteriorEdges_E2,
-		"NonManifoldEdges_E3": MeshEdgesOutput_NonManifoldEdges_E3,
+		"nakededges_e1": MeshEdgesOutput_nakededges_e1,
+		"interioredges_e2": MeshEdgesOutput_interioredges_e2,
+		"nonmanifoldedges_e3": MeshEdgesOutput_nonmanifoldedges_e3,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Mesh_M": new MeshEdgesInput_Mesh_M(),
+			"mesh_m": new MeshEdgesInput_mesh_m(),
 		}
 		this.output = {
-			"NakedEdges_E1": new MeshEdgesOutput_NakedEdges_E1(),
-			"InteriorEdges_E2": new MeshEdgesOutput_InteriorEdges_E2(),
-			"NonManifoldEdges_E3": new MeshEdgesOutput_NonManifoldEdges_E3(),
+			"nakededges_e1": new MeshEdgesOutput_nakededges_e1(),
+			"interioredges_e2": new MeshEdgesOutput_interioredges_e2(),
+			"nonmanifoldedges_e3": new MeshEdgesOutput_nonmanifoldedges_e3(),
 		}
 	}
 
 }
 
-class MeshEdgesInput_Mesh_M extends ResthopperParameter {
+class MeshEdgesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
@@ -53,7 +53,7 @@ class MeshEdgesInput_Mesh_M extends ResthopperParameter {
 
 }
 
-class MeshEdgesOutput_NakedEdges_E1 extends ResthopperParameter {
+class MeshEdgesOutput_nakededges_e1 extends ResthopperParameter {
 
 	public name: string = "NakedEdges";
 	public nickName: string = "E1";
@@ -67,7 +67,7 @@ class MeshEdgesOutput_NakedEdges_E1 extends ResthopperParameter {
 
 }
 
-class MeshEdgesOutput_InteriorEdges_E2 extends ResthopperParameter {
+class MeshEdgesOutput_interioredges_e2 extends ResthopperParameter {
 
 	public name: string = "InteriorEdges";
 	public nickName: string = "E2";
@@ -81,7 +81,7 @@ class MeshEdgesOutput_InteriorEdges_E2 extends ResthopperParameter {
 
 }
 
-class MeshEdgesOutput_NonManifoldEdges_E3 extends ResthopperParameter {
+class MeshEdgesOutput_nonmanifoldedges_e3 extends ResthopperParameter {
 
 	public name: string = "NonManifoldEdges";
 	public nickName: string = "E3";

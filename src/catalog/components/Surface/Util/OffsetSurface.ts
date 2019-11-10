@@ -15,31 +15,31 @@ export default class OffsetSurface extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": OffsetSurfaceInput_Surface_S,
-		"Distance_D": OffsetSurfaceInput_Distance_D,
-		"Retrim_T": OffsetSurfaceInput_Retrim_T,
+		"surface_s": OffsetSurfaceInput_surface_s,
+		"distance_d": OffsetSurfaceInput_distance_d,
+		"retrim_t": OffsetSurfaceInput_retrim_t,
 	}
 
 	public output:
 	{
-		"Surface_S": OffsetSurfaceOutput_Surface_S,
+		"surface_s": OffsetSurfaceOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new OffsetSurfaceInput_Surface_S(),
-			"Distance_D": new OffsetSurfaceInput_Distance_D(),
-			"Retrim_T": new OffsetSurfaceInput_Retrim_T(),
+			"surface_s": new OffsetSurfaceInput_surface_s(),
+			"distance_d": new OffsetSurfaceInput_distance_d(),
+			"retrim_t": new OffsetSurfaceInput_retrim_t(),
 		}
 		this.output = {
-			"Surface_S": new OffsetSurfaceOutput_Surface_S(),
+			"surface_s": new OffsetSurfaceOutput_surface_s(),
 		}
 	}
 
 }
 
-class OffsetSurfaceInput_Surface_S extends ResthopperParameter {
+class OffsetSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class OffsetSurfaceInput_Surface_S extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceInput_Distance_D extends ResthopperParameter {
+class OffsetSurfaceInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetSurfaceInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceInput_Retrim_T extends ResthopperParameter {
+class OffsetSurfaceInput_retrim_t extends ResthopperParameter {
 
 	public name: string = "Retrim";
 	public nickName: string = "T";
@@ -81,7 +81,7 @@ class OffsetSurfaceInput_Retrim_T extends ResthopperParameter {
 
 }
 
-class OffsetSurfaceOutput_Surface_S extends ResthopperParameter {
+class OffsetSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

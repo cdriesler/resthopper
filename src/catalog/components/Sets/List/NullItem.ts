@@ -15,31 +15,31 @@ export default class NullItem extends ResthopperComponent {
 
 	public input:
 	{
-		"Item_I": NullItemInput_Item_I,
+		"item_i": NullItemInput_item_i,
 	}
 
 	public output:
 	{
-		"NullFlags_N": NullItemOutput_NullFlags_N,
-		"InvalidFlags_X": NullItemOutput_InvalidFlags_X,
-		"Description_D": NullItemOutput_Description_D,
+		"nullflags_n": NullItemOutput_nullflags_n,
+		"invalidflags_x": NullItemOutput_invalidflags_x,
+		"description_d": NullItemOutput_description_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Item_I": new NullItemInput_Item_I(),
+			"item_i": new NullItemInput_item_i(),
 		}
 		this.output = {
-			"NullFlags_N": new NullItemOutput_NullFlags_N(),
-			"InvalidFlags_X": new NullItemOutput_InvalidFlags_X(),
-			"Description_D": new NullItemOutput_Description_D(),
+			"nullflags_n": new NullItemOutput_nullflags_n(),
+			"invalidflags_x": new NullItemOutput_invalidflags_x(),
+			"description_d": new NullItemOutput_description_d(),
 		}
 	}
 
 }
 
-class NullItemInput_Item_I extends ResthopperParameter {
+class NullItemInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
@@ -53,7 +53,7 @@ class NullItemInput_Item_I extends ResthopperParameter {
 
 }
 
-class NullItemOutput_NullFlags_N extends ResthopperParameter {
+class NullItemOutput_nullflags_n extends ResthopperParameter {
 
 	public name: string = "NullFlags";
 	public nickName: string = "N";
@@ -67,7 +67,7 @@ class NullItemOutput_NullFlags_N extends ResthopperParameter {
 
 }
 
-class NullItemOutput_InvalidFlags_X extends ResthopperParameter {
+class NullItemOutput_invalidflags_x extends ResthopperParameter {
 
 	public name: string = "InvalidFlags";
 	public nickName: string = "X";
@@ -81,7 +81,7 @@ class NullItemOutput_InvalidFlags_X extends ResthopperParameter {
 
 }
 
-class NullItemOutput_Description_D extends ResthopperParameter {
+class NullItemOutput_description_d extends ResthopperParameter {
 
 	public name: string = "Description";
 	public nickName: string = "D";

@@ -15,31 +15,31 @@ export default class MatchCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": MatchCurveInput_CurveA_A,
-		"CurveB_B": MatchCurveInput_CurveB_B,
-		"Continuity_C": MatchCurveInput_Continuity_C,
+		"curvea_a": MatchCurveInput_curvea_a,
+		"curveb_b": MatchCurveInput_curveb_b,
+		"continuity_c": MatchCurveInput_continuity_c,
 	}
 
 	public output:
 	{
-		"Match_M": MatchCurveOutput_Match_M,
+		"match_m": MatchCurveOutput_match_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new MatchCurveInput_CurveA_A(),
-			"CurveB_B": new MatchCurveInput_CurveB_B(),
-			"Continuity_C": new MatchCurveInput_Continuity_C(),
+			"curvea_a": new MatchCurveInput_curvea_a(),
+			"curveb_b": new MatchCurveInput_curveb_b(),
+			"continuity_c": new MatchCurveInput_continuity_c(),
 		}
 		this.output = {
-			"Match_M": new MatchCurveOutput_Match_M(),
+			"match_m": new MatchCurveOutput_match_m(),
 		}
 	}
 
 }
 
-class MatchCurveInput_CurveA_A extends ResthopperParameter {
+class MatchCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class MatchCurveInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class MatchCurveInput_CurveB_B extends ResthopperParameter {
+class MatchCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class MatchCurveInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class MatchCurveInput_Continuity_C extends ResthopperParameter {
+class MatchCurveInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MatchCurveInput_Continuity_C extends ResthopperParameter {
 
 }
 
-class MatchCurveOutput_Match_M extends ResthopperParameter {
+class MatchCurveOutput_match_m extends ResthopperParameter {
 
 	public name: string = "Match";
 	public nickName: string = "M";

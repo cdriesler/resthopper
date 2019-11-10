@@ -15,31 +15,31 @@ export default class EdgesfromLinearity extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": EdgesfromLinearityInput_Brep_B,
-		"Maximum_L": EdgesfromLinearityInput_Maximum_L,
+		"brep_b": EdgesfromLinearityInput_brep_b,
+		"maximum_l": EdgesfromLinearityInput_maximum_l,
 	}
 
 	public output:
 	{
-		"Edges_E": EdgesfromLinearityOutput_Edges_E,
-		"Indices_I": EdgesfromLinearityOutput_Indices_I,
+		"edges_e": EdgesfromLinearityOutput_edges_e,
+		"indices_i": EdgesfromLinearityOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new EdgesfromLinearityInput_Brep_B(),
-			"Maximum_L": new EdgesfromLinearityInput_Maximum_L(),
+			"brep_b": new EdgesfromLinearityInput_brep_b(),
+			"maximum_l": new EdgesfromLinearityInput_maximum_l(),
 		}
 		this.output = {
-			"Edges_E": new EdgesfromLinearityOutput_Edges_E(),
-			"Indices_I": new EdgesfromLinearityOutput_Indices_I(),
+			"edges_e": new EdgesfromLinearityOutput_edges_e(),
+			"indices_i": new EdgesfromLinearityOutput_indices_i(),
 		}
 	}
 
 }
 
-class EdgesfromLinearityInput_Brep_B extends ResthopperParameter {
+class EdgesfromLinearityInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class EdgesfromLinearityInput_Brep_B extends ResthopperParameter {
 
 }
 
-class EdgesfromLinearityInput_Maximum_L extends ResthopperParameter {
+class EdgesfromLinearityInput_maximum_l extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class EdgesfromLinearityInput_Maximum_L extends ResthopperParameter {
 
 }
 
-class EdgesfromLinearityOutput_Edges_E extends ResthopperParameter {
+class EdgesfromLinearityOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class EdgesfromLinearityOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class EdgesfromLinearityOutput_Indices_I extends ResthopperParameter {
+class EdgesfromLinearityOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

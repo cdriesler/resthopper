@@ -21,8 +21,8 @@ export default class DotNETVBScriptLEGACY extends ResthopperComponent {
 
 	public output:
 	{
-		"Output_out": DotNETVBScriptLEGACYOutput_Output_out,
-		"A_A": DotNETVBScriptLEGACYOutput_A_A,
+		"output_out": DotNETVBScriptLEGACYOutput_output_out,
+		"a_a": DotNETVBScriptLEGACYOutput_a_a,
 	}
 
 	constructor() {
@@ -32,8 +32,8 @@ export default class DotNETVBScriptLEGACY extends ResthopperComponent {
 			"y_y": new DotNETVBScriptLEGACYInput_y_y(),
 		}
 		this.output = {
-			"Output_out": new DotNETVBScriptLEGACYOutput_Output_out(),
-			"A_A": new DotNETVBScriptLEGACYOutput_A_A(),
+			"output_out": new DotNETVBScriptLEGACYOutput_output_out(),
+			"a_a": new DotNETVBScriptLEGACYOutput_a_a(),
 		}
 	}
 
@@ -67,7 +67,7 @@ class DotNETVBScriptLEGACYInput_y_y extends ResthopperParameter {
 
 }
 
-class DotNETVBScriptLEGACYOutput_Output_out extends ResthopperParameter {
+class DotNETVBScriptLEGACYOutput_output_out extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "out";
@@ -81,7 +81,7 @@ class DotNETVBScriptLEGACYOutput_Output_out extends ResthopperParameter {
 
 }
 
-class DotNETVBScriptLEGACYOutput_A_A extends ResthopperParameter {
+class DotNETVBScriptLEGACYOutput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";

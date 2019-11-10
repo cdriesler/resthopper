@@ -15,33 +15,33 @@ export default class EvaluateCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": EvaluateCurveInput_Curve_C,
-		"Parameter_t": EvaluateCurveInput_Parameter_t,
+		"curve_c": EvaluateCurveInput_curve_c,
+		"parameter_t": EvaluateCurveInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Point_P": EvaluateCurveOutput_Point_P,
-		"Tangent_T": EvaluateCurveOutput_Tangent_T,
-		"Angle_A": EvaluateCurveOutput_Angle_A,
+		"point_p": EvaluateCurveOutput_point_p,
+		"tangent_t": EvaluateCurveOutput_tangent_t,
+		"angle_a": EvaluateCurveOutput_angle_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new EvaluateCurveInput_Curve_C(),
-			"Parameter_t": new EvaluateCurveInput_Parameter_t(),
+			"curve_c": new EvaluateCurveInput_curve_c(),
+			"parameter_t": new EvaluateCurveInput_parameter_t(),
 		}
 		this.output = {
-			"Point_P": new EvaluateCurveOutput_Point_P(),
-			"Tangent_T": new EvaluateCurveOutput_Tangent_T(),
-			"Angle_A": new EvaluateCurveOutput_Angle_A(),
+			"point_p": new EvaluateCurveOutput_point_p(),
+			"tangent_t": new EvaluateCurveOutput_tangent_t(),
+			"angle_a": new EvaluateCurveOutput_angle_a(),
 		}
 	}
 
 }
 
-class EvaluateCurveInput_Curve_C extends ResthopperParameter {
+class EvaluateCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class EvaluateCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class EvaluateCurveInput_Parameter_t extends ResthopperParameter {
+class EvaluateCurveInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -69,7 +69,7 @@ class EvaluateCurveInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class EvaluateCurveOutput_Point_P extends ResthopperParameter {
+class EvaluateCurveOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class EvaluateCurveOutput_Point_P extends ResthopperParameter {
 
 }
 
-class EvaluateCurveOutput_Tangent_T extends ResthopperParameter {
+class EvaluateCurveOutput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
@@ -97,7 +97,7 @@ class EvaluateCurveOutput_Tangent_T extends ResthopperParameter {
 
 }
 
-class EvaluateCurveOutput_Angle_A extends ResthopperParameter {
+class EvaluateCurveOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";

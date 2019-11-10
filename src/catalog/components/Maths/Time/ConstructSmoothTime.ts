@@ -15,33 +15,33 @@ export default class ConstructSmoothTime extends ResthopperComponent {
 
 	public input:
 	{
-		"Days_D": ConstructSmoothTimeInput_Days_D,
-		"Hours_H": ConstructSmoothTimeInput_Hours_H,
-		"Minutes_M": ConstructSmoothTimeInput_Minutes_M,
-		"Seconds_S": ConstructSmoothTimeInput_Seconds_S,
+		"days_d": ConstructSmoothTimeInput_days_d,
+		"hours_h": ConstructSmoothTimeInput_hours_h,
+		"minutes_m": ConstructSmoothTimeInput_minutes_m,
+		"seconds_s": ConstructSmoothTimeInput_seconds_s,
 	}
 
 	public output:
 	{
-		"Time_T": ConstructSmoothTimeOutput_Time_T,
+		"time_t": ConstructSmoothTimeOutput_time_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Days_D": new ConstructSmoothTimeInput_Days_D(),
-			"Hours_H": new ConstructSmoothTimeInput_Hours_H(),
-			"Minutes_M": new ConstructSmoothTimeInput_Minutes_M(),
-			"Seconds_S": new ConstructSmoothTimeInput_Seconds_S(),
+			"days_d": new ConstructSmoothTimeInput_days_d(),
+			"hours_h": new ConstructSmoothTimeInput_hours_h(),
+			"minutes_m": new ConstructSmoothTimeInput_minutes_m(),
+			"seconds_s": new ConstructSmoothTimeInput_seconds_s(),
 		}
 		this.output = {
-			"Time_T": new ConstructSmoothTimeOutput_Time_T(),
+			"time_t": new ConstructSmoothTimeOutput_time_t(),
 		}
 	}
 
 }
 
-class ConstructSmoothTimeInput_Days_D extends ResthopperParameter {
+class ConstructSmoothTimeInput_days_d extends ResthopperParameter {
 
 	public name: string = "Days";
 	public nickName: string = "D";
@@ -55,7 +55,7 @@ class ConstructSmoothTimeInput_Days_D extends ResthopperParameter {
 
 }
 
-class ConstructSmoothTimeInput_Hours_H extends ResthopperParameter {
+class ConstructSmoothTimeInput_hours_h extends ResthopperParameter {
 
 	public name: string = "Hours";
 	public nickName: string = "H";
@@ -69,7 +69,7 @@ class ConstructSmoothTimeInput_Hours_H extends ResthopperParameter {
 
 }
 
-class ConstructSmoothTimeInput_Minutes_M extends ResthopperParameter {
+class ConstructSmoothTimeInput_minutes_m extends ResthopperParameter {
 
 	public name: string = "Minutes";
 	public nickName: string = "M";
@@ -83,7 +83,7 @@ class ConstructSmoothTimeInput_Minutes_M extends ResthopperParameter {
 
 }
 
-class ConstructSmoothTimeInput_Seconds_S extends ResthopperParameter {
+class ConstructSmoothTimeInput_seconds_s extends ResthopperParameter {
 
 	public name: string = "Seconds";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class ConstructSmoothTimeInput_Seconds_S extends ResthopperParameter {
 
 }
 
-class ConstructSmoothTimeOutput_Time_T extends ResthopperParameter {
+class ConstructSmoothTimeOutput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";

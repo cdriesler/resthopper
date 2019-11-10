@@ -15,37 +15,37 @@ export default class Incentre extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": IncentreInput_PointA_A,
-		"PointB_B": IncentreInput_PointB_B,
-		"PointC_C": IncentreInput_PointC_C,
+		"pointa_a": IncentreInput_pointa_a,
+		"pointb_b": IncentreInput_pointb_b,
+		"pointc_c": IncentreInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Incentre_I": IncentreOutput_Incentre_I,
-		"BisectorA_A": IncentreOutput_BisectorA_A,
-		"BisectorB_B": IncentreOutput_BisectorB_B,
-		"BisectorC_C": IncentreOutput_BisectorC_C,
+		"incentre_i": IncentreOutput_incentre_i,
+		"bisectora_a": IncentreOutput_bisectora_a,
+		"bisectorb_b": IncentreOutput_bisectorb_b,
+		"bisectorc_c": IncentreOutput_bisectorc_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new IncentreInput_PointA_A(),
-			"PointB_B": new IncentreInput_PointB_B(),
-			"PointC_C": new IncentreInput_PointC_C(),
+			"pointa_a": new IncentreInput_pointa_a(),
+			"pointb_b": new IncentreInput_pointb_b(),
+			"pointc_c": new IncentreInput_pointc_c(),
 		}
 		this.output = {
-			"Incentre_I": new IncentreOutput_Incentre_I(),
-			"BisectorA_A": new IncentreOutput_BisectorA_A(),
-			"BisectorB_B": new IncentreOutput_BisectorB_B(),
-			"BisectorC_C": new IncentreOutput_BisectorC_C(),
+			"incentre_i": new IncentreOutput_incentre_i(),
+			"bisectora_a": new IncentreOutput_bisectora_a(),
+			"bisectorb_b": new IncentreOutput_bisectorb_b(),
+			"bisectorc_c": new IncentreOutput_bisectorc_c(),
 		}
 	}
 
 }
 
-class IncentreInput_PointA_A extends ResthopperParameter {
+class IncentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class IncentreInput_PointA_A extends ResthopperParameter {
 
 }
 
-class IncentreInput_PointB_B extends ResthopperParameter {
+class IncentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class IncentreInput_PointB_B extends ResthopperParameter {
 
 }
 
-class IncentreInput_PointC_C extends ResthopperParameter {
+class IncentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class IncentreInput_PointC_C extends ResthopperParameter {
 
 }
 
-class IncentreOutput_Incentre_I extends ResthopperParameter {
+class IncentreOutput_incentre_i extends ResthopperParameter {
 
 	public name: string = "Incentre";
 	public nickName: string = "I";
@@ -101,7 +101,7 @@ class IncentreOutput_Incentre_I extends ResthopperParameter {
 
 }
 
-class IncentreOutput_BisectorA_A extends ResthopperParameter {
+class IncentreOutput_bisectora_a extends ResthopperParameter {
 
 	public name: string = "BisectorA";
 	public nickName: string = "A";
@@ -115,7 +115,7 @@ class IncentreOutput_BisectorA_A extends ResthopperParameter {
 
 }
 
-class IncentreOutput_BisectorB_B extends ResthopperParameter {
+class IncentreOutput_bisectorb_b extends ResthopperParameter {
 
 	public name: string = "BisectorB";
 	public nickName: string = "B";
@@ -129,7 +129,7 @@ class IncentreOutput_BisectorB_B extends ResthopperParameter {
 
 }
 
-class IncentreOutput_BisectorC_C extends ResthopperParameter {
+class IncentreOutput_bisectorc_c extends ResthopperParameter {
 
 	public name: string = "BisectorC";
 	public nickName: string = "C";

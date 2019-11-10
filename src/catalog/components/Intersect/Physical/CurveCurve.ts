@@ -15,33 +15,33 @@ export default class CurveCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": CurveCurveInput_CurveA_A,
-		"CurveB_B": CurveCurveInput_CurveB_B,
+		"curvea_a": CurveCurveInput_curvea_a,
+		"curveb_b": CurveCurveInput_curveb_b,
 	}
 
 	public output:
 	{
-		"Points_P": CurveCurveOutput_Points_P,
-		"ParamsA_tA": CurveCurveOutput_ParamsA_tA,
-		"ParamsB_tB": CurveCurveOutput_ParamsB_tB,
+		"points_p": CurveCurveOutput_points_p,
+		"paramsa_ta": CurveCurveOutput_paramsa_ta,
+		"paramsb_tb": CurveCurveOutput_paramsb_tb,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new CurveCurveInput_CurveA_A(),
-			"CurveB_B": new CurveCurveInput_CurveB_B(),
+			"curvea_a": new CurveCurveInput_curvea_a(),
+			"curveb_b": new CurveCurveInput_curveb_b(),
 		}
 		this.output = {
-			"Points_P": new CurveCurveOutput_Points_P(),
-			"ParamsA_tA": new CurveCurveOutput_ParamsA_tA(),
-			"ParamsB_tB": new CurveCurveOutput_ParamsB_tB(),
+			"points_p": new CurveCurveOutput_points_p(),
+			"paramsa_ta": new CurveCurveOutput_paramsa_ta(),
+			"paramsb_tb": new CurveCurveOutput_paramsb_tb(),
 		}
 	}
 
 }
 
-class CurveCurveInput_CurveA_A extends ResthopperParameter {
+class CurveCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class CurveCurveInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class CurveCurveInput_CurveB_B extends ResthopperParameter {
+class CurveCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class CurveCurveInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class CurveCurveOutput_Points_P extends ResthopperParameter {
+class CurveCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CurveCurveOutput_Points_P extends ResthopperParameter {
 
 }
 
-class CurveCurveOutput_ParamsA_tA extends ResthopperParameter {
+class CurveCurveOutput_paramsa_ta extends ResthopperParameter {
 
 	public name: string = "ParamsA";
 	public nickName: string = "tA";
@@ -97,7 +97,7 @@ class CurveCurveOutput_ParamsA_tA extends ResthopperParameter {
 
 }
 
-class CurveCurveOutput_ParamsB_tB extends ResthopperParameter {
+class CurveCurveOutput_paramsb_tb extends ResthopperParameter {
 
 	public name: string = "ParamsB";
 	public nickName: string = "tB";

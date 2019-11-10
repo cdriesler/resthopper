@@ -15,31 +15,31 @@ export default class FlipCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": FlipCurveInput_Curve_C,
-		"Guide_G": FlipCurveInput_Guide_G,
+		"curve_c": FlipCurveInput_curve_c,
+		"guide_g": FlipCurveInput_guide_g,
 	}
 
 	public output:
 	{
-		"Curve_C": FlipCurveOutput_Curve_C,
-		"Flag_F": FlipCurveOutput_Flag_F,
+		"curve_c": FlipCurveOutput_curve_c,
+		"flag_f": FlipCurveOutput_flag_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new FlipCurveInput_Curve_C(),
-			"Guide_G": new FlipCurveInput_Guide_G(),
+			"curve_c": new FlipCurveInput_curve_c(),
+			"guide_g": new FlipCurveInput_guide_g(),
 		}
 		this.output = {
-			"Curve_C": new FlipCurveOutput_Curve_C(),
-			"Flag_F": new FlipCurveOutput_Flag_F(),
+			"curve_c": new FlipCurveOutput_curve_c(),
+			"flag_f": new FlipCurveOutput_flag_f(),
 		}
 	}
 
 }
 
-class FlipCurveInput_Curve_C extends ResthopperParameter {
+class FlipCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class FlipCurveInput_Curve_C extends ResthopperParameter {
 
 }
 
-class FlipCurveInput_Guide_G extends ResthopperParameter {
+class FlipCurveInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class FlipCurveInput_Guide_G extends ResthopperParameter {
 
 }
 
-class FlipCurveOutput_Curve_C extends ResthopperParameter {
+class FlipCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class FlipCurveOutput_Curve_C extends ResthopperParameter {
 
 }
 
-class FlipCurveOutput_Flag_F extends ResthopperParameter {
+class FlipCurveOutput_flag_f extends ResthopperParameter {
 
 	public name: string = "Flag";
 	public nickName: string = "F";

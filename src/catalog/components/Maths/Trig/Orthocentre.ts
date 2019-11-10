@@ -15,37 +15,37 @@ export default class Orthocentre extends ResthopperComponent {
 
 	public input:
 	{
-		"PointA_A": OrthocentreInput_PointA_A,
-		"PointB_B": OrthocentreInput_PointB_B,
-		"PointC_C": OrthocentreInput_PointC_C,
+		"pointa_a": OrthocentreInput_pointa_a,
+		"pointb_b": OrthocentreInput_pointb_b,
+		"pointc_c": OrthocentreInput_pointc_c,
 	}
 
 	public output:
 	{
-		"Orthocentre_C": OrthocentreOutput_Orthocentre_C,
-		"AltitudeAB_AB": OrthocentreOutput_AltitudeAB_AB,
-		"AltitudeBC_BC": OrthocentreOutput_AltitudeBC_BC,
-		"AltitudeCA_CA": OrthocentreOutput_AltitudeCA_CA,
+		"orthocentre_c": OrthocentreOutput_orthocentre_c,
+		"altitudeab_ab": OrthocentreOutput_altitudeab_ab,
+		"altitudebc_bc": OrthocentreOutput_altitudebc_bc,
+		"altitudeca_ca": OrthocentreOutput_altitudeca_ca,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"PointA_A": new OrthocentreInput_PointA_A(),
-			"PointB_B": new OrthocentreInput_PointB_B(),
-			"PointC_C": new OrthocentreInput_PointC_C(),
+			"pointa_a": new OrthocentreInput_pointa_a(),
+			"pointb_b": new OrthocentreInput_pointb_b(),
+			"pointc_c": new OrthocentreInput_pointc_c(),
 		}
 		this.output = {
-			"Orthocentre_C": new OrthocentreOutput_Orthocentre_C(),
-			"AltitudeAB_AB": new OrthocentreOutput_AltitudeAB_AB(),
-			"AltitudeBC_BC": new OrthocentreOutput_AltitudeBC_BC(),
-			"AltitudeCA_CA": new OrthocentreOutput_AltitudeCA_CA(),
+			"orthocentre_c": new OrthocentreOutput_orthocentre_c(),
+			"altitudeab_ab": new OrthocentreOutput_altitudeab_ab(),
+			"altitudebc_bc": new OrthocentreOutput_altitudebc_bc(),
+			"altitudeca_ca": new OrthocentreOutput_altitudeca_ca(),
 		}
 	}
 
 }
 
-class OrthocentreInput_PointA_A extends ResthopperParameter {
+class OrthocentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -59,7 +59,7 @@ class OrthocentreInput_PointA_A extends ResthopperParameter {
 
 }
 
-class OrthocentreInput_PointB_B extends ResthopperParameter {
+class OrthocentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -73,7 +73,7 @@ class OrthocentreInput_PointB_B extends ResthopperParameter {
 
 }
 
-class OrthocentreInput_PointC_C extends ResthopperParameter {
+class OrthocentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
@@ -87,7 +87,7 @@ class OrthocentreInput_PointC_C extends ResthopperParameter {
 
 }
 
-class OrthocentreOutput_Orthocentre_C extends ResthopperParameter {
+class OrthocentreOutput_orthocentre_c extends ResthopperParameter {
 
 	public name: string = "Orthocentre";
 	public nickName: string = "C";
@@ -101,7 +101,7 @@ class OrthocentreOutput_Orthocentre_C extends ResthopperParameter {
 
 }
 
-class OrthocentreOutput_AltitudeAB_AB extends ResthopperParameter {
+class OrthocentreOutput_altitudeab_ab extends ResthopperParameter {
 
 	public name: string = "AltitudeAB";
 	public nickName: string = "AB";
@@ -115,7 +115,7 @@ class OrthocentreOutput_AltitudeAB_AB extends ResthopperParameter {
 
 }
 
-class OrthocentreOutput_AltitudeBC_BC extends ResthopperParameter {
+class OrthocentreOutput_altitudebc_bc extends ResthopperParameter {
 
 	public name: string = "AltitudeBC";
 	public nickName: string = "BC";
@@ -129,7 +129,7 @@ class OrthocentreOutput_AltitudeBC_BC extends ResthopperParameter {
 
 }
 
-class OrthocentreOutput_AltitudeCA_CA extends ResthopperParameter {
+class OrthocentreOutput_altitudeca_ca extends ResthopperParameter {
 
 	public name: string = "AltitudeCA";
 	public nickName: string = "CA";

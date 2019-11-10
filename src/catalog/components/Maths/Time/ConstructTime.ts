@@ -15,31 +15,31 @@ export default class ConstructTime extends ResthopperComponent {
 
 	public input:
 	{
-		"Hour_H": ConstructTimeInput_Hour_H,
-		"Minute_M": ConstructTimeInput_Minute_M,
-		"Second_S": ConstructTimeInput_Second_S,
+		"hour_h": ConstructTimeInput_hour_h,
+		"minute_m": ConstructTimeInput_minute_m,
+		"second_s": ConstructTimeInput_second_s,
 	}
 
 	public output:
 	{
-		"Time_T": ConstructTimeOutput_Time_T,
+		"time_t": ConstructTimeOutput_time_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Hour_H": new ConstructTimeInput_Hour_H(),
-			"Minute_M": new ConstructTimeInput_Minute_M(),
-			"Second_S": new ConstructTimeInput_Second_S(),
+			"hour_h": new ConstructTimeInput_hour_h(),
+			"minute_m": new ConstructTimeInput_minute_m(),
+			"second_s": new ConstructTimeInput_second_s(),
 		}
 		this.output = {
-			"Time_T": new ConstructTimeOutput_Time_T(),
+			"time_t": new ConstructTimeOutput_time_t(),
 		}
 	}
 
 }
 
-class ConstructTimeInput_Hour_H extends ResthopperParameter {
+class ConstructTimeInput_hour_h extends ResthopperParameter {
 
 	public name: string = "Hour";
 	public nickName: string = "H";
@@ -53,7 +53,7 @@ class ConstructTimeInput_Hour_H extends ResthopperParameter {
 
 }
 
-class ConstructTimeInput_Minute_M extends ResthopperParameter {
+class ConstructTimeInput_minute_m extends ResthopperParameter {
 
 	public name: string = "Minute";
 	public nickName: string = "M";
@@ -67,7 +67,7 @@ class ConstructTimeInput_Minute_M extends ResthopperParameter {
 
 }
 
-class ConstructTimeInput_Second_S extends ResthopperParameter {
+class ConstructTimeInput_second_s extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class ConstructTimeInput_Second_S extends ResthopperParameter {
 
 }
 
-class ConstructTimeOutput_Time_T extends ResthopperParameter {
+class ConstructTimeOutput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";

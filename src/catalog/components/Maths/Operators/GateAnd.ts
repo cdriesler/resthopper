@@ -15,29 +15,29 @@ export default class GateAnd extends ResthopperComponent {
 
 	public input:
 	{
-		"A_A": GateAndInput_A_A,
-		"B_B": GateAndInput_B_B,
+		"a_a": GateAndInput_a_a,
+		"b_b": GateAndInput_b_b,
 	}
 
 	public output:
 	{
-		"Result_R": GateAndOutput_Result_R,
+		"result_r": GateAndOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"A_A": new GateAndInput_A_A(),
-			"B_B": new GateAndInput_B_B(),
+			"a_a": new GateAndInput_a_a(),
+			"b_b": new GateAndInput_b_b(),
 		}
 		this.output = {
-			"Result_R": new GateAndOutput_Result_R(),
+			"result_r": new GateAndOutput_result_r(),
 		}
 	}
 
 }
 
-class GateAndInput_A_A extends ResthopperParameter {
+class GateAndInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class GateAndInput_A_A extends ResthopperParameter {
 
 }
 
-class GateAndInput_B_B extends ResthopperParameter {
+class GateAndInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class GateAndInput_B_B extends ResthopperParameter {
 
 }
 
-class GateAndOutput_Result_R extends ResthopperParameter {
+class GateAndOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

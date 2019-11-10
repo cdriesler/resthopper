@@ -15,29 +15,29 @@ export default class JoinCurves extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": JoinCurvesInput_Curves_C,
-		"Preserve_P": JoinCurvesInput_Preserve_P,
+		"curves_c": JoinCurvesInput_curves_c,
+		"preserve_p": JoinCurvesInput_preserve_p,
 	}
 
 	public output:
 	{
-		"Curves_C": JoinCurvesOutput_Curves_C,
+		"curves_c": JoinCurvesOutput_curves_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new JoinCurvesInput_Curves_C(),
-			"Preserve_P": new JoinCurvesInput_Preserve_P(),
+			"curves_c": new JoinCurvesInput_curves_c(),
+			"preserve_p": new JoinCurvesInput_preserve_p(),
 		}
 		this.output = {
-			"Curves_C": new JoinCurvesOutput_Curves_C(),
+			"curves_c": new JoinCurvesOutput_curves_c(),
 		}
 	}
 
 }
 
-class JoinCurvesInput_Curves_C extends ResthopperParameter {
+class JoinCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class JoinCurvesInput_Curves_C extends ResthopperParameter {
 
 }
 
-class JoinCurvesInput_Preserve_P extends ResthopperParameter {
+class JoinCurvesInput_preserve_p extends ResthopperParameter {
 
 	public name: string = "Preserve";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class JoinCurvesInput_Preserve_P extends ResthopperParameter {
 
 }
 
-class JoinCurvesOutput_Curves_C extends ResthopperParameter {
+class JoinCurvesOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";

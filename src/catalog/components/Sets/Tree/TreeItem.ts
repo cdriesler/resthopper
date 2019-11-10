@@ -15,33 +15,33 @@ export default class TreeItem extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": TreeItemInput_Tree_T,
-		"Path_P": TreeItemInput_Path_P,
-		"Index_i": TreeItemInput_Index_i,
-		"Wrap_W": TreeItemInput_Wrap_W,
+		"tree_t": TreeItemInput_tree_t,
+		"path_p": TreeItemInput_path_p,
+		"index_i": TreeItemInput_index_i,
+		"wrap_w": TreeItemInput_wrap_w,
 	}
 
 	public output:
 	{
-		"Element_E": TreeItemOutput_Element_E,
+		"element_e": TreeItemOutput_element_e,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new TreeItemInput_Tree_T(),
-			"Path_P": new TreeItemInput_Path_P(),
-			"Index_i": new TreeItemInput_Index_i(),
-			"Wrap_W": new TreeItemInput_Wrap_W(),
+			"tree_t": new TreeItemInput_tree_t(),
+			"path_p": new TreeItemInput_path_p(),
+			"index_i": new TreeItemInput_index_i(),
+			"wrap_w": new TreeItemInput_wrap_w(),
 		}
 		this.output = {
-			"Element_E": new TreeItemOutput_Element_E(),
+			"element_e": new TreeItemOutput_element_e(),
 		}
 	}
 
 }
 
-class TreeItemInput_Tree_T extends ResthopperParameter {
+class TreeItemInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -55,7 +55,7 @@ class TreeItemInput_Tree_T extends ResthopperParameter {
 
 }
 
-class TreeItemInput_Path_P extends ResthopperParameter {
+class TreeItemInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class TreeItemInput_Path_P extends ResthopperParameter {
 
 }
 
-class TreeItemInput_Index_i extends ResthopperParameter {
+class TreeItemInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
@@ -83,7 +83,7 @@ class TreeItemInput_Index_i extends ResthopperParameter {
 
 }
 
-class TreeItemInput_Wrap_W extends ResthopperParameter {
+class TreeItemInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -97,7 +97,7 @@ class TreeItemInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class TreeItemOutput_Element_E extends ResthopperParameter {
+class TreeItemOutput_element_e extends ResthopperParameter {
 
 	public name: string = "Element";
 	public nickName: string = "E";

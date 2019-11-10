@@ -15,27 +15,27 @@ export default class Secant extends ResthopperComponent {
 
 	public input:
 	{
-		"Value_x": SecantInput_Value_x,
+		"value_x": SecantInput_value_x,
 	}
 
 	public output:
 	{
-		"Result_y": SecantOutput_Result_y,
+		"result_y": SecantOutput_result_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Value_x": new SecantInput_Value_x(),
+			"value_x": new SecantInput_value_x(),
 		}
 		this.output = {
-			"Result_y": new SecantOutput_Result_y(),
+			"result_y": new SecantOutput_result_y(),
 		}
 	}
 
 }
 
-class SecantInput_Value_x extends ResthopperParameter {
+class SecantInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
@@ -49,7 +49,7 @@ class SecantInput_Value_x extends ResthopperParameter {
 
 }
 
-class SecantOutput_Result_y extends ResthopperParameter {
+class SecantOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";

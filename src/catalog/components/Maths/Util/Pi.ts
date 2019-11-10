@@ -15,27 +15,27 @@ export default class Pi extends ResthopperComponent {
 
 	public input:
 	{
-		"Factor_N": PiInput_Factor_N,
+		"factor_n": PiInput_factor_n,
 	}
 
 	public output:
 	{
-		"Output_y": PiOutput_Output_y,
+		"output_y": PiOutput_output_y,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Factor_N": new PiInput_Factor_N(),
+			"factor_n": new PiInput_factor_n(),
 		}
 		this.output = {
-			"Output_y": new PiOutput_Output_y(),
+			"output_y": new PiOutput_output_y(),
 		}
 	}
 
 }
 
-class PiInput_Factor_N extends ResthopperParameter {
+class PiInput_factor_n extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "N";
@@ -49,7 +49,7 @@ class PiInput_Factor_N extends ResthopperParameter {
 
 }
 
-class PiOutput_Output_y extends ResthopperParameter {
+class PiOutput_output_y extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "y";

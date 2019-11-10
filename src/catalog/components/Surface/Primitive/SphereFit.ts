@@ -15,31 +15,31 @@ export default class SphereFit extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": SphereFitInput_Points_P,
+		"points_p": SphereFitInput_points_p,
 	}
 
 	public output:
 	{
-		"Center_C": SphereFitOutput_Center_C,
-		"Radius_R": SphereFitOutput_Radius_R,
-		"Sphere_S": SphereFitOutput_Sphere_S,
+		"center_c": SphereFitOutput_center_c,
+		"radius_r": SphereFitOutput_radius_r,
+		"sphere_s": SphereFitOutput_sphere_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new SphereFitInput_Points_P(),
+			"points_p": new SphereFitInput_points_p(),
 		}
 		this.output = {
-			"Center_C": new SphereFitOutput_Center_C(),
-			"Radius_R": new SphereFitOutput_Radius_R(),
-			"Sphere_S": new SphereFitOutput_Sphere_S(),
+			"center_c": new SphereFitOutput_center_c(),
+			"radius_r": new SphereFitOutput_radius_r(),
+			"sphere_s": new SphereFitOutput_sphere_s(),
 		}
 	}
 
 }
 
-class SphereFitInput_Points_P extends ResthopperParameter {
+class SphereFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class SphereFitInput_Points_P extends ResthopperParameter {
 
 }
 
-class SphereFitOutput_Center_C extends ResthopperParameter {
+class SphereFitOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class SphereFitOutput_Center_C extends ResthopperParameter {
 
 }
 
-class SphereFitOutput_Radius_R extends ResthopperParameter {
+class SphereFitOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class SphereFitOutput_Radius_R extends ResthopperParameter {
 
 }
 
-class SphereFitOutput_Sphere_S extends ResthopperParameter {
+class SphereFitOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";

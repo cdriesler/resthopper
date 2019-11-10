@@ -15,33 +15,33 @@ export default class FlipPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": FlipPlaneInput_Plane_P,
-		"ReverseX_X": FlipPlaneInput_ReverseX_X,
-		"ReverseY_Y": FlipPlaneInput_ReverseY_Y,
-		"Swapaxes_S": FlipPlaneInput_Swapaxes_S,
+		"plane_p": FlipPlaneInput_plane_p,
+		"reversex_x": FlipPlaneInput_reversex_x,
+		"reversey_y": FlipPlaneInput_reversey_y,
+		"swapaxes_s": FlipPlaneInput_swapaxes_s,
 	}
 
 	public output:
 	{
-		"Plane_P": FlipPlaneOutput_Plane_P,
+		"plane_p": FlipPlaneOutput_plane_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new FlipPlaneInput_Plane_P(),
-			"ReverseX_X": new FlipPlaneInput_ReverseX_X(),
-			"ReverseY_Y": new FlipPlaneInput_ReverseY_Y(),
-			"Swapaxes_S": new FlipPlaneInput_Swapaxes_S(),
+			"plane_p": new FlipPlaneInput_plane_p(),
+			"reversex_x": new FlipPlaneInput_reversex_x(),
+			"reversey_y": new FlipPlaneInput_reversey_y(),
+			"swapaxes_s": new FlipPlaneInput_swapaxes_s(),
 		}
 		this.output = {
-			"Plane_P": new FlipPlaneOutput_Plane_P(),
+			"plane_p": new FlipPlaneOutput_plane_p(),
 		}
 	}
 
 }
 
-class FlipPlaneInput_Plane_P extends ResthopperParameter {
+class FlipPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -55,7 +55,7 @@ class FlipPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class FlipPlaneInput_ReverseX_X extends ResthopperParameter {
+class FlipPlaneInput_reversex_x extends ResthopperParameter {
 
 	public name: string = "ReverseX";
 	public nickName: string = "X";
@@ -69,7 +69,7 @@ class FlipPlaneInput_ReverseX_X extends ResthopperParameter {
 
 }
 
-class FlipPlaneInput_ReverseY_Y extends ResthopperParameter {
+class FlipPlaneInput_reversey_y extends ResthopperParameter {
 
 	public name: string = "ReverseY";
 	public nickName: string = "Y";
@@ -83,7 +83,7 @@ class FlipPlaneInput_ReverseY_Y extends ResthopperParameter {
 
 }
 
-class FlipPlaneInput_Swapaxes_S extends ResthopperParameter {
+class FlipPlaneInput_swapaxes_s extends ResthopperParameter {
 
 	public name: string = "Swapaxes";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class FlipPlaneInput_Swapaxes_S extends ResthopperParameter {
 
 }
 
-class FlipPlaneOutput_Plane_P extends ResthopperParameter {
+class FlipPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";

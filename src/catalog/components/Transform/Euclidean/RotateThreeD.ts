@@ -15,35 +15,35 @@ export default class RotateThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": RotateThreeDInput_Geometry_G,
-		"Angle_A": RotateThreeDInput_Angle_A,
-		"Center_C": RotateThreeDInput_Center_C,
-		"Axis_X": RotateThreeDInput_Axis_X,
+		"geometry_g": RotateThreeDInput_geometry_g,
+		"angle_a": RotateThreeDInput_angle_a,
+		"center_c": RotateThreeDInput_center_c,
+		"axis_x": RotateThreeDInput_axis_x,
 	}
 
 	public output:
 	{
-		"Geometry_G": RotateThreeDOutput_Geometry_G,
-		"Transform_X": RotateThreeDOutput_Transform_X,
+		"geometry_g": RotateThreeDOutput_geometry_g,
+		"transform_x": RotateThreeDOutput_transform_x,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new RotateThreeDInput_Geometry_G(),
-			"Angle_A": new RotateThreeDInput_Angle_A(),
-			"Center_C": new RotateThreeDInput_Center_C(),
-			"Axis_X": new RotateThreeDInput_Axis_X(),
+			"geometry_g": new RotateThreeDInput_geometry_g(),
+			"angle_a": new RotateThreeDInput_angle_a(),
+			"center_c": new RotateThreeDInput_center_c(),
+			"axis_x": new RotateThreeDInput_axis_x(),
 		}
 		this.output = {
-			"Geometry_G": new RotateThreeDOutput_Geometry_G(),
-			"Transform_X": new RotateThreeDOutput_Transform_X(),
+			"geometry_g": new RotateThreeDOutput_geometry_g(),
+			"transform_x": new RotateThreeDOutput_transform_x(),
 		}
 	}
 
 }
 
-class RotateThreeDInput_Geometry_G extends ResthopperParameter {
+class RotateThreeDInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -57,7 +57,7 @@ class RotateThreeDInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateThreeDInput_Angle_A extends ResthopperParameter {
+class RotateThreeDInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -71,7 +71,7 @@ class RotateThreeDInput_Angle_A extends ResthopperParameter {
 
 }
 
-class RotateThreeDInput_Center_C extends ResthopperParameter {
+class RotateThreeDInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
@@ -85,7 +85,7 @@ class RotateThreeDInput_Center_C extends ResthopperParameter {
 
 }
 
-class RotateThreeDInput_Axis_X extends ResthopperParameter {
+class RotateThreeDInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
@@ -99,7 +99,7 @@ class RotateThreeDInput_Axis_X extends ResthopperParameter {
 
 }
 
-class RotateThreeDOutput_Geometry_G extends ResthopperParameter {
+class RotateThreeDOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -113,7 +113,7 @@ class RotateThreeDOutput_Geometry_G extends ResthopperParameter {
 
 }
 
-class RotateThreeDOutput_Transform_X extends ResthopperParameter {
+class RotateThreeDOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";

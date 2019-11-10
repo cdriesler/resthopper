@@ -15,31 +15,31 @@ export default class ReplaceText extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": ReplaceTextInput_Text_T,
-		"Find_F": ReplaceTextInput_Find_F,
-		"Replace_R": ReplaceTextInput_Replace_R,
+		"text_t": ReplaceTextInput_text_t,
+		"find_f": ReplaceTextInput_find_f,
+		"replace_r": ReplaceTextInput_replace_r,
 	}
 
 	public output:
 	{
-		"Result_R": ReplaceTextOutput_Result_R,
+		"result_r": ReplaceTextOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new ReplaceTextInput_Text_T(),
-			"Find_F": new ReplaceTextInput_Find_F(),
-			"Replace_R": new ReplaceTextInput_Replace_R(),
+			"text_t": new ReplaceTextInput_text_t(),
+			"find_f": new ReplaceTextInput_find_f(),
+			"replace_r": new ReplaceTextInput_replace_r(),
 		}
 		this.output = {
-			"Result_R": new ReplaceTextOutput_Result_R(),
+			"result_r": new ReplaceTextOutput_result_r(),
 		}
 	}
 
 }
 
-class ReplaceTextInput_Text_T extends ResthopperParameter {
+class ReplaceTextInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -53,7 +53,7 @@ class ReplaceTextInput_Text_T extends ResthopperParameter {
 
 }
 
-class ReplaceTextInput_Find_F extends ResthopperParameter {
+class ReplaceTextInput_find_f extends ResthopperParameter {
 
 	public name: string = "Find";
 	public nickName: string = "F";
@@ -67,7 +67,7 @@ class ReplaceTextInput_Find_F extends ResthopperParameter {
 
 }
 
-class ReplaceTextInput_Replace_R extends ResthopperParameter {
+class ReplaceTextInput_replace_r extends ResthopperParameter {
 
 	public name: string = "Replace";
 	public nickName: string = "R";
@@ -81,7 +81,7 @@ class ReplaceTextInput_Replace_R extends ResthopperParameter {
 
 }
 
-class ReplaceTextOutput_Result_R extends ResthopperParameter {
+class ReplaceTextOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

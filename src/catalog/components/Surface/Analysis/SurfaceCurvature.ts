@@ -15,33 +15,33 @@ export default class SurfaceCurvature extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": SurfaceCurvatureInput_Surface_S,
-		"Point_uv": SurfaceCurvatureInput_Point_uv,
+		"surface_s": SurfaceCurvatureInput_surface_s,
+		"point_uv": SurfaceCurvatureInput_point_uv,
 	}
 
 	public output:
 	{
-		"Frame_F": SurfaceCurvatureOutput_Frame_F,
-		"Gaussian_G": SurfaceCurvatureOutput_Gaussian_G,
-		"Mean_M": SurfaceCurvatureOutput_Mean_M,
+		"frame_f": SurfaceCurvatureOutput_frame_f,
+		"gaussian_g": SurfaceCurvatureOutput_gaussian_g,
+		"mean_m": SurfaceCurvatureOutput_mean_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new SurfaceCurvatureInput_Surface_S(),
-			"Point_uv": new SurfaceCurvatureInput_Point_uv(),
+			"surface_s": new SurfaceCurvatureInput_surface_s(),
+			"point_uv": new SurfaceCurvatureInput_point_uv(),
 		}
 		this.output = {
-			"Frame_F": new SurfaceCurvatureOutput_Frame_F(),
-			"Gaussian_G": new SurfaceCurvatureOutput_Gaussian_G(),
-			"Mean_M": new SurfaceCurvatureOutput_Mean_M(),
+			"frame_f": new SurfaceCurvatureOutput_frame_f(),
+			"gaussian_g": new SurfaceCurvatureOutput_gaussian_g(),
+			"mean_m": new SurfaceCurvatureOutput_mean_m(),
 		}
 	}
 
 }
 
-class SurfaceCurvatureInput_Surface_S extends ResthopperParameter {
+class SurfaceCurvatureInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -55,7 +55,7 @@ class SurfaceCurvatureInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SurfaceCurvatureInput_Point_uv extends ResthopperParameter {
+class SurfaceCurvatureInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
@@ -69,7 +69,7 @@ class SurfaceCurvatureInput_Point_uv extends ResthopperParameter {
 
 }
 
-class SurfaceCurvatureOutput_Frame_F extends ResthopperParameter {
+class SurfaceCurvatureOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
@@ -83,7 +83,7 @@ class SurfaceCurvatureOutput_Frame_F extends ResthopperParameter {
 
 }
 
-class SurfaceCurvatureOutput_Gaussian_G extends ResthopperParameter {
+class SurfaceCurvatureOutput_gaussian_g extends ResthopperParameter {
 
 	public name: string = "Gaussian";
 	public nickName: string = "G";
@@ -97,7 +97,7 @@ class SurfaceCurvatureOutput_Gaussian_G extends ResthopperParameter {
 
 }
 
-class SurfaceCurvatureOutput_Mean_M extends ResthopperParameter {
+class SurfaceCurvatureOutput_mean_m extends ResthopperParameter {
 
 	public name: string = "Mean";
 	public nickName: string = "M";

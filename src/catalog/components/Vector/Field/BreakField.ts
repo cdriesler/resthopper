@@ -15,27 +15,27 @@ export default class BreakField extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": BreakFieldInput_Field_F,
+		"field_f": BreakFieldInput_field_f,
 	}
 
 	public output:
 	{
-		"Fields_F": BreakFieldOutput_Fields_F,
+		"fields_f": BreakFieldOutput_fields_f,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new BreakFieldInput_Field_F(),
+			"field_f": new BreakFieldInput_field_f(),
 		}
 		this.output = {
-			"Fields_F": new BreakFieldOutput_Fields_F(),
+			"fields_f": new BreakFieldOutput_fields_f(),
 		}
 	}
 
 }
 
-class BreakFieldInput_Field_F extends ResthopperParameter {
+class BreakFieldInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -49,7 +49,7 @@ class BreakFieldInput_Field_F extends ResthopperParameter {
 
 }
 
-class BreakFieldOutput_Fields_F extends ResthopperParameter {
+class BreakFieldOutput_fields_f extends ResthopperParameter {
 
 	public name: string = "Fields";
 	public nickName: string = "F";

@@ -15,29 +15,29 @@ export default class Closed extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ClosedInput_Curve_C,
+		"curve_c": ClosedInput_curve_c,
 	}
 
 	public output:
 	{
-		"Closed_C": ClosedOutput_Closed_C,
-		"Periodic_P": ClosedOutput_Periodic_P,
+		"closed_c": ClosedOutput_closed_c,
+		"periodic_p": ClosedOutput_periodic_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ClosedInput_Curve_C(),
+			"curve_c": new ClosedInput_curve_c(),
 		}
 		this.output = {
-			"Closed_C": new ClosedOutput_Closed_C(),
-			"Periodic_P": new ClosedOutput_Periodic_P(),
+			"closed_c": new ClosedOutput_closed_c(),
+			"periodic_p": new ClosedOutput_periodic_p(),
 		}
 	}
 
 }
 
-class ClosedInput_Curve_C extends ResthopperParameter {
+class ClosedInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class ClosedInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ClosedOutput_Closed_C extends ResthopperParameter {
+class ClosedOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
@@ -65,7 +65,7 @@ class ClosedOutput_Closed_C extends ResthopperParameter {
 
 }
 
-class ClosedOutput_Periodic_P extends ResthopperParameter {
+class ClosedOutput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";

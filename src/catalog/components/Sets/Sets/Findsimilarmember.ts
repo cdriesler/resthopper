@@ -15,31 +15,31 @@ export default class Findsimilarmember extends ResthopperComponent {
 
 	public input:
 	{
-		"Data_D": FindsimilarmemberInput_Data_D,
-		"Set_S": FindsimilarmemberInput_Set_S,
+		"data_d": FindsimilarmemberInput_data_d,
+		"set_s": FindsimilarmemberInput_set_s,
 	}
 
 	public output:
 	{
-		"Hit_H": FindsimilarmemberOutput_Hit_H,
-		"Index_i": FindsimilarmemberOutput_Index_i,
+		"hit_h": FindsimilarmemberOutput_hit_h,
+		"index_i": FindsimilarmemberOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Data_D": new FindsimilarmemberInput_Data_D(),
-			"Set_S": new FindsimilarmemberInput_Set_S(),
+			"data_d": new FindsimilarmemberInput_data_d(),
+			"set_s": new FindsimilarmemberInput_set_s(),
 		}
 		this.output = {
-			"Hit_H": new FindsimilarmemberOutput_Hit_H(),
-			"Index_i": new FindsimilarmemberOutput_Index_i(),
+			"hit_h": new FindsimilarmemberOutput_hit_h(),
+			"index_i": new FindsimilarmemberOutput_index_i(),
 		}
 	}
 
 }
 
-class FindsimilarmemberInput_Data_D extends ResthopperParameter {
+class FindsimilarmemberInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
@@ -53,7 +53,7 @@ class FindsimilarmemberInput_Data_D extends ResthopperParameter {
 
 }
 
-class FindsimilarmemberInput_Set_S extends ResthopperParameter {
+class FindsimilarmemberInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
@@ -67,7 +67,7 @@ class FindsimilarmemberInput_Set_S extends ResthopperParameter {
 
 }
 
-class FindsimilarmemberOutput_Hit_H extends ResthopperParameter {
+class FindsimilarmemberOutput_hit_h extends ResthopperParameter {
 
 	public name: string = "Hit";
 	public nickName: string = "H";
@@ -81,7 +81,7 @@ class FindsimilarmemberOutput_Hit_H extends ResthopperParameter {
 
 }
 
-class FindsimilarmemberOutput_Index_i extends ResthopperParameter {
+class FindsimilarmemberOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";

@@ -15,29 +15,29 @@ export default class SimplifyTree extends ResthopperComponent {
 
 	public input:
 	{
-		"Tree_T": SimplifyTreeInput_Tree_T,
-		"Front_F": SimplifyTreeInput_Front_F,
+		"tree_t": SimplifyTreeInput_tree_t,
+		"front_f": SimplifyTreeInput_front_f,
 	}
 
 	public output:
 	{
-		"Tree_T": SimplifyTreeOutput_Tree_T,
+		"tree_t": SimplifyTreeOutput_tree_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Tree_T": new SimplifyTreeInput_Tree_T(),
-			"Front_F": new SimplifyTreeInput_Front_F(),
+			"tree_t": new SimplifyTreeInput_tree_t(),
+			"front_f": new SimplifyTreeInput_front_f(),
 		}
 		this.output = {
-			"Tree_T": new SimplifyTreeOutput_Tree_T(),
+			"tree_t": new SimplifyTreeOutput_tree_t(),
 		}
 	}
 
 }
 
-class SimplifyTreeInput_Tree_T extends ResthopperParameter {
+class SimplifyTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
@@ -51,7 +51,7 @@ class SimplifyTreeInput_Tree_T extends ResthopperParameter {
 
 }
 
-class SimplifyTreeInput_Front_F extends ResthopperParameter {
+class SimplifyTreeInput_front_f extends ResthopperParameter {
 
 	public name: string = "Front";
 	public nickName: string = "F";
@@ -65,7 +65,7 @@ class SimplifyTreeInput_Front_F extends ResthopperParameter {
 
 }
 
-class SimplifyTreeOutput_Tree_T extends ResthopperParameter {
+class SimplifyTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";

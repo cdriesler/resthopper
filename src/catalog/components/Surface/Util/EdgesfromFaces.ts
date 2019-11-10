@@ -15,31 +15,31 @@ export default class EdgesfromFaces extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": EdgesfromFacesInput_Brep_B,
-		"Points_P": EdgesfromFacesInput_Points_P,
+		"brep_b": EdgesfromFacesInput_brep_b,
+		"points_p": EdgesfromFacesInput_points_p,
 	}
 
 	public output:
 	{
-		"Edges_E": EdgesfromFacesOutput_Edges_E,
-		"Indices_I": EdgesfromFacesOutput_Indices_I,
+		"edges_e": EdgesfromFacesOutput_edges_e,
+		"indices_i": EdgesfromFacesOutput_indices_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new EdgesfromFacesInput_Brep_B(),
-			"Points_P": new EdgesfromFacesInput_Points_P(),
+			"brep_b": new EdgesfromFacesInput_brep_b(),
+			"points_p": new EdgesfromFacesInput_points_p(),
 		}
 		this.output = {
-			"Edges_E": new EdgesfromFacesOutput_Edges_E(),
-			"Indices_I": new EdgesfromFacesOutput_Indices_I(),
+			"edges_e": new EdgesfromFacesOutput_edges_e(),
+			"indices_i": new EdgesfromFacesOutput_indices_i(),
 		}
 	}
 
 }
 
-class EdgesfromFacesInput_Brep_B extends ResthopperParameter {
+class EdgesfromFacesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -53,7 +53,7 @@ class EdgesfromFacesInput_Brep_B extends ResthopperParameter {
 
 }
 
-class EdgesfromFacesInput_Points_P extends ResthopperParameter {
+class EdgesfromFacesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class EdgesfromFacesInput_Points_P extends ResthopperParameter {
 
 }
 
-class EdgesfromFacesOutput_Edges_E extends ResthopperParameter {
+class EdgesfromFacesOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -81,7 +81,7 @@ class EdgesfromFacesOutput_Edges_E extends ResthopperParameter {
 
 }
 
-class EdgesfromFacesOutput_Indices_I extends ResthopperParameter {
+class EdgesfromFacesOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";

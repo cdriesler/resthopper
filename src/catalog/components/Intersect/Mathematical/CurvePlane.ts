@@ -15,33 +15,33 @@ export default class CurvePlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurvePlaneInput_Curve_C,
-		"Plane_P": CurvePlaneInput_Plane_P,
+		"curve_c": CurvePlaneInput_curve_c,
+		"plane_p": CurvePlaneInput_plane_p,
 	}
 
 	public output:
 	{
-		"Points_P": CurvePlaneOutput_Points_P,
-		"ParamsC_t": CurvePlaneOutput_ParamsC_t,
-		"ParamsP_uv": CurvePlaneOutput_ParamsP_uv,
+		"points_p": CurvePlaneOutput_points_p,
+		"paramsc_t": CurvePlaneOutput_paramsc_t,
+		"paramsp_uv": CurvePlaneOutput_paramsp_uv,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurvePlaneInput_Curve_C(),
-			"Plane_P": new CurvePlaneInput_Plane_P(),
+			"curve_c": new CurvePlaneInput_curve_c(),
+			"plane_p": new CurvePlaneInput_plane_p(),
 		}
 		this.output = {
-			"Points_P": new CurvePlaneOutput_Points_P(),
-			"ParamsC_t": new CurvePlaneOutput_ParamsC_t(),
-			"ParamsP_uv": new CurvePlaneOutput_ParamsP_uv(),
+			"points_p": new CurvePlaneOutput_points_p(),
+			"paramsc_t": new CurvePlaneOutput_paramsc_t(),
+			"paramsp_uv": new CurvePlaneOutput_paramsp_uv(),
 		}
 	}
 
 }
 
-class CurvePlaneInput_Curve_C extends ResthopperParameter {
+class CurvePlaneInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class CurvePlaneInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurvePlaneInput_Plane_P extends ResthopperParameter {
+class CurvePlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class CurvePlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class CurvePlaneOutput_Points_P extends ResthopperParameter {
+class CurvePlaneOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -83,7 +83,7 @@ class CurvePlaneOutput_Points_P extends ResthopperParameter {
 
 }
 
-class CurvePlaneOutput_ParamsC_t extends ResthopperParameter {
+class CurvePlaneOutput_paramsc_t extends ResthopperParameter {
 
 	public name: string = "ParamsC";
 	public nickName: string = "t";
@@ -97,7 +97,7 @@ class CurvePlaneOutput_ParamsC_t extends ResthopperParameter {
 
 }
 
-class CurvePlaneOutput_ParamsP_uv extends ResthopperParameter {
+class CurvePlaneOutput_paramsp_uv extends ResthopperParameter {
 
 	public name: string = "ParamsP";
 	public nickName: string = "uv";

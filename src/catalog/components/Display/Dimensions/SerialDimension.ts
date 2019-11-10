@@ -15,10 +15,10 @@ export default class SerialDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": SerialDimensionInput_Line_L,
-		"Points_P": SerialDimensionInput_Points_P,
-		"Text_T": SerialDimensionInput_Text_T,
-		"Size_S": SerialDimensionInput_Size_S,
+		"line_l": SerialDimensionInput_line_l,
+		"points_p": SerialDimensionInput_points_p,
+		"text_t": SerialDimensionInput_text_t,
+		"size_s": SerialDimensionInput_size_s,
 	}
 
 	public output:
@@ -29,10 +29,10 @@ export default class SerialDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new SerialDimensionInput_Line_L(),
-			"Points_P": new SerialDimensionInput_Points_P(),
-			"Text_T": new SerialDimensionInput_Text_T(),
-			"Size_S": new SerialDimensionInput_Size_S(),
+			"line_l": new SerialDimensionInput_line_l(),
+			"points_p": new SerialDimensionInput_points_p(),
+			"text_t": new SerialDimensionInput_text_t(),
+			"size_s": new SerialDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -41,7 +41,7 @@ export default class SerialDimension extends ResthopperComponent {
 
 }
 
-class SerialDimensionInput_Line_L extends ResthopperParameter {
+class SerialDimensionInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class SerialDimensionInput_Line_L extends ResthopperParameter {
 
 }
 
-class SerialDimensionInput_Points_P extends ResthopperParameter {
+class SerialDimensionInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class SerialDimensionInput_Points_P extends ResthopperParameter {
 
 }
 
-class SerialDimensionInput_Text_T extends ResthopperParameter {
+class SerialDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -83,7 +83,7 @@ class SerialDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class SerialDimensionInput_Size_S extends ResthopperParameter {
+class SerialDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

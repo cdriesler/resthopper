@@ -15,31 +15,31 @@ export default class Sequence extends ResthopperComponent {
 
 	public input:
 	{
-		"Notation_N": SequenceInput_Notation_N,
-		"Length_L": SequenceInput_Length_L,
-		"Initial_I": SequenceInput_Initial_I,
+		"notation_n": SequenceInput_notation_n,
+		"length_l": SequenceInput_length_l,
+		"initial_i": SequenceInput_initial_i,
 	}
 
 	public output:
 	{
-		"Sequence_S": SequenceOutput_Sequence_S,
+		"sequence_s": SequenceOutput_sequence_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Notation_N": new SequenceInput_Notation_N(),
-			"Length_L": new SequenceInput_Length_L(),
-			"Initial_I": new SequenceInput_Initial_I(),
+			"notation_n": new SequenceInput_notation_n(),
+			"length_l": new SequenceInput_length_l(),
+			"initial_i": new SequenceInput_initial_i(),
 		}
 		this.output = {
-			"Sequence_S": new SequenceOutput_Sequence_S(),
+			"sequence_s": new SequenceOutput_sequence_s(),
 		}
 	}
 
 }
 
-class SequenceInput_Notation_N extends ResthopperParameter {
+class SequenceInput_notation_n extends ResthopperParameter {
 
 	public name: string = "Notation";
 	public nickName: string = "N";
@@ -53,7 +53,7 @@ class SequenceInput_Notation_N extends ResthopperParameter {
 
 }
 
-class SequenceInput_Length_L extends ResthopperParameter {
+class SequenceInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
@@ -67,7 +67,7 @@ class SequenceInput_Length_L extends ResthopperParameter {
 
 }
 
-class SequenceInput_Initial_I extends ResthopperParameter {
+class SequenceInput_initial_i extends ResthopperParameter {
 
 	public name: string = "Initial";
 	public nickName: string = "I";
@@ -81,7 +81,7 @@ class SequenceInput_Initial_I extends ResthopperParameter {
 
 }
 
-class SequenceOutput_Sequence_S extends ResthopperParameter {
+class SequenceOutput_sequence_s extends ResthopperParameter {
 
 	public name: string = "Sequence";
 	public nickName: string = "S";

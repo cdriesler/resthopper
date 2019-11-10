@@ -15,31 +15,31 @@ export default class TweenCurve extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": TweenCurveInput_CurveA_A,
-		"CurveB_B": TweenCurveInput_CurveB_B,
-		"Factor_F": TweenCurveInput_Factor_F,
+		"curvea_a": TweenCurveInput_curvea_a,
+		"curveb_b": TweenCurveInput_curveb_b,
+		"factor_f": TweenCurveInput_factor_f,
 	}
 
 	public output:
 	{
-		"Tween_T": TweenCurveOutput_Tween_T,
+		"tween_t": TweenCurveOutput_tween_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new TweenCurveInput_CurveA_A(),
-			"CurveB_B": new TweenCurveInput_CurveB_B(),
-			"Factor_F": new TweenCurveInput_Factor_F(),
+			"curvea_a": new TweenCurveInput_curvea_a(),
+			"curveb_b": new TweenCurveInput_curveb_b(),
+			"factor_f": new TweenCurveInput_factor_f(),
 		}
 		this.output = {
-			"Tween_T": new TweenCurveOutput_Tween_T(),
+			"tween_t": new TweenCurveOutput_tween_t(),
 		}
 	}
 
 }
 
-class TweenCurveInput_CurveA_A extends ResthopperParameter {
+class TweenCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class TweenCurveInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class TweenCurveInput_CurveB_B extends ResthopperParameter {
+class TweenCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class TweenCurveInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class TweenCurveInput_Factor_F extends ResthopperParameter {
+class TweenCurveInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
@@ -81,7 +81,7 @@ class TweenCurveInput_Factor_F extends ResthopperParameter {
 
 }
 
-class TweenCurveOutput_Tween_T extends ResthopperParameter {
+class TweenCurveOutput_tween_t extends ResthopperParameter {
 
 	public name: string = "Tween";
 	public nickName: string = "T";

@@ -15,45 +15,45 @@ export default class MakeTwoD extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": MakeTwoDInput_Geometry_G,
-		"ClippingPlanes_C": MakeTwoDInput_ClippingPlanes_C,
-		"View_V": MakeTwoDInput_View_V,
-		"TangentEdges_Te": MakeTwoDInput_TangentEdges_Te,
-		"TangentSeams_Ts": MakeTwoDInput_TangentSeams_Ts,
+		"geometry_g": MakeTwoDInput_geometry_g,
+		"clippingplanes_c": MakeTwoDInput_clippingplanes_c,
+		"view_v": MakeTwoDInput_view_v,
+		"tangentedges_te": MakeTwoDInput_tangentedges_te,
+		"tangentseams_ts": MakeTwoDInput_tangentseams_ts,
 	}
 
 	public output:
 	{
-		"Visiblecurves_V": MakeTwoDOutput_Visiblecurves_V,
-		"Visibleindex_Vi": MakeTwoDOutput_Visibleindex_Vi,
-		"Visibletype_Vt": MakeTwoDOutput_Visibletype_Vt,
-		"Hiddencurves_H": MakeTwoDOutput_Hiddencurves_H,
-		"Hiddenindex_Hi": MakeTwoDOutput_Hiddenindex_Hi,
-		"Hiddentype_Ht": MakeTwoDOutput_Hiddentype_Ht,
+		"visiblecurves_v": MakeTwoDOutput_visiblecurves_v,
+		"visibleindex_vi": MakeTwoDOutput_visibleindex_vi,
+		"visibletype_vt": MakeTwoDOutput_visibletype_vt,
+		"hiddencurves_h": MakeTwoDOutput_hiddencurves_h,
+		"hiddenindex_hi": MakeTwoDOutput_hiddenindex_hi,
+		"hiddentype_ht": MakeTwoDOutput_hiddentype_ht,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new MakeTwoDInput_Geometry_G(),
-			"ClippingPlanes_C": new MakeTwoDInput_ClippingPlanes_C(),
-			"View_V": new MakeTwoDInput_View_V(),
-			"TangentEdges_Te": new MakeTwoDInput_TangentEdges_Te(),
-			"TangentSeams_Ts": new MakeTwoDInput_TangentSeams_Ts(),
+			"geometry_g": new MakeTwoDInput_geometry_g(),
+			"clippingplanes_c": new MakeTwoDInput_clippingplanes_c(),
+			"view_v": new MakeTwoDInput_view_v(),
+			"tangentedges_te": new MakeTwoDInput_tangentedges_te(),
+			"tangentseams_ts": new MakeTwoDInput_tangentseams_ts(),
 		}
 		this.output = {
-			"Visiblecurves_V": new MakeTwoDOutput_Visiblecurves_V(),
-			"Visibleindex_Vi": new MakeTwoDOutput_Visibleindex_Vi(),
-			"Visibletype_Vt": new MakeTwoDOutput_Visibletype_Vt(),
-			"Hiddencurves_H": new MakeTwoDOutput_Hiddencurves_H(),
-			"Hiddenindex_Hi": new MakeTwoDOutput_Hiddenindex_Hi(),
-			"Hiddentype_Ht": new MakeTwoDOutput_Hiddentype_Ht(),
+			"visiblecurves_v": new MakeTwoDOutput_visiblecurves_v(),
+			"visibleindex_vi": new MakeTwoDOutput_visibleindex_vi(),
+			"visibletype_vt": new MakeTwoDOutput_visibletype_vt(),
+			"hiddencurves_h": new MakeTwoDOutput_hiddencurves_h(),
+			"hiddenindex_hi": new MakeTwoDOutput_hiddenindex_hi(),
+			"hiddentype_ht": new MakeTwoDOutput_hiddentype_ht(),
 		}
 	}
 
 }
 
-class MakeTwoDInput_Geometry_G extends ResthopperParameter {
+class MakeTwoDInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class MakeTwoDInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class MakeTwoDInput_ClippingPlanes_C extends ResthopperParameter {
+class MakeTwoDInput_clippingplanes_c extends ResthopperParameter {
 
 	public name: string = "ClippingPlanes";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class MakeTwoDInput_ClippingPlanes_C extends ResthopperParameter {
 
 }
 
-class MakeTwoDInput_View_V extends ResthopperParameter {
+class MakeTwoDInput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";
@@ -95,7 +95,7 @@ class MakeTwoDInput_View_V extends ResthopperParameter {
 
 }
 
-class MakeTwoDInput_TangentEdges_Te extends ResthopperParameter {
+class MakeTwoDInput_tangentedges_te extends ResthopperParameter {
 
 	public name: string = "TangentEdges";
 	public nickName: string = "Te";
@@ -109,7 +109,7 @@ class MakeTwoDInput_TangentEdges_Te extends ResthopperParameter {
 
 }
 
-class MakeTwoDInput_TangentSeams_Ts extends ResthopperParameter {
+class MakeTwoDInput_tangentseams_ts extends ResthopperParameter {
 
 	public name: string = "TangentSeams";
 	public nickName: string = "Ts";
@@ -123,7 +123,7 @@ class MakeTwoDInput_TangentSeams_Ts extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Visiblecurves_V extends ResthopperParameter {
+class MakeTwoDOutput_visiblecurves_v extends ResthopperParameter {
 
 	public name: string = "Visiblecurves";
 	public nickName: string = "V";
@@ -137,7 +137,7 @@ class MakeTwoDOutput_Visiblecurves_V extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Visibleindex_Vi extends ResthopperParameter {
+class MakeTwoDOutput_visibleindex_vi extends ResthopperParameter {
 
 	public name: string = "Visibleindex";
 	public nickName: string = "Vi";
@@ -151,7 +151,7 @@ class MakeTwoDOutput_Visibleindex_Vi extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Visibletype_Vt extends ResthopperParameter {
+class MakeTwoDOutput_visibletype_vt extends ResthopperParameter {
 
 	public name: string = "Visibletype";
 	public nickName: string = "Vt";
@@ -165,7 +165,7 @@ class MakeTwoDOutput_Visibletype_Vt extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Hiddencurves_H extends ResthopperParameter {
+class MakeTwoDOutput_hiddencurves_h extends ResthopperParameter {
 
 	public name: string = "Hiddencurves";
 	public nickName: string = "H";
@@ -179,7 +179,7 @@ class MakeTwoDOutput_Hiddencurves_H extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Hiddenindex_Hi extends ResthopperParameter {
+class MakeTwoDOutput_hiddenindex_hi extends ResthopperParameter {
 
 	public name: string = "Hiddenindex";
 	public nickName: string = "Hi";
@@ -193,7 +193,7 @@ class MakeTwoDOutput_Hiddenindex_Hi extends ResthopperParameter {
 
 }
 
-class MakeTwoDOutput_Hiddentype_Ht extends ResthopperParameter {
+class MakeTwoDOutput_hiddentype_ht extends ResthopperParameter {
 
 	public name: string = "Hiddentype";
 	public nickName: string = "Ht";

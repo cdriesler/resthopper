@@ -15,37 +15,37 @@ export default class Rectangular extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": RectangularInput_Plane_P,
-		"SizeX_Sx": RectangularInput_SizeX_Sx,
-		"SizeY_Sy": RectangularInput_SizeY_Sy,
-		"ExtentX_Ex": RectangularInput_ExtentX_Ex,
-		"ExtentY_Ey": RectangularInput_ExtentY_Ey,
+		"plane_p": RectangularInput_plane_p,
+		"sizex_sx": RectangularInput_sizex_sx,
+		"sizey_sy": RectangularInput_sizey_sy,
+		"extentx_ex": RectangularInput_extentx_ex,
+		"extenty_ey": RectangularInput_extenty_ey,
 	}
 
 	public output:
 	{
-		"Cells_C": RectangularOutput_Cells_C,
-		"Points_P": RectangularOutput_Points_P,
+		"cells_c": RectangularOutput_cells_c,
+		"points_p": RectangularOutput_points_p,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new RectangularInput_Plane_P(),
-			"SizeX_Sx": new RectangularInput_SizeX_Sx(),
-			"SizeY_Sy": new RectangularInput_SizeY_Sy(),
-			"ExtentX_Ex": new RectangularInput_ExtentX_Ex(),
-			"ExtentY_Ey": new RectangularInput_ExtentY_Ey(),
+			"plane_p": new RectangularInput_plane_p(),
+			"sizex_sx": new RectangularInput_sizex_sx(),
+			"sizey_sy": new RectangularInput_sizey_sy(),
+			"extentx_ex": new RectangularInput_extentx_ex(),
+			"extenty_ey": new RectangularInput_extenty_ey(),
 		}
 		this.output = {
-			"Cells_C": new RectangularOutput_Cells_C(),
-			"Points_P": new RectangularOutput_Points_P(),
+			"cells_c": new RectangularOutput_cells_c(),
+			"points_p": new RectangularOutput_points_p(),
 		}
 	}
 
 }
 
-class RectangularInput_Plane_P extends ResthopperParameter {
+class RectangularInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -59,7 +59,7 @@ class RectangularInput_Plane_P extends ResthopperParameter {
 
 }
 
-class RectangularInput_SizeX_Sx extends ResthopperParameter {
+class RectangularInput_sizex_sx extends ResthopperParameter {
 
 	public name: string = "SizeX";
 	public nickName: string = "Sx";
@@ -73,7 +73,7 @@ class RectangularInput_SizeX_Sx extends ResthopperParameter {
 
 }
 
-class RectangularInput_SizeY_Sy extends ResthopperParameter {
+class RectangularInput_sizey_sy extends ResthopperParameter {
 
 	public name: string = "SizeY";
 	public nickName: string = "Sy";
@@ -87,7 +87,7 @@ class RectangularInput_SizeY_Sy extends ResthopperParameter {
 
 }
 
-class RectangularInput_ExtentX_Ex extends ResthopperParameter {
+class RectangularInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
@@ -101,7 +101,7 @@ class RectangularInput_ExtentX_Ex extends ResthopperParameter {
 
 }
 
-class RectangularInput_ExtentY_Ey extends ResthopperParameter {
+class RectangularInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
@@ -115,7 +115,7 @@ class RectangularInput_ExtentY_Ey extends ResthopperParameter {
 
 }
 
-class RectangularOutput_Cells_C extends ResthopperParameter {
+class RectangularOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -129,7 +129,7 @@ class RectangularOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class RectangularOutput_Points_P extends ResthopperParameter {
+class RectangularOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";

@@ -15,33 +15,33 @@ export default class SegmentLengths extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": SegmentLengthsInput_Curve_C,
+		"curve_c": SegmentLengthsInput_curve_c,
 	}
 
 	public output:
 	{
-		"ShortestLength_Sl": SegmentLengthsOutput_ShortestLength_Sl,
-		"ShortestDomain_Sd": SegmentLengthsOutput_ShortestDomain_Sd,
-		"LongestLength_Ll": SegmentLengthsOutput_LongestLength_Ll,
-		"LongestDomain_Ld": SegmentLengthsOutput_LongestDomain_Ld,
+		"shortestlength_sl": SegmentLengthsOutput_shortestlength_sl,
+		"shortestdomain_sd": SegmentLengthsOutput_shortestdomain_sd,
+		"longestlength_ll": SegmentLengthsOutput_longestlength_ll,
+		"longestdomain_ld": SegmentLengthsOutput_longestdomain_ld,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new SegmentLengthsInput_Curve_C(),
+			"curve_c": new SegmentLengthsInput_curve_c(),
 		}
 		this.output = {
-			"ShortestLength_Sl": new SegmentLengthsOutput_ShortestLength_Sl(),
-			"ShortestDomain_Sd": new SegmentLengthsOutput_ShortestDomain_Sd(),
-			"LongestLength_Ll": new SegmentLengthsOutput_LongestLength_Ll(),
-			"LongestDomain_Ld": new SegmentLengthsOutput_LongestDomain_Ld(),
+			"shortestlength_sl": new SegmentLengthsOutput_shortestlength_sl(),
+			"shortestdomain_sd": new SegmentLengthsOutput_shortestdomain_sd(),
+			"longestlength_ll": new SegmentLengthsOutput_longestlength_ll(),
+			"longestdomain_ld": new SegmentLengthsOutput_longestdomain_ld(),
 		}
 	}
 
 }
 
-class SegmentLengthsInput_Curve_C extends ResthopperParameter {
+class SegmentLengthsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class SegmentLengthsInput_Curve_C extends ResthopperParameter {
 
 }
 
-class SegmentLengthsOutput_ShortestLength_Sl extends ResthopperParameter {
+class SegmentLengthsOutput_shortestlength_sl extends ResthopperParameter {
 
 	public name: string = "ShortestLength";
 	public nickName: string = "Sl";
@@ -69,7 +69,7 @@ class SegmentLengthsOutput_ShortestLength_Sl extends ResthopperParameter {
 
 }
 
-class SegmentLengthsOutput_ShortestDomain_Sd extends ResthopperParameter {
+class SegmentLengthsOutput_shortestdomain_sd extends ResthopperParameter {
 
 	public name: string = "ShortestDomain";
 	public nickName: string = "Sd";
@@ -83,7 +83,7 @@ class SegmentLengthsOutput_ShortestDomain_Sd extends ResthopperParameter {
 
 }
 
-class SegmentLengthsOutput_LongestLength_Ll extends ResthopperParameter {
+class SegmentLengthsOutput_longestlength_ll extends ResthopperParameter {
 
 	public name: string = "LongestLength";
 	public nickName: string = "Ll";
@@ -97,7 +97,7 @@ class SegmentLengthsOutput_LongestLength_Ll extends ResthopperParameter {
 
 }
 
-class SegmentLengthsOutput_LongestDomain_Ld extends ResthopperParameter {
+class SegmentLengthsOutput_longestdomain_ld extends ResthopperParameter {
 
 	public name: string = "LongestDomain";
 	public nickName: string = "Ld";

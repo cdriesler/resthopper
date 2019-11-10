@@ -15,33 +15,33 @@ export default class SplitAHSL extends ResthopperComponent {
 
 	public input:
 	{
-		"Colour_C": SplitAHSLInput_Colour_C,
+		"colour_c": SplitAHSLInput_colour_c,
 	}
 
 	public output:
 	{
-		"Alpha_A": SplitAHSLOutput_Alpha_A,
-		"Hue_H": SplitAHSLOutput_Hue_H,
-		"Saturation_S": SplitAHSLOutput_Saturation_S,
-		"Luminance_L": SplitAHSLOutput_Luminance_L,
+		"alpha_a": SplitAHSLOutput_alpha_a,
+		"hue_h": SplitAHSLOutput_hue_h,
+		"saturation_s": SplitAHSLOutput_saturation_s,
+		"luminance_l": SplitAHSLOutput_luminance_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Colour_C": new SplitAHSLInput_Colour_C(),
+			"colour_c": new SplitAHSLInput_colour_c(),
 		}
 		this.output = {
-			"Alpha_A": new SplitAHSLOutput_Alpha_A(),
-			"Hue_H": new SplitAHSLOutput_Hue_H(),
-			"Saturation_S": new SplitAHSLOutput_Saturation_S(),
-			"Luminance_L": new SplitAHSLOutput_Luminance_L(),
+			"alpha_a": new SplitAHSLOutput_alpha_a(),
+			"hue_h": new SplitAHSLOutput_hue_h(),
+			"saturation_s": new SplitAHSLOutput_saturation_s(),
+			"luminance_l": new SplitAHSLOutput_luminance_l(),
 		}
 	}
 
 }
 
-class SplitAHSLInput_Colour_C extends ResthopperParameter {
+class SplitAHSLInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class SplitAHSLInput_Colour_C extends ResthopperParameter {
 
 }
 
-class SplitAHSLOutput_Alpha_A extends ResthopperParameter {
+class SplitAHSLOutput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class SplitAHSLOutput_Alpha_A extends ResthopperParameter {
 
 }
 
-class SplitAHSLOutput_Hue_H extends ResthopperParameter {
+class SplitAHSLOutput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
@@ -83,7 +83,7 @@ class SplitAHSLOutput_Hue_H extends ResthopperParameter {
 
 }
 
-class SplitAHSLOutput_Saturation_S extends ResthopperParameter {
+class SplitAHSLOutput_saturation_s extends ResthopperParameter {
 
 	public name: string = "Saturation";
 	public nickName: string = "S";
@@ -97,7 +97,7 @@ class SplitAHSLOutput_Saturation_S extends ResthopperParameter {
 
 }
 
-class SplitAHSLOutput_Luminance_L extends ResthopperParameter {
+class SplitAHSLOutput_luminance_l extends ResthopperParameter {
 
 	public name: string = "Luminance";
 	public nickName: string = "L";

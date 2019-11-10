@@ -15,33 +15,33 @@ export default class CurveProximity extends ResthopperComponent {
 
 	public input:
 	{
-		"CurveA_A": CurveProximityInput_CurveA_A,
-		"CurveB_B": CurveProximityInput_CurveB_B,
+		"curvea_a": CurveProximityInput_curvea_a,
+		"curveb_b": CurveProximityInput_curveb_b,
 	}
 
 	public output:
 	{
-		"PointA_A": CurveProximityOutput_PointA_A,
-		"PointB_B": CurveProximityOutput_PointB_B,
-		"Distance_D": CurveProximityOutput_Distance_D,
+		"pointa_a": CurveProximityOutput_pointa_a,
+		"pointb_b": CurveProximityOutput_pointb_b,
+		"distance_d": CurveProximityOutput_distance_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"CurveA_A": new CurveProximityInput_CurveA_A(),
-			"CurveB_B": new CurveProximityInput_CurveB_B(),
+			"curvea_a": new CurveProximityInput_curvea_a(),
+			"curveb_b": new CurveProximityInput_curveb_b(),
 		}
 		this.output = {
-			"PointA_A": new CurveProximityOutput_PointA_A(),
-			"PointB_B": new CurveProximityOutput_PointB_B(),
-			"Distance_D": new CurveProximityOutput_Distance_D(),
+			"pointa_a": new CurveProximityOutput_pointa_a(),
+			"pointb_b": new CurveProximityOutput_pointb_b(),
+			"distance_d": new CurveProximityOutput_distance_d(),
 		}
 	}
 
 }
 
-class CurveProximityInput_CurveA_A extends ResthopperParameter {
+class CurveProximityInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
@@ -55,7 +55,7 @@ class CurveProximityInput_CurveA_A extends ResthopperParameter {
 
 }
 
-class CurveProximityInput_CurveB_B extends ResthopperParameter {
+class CurveProximityInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
@@ -69,7 +69,7 @@ class CurveProximityInput_CurveB_B extends ResthopperParameter {
 
 }
 
-class CurveProximityOutput_PointA_A extends ResthopperParameter {
+class CurveProximityOutput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
@@ -83,7 +83,7 @@ class CurveProximityOutput_PointA_A extends ResthopperParameter {
 
 }
 
-class CurveProximityOutput_PointB_B extends ResthopperParameter {
+class CurveProximityOutput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
@@ -97,7 +97,7 @@ class CurveProximityOutput_PointB_B extends ResthopperParameter {
 
 }
 
-class CurveProximityOutput_Distance_D extends ResthopperParameter {
+class CurveProximityOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";

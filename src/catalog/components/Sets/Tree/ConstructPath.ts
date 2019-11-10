@@ -15,27 +15,27 @@ export default class ConstructPath extends ResthopperComponent {
 
 	public input:
 	{
-		"Indices_I": ConstructPathInput_Indices_I,
+		"indices_i": ConstructPathInput_indices_i,
 	}
 
 	public output:
 	{
-		"Branch_B": ConstructPathOutput_Branch_B,
+		"branch_b": ConstructPathOutput_branch_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Indices_I": new ConstructPathInput_Indices_I(),
+			"indices_i": new ConstructPathInput_indices_i(),
 		}
 		this.output = {
-			"Branch_B": new ConstructPathOutput_Branch_B(),
+			"branch_b": new ConstructPathOutput_branch_b(),
 		}
 	}
 
 }
 
-class ConstructPathInput_Indices_I extends ResthopperParameter {
+class ConstructPathInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
@@ -49,7 +49,7 @@ class ConstructPathInput_Indices_I extends ResthopperParameter {
 
 }
 
-class ConstructPathOutput_Branch_B extends ResthopperParameter {
+class ConstructPathOutput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";

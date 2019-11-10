@@ -15,9 +15,9 @@ export default class DotDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Point_P": DotDisplayInput_Point_P,
-		"Colour_C": DotDisplayInput_Colour_C,
-		"Size_S": DotDisplayInput_Size_S,
+		"point_p": DotDisplayInput_point_p,
+		"colour_c": DotDisplayInput_colour_c,
+		"size_s": DotDisplayInput_size_s,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class DotDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Point_P": new DotDisplayInput_Point_P(),
-			"Colour_C": new DotDisplayInput_Colour_C(),
-			"Size_S": new DotDisplayInput_Size_S(),
+			"point_p": new DotDisplayInput_point_p(),
+			"colour_c": new DotDisplayInput_colour_c(),
+			"size_s": new DotDisplayInput_size_s(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class DotDisplay extends ResthopperComponent {
 
 }
 
-class DotDisplayInput_Point_P extends ResthopperParameter {
+class DotDisplayInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class DotDisplayInput_Point_P extends ResthopperParameter {
 
 }
 
-class DotDisplayInput_Colour_C extends ResthopperParameter {
+class DotDisplayInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
@@ -67,7 +67,7 @@ class DotDisplayInput_Colour_C extends ResthopperParameter {
 
 }
 
-class DotDisplayInput_Size_S extends ResthopperParameter {
+class DotDisplayInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

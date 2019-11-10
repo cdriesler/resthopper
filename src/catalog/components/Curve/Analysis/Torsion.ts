@@ -15,31 +15,31 @@ export default class Torsion extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": TorsionInput_Curve_C,
-		"Parameter_t": TorsionInput_Parameter_t,
+		"curve_c": TorsionInput_curve_c,
+		"parameter_t": TorsionInput_parameter_t,
 	}
 
 	public output:
 	{
-		"Point_P": TorsionOutput_Point_P,
-		"Torsion_T": TorsionOutput_Torsion_T,
+		"point_p": TorsionOutput_point_p,
+		"torsion_t": TorsionOutput_torsion_t,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new TorsionInput_Curve_C(),
-			"Parameter_t": new TorsionInput_Parameter_t(),
+			"curve_c": new TorsionInput_curve_c(),
+			"parameter_t": new TorsionInput_parameter_t(),
 		}
 		this.output = {
-			"Point_P": new TorsionOutput_Point_P(),
-			"Torsion_T": new TorsionOutput_Torsion_T(),
+			"point_p": new TorsionOutput_point_p(),
+			"torsion_t": new TorsionOutput_torsion_t(),
 		}
 	}
 
 }
 
-class TorsionInput_Curve_C extends ResthopperParameter {
+class TorsionInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class TorsionInput_Curve_C extends ResthopperParameter {
 
 }
 
-class TorsionInput_Parameter_t extends ResthopperParameter {
+class TorsionInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
@@ -67,7 +67,7 @@ class TorsionInput_Parameter_t extends ResthopperParameter {
 
 }
 
-class TorsionOutput_Point_P extends ResthopperParameter {
+class TorsionOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class TorsionOutput_Point_P extends ResthopperParameter {
 
 }
 
-class TorsionOutput_Torsion_T extends ResthopperParameter {
+class TorsionOutput_torsion_t extends ResthopperParameter {
 
 	public name: string = "Torsion";
 	public nickName: string = "T";

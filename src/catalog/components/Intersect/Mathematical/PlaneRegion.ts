@@ -15,29 +15,29 @@ export default class PlaneRegion extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": PlaneRegionInput_Plane_P,
-		"Bounds_B": PlaneRegionInput_Bounds_B,
+		"plane_p": PlaneRegionInput_plane_p,
+		"bounds_b": PlaneRegionInput_bounds_b,
 	}
 
 	public output:
 	{
-		"Region_R": PlaneRegionOutput_Region_R,
+		"region_r": PlaneRegionOutput_region_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new PlaneRegionInput_Plane_P(),
-			"Bounds_B": new PlaneRegionInput_Bounds_B(),
+			"plane_p": new PlaneRegionInput_plane_p(),
+			"bounds_b": new PlaneRegionInput_bounds_b(),
 		}
 		this.output = {
-			"Region_R": new PlaneRegionOutput_Region_R(),
+			"region_r": new PlaneRegionOutput_region_r(),
 		}
 	}
 
 }
 
-class PlaneRegionInput_Plane_P extends ResthopperParameter {
+class PlaneRegionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class PlaneRegionInput_Plane_P extends ResthopperParameter {
 
 }
 
-class PlaneRegionInput_Bounds_B extends ResthopperParameter {
+class PlaneRegionInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class PlaneRegionInput_Bounds_B extends ResthopperParameter {
 
 }
 
-class PlaneRegionOutput_Region_R extends ResthopperParameter {
+class PlaneRegionOutput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";

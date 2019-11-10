@@ -15,29 +15,29 @@ export default class Transform extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": TransformInput_Geometry_G,
-		"Transform_T": TransformInput_Transform_T,
+		"geometry_g": TransformInput_geometry_g,
+		"transform_t": TransformInput_transform_t,
 	}
 
 	public output:
 	{
-		"Geometry_G": TransformOutput_Geometry_G,
+		"geometry_g": TransformOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new TransformInput_Geometry_G(),
-			"Transform_T": new TransformInput_Transform_T(),
+			"geometry_g": new TransformInput_geometry_g(),
+			"transform_t": new TransformInput_transform_t(),
 		}
 		this.output = {
-			"Geometry_G": new TransformOutput_Geometry_G(),
+			"geometry_g": new TransformOutput_geometry_g(),
 		}
 	}
 
 }
 
-class TransformInput_Geometry_G extends ResthopperParameter {
+class TransformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -51,7 +51,7 @@ class TransformInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class TransformInput_Transform_T extends ResthopperParameter {
+class TransformInput_transform_t extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "T";
@@ -65,7 +65,7 @@ class TransformInput_Transform_T extends ResthopperParameter {
 
 }
 
-class TransformOutput_Geometry_G extends ResthopperParameter {
+class TransformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

@@ -15,37 +15,37 @@ export default class Splop extends ResthopperComponent {
 
 	public input:
 	{
-		"Geometry_G": SplopInput_Geometry_G,
-		"Plane_P": SplopInput_Plane_P,
-		"Surface_S": SplopInput_Surface_S,
-		"Parameter_uv": SplopInput_Parameter_uv,
-		"Angle_A": SplopInput_Angle_A,
-		"Rigid_R": SplopInput_Rigid_R,
+		"geometry_g": SplopInput_geometry_g,
+		"plane_p": SplopInput_plane_p,
+		"surface_s": SplopInput_surface_s,
+		"parameter_uv": SplopInput_parameter_uv,
+		"angle_a": SplopInput_angle_a,
+		"rigid_r": SplopInput_rigid_r,
 	}
 
 	public output:
 	{
-		"Geometry_G": SplopOutput_Geometry_G,
+		"geometry_g": SplopOutput_geometry_g,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Geometry_G": new SplopInput_Geometry_G(),
-			"Plane_P": new SplopInput_Plane_P(),
-			"Surface_S": new SplopInput_Surface_S(),
-			"Parameter_uv": new SplopInput_Parameter_uv(),
-			"Angle_A": new SplopInput_Angle_A(),
-			"Rigid_R": new SplopInput_Rigid_R(),
+			"geometry_g": new SplopInput_geometry_g(),
+			"plane_p": new SplopInput_plane_p(),
+			"surface_s": new SplopInput_surface_s(),
+			"parameter_uv": new SplopInput_parameter_uv(),
+			"angle_a": new SplopInput_angle_a(),
+			"rigid_r": new SplopInput_rigid_r(),
 		}
 		this.output = {
-			"Geometry_G": new SplopOutput_Geometry_G(),
+			"geometry_g": new SplopOutput_geometry_g(),
 		}
 	}
 
 }
 
-class SplopInput_Geometry_G extends ResthopperParameter {
+class SplopInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
@@ -59,7 +59,7 @@ class SplopInput_Geometry_G extends ResthopperParameter {
 
 }
 
-class SplopInput_Plane_P extends ResthopperParameter {
+class SplopInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -73,7 +73,7 @@ class SplopInput_Plane_P extends ResthopperParameter {
 
 }
 
-class SplopInput_Surface_S extends ResthopperParameter {
+class SplopInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -87,7 +87,7 @@ class SplopInput_Surface_S extends ResthopperParameter {
 
 }
 
-class SplopInput_Parameter_uv extends ResthopperParameter {
+class SplopInput_parameter_uv extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "uv";
@@ -101,7 +101,7 @@ class SplopInput_Parameter_uv extends ResthopperParameter {
 
 }
 
-class SplopInput_Angle_A extends ResthopperParameter {
+class SplopInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
@@ -115,7 +115,7 @@ class SplopInput_Angle_A extends ResthopperParameter {
 
 }
 
-class SplopInput_Rigid_R extends ResthopperParameter {
+class SplopInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
@@ -129,7 +129,7 @@ class SplopInput_Rigid_R extends ResthopperParameter {
 
 }
 
-class SplopOutput_Geometry_G extends ResthopperParameter {
+class SplopOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";

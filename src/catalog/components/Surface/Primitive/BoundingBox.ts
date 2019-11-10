@@ -15,29 +15,29 @@ export default class BoundingBox extends ResthopperComponent {
 
 	public input:
 	{
-		"Content_C": BoundingBoxInput_Content_C,
-		"Plane_P": BoundingBoxInput_Plane_P,
+		"content_c": BoundingBoxInput_content_c,
+		"plane_p": BoundingBoxInput_plane_p,
 	}
 
 	public output:
 	{
-		"Box_B": BoundingBoxOutput_Box_B,
+		"box_b": BoundingBoxOutput_box_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Content_C": new BoundingBoxInput_Content_C(),
-			"Plane_P": new BoundingBoxInput_Plane_P(),
+			"content_c": new BoundingBoxInput_content_c(),
+			"plane_p": new BoundingBoxInput_plane_p(),
 		}
 		this.output = {
-			"Box_B": new BoundingBoxOutput_Box_B(),
+			"box_b": new BoundingBoxOutput_box_b(),
 		}
 	}
 
 }
 
-class BoundingBoxInput_Content_C extends ResthopperParameter {
+class BoundingBoxInput_content_c extends ResthopperParameter {
 
 	public name: string = "Content";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class BoundingBoxInput_Content_C extends ResthopperParameter {
 
 }
 
-class BoundingBoxInput_Plane_P extends ResthopperParameter {
+class BoundingBoxInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -65,7 +65,7 @@ class BoundingBoxInput_Plane_P extends ResthopperParameter {
 
 }
 
-class BoundingBoxOutput_Box_B extends ResthopperParameter {
+class BoundingBoxOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";

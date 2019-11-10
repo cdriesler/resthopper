@@ -15,33 +15,33 @@ export default class PerpendicularDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": PerpendicularDisplayInput_Field_F,
-		"Section_S": PerpendicularDisplayInput_Section_S,
-		"Samples_N": PerpendicularDisplayInput_Samples_N,
-		"NegativeColour_C": PerpendicularDisplayInput_NegativeColour_C,
+		"field_f": PerpendicularDisplayInput_field_f,
+		"section_s": PerpendicularDisplayInput_section_s,
+		"samples_n": PerpendicularDisplayInput_samples_n,
+		"negativecolour_c": PerpendicularDisplayInput_negativecolour_c,
 	}
 
 	public output:
 	{
-		"Display_D": PerpendicularDisplayOutput_Display_D,
+		"display_d": PerpendicularDisplayOutput_display_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new PerpendicularDisplayInput_Field_F(),
-			"Section_S": new PerpendicularDisplayInput_Section_S(),
-			"Samples_N": new PerpendicularDisplayInput_Samples_N(),
-			"NegativeColour_C": new PerpendicularDisplayInput_NegativeColour_C(),
+			"field_f": new PerpendicularDisplayInput_field_f(),
+			"section_s": new PerpendicularDisplayInput_section_s(),
+			"samples_n": new PerpendicularDisplayInput_samples_n(),
+			"negativecolour_c": new PerpendicularDisplayInput_negativecolour_c(),
 		}
 		this.output = {
-			"Display_D": new PerpendicularDisplayOutput_Display_D(),
+			"display_d": new PerpendicularDisplayOutput_display_d(),
 		}
 	}
 
 }
 
-class PerpendicularDisplayInput_Field_F extends ResthopperParameter {
+class PerpendicularDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -55,7 +55,7 @@ class PerpendicularDisplayInput_Field_F extends ResthopperParameter {
 
 }
 
-class PerpendicularDisplayInput_Section_S extends ResthopperParameter {
+class PerpendicularDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
@@ -69,7 +69,7 @@ class PerpendicularDisplayInput_Section_S extends ResthopperParameter {
 
 }
 
-class PerpendicularDisplayInput_Samples_N extends ResthopperParameter {
+class PerpendicularDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";
@@ -83,7 +83,7 @@ class PerpendicularDisplayInput_Samples_N extends ResthopperParameter {
 
 }
 
-class PerpendicularDisplayInput_NegativeColour_C extends ResthopperParameter {
+class PerpendicularDisplayInput_negativecolour_c extends ResthopperParameter {
 
 	public name: string = "NegativeColour";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class PerpendicularDisplayInput_NegativeColour_C extends ResthopperParameter {
 
 }
 
-class PerpendicularDisplayOutput_Display_D extends ResthopperParameter {
+class PerpendicularDisplayOutput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";

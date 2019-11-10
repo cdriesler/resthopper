@@ -15,9 +15,9 @@ export default class LineDimension extends ResthopperComponent {
 
 	public input:
 	{
-		"Line_L": LineDimensionInput_Line_L,
-		"Text_T": LineDimensionInput_Text_T,
-		"Size_S": LineDimensionInput_Size_S,
+		"line_l": LineDimensionInput_line_l,
+		"text_t": LineDimensionInput_text_t,
+		"size_s": LineDimensionInput_size_s,
 	}
 
 	public output:
@@ -28,9 +28,9 @@ export default class LineDimension extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Line_L": new LineDimensionInput_Line_L(),
-			"Text_T": new LineDimensionInput_Text_T(),
-			"Size_S": new LineDimensionInput_Size_S(),
+			"line_l": new LineDimensionInput_line_l(),
+			"text_t": new LineDimensionInput_text_t(),
+			"size_s": new LineDimensionInput_size_s(),
 		}
 		this.output = {
 
@@ -39,7 +39,7 @@ export default class LineDimension extends ResthopperComponent {
 
 }
 
-class LineDimensionInput_Line_L extends ResthopperParameter {
+class LineDimensionInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class LineDimensionInput_Line_L extends ResthopperParameter {
 
 }
 
-class LineDimensionInput_Text_T extends ResthopperParameter {
+class LineDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -67,7 +67,7 @@ class LineDimensionInput_Text_T extends ResthopperParameter {
 
 }
 
-class LineDimensionInput_Size_S extends ResthopperParameter {
+class LineDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";

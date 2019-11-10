@@ -15,31 +15,31 @@ export default class AlignPlane extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": AlignPlaneInput_Plane_P,
-		"Direction_D": AlignPlaneInput_Direction_D,
+		"plane_p": AlignPlaneInput_plane_p,
+		"direction_d": AlignPlaneInput_direction_d,
 	}
 
 	public output:
 	{
-		"Plane_P": AlignPlaneOutput_Plane_P,
-		"Angle_A": AlignPlaneOutput_Angle_A,
+		"plane_p": AlignPlaneOutput_plane_p,
+		"angle_a": AlignPlaneOutput_angle_a,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new AlignPlaneInput_Plane_P(),
-			"Direction_D": new AlignPlaneInput_Direction_D(),
+			"plane_p": new AlignPlaneInput_plane_p(),
+			"direction_d": new AlignPlaneInput_direction_d(),
 		}
 		this.output = {
-			"Plane_P": new AlignPlaneOutput_Plane_P(),
-			"Angle_A": new AlignPlaneOutput_Angle_A(),
+			"plane_p": new AlignPlaneOutput_plane_p(),
+			"angle_a": new AlignPlaneOutput_angle_a(),
 		}
 	}
 
 }
 
-class AlignPlaneInput_Plane_P extends ResthopperParameter {
+class AlignPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class AlignPlaneInput_Plane_P extends ResthopperParameter {
 
 }
 
-class AlignPlaneInput_Direction_D extends ResthopperParameter {
+class AlignPlaneInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class AlignPlaneInput_Direction_D extends ResthopperParameter {
 
 }
 
-class AlignPlaneOutput_Plane_P extends ResthopperParameter {
+class AlignPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class AlignPlaneOutput_Plane_P extends ResthopperParameter {
 
 }
 
-class AlignPlaneOutput_Angle_A extends ResthopperParameter {
+class AlignPlaneOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";

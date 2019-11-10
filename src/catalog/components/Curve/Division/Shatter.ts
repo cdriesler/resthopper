@@ -15,29 +15,29 @@ export default class Shatter extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": ShatterInput_Curve_C,
-		"Parameters_t": ShatterInput_Parameters_t,
+		"curve_c": ShatterInput_curve_c,
+		"parameters_t": ShatterInput_parameters_t,
 	}
 
 	public output:
 	{
-		"Segments_S": ShatterOutput_Segments_S,
+		"segments_s": ShatterOutput_segments_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new ShatterInput_Curve_C(),
-			"Parameters_t": new ShatterInput_Parameters_t(),
+			"curve_c": new ShatterInput_curve_c(),
+			"parameters_t": new ShatterInput_parameters_t(),
 		}
 		this.output = {
-			"Segments_S": new ShatterOutput_Segments_S(),
+			"segments_s": new ShatterOutput_segments_s(),
 		}
 	}
 
 }
 
-class ShatterInput_Curve_C extends ResthopperParameter {
+class ShatterInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -51,7 +51,7 @@ class ShatterInput_Curve_C extends ResthopperParameter {
 
 }
 
-class ShatterInput_Parameters_t extends ResthopperParameter {
+class ShatterInput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
@@ -65,7 +65,7 @@ class ShatterInput_Parameters_t extends ResthopperParameter {
 
 }
 
-class ShatterOutput_Segments_S extends ResthopperParameter {
+class ShatterOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";

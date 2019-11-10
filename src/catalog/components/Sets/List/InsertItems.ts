@@ -15,33 +15,33 @@ export default class InsertItems extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": InsertItemsInput_List_L,
-		"Item_I": InsertItemsInput_Item_I,
-		"Indices_i": InsertItemsInput_Indices_i,
-		"Wrap_W": InsertItemsInput_Wrap_W,
+		"list_l": InsertItemsInput_list_l,
+		"item_i": InsertItemsInput_item_i,
+		"indices_i": InsertItemsInput_indices_i,
+		"wrap_w": InsertItemsInput_wrap_w,
 	}
 
 	public output:
 	{
-		"List_L": InsertItemsOutput_List_L,
+		"list_l": InsertItemsOutput_list_l,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new InsertItemsInput_List_L(),
-			"Item_I": new InsertItemsInput_Item_I(),
-			"Indices_i": new InsertItemsInput_Indices_i(),
-			"Wrap_W": new InsertItemsInput_Wrap_W(),
+			"list_l": new InsertItemsInput_list_l(),
+			"item_i": new InsertItemsInput_item_i(),
+			"indices_i": new InsertItemsInput_indices_i(),
+			"wrap_w": new InsertItemsInput_wrap_w(),
 		}
 		this.output = {
-			"List_L": new InsertItemsOutput_List_L(),
+			"list_l": new InsertItemsOutput_list_l(),
 		}
 	}
 
 }
 
-class InsertItemsInput_List_L extends ResthopperParameter {
+class InsertItemsInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -55,7 +55,7 @@ class InsertItemsInput_List_L extends ResthopperParameter {
 
 }
 
-class InsertItemsInput_Item_I extends ResthopperParameter {
+class InsertItemsInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
@@ -69,7 +69,7 @@ class InsertItemsInput_Item_I extends ResthopperParameter {
 
 }
 
-class InsertItemsInput_Indices_i extends ResthopperParameter {
+class InsertItemsInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "i";
@@ -83,7 +83,7 @@ class InsertItemsInput_Indices_i extends ResthopperParameter {
 
 }
 
-class InsertItemsInput_Wrap_W extends ResthopperParameter {
+class InsertItemsInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
@@ -97,7 +97,7 @@ class InsertItemsInput_Wrap_W extends ResthopperParameter {
 
 }
 
-class InsertItemsOutput_List_L extends ResthopperParameter {
+class InsertItemsOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";

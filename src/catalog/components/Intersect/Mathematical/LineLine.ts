@@ -15,35 +15,35 @@ export default class LineLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Line1_A": LineLineInput_Line1_A,
-		"Line2_B": LineLineInput_Line2_B,
+		"line1_a": LineLineInput_line1_a,
+		"line2_b": LineLineInput_line2_b,
 	}
 
 	public output:
 	{
-		"ParamA_tA": LineLineOutput_ParamA_tA,
-		"ParamB_tB": LineLineOutput_ParamB_tB,
-		"PointA_pA": LineLineOutput_PointA_pA,
-		"PointB_pB": LineLineOutput_PointB_pB,
+		"parama_ta": LineLineOutput_parama_ta,
+		"paramb_tb": LineLineOutput_paramb_tb,
+		"pointa_pa": LineLineOutput_pointa_pa,
+		"pointb_pb": LineLineOutput_pointb_pb,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Line1_A": new LineLineInput_Line1_A(),
-			"Line2_B": new LineLineInput_Line2_B(),
+			"line1_a": new LineLineInput_line1_a(),
+			"line2_b": new LineLineInput_line2_b(),
 		}
 		this.output = {
-			"ParamA_tA": new LineLineOutput_ParamA_tA(),
-			"ParamB_tB": new LineLineOutput_ParamB_tB(),
-			"PointA_pA": new LineLineOutput_PointA_pA(),
-			"PointB_pB": new LineLineOutput_PointB_pB(),
+			"parama_ta": new LineLineOutput_parama_ta(),
+			"paramb_tb": new LineLineOutput_paramb_tb(),
+			"pointa_pa": new LineLineOutput_pointa_pa(),
+			"pointb_pb": new LineLineOutput_pointb_pb(),
 		}
 	}
 
 }
 
-class LineLineInput_Line1_A extends ResthopperParameter {
+class LineLineInput_line1_a extends ResthopperParameter {
 
 	public name: string = "Line1";
 	public nickName: string = "A";
@@ -57,7 +57,7 @@ class LineLineInput_Line1_A extends ResthopperParameter {
 
 }
 
-class LineLineInput_Line2_B extends ResthopperParameter {
+class LineLineInput_line2_b extends ResthopperParameter {
 
 	public name: string = "Line2";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class LineLineInput_Line2_B extends ResthopperParameter {
 
 }
 
-class LineLineOutput_ParamA_tA extends ResthopperParameter {
+class LineLineOutput_parama_ta extends ResthopperParameter {
 
 	public name: string = "ParamA";
 	public nickName: string = "tA";
@@ -85,7 +85,7 @@ class LineLineOutput_ParamA_tA extends ResthopperParameter {
 
 }
 
-class LineLineOutput_ParamB_tB extends ResthopperParameter {
+class LineLineOutput_paramb_tb extends ResthopperParameter {
 
 	public name: string = "ParamB";
 	public nickName: string = "tB";
@@ -99,7 +99,7 @@ class LineLineOutput_ParamB_tB extends ResthopperParameter {
 
 }
 
-class LineLineOutput_PointA_pA extends ResthopperParameter {
+class LineLineOutput_pointa_pa extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "pA";
@@ -113,7 +113,7 @@ class LineLineOutput_PointA_pA extends ResthopperParameter {
 
 }
 
-class LineLineOutput_PointB_pB extends ResthopperParameter {
+class LineLineOutput_pointb_pb extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "pB";

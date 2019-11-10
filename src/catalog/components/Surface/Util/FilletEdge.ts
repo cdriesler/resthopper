@@ -15,35 +15,35 @@ export default class FilletEdge extends ResthopperComponent {
 
 	public input:
 	{
-		"Shape_S": FilletEdgeInput_Shape_S,
-		"Blend_B": FilletEdgeInput_Blend_B,
-		"Metric_M": FilletEdgeInput_Metric_M,
-		"Edges_E": FilletEdgeInput_Edges_E,
-		"Radii_R": FilletEdgeInput_Radii_R,
+		"shape_s": FilletEdgeInput_shape_s,
+		"blend_b": FilletEdgeInput_blend_b,
+		"metric_m": FilletEdgeInput_metric_m,
+		"edges_e": FilletEdgeInput_edges_e,
+		"radii_r": FilletEdgeInput_radii_r,
 	}
 
 	public output:
 	{
-		"Result_B": FilletEdgeOutput_Result_B,
+		"result_b": FilletEdgeOutput_result_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Shape_S": new FilletEdgeInput_Shape_S(),
-			"Blend_B": new FilletEdgeInput_Blend_B(),
-			"Metric_M": new FilletEdgeInput_Metric_M(),
-			"Edges_E": new FilletEdgeInput_Edges_E(),
-			"Radii_R": new FilletEdgeInput_Radii_R(),
+			"shape_s": new FilletEdgeInput_shape_s(),
+			"blend_b": new FilletEdgeInput_blend_b(),
+			"metric_m": new FilletEdgeInput_metric_m(),
+			"edges_e": new FilletEdgeInput_edges_e(),
+			"radii_r": new FilletEdgeInput_radii_r(),
 		}
 		this.output = {
-			"Result_B": new FilletEdgeOutput_Result_B(),
+			"result_b": new FilletEdgeOutput_result_b(),
 		}
 	}
 
 }
 
-class FilletEdgeInput_Shape_S extends ResthopperParameter {
+class FilletEdgeInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
@@ -57,7 +57,7 @@ class FilletEdgeInput_Shape_S extends ResthopperParameter {
 
 }
 
-class FilletEdgeInput_Blend_B extends ResthopperParameter {
+class FilletEdgeInput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";
@@ -71,7 +71,7 @@ class FilletEdgeInput_Blend_B extends ResthopperParameter {
 
 }
 
-class FilletEdgeInput_Metric_M extends ResthopperParameter {
+class FilletEdgeInput_metric_m extends ResthopperParameter {
 
 	public name: string = "Metric";
 	public nickName: string = "M";
@@ -85,7 +85,7 @@ class FilletEdgeInput_Metric_M extends ResthopperParameter {
 
 }
 
-class FilletEdgeInput_Edges_E extends ResthopperParameter {
+class FilletEdgeInput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
@@ -99,7 +99,7 @@ class FilletEdgeInput_Edges_E extends ResthopperParameter {
 
 }
 
-class FilletEdgeInput_Radii_R extends ResthopperParameter {
+class FilletEdgeInput_radii_r extends ResthopperParameter {
 
 	public name: string = "Radii";
 	public nickName: string = "R";
@@ -113,7 +113,7 @@ class FilletEdgeInput_Radii_R extends ResthopperParameter {
 
 }
 
-class FilletEdgeOutput_Result_B extends ResthopperParameter {
+class FilletEdgeOutput_result_b extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "B";

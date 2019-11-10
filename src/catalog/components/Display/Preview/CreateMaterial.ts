@@ -15,35 +15,35 @@ export default class CreateMaterial extends ResthopperComponent {
 
 	public input:
 	{
-		"Diffuse_Kd": CreateMaterialInput_Diffuse_Kd,
-		"Specular_Ks": CreateMaterialInput_Specular_Ks,
-		"Emission_Ke": CreateMaterialInput_Emission_Ke,
-		"Transparency_T": CreateMaterialInput_Transparency_T,
-		"Shine_S": CreateMaterialInput_Shine_S,
+		"diffuse_kd": CreateMaterialInput_diffuse_kd,
+		"specular_ks": CreateMaterialInput_specular_ks,
+		"emission_ke": CreateMaterialInput_emission_ke,
+		"transparency_t": CreateMaterialInput_transparency_t,
+		"shine_s": CreateMaterialInput_shine_s,
 	}
 
 	public output:
 	{
-		"Material_M": CreateMaterialOutput_Material_M,
+		"material_m": CreateMaterialOutput_material_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Diffuse_Kd": new CreateMaterialInput_Diffuse_Kd(),
-			"Specular_Ks": new CreateMaterialInput_Specular_Ks(),
-			"Emission_Ke": new CreateMaterialInput_Emission_Ke(),
-			"Transparency_T": new CreateMaterialInput_Transparency_T(),
-			"Shine_S": new CreateMaterialInput_Shine_S(),
+			"diffuse_kd": new CreateMaterialInput_diffuse_kd(),
+			"specular_ks": new CreateMaterialInput_specular_ks(),
+			"emission_ke": new CreateMaterialInput_emission_ke(),
+			"transparency_t": new CreateMaterialInput_transparency_t(),
+			"shine_s": new CreateMaterialInput_shine_s(),
 		}
 		this.output = {
-			"Material_M": new CreateMaterialOutput_Material_M(),
+			"material_m": new CreateMaterialOutput_material_m(),
 		}
 	}
 
 }
 
-class CreateMaterialInput_Diffuse_Kd extends ResthopperParameter {
+class CreateMaterialInput_diffuse_kd extends ResthopperParameter {
 
 	public name: string = "Diffuse";
 	public nickName: string = "Kd";
@@ -57,7 +57,7 @@ class CreateMaterialInput_Diffuse_Kd extends ResthopperParameter {
 
 }
 
-class CreateMaterialInput_Specular_Ks extends ResthopperParameter {
+class CreateMaterialInput_specular_ks extends ResthopperParameter {
 
 	public name: string = "Specular";
 	public nickName: string = "Ks";
@@ -71,7 +71,7 @@ class CreateMaterialInput_Specular_Ks extends ResthopperParameter {
 
 }
 
-class CreateMaterialInput_Emission_Ke extends ResthopperParameter {
+class CreateMaterialInput_emission_ke extends ResthopperParameter {
 
 	public name: string = "Emission";
 	public nickName: string = "Ke";
@@ -85,7 +85,7 @@ class CreateMaterialInput_Emission_Ke extends ResthopperParameter {
 
 }
 
-class CreateMaterialInput_Transparency_T extends ResthopperParameter {
+class CreateMaterialInput_transparency_t extends ResthopperParameter {
 
 	public name: string = "Transparency";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class CreateMaterialInput_Transparency_T extends ResthopperParameter {
 
 }
 
-class CreateMaterialInput_Shine_S extends ResthopperParameter {
+class CreateMaterialInput_shine_s extends ResthopperParameter {
 
 	public name: string = "Shine";
 	public nickName: string = "S";
@@ -113,7 +113,7 @@ class CreateMaterialInput_Shine_S extends ResthopperParameter {
 
 }
 
-class CreateMaterialOutput_Material_M extends ResthopperParameter {
+class CreateMaterialOutput_material_m extends ResthopperParameter {
 
 	public name: string = "Material";
 	public nickName: string = "M";

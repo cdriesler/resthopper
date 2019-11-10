@@ -15,29 +15,29 @@ export default class SetDifference extends ResthopperComponent {
 
 	public input:
 	{
-		"SetA_A": SetDifferenceInput_SetA_A,
-		"SetB_B": SetDifferenceInput_SetB_B,
+		"seta_a": SetDifferenceInput_seta_a,
+		"setb_b": SetDifferenceInput_setb_b,
 	}
 
 	public output:
 	{
-		"Union_U": SetDifferenceOutput_Union_U,
+		"union_u": SetDifferenceOutput_union_u,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SetA_A": new SetDifferenceInput_SetA_A(),
-			"SetB_B": new SetDifferenceInput_SetB_B(),
+			"seta_a": new SetDifferenceInput_seta_a(),
+			"setb_b": new SetDifferenceInput_setb_b(),
 		}
 		this.output = {
-			"Union_U": new SetDifferenceOutput_Union_U(),
+			"union_u": new SetDifferenceOutput_union_u(),
 		}
 	}
 
 }
 
-class SetDifferenceInput_SetA_A extends ResthopperParameter {
+class SetDifferenceInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
@@ -51,7 +51,7 @@ class SetDifferenceInput_SetA_A extends ResthopperParameter {
 
 }
 
-class SetDifferenceInput_SetB_B extends ResthopperParameter {
+class SetDifferenceInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
@@ -65,7 +65,7 @@ class SetDifferenceInput_SetB_B extends ResthopperParameter {
 
 }
 
-class SetDifferenceOutput_Union_U extends ResthopperParameter {
+class SetDifferenceOutput_union_u extends ResthopperParameter {
 
 	public name: string = "Union";
 	public nickName: string = "U";

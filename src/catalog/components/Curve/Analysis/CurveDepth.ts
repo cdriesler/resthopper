@@ -15,37 +15,37 @@ export default class CurveDepth extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": CurveDepthInput_Curve_C,
-		"Minimum_Min": CurveDepthInput_Minimum_Min,
-		"Maximum_Max": CurveDepthInput_Maximum_Max,
+		"curve_c": CurveDepthInput_curve_c,
+		"minimum_min": CurveDepthInput_minimum_min,
+		"maximum_max": CurveDepthInput_maximum_max,
 	}
 
 	public output:
 	{
-		"MinimumParameter_tMin": CurveDepthOutput_MinimumParameter_tMin,
-		"MinimumDepth_dMin": CurveDepthOutput_MinimumDepth_dMin,
-		"MaximumParameter_tMax": CurveDepthOutput_MaximumParameter_tMax,
-		"MaximumDepth_dMax": CurveDepthOutput_MaximumDepth_dMax,
+		"minimumparameter_tmin": CurveDepthOutput_minimumparameter_tmin,
+		"minimumdepth_dmin": CurveDepthOutput_minimumdepth_dmin,
+		"maximumparameter_tmax": CurveDepthOutput_maximumparameter_tmax,
+		"maximumdepth_dmax": CurveDepthOutput_maximumdepth_dmax,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new CurveDepthInput_Curve_C(),
-			"Minimum_Min": new CurveDepthInput_Minimum_Min(),
-			"Maximum_Max": new CurveDepthInput_Maximum_Max(),
+			"curve_c": new CurveDepthInput_curve_c(),
+			"minimum_min": new CurveDepthInput_minimum_min(),
+			"maximum_max": new CurveDepthInput_maximum_max(),
 		}
 		this.output = {
-			"MinimumParameter_tMin": new CurveDepthOutput_MinimumParameter_tMin(),
-			"MinimumDepth_dMin": new CurveDepthOutput_MinimumDepth_dMin(),
-			"MaximumParameter_tMax": new CurveDepthOutput_MaximumParameter_tMax(),
-			"MaximumDepth_dMax": new CurveDepthOutput_MaximumDepth_dMax(),
+			"minimumparameter_tmin": new CurveDepthOutput_minimumparameter_tmin(),
+			"minimumdepth_dmin": new CurveDepthOutput_minimumdepth_dmin(),
+			"maximumparameter_tmax": new CurveDepthOutput_maximumparameter_tmax(),
+			"maximumdepth_dmax": new CurveDepthOutput_maximumdepth_dmax(),
 		}
 	}
 
 }
 
-class CurveDepthInput_Curve_C extends ResthopperParameter {
+class CurveDepthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -59,7 +59,7 @@ class CurveDepthInput_Curve_C extends ResthopperParameter {
 
 }
 
-class CurveDepthInput_Minimum_Min extends ResthopperParameter {
+class CurveDepthInput_minimum_min extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "Min";
@@ -73,7 +73,7 @@ class CurveDepthInput_Minimum_Min extends ResthopperParameter {
 
 }
 
-class CurveDepthInput_Maximum_Max extends ResthopperParameter {
+class CurveDepthInput_maximum_max extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "Max";
@@ -87,7 +87,7 @@ class CurveDepthInput_Maximum_Max extends ResthopperParameter {
 
 }
 
-class CurveDepthOutput_MinimumParameter_tMin extends ResthopperParameter {
+class CurveDepthOutput_minimumparameter_tmin extends ResthopperParameter {
 
 	public name: string = "MinimumParameter";
 	public nickName: string = "tMin";
@@ -101,7 +101,7 @@ class CurveDepthOutput_MinimumParameter_tMin extends ResthopperParameter {
 
 }
 
-class CurveDepthOutput_MinimumDepth_dMin extends ResthopperParameter {
+class CurveDepthOutput_minimumdepth_dmin extends ResthopperParameter {
 
 	public name: string = "MinimumDepth";
 	public nickName: string = "dMin";
@@ -115,7 +115,7 @@ class CurveDepthOutput_MinimumDepth_dMin extends ResthopperParameter {
 
 }
 
-class CurveDepthOutput_MaximumParameter_tMax extends ResthopperParameter {
+class CurveDepthOutput_maximumparameter_tmax extends ResthopperParameter {
 
 	public name: string = "MaximumParameter";
 	public nickName: string = "tMax";
@@ -129,7 +129,7 @@ class CurveDepthOutput_MaximumParameter_tMax extends ResthopperParameter {
 
 }
 
-class CurveDepthOutput_MaximumDepth_dMax extends ResthopperParameter {
+class CurveDepthOutput_maximumdepth_dmax extends ResthopperParameter {
 
 	public name: string = "MaximumDepth";
 	public nickName: string = "dMax";

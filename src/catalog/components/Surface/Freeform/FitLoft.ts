@@ -15,33 +15,33 @@ export default class FitLoft extends ResthopperComponent {
 
 	public input:
 	{
-		"Curves_C": FitLoftInput_Curves_C,
-		"CountU_Nu": FitLoftInput_CountU_Nu,
-		"DegreeU_Du": FitLoftInput_DegreeU_Du,
-		"DegreeV_Dv": FitLoftInput_DegreeV_Dv,
+		"curves_c": FitLoftInput_curves_c,
+		"countu_nu": FitLoftInput_countu_nu,
+		"degreeu_du": FitLoftInput_degreeu_du,
+		"degreev_dv": FitLoftInput_degreev_dv,
 	}
 
 	public output:
 	{
-		"Surface_S": FitLoftOutput_Surface_S,
+		"surface_s": FitLoftOutput_surface_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curves_C": new FitLoftInput_Curves_C(),
-			"CountU_Nu": new FitLoftInput_CountU_Nu(),
-			"DegreeU_Du": new FitLoftInput_DegreeU_Du(),
-			"DegreeV_Dv": new FitLoftInput_DegreeV_Dv(),
+			"curves_c": new FitLoftInput_curves_c(),
+			"countu_nu": new FitLoftInput_countu_nu(),
+			"degreeu_du": new FitLoftInput_degreeu_du(),
+			"degreev_dv": new FitLoftInput_degreev_dv(),
 		}
 		this.output = {
-			"Surface_S": new FitLoftOutput_Surface_S(),
+			"surface_s": new FitLoftOutput_surface_s(),
 		}
 	}
 
 }
 
-class FitLoftInput_Curves_C extends ResthopperParameter {
+class FitLoftInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
@@ -55,7 +55,7 @@ class FitLoftInput_Curves_C extends ResthopperParameter {
 
 }
 
-class FitLoftInput_CountU_Nu extends ResthopperParameter {
+class FitLoftInput_countu_nu extends ResthopperParameter {
 
 	public name: string = "CountU";
 	public nickName: string = "Nu";
@@ -69,7 +69,7 @@ class FitLoftInput_CountU_Nu extends ResthopperParameter {
 
 }
 
-class FitLoftInput_DegreeU_Du extends ResthopperParameter {
+class FitLoftInput_degreeu_du extends ResthopperParameter {
 
 	public name: string = "DegreeU";
 	public nickName: string = "Du";
@@ -83,7 +83,7 @@ class FitLoftInput_DegreeU_Du extends ResthopperParameter {
 
 }
 
-class FitLoftInput_DegreeV_Dv extends ResthopperParameter {
+class FitLoftInput_degreev_dv extends ResthopperParameter {
 
 	public name: string = "DegreeV";
 	public nickName: string = "Dv";
@@ -97,7 +97,7 @@ class FitLoftInput_DegreeV_Dv extends ResthopperParameter {
 
 }
 
-class FitLoftOutput_Surface_S extends ResthopperParameter {
+class FitLoftOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";

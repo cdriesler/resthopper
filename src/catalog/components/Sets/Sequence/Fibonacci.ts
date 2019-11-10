@@ -15,31 +15,31 @@ export default class Fibonacci extends ResthopperComponent {
 
 	public input:
 	{
-		"SeedA_A": FibonacciInput_SeedA_A,
-		"SeedB_B": FibonacciInput_SeedB_B,
-		"Number_N": FibonacciInput_Number_N,
+		"seeda_a": FibonacciInput_seeda_a,
+		"seedb_b": FibonacciInput_seedb_b,
+		"number_n": FibonacciInput_number_n,
 	}
 
 	public output:
 	{
-		"Series_S": FibonacciOutput_Series_S,
+		"series_s": FibonacciOutput_series_s,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SeedA_A": new FibonacciInput_SeedA_A(),
-			"SeedB_B": new FibonacciInput_SeedB_B(),
-			"Number_N": new FibonacciInput_Number_N(),
+			"seeda_a": new FibonacciInput_seeda_a(),
+			"seedb_b": new FibonacciInput_seedb_b(),
+			"number_n": new FibonacciInput_number_n(),
 		}
 		this.output = {
-			"Series_S": new FibonacciOutput_Series_S(),
+			"series_s": new FibonacciOutput_series_s(),
 		}
 	}
 
 }
 
-class FibonacciInput_SeedA_A extends ResthopperParameter {
+class FibonacciInput_seeda_a extends ResthopperParameter {
 
 	public name: string = "SeedA";
 	public nickName: string = "A";
@@ -53,7 +53,7 @@ class FibonacciInput_SeedA_A extends ResthopperParameter {
 
 }
 
-class FibonacciInput_SeedB_B extends ResthopperParameter {
+class FibonacciInput_seedb_b extends ResthopperParameter {
 
 	public name: string = "SeedB";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class FibonacciInput_SeedB_B extends ResthopperParameter {
 
 }
 
-class FibonacciInput_Number_N extends ResthopperParameter {
+class FibonacciInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
@@ -81,7 +81,7 @@ class FibonacciInput_Number_N extends ResthopperParameter {
 
 }
 
-class FibonacciOutput_Series_S extends ResthopperParameter {
+class FibonacciOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";

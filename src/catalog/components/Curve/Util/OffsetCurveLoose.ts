@@ -15,31 +15,31 @@ export default class OffsetCurveLoose extends ResthopperComponent {
 
 	public input:
 	{
-		"Curve_C": OffsetCurveLooseInput_Curve_C,
-		"Distance_D": OffsetCurveLooseInput_Distance_D,
-		"Plane_P": OffsetCurveLooseInput_Plane_P,
+		"curve_c": OffsetCurveLooseInput_curve_c,
+		"distance_d": OffsetCurveLooseInput_distance_d,
+		"plane_p": OffsetCurveLooseInput_plane_p,
 	}
 
 	public output:
 	{
-		"Curve_C": OffsetCurveLooseOutput_Curve_C,
+		"curve_c": OffsetCurveLooseOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Curve_C": new OffsetCurveLooseInput_Curve_C(),
-			"Distance_D": new OffsetCurveLooseInput_Distance_D(),
-			"Plane_P": new OffsetCurveLooseInput_Plane_P(),
+			"curve_c": new OffsetCurveLooseInput_curve_c(),
+			"distance_d": new OffsetCurveLooseInput_distance_d(),
+			"plane_p": new OffsetCurveLooseInput_plane_p(),
 		}
 		this.output = {
-			"Curve_C": new OffsetCurveLooseOutput_Curve_C(),
+			"curve_c": new OffsetCurveLooseOutput_curve_c(),
 		}
 	}
 
 }
 
-class OffsetCurveLooseInput_Curve_C extends ResthopperParameter {
+class OffsetCurveLooseInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
@@ -53,7 +53,7 @@ class OffsetCurveLooseInput_Curve_C extends ResthopperParameter {
 
 }
 
-class OffsetCurveLooseInput_Distance_D extends ResthopperParameter {
+class OffsetCurveLooseInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -67,7 +67,7 @@ class OffsetCurveLooseInput_Distance_D extends ResthopperParameter {
 
 }
 
-class OffsetCurveLooseInput_Plane_P extends ResthopperParameter {
+class OffsetCurveLooseInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -81,7 +81,7 @@ class OffsetCurveLooseInput_Plane_P extends ResthopperParameter {
 
 }
 
-class OffsetCurveLooseOutput_Curve_C extends ResthopperParameter {
+class OffsetCurveLooseOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

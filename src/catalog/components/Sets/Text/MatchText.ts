@@ -15,33 +15,33 @@ export default class MatchText extends ResthopperComponent {
 
 	public input:
 	{
-		"Text_T": MatchTextInput_Text_T,
-		"Pattern_P": MatchTextInput_Pattern_P,
-		"RegEx_R": MatchTextInput_RegEx_R,
-		"Case_C": MatchTextInput_Case_C,
+		"text_t": MatchTextInput_text_t,
+		"pattern_p": MatchTextInput_pattern_p,
+		"regex_r": MatchTextInput_regex_r,
+		"case_c": MatchTextInput_case_c,
 	}
 
 	public output:
 	{
-		"Match_M": MatchTextOutput_Match_M,
+		"match_m": MatchTextOutput_match_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Text_T": new MatchTextInput_Text_T(),
-			"Pattern_P": new MatchTextInput_Pattern_P(),
-			"RegEx_R": new MatchTextInput_RegEx_R(),
-			"Case_C": new MatchTextInput_Case_C(),
+			"text_t": new MatchTextInput_text_t(),
+			"pattern_p": new MatchTextInput_pattern_p(),
+			"regex_r": new MatchTextInput_regex_r(),
+			"case_c": new MatchTextInput_case_c(),
 		}
 		this.output = {
-			"Match_M": new MatchTextOutput_Match_M(),
+			"match_m": new MatchTextOutput_match_m(),
 		}
 	}
 
 }
 
-class MatchTextInput_Text_T extends ResthopperParameter {
+class MatchTextInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
@@ -55,7 +55,7 @@ class MatchTextInput_Text_T extends ResthopperParameter {
 
 }
 
-class MatchTextInput_Pattern_P extends ResthopperParameter {
+class MatchTextInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
@@ -69,7 +69,7 @@ class MatchTextInput_Pattern_P extends ResthopperParameter {
 
 }
 
-class MatchTextInput_RegEx_R extends ResthopperParameter {
+class MatchTextInput_regex_r extends ResthopperParameter {
 
 	public name: string = "RegEx";
 	public nickName: string = "R";
@@ -83,7 +83,7 @@ class MatchTextInput_RegEx_R extends ResthopperParameter {
 
 }
 
-class MatchTextInput_Case_C extends ResthopperParameter {
+class MatchTextInput_case_c extends ResthopperParameter {
 
 	public name: string = "Case";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class MatchTextInput_Case_C extends ResthopperParameter {
 
 }
 
-class MatchTextOutput_Match_M extends ResthopperParameter {
+class MatchTextOutput_match_m extends ResthopperParameter {
 
 	public name: string = "Match";
 	public nickName: string = "M";

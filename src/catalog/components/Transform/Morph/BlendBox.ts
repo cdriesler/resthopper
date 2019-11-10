@@ -15,33 +15,33 @@ export default class BlendBox extends ResthopperComponent {
 
 	public input:
 	{
-		"SurfaceA_Sa": BlendBoxInput_SurfaceA_Sa,
-		"DomainA_Da": BlendBoxInput_DomainA_Da,
-		"SurfaceB_Sb": BlendBoxInput_SurfaceB_Sb,
-		"DomainB_Db": BlendBoxInput_DomainB_Db,
+		"surfacea_sa": BlendBoxInput_surfacea_sa,
+		"domaina_da": BlendBoxInput_domaina_da,
+		"surfaceb_sb": BlendBoxInput_surfaceb_sb,
+		"domainb_db": BlendBoxInput_domainb_db,
 	}
 
 	public output:
 	{
-		"TwistedBox_B": BlendBoxOutput_TwistedBox_B,
+		"twistedbox_b": BlendBoxOutput_twistedbox_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"SurfaceA_Sa": new BlendBoxInput_SurfaceA_Sa(),
-			"DomainA_Da": new BlendBoxInput_DomainA_Da(),
-			"SurfaceB_Sb": new BlendBoxInput_SurfaceB_Sb(),
-			"DomainB_Db": new BlendBoxInput_DomainB_Db(),
+			"surfacea_sa": new BlendBoxInput_surfacea_sa(),
+			"domaina_da": new BlendBoxInput_domaina_da(),
+			"surfaceb_sb": new BlendBoxInput_surfaceb_sb(),
+			"domainb_db": new BlendBoxInput_domainb_db(),
 		}
 		this.output = {
-			"TwistedBox_B": new BlendBoxOutput_TwistedBox_B(),
+			"twistedbox_b": new BlendBoxOutput_twistedbox_b(),
 		}
 	}
 
 }
 
-class BlendBoxInput_SurfaceA_Sa extends ResthopperParameter {
+class BlendBoxInput_surfacea_sa extends ResthopperParameter {
 
 	public name: string = "SurfaceA";
 	public nickName: string = "Sa";
@@ -55,7 +55,7 @@ class BlendBoxInput_SurfaceA_Sa extends ResthopperParameter {
 
 }
 
-class BlendBoxInput_DomainA_Da extends ResthopperParameter {
+class BlendBoxInput_domaina_da extends ResthopperParameter {
 
 	public name: string = "DomainA";
 	public nickName: string = "Da";
@@ -69,7 +69,7 @@ class BlendBoxInput_DomainA_Da extends ResthopperParameter {
 
 }
 
-class BlendBoxInput_SurfaceB_Sb extends ResthopperParameter {
+class BlendBoxInput_surfaceb_sb extends ResthopperParameter {
 
 	public name: string = "SurfaceB";
 	public nickName: string = "Sb";
@@ -83,7 +83,7 @@ class BlendBoxInput_SurfaceB_Sb extends ResthopperParameter {
 
 }
 
-class BlendBoxInput_DomainB_Db extends ResthopperParameter {
+class BlendBoxInput_domainb_db extends ResthopperParameter {
 
 	public name: string = "DomainB";
 	public nickName: string = "Db";
@@ -97,7 +97,7 @@ class BlendBoxInput_DomainB_Db extends ResthopperParameter {
 
 }
 
-class BlendBoxOutput_TwistedBox_B extends ResthopperParameter {
+class BlendBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";

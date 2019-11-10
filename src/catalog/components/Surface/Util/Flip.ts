@@ -15,31 +15,31 @@ export default class Flip extends ResthopperComponent {
 
 	public input:
 	{
-		"Surface_S": FlipInput_Surface_S,
-		"Guide_G": FlipInput_Guide_G,
+		"surface_s": FlipInput_surface_s,
+		"guide_g": FlipInput_guide_g,
 	}
 
 	public output:
 	{
-		"Surface_S": FlipOutput_Surface_S,
-		"Result_R": FlipOutput_Result_R,
+		"surface_s": FlipOutput_surface_s,
+		"result_r": FlipOutput_result_r,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Surface_S": new FlipInput_Surface_S(),
-			"Guide_G": new FlipInput_Guide_G(),
+			"surface_s": new FlipInput_surface_s(),
+			"guide_g": new FlipInput_guide_g(),
 		}
 		this.output = {
-			"Surface_S": new FlipOutput_Surface_S(),
-			"Result_R": new FlipOutput_Result_R(),
+			"surface_s": new FlipOutput_surface_s(),
+			"result_r": new FlipOutput_result_r(),
 		}
 	}
 
 }
 
-class FlipInput_Surface_S extends ResthopperParameter {
+class FlipInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -53,7 +53,7 @@ class FlipInput_Surface_S extends ResthopperParameter {
 
 }
 
-class FlipInput_Guide_G extends ResthopperParameter {
+class FlipInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
@@ -67,7 +67,7 @@ class FlipInput_Guide_G extends ResthopperParameter {
 
 }
 
-class FlipOutput_Surface_S extends ResthopperParameter {
+class FlipOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
@@ -81,7 +81,7 @@ class FlipOutput_Surface_S extends ResthopperParameter {
 
 }
 
-class FlipOutput_Result_R extends ResthopperParameter {
+class FlipOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";

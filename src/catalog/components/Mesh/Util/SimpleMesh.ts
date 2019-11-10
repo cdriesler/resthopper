@@ -15,27 +15,27 @@ export default class SimpleMesh extends ResthopperComponent {
 
 	public input:
 	{
-		"Brep_B": SimpleMeshInput_Brep_B,
+		"brep_b": SimpleMeshInput_brep_b,
 	}
 
 	public output:
 	{
-		"Mesh_M": SimpleMeshOutput_Mesh_M,
+		"mesh_m": SimpleMeshOutput_mesh_m,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Brep_B": new SimpleMeshInput_Brep_B(),
+			"brep_b": new SimpleMeshInput_brep_b(),
 		}
 		this.output = {
-			"Mesh_M": new SimpleMeshOutput_Mesh_M(),
+			"mesh_m": new SimpleMeshOutput_mesh_m(),
 		}
 	}
 
 }
 
-class SimpleMeshInput_Brep_B extends ResthopperParameter {
+class SimpleMeshInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
@@ -49,7 +49,7 @@ class SimpleMeshInput_Brep_B extends ResthopperParameter {
 
 }
 
-class SimpleMeshOutput_Mesh_M extends ResthopperParameter {
+class SimpleMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";

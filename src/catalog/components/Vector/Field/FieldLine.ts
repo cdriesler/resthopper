@@ -15,35 +15,35 @@ export default class FieldLine extends ResthopperComponent {
 
 	public input:
 	{
-		"Field_F": FieldLineInput_Field_F,
-		"Point_P": FieldLineInput_Point_P,
-		"Steps_N": FieldLineInput_Steps_N,
-		"Accuracy_A": FieldLineInput_Accuracy_A,
-		"Method_M": FieldLineInput_Method_M,
+		"field_f": FieldLineInput_field_f,
+		"point_p": FieldLineInput_point_p,
+		"steps_n": FieldLineInput_steps_n,
+		"accuracy_a": FieldLineInput_accuracy_a,
+		"method_m": FieldLineInput_method_m,
 	}
 
 	public output:
 	{
-		"Curve_C": FieldLineOutput_Curve_C,
+		"curve_c": FieldLineOutput_curve_c,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Field_F": new FieldLineInput_Field_F(),
-			"Point_P": new FieldLineInput_Point_P(),
-			"Steps_N": new FieldLineInput_Steps_N(),
-			"Accuracy_A": new FieldLineInput_Accuracy_A(),
-			"Method_M": new FieldLineInput_Method_M(),
+			"field_f": new FieldLineInput_field_f(),
+			"point_p": new FieldLineInput_point_p(),
+			"steps_n": new FieldLineInput_steps_n(),
+			"accuracy_a": new FieldLineInput_accuracy_a(),
+			"method_m": new FieldLineInput_method_m(),
 		}
 		this.output = {
-			"Curve_C": new FieldLineOutput_Curve_C(),
+			"curve_c": new FieldLineOutput_curve_c(),
 		}
 	}
 
 }
 
-class FieldLineInput_Field_F extends ResthopperParameter {
+class FieldLineInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
@@ -57,7 +57,7 @@ class FieldLineInput_Field_F extends ResthopperParameter {
 
 }
 
-class FieldLineInput_Point_P extends ResthopperParameter {
+class FieldLineInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
@@ -71,7 +71,7 @@ class FieldLineInput_Point_P extends ResthopperParameter {
 
 }
 
-class FieldLineInput_Steps_N extends ResthopperParameter {
+class FieldLineInput_steps_n extends ResthopperParameter {
 
 	public name: string = "Steps";
 	public nickName: string = "N";
@@ -85,7 +85,7 @@ class FieldLineInput_Steps_N extends ResthopperParameter {
 
 }
 
-class FieldLineInput_Accuracy_A extends ResthopperParameter {
+class FieldLineInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
@@ -99,7 +99,7 @@ class FieldLineInput_Accuracy_A extends ResthopperParameter {
 
 }
 
-class FieldLineInput_Method_M extends ResthopperParameter {
+class FieldLineInput_method_m extends ResthopperParameter {
 
 	public name: string = "Method";
 	public nickName: string = "M";
@@ -113,7 +113,7 @@ class FieldLineInput_Method_M extends ResthopperParameter {
 
 }
 
-class FieldLineOutput_Curve_C extends ResthopperParameter {
+class FieldLineOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";

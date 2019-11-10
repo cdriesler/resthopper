@@ -15,35 +15,35 @@ export default class MetaBalltCustom extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": MetaBalltCustomInput_Points_P,
-		"Charge_C": MetaBalltCustomInput_Charge_C,
-		"Plane_Pl": MetaBalltCustomInput_Plane_Pl,
-		"Threshold_T": MetaBalltCustomInput_Threshold_T,
-		"Accuracy_A": MetaBalltCustomInput_Accuracy_A,
+		"points_p": MetaBalltCustomInput_points_p,
+		"charge_c": MetaBalltCustomInput_charge_c,
+		"plane_pl": MetaBalltCustomInput_plane_pl,
+		"threshold_t": MetaBalltCustomInput_threshold_t,
+		"accuracy_a": MetaBalltCustomInput_accuracy_a,
 	}
 
 	public output:
 	{
-		"Isocurve_I": MetaBalltCustomOutput_Isocurve_I,
+		"isocurve_i": MetaBalltCustomOutput_isocurve_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new MetaBalltCustomInput_Points_P(),
-			"Charge_C": new MetaBalltCustomInput_Charge_C(),
-			"Plane_Pl": new MetaBalltCustomInput_Plane_Pl(),
-			"Threshold_T": new MetaBalltCustomInput_Threshold_T(),
-			"Accuracy_A": new MetaBalltCustomInput_Accuracy_A(),
+			"points_p": new MetaBalltCustomInput_points_p(),
+			"charge_c": new MetaBalltCustomInput_charge_c(),
+			"plane_pl": new MetaBalltCustomInput_plane_pl(),
+			"threshold_t": new MetaBalltCustomInput_threshold_t(),
+			"accuracy_a": new MetaBalltCustomInput_accuracy_a(),
 		}
 		this.output = {
-			"Isocurve_I": new MetaBalltCustomOutput_Isocurve_I(),
+			"isocurve_i": new MetaBalltCustomOutput_isocurve_i(),
 		}
 	}
 
 }
 
-class MetaBalltCustomInput_Points_P extends ResthopperParameter {
+class MetaBalltCustomInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -57,7 +57,7 @@ class MetaBalltCustomInput_Points_P extends ResthopperParameter {
 
 }
 
-class MetaBalltCustomInput_Charge_C extends ResthopperParameter {
+class MetaBalltCustomInput_charge_c extends ResthopperParameter {
 
 	public name: string = "Charge";
 	public nickName: string = "C";
@@ -71,7 +71,7 @@ class MetaBalltCustomInput_Charge_C extends ResthopperParameter {
 
 }
 
-class MetaBalltCustomInput_Plane_Pl extends ResthopperParameter {
+class MetaBalltCustomInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
@@ -85,7 +85,7 @@ class MetaBalltCustomInput_Plane_Pl extends ResthopperParameter {
 
 }
 
-class MetaBalltCustomInput_Threshold_T extends ResthopperParameter {
+class MetaBalltCustomInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
@@ -99,7 +99,7 @@ class MetaBalltCustomInput_Threshold_T extends ResthopperParameter {
 
 }
 
-class MetaBalltCustomInput_Accuracy_A extends ResthopperParameter {
+class MetaBalltCustomInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
@@ -113,7 +113,7 @@ class MetaBalltCustomInput_Accuracy_A extends ResthopperParameter {
 
 }
 
-class MetaBalltCustomOutput_Isocurve_I extends ResthopperParameter {
+class MetaBalltCustomOutput_isocurve_i extends ResthopperParameter {
 
 	public name: string = "Isocurve";
 	public nickName: string = "I";

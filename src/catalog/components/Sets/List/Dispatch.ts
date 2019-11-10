@@ -15,31 +15,31 @@ export default class Dispatch extends ResthopperComponent {
 
 	public input:
 	{
-		"List_L": DispatchInput_List_L,
-		"Dispatchpattern_P": DispatchInput_Dispatchpattern_P,
+		"list_l": DispatchInput_list_l,
+		"dispatchpattern_p": DispatchInput_dispatchpattern_p,
 	}
 
 	public output:
 	{
-		"ListA_A": DispatchOutput_ListA_A,
-		"ListB_B": DispatchOutput_ListB_B,
+		"lista_a": DispatchOutput_lista_a,
+		"listb_b": DispatchOutput_listb_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"List_L": new DispatchInput_List_L(),
-			"Dispatchpattern_P": new DispatchInput_Dispatchpattern_P(),
+			"list_l": new DispatchInput_list_l(),
+			"dispatchpattern_p": new DispatchInput_dispatchpattern_p(),
 		}
 		this.output = {
-			"ListA_A": new DispatchOutput_ListA_A(),
-			"ListB_B": new DispatchOutput_ListB_B(),
+			"lista_a": new DispatchOutput_lista_a(),
+			"listb_b": new DispatchOutput_listb_b(),
 		}
 	}
 
 }
 
-class DispatchInput_List_L extends ResthopperParameter {
+class DispatchInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
@@ -53,7 +53,7 @@ class DispatchInput_List_L extends ResthopperParameter {
 
 }
 
-class DispatchInput_Dispatchpattern_P extends ResthopperParameter {
+class DispatchInput_dispatchpattern_p extends ResthopperParameter {
 
 	public name: string = "Dispatchpattern";
 	public nickName: string = "P";
@@ -67,7 +67,7 @@ class DispatchInput_Dispatchpattern_P extends ResthopperParameter {
 
 }
 
-class DispatchOutput_ListA_A extends ResthopperParameter {
+class DispatchOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
@@ -81,7 +81,7 @@ class DispatchOutput_ListA_A extends ResthopperParameter {
 
 }
 
-class DispatchOutput_ListB_B extends ResthopperParameter {
+class DispatchOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";

@@ -15,37 +15,37 @@ export default class IsoVist extends ResthopperComponent {
 
 	public input:
 	{
-		"Plane_P": IsoVistInput_Plane_P,
-		"Count_N": IsoVistInput_Count_N,
-		"Radius_R": IsoVistInput_Radius_R,
-		"Obstacles_O": IsoVistInput_Obstacles_O,
+		"plane_p": IsoVistInput_plane_p,
+		"count_n": IsoVistInput_count_n,
+		"radius_r": IsoVistInput_radius_r,
+		"obstacles_o": IsoVistInput_obstacles_o,
 	}
 
 	public output:
 	{
-		"Points_P": IsoVistOutput_Points_P,
-		"Distance_D": IsoVistOutput_Distance_D,
-		"Index_I": IsoVistOutput_Index_I,
+		"points_p": IsoVistOutput_points_p,
+		"distance_d": IsoVistOutput_distance_d,
+		"index_i": IsoVistOutput_index_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Plane_P": new IsoVistInput_Plane_P(),
-			"Count_N": new IsoVistInput_Count_N(),
-			"Radius_R": new IsoVistInput_Radius_R(),
-			"Obstacles_O": new IsoVistInput_Obstacles_O(),
+			"plane_p": new IsoVistInput_plane_p(),
+			"count_n": new IsoVistInput_count_n(),
+			"radius_r": new IsoVistInput_radius_r(),
+			"obstacles_o": new IsoVistInput_obstacles_o(),
 		}
 		this.output = {
-			"Points_P": new IsoVistOutput_Points_P(),
-			"Distance_D": new IsoVistOutput_Distance_D(),
-			"Index_I": new IsoVistOutput_Index_I(),
+			"points_p": new IsoVistOutput_points_p(),
+			"distance_d": new IsoVistOutput_distance_d(),
+			"index_i": new IsoVistOutput_index_i(),
 		}
 	}
 
 }
 
-class IsoVistInput_Plane_P extends ResthopperParameter {
+class IsoVistInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
@@ -59,7 +59,7 @@ class IsoVistInput_Plane_P extends ResthopperParameter {
 
 }
 
-class IsoVistInput_Count_N extends ResthopperParameter {
+class IsoVistInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
@@ -73,7 +73,7 @@ class IsoVistInput_Count_N extends ResthopperParameter {
 
 }
 
-class IsoVistInput_Radius_R extends ResthopperParameter {
+class IsoVistInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
@@ -87,7 +87,7 @@ class IsoVistInput_Radius_R extends ResthopperParameter {
 
 }
 
-class IsoVistInput_Obstacles_O extends ResthopperParameter {
+class IsoVistInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
@@ -101,7 +101,7 @@ class IsoVistInput_Obstacles_O extends ResthopperParameter {
 
 }
 
-class IsoVistOutput_Points_P extends ResthopperParameter {
+class IsoVistOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -115,7 +115,7 @@ class IsoVistOutput_Points_P extends ResthopperParameter {
 
 }
 
-class IsoVistOutput_Distance_D extends ResthopperParameter {
+class IsoVistOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
@@ -129,7 +129,7 @@ class IsoVistOutput_Distance_D extends ResthopperParameter {
 
 }
 
-class IsoVistOutput_Index_I extends ResthopperParameter {
+class IsoVistOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";

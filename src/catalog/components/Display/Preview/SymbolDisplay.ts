@@ -15,8 +15,8 @@ export default class SymbolDisplay extends ResthopperComponent {
 
 	public input:
 	{
-		"Location_P": SymbolDisplayInput_Location_P,
-		"Display_D": SymbolDisplayInput_Display_D,
+		"location_p": SymbolDisplayInput_location_p,
+		"display_d": SymbolDisplayInput_display_d,
 	}
 
 	public output:
@@ -27,8 +27,8 @@ export default class SymbolDisplay extends ResthopperComponent {
 	constructor() {
 		super();
 		this.input = {
-			"Location_P": new SymbolDisplayInput_Location_P(),
-			"Display_D": new SymbolDisplayInput_Display_D(),
+			"location_p": new SymbolDisplayInput_location_p(),
+			"display_d": new SymbolDisplayInput_display_d(),
 		}
 		this.output = {
 
@@ -37,7 +37,7 @@ export default class SymbolDisplay extends ResthopperComponent {
 
 }
 
-class SymbolDisplayInput_Location_P extends ResthopperParameter {
+class SymbolDisplayInput_location_p extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "P";
@@ -51,7 +51,7 @@ class SymbolDisplayInput_Location_P extends ResthopperParameter {
 
 }
 
-class SymbolDisplayInput_Display_D extends ResthopperParameter {
+class SymbolDisplayInput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";

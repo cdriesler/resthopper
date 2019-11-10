@@ -15,31 +15,31 @@ export default class VoronoiThreeD extends ResthopperComponent {
 
 	public input:
 	{
-		"Points_P": VoronoiThreeDInput_Points_P,
-		"Box_B": VoronoiThreeDInput_Box_B,
+		"points_p": VoronoiThreeDInput_points_p,
+		"box_b": VoronoiThreeDInput_box_b,
 	}
 
 	public output:
 	{
-		"Cells_C": VoronoiThreeDOutput_Cells_C,
-		"Boundary_B": VoronoiThreeDOutput_Boundary_B,
+		"cells_c": VoronoiThreeDOutput_cells_c,
+		"boundary_b": VoronoiThreeDOutput_boundary_b,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Points_P": new VoronoiThreeDInput_Points_P(),
-			"Box_B": new VoronoiThreeDInput_Box_B(),
+			"points_p": new VoronoiThreeDInput_points_p(),
+			"box_b": new VoronoiThreeDInput_box_b(),
 		}
 		this.output = {
-			"Cells_C": new VoronoiThreeDOutput_Cells_C(),
-			"Boundary_B": new VoronoiThreeDOutput_Boundary_B(),
+			"cells_c": new VoronoiThreeDOutput_cells_c(),
+			"boundary_b": new VoronoiThreeDOutput_boundary_b(),
 		}
 	}
 
 }
 
-class VoronoiThreeDInput_Points_P extends ResthopperParameter {
+class VoronoiThreeDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
@@ -53,7 +53,7 @@ class VoronoiThreeDInput_Points_P extends ResthopperParameter {
 
 }
 
-class VoronoiThreeDInput_Box_B extends ResthopperParameter {
+class VoronoiThreeDInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
@@ -67,7 +67,7 @@ class VoronoiThreeDInput_Box_B extends ResthopperParameter {
 
 }
 
-class VoronoiThreeDOutput_Cells_C extends ResthopperParameter {
+class VoronoiThreeDOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
@@ -81,7 +81,7 @@ class VoronoiThreeDOutput_Cells_C extends ResthopperParameter {
 
 }
 
-class VoronoiThreeDOutput_Boundary_B extends ResthopperParameter {
+class VoronoiThreeDOutput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";

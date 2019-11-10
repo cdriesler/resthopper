@@ -15,33 +15,33 @@ export default class DeconstructFace extends ResthopperComponent {
 
 	public input:
 	{
-		"Face_F": DeconstructFaceInput_Face_F,
+		"face_f": DeconstructFaceInput_face_f,
 	}
 
 	public output:
 	{
-		"CornerA_A": DeconstructFaceOutput_CornerA_A,
-		"CornerB_B": DeconstructFaceOutput_CornerB_B,
-		"CornerC_C": DeconstructFaceOutput_CornerC_C,
-		"CornerD_D": DeconstructFaceOutput_CornerD_D,
+		"cornera_a": DeconstructFaceOutput_cornera_a,
+		"cornerb_b": DeconstructFaceOutput_cornerb_b,
+		"cornerc_c": DeconstructFaceOutput_cornerc_c,
+		"cornerd_d": DeconstructFaceOutput_cornerd_d,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"Face_F": new DeconstructFaceInput_Face_F(),
+			"face_f": new DeconstructFaceInput_face_f(),
 		}
 		this.output = {
-			"CornerA_A": new DeconstructFaceOutput_CornerA_A(),
-			"CornerB_B": new DeconstructFaceOutput_CornerB_B(),
-			"CornerC_C": new DeconstructFaceOutput_CornerC_C(),
-			"CornerD_D": new DeconstructFaceOutput_CornerD_D(),
+			"cornera_a": new DeconstructFaceOutput_cornera_a(),
+			"cornerb_b": new DeconstructFaceOutput_cornerb_b(),
+			"cornerc_c": new DeconstructFaceOutput_cornerc_c(),
+			"cornerd_d": new DeconstructFaceOutput_cornerd_d(),
 		}
 	}
 
 }
 
-class DeconstructFaceInput_Face_F extends ResthopperParameter {
+class DeconstructFaceInput_face_f extends ResthopperParameter {
 
 	public name: string = "Face";
 	public nickName: string = "F";
@@ -55,7 +55,7 @@ class DeconstructFaceInput_Face_F extends ResthopperParameter {
 
 }
 
-class DeconstructFaceOutput_CornerA_A extends ResthopperParameter {
+class DeconstructFaceOutput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
@@ -69,7 +69,7 @@ class DeconstructFaceOutput_CornerA_A extends ResthopperParameter {
 
 }
 
-class DeconstructFaceOutput_CornerB_B extends ResthopperParameter {
+class DeconstructFaceOutput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
@@ -83,7 +83,7 @@ class DeconstructFaceOutput_CornerB_B extends ResthopperParameter {
 
 }
 
-class DeconstructFaceOutput_CornerC_C extends ResthopperParameter {
+class DeconstructFaceOutput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
@@ -97,7 +97,7 @@ class DeconstructFaceOutput_CornerC_C extends ResthopperParameter {
 
 }
 
-class DeconstructFaceOutput_CornerD_D extends ResthopperParameter {
+class DeconstructFaceOutput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
