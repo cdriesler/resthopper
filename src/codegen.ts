@@ -285,6 +285,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
     const path = "./src/catalog/ComponentIndex.ts";
 
     var indexImports: string[] = ["import ResthopperComponent from '../models/ResthopperComponent';"];
+    var indexExports: string[] = [];
     var indexCases: string[] = [];
     var indexTypes: string[] = [];
 
@@ -296,12 +297,14 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         }
 
         const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
-        if (indexTypes.includes(className)) {
+        if (indexTypes.includes(`"${className}"`) || className == "Transform") {
             return;
         }
 
         indexTypes.push(`"${className}"`);
         indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${c.category}.${c.subCategory}.${className}();`)
+
+        indexExports.push(`import ${className} from './components/${c.category}/${c.subCategory}/${className}';`)
     });
 
     var text: string[] = [
@@ -325,6 +328,12 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         "\t\treturn this.names.map(x => this.createComponent(x as GrasshopperComponent));",
         "\t}",
         "",
+        "}",
+        "",
+        indexExports.join("\n"),
+        "",
+        "export {",
+        indexTypes.map(x => `\t${x.replace('"', "").replace('"', "")}`).join(",\n"),
         "}",
         "",
         `export type GrasshopperComponent =\n${indexTypes.join(" |\n")}`

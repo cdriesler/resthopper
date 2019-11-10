@@ -15,7 +15,6 @@ export default class ComponentIndex {
 		"FourPointSurface",
 		"Absolute",
 		"Addition",
-		"Addition",
 		"AdjustPlane",
 		"AlignedDimension",
 		"AlignPlane",
@@ -89,7 +88,6 @@ export default class ComponentIndex {
 		"Circumcentre",
 		"Clash",
 		"CleanTree",
-		"CleanTree",
 		"Closed",
 		"ClosedEdges",
 		"ClosestPoint",
@@ -118,8 +116,6 @@ export default class ComponentIndex {
 		"ConsecutiveDomains",
 		"ConstructDate",
 		"ConstructDomain",
-		"ConstructDomain",
-		"ConstructDomain",
 		"ConstructExoticDate",
 		"ConstructMatrix",
 		"ConstructMesh",
@@ -129,8 +125,6 @@ export default class ComponentIndex {
 		"ConstructSmoothTime",
 		"ConstructTime",
 		"Contour",
-		"Contour",
-		"Contourex",
 		"Contourex",
 		"ControlPointLoft",
 		"ControlPoints",
@@ -184,8 +178,6 @@ export default class ComponentIndex {
 		"DeconstructBrep",
 		"DeconstructDate",
 		"DeconstructDomain",
-		"DeconstructDomain",
-		"DeconstructDomain",
 		"DeconstructFace",
 		"DeconstructMatrix",
 		"DeconstructMesh",
@@ -212,7 +204,6 @@ export default class ComponentIndex {
 		"DivideByDeviation",
 		"DivideCurve",
 		"DivideDistance",
-		"DivideDomain",
 		"DivideDomain",
 		"DivideLength",
 		"DivideSurface",
@@ -246,7 +237,6 @@ export default class ComponentIndex {
 		"Expression",
 		"ExtendCurve",
 		"Extremes",
-		"Extremes",
 		"Extrude",
 		"ExtrudeAlong",
 		"ExtrudeAngled",
@@ -259,7 +249,6 @@ export default class ComponentIndex {
 		"Factorial",
 		"Fibonacci",
 		"FieldLine",
-		"Fillet",
 		"Fillet",
 		"FilletDistance",
 		"FilletEdge",
@@ -331,14 +320,12 @@ export default class ComponentIndex {
 		"LineCharge",
 		"LineDimension",
 		"LineLine",
-		"LineLine",
 		"LinePlane",
 		"LinePt",
 		"LineSDL",
 		"ListItem",
 		"ListLength",
 		"Loft",
-		"LoftOptions",
 		"LoftOptions",
 		"Logarithm",
 		"LogN",
@@ -357,7 +344,6 @@ export default class ComponentIndex {
 		"MatchTree",
 		"Maximum",
 		"MemberIndex",
-		"Merge",
 		"Merge",
 		"MergeZeroThree",
 		"MergeZeroFour",
@@ -383,7 +369,6 @@ export default class ComponentIndex {
 		"MeshIntersection",
 		"MeshJoin",
 		"MeshMesh",
-		"MeshPlane",
 		"MeshPlane",
 		"MeshQuad",
 		"MeshRay",
@@ -411,7 +396,6 @@ export default class ComponentIndex {
 		"MultipleCurves",
 		"Multiplication",
 		"Multiply",
-		"Naturallogarithm",
 		"Naturallogarithm",
 		"Negative",
 		"NetworkSurface",
@@ -468,7 +452,6 @@ export default class ComponentIndex {
 		"PointinCurves",
 		"PointInTrim",
 		"PointList",
-		"PointList",
 		"PointOnCurve",
 		"PointOrder",
 		"PointOriented",
@@ -489,7 +472,6 @@ export default class ComponentIndex {
 		"PowerofTwo",
 		"PowerofE",
 		"PrincipalCurvature",
-		"Project",
 		"Project",
 		"ProjectAlong",
 		"ProjectPoint",
@@ -536,7 +518,6 @@ export default class ComponentIndex {
 		"ReverseList",
 		"Revolution",
 		"RightTrigonometry",
-		"Rotate",
 		"Rotate",
 		"RotateThreeD",
 		"RotateAxis",
@@ -609,7 +590,6 @@ export default class ComponentIndex {
 		"Splop",
 		"Sporph",
 		"Square",
-		"Square",
 		"SquareRoot",
 		"StackData",
 		"StreamFilter",
@@ -666,7 +646,6 @@ export default class ComponentIndex {
 		"TextTrim",
 		"ToPolar",
 		"Torsion",
-		"Transform",
 		"TransformMatrix",
 		"TransposeMatrix",
 		"TreeBranch",
@@ -728,8 +707,6 @@ export default class ComponentIndex {
 				return new Maths.Operators.Absolute();
 			case "Addition":
 				return new Maths.Operators.Addition();
-			case "Addition":
-				return new Vector.Vector.Addition();
 			case "AdjustPlane":
 				return new Vector.Plane.AdjustPlane();
 			case "AlignedDimension":
@@ -876,8 +853,6 @@ export default class ComponentIndex {
 				return new Intersect.Physical.Clash();
 			case "CleanTree":
 				return new Sets.Tree.CleanTree();
-			case "CleanTree":
-				return new Sets.Tree.CleanTree();
 			case "Closed":
 				return new Curve.Analysis.Closed();
 			case "ClosedEdges":
@@ -934,10 +909,6 @@ export default class ComponentIndex {
 				return new Maths.Time.ConstructDate();
 			case "ConstructDomain":
 				return new Maths.Domain.ConstructDomain();
-			case "ConstructDomain":
-				return new Maths.Domain.ConstructDomain();
-			case "ConstructDomain":
-				return new Maths.Domain.ConstructDomain();
 			case "ConstructExoticDate":
 				return new Maths.Time.ConstructExoticDate();
 			case "ConstructMatrix":
@@ -956,12 +927,8 @@ export default class ComponentIndex {
 				return new Maths.Time.ConstructTime();
 			case "Contour":
 				return new Intersect.Mathematical.Contour();
-			case "Contour":
-				return new Curve.Division.Contour();
 			case "Contourex":
 				return new Intersect.Mathematical.Contourex();
-			case "Contourex":
-				return new Curve.Division.Contourex();
 			case "ControlPointLoft":
 				return new Surface.Freeform.ControlPointLoft();
 			case "ControlPoints":
@@ -1066,10 +1033,6 @@ export default class ComponentIndex {
 				return new Maths.Time.DeconstructDate();
 			case "DeconstructDomain":
 				return new Maths.Domain.DeconstructDomain();
-			case "DeconstructDomain":
-				return new Maths.Domain.DeconstructDomain();
-			case "DeconstructDomain":
-				return new Maths.Domain.DeconstructDomain();
 			case "DeconstructFace":
 				return new Mesh.Analysis.DeconstructFace();
 			case "DeconstructMatrix":
@@ -1122,8 +1085,6 @@ export default class ComponentIndex {
 				return new Curve.Division.DivideCurve();
 			case "DivideDistance":
 				return new Curve.Division.DivideDistance();
-			case "DivideDomain":
-				return new Maths.Domain.DivideDomain();
 			case "DivideDomain":
 				return new Maths.Domain.DivideDomain();
 			case "DivideLength":
@@ -1190,8 +1151,6 @@ export default class ComponentIndex {
 				return new Curve.Util.ExtendCurve();
 			case "Extremes":
 				return new Maths.Util.Extremes();
-			case "Extremes":
-				return new Curve.Analysis.Extremes();
 			case "Extrude":
 				return new Surface.Freeform.Extrude();
 			case "ExtrudeAlong":
@@ -1216,8 +1175,6 @@ export default class ComponentIndex {
 				return new Sets.Sequence.Fibonacci();
 			case "FieldLine":
 				return new Vector.Field.FieldLine();
-			case "Fillet":
-				return new Curve.Util.Fillet();
 			case "Fillet":
 				return new Curve.Util.Fillet();
 			case "FilletDistance":
@@ -1360,8 +1317,6 @@ export default class ComponentIndex {
 				return new Display.Dimensions.LineDimension();
 			case "LineLine":
 				return new Intersect.Mathematical.LineLine();
-			case "LineLine":
-				return new Vector.Plane.LineLine();
 			case "LinePlane":
 				return new Intersect.Mathematical.LinePlane();
 			case "LinePt":
@@ -1376,8 +1331,6 @@ export default class ComponentIndex {
 				return new Surface.Freeform.Loft();
 			case "LoftOptions":
 				return new Surface.Freeform.LoftOptions();
-			case "LoftOptions":
-				return new Surface.Util.LoftOptions();
 			case "Logarithm":
 				return new Maths.Polynomials.Logarithm();
 			case "LogN":
@@ -1412,8 +1365,6 @@ export default class ComponentIndex {
 				return new Maths.Util.Maximum();
 			case "MemberIndex":
 				return new Sets.Sets.MemberIndex();
-			case "Merge":
-				return new Sets.Tree.Merge();
 			case "Merge":
 				return new Sets.Tree.Merge();
 			case "MergeZeroThree":
@@ -1466,8 +1417,6 @@ export default class ComponentIndex {
 				return new Intersect.Physical.MeshMesh();
 			case "MeshPlane":
 				return new Intersect.Mathematical.MeshPlane();
-			case "MeshPlane":
-				return new Mesh.Primitive.MeshPlane();
 			case "MeshQuad":
 				return new Mesh.Primitive.MeshQuad();
 			case "MeshRay":
@@ -1522,8 +1471,6 @@ export default class ComponentIndex {
 				return new Vector.Vector.Multiply();
 			case "Naturallogarithm":
 				return new Maths.Polynomials.Naturallogarithm();
-			case "Naturallogarithm":
-				return new Maths.Util.Naturallogarithm();
 			case "Negative":
 				return new Maths.Operators.Negative();
 			case "NetworkSurface":
@@ -1634,8 +1581,6 @@ export default class ComponentIndex {
 				return new Surface.Analysis.PointInTrim();
 			case "PointList":
 				return new Display.Vector.PointList();
-			case "PointList":
-				return new Display.Vector.PointList();
 			case "PointOnCurve":
 				return new Curve.Analysis.PointOnCurve();
 			case "PointOrder":
@@ -1678,8 +1623,6 @@ export default class ComponentIndex {
 				return new Surface.Analysis.PrincipalCurvature();
 			case "Project":
 				return new Transform.Affine.Project();
-			case "Project":
-				return new Curve.Util.Project();
 			case "ProjectAlong":
 				return new Transform.Affine.ProjectAlong();
 			case "ProjectPoint":
@@ -1772,8 +1715,6 @@ export default class ComponentIndex {
 				return new Maths.Trig.RightTrigonometry();
 			case "Rotate":
 				return new Vector.Vector.Rotate();
-			case "Rotate":
-				return new Transform.Euclidean.Rotate();
 			case "RotateThreeD":
 				return new Transform.Euclidean.RotateThreeD();
 			case "RotateAxis":
@@ -1916,8 +1857,6 @@ export default class ComponentIndex {
 				return new Transform.Morph.Sporph();
 			case "Square":
 				return new Maths.Polynomials.Square();
-			case "Square":
-				return new Vector.Grid.Square();
 			case "SquareRoot":
 				return new Maths.Polynomials.SquareRoot();
 			case "StackData":
@@ -2030,8 +1969,6 @@ export default class ComponentIndex {
 				return new Vector.Point.ToPolar();
 			case "Torsion":
 				return new Curve.Analysis.Torsion();
-			case "Transform":
-				return new Transform.Util.Transform();
 			case "TransformMatrix":
 				return new Transform.Util.TransformMatrix();
 			case "TransposeMatrix":
@@ -2145,10 +2082,1383 @@ export default class ComponentIndex {
 
 }
 
+import FourPointSurface from './components/Surface/Freeform/FourPointSurface';
+import Absolute from './components/Maths/Operators/Absolute';
+import Addition from './components/Maths/Operators/Addition';
+import AdjustPlane from './components/Vector/Plane/AdjustPlane';
+import AlignedDimension from './components/Display/Dimensions/AlignedDimension';
+import AlignPlane from './components/Vector/Plane/AlignPlane';
+import AlignPlanes from './components/Vector/Plane/AlignPlanes';
+import AlignVertices from './components/Mesh/Util/AlignVertices';
+import Amplitude from './components/Vector/Vector/Amplitude';
+import Angle from './components/Vector/Vector/Angle';
+import AngularDimension from './components/Display/Dimensions/AngularDimension';
+import AngularDimensionsMesh from './components/Display/Dimensions/AngularDimensionsMesh';
+import Arc from './components/Curve/Primitive/Arc';
+import ArcThreePt from './components/Curve/Primitive/ArcThreePt';
+import ArcCosine from './components/Maths/Trig/ArcCosine';
+import ArcDimension from './components/Display/Dimensions/ArcDimension';
+import ArcSED from './components/Curve/Primitive/ArcSED';
+import ArcSine from './components/Maths/Trig/ArcSine';
+import ArcTangent from './components/Maths/Trig/ArcTangent';
+import Area from './components/Surface/Analysis/Area';
+import AreaMoments from './components/Surface/Analysis/AreaMoments';
+import Average from './components/Maths/Util/Average';
+import BarGraph from './components/Display/Graphs/BarGraph';
+import Barycentric from './components/Vector/Point/Barycentric';
+import BendDeform from './components/Transform/Morph/BendDeform';
+import BezierSpan from './components/Curve/Spline/BezierSpan';
+import BiArc from './components/Curve/Primitive/BiArc';
+import BlendBox from './components/Transform/Morph/BlendBox';
+import BlendColours from './components/Vector/Colour/BlendColours';
+import BlendCurve from './components/Curve/Spline/BlendCurve';
+import BlendCurvePt from './components/Curve/Spline/BlendCurvePt';
+import BlurMesh from './components/Mesh/Util/BlurMesh';
+import BlurNumbers from './components/Maths/Util/BlurNumbers';
+import BoundarySurfaces from './components/Surface/Freeform/BoundarySurfaces';
+import BoundaryVolume from './components/Intersect/Shape/BoundaryVolume';
+import BoundingBox from './components/Surface/Primitive/BoundingBox';
+import Bounds from './components/Maths/Domain/Bounds';
+import BoundsTwoD from './components/Maths/Domain/BoundsTwoD';
+import BoxTwoPt from './components/Surface/Primitive/BoxTwoPt';
+import BoxArray from './components/Transform/Array/BoxArray';
+import BoxCorners from './components/Surface/Analysis/BoxCorners';
+import BoxMapping from './components/Transform/Affine/BoxMapping';
+import BoxMorph from './components/Transform/Morph/BoxMorph';
+import BoxProperties from './components/Surface/Analysis/BoxProperties';
+import BoxRectangle from './components/Surface/Primitive/BoxRectangle';
+import BoxSlits from './components/Intersect/Shape/BoxSlits';
+import BreakField from './components/Vector/Field/BreakField';
+import BrepBrep from './components/Intersect/Physical/BrepBrep';
+import BrepClosestPoint from './components/Surface/Analysis/BrepClosestPoint';
+import BrepCurve from './components/Intersect/Physical/BrepCurve';
+import BrepEdges from './components/Surface/Analysis/BrepEdges';
+import BrepJoin from './components/Surface/Util/BrepJoin';
+import BrepLine from './components/Intersect/Mathematical/BrepLine';
+import BrepPlane from './components/Intersect/Mathematical/BrepPlane';
+import BrepTopology from './components/Surface/Analysis/BrepTopology';
+import BrepWireframe from './components/Surface/Analysis/BrepWireframe';
+import CameraObscura from './components/Transform/Affine/CameraObscura';
+import CapHoles from './components/Surface/Util/CapHoles';
+import CapHolesEx from './components/Surface/Util/CapHolesEx';
+import CarthesianProduct from './components/Sets/Sets/CarthesianProduct';
+import Catenary from './components/Curve/Spline/Catenary';
+import CatenaryEx from './components/Curve/Spline/CatenaryEx';
+import CenterBox from './components/Surface/Primitive/CenterBox';
+import Centroid from './components/Maths/Trig/Centroid';
+import Characters from './components/Sets/Text/Characters';
+import CharSequence from './components/Sets/Sequence/CharSequence';
+import Circle from './components/Curve/Primitive/Circle';
+import CircleThreePt from './components/Curve/Primitive/CircleThreePt';
+import CircleCNR from './components/Curve/Primitive/CircleCNR';
+import CircleFit from './components/Curve/Primitive/CircleFit';
+import CircleTanTan from './components/Curve/Primitive/CircleTanTan';
+import CircleTanTanTan from './components/Curve/Primitive/CircleTanTanTan';
+import CircularDimension from './components/Display/Dimensions/CircularDimension';
+import Circumcentre from './components/Maths/Trig/Circumcentre';
+import Clash from './components/Intersect/Physical/Clash';
+import CleanTree from './components/Sets/Tree/CleanTree';
+import Closed from './components/Curve/Analysis/Closed';
+import ClosedEdges from './components/Surface/Util/ClosedEdges';
+import ClosestPoint from './components/Vector/Point/ClosestPoint';
+import ClosestPoints from './components/Vector/Point/ClosestPoints';
+import CloudDisplay from './components/Display/Preview/CloudDisplay';
+import CollisionManyMany from './components/Intersect/Physical/CollisionManyMany';
+import CollisionOneMany from './components/Intersect/Physical/CollisionOneMany';
+import ColourCMYK from './components/Display/Colour/ColourCMYK';
+import ColourHSL from './components/Display/Colour/ColourHSL';
+import ColourHSV from './components/Display/Colour/ColourHSV';
+import ColourLab from './components/Display/Colour/ColourLab';
+import ColourLCH from './components/Display/Colour/ColourLCH';
+import ColourRGB from './components/Display/Colour/ColourRGB';
+import ColourRGBf from './components/Display/Colour/ColourRGBf';
+import ColourXYZ from './components/Display/Colour/ColourXYZ';
+import CombineData from './components/Sets/List/CombineData';
+import CombineDateTime from './components/Maths/Time/CombineDateTime';
+import ComplexArgument from './components/Maths/Util/ComplexArgument';
+import ComplexComponents from './components/Maths/Util/ComplexComponents';
+import ComplexConjugate from './components/Maths/Util/ComplexConjugate';
+import ComplexModulus from './components/Maths/Util/ComplexModulus';
+import Compound from './components/Transform/Util/Compound';
+import Concatenate from './components/Sets/Text/Concatenate';
+import Cone from './components/Surface/Primitive/Cone';
+import ConnectCurves from './components/Curve/Spline/ConnectCurves';
+import ConsecutiveDomains from './components/Maths/Domain/ConsecutiveDomains';
+import ConstructDate from './components/Maths/Time/ConstructDate';
+import ConstructDomain from './components/Maths/Domain/ConstructDomain';
+import ConstructExoticDate from './components/Maths/Time/ConstructExoticDate';
+import ConstructMatrix from './components/Maths/Matrix/ConstructMatrix';
+import ConstructMesh from './components/Mesh/Primitive/ConstructMesh';
+import ConstructPath from './components/Sets/Tree/ConstructPath';
+import ConstructPlane from './components/Vector/Plane/ConstructPlane';
+import ConstructPoint from './components/Vector/Point/ConstructPoint';
+import ConstructSmoothTime from './components/Maths/Time/ConstructSmoothTime';
+import ConstructTime from './components/Maths/Time/ConstructTime';
+import Contour from './components/Intersect/Mathematical/Contour';
+import Contourex from './components/Intersect/Mathematical/Contourex';
+import ControlPointLoft from './components/Surface/Freeform/ControlPointLoft';
+import ControlPoints from './components/Curve/Analysis/ControlPoints';
+import ControlPolygon from './components/Curve/Analysis/ControlPolygon';
+import ConvexEdges from './components/Surface/Util/ConvexEdges';
+import ConvexHull from './components/Mesh/Triangulation/ConvexHull';
+import CoordinateMask from './components/Vector/Point/CoordinateMask';
+import CopyTrim from './components/Surface/Util/CopyTrim';
+import CoSecant from './components/Maths/Trig/CoSecant';
+import Cosine from './components/Maths/Trig/Cosine';
+import CoTangent from './components/Maths/Trig/CoTangent';
+import CreateComplex from './components/Maths/Util/CreateComplex';
+import CreateMaterial from './components/Display/Preview/CreateMaterial';
+import CreateSet from './components/Sets/Sets/CreateSet';
+import CrossProduct from './components/Vector/Vector/CrossProduct';
+import CrossReference from './components/Sets/List/CrossReference';
+import CScript from './components/Maths/Script/CScript';
+import Cube from './components/Maths/Polynomials/Cube';
+import CubeRoot from './components/Maths/Polynomials/CubeRoot';
+import CullDuplicates from './components/Vector/Point/CullDuplicates';
+import CullFaces from './components/Mesh/Util/CullFaces';
+import CullIndex from './components/Sets/Sequence/CullIndex';
+import CullNth from './components/Sets/Sequence/CullNth';
+import CullPattern from './components/Sets/Sequence/CullPattern';
+import CullVertices from './components/Mesh/Util/CullVertices';
+import Curvature from './components/Curve/Analysis/Curvature';
+import CurvatureGraph from './components/Curve/Analysis/CurvatureGraph';
+import CurveArray from './components/Transform/Array/CurveArray';
+import CurveClosestPoint from './components/Curve/Analysis/CurveClosestPoint';
+import CurveCurve from './components/Intersect/Physical/CurveCurve';
+import CurveDepth from './components/Curve/Analysis/CurveDepth';
+import CurveDomain from './components/Curve/Analysis/CurveDomain';
+import CurveFrame from './components/Curve/Analysis/CurveFrame';
+import CurveFrames from './components/Curve/Division/CurveFrames';
+import CurveLine from './components/Intersect/Mathematical/CurveLine';
+import CurveMiddle from './components/Curve/Analysis/CurveMiddle';
+import CurveNearestObject from './components/Curve/Analysis/CurveNearestObject';
+import CurveOnSurface from './components/Curve/Spline/CurveOnSurface';
+import CurvePlane from './components/Intersect/Mathematical/CurvePlane';
+import CurveProximity from './components/Curve/Analysis/CurveProximity';
+import CurveSelf from './components/Intersect/Physical/CurveSelf';
+import CurveSide from './components/Curve/Analysis/CurveSide';
+import CurveToPolyline from './components/Curve/Util/CurveToPolyline';
+import CustomPreview from './components/Display/Preview/CustomPreview';
+import Cylinder from './components/Surface/Primitive/Cylinder';
+import DashPattern from './components/Curve/Division/DashPattern';
+import DateRange from './components/Maths/Time/DateRange';
+import Deconstruct from './components/Vector/Point/Deconstruct';
+import DeconstructArc from './components/Curve/Analysis/DeconstructArc';
+import DeconstructBox from './components/Surface/Analysis/DeconstructBox';
+import DeconstructBrep from './components/Surface/Analysis/DeconstructBrep';
+import DeconstructDate from './components/Maths/Time/DeconstructDate';
+import DeconstructDomain from './components/Maths/Domain/DeconstructDomain';
+import DeconstructFace from './components/Mesh/Analysis/DeconstructFace';
+import DeconstructMatrix from './components/Maths/Matrix/DeconstructMatrix';
+import DeconstructMesh from './components/Mesh/Analysis/DeconstructMesh';
+import DeconstructPath from './components/Sets/Tree/DeconstructPath';
+import DeconstructPlane from './components/Vector/Plane/DeconstructPlane';
+import DeconstructVector from './components/Vector/Vector/DeconstructVector';
+import DeconstuctRectangle from './components/Curve/Analysis/DeconstuctRectangle';
+import Degrees from './components/Maths/Trig/Degrees';
+import DelaunayEdges from './components/Mesh/Triangulation/DelaunayEdges';
+import DelaunayMesh from './components/Mesh/Triangulation/DelaunayMesh';
+import DeleteConsecutive from './components/Sets/Sets/DeleteConsecutive';
+import DeleteFaces from './components/Mesh/Util/DeleteFaces';
+import DeleteVertices from './components/Mesh/Util/DeleteVertices';
+import Derivatives from './components/Curve/Analysis/Derivatives';
+import Dimensions from './components/Surface/Analysis/Dimensions';
+import DirectionDisplay from './components/Vector/Field/DirectionDisplay';
+import Discontinuity from './components/Curve/Analysis/Discontinuity';
+import Disjoint from './components/Sets/Sets/Disjoint';
+import DisjointMesh from './components/Mesh/Util/DisjointMesh';
+import Dispatch from './components/Sets/List/Dispatch';
+import DisplayMatrix from './components/Maths/Matrix/DisplayMatrix';
+import Distance from './components/Vector/Point/Distance';
+import Divide from './components/Vector/Vector/Divide';
+import DivideByDeviation from './components/Curve/Division/DivideByDeviation';
+import DivideCurve from './components/Curve/Division/DivideCurve';
+import DivideDistance from './components/Curve/Division/DivideDistance';
+import DivideDomain from './components/Maths/Domain/DivideDomain';
+import DivideLength from './components/Curve/Division/DivideLength';
+import DivideSurface from './components/Surface/Util/DivideSurface';
+import Division from './components/Maths/Operators/Division';
+import DomainBox from './components/Surface/Primitive/DomainBox';
+import DotDisplay from './components/Display/Preview/DotDisplay';
+import DotNETCScriptLEGACY from './components/Maths/Script/DotNETCScriptLEGACY';
+import DotNETVBScriptLEGACY from './components/Maths/Script/DotNETVBScriptLEGACY';
+import DotProduct from './components/Vector/Vector/DotProduct';
+import DuplicateData from './components/Sets/Sequence/DuplicateData';
+import EdgesfromDirections from './components/Surface/Util/EdgesfromDirections';
+import EdgesfromFaces from './components/Surface/Util/EdgesfromFaces';
+import EdgesfromLength from './components/Surface/Util/EdgesfromLength';
+import EdgesfromLinearity from './components/Surface/Util/EdgesfromLinearity';
+import EdgesfromPoints from './components/Surface/Util/EdgesfromPoints';
+import EdgeSurface from './components/Surface/Freeform/EdgeSurface';
+import Ellipse from './components/Curve/Primitive/Ellipse';
+import EndPoints from './components/Curve/Analysis/EndPoints';
+import Entwine from './components/Sets/Tree/Entwine';
+import Epsilon from './components/Maths/Util/Epsilon';
+import Equality from './components/Maths/Operators/Equality';
+import Evaluate from './components/Maths/Script/Evaluate';
+import EvaluateBox from './components/Surface/Analysis/EvaluateBox';
+import EvaluateCurve from './components/Curve/Analysis/EvaluateCurve';
+import EvaluateField from './components/Vector/Field/EvaluateField';
+import EvaluateLength from './components/Curve/Analysis/EvaluateLength';
+import EvaluateSurface from './components/Surface/Analysis/EvaluateSurface';
+import Explode from './components/Curve/Util/Explode';
+import ExplodeTree from './components/Sets/Tree/ExplodeTree';
+import Exposure from './components/Mesh/Util/Exposure';
+import Expression from './components/Maths/Script/Expression';
+import ExtendCurve from './components/Curve/Util/ExtendCurve';
+import Extremes from './components/Maths/Util/Extremes';
+import Extrude from './components/Surface/Freeform/Extrude';
+import ExtrudeAlong from './components/Surface/Freeform/ExtrudeAlong';
+import ExtrudeAngled from './components/Surface/Freeform/ExtrudeAngled';
+import ExtrudeLinear from './components/Surface/Freeform/ExtrudeLinear';
+import ExtrudePoint from './components/Surface/Freeform/ExtrudePoint';
+import FaceBoundaries from './components/Mesh/Analysis/FaceBoundaries';
+import FaceCircles from './components/Mesh/Analysis/FaceCircles';
+import FaceNormals from './components/Mesh/Analysis/FaceNormals';
+import FacetDome from './components/Mesh/Triangulation/FacetDome';
+import Factorial from './components/Maths/Operators/Factorial';
+import Fibonacci from './components/Sets/Sequence/Fibonacci';
+import FieldLine from './components/Vector/Field/FieldLine';
+import Fillet from './components/Curve/Util/Fillet';
+import FilletDistance from './components/Curve/Util/FilletDistance';
+import FilletEdge from './components/Surface/Util/FilletEdge';
+import FindDomain from './components/Maths/Domain/FindDomain';
+import Findsimilarmember from './components/Sets/Sets/Findsimilarmember';
+import FitCurve from './components/Curve/Util/FitCurve';
+import FitLine from './components/Curve/Primitive/FitLine';
+import FitLoft from './components/Surface/Freeform/FitLoft';
+import FlattenTree from './components/Sets/Tree/FlattenTree';
+import Flip from './components/Surface/Util/Flip';
+import FlipCurve from './components/Curve/Util/FlipCurve';
+import FlipMatrix from './components/Sets/Tree/FlipMatrix';
+import FlipMesh from './components/Mesh/Util/FlipMesh';
+import FlipPlane from './components/Vector/Plane/FlipPlane';
+import Flow from './components/Transform/Morph/Flow';
+import Format from './components/Sets/Text/Format';
+import FragmentPatch from './components/Surface/Freeform/FragmentPatch';
+import GateAnd from './components/Maths/Operators/GateAnd';
+import GateMajority from './components/Maths/Operators/GateMajority';
+import GateNand from './components/Maths/Operators/GateNand';
+import GateNor from './components/Maths/Operators/GateNor';
+import GateNot from './components/Maths/Operators/GateNot';
+import GateOr from './components/Maths/Operators/GateOr';
+import GateXnor from './components/Maths/Operators/GateXnor';
+import GateXor from './components/Maths/Operators/GateXor';
+import Geodesic from './components/Curve/Spline/Geodesic';
+import GhPythonScript from './components/Maths/Script/GhPythonScript';
+import GoldenRatio from './components/Maths/Util/GoldenRatio';
+import GraftTree from './components/Sets/Tree/GraftTree';
+import Group from './components/Transform/Util/Group';
+import Hexagonal from './components/Vector/Grid/Hexagonal';
+import HorizontalFrame from './components/Curve/Analysis/HorizontalFrame';
+import HorizontalFrames from './components/Curve/Division/HorizontalFrames';
+import ImageGallery from './components/Display/Graphs/ImageGallery';
+import Incentre from './components/Maths/Trig/Incentre';
+import InCircle from './components/Curve/Primitive/InCircle';
+import Includes from './components/Maths/Domain/Includes';
+import InEllipse from './components/Curve/Primitive/InEllipse';
+import InsertItems from './components/Sets/List/InsertItems';
+import IntegerDivision from './components/Maths/Operators/IntegerDivision';
+import Interpolate from './components/Curve/Spline/Interpolate';
+import Interpolatedata from './components/Maths/Util/Interpolatedata';
+import InterpolateDate from './components/Maths/Time/InterpolateDate';
+import Interpolatet from './components/Curve/Spline/Interpolatet';
+import InverseTransform from './components/Transform/Util/InverseTransform';
+import InvertMatrix from './components/Maths/Matrix/InvertMatrix';
+import IsoCurve from './components/Curve/Spline/IsoCurve';
+import Isotrim from './components/Surface/Util/Isotrim';
+import IsoVist from './components/Intersect/Mathematical/IsoVist';
+import IsoVistRay from './components/Intersect/Mathematical/IsoVistRay';
+import IsPlanar from './components/Surface/Analysis/IsPlanar';
+import ItemIndex from './components/Sets/List/ItemIndex';
+import Jitter from './components/Sets/Sequence/Jitter';
+import JoinCurves from './components/Curve/Util/JoinCurves';
+import Kaleidoscope from './components/Transform/Array/Kaleidoscope';
+import KeyValueSearch from './components/Sets/Sets/KeyValueSearch';
+import KinkyCurve from './components/Curve/Spline/KinkyCurve';
+import KnotVector from './components/Curve/Spline/KnotVector';
+import LargerThan from './components/Maths/Operators/LargerThan';
+import Legend from './components/Display/Graphs/Legend';
+import Length from './components/Curve/Analysis/Length';
+import LengthDomain from './components/Curve/Analysis/LengthDomain';
+import LengthParameter from './components/Curve/Analysis/LengthParameter';
+import Line from './components/Curve/Primitive/Line';
+import LineTwoPlane from './components/Curve/Primitive/LineTwoPlane';
+import LineFourPt from './components/Curve/Primitive/LineFourPt';
+import LinearArray from './components/Transform/Array/LinearArray';
+import LinearDimension from './components/Display/Dimensions/LinearDimension';
+import LineCharge from './components/Vector/Field/LineCharge';
+import LineDimension from './components/Display/Dimensions/LineDimension';
+import LineLine from './components/Intersect/Mathematical/LineLine';
+import LinePlane from './components/Intersect/Mathematical/LinePlane';
+import LinePt from './components/Vector/Plane/LinePt';
+import LineSDL from './components/Curve/Primitive/LineSDL';
+import ListItem from './components/Sets/List/ListItem';
+import ListLength from './components/Sets/List/ListLength';
+import Loft from './components/Surface/Freeform/Loft';
+import LoftOptions from './components/Surface/Freeform/LoftOptions';
+import Logarithm from './components/Maths/Polynomials/Logarithm';
+import LogN from './components/Maths/Polynomials/LogN';
+import LongestList from './components/Sets/List/LongestList';
+import Maelstrom from './components/Transform/Morph/Maelstrom';
+import MakeTwoD from './components/Display/Dimensions/MakeTwoD';
+import MakeTwoDParallelView from './components/Display/Dimensions/MakeTwoDParallelView';
+import MakeTwoDPerspectiveView from './components/Display/Dimensions/MakeTwoDPerspectiveView';
+import MakeTwoDRhinoView from './components/Display/Dimensions/MakeTwoDRhinoView';
+import MaptoSurface from './components/Transform/Morph/MaptoSurface';
+import MarkerDimension from './components/Display/Dimensions/MarkerDimension';
+import MassAddition from './components/Maths/Operators/MassAddition';
+import MassMultiplication from './components/Maths/Operators/MassMultiplication';
+import MatchCurve from './components/Curve/Spline/MatchCurve';
+import MatchText from './components/Sets/Text/MatchText';
+import MatchTree from './components/Sets/Tree/MatchTree';
+import Maximum from './components/Maths/Util/Maximum';
+import MemberIndex from './components/Sets/Sets/MemberIndex';
+import Merge from './components/Sets/Tree/Merge';
+import MergeZeroThree from './components/Sets/Tree/MergeZeroThree';
+import MergeZeroFour from './components/Sets/Tree/MergeZeroFour';
+import MergeZeroFive from './components/Sets/Tree/MergeZeroFive';
+import MergeZeroSix from './components/Sets/Tree/MergeZeroSix';
+import MergeZeroEight from './components/Sets/Tree/MergeZeroEight';
+import MergeOneZero from './components/Sets/Tree/MergeOneZero';
+import MergeFaces from './components/Surface/Util/MergeFaces';
+import MergeFields from './components/Vector/Field/MergeFields';
+import MergeGroup from './components/Transform/Util/MergeGroup';
+import MergeMultiple from './components/Sets/Tree/MergeMultiple';
+import MeshBox from './components/Mesh/Primitive/MeshBox';
+import MeshBrep from './components/Mesh/Util/MeshBrep';
+import MeshClosestPoint from './components/Mesh/Analysis/MeshClosestPoint';
+import MeshColours from './components/Mesh/Primitive/MeshColours';
+import MeshCurve from './components/Intersect/Physical/MeshCurve';
+import MeshDepth from './components/Mesh/Analysis/MeshDepth';
+import MeshDifference from './components/Intersect/Shape/MeshDifference';
+import MeshEdges from './components/Mesh/Analysis/MeshEdges';
+import MeshEval from './components/Mesh/Analysis/MeshEval';
+import MeshfromSubD from './components/Surface/SubD/MeshfromSubD';
+import MeshInclusion from './components/Mesh/Analysis/MeshInclusion';
+import MeshIntersection from './components/Intersect/Shape/MeshIntersection';
+import MeshJoin from './components/Mesh/Util/MeshJoin';
+import MeshMesh from './components/Intersect/Physical/MeshMesh';
+import MeshPlane from './components/Intersect/Mathematical/MeshPlane';
+import MeshQuad from './components/Mesh/Primitive/MeshQuad';
+import MeshRay from './components/Intersect/Mathematical/MeshRay';
+import MeshShadow from './components/Mesh/Util/MeshShadow';
+import MeshSphere from './components/Mesh/Primitive/MeshSphere';
+import MeshSphereEx from './components/Mesh/Primitive/MeshSphereEx';
+import MeshSplit from './components/Intersect/Shape/MeshSplit';
+import MeshSplitPlane from './components/Mesh/Util/MeshSplitPlane';
+import MeshSpray from './components/Mesh/Primitive/MeshSpray';
+import MeshSurface from './components/Mesh/Util/MeshSurface';
+import MeshTriangle from './components/Mesh/Primitive/MeshTriangle';
+import MeshUnion from './components/Intersect/Shape/MeshUnion';
+import MetaBall from './components/Mesh/Triangulation/MetaBall';
+import MetaBallt from './components/Mesh/Triangulation/MetaBallt';
+import MetaBalltCustom from './components/Mesh/Triangulation/MetaBalltCustom';
+import Minimum from './components/Maths/Util/Minimum';
+import Mirror from './components/Transform/Euclidean/Mirror';
+import MirrorCurve from './components/Transform/Morph/MirrorCurve';
+import MirrorSurface from './components/Transform/Morph/MirrorSurface';
+import ModifiedArc from './components/Curve/Primitive/ModifiedArc';
+import Modulus from './components/Maths/Operators/Modulus';
+import Move from './components/Transform/Euclidean/Move';
+import MoveAwayFrom from './components/Transform/Euclidean/MoveAwayFrom';
+import MoveToPlane from './components/Transform/Euclidean/MoveToPlane';
+import MultipleCurves from './components/Intersect/Physical/MultipleCurves';
+import Multiplication from './components/Maths/Operators/Multiplication';
+import Multiply from './components/Vector/Vector/Multiply';
+import Naturallogarithm from './components/Maths/Polynomials/Naturallogarithm';
+import Negative from './components/Maths/Operators/Negative';
+import NetworkSurface from './components/Surface/Freeform/NetworkSurface';
+import NullItem from './components/Sets/List/NullItem';
+import NumberstoPoints from './components/Vector/Point/NumberstoPoints';
+import NurbsCurve from './components/Curve/Spline/NurbsCurve';
+import NurbsCurvePWK from './components/Curve/Spline/NurbsCurvePWK';
+import Occlusion from './components/Mesh/Util/Occlusion';
+import OcTree from './components/Mesh/Triangulation/OcTree';
+import OffsetCurve from './components/Curve/Util/OffsetCurve';
+import OffsetCurveLoose from './components/Curve/Util/OffsetCurveLoose';
+import OffsetLooseThreeD from './components/Curve/Util/OffsetLooseThreeD';
+import OffsetonSrf from './components/Curve/Util/OffsetonSrf';
+import OffsetPolyline from './components/Curve/Util/OffsetPolyline';
+import OffsetSurface from './components/Surface/Util/OffsetSurface';
+import OffsetSurfaceLoose from './components/Surface/Util/OffsetSurfaceLoose';
+import OneOverX from './components/Maths/Polynomials/OneOverX';
+import Orient from './components/Transform/Euclidean/Orient';
+import OrientDirection from './components/Transform/Affine/OrientDirection';
+import Orthocentre from './components/Maths/Trig/Orthocentre';
+import OsculatingCircles from './components/Surface/Analysis/OsculatingCircles';
+import PartitionList from './components/Sets/List/PartitionList';
+import Patch from './components/Surface/Freeform/Patch';
+import PathCompare from './components/Sets/Tree/PathCompare';
+import PathMapper from './components/Sets/Tree/PathMapper';
+import PerpendicularDisplay from './components/Vector/Field/PerpendicularDisplay';
+import PerpFrame from './components/Curve/Analysis/PerpFrame';
+import PerpFrames from './components/Curve/Division/PerpFrames';
+import Pi from './components/Maths/Util/Pi';
+import PicknChoose from './components/Sets/List/PicknChoose';
+import PieChart from './components/Display/Graphs/PieChart';
+import Pipe from './components/Surface/Freeform/Pipe';
+import PipeVariable from './components/Surface/Freeform/PipeVariable';
+import Planar from './components/Curve/Analysis/Planar';
+import PlaneThreePt from './components/Vector/Plane/PlaneThreePt';
+import PlaneClosestPoint from './components/Vector/Plane/PlaneClosestPoint';
+import PlaneCoordinates from './components/Vector/Plane/PlaneCoordinates';
+import PlaneFit from './components/Vector/Plane/PlaneFit';
+import PlaneNormal from './components/Vector/Plane/PlaneNormal';
+import PlaneOffset from './components/Vector/Plane/PlaneOffset';
+import PlaneOrigin from './components/Vector/Plane/PlaneOrigin';
+import PlanePlane from './components/Intersect/Mathematical/PlanePlane';
+import PlanePlanePlane from './components/Intersect/Mathematical/PlanePlanePlane';
+import PlaneRegion from './components/Intersect/Mathematical/PlaneRegion';
+import PlaneSurface from './components/Surface/Primitive/PlaneSurface';
+import PlaneThroughShape from './components/Surface/Primitive/PlaneThroughShape';
+import PointCharge from './components/Vector/Field/PointCharge';
+import PointCylindrical from './components/Vector/Point/PointCylindrical';
+import PointDeform from './components/Transform/Morph/PointDeform';
+import PointGroups from './components/Vector/Point/PointGroups';
+import PointInBrep from './components/Surface/Analysis/PointInBrep';
+import PointInBreps from './components/Surface/Analysis/PointInBreps';
+import PointInCurve from './components/Curve/Analysis/PointInCurve';
+import PointinCurves from './components/Curve/Analysis/PointinCurves';
+import PointInTrim from './components/Surface/Analysis/PointInTrim';
+import PointList from './components/Display/Vector/PointList';
+import PointOnCurve from './components/Curve/Analysis/PointOnCurve';
+import PointOrder from './components/Display/Vector/PointOrder';
+import PointOriented from './components/Vector/Point/PointOriented';
+import PointPolar from './components/Vector/Point/PointPolar';
+import PointstoNumbers from './components/Vector/Point/PointstoNumbers';
+import PolarArray from './components/Transform/Array/PolarArray';
+import PolyArc from './components/Curve/Spline/PolyArc';
+import Polygon from './components/Curve/Primitive/Polygon';
+import PolygonCenter from './components/Curve/Analysis/PolygonCenter';
+import PolygonEdge from './components/Curve/Primitive/PolygonEdge';
+import PolyLine from './components/Curve/Spline/PolyLine';
+import PolylineCollapse from './components/Curve/Util/PolylineCollapse';
+import PopulateTwoD from './components/Vector/Grid/PopulateTwoD';
+import PopulateThreeD from './components/Vector/Grid/PopulateThreeD';
+import PopulateGeometry from './components/Vector/Grid/PopulateGeometry';
+import Power from './components/Maths/Operators/Power';
+import PowerofOneZero from './components/Maths/Polynomials/PowerofOneZero';
+import PowerofTwo from './components/Maths/Polynomials/PowerofTwo';
+import PowerofE from './components/Maths/Polynomials/PowerofE';
+import PrincipalCurvature from './components/Surface/Analysis/PrincipalCurvature';
+import Project from './components/Transform/Affine/Project';
+import ProjectAlong from './components/Transform/Affine/ProjectAlong';
+import ProjectPoint from './components/Vector/Point/ProjectPoint';
+import ProximityTwoD from './components/Mesh/Triangulation/ProximityTwoD';
+import ProximityThreeD from './components/Mesh/Triangulation/ProximityThreeD';
+import PruneTree from './components/Sets/Tree/PruneTree';
+import PullCurve from './components/Curve/Util/PullCurve';
+import PullPoint from './components/Vector/Point/PullPoint';
+import Quadrangulate from './components/Mesh/Util/Quadrangulate';
+import QuadSphere from './components/Surface/Primitive/QuadSphere';
+import QuadTree from './components/Mesh/Triangulation/QuadTree';
+import QuickGraph from './components/Display/Graphs/QuickGraph';
+import Radial from './components/Vector/Grid/Radial';
+import Radians from './components/Maths/Trig/Radians';
+import RailRevolution from './components/Surface/Freeform/RailRevolution';
+import Random from './components/Sets/Sequence/Random';
+import RandomEx from './components/Sets/Sequence/RandomEx';
+import RandomReduce from './components/Sets/Sequence/RandomReduce';
+import Range from './components/Sets/Sequence/Range';
+import RebuildCurve from './components/Curve/Util/RebuildCurve';
+import Rectangle from './components/Curve/Primitive/Rectangle';
+import RectangleTwoPt from './components/Curve/Primitive/RectangleTwoPt';
+import RectangleThreePt from './components/Curve/Primitive/RectangleThreePt';
+import RectangleMapping from './components/Transform/Affine/RectangleMapping';
+import Rectangular from './components/Vector/Grid/Rectangular';
+import RectangularArray from './components/Transform/Array/RectangularArray';
+import Reduce from './components/Curve/Util/Reduce';
+import RegionDifference from './components/Intersect/Shape/RegionDifference';
+import RegionIntersection from './components/Intersect/Shape/RegionIntersection';
+import RegionSlits from './components/Intersect/Shape/RegionSlits';
+import RegionUnion from './components/Intersect/Shape/RegionUnion';
+import RelativeDifferences from './components/Maths/Operators/RelativeDifferences';
+import RelativeItem from './components/Sets/Tree/RelativeItem';
+import RelativeItems from './components/Sets/Tree/RelativeItems';
+import RemapNumbers from './components/Maths/Domain/RemapNumbers';
+import RepeatData from './components/Sets/Sequence/RepeatData';
+import ReplaceItems from './components/Sets/List/ReplaceItems';
+import ReplaceMembers from './components/Sets/Sets/ReplaceMembers';
+import ReplaceNulls from './components/Sets/List/ReplaceNulls';
+import ReplacePaths from './components/Sets/Tree/ReplacePaths';
+import ReplaceText from './components/Sets/Text/ReplaceText';
+import Retrim from './components/Surface/Util/Retrim';
+import Reverse from './components/Vector/Vector/Reverse';
+import ReverseList from './components/Sets/List/ReverseList';
+import Revolution from './components/Surface/Freeform/Revolution';
+import RightTrigonometry from './components/Maths/Trig/RightTrigonometry';
+import Rotate from './components/Vector/Vector/Rotate';
+import RotateThreeD from './components/Transform/Euclidean/RotateThreeD';
+import RotateAxis from './components/Transform/Euclidean/RotateAxis';
+import RotateDirection from './components/Transform/Euclidean/RotateDirection';
+import RotatePlane from './components/Vector/Plane/RotatePlane';
+import Round from './components/Maths/Util/Round';
+import RuledSurface from './components/Surface/Freeform/RuledSurface';
+import SanityXForm from './components/Transform/Euclidean/SanityXForm';
+import ScalarDisplay from './components/Vector/Field/ScalarDisplay';
+import Scale from './components/Transform/Affine/Scale';
+import ScaleNU from './components/Transform/Affine/ScaleNU';
+import Seam from './components/Curve/Util/Seam';
+import Secant from './components/Maths/Trig/Secant';
+import SegmentLengths from './components/Curve/Analysis/SegmentLengths';
+import Sequence from './components/Sets/Sequence/Sequence';
+import SerialDimension from './components/Display/Dimensions/SerialDimension';
+import Series from './components/Sets/Sequence/Series';
+import SeriesAddition from './components/Maths/Operators/SeriesAddition';
+import SetDifference from './components/Sets/Sets/SetDifference';
+import SetDifferenceS from './components/Sets/Sets/SetDifferenceS';
+import SetIntersection from './components/Sets/Sets/SetIntersection';
+import SetMajority from './components/Sets/Sets/SetMajority';
+import SettingsCustom from './components/Mesh/Util/SettingsCustom';
+import SettingsQuality from './components/Mesh/Util/SettingsQuality';
+import SettingsSpeed from './components/Mesh/Util/SettingsSpeed';
+import SetUnion from './components/Sets/Sets/SetUnion';
+import ShapeInBrep from './components/Surface/Analysis/ShapeInBrep';
+import Shatter from './components/Curve/Division/Shatter';
+import Shear from './components/Transform/Affine/Shear';
+import ShearAngle from './components/Transform/Affine/ShearAngle';
+import ShiftList from './components/Sets/List/ShiftList';
+import ShiftPaths from './components/Sets/Tree/ShiftPaths';
+import ShortestList from './components/Sets/List/ShortestList';
+import SiftPattern from './components/Sets/List/SiftPattern';
+import Similarity from './components/Maths/Operators/Similarity';
+import SimpleMesh from './components/Mesh/Util/SimpleMesh';
+import SimplifyCurve from './components/Curve/Util/SimplifyCurve';
+import SimplifyTree from './components/Sets/Tree/SimplifyTree';
+import Sinc from './components/Maths/Trig/Sinc';
+import Sine from './components/Maths/Trig/Sine';
+import SmallerThan from './components/Maths/Operators/SmallerThan';
+import SmoothMesh from './components/Mesh/Util/SmoothMesh';
+import SmoothNumbers from './components/Maths/Util/SmoothNumbers';
+import SmoothPolyline from './components/Curve/Util/SmoothPolyline';
+import SolarIncidence from './components/Vector/Vector/SolarIncidence';
+import SolidDifference from './components/Intersect/Shape/SolidDifference';
+import SolidIntersection from './components/Intersect/Shape/SolidIntersection';
+import SolidUnion from './components/Intersect/Shape/SolidUnion';
+import SortAlongCurve from './components/Vector/Point/SortAlongCurve';
+import SortList from './components/Sets/List/SortList';
+import SortPoints from './components/Vector/Point/SortPoints';
+import SortText from './components/Sets/Text/SortText';
+import SpatialDeform from './components/Transform/Morph/SpatialDeform';
+import SpatialDeformcustom from './components/Transform/Morph/SpatialDeformcustom';
+import Sphere from './components/Surface/Primitive/Sphere';
+import SphereFourPt from './components/Surface/Primitive/SphereFourPt';
+import SphereFit from './components/Surface/Primitive/SphereFit';
+import SpinForce from './components/Vector/Field/SpinForce';
+import Split from './components/Transform/Util/Split';
+import SplitAHSL from './components/Display/Colour/SplitAHSL';
+import SplitAHSV from './components/Display/Colour/SplitAHSV';
+import SplitARGB from './components/Display/Colour/SplitARGB';
+import SplitBrep from './components/Intersect/Shape/SplitBrep';
+import SplitBrepMultiple from './components/Intersect/Shape/SplitBrepMultiple';
+import SplitGroup from './components/Transform/Util/SplitGroup';
+import SplitList from './components/Sets/List/SplitList';
+import SplitTree from './components/Sets/Tree/SplitTree';
+import SplitwithBrep from './components/Intersect/Region/SplitwithBrep';
+import SplitwithBreps from './components/Intersect/Region/SplitwithBreps';
+import Splop from './components/Transform/Morph/Splop';
+import Sporph from './components/Transform/Morph/Sporph';
+import Square from './components/Maths/Polynomials/Square';
+import SquareRoot from './components/Maths/Polynomials/SquareRoot';
+import StackData from './components/Sets/Sequence/StackData';
+import StreamFilter from './components/Sets/Tree/StreamFilter';
+import StreamGate from './components/Sets/Tree/StreamGate';
+import Stretch from './components/Transform/Morph/Stretch';
+import SubCurve from './components/Curve/Spline/SubCurve';
+import SubDBox from './components/Surface/SubD/SubDBox';
+import SubDControlPolygon from './components/Surface/SubD/SubDControlPolygon';
+import SubDEdges from './components/Surface/SubD/SubDEdges';
+import SubDFaces from './components/Surface/SubD/SubDFaces';
+import SubDfromMesh from './components/Surface/SubD/SubDfromMesh';
+import SubDVertices from './components/Surface/SubD/SubDVertices';
+import SubList from './components/Sets/List/SubList';
+import SubSet from './components/Sets/Sets/SubSet';
+import Substrate from './components/Mesh/Triangulation/Substrate';
+import Subtraction from './components/Maths/Operators/Subtraction';
+import SumSurface from './components/Surface/Freeform/SumSurface';
+import SurfaceBox from './components/Transform/Morph/SurfaceBox';
+import SurfaceClosestPoint from './components/Surface/Analysis/SurfaceClosestPoint';
+import SurfaceCurvature from './components/Surface/Analysis/SurfaceCurvature';
+import SurfaceCurve from './components/Intersect/Physical/SurfaceCurve';
+import SurfaceFrames from './components/Surface/Util/SurfaceFrames';
+import SurfaceFromPoints from './components/Surface/Freeform/SurfaceFromPoints';
+import SurfaceInflection from './components/Surface/Analysis/SurfaceInflection';
+import SurfaceLine from './components/Intersect/Mathematical/SurfaceLine';
+import SurfaceMorph from './components/Transform/Morph/SurfaceMorph';
+import SurfacePoints from './components/Surface/Analysis/SurfacePoints';
+import SurfaceSplit from './components/Intersect/Physical/SurfaceSplit';
+import SwapColumns from './components/Maths/Matrix/SwapColumns';
+import SwapRows from './components/Maths/Matrix/SwapRows';
+import SweepOne from './components/Surface/Freeform/SweepOne';
+import SweepTwo from './components/Surface/Freeform/SweepTwo';
+import SwingArc from './components/Curve/Spline/SwingArc';
+import SymbolAdvanced from './components/Display/Preview/SymbolAdvanced';
+import SymbolDisplay from './components/Display/Preview/SymbolDisplay';
+import SymbolSimple from './components/Display/Preview/SymbolSimple';
+import Tangent from './components/Maths/Trig/Tangent';
+import TangentArcs from './components/Curve/Primitive/TangentArcs';
+import TangentCurve from './components/Curve/Spline/TangentCurve';
+import TangentLines from './components/Curve/Primitive/TangentLines';
+import TangentLinesEx from './components/Curve/Primitive/TangentLinesEx';
+import TangentLinesIn from './components/Curve/Primitive/TangentLinesIn';
+import Taper from './components/Transform/Morph/Taper';
+import TensorDisplay from './components/Vector/Field/TensorDisplay';
+import TestCrash from './components/Display/Test/TestCrash';
+import TextCase from './components/Sets/Text/TextCase';
+import TextDistance from './components/Sets/Text/TextDistance';
+import TextFragment from './components/Sets/Text/TextFragment';
+import TextJoin from './components/Sets/Text/TextJoin';
+import TextLength from './components/Sets/Text/TextLength';
+import TextSplit from './components/Sets/Text/TextSplit';
+import TextTag from './components/Display/Dimensions/TextTag';
+import TextTagThreeD from './components/Display/Dimensions/TextTagThreeD';
+import TextTrim from './components/Sets/Text/TextTrim';
+import ToPolar from './components/Vector/Point/ToPolar';
+import Torsion from './components/Curve/Analysis/Torsion';
+import TransformMatrix from './components/Transform/Util/TransformMatrix';
+import TransposeMatrix from './components/Maths/Matrix/TransposeMatrix';
+import TreeBranch from './components/Sets/Tree/TreeBranch';
+import TreeItem from './components/Sets/Tree/TreeItem';
+import TreeStatistics from './components/Sets/Tree/TreeStatistics';
+import TriangleMapping from './components/Transform/Affine/TriangleMapping';
+import TriangleTrigonometry from './components/Maths/Trig/TriangleTrigonometry';
+import Triangular from './components/Vector/Grid/Triangular';
+import Triangulate from './components/Mesh/Util/Triangulate';
+import TrimSolid from './components/Intersect/Shape/TrimSolid';
+import TrimTree from './components/Sets/Tree/TrimTree';
+import TrimwithBrep from './components/Intersect/Region/TrimwithBrep';
+import TrimwithBreps from './components/Intersect/Region/TrimwithBreps';
+import TrimwithRegion from './components/Intersect/Region/TrimwithRegion';
+import TrimwithRegions from './components/Intersect/Region/TrimwithRegions';
+import Truncate from './components/Maths/Util/Truncate';
+import TweenCurve from './components/Curve/Spline/TweenCurve';
+import Twist from './components/Transform/Morph/Twist';
+import TwistedBox from './components/Transform/Morph/TwistedBox';
+import TwoByFourJam from './components/Curve/Primitive/TwoByFourJam';
+import UnflattenTree from './components/Sets/Tree/UnflattenTree';
+import Ungroup from './components/Transform/Util/Ungroup';
+import UnifyMesh from './components/Mesh/Util/UnifyMesh';
+import UnitVector from './components/Vector/Vector/UnitVector';
+import UnitX from './components/Vector/Vector/UnitX';
+import UnitY from './components/Vector/Vector/UnitY';
+import UnitZ from './components/Vector/Vector/UnitZ';
+import Untrim from './components/Surface/Util/Untrim';
+import UnweldMesh from './components/Mesh/Util/UnweldMesh';
+import ValueTracker from './components/Display/Graphs/ValueTracker';
+import Variable from './components/Maths/Script/Variable';
+import VBScript from './components/Maths/Script/VBScript';
+import VectorTwoPt from './components/Vector/Vector/VectorTwoPt';
+import VectorDisplay from './components/Display/Vector/VectorDisplay';
+import VectorDisplayEx from './components/Display/Vector/VectorDisplayEx';
+import VectorForce from './components/Vector/Field/VectorForce';
+import VectorLength from './components/Vector/Vector/VectorLength';
+import VectorXYZ from './components/Vector/Vector/VectorXYZ';
+import ViewportDisplay from './components/Display/Viewport/ViewportDisplay';
+import Volume from './components/Surface/Analysis/Volume';
+import VolumeMoments from './components/Surface/Analysis/VolumeMoments';
+import Voronoi from './components/Mesh/Triangulation/Voronoi';
+import VoronoiThreeD from './components/Mesh/Triangulation/VoronoiThreeD';
+import VoronoiCell from './components/Mesh/Triangulation/VoronoiCell';
+import VoronoiGroups from './components/Mesh/Triangulation/VoronoiGroups';
+import Weave from './components/Sets/List/Weave';
+import WeightedAverage from './components/Maths/Util/WeightedAverage';
+import WeldMesh from './components/Mesh/Util/WeldMesh';
+import XYPlane from './components/Vector/Plane/XYPlane';
+import XZPlane from './components/Vector/Plane/XZPlane';
+import YZPlane from './components/Vector/Plane/YZPlane';
+
+export {
+	FourPointSurface,
+	Absolute,
+	Addition,
+	AdjustPlane,
+	AlignedDimension,
+	AlignPlane,
+	AlignPlanes,
+	AlignVertices,
+	Amplitude,
+	Angle,
+	AngularDimension,
+	AngularDimensionsMesh,
+	Arc,
+	ArcThreePt,
+	ArcCosine,
+	ArcDimension,
+	ArcSED,
+	ArcSine,
+	ArcTangent,
+	Area,
+	AreaMoments,
+	Average,
+	BarGraph,
+	Barycentric,
+	BendDeform,
+	BezierSpan,
+	BiArc,
+	BlendBox,
+	BlendColours,
+	BlendCurve,
+	BlendCurvePt,
+	BlurMesh,
+	BlurNumbers,
+	BoundarySurfaces,
+	BoundaryVolume,
+	BoundingBox,
+	Bounds,
+	BoundsTwoD,
+	BoxTwoPt,
+	BoxArray,
+	BoxCorners,
+	BoxMapping,
+	BoxMorph,
+	BoxProperties,
+	BoxRectangle,
+	BoxSlits,
+	BreakField,
+	BrepBrep,
+	BrepClosestPoint,
+	BrepCurve,
+	BrepEdges,
+	BrepJoin,
+	BrepLine,
+	BrepPlane,
+	BrepTopology,
+	BrepWireframe,
+	CameraObscura,
+	CapHoles,
+	CapHolesEx,
+	CarthesianProduct,
+	Catenary,
+	CatenaryEx,
+	CenterBox,
+	Centroid,
+	Characters,
+	CharSequence,
+	Circle,
+	CircleThreePt,
+	CircleCNR,
+	CircleFit,
+	CircleTanTan,
+	CircleTanTanTan,
+	CircularDimension,
+	Circumcentre,
+	Clash,
+	CleanTree,
+	Closed,
+	ClosedEdges,
+	ClosestPoint,
+	ClosestPoints,
+	CloudDisplay,
+	CollisionManyMany,
+	CollisionOneMany,
+	ColourCMYK,
+	ColourHSL,
+	ColourHSV,
+	ColourLab,
+	ColourLCH,
+	ColourRGB,
+	ColourRGBf,
+	ColourXYZ,
+	CombineData,
+	CombineDateTime,
+	ComplexArgument,
+	ComplexComponents,
+	ComplexConjugate,
+	ComplexModulus,
+	Compound,
+	Concatenate,
+	Cone,
+	ConnectCurves,
+	ConsecutiveDomains,
+	ConstructDate,
+	ConstructDomain,
+	ConstructExoticDate,
+	ConstructMatrix,
+	ConstructMesh,
+	ConstructPath,
+	ConstructPlane,
+	ConstructPoint,
+	ConstructSmoothTime,
+	ConstructTime,
+	Contour,
+	Contourex,
+	ControlPointLoft,
+	ControlPoints,
+	ControlPolygon,
+	ConvexEdges,
+	ConvexHull,
+	CoordinateMask,
+	CopyTrim,
+	CoSecant,
+	Cosine,
+	CoTangent,
+	CreateComplex,
+	CreateMaterial,
+	CreateSet,
+	CrossProduct,
+	CrossReference,
+	CScript,
+	Cube,
+	CubeRoot,
+	CullDuplicates,
+	CullFaces,
+	CullIndex,
+	CullNth,
+	CullPattern,
+	CullVertices,
+	Curvature,
+	CurvatureGraph,
+	CurveArray,
+	CurveClosestPoint,
+	CurveCurve,
+	CurveDepth,
+	CurveDomain,
+	CurveFrame,
+	CurveFrames,
+	CurveLine,
+	CurveMiddle,
+	CurveNearestObject,
+	CurveOnSurface,
+	CurvePlane,
+	CurveProximity,
+	CurveSelf,
+	CurveSide,
+	CurveToPolyline,
+	CustomPreview,
+	Cylinder,
+	DashPattern,
+	DateRange,
+	Deconstruct,
+	DeconstructArc,
+	DeconstructBox,
+	DeconstructBrep,
+	DeconstructDate,
+	DeconstructDomain,
+	DeconstructFace,
+	DeconstructMatrix,
+	DeconstructMesh,
+	DeconstructPath,
+	DeconstructPlane,
+	DeconstructVector,
+	DeconstuctRectangle,
+	Degrees,
+	DelaunayEdges,
+	DelaunayMesh,
+	DeleteConsecutive,
+	DeleteFaces,
+	DeleteVertices,
+	Derivatives,
+	Dimensions,
+	DirectionDisplay,
+	Discontinuity,
+	Disjoint,
+	DisjointMesh,
+	Dispatch,
+	DisplayMatrix,
+	Distance,
+	Divide,
+	DivideByDeviation,
+	DivideCurve,
+	DivideDistance,
+	DivideDomain,
+	DivideLength,
+	DivideSurface,
+	Division,
+	DomainBox,
+	DotDisplay,
+	DotNETCScriptLEGACY,
+	DotNETVBScriptLEGACY,
+	DotProduct,
+	DuplicateData,
+	EdgesfromDirections,
+	EdgesfromFaces,
+	EdgesfromLength,
+	EdgesfromLinearity,
+	EdgesfromPoints,
+	EdgeSurface,
+	Ellipse,
+	EndPoints,
+	Entwine,
+	Epsilon,
+	Equality,
+	Evaluate,
+	EvaluateBox,
+	EvaluateCurve,
+	EvaluateField,
+	EvaluateLength,
+	EvaluateSurface,
+	Explode,
+	ExplodeTree,
+	Exposure,
+	Expression,
+	ExtendCurve,
+	Extremes,
+	Extrude,
+	ExtrudeAlong,
+	ExtrudeAngled,
+	ExtrudeLinear,
+	ExtrudePoint,
+	FaceBoundaries,
+	FaceCircles,
+	FaceNormals,
+	FacetDome,
+	Factorial,
+	Fibonacci,
+	FieldLine,
+	Fillet,
+	FilletDistance,
+	FilletEdge,
+	FindDomain,
+	Findsimilarmember,
+	FitCurve,
+	FitLine,
+	FitLoft,
+	FlattenTree,
+	Flip,
+	FlipCurve,
+	FlipMatrix,
+	FlipMesh,
+	FlipPlane,
+	Flow,
+	Format,
+	FragmentPatch,
+	GateAnd,
+	GateMajority,
+	GateNand,
+	GateNor,
+	GateNot,
+	GateOr,
+	GateXnor,
+	GateXor,
+	Geodesic,
+	GhPythonScript,
+	GoldenRatio,
+	GraftTree,
+	Group,
+	Hexagonal,
+	HorizontalFrame,
+	HorizontalFrames,
+	ImageGallery,
+	Incentre,
+	InCircle,
+	Includes,
+	InEllipse,
+	InsertItems,
+	IntegerDivision,
+	Interpolate,
+	Interpolatedata,
+	InterpolateDate,
+	Interpolatet,
+	InverseTransform,
+	InvertMatrix,
+	IsoCurve,
+	Isotrim,
+	IsoVist,
+	IsoVistRay,
+	IsPlanar,
+	ItemIndex,
+	Jitter,
+	JoinCurves,
+	Kaleidoscope,
+	KeyValueSearch,
+	KinkyCurve,
+	KnotVector,
+	LargerThan,
+	Legend,
+	Length,
+	LengthDomain,
+	LengthParameter,
+	Line,
+	LineTwoPlane,
+	LineFourPt,
+	LinearArray,
+	LinearDimension,
+	LineCharge,
+	LineDimension,
+	LineLine,
+	LinePlane,
+	LinePt,
+	LineSDL,
+	ListItem,
+	ListLength,
+	Loft,
+	LoftOptions,
+	Logarithm,
+	LogN,
+	LongestList,
+	Maelstrom,
+	MakeTwoD,
+	MakeTwoDParallelView,
+	MakeTwoDPerspectiveView,
+	MakeTwoDRhinoView,
+	MaptoSurface,
+	MarkerDimension,
+	MassAddition,
+	MassMultiplication,
+	MatchCurve,
+	MatchText,
+	MatchTree,
+	Maximum,
+	MemberIndex,
+	Merge,
+	MergeZeroThree,
+	MergeZeroFour,
+	MergeZeroFive,
+	MergeZeroSix,
+	MergeZeroEight,
+	MergeOneZero,
+	MergeFaces,
+	MergeFields,
+	MergeGroup,
+	MergeMultiple,
+	MeshBox,
+	MeshBrep,
+	MeshClosestPoint,
+	MeshColours,
+	MeshCurve,
+	MeshDepth,
+	MeshDifference,
+	MeshEdges,
+	MeshEval,
+	MeshfromSubD,
+	MeshInclusion,
+	MeshIntersection,
+	MeshJoin,
+	MeshMesh,
+	MeshPlane,
+	MeshQuad,
+	MeshRay,
+	MeshShadow,
+	MeshSphere,
+	MeshSphereEx,
+	MeshSplit,
+	MeshSplitPlane,
+	MeshSpray,
+	MeshSurface,
+	MeshTriangle,
+	MeshUnion,
+	MetaBall,
+	MetaBallt,
+	MetaBalltCustom,
+	Minimum,
+	Mirror,
+	MirrorCurve,
+	MirrorSurface,
+	ModifiedArc,
+	Modulus,
+	Move,
+	MoveAwayFrom,
+	MoveToPlane,
+	MultipleCurves,
+	Multiplication,
+	Multiply,
+	Naturallogarithm,
+	Negative,
+	NetworkSurface,
+	NullItem,
+	NumberstoPoints,
+	NurbsCurve,
+	NurbsCurvePWK,
+	Occlusion,
+	OcTree,
+	OffsetCurve,
+	OffsetCurveLoose,
+	OffsetLooseThreeD,
+	OffsetonSrf,
+	OffsetPolyline,
+	OffsetSurface,
+	OffsetSurfaceLoose,
+	OneOverX,
+	Orient,
+	OrientDirection,
+	Orthocentre,
+	OsculatingCircles,
+	PartitionList,
+	Patch,
+	PathCompare,
+	PathMapper,
+	PerpendicularDisplay,
+	PerpFrame,
+	PerpFrames,
+	Pi,
+	PicknChoose,
+	PieChart,
+	Pipe,
+	PipeVariable,
+	Planar,
+	PlaneThreePt,
+	PlaneClosestPoint,
+	PlaneCoordinates,
+	PlaneFit,
+	PlaneNormal,
+	PlaneOffset,
+	PlaneOrigin,
+	PlanePlane,
+	PlanePlanePlane,
+	PlaneRegion,
+	PlaneSurface,
+	PlaneThroughShape,
+	PointCharge,
+	PointCylindrical,
+	PointDeform,
+	PointGroups,
+	PointInBrep,
+	PointInBreps,
+	PointInCurve,
+	PointinCurves,
+	PointInTrim,
+	PointList,
+	PointOnCurve,
+	PointOrder,
+	PointOriented,
+	PointPolar,
+	PointstoNumbers,
+	PolarArray,
+	PolyArc,
+	Polygon,
+	PolygonCenter,
+	PolygonEdge,
+	PolyLine,
+	PolylineCollapse,
+	PopulateTwoD,
+	PopulateThreeD,
+	PopulateGeometry,
+	Power,
+	PowerofOneZero,
+	PowerofTwo,
+	PowerofE,
+	PrincipalCurvature,
+	Project,
+	ProjectAlong,
+	ProjectPoint,
+	ProximityTwoD,
+	ProximityThreeD,
+	PruneTree,
+	PullCurve,
+	PullPoint,
+	Quadrangulate,
+	QuadSphere,
+	QuadTree,
+	QuickGraph,
+	Radial,
+	Radians,
+	RailRevolution,
+	Random,
+	RandomEx,
+	RandomReduce,
+	Range,
+	RebuildCurve,
+	Rectangle,
+	RectangleTwoPt,
+	RectangleThreePt,
+	RectangleMapping,
+	Rectangular,
+	RectangularArray,
+	Reduce,
+	RegionDifference,
+	RegionIntersection,
+	RegionSlits,
+	RegionUnion,
+	RelativeDifferences,
+	RelativeItem,
+	RelativeItems,
+	RemapNumbers,
+	RepeatData,
+	ReplaceItems,
+	ReplaceMembers,
+	ReplaceNulls,
+	ReplacePaths,
+	ReplaceText,
+	Retrim,
+	Reverse,
+	ReverseList,
+	Revolution,
+	RightTrigonometry,
+	Rotate,
+	RotateThreeD,
+	RotateAxis,
+	RotateDirection,
+	RotatePlane,
+	Round,
+	RuledSurface,
+	SanityXForm,
+	ScalarDisplay,
+	Scale,
+	ScaleNU,
+	Seam,
+	Secant,
+	SegmentLengths,
+	Sequence,
+	SerialDimension,
+	Series,
+	SeriesAddition,
+	SetDifference,
+	SetDifferenceS,
+	SetIntersection,
+	SetMajority,
+	SettingsCustom,
+	SettingsQuality,
+	SettingsSpeed,
+	SetUnion,
+	ShapeInBrep,
+	Shatter,
+	Shear,
+	ShearAngle,
+	ShiftList,
+	ShiftPaths,
+	ShortestList,
+	SiftPattern,
+	Similarity,
+	SimpleMesh,
+	SimplifyCurve,
+	SimplifyTree,
+	Sinc,
+	Sine,
+	SmallerThan,
+	SmoothMesh,
+	SmoothNumbers,
+	SmoothPolyline,
+	SolarIncidence,
+	SolidDifference,
+	SolidIntersection,
+	SolidUnion,
+	SortAlongCurve,
+	SortList,
+	SortPoints,
+	SortText,
+	SpatialDeform,
+	SpatialDeformcustom,
+	Sphere,
+	SphereFourPt,
+	SphereFit,
+	SpinForce,
+	Split,
+	SplitAHSL,
+	SplitAHSV,
+	SplitARGB,
+	SplitBrep,
+	SplitBrepMultiple,
+	SplitGroup,
+	SplitList,
+	SplitTree,
+	SplitwithBrep,
+	SplitwithBreps,
+	Splop,
+	Sporph,
+	Square,
+	SquareRoot,
+	StackData,
+	StreamFilter,
+	StreamGate,
+	Stretch,
+	SubCurve,
+	SubDBox,
+	SubDControlPolygon,
+	SubDEdges,
+	SubDFaces,
+	SubDfromMesh,
+	SubDVertices,
+	SubList,
+	SubSet,
+	Substrate,
+	Subtraction,
+	SumSurface,
+	SurfaceBox,
+	SurfaceClosestPoint,
+	SurfaceCurvature,
+	SurfaceCurve,
+	SurfaceFrames,
+	SurfaceFromPoints,
+	SurfaceInflection,
+	SurfaceLine,
+	SurfaceMorph,
+	SurfacePoints,
+	SurfaceSplit,
+	SwapColumns,
+	SwapRows,
+	SweepOne,
+	SweepTwo,
+	SwingArc,
+	SymbolAdvanced,
+	SymbolDisplay,
+	SymbolSimple,
+	Tangent,
+	TangentArcs,
+	TangentCurve,
+	TangentLines,
+	TangentLinesEx,
+	TangentLinesIn,
+	Taper,
+	TensorDisplay,
+	TestCrash,
+	TextCase,
+	TextDistance,
+	TextFragment,
+	TextJoin,
+	TextLength,
+	TextSplit,
+	TextTag,
+	TextTagThreeD,
+	TextTrim,
+	ToPolar,
+	Torsion,
+	TransformMatrix,
+	TransposeMatrix,
+	TreeBranch,
+	TreeItem,
+	TreeStatistics,
+	TriangleMapping,
+	TriangleTrigonometry,
+	Triangular,
+	Triangulate,
+	TrimSolid,
+	TrimTree,
+	TrimwithBrep,
+	TrimwithBreps,
+	TrimwithRegion,
+	TrimwithRegions,
+	Truncate,
+	TweenCurve,
+	Twist,
+	TwistedBox,
+	TwoByFourJam,
+	UnflattenTree,
+	Ungroup,
+	UnifyMesh,
+	UnitVector,
+	UnitX,
+	UnitY,
+	UnitZ,
+	Untrim,
+	UnweldMesh,
+	ValueTracker,
+	Variable,
+	VBScript,
+	VectorTwoPt,
+	VectorDisplay,
+	VectorDisplayEx,
+	VectorForce,
+	VectorLength,
+	VectorXYZ,
+	ViewportDisplay,
+	Volume,
+	VolumeMoments,
+	Voronoi,
+	VoronoiThreeD,
+	VoronoiCell,
+	VoronoiGroups,
+	Weave,
+	WeightedAverage,
+	WeldMesh,
+	XYPlane,
+	XZPlane,
+	YZPlane
+}
+
 export type GrasshopperComponent =
 "FourPointSurface" |
 "Absolute" |
-"Addition" |
 "Addition" |
 "AdjustPlane" |
 "AlignedDimension" |
@@ -2223,7 +3533,6 @@ export type GrasshopperComponent =
 "Circumcentre" |
 "Clash" |
 "CleanTree" |
-"CleanTree" |
 "Closed" |
 "ClosedEdges" |
 "ClosestPoint" |
@@ -2252,8 +3561,6 @@ export type GrasshopperComponent =
 "ConsecutiveDomains" |
 "ConstructDate" |
 "ConstructDomain" |
-"ConstructDomain" |
-"ConstructDomain" |
 "ConstructExoticDate" |
 "ConstructMatrix" |
 "ConstructMesh" |
@@ -2263,8 +3570,6 @@ export type GrasshopperComponent =
 "ConstructSmoothTime" |
 "ConstructTime" |
 "Contour" |
-"Contour" |
-"Contourex" |
 "Contourex" |
 "ControlPointLoft" |
 "ControlPoints" |
@@ -2318,8 +3623,6 @@ export type GrasshopperComponent =
 "DeconstructBrep" |
 "DeconstructDate" |
 "DeconstructDomain" |
-"DeconstructDomain" |
-"DeconstructDomain" |
 "DeconstructFace" |
 "DeconstructMatrix" |
 "DeconstructMesh" |
@@ -2346,7 +3649,6 @@ export type GrasshopperComponent =
 "DivideByDeviation" |
 "DivideCurve" |
 "DivideDistance" |
-"DivideDomain" |
 "DivideDomain" |
 "DivideLength" |
 "DivideSurface" |
@@ -2380,7 +3682,6 @@ export type GrasshopperComponent =
 "Expression" |
 "ExtendCurve" |
 "Extremes" |
-"Extremes" |
 "Extrude" |
 "ExtrudeAlong" |
 "ExtrudeAngled" |
@@ -2393,7 +3694,6 @@ export type GrasshopperComponent =
 "Factorial" |
 "Fibonacci" |
 "FieldLine" |
-"Fillet" |
 "Fillet" |
 "FilletDistance" |
 "FilletEdge" |
@@ -2465,14 +3765,12 @@ export type GrasshopperComponent =
 "LineCharge" |
 "LineDimension" |
 "LineLine" |
-"LineLine" |
 "LinePlane" |
 "LinePt" |
 "LineSDL" |
 "ListItem" |
 "ListLength" |
 "Loft" |
-"LoftOptions" |
 "LoftOptions" |
 "Logarithm" |
 "LogN" |
@@ -2491,7 +3789,6 @@ export type GrasshopperComponent =
 "MatchTree" |
 "Maximum" |
 "MemberIndex" |
-"Merge" |
 "Merge" |
 "MergeZeroThree" |
 "MergeZeroFour" |
@@ -2517,7 +3814,6 @@ export type GrasshopperComponent =
 "MeshIntersection" |
 "MeshJoin" |
 "MeshMesh" |
-"MeshPlane" |
 "MeshPlane" |
 "MeshQuad" |
 "MeshRay" |
@@ -2545,7 +3841,6 @@ export type GrasshopperComponent =
 "MultipleCurves" |
 "Multiplication" |
 "Multiply" |
-"Naturallogarithm" |
 "Naturallogarithm" |
 "Negative" |
 "NetworkSurface" |
@@ -2602,7 +3897,6 @@ export type GrasshopperComponent =
 "PointinCurves" |
 "PointInTrim" |
 "PointList" |
-"PointList" |
 "PointOnCurve" |
 "PointOrder" |
 "PointOriented" |
@@ -2623,7 +3917,6 @@ export type GrasshopperComponent =
 "PowerofTwo" |
 "PowerofE" |
 "PrincipalCurvature" |
-"Project" |
 "Project" |
 "ProjectAlong" |
 "ProjectPoint" |
@@ -2670,7 +3963,6 @@ export type GrasshopperComponent =
 "ReverseList" |
 "Revolution" |
 "RightTrigonometry" |
-"Rotate" |
 "Rotate" |
 "RotateThreeD" |
 "RotateAxis" |
@@ -2743,7 +4035,6 @@ export type GrasshopperComponent =
 "Splop" |
 "Sporph" |
 "Square" |
-"Square" |
 "SquareRoot" |
 "StackData" |
 "StreamFilter" |
@@ -2800,7 +4091,6 @@ export type GrasshopperComponent =
 "TextTrim" |
 "ToPolar" |
 "Torsion" |
-"Transform" |
 "TransformMatrix" |
 "TransposeMatrix" |
 "TreeBranch" |
