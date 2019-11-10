@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class NurbsCurvePWK extends ResthopperComponent {
+export default class NurbsCurvePWK extends ResthopperComponent {
 
 	public guid: string = "1f8e1ff7-8278-4421-b39d-350e71d85d37";
 	public name: string = "Nurbs Curve PWK";

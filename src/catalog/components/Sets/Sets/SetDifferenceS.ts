@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SetDifferenceS extends ResthopperComponent {
+export default class SetDifferenceS extends ResthopperComponent {
 
 	public guid: string = "d2461702-3164-4894-8c10-ed1fc4b52965";
 	public name: string = "Set Difference (S)";

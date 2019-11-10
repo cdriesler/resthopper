@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Pi extends ResthopperComponent {
+export default class Pi extends ResthopperComponent {
 
 	public guid: string = "0d2ccfb3-9d41-4759-9452-da6a522c3eaa";
 	public name: string = "Pi";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class GateXnor extends ResthopperComponent {
+export default class GateXnor extends ResthopperComponent {
 
 	public guid: string = "b6aedcac-bf43-42d4-899e-d763612f834d";
 	public name: string = "Gate Xnor";

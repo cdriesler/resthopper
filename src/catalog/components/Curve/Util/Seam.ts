@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Seam extends ResthopperComponent {
+export default class Seam extends ResthopperComponent {
 
 	public guid: string = "42ad8dc1-b0c0-40df-91f5-2c46e589e6c2";
 	public name: string = "Seam";

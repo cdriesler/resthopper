@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class OffsetCurve extends ResthopperComponent {
+export default class OffsetCurve extends ResthopperComponent {
 
 	public guid: string = "1a38d325-98de-455c-93f1-bca431bc1243";
 	public name: string = "Offset Curve";

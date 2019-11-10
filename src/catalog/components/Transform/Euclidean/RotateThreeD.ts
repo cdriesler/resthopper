@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class RotateThreeD extends ResthopperComponent {
+export default class RotateThreeD extends ResthopperComponent {
 
 	public guid: string = "3dfb9a77-6e05-4016-9f20-94f78607d672";
 	public name: string = "Rotate 3D";

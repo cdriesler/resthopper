@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TensorDisplay extends ResthopperComponent {
+export default class TensorDisplay extends ResthopperComponent {
 
 	public guid: string = "08619b6d-f9c4-4cb2-adcd-90959f08dc0d";
 	public name: string = "Tensor Display";

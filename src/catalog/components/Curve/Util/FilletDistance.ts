@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FilletDistance extends ResthopperComponent {
+export default class FilletDistance extends ResthopperComponent {
 
 	public guid: string = "6fb21315-a032-400e-a80f-248687f5507f";
 	public name: string = "Fillet Distance";

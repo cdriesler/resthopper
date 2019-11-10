@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CarthesianProduct extends ResthopperComponent {
+export default class CarthesianProduct extends ResthopperComponent {
 
 	public guid: string = "deffaf1e-270a-4c15-a693-9216b68afd4a";
 	public name: string = "Carthesian Product";

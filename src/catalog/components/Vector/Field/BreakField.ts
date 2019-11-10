@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BreakField extends ResthopperComponent {
+export default class BreakField extends ResthopperComponent {
 
 	public guid: string = "b27d53bc-e713-475d-81fd-71cdd8de2e58";
 	public name: string = "Break Field";

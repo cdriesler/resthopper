@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class OffsetPolyline extends ResthopperComponent {
+export default class OffsetPolyline extends ResthopperComponent {
 
 	public guid: string = "e2c6cab3-91ea-4c01-900c-646642d3e436";
 	public name: string = "Offset Polyline";

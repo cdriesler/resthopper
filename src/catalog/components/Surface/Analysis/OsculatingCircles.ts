@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class OsculatingCircles extends ResthopperComponent {
+export default class OsculatingCircles extends ResthopperComponent {
 
 	public guid: string = "b799b7c0-76df-4bdb-b3cc-401b1d021aa5";
 	public name: string = "Osculating Circles";

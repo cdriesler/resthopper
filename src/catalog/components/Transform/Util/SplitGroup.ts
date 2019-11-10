@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SplitGroup extends ResthopperComponent {
+export default class SplitGroup extends ResthopperComponent {
 
 	public guid: string = "fd03419e-e1cc-4603-8a57-6dfa56ed5dec";
 	public name: string = "Split Group";

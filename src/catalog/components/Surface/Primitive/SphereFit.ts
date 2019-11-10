@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SphereFit extends ResthopperComponent {
+export default class SphereFit extends ResthopperComponent {
 
 	public guid: string = "e7ffb3af-2d77-4804-a260-755308bf8285";
 	public name: string = "Sphere Fit";

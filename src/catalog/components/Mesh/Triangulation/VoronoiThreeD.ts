@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class VoronoiThreeD extends ResthopperComponent {
+export default class VoronoiThreeD extends ResthopperComponent {
 
 	public guid: string = "ba9bb57a-61cf-4207-a1c4-994e371ba4f9";
 	public name: string = "Voronoi 3D";

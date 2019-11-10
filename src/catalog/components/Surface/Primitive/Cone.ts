@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Cone extends ResthopperComponent {
+export default class Cone extends ResthopperComponent {
 
 	public guid: string = "03e331ed-c4d1-4a23-afa2-f57b87d2043c";
 	public name: string = "Cone";

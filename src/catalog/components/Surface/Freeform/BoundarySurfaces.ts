@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BoundarySurfaces extends ResthopperComponent {
+export default class BoundarySurfaces extends ResthopperComponent {
 
 	public guid: string = "d51e9b65-aa4e-4fd6-976c-cef35d421d05";
 	public name: string = "Boundary Surfaces";

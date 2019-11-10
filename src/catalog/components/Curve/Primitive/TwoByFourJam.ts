@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TwoByFourJam extends ResthopperComponent {
+export default class TwoByFourJam extends ResthopperComponent {
 
 	public guid: string = "c21e7bd5-b1f2-4448-ac56-206f98f90aa7";
 	public name: string = "TwoByFourJam";

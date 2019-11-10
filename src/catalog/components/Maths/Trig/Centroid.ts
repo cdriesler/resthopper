@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Centroid extends ResthopperComponent {
+export default class Centroid extends ResthopperComponent {
 
 	public guid: string = "afbcbad4-2a2a-4954-8040-d999e316d2bd";
 	public name: string = "Centroid";

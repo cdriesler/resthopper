@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DomainBox extends ResthopperComponent {
+export default class DomainBox extends ResthopperComponent {
 
 	public guid: string = "79aa7f47-397c-4d3f-9761-aaf421bb7f5f";
 	public name: string = "Domain Box";

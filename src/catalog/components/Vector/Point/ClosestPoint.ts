@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ClosestPoint extends ResthopperComponent {
+export default class ClosestPoint extends ResthopperComponent {
 
 	public guid: string = "571ca323-6e55-425a-bf9e-ee103c7ba4b9";
 	public name: string = "Closest Point";

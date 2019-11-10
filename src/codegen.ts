@@ -119,6 +119,13 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
 
 function writeComponentCatalog(components: ResthopperComponent[]): void {
 
+    var index: {
+        [category: string]: {
+            [subcategory: string]: string[]
+        }
+    } = {};
+
+    // Write component-specific classes
     components.sort((a, b) => a.name.localeCompare(b.name)).forEach(c => {
         const dir = `./src/catalog/components/${c.category}/${c.subCategory}`;
 
@@ -128,12 +135,23 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
 
         const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
 
+        if (index[c.category] == undefined) {
+            index[c.category] = {};
+        }
+        if (index[c.category][c.subCategory] == undefined) {
+            index[c.category][c.subCategory] = [];
+        }
+
+        if(!index[c.category][c.subCategory].includes(className)) {
+            index[c.category][c.subCategory].push(className);
+        }
+
         var text: string[] = [
             "import ResthopperComponent from './../../../../models/ResthopperComponent';",
             "import ResthopperParameter from './../../../../models/ResthopperParameter';",
             "import { newGuid } from './../../../../utils/Guid';",
             "",
-            `export class ${className} extends ResthopperComponent {`,
+            `export default class ${className} extends ResthopperComponent {`,
             "",
             `\tpublic guid: string = "${c.guid}";`,
             `\tpublic name: string = "${c.name}";`,
@@ -148,6 +166,40 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         ];
 
         fs.writeFileSync(`${dir}/${className}.ts`, text.join("\n"));
+    });
+
+    // Write category-level index
+    Object.keys(index).forEach(x => {
+        const path = `./src/catalog/components/${x}/${x}ComponentIndex.ts`;
+
+        var categoryImports: string[] = [];
+        var categoryExports: string[] = [];
+
+        // Subcategory
+        Object.keys(index[x]).forEach(y => {
+            var exp: string[] = [ `\t${y}: {` ];
+
+            index[x][y].forEach(z => {
+                categoryImports.push(`import ${y}${z} from './${y}/${z}'`);
+                exp.push(`\t\t${z}: ${y}${z},`)
+            });
+
+            exp.push("\t},");
+
+            categoryExports.push(exp.join("\n"));
+        })
+
+        var categoryIndex: string[] = [
+            categoryImports.join("\n"),
+            "",
+            `const ${x} = {`,
+            categoryExports.join("\n"),
+            "}",
+            "",
+            `export default ${x};`,
+        ]
+
+        fs.writeFileSync(path, categoryIndex.join("\n"));
     });
     
 }

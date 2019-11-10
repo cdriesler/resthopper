@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CurveFrames extends ResthopperComponent {
+export default class CurveFrames extends ResthopperComponent {
 
 	public guid: string = "0e94542a-2e46-4793-9f98-2200b06b28f4";
 	public name: string = "Curve Frames";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ControlPoints extends ResthopperComponent {
+export default class ControlPoints extends ResthopperComponent {
 
 	public guid: string = "424eb433-2b3a-4859-beaf-804d8af0afd7";
 	public name: string = "Control Points";

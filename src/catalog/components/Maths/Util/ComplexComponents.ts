@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ComplexComponents extends ResthopperComponent {
+export default class ComplexComponents extends ResthopperComponent {
 
 	public guid: string = "1f384257-b26b-4160-a6d3-1dcd89b64acd";
 	public name: string = "Complex Components";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Radians extends ResthopperComponent {
+export default class Radians extends ResthopperComponent {
 
 	public guid: string = "a4cd2751-414d-42ec-8916-476ebf62d7fe";
 	public name: string = "Radians";

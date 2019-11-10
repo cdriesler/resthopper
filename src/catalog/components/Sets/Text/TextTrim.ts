@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TextTrim extends ResthopperComponent {
+export default class TextTrim extends ResthopperComponent {
 
 	public guid: string = "e4cb7168-5e32-4c54-b425-5a31c6fd685a";
 	public name: string = "Text Trim";

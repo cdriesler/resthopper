@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DivideLength extends ResthopperComponent {
+export default class DivideLength extends ResthopperComponent {
 
 	public guid: string = "fdc466a9-d3b8-4056-852a-09dba0f74aca";
 	public name: string = "Divide Length";

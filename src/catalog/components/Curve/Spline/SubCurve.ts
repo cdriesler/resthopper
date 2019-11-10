@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SubCurve extends ResthopperComponent {
+export default class SubCurve extends ResthopperComponent {
 
 	public guid: string = "429cbba9-55ee-4e84-98ea-876c44db879a";
 	public name: string = "Sub Curve";

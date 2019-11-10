@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PointDeform extends ResthopperComponent {
+export default class PointDeform extends ResthopperComponent {
 
 	public guid: string = "4dbd15c7-ebcb-4af6-b3bd-32e80502520c";
 	public name: string = "Point Deform";

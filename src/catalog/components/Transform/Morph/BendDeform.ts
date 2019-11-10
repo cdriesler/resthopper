@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BendDeform extends ResthopperComponent {
+export default class BendDeform extends ResthopperComponent {
 
 	public guid: string = "539f5564-4fc0-4fc1-a7d3-b802fa2ef072";
 	public name: string = "Bend Deform";

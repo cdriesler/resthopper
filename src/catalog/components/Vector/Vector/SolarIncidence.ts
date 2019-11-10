@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SolarIncidence extends ResthopperComponent {
+export default class SolarIncidence extends ResthopperComponent {
 
 	public guid: string = "59e1f848-38d4-4cbf-ad7f-40ffc52acdf5";
 	public name: string = "Solar Incidence";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CreateSet extends ResthopperComponent {
+export default class CreateSet extends ResthopperComponent {
 
 	public guid: string = "98c3c63a-e78a-43ea-a111-514fcf312c95";
 	public name: string = "Create Set";

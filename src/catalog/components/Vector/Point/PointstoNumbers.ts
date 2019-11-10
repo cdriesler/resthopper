@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PointstoNumbers extends ResthopperComponent {
+export default class PointstoNumbers extends ResthopperComponent {
 
 	public guid: string = "d24169cc-9922-4923-92bc-b9222efc413f";
 	public name: string = "Points to Numbers";

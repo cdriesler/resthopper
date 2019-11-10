@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ColourXYZ extends ResthopperComponent {
+export default class ColourXYZ extends ResthopperComponent {
 
 	public guid: string = "77185dc2-2f18-469d-9686-00f5b6049195";
 	public name: string = "Colour XYZ";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Distance extends ResthopperComponent {
+export default class Distance extends ResthopperComponent {
 
 	public guid: string = "93b8e93d-f932-402c-b435-84be04d87666";
 	public name: string = "Distance";

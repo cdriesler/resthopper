@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BoxMorph extends ResthopperComponent {
+export default class BoxMorph extends ResthopperComponent {
 
 	public guid: string = "d8940ff0-dd4a-4e74-9361-54df537b50db";
 	public name: string = "Box Morph";

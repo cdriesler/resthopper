@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Cube extends ResthopperComponent {
+export default class Cube extends ResthopperComponent {
 
 	public guid: string = "7e3185eb-a38c-4949-bcf2-0e80dee3a344";
 	public name: string = "Cube";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class XYPlane extends ResthopperComponent {
+export default class XYPlane extends ResthopperComponent {
 
 	public guid: string = "17b7152b-d30d-4d50-b9ef-c9fe25576fc2";
 	public name: string = "XY Plane";

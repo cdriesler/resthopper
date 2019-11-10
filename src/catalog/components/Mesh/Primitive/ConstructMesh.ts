@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ConstructMesh extends ResthopperComponent {
+export default class ConstructMesh extends ResthopperComponent {
 
 	public guid: string = "e2c0f9db-a862-4bd9-810c-ef2610e7a56f";
 	public name: string = "Construct Mesh";

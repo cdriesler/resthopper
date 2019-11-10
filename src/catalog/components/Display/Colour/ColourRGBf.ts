@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ColourRGBf extends ResthopperComponent {
+export default class ColourRGBf extends ResthopperComponent {
 
 	public guid: string = "f35132c0-c298-4b9c-b446-42e960f52677";
 	public name: string = "Colour RGB (f)";

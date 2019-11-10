@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ShortestList extends ResthopperComponent {
+export default class ShortestList extends ResthopperComponent {
 
 	public guid: string = "5a13ec19-e4e9-43da-bf65-f93025fa87ca";
 	public name: string = "Shortest List";

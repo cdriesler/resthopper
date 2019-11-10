@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class UnweldMesh extends ResthopperComponent {
+export default class UnweldMesh extends ResthopperComponent {
 
 	public guid: string = "47814a17-ca9e-4305-9400-3a9c8d71c19d";
 	public name: string = "Unweld Mesh";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class GhPythonScript extends ResthopperComponent {
+export default class GhPythonScript extends ResthopperComponent {
 
 	public guid: string = "410755b1-224a-4c1e-a407-bf32fb45ea7e";
 	public name: string = "GhPython Script";

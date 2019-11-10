@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SubDFaces extends ResthopperComponent {
+export default class SubDFaces extends ResthopperComponent {
 
 	public guid: string = "83c81431-17bc-4bff-bb85-be0a846bd044";
 	public name: string = "Sub-D Faces";

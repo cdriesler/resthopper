@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Square extends ResthopperComponent {
+export default class Square extends ResthopperComponent {
 
 	public guid: string = "717a1e25-a075-4530-bc80-d43ecc2500d9";
 	public name: string = "Square";

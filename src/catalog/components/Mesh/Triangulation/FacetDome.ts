@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FacetDome extends ResthopperComponent {
+export default class FacetDome extends ResthopperComponent {
 
 	public guid: string = "190c0070-8cbf-4347-94c2-d84bbb488d55";
 	public name: string = "Facet Dome";

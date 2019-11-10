@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class StackData extends ResthopperComponent {
+export default class StackData extends ResthopperComponent {
 
 	public guid: string = "5fa4e736-0d82-4af0-97fb-30a79f4cbf41";
 	public name: string = "Stack Data";

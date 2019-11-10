@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FaceCircles extends ResthopperComponent {
+export default class FaceCircles extends ResthopperComponent {
 
 	public guid: string = "d8cf1555-a0d5-43cb-8a10-46f8c014db3a";
 	public name: string = "Face Circles";

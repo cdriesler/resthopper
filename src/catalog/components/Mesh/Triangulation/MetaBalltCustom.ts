@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MetaBalltCustom extends ResthopperComponent {
+export default class MetaBalltCustom extends ResthopperComponent {
 
 	public guid: string = "c4373505-a4cf-4992-8db1-fd6e6bb5850d";
 	public name: string = "MetaBall(t) Custom";

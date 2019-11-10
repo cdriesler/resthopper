@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BoxSlits extends ResthopperComponent {
+export default class BoxSlits extends ResthopperComponent {
 
 	public guid: string = "2d3b6ef3-5c26-4e2f-bcb3-8ffb9fb0f7c3";
 	public name: string = "Box Slits";

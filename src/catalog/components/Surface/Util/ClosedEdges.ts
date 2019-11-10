@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ClosedEdges extends ResthopperComponent {
+export default class ClosedEdges extends ResthopperComponent {
 
 	public guid: string = "70905be1-e22f-4fa8-b9ae-e119d417904f";
 	public name: string = "Closed Edges";

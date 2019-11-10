@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MakeTwoDPerspectiveView extends ResthopperComponent {
+export default class MakeTwoDPerspectiveView extends ResthopperComponent {
 
 	public guid: string = "33359c6d-984e-42f3-a869-0c3364ab33b6";
 	public name: string = "Make2D Perspective View";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BezierSpan extends ResthopperComponent {
+export default class BezierSpan extends ResthopperComponent {
 
 	public guid: string = "30ce59ce-22a1-49ee-9e21-e6d16b3684a8";
 	public name: string = "Bezier Span";

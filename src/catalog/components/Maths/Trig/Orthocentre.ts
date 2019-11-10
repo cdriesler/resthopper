@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Orthocentre extends ResthopperComponent {
+export default class Orthocentre extends ResthopperComponent {
 
 	public guid: string = "36dd5551-b6bd-4246-bd2f-1fd91eb2f02d";
 	public name: string = "Orthocentre";

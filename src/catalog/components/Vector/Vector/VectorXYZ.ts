@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class VectorXYZ extends ResthopperComponent {
+export default class VectorXYZ extends ResthopperComponent {
 
 	public guid: string = "56b92eab-d121-43f7-94d3-6cd8f0ddead8";
 	public name: string = "Vector XYZ";

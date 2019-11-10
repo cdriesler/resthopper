@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class EdgesfromLength extends ResthopperComponent {
+export default class EdgesfromLength extends ResthopperComponent {
 
 	public guid: string = "ff187e6a-84bc-4bb9-a572-b39006a0576d";
 	public name: string = "Edges from Length";

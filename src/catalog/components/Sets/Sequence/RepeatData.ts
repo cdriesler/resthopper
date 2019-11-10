@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class RepeatData extends ResthopperComponent {
+export default class RepeatData extends ResthopperComponent {
 
 	public guid: string = "c40dc145-9e36-4a69-ac1a-6d825c654993";
 	public name: string = "Repeat Data";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DuplicateData extends ResthopperComponent {
+export default class DuplicateData extends ResthopperComponent {
 
 	public guid: string = "dd8134c0-109b-4012-92be-51d843edfff7";
 	public name: string = "Duplicate Data";

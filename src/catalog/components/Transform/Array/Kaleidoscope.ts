@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Kaleidoscope extends ResthopperComponent {
+export default class Kaleidoscope extends ResthopperComponent {
 
 	public guid: string = "b90eaa92-6e38-4054-a915-afcf486224b3";
 	public name: string = "Kaleidoscope";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ShiftPaths extends ResthopperComponent {
+export default class ShiftPaths extends ResthopperComponent {
 
 	public guid: string = "2d61f4e0-47c5-41d6-a41d-6afa96ee63af";
 	public name: string = "Shift Paths";

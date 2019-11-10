@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class InterpolateDate extends ResthopperComponent {
+export default class InterpolateDate extends ResthopperComponent {
 
 	public guid: string = "4083802b-3dd9-4b13-9756-bf5441213e70";
 	public name: string = "Interpolate Date";

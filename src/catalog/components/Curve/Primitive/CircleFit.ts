@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CircleFit extends ResthopperComponent {
+export default class CircleFit extends ResthopperComponent {
 
 	public guid: string = "be52336f-a2e1-43b1-b5f5-178ba489508a";
 	public name: string = "Circle Fit";

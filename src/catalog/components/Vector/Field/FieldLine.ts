@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FieldLine extends ResthopperComponent {
+export default class FieldLine extends ResthopperComponent {
 
 	public guid: string = "add6be3e-c57f-4740-96e4-5680abaa9169";
 	public name: string = "Field Line";

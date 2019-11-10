@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SetIntersection extends ResthopperComponent {
+export default class SetIntersection extends ResthopperComponent {
 
 	public guid: string = "82f19c48-9e73-43a4-ae6c-3a8368099b08";
 	public name: string = "Set Intersection";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DotNETCScriptLEGACY extends ResthopperComponent {
+export default class DotNETCScriptLEGACY extends ResthopperComponent {
 
 	public guid: string = "88c3f2b5-27f7-48a2-9528-1397fad62b93";
 	public name: string = "DotNET C# Script (LEGACY)";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class NullItem extends ResthopperComponent {
+export default class NullItem extends ResthopperComponent {
 
 	public guid: string = "c74efd0e-7fe3-4c2d-8c9d-295c5672fb13";
 	public name: string = "Null Item";

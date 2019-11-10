@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BrepJoin extends ResthopperComponent {
+export default class BrepJoin extends ResthopperComponent {
 
 	public guid: string = "1addcc85-b04e-46e6-bd4a-6f6c93bf7efd";
 	public name: string = "Brep Join";

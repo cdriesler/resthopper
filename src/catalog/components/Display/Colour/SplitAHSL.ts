@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SplitAHSL extends ResthopperComponent {
+export default class SplitAHSL extends ResthopperComponent {
 
 	public guid: string = "0a1331c8-c58d-4b3f-a886-47051532e35e";
 	public name: string = "Split AHSL";

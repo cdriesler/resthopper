@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CircleCNR extends ResthopperComponent {
+export default class CircleCNR extends ResthopperComponent {
 
 	public guid: string = "d114323a-e6ee-4164-946b-e4ca0ce15efa";
 	public name: string = "Circle CNR";

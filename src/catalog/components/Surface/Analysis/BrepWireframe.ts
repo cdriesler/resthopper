@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BrepWireframe extends ResthopperComponent {
+export default class BrepWireframe extends ResthopperComponent {
 
 	public guid: string = "ac750e41-2450-4f98-9658-98fef97b01b2";
 	public name: string = "Brep Wireframe";

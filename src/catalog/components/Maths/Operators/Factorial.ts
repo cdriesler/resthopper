@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Factorial extends ResthopperComponent {
+export default class Factorial extends ResthopperComponent {
 
 	public guid: string = "a0a38131-c5fc-4984-b05d-34cf57f0c018";
 	public name: string = "Factorial";

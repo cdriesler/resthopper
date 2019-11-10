@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Sinc extends ResthopperComponent {
+export default class Sinc extends ResthopperComponent {
 
 	public guid: string = "a2d9503d-a83c-4d71-81e0-02af8d09cd0c";
 	public name: string = "Sinc";

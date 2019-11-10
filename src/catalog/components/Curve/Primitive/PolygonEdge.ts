@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PolygonEdge extends ResthopperComponent {
+export default class PolygonEdge extends ResthopperComponent {
 
 	public guid: string = "f4568ce6-aade-4511-8f32-f27d8a6bf9e9";
 	public name: string = "Polygon Edge";

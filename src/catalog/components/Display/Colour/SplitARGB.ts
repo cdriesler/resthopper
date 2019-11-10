@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SplitARGB extends ResthopperComponent {
+export default class SplitARGB extends ResthopperComponent {
 
 	public guid: string = "350f7d03-a48f-4121-bcee-328cfe1ed9ef";
 	public name: string = "Split ARGB";

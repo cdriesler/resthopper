@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MakeTwoD extends ResthopperComponent {
+export default class MakeTwoD extends ResthopperComponent {
 
 	public guid: string = "96e40f6b-ba46-4102-bf15-ebf90471f4a0";
 	public name: string = "Make2D";

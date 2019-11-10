@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Exposure extends ResthopperComponent {
+export default class Exposure extends ResthopperComponent {
 
 	public guid: string = "a78e3fbc-d199-4bd9-8df0-fc4c2743eb31";
 	public name: string = "Exposure";

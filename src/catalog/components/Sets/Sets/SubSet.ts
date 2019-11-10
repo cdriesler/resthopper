@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SubSet extends ResthopperComponent {
+export default class SubSet extends ResthopperComponent {
 
 	public guid: string = "4cfc0bb0-0745-4772-a520-39f9bf3d99bc";
 	public name: string = "SubSet";

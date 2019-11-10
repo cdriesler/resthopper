@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FlipMatrix extends ResthopperComponent {
+export default class FlipMatrix extends ResthopperComponent {
 
 	public guid: string = "41aa4112-9c9b-42f4-847e-503b9d90e4c7";
 	public name: string = "Flip Matrix";

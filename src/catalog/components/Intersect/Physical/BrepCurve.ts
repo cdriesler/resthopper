@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BrepCurve extends ResthopperComponent {
+export default class BrepCurve extends ResthopperComponent {
 
 	public guid: string = "20ef81e8-df15-4a0c-acf1-993a7607cafb";
 	public name: string = "Brep | Curve";

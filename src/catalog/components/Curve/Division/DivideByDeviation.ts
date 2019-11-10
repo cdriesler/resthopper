@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DivideByDeviation extends ResthopperComponent {
+export default class DivideByDeviation extends ResthopperComponent {
 
 	public guid: string = "6e9c0577-ae4a-4b21-8880-0ec3daf3eb4d";
 	public name: string = "Divide By Deviation";

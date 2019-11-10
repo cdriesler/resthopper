@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PointInCurve extends ResthopperComponent {
+export default class PointInCurve extends ResthopperComponent {
 
 	public guid: string = "a72b0bd3-c7a7-458e-875d-09ae1624638c";
 	public name: string = "Point In Curve";

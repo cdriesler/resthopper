@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ConsecutiveDomains extends ResthopperComponent {
+export default class ConsecutiveDomains extends ResthopperComponent {
 
 	public guid: string = "95992b33-89e1-4d36-bd35-2754a11af21e";
 	public name: string = "Consecutive Domains";

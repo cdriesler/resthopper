@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SegmentLengths extends ResthopperComponent {
+export default class SegmentLengths extends ResthopperComponent {
 
 	public guid: string = "f88a6cd9-1035-4361-b896-4f2dfe79272d";
 	public name: string = "Segment Lengths";

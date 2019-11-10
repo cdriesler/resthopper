@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SanityXForm extends ResthopperComponent {
+export default class SanityXForm extends ResthopperComponent {
 
 	public guid: string = "03b3db66-d7e8-4d2d-bc0c-122913317254";
 	public name: string = "Sanity XForm";

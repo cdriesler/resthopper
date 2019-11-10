@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Minimum extends ResthopperComponent {
+export default class Minimum extends ResthopperComponent {
 
 	public guid: string = "57308b30-772d-4919-ac67-e86c18f3a996";
 	public name: string = "Minimum";

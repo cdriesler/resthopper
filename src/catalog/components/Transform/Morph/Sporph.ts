@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Sporph extends ResthopperComponent {
+export default class Sporph extends ResthopperComponent {
 
 	public guid: string = "9cacad37-b09f-4b54-b2b1-1ccdc2e3ffea";
 	public name: string = "Sporph";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class LinearArray extends ResthopperComponent {
+export default class LinearArray extends ResthopperComponent {
 
 	public guid: string = "e87db220-a0a0-4d67-a405-f97fd14b2d7a";
 	public name: string = "Linear Array";

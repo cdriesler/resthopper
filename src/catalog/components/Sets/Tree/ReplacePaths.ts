@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ReplacePaths extends ResthopperComponent {
+export default class ReplacePaths extends ResthopperComponent {
 
 	public guid: string = "bfaaf799-77dc-4f31-9ad8-2f7d1a80aeb0";
 	public name: string = "Replace Paths";

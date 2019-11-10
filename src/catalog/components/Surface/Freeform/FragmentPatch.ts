@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FragmentPatch extends ResthopperComponent {
+export default class FragmentPatch extends ResthopperComponent {
 
 	public guid: string = "cb56b26c-2595-4d03-bdb2-eb2e6aeba82d";
 	public name: string = "Fragment Patch";

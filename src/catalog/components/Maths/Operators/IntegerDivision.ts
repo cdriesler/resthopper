@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class IntegerDivision extends ResthopperComponent {
+export default class IntegerDivision extends ResthopperComponent {
 
 	public guid: string = "54db2568-3441-4ae2-bcef-92c4cc608e11";
 	public name: string = "Integer Division";

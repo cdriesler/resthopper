@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Occlusion extends ResthopperComponent {
+export default class Occlusion extends ResthopperComponent {
 
 	public guid: string = "1583bd7e-4ab7-4439-b922-d6f8cd63c399";
 	public name: string = "Occlusion";

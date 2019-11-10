@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Bounds extends ResthopperComponent {
+export default class Bounds extends ResthopperComponent {
 
 	public guid: string = "f44b92b0-3b5b-493a-86f4-fd7408c3daf3";
 	public name: string = "Bounds";

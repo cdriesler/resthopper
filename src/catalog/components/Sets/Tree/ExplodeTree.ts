@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ExplodeTree extends ResthopperComponent {
+export default class ExplodeTree extends ResthopperComponent {
 
 	public guid: string = "74cad441-2264-45fe-a57d-85034751208a";
 	public name: string = "Explode Tree";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class AngularDimension extends ResthopperComponent {
+export default class AngularDimension extends ResthopperComponent {
 
 	public guid: string = "fc6b519e-df6d-4ce1-a1f4-083f1c217c14";
 	public name: string = "Angular Dimension";

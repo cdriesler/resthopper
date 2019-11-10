@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ArcCosine extends ResthopperComponent {
+export default class ArcCosine extends ResthopperComponent {
 
 	public guid: string = "49584390-d541-41f7-b5f6-1f9515ac0f73";
 	public name: string = "ArcCosine";

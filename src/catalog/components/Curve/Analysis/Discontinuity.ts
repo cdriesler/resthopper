@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Discontinuity extends ResthopperComponent {
+export default class Discontinuity extends ResthopperComponent {
 
 	public guid: string = "269eaa85-9997-4d77-a9ba-4c58cb45c9d3";
 	public name: string = "Discontinuity";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class FlipMesh extends ResthopperComponent {
+export default class FlipMesh extends ResthopperComponent {
 
 	public guid: string = "47fbc929-e88a-4a13-882e-dad84763256d";
 	public name: string = "Flip Mesh";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BiArc extends ResthopperComponent {
+export default class BiArc extends ResthopperComponent {
 
 	public guid: string = "75f4b0fd-9721-47b1-99e7-9c098b342e67";
 	public name: string = "BiArc";

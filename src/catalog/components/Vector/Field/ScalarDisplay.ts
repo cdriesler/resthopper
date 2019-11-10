@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ScalarDisplay extends ResthopperComponent {
+export default class ScalarDisplay extends ResthopperComponent {
 
 	public guid: string = "55f9ce6a-490c-4f25-a536-a3d47b794752";
 	public name: string = "Scalar Display";

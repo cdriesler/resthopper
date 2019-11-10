@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ScaleNU extends ResthopperComponent {
+export default class ScaleNU extends ResthopperComponent {
 
 	public guid: string = "290f418a-65ee-406a-a9d0-35699815b512";
 	public name: string = "Scale NU";

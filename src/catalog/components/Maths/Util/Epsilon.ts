@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Epsilon extends ResthopperComponent {
+export default class Epsilon extends ResthopperComponent {
 
 	public guid: string = "deadf87d-99a6-4980-90c3-f98350aa6f0f";
 	public name: string = "Epsilon";

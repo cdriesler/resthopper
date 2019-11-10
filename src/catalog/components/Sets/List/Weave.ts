@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Weave extends ResthopperComponent {
+export default class Weave extends ResthopperComponent {
 
 	public guid: string = "50faccbd-9c92-4175-a5fa-d65e36013db6";
 	public name: string = "Weave";

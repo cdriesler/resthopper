@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PointCylindrical extends ResthopperComponent {
+export default class PointCylindrical extends ResthopperComponent {
 
 	public guid: string = "23603075-be64-4d86-9294-c3c125a12104";
 	public name: string = "Point Cylindrical";

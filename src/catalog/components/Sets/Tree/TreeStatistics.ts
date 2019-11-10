@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TreeStatistics extends ResthopperComponent {
+export default class TreeStatistics extends ResthopperComponent {
 
 	public guid: string = "99bee19d-588c-41a0-b9b9-1d00fb03ea1a";
 	public name: string = "Tree Statistics";

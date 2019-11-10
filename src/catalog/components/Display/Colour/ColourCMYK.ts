@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ColourCMYK extends ResthopperComponent {
+export default class ColourCMYK extends ResthopperComponent {
 
 	public guid: string = "17af01a5-a846-4769-9478-de1df65a0afa";
 	public name: string = "Colour CMYK";

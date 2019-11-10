@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SpatialDeform extends ResthopperComponent {
+export default class SpatialDeform extends ResthopperComponent {
 
 	public guid: string = "66e6596f-6c8f-4ac3-99e0-0c4b7a59a7f7";
 	public name: string = "Spatial Deform";

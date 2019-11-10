@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ReplaceNulls extends ResthopperComponent {
+export default class ReplaceNulls extends ResthopperComponent {
 
 	public guid: string = "f3230ecb-3631-4d6f-86f2-ef4b2ed37f45";
 	public name: string = "Replace Nulls";

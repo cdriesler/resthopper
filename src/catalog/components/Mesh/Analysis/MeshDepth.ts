@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MeshDepth extends ResthopperComponent {
+export default class MeshDepth extends ResthopperComponent {
 
 	public guid: string = "07a3b2a0-c4d0-4638-9044-39ac4681e782";
 	public name: string = "Mesh Depth";

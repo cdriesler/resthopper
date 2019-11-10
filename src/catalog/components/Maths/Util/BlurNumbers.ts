@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BlurNumbers extends ResthopperComponent {
+export default class BlurNumbers extends ResthopperComponent {
 
 	public guid: string = "57e1d392-e3fb-4de9-be98-982854a92351";
 	public name: string = "Blur Numbers";

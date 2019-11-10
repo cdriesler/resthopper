@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Taper extends ResthopperComponent {
+export default class Taper extends ResthopperComponent {
 
 	public guid: string = "ad0ee51e-c86f-4668-8de5-b55b850f6001";
 	public name: string = "Taper";

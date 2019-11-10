@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PerpFrames extends ResthopperComponent {
+export default class PerpFrames extends ResthopperComponent {
 
 	public guid: string = "983c7600-980c-44da-bc53-c804067f667f";
 	public name: string = "Perp Frames";

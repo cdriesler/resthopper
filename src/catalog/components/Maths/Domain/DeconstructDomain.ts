@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DeconstructDomain extends ResthopperComponent {
+export default class DeconstructDomain extends ResthopperComponent {
 
 	public guid: string = "f0adfc96-b175-46a6-80c7-2b0ee17395c4";
 	public name: string = "Deconstruct Domain²";

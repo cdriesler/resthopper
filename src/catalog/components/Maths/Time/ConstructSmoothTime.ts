@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ConstructSmoothTime extends ResthopperComponent {
+export default class ConstructSmoothTime extends ResthopperComponent {
 
 	public guid: string = "f151b0b9-cef8-4809-96fc-9b14f1c3a7b9";
 	public name: string = "Construct Smooth Time";

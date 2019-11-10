@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SetUnion extends ResthopperComponent {
+export default class SetUnion extends ResthopperComponent {
 
 	public guid: string = "8eed5d78-7810-4ba1-968e-8a1f1db98e39";
 	public name: string = "Set Union";

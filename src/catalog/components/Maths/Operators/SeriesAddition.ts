@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SeriesAddition extends ResthopperComponent {
+export default class SeriesAddition extends ResthopperComponent {
 
 	public guid: string = "586706a8-109b-43ec-b581-743e920c951a";
 	public name: string = "Series Addition";

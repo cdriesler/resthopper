@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class LongestList extends ResthopperComponent {
+export default class LongestList extends ResthopperComponent {
 
 	public guid: string = "8440fd1b-b6e0-4bdb-aa93-4ec295c213e9";
 	public name: string = "Longest List";

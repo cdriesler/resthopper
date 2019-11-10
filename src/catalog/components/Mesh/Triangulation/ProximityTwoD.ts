@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ProximityTwoD extends ResthopperComponent {
+export default class ProximityTwoD extends ResthopperComponent {
 
 	public guid: string = "458ed0e0-19a3-419b-8ead-f524925b8a35";
 	public name: string = "Proximity 2D";

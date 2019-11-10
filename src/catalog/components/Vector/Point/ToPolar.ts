@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ToPolar extends ResthopperComponent {
+export default class ToPolar extends ResthopperComponent {
 
 	public guid: string = "61647ba2-31eb-4921-9632-df81e3286f7d";
 	public name: string = "To Polar";

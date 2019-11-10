@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PipeVariable extends ResthopperComponent {
+export default class PipeVariable extends ResthopperComponent {
 
 	public guid: string = "888f9c3c-f1e1-4344-94b0-5ee6a45aee11";
 	public name: string = "Pipe Variable";

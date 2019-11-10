@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TransposeMatrix extends ResthopperComponent {
+export default class TransposeMatrix extends ResthopperComponent {
 
 	public guid: string = "0e90b1f3-b870-4e09-8711-4bf819675d90";
 	public name: string = "Transpose Matrix";

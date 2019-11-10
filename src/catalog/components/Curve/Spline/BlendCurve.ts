@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class BlendCurve extends ResthopperComponent {
+export default class BlendCurve extends ResthopperComponent {
 
 	public guid: string = "5909dbcb-4950-4ce4-9433-7cf9e62ee011";
 	public name: string = "Blend Curve";

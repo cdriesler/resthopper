@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Ellipse extends ResthopperComponent {
+export default class Ellipse extends ResthopperComponent {
 
 	public guid: string = "46b5564d-d3eb-4bf1-ae16-15ed132cfd88";
 	public name: string = "Ellipse";

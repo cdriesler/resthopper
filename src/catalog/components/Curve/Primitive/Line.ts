@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Line extends ResthopperComponent {
+export default class Line extends ResthopperComponent {
 
 	public guid: string = "4c4e56eb-2f04-43f9-95a3-cc46a14f495a";
 	public name: string = "Line";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class WeightedAverage extends ResthopperComponent {
+export default class WeightedAverage extends ResthopperComponent {
 
 	public guid: string = "338666eb-14c5-4d9b-82e2-2b5be60655df";
 	public name: string = "Weighted Average";

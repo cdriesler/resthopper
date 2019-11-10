@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MergeFaces extends ResthopperComponent {
+export default class MergeFaces extends ResthopperComponent {
 
 	public guid: string = "d6b43673-55dd-4e2f-95c4-6c69a14513a6";
 	public name: string = "Merge Faces";

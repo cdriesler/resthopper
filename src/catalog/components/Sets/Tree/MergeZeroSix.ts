@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MergeZeroSix extends ResthopperComponent {
+export default class MergeZeroSix extends ResthopperComponent {
 
 	public guid: string = "ac9b4faf-c9d5-4f6a-a5e9-58c0c2cac116";
 	public name: string = "Merge 06";

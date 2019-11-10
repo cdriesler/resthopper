@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class RectangularArray extends ResthopperComponent {
+export default class RectangularArray extends ResthopperComponent {
 
 	public guid: string = "e521f7c8-92f4-481c-888b-eea109e3d6e9";
 	public name: string = "Rectangular Array";

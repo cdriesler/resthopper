@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class UnflattenTree extends ResthopperComponent {
+export default class UnflattenTree extends ResthopperComponent {
 
 	public guid: string = "b8e2aa8f-8830-4ee1-bb59-613ea279c281";
 	public name: string = "Unflatten Tree";

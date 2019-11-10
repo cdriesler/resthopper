@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class CombineDateTime extends ResthopperComponent {
+export default class CombineDateTime extends ResthopperComponent {
 
 	public guid: string = "31534405-6573-4be6-8bf8-262e55847a3a";
 	public name: string = "Combine Date & Time";

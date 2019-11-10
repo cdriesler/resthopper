@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class HorizontalFrames extends ResthopperComponent {
+export default class HorizontalFrames extends ResthopperComponent {
 
 	public guid: string = "8d058945-ce47-4e7c-82af-3269295d7890";
 	public name: string = "Horizontal Frames";

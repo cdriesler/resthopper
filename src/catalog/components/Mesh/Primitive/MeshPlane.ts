@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MeshPlane extends ResthopperComponent {
+export default class MeshPlane extends ResthopperComponent {
 
 	public guid: string = "8adbf481-7589-4a40-b490-006531ea001d";
 	public name: string = "Mesh Plane";

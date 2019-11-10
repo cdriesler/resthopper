@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class ComplexConjugate extends ResthopperComponent {
+export default class ComplexConjugate extends ResthopperComponent {
 
 	public guid: string = "7d2a6064-51f0-45b2-adc4-f417b30dcd15";
 	public name: string = "Complex Conjugate";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class MeshUnion extends ResthopperComponent {
+export default class MeshUnion extends ResthopperComponent {
 
 	public guid: string = "88060a82-0bf7-46bb-9af8-bdc860cf7e1d";
 	public name: string = "Mesh Union";

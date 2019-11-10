@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class RegionSlits extends ResthopperComponent {
+export default class RegionSlits extends ResthopperComponent {
 
 	public guid: string = "0feeeaca-8f1f-4d7c-a24a-8e7dd68604a2";
 	public name: string = "Region Slits";

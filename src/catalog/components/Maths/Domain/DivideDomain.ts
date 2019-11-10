@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DivideDomain extends ResthopperComponent {
+export default class DivideDomain extends ResthopperComponent {
 
 	public guid: string = "75ac008b-1bc2-4edd-b967-667d628b9d24";
 	public name: string = "Divide Domain²";

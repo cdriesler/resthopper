@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class LineTwoPlane extends ResthopperComponent {
+export default class LineTwoPlane extends ResthopperComponent {
 
 	public guid: string = "510c4a63-b9bf-42e7-9d07-9d71290264da";
 	public name: string = "Line 2Plane";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class DeconstructBox extends ResthopperComponent {
+export default class DeconstructBox extends ResthopperComponent {
 
 	public guid: string = "db7d83b1-2898-4ef9-9be5-4e94b4e2048d";
 	public name: string = "Deconstruct Box";

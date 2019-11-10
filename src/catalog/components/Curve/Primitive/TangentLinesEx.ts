@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class TangentLinesEx extends ResthopperComponent {
+export default class TangentLinesEx extends ResthopperComponent {
 
 	public guid: string = "d6d68c93-d00f-4cd5-ba89-903c7f6be64c";
 	public name: string = "Tangent Lines (Ex)";

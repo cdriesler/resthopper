@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Logarithm extends ResthopperComponent {
+export default class Logarithm extends ResthopperComponent {
 
 	public guid: string = "27d6f724-a701-4585-992f-3897488abf08";
 	public name: string = "Logarithm";

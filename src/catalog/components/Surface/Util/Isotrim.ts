@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Isotrim extends ResthopperComponent {
+export default class Isotrim extends ResthopperComponent {
 
 	public guid: string = "6a9ccaab-1b03-484e-bbda-be9c81584a66";
 	public name: string = "Isotrim";

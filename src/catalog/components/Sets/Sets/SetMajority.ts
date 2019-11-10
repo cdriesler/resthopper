@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SetMajority extends ResthopperComponent {
+export default class SetMajority extends ResthopperComponent {
 
 	public guid: string = "d4136a7b-7422-4660-9404-640474bd2725";
 	public name: string = "Set Majority";

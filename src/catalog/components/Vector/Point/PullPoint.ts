@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class PullPoint extends ResthopperComponent {
+export default class PullPoint extends ResthopperComponent {
 
 	public guid: string = "902289da-28dc-454b-98d4-b8f8aa234516";
 	public name: string = "Pull Point";

@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class Interpolatet extends ResthopperComponent {
+export default class Interpolatet extends ResthopperComponent {
 
 	public guid: string = "75eb156d-d023-42f9-a85e-2f2456b8bcce";
 	public name: string = "Interpolate (t)";

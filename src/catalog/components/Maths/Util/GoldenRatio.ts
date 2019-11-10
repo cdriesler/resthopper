@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class GoldenRatio extends ResthopperComponent {
+export default class GoldenRatio extends ResthopperComponent {
 
 	public guid: string = "cb22d3ed-93d8-4629-bdf2-c0c7c25afd2c";
 	public name: string = "Golden Ratio";

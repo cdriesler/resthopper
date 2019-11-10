@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class SplitwithBreps extends ResthopperComponent {
+export default class SplitwithBreps extends ResthopperComponent {
 
 	public guid: string = "5b742537-9bcb-4f06-9613-866da5bf845e";
 	public name: string = "Split with Breps";

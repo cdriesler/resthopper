@@ -2,7 +2,7 @@ import ResthopperComponent from './../../../../models/ResthopperComponent';
 import ResthopperParameter from './../../../../models/ResthopperParameter';
 import { newGuid } from './../../../../utils/Guid';
 
-export class QuadSphere extends ResthopperComponent {
+export default class QuadSphere extends ResthopperComponent {
 
 	public guid: string = "361790d6-9d66-4808-8c5a-8de9c218c227";
 	public name: string = "Quad Sphere";
