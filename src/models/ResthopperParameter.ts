@@ -16,6 +16,21 @@ export default class ResthopperParameter {
     public sources: string[] = [];
     public values: string[] | number[] | boolean[] = [];
 
+    public getUniqueName(): string {
+        return `${this.toCamelCase(this.name.replace(" ", ""))}_${this.toCamelCase(this.nickName.replace(" ", ""))}`;
+    }
+
+    private toCamelCase(str: string){
+        return str.split(' ').map(function(word,index){
+          // If it is the first word make sure to lowercase all the chars.
+          if(index == 0){
+            return word.toLowerCase();
+          }
+          // If it is not the first word only upper case the first char and lowercase the rest.
+          return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join('');
+      }
+
     public getSource(): string | undefined {
         return this.sources[0];
     }
