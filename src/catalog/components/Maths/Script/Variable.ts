@@ -13,4 +13,24 @@ export default class Variable extends ResthopperComponent {
 
 	public library: string = "Grasshopper";
 
+	public input:
+	{
+
+	}
+
+	public output:
+	{
+
+	}
+
+	constructor() {
+		super();
+		this.input = {
+
+		}
+		this.output = {
+
+		}
+	}
+
 }

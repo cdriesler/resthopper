@@ -2,8 +2,8 @@ import ResthopperComponent from '../models/ResthopperComponent';
 import Surface from './components/Surface/SurfaceComponentIndex';
 import Maths from './components/Maths/MathsComponentIndex';
 import Vector from './components/Vector/VectorComponentIndex';
-import Mesh from './components/Mesh/MeshComponentIndex';
 import Display from './components/Display/DisplayComponentIndex';
+import Mesh from './components/Mesh/MeshComponentIndex';
 import Curve from './components/Curve/CurveComponentIndex';
 import Transform from './components/Transform/TransformComponentIndex';
 import Intersect from './components/Intersect/IntersectComponentIndex';
@@ -17,19 +17,19 @@ export default class ComponentIndex {
 		"Addition",
 		"Addition",
 		"AdjustPlane",
+		"AlignedDimension",
 		"AlignPlane",
 		"AlignPlanes",
 		"AlignVertices",
-		"AlignedDimension",
 		"Amplitude",
 		"Angle",
 		"AngularDimension",
 		"AngularDimensionsMesh",
 		"Arc",
 		"ArcThreePt",
+		"ArcCosine",
 		"ArcDimension",
 		"ArcSED",
-		"ArcCosine",
 		"ArcSine",
 		"ArcTangent",
 		"Area",
@@ -61,15 +61,14 @@ export default class ComponentIndex {
 		"BoxSlits",
 		"BreakField",
 		"BrepBrep",
-		"BrepCurve",
-		"BrepLine",
-		"BrepPlane",
 		"BrepClosestPoint",
+		"BrepCurve",
 		"BrepEdges",
 		"BrepJoin",
+		"BrepLine",
+		"BrepPlane",
 		"BrepTopology",
 		"BrepWireframe",
-		"CScript",
 		"CameraObscura",
 		"CapHoles",
 		"CapHolesEx",
@@ -78,8 +77,8 @@ export default class ComponentIndex {
 		"CatenaryEx",
 		"CenterBox",
 		"Centroid",
-		"CharSequence",
 		"Characters",
+		"CharSequence",
 		"Circle",
 		"CircleThreePt",
 		"CircleCNR",
@@ -148,6 +147,7 @@ export default class ComponentIndex {
 		"CreateSet",
 		"CrossProduct",
 		"CrossReference",
+		"CScript",
 		"Cube",
 		"CubeRoot",
 		"CullDuplicates",
@@ -158,20 +158,20 @@ export default class ComponentIndex {
 		"CullVertices",
 		"Curvature",
 		"CurvatureGraph",
-		"CurveCurve",
-		"CurveLine",
-		"CurvePlane",
-		"CurveSelf",
 		"CurveArray",
 		"CurveClosestPoint",
+		"CurveCurve",
 		"CurveDepth",
 		"CurveDomain",
 		"CurveFrame",
 		"CurveFrames",
+		"CurveLine",
 		"CurveMiddle",
 		"CurveNearestObject",
 		"CurveOnSurface",
+		"CurvePlane",
 		"CurveProximity",
+		"CurveSelf",
 		"CurveSide",
 		"CurveToPolyline",
 		"CustomPreview",
@@ -219,16 +219,16 @@ export default class ComponentIndex {
 		"Division",
 		"DomainBox",
 		"DotDisplay",
-		"DotProduct",
 		"DotNETCScriptLEGACY",
 		"DotNETVBScriptLEGACY",
+		"DotProduct",
 		"DuplicateData",
-		"EdgeSurface",
 		"EdgesfromDirections",
 		"EdgesfromFaces",
 		"EdgesfromLength",
 		"EdgesfromLinearity",
 		"EdgesfromPoints",
+		"EdgeSurface",
 		"Ellipse",
 		"EndPoints",
 		"Entwine",
@@ -301,16 +301,16 @@ export default class ComponentIndex {
 		"InsertItems",
 		"IntegerDivision",
 		"Interpolate",
-		"Interpolatet",
 		"Interpolatedata",
 		"InterpolateDate",
+		"Interpolatet",
 		"InverseTransform",
 		"InvertMatrix",
-		"IsPlanar",
 		"IsoCurve",
 		"Isotrim",
 		"IsoVist",
 		"IsoVistRay",
+		"IsPlanar",
 		"ItemIndex",
 		"Jitter",
 		"JoinCurves",
@@ -324,24 +324,24 @@ export default class ComponentIndex {
 		"LengthDomain",
 		"LengthParameter",
 		"Line",
-		"LineLine",
-		"LinePt",
-		"LineLine",
-		"LinePlane",
 		"LineTwoPlane",
 		"LineFourPt",
-		"LineCharge",
-		"LineDimension",
-		"LineSDL",
 		"LinearArray",
 		"LinearDimension",
+		"LineCharge",
+		"LineDimension",
+		"LineLine",
+		"LineLine",
+		"LinePlane",
+		"LinePt",
+		"LineSDL",
 		"ListItem",
 		"ListLength",
 		"Loft",
 		"LoftOptions",
 		"LoftOptions",
-		"LogN",
 		"Logarithm",
+		"LogN",
 		"LongestList",
 		"Maelstrom",
 		"MakeTwoD",
@@ -369,14 +369,11 @@ export default class ComponentIndex {
 		"MergeFields",
 		"MergeGroup",
 		"MergeMultiple",
-		"MeshCurve",
-		"MeshMesh",
-		"MeshPlane",
-		"MeshRay",
 		"MeshBox",
 		"MeshBrep",
 		"MeshClosestPoint",
 		"MeshColours",
+		"MeshCurve",
 		"MeshDepth",
 		"MeshDifference",
 		"MeshEdges",
@@ -385,8 +382,11 @@ export default class ComponentIndex {
 		"MeshInclusion",
 		"MeshIntersection",
 		"MeshJoin",
+		"MeshMesh",
+		"MeshPlane",
 		"MeshPlane",
 		"MeshQuad",
+		"MeshRay",
 		"MeshShadow",
 		"MeshSphere",
 		"MeshSphereEx",
@@ -437,17 +437,15 @@ export default class ComponentIndex {
 		"Patch",
 		"PathCompare",
 		"PathMapper",
+		"PerpendicularDisplay",
 		"PerpFrame",
 		"PerpFrames",
-		"PerpendicularDisplay",
 		"Pi",
 		"PicknChoose",
 		"PieChart",
 		"Pipe",
 		"PipeVariable",
 		"Planar",
-		"PlanePlane",
-		"PlanePlanePlane",
 		"PlaneThreePt",
 		"PlaneClosestPoint",
 		"PlaneCoordinates",
@@ -455,6 +453,8 @@ export default class ComponentIndex {
 		"PlaneNormal",
 		"PlaneOffset",
 		"PlaneOrigin",
+		"PlanePlane",
+		"PlanePlanePlane",
 		"PlaneRegion",
 		"PlaneSurface",
 		"PlaneThroughShape",
@@ -498,16 +498,16 @@ export default class ComponentIndex {
 		"PruneTree",
 		"PullCurve",
 		"PullPoint",
-		"QuadSphere",
 		"Quadrangulate",
+		"QuadSphere",
 		"QuadTree",
 		"QuickGraph",
 		"Radial",
 		"Radians",
 		"RailRevolution",
 		"Random",
-		"RandomReduce",
 		"RandomEx",
+		"RandomReduce",
 		"Range",
 		"RebuildCurve",
 		"Rectangle",
@@ -559,10 +559,10 @@ export default class ComponentIndex {
 		"SetDifferenceS",
 		"SetIntersection",
 		"SetMajority",
-		"SetUnion",
 		"SettingsCustom",
 		"SettingsQuality",
 		"SettingsSpeed",
+		"SetUnion",
 		"ShapeInBrep",
 		"Shatter",
 		"Shear",
@@ -616,25 +616,25 @@ export default class ComponentIndex {
 		"StreamGate",
 		"Stretch",
 		"SubCurve",
-		"SubList",
+		"SubDBox",
 		"SubDControlPolygon",
 		"SubDEdges",
 		"SubDFaces",
 		"SubDfromMesh",
 		"SubDVertices",
-		"SubDBox",
+		"SubList",
 		"SubSet",
 		"Substrate",
 		"Subtraction",
 		"SumSurface",
-		"SurfaceCurve",
-		"SurfaceLine",
 		"SurfaceBox",
 		"SurfaceClosestPoint",
 		"SurfaceCurvature",
+		"SurfaceCurve",
 		"SurfaceFrames",
 		"SurfaceFromPoints",
 		"SurfaceInflection",
+		"SurfaceLine",
 		"SurfaceMorph",
 		"SurfacePoints",
 		"SurfaceSplit",
@@ -644,8 +644,8 @@ export default class ComponentIndex {
 		"SweepTwo",
 		"SwingArc",
 		"SymbolAdvanced",
-		"SymbolSimple",
 		"SymbolDisplay",
+		"SymbolSimple",
 		"Tangent",
 		"TangentArcs",
 		"TangentCurve",
@@ -732,14 +732,14 @@ export default class ComponentIndex {
 				return new Vector.Vector.Addition();
 			case "AdjustPlane":
 				return new Vector.Plane.AdjustPlane();
+			case "AlignedDimension":
+				return new Display.Dimensions.AlignedDimension();
 			case "AlignPlane":
 				return new Vector.Plane.AlignPlane();
 			case "AlignPlanes":
 				return new Vector.Plane.AlignPlanes();
 			case "AlignVertices":
 				return new Mesh.Util.AlignVertices();
-			case "AlignedDimension":
-				return new Display.Dimensions.AlignedDimension();
 			case "Amplitude":
 				return new Vector.Vector.Amplitude();
 			case "Angle":
@@ -752,12 +752,12 @@ export default class ComponentIndex {
 				return new Curve.Primitive.Arc();
 			case "ArcThreePt":
 				return new Curve.Primitive.ArcThreePt();
+			case "ArcCosine":
+				return new Maths.Trig.ArcCosine();
 			case "ArcDimension":
 				return new Display.Dimensions.ArcDimension();
 			case "ArcSED":
 				return new Curve.Primitive.ArcSED();
-			case "ArcCosine":
-				return new Maths.Trig.ArcCosine();
 			case "ArcSine":
 				return new Maths.Trig.ArcSine();
 			case "ArcTangent":
@@ -820,24 +820,22 @@ export default class ComponentIndex {
 				return new Vector.Field.BreakField();
 			case "BrepBrep":
 				return new Intersect.Physical.BrepBrep();
-			case "BrepCurve":
-				return new Intersect.Physical.BrepCurve();
-			case "BrepLine":
-				return new Intersect.Mathematical.BrepLine();
-			case "BrepPlane":
-				return new Intersect.Mathematical.BrepPlane();
 			case "BrepClosestPoint":
 				return new Surface.Analysis.BrepClosestPoint();
+			case "BrepCurve":
+				return new Intersect.Physical.BrepCurve();
 			case "BrepEdges":
 				return new Surface.Analysis.BrepEdges();
 			case "BrepJoin":
 				return new Surface.Util.BrepJoin();
+			case "BrepLine":
+				return new Intersect.Mathematical.BrepLine();
+			case "BrepPlane":
+				return new Intersect.Mathematical.BrepPlane();
 			case "BrepTopology":
 				return new Surface.Analysis.BrepTopology();
 			case "BrepWireframe":
 				return new Surface.Analysis.BrepWireframe();
-			case "CScript":
-				return new Maths.Script.CScript();
 			case "CameraObscura":
 				return new Transform.Affine.CameraObscura();
 			case "CapHoles":
@@ -854,10 +852,10 @@ export default class ComponentIndex {
 				return new Surface.Primitive.CenterBox();
 			case "Centroid":
 				return new Maths.Trig.Centroid();
-			case "CharSequence":
-				return new Sets.Sequence.CharSequence();
 			case "Characters":
 				return new Sets.Text.Characters();
+			case "CharSequence":
+				return new Sets.Sequence.CharSequence();
 			case "Circle":
 				return new Curve.Primitive.Circle();
 			case "CircleThreePt":
@@ -994,6 +992,8 @@ export default class ComponentIndex {
 				return new Vector.Vector.CrossProduct();
 			case "CrossReference":
 				return new Sets.List.CrossReference();
+			case "CScript":
+				return new Maths.Script.CScript();
 			case "Cube":
 				return new Maths.Polynomials.Cube();
 			case "CubeRoot":
@@ -1014,18 +1014,12 @@ export default class ComponentIndex {
 				return new Curve.Analysis.Curvature();
 			case "CurvatureGraph":
 				return new Curve.Analysis.CurvatureGraph();
-			case "CurveCurve":
-				return new Intersect.Physical.CurveCurve();
-			case "CurveLine":
-				return new Intersect.Mathematical.CurveLine();
-			case "CurvePlane":
-				return new Intersect.Mathematical.CurvePlane();
-			case "CurveSelf":
-				return new Intersect.Physical.CurveSelf();
 			case "CurveArray":
 				return new Transform.Array.CurveArray();
 			case "CurveClosestPoint":
 				return new Curve.Analysis.CurveClosestPoint();
+			case "CurveCurve":
+				return new Intersect.Physical.CurveCurve();
 			case "CurveDepth":
 				return new Curve.Analysis.CurveDepth();
 			case "CurveDomain":
@@ -1034,14 +1028,20 @@ export default class ComponentIndex {
 				return new Curve.Analysis.CurveFrame();
 			case "CurveFrames":
 				return new Curve.Division.CurveFrames();
+			case "CurveLine":
+				return new Intersect.Mathematical.CurveLine();
 			case "CurveMiddle":
 				return new Curve.Analysis.CurveMiddle();
 			case "CurveNearestObject":
 				return new Curve.Analysis.CurveNearestObject();
 			case "CurveOnSurface":
 				return new Curve.Spline.CurveOnSurface();
+			case "CurvePlane":
+				return new Intersect.Mathematical.CurvePlane();
 			case "CurveProximity":
 				return new Curve.Analysis.CurveProximity();
+			case "CurveSelf":
+				return new Intersect.Physical.CurveSelf();
 			case "CurveSide":
 				return new Curve.Analysis.CurveSide();
 			case "CurveToPolyline":
@@ -1136,16 +1136,14 @@ export default class ComponentIndex {
 				return new Surface.Primitive.DomainBox();
 			case "DotDisplay":
 				return new Display.Preview.DotDisplay();
-			case "DotProduct":
-				return new Vector.Vector.DotProduct();
 			case "DotNETCScriptLEGACY":
 				return new Maths.Script.DotNETCScriptLEGACY();
 			case "DotNETVBScriptLEGACY":
 				return new Maths.Script.DotNETVBScriptLEGACY();
+			case "DotProduct":
+				return new Vector.Vector.DotProduct();
 			case "DuplicateData":
 				return new Sets.Sequence.DuplicateData();
-			case "EdgeSurface":
-				return new Surface.Freeform.EdgeSurface();
 			case "EdgesfromDirections":
 				return new Surface.Util.EdgesfromDirections();
 			case "EdgesfromFaces":
@@ -1156,6 +1154,8 @@ export default class ComponentIndex {
 				return new Surface.Util.EdgesfromLinearity();
 			case "EdgesfromPoints":
 				return new Surface.Util.EdgesfromPoints();
+			case "EdgeSurface":
+				return new Surface.Freeform.EdgeSurface();
 			case "Ellipse":
 				return new Curve.Primitive.Ellipse();
 			case "EndPoints":
@@ -1300,18 +1300,16 @@ export default class ComponentIndex {
 				return new Maths.Operators.IntegerDivision();
 			case "Interpolate":
 				return new Curve.Spline.Interpolate();
-			case "Interpolatet":
-				return new Curve.Spline.Interpolatet();
 			case "Interpolatedata":
 				return new Maths.Util.Interpolatedata();
 			case "InterpolateDate":
 				return new Maths.Time.InterpolateDate();
+			case "Interpolatet":
+				return new Curve.Spline.Interpolatet();
 			case "InverseTransform":
 				return new Transform.Util.InverseTransform();
 			case "InvertMatrix":
 				return new Maths.Matrix.InvertMatrix();
-			case "IsPlanar":
-				return new Surface.Analysis.IsPlanar();
 			case "IsoCurve":
 				return new Curve.Spline.IsoCurve();
 			case "Isotrim":
@@ -1320,6 +1318,8 @@ export default class ComponentIndex {
 				return new Intersect.Mathematical.IsoVist();
 			case "IsoVistRay":
 				return new Intersect.Mathematical.IsoVistRay();
+			case "IsPlanar":
+				return new Surface.Analysis.IsPlanar();
 			case "ItemIndex":
 				return new Sets.List.ItemIndex();
 			case "Jitter":
@@ -1346,28 +1346,28 @@ export default class ComponentIndex {
 				return new Curve.Analysis.LengthParameter();
 			case "Line":
 				return new Curve.Primitive.Line();
-			case "LineLine":
-				return new Vector.Plane.LineLine();
-			case "LinePt":
-				return new Vector.Plane.LinePt();
-			case "LineLine":
-				return new Intersect.Mathematical.LineLine();
-			case "LinePlane":
-				return new Intersect.Mathematical.LinePlane();
 			case "LineTwoPlane":
 				return new Curve.Primitive.LineTwoPlane();
 			case "LineFourPt":
 				return new Curve.Primitive.LineFourPt();
-			case "LineCharge":
-				return new Vector.Field.LineCharge();
-			case "LineDimension":
-				return new Display.Dimensions.LineDimension();
-			case "LineSDL":
-				return new Curve.Primitive.LineSDL();
 			case "LinearArray":
 				return new Transform.Array.LinearArray();
 			case "LinearDimension":
 				return new Display.Dimensions.LinearDimension();
+			case "LineCharge":
+				return new Vector.Field.LineCharge();
+			case "LineDimension":
+				return new Display.Dimensions.LineDimension();
+			case "LineLine":
+				return new Intersect.Mathematical.LineLine();
+			case "LineLine":
+				return new Vector.Plane.LineLine();
+			case "LinePlane":
+				return new Intersect.Mathematical.LinePlane();
+			case "LinePt":
+				return new Vector.Plane.LinePt();
+			case "LineSDL":
+				return new Curve.Primitive.LineSDL();
 			case "ListItem":
 				return new Sets.List.ListItem();
 			case "ListLength":
@@ -1378,10 +1378,10 @@ export default class ComponentIndex {
 				return new Surface.Freeform.LoftOptions();
 			case "LoftOptions":
 				return new Surface.Util.LoftOptions();
-			case "LogN":
-				return new Maths.Polynomials.LogN();
 			case "Logarithm":
 				return new Maths.Polynomials.Logarithm();
+			case "LogN":
+				return new Maths.Polynomials.LogN();
 			case "LongestList":
 				return new Sets.List.LongestList();
 			case "Maelstrom":
@@ -1436,14 +1436,6 @@ export default class ComponentIndex {
 				return new Transform.Util.MergeGroup();
 			case "MergeMultiple":
 				return new Sets.Tree.MergeMultiple();
-			case "MeshCurve":
-				return new Intersect.Physical.MeshCurve();
-			case "MeshMesh":
-				return new Intersect.Physical.MeshMesh();
-			case "MeshPlane":
-				return new Intersect.Mathematical.MeshPlane();
-			case "MeshRay":
-				return new Intersect.Mathematical.MeshRay();
 			case "MeshBox":
 				return new Mesh.Primitive.MeshBox();
 			case "MeshBrep":
@@ -1452,6 +1444,8 @@ export default class ComponentIndex {
 				return new Mesh.Analysis.MeshClosestPoint();
 			case "MeshColours":
 				return new Mesh.Primitive.MeshColours();
+			case "MeshCurve":
+				return new Intersect.Physical.MeshCurve();
 			case "MeshDepth":
 				return new Mesh.Analysis.MeshDepth();
 			case "MeshDifference":
@@ -1468,10 +1462,16 @@ export default class ComponentIndex {
 				return new Intersect.Shape.MeshIntersection();
 			case "MeshJoin":
 				return new Mesh.Util.MeshJoin();
+			case "MeshMesh":
+				return new Intersect.Physical.MeshMesh();
+			case "MeshPlane":
+				return new Intersect.Mathematical.MeshPlane();
 			case "MeshPlane":
 				return new Mesh.Primitive.MeshPlane();
 			case "MeshQuad":
 				return new Mesh.Primitive.MeshQuad();
+			case "MeshRay":
+				return new Intersect.Mathematical.MeshRay();
 			case "MeshShadow":
 				return new Mesh.Util.MeshShadow();
 			case "MeshSphere":
@@ -1572,12 +1572,12 @@ export default class ComponentIndex {
 				return new Sets.Tree.PathCompare();
 			case "PathMapper":
 				return new Sets.Tree.PathMapper();
+			case "PerpendicularDisplay":
+				return new Vector.Field.PerpendicularDisplay();
 			case "PerpFrame":
 				return new Curve.Analysis.PerpFrame();
 			case "PerpFrames":
 				return new Curve.Division.PerpFrames();
-			case "PerpendicularDisplay":
-				return new Vector.Field.PerpendicularDisplay();
 			case "Pi":
 				return new Maths.Util.Pi();
 			case "PicknChoose":
@@ -1590,10 +1590,6 @@ export default class ComponentIndex {
 				return new Surface.Freeform.PipeVariable();
 			case "Planar":
 				return new Curve.Analysis.Planar();
-			case "PlanePlane":
-				return new Intersect.Mathematical.PlanePlane();
-			case "PlanePlanePlane":
-				return new Intersect.Mathematical.PlanePlanePlane();
 			case "PlaneThreePt":
 				return new Vector.Plane.PlaneThreePt();
 			case "PlaneClosestPoint":
@@ -1608,6 +1604,10 @@ export default class ComponentIndex {
 				return new Vector.Plane.PlaneOffset();
 			case "PlaneOrigin":
 				return new Vector.Plane.PlaneOrigin();
+			case "PlanePlane":
+				return new Intersect.Mathematical.PlanePlane();
+			case "PlanePlanePlane":
+				return new Intersect.Mathematical.PlanePlanePlane();
 			case "PlaneRegion":
 				return new Intersect.Mathematical.PlaneRegion();
 			case "PlaneSurface":
@@ -1694,10 +1694,10 @@ export default class ComponentIndex {
 				return new Curve.Util.PullCurve();
 			case "PullPoint":
 				return new Vector.Point.PullPoint();
-			case "QuadSphere":
-				return new Surface.Primitive.QuadSphere();
 			case "Quadrangulate":
 				return new Mesh.Util.Quadrangulate();
+			case "QuadSphere":
+				return new Surface.Primitive.QuadSphere();
 			case "QuadTree":
 				return new Mesh.Triangulation.QuadTree();
 			case "QuickGraph":
@@ -1710,10 +1710,10 @@ export default class ComponentIndex {
 				return new Surface.Freeform.RailRevolution();
 			case "Random":
 				return new Sets.Sequence.Random();
-			case "RandomReduce":
-				return new Sets.Sequence.RandomReduce();
 			case "RandomEx":
 				return new Sets.Sequence.RandomEx();
+			case "RandomReduce":
+				return new Sets.Sequence.RandomReduce();
 			case "Range":
 				return new Sets.Sequence.Range();
 			case "RebuildCurve":
@@ -1816,14 +1816,14 @@ export default class ComponentIndex {
 				return new Sets.Sets.SetIntersection();
 			case "SetMajority":
 				return new Sets.Sets.SetMajority();
-			case "SetUnion":
-				return new Sets.Sets.SetUnion();
 			case "SettingsCustom":
 				return new Mesh.Util.SettingsCustom();
 			case "SettingsQuality":
 				return new Mesh.Util.SettingsQuality();
 			case "SettingsSpeed":
 				return new Mesh.Util.SettingsSpeed();
+			case "SetUnion":
+				return new Sets.Sets.SetUnion();
 			case "ShapeInBrep":
 				return new Surface.Analysis.ShapeInBrep();
 			case "Shatter":
@@ -1930,8 +1930,8 @@ export default class ComponentIndex {
 				return new Transform.Morph.Stretch();
 			case "SubCurve":
 				return new Curve.Spline.SubCurve();
-			case "SubList":
-				return new Sets.List.SubList();
+			case "SubDBox":
+				return new Surface.SubD.SubDBox();
 			case "SubDControlPolygon":
 				return new Surface.SubD.SubDControlPolygon();
 			case "SubDEdges":
@@ -1942,8 +1942,8 @@ export default class ComponentIndex {
 				return new Surface.SubD.SubDfromMesh();
 			case "SubDVertices":
 				return new Surface.SubD.SubDVertices();
-			case "SubDBox":
-				return new Surface.SubD.SubDBox();
+			case "SubList":
+				return new Sets.List.SubList();
 			case "SubSet":
 				return new Sets.Sets.SubSet();
 			case "Substrate":
@@ -1952,22 +1952,22 @@ export default class ComponentIndex {
 				return new Maths.Operators.Subtraction();
 			case "SumSurface":
 				return new Surface.Freeform.SumSurface();
-			case "SurfaceCurve":
-				return new Intersect.Physical.SurfaceCurve();
-			case "SurfaceLine":
-				return new Intersect.Mathematical.SurfaceLine();
 			case "SurfaceBox":
 				return new Transform.Morph.SurfaceBox();
 			case "SurfaceClosestPoint":
 				return new Surface.Analysis.SurfaceClosestPoint();
 			case "SurfaceCurvature":
 				return new Surface.Analysis.SurfaceCurvature();
+			case "SurfaceCurve":
+				return new Intersect.Physical.SurfaceCurve();
 			case "SurfaceFrames":
 				return new Surface.Util.SurfaceFrames();
 			case "SurfaceFromPoints":
 				return new Surface.Freeform.SurfaceFromPoints();
 			case "SurfaceInflection":
 				return new Surface.Analysis.SurfaceInflection();
+			case "SurfaceLine":
+				return new Intersect.Mathematical.SurfaceLine();
 			case "SurfaceMorph":
 				return new Transform.Morph.SurfaceMorph();
 			case "SurfacePoints":
@@ -1986,10 +1986,10 @@ export default class ComponentIndex {
 				return new Curve.Spline.SwingArc();
 			case "SymbolAdvanced":
 				return new Display.Preview.SymbolAdvanced();
-			case "SymbolSimple":
-				return new Display.Preview.SymbolSimple();
 			case "SymbolDisplay":
 				return new Display.Preview.SymbolDisplay();
+			case "SymbolSimple":
+				return new Display.Preview.SymbolSimple();
 			case "Tangent":
 				return new Maths.Trig.Tangent();
 			case "TangentArcs":
@@ -2151,19 +2151,19 @@ export type GrasshopperComponent =
 "Addition" |
 "Addition" |
 "AdjustPlane" |
+"AlignedDimension" |
 "AlignPlane" |
 "AlignPlanes" |
 "AlignVertices" |
-"AlignedDimension" |
 "Amplitude" |
 "Angle" |
 "AngularDimension" |
 "AngularDimensionsMesh" |
 "Arc" |
 "ArcThreePt" |
+"ArcCosine" |
 "ArcDimension" |
 "ArcSED" |
-"ArcCosine" |
 "ArcSine" |
 "ArcTangent" |
 "Area" |
@@ -2195,15 +2195,14 @@ export type GrasshopperComponent =
 "BoxSlits" |
 "BreakField" |
 "BrepBrep" |
-"BrepCurve" |
-"BrepLine" |
-"BrepPlane" |
 "BrepClosestPoint" |
+"BrepCurve" |
 "BrepEdges" |
 "BrepJoin" |
+"BrepLine" |
+"BrepPlane" |
 "BrepTopology" |
 "BrepWireframe" |
-"CScript" |
 "CameraObscura" |
 "CapHoles" |
 "CapHolesEx" |
@@ -2212,8 +2211,8 @@ export type GrasshopperComponent =
 "CatenaryEx" |
 "CenterBox" |
 "Centroid" |
-"CharSequence" |
 "Characters" |
+"CharSequence" |
 "Circle" |
 "CircleThreePt" |
 "CircleCNR" |
@@ -2282,6 +2281,7 @@ export type GrasshopperComponent =
 "CreateSet" |
 "CrossProduct" |
 "CrossReference" |
+"CScript" |
 "Cube" |
 "CubeRoot" |
 "CullDuplicates" |
@@ -2292,20 +2292,20 @@ export type GrasshopperComponent =
 "CullVertices" |
 "Curvature" |
 "CurvatureGraph" |
-"CurveCurve" |
-"CurveLine" |
-"CurvePlane" |
-"CurveSelf" |
 "CurveArray" |
 "CurveClosestPoint" |
+"CurveCurve" |
 "CurveDepth" |
 "CurveDomain" |
 "CurveFrame" |
 "CurveFrames" |
+"CurveLine" |
 "CurveMiddle" |
 "CurveNearestObject" |
 "CurveOnSurface" |
+"CurvePlane" |
 "CurveProximity" |
+"CurveSelf" |
 "CurveSide" |
 "CurveToPolyline" |
 "CustomPreview" |
@@ -2353,16 +2353,16 @@ export type GrasshopperComponent =
 "Division" |
 "DomainBox" |
 "DotDisplay" |
-"DotProduct" |
 "DotNETCScriptLEGACY" |
 "DotNETVBScriptLEGACY" |
+"DotProduct" |
 "DuplicateData" |
-"EdgeSurface" |
 "EdgesfromDirections" |
 "EdgesfromFaces" |
 "EdgesfromLength" |
 "EdgesfromLinearity" |
 "EdgesfromPoints" |
+"EdgeSurface" |
 "Ellipse" |
 "EndPoints" |
 "Entwine" |
@@ -2435,16 +2435,16 @@ export type GrasshopperComponent =
 "InsertItems" |
 "IntegerDivision" |
 "Interpolate" |
-"Interpolatet" |
 "Interpolatedata" |
 "InterpolateDate" |
+"Interpolatet" |
 "InverseTransform" |
 "InvertMatrix" |
-"IsPlanar" |
 "IsoCurve" |
 "Isotrim" |
 "IsoVist" |
 "IsoVistRay" |
+"IsPlanar" |
 "ItemIndex" |
 "Jitter" |
 "JoinCurves" |
@@ -2458,24 +2458,24 @@ export type GrasshopperComponent =
 "LengthDomain" |
 "LengthParameter" |
 "Line" |
-"LineLine" |
-"LinePt" |
-"LineLine" |
-"LinePlane" |
 "LineTwoPlane" |
 "LineFourPt" |
-"LineCharge" |
-"LineDimension" |
-"LineSDL" |
 "LinearArray" |
 "LinearDimension" |
+"LineCharge" |
+"LineDimension" |
+"LineLine" |
+"LineLine" |
+"LinePlane" |
+"LinePt" |
+"LineSDL" |
 "ListItem" |
 "ListLength" |
 "Loft" |
 "LoftOptions" |
 "LoftOptions" |
-"LogN" |
 "Logarithm" |
+"LogN" |
 "LongestList" |
 "Maelstrom" |
 "MakeTwoD" |
@@ -2503,14 +2503,11 @@ export type GrasshopperComponent =
 "MergeFields" |
 "MergeGroup" |
 "MergeMultiple" |
-"MeshCurve" |
-"MeshMesh" |
-"MeshPlane" |
-"MeshRay" |
 "MeshBox" |
 "MeshBrep" |
 "MeshClosestPoint" |
 "MeshColours" |
+"MeshCurve" |
 "MeshDepth" |
 "MeshDifference" |
 "MeshEdges" |
@@ -2519,8 +2516,11 @@ export type GrasshopperComponent =
 "MeshInclusion" |
 "MeshIntersection" |
 "MeshJoin" |
+"MeshMesh" |
+"MeshPlane" |
 "MeshPlane" |
 "MeshQuad" |
+"MeshRay" |
 "MeshShadow" |
 "MeshSphere" |
 "MeshSphereEx" |
@@ -2571,17 +2571,15 @@ export type GrasshopperComponent =
 "Patch" |
 "PathCompare" |
 "PathMapper" |
+"PerpendicularDisplay" |
 "PerpFrame" |
 "PerpFrames" |
-"PerpendicularDisplay" |
 "Pi" |
 "PicknChoose" |
 "PieChart" |
 "Pipe" |
 "PipeVariable" |
 "Planar" |
-"PlanePlane" |
-"PlanePlanePlane" |
 "PlaneThreePt" |
 "PlaneClosestPoint" |
 "PlaneCoordinates" |
@@ -2589,6 +2587,8 @@ export type GrasshopperComponent =
 "PlaneNormal" |
 "PlaneOffset" |
 "PlaneOrigin" |
+"PlanePlane" |
+"PlanePlanePlane" |
 "PlaneRegion" |
 "PlaneSurface" |
 "PlaneThroughShape" |
@@ -2632,16 +2632,16 @@ export type GrasshopperComponent =
 "PruneTree" |
 "PullCurve" |
 "PullPoint" |
-"QuadSphere" |
 "Quadrangulate" |
+"QuadSphere" |
 "QuadTree" |
 "QuickGraph" |
 "Radial" |
 "Radians" |
 "RailRevolution" |
 "Random" |
-"RandomReduce" |
 "RandomEx" |
+"RandomReduce" |
 "Range" |
 "RebuildCurve" |
 "Rectangle" |
@@ -2693,10 +2693,10 @@ export type GrasshopperComponent =
 "SetDifferenceS" |
 "SetIntersection" |
 "SetMajority" |
-"SetUnion" |
 "SettingsCustom" |
 "SettingsQuality" |
 "SettingsSpeed" |
+"SetUnion" |
 "ShapeInBrep" |
 "Shatter" |
 "Shear" |
@@ -2750,25 +2750,25 @@ export type GrasshopperComponent =
 "StreamGate" |
 "Stretch" |
 "SubCurve" |
-"SubList" |
+"SubDBox" |
 "SubDControlPolygon" |
 "SubDEdges" |
 "SubDFaces" |
 "SubDfromMesh" |
 "SubDVertices" |
-"SubDBox" |
+"SubList" |
 "SubSet" |
 "Substrate" |
 "Subtraction" |
 "SumSurface" |
-"SurfaceCurve" |
-"SurfaceLine" |
 "SurfaceBox" |
 "SurfaceClosestPoint" |
 "SurfaceCurvature" |
+"SurfaceCurve" |
 "SurfaceFrames" |
 "SurfaceFromPoints" |
 "SurfaceInflection" |
+"SurfaceLine" |
 "SurfaceMorph" |
 "SurfacePoints" |
 "SurfaceSplit" |
@@ -2778,8 +2778,8 @@ export type GrasshopperComponent =
 "SweepTwo" |
 "SwingArc" |
 "SymbolAdvanced" |
-"SymbolSimple" |
 "SymbolDisplay" |
+"SymbolSimple" |
 "Tangent" |
 "TangentArcs" |
 "TangentCurve" |

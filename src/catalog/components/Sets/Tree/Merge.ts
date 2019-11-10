@@ -13,4 +13,68 @@ export default class Merge extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"StreamA_A": MergeInput_StreamA_A,
+		"StreamB_B": MergeInput_StreamB_B,
+	}
+
+	public output:
+	{
+		"Stream_S": MergeOutput_Stream_S,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"StreamA_A": new MergeInput_StreamA_A(),
+			"StreamB_B": new MergeInput_StreamB_B(),
+		}
+		this.output = {
+			"Stream_S": new MergeOutput_Stream_S(),
+		}
+	}
+
+}
+
+class MergeInput_StreamA_A extends ResthopperParameter {
+
+	public name: string = "StreamA";
+	public nickName: string = "A";
+	public isOptional: boolean = true;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MergeInput_StreamB_B extends ResthopperParameter {
+
+	public name: string = "StreamB";
+	public nickName: string = "B";
+	public isOptional: boolean = true;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MergeOutput_Stream_S extends ResthopperParameter {
+
+	public name: string = "Stream";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

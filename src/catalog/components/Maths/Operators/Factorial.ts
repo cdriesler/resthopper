@@ -13,4 +13,52 @@ export default class Factorial extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"Number_N": FactorialInput_Number_N,
+	}
+
+	public output:
+	{
+		"Factorial_F": FactorialOutput_Factorial_F,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Number_N": new FactorialInput_Number_N(),
+		}
+		this.output = {
+			"Factorial_F": new FactorialOutput_Factorial_F(),
+		}
+	}
+
+}
+
+class FactorialInput_Number_N extends ResthopperParameter {
+
+	public name: string = "Number";
+	public nickName: string = "N";
+	public isOptional: boolean = false;
+	public typeName: string = "Integer;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class FactorialOutput_Factorial_F extends ResthopperParameter {
+
+	public name: string = "Factorial";
+	public nickName: string = "F";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -13,4 +13,52 @@ export default class Length extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"Curve_C": LengthInput_Curve_C,
+	}
+
+	public output:
+	{
+		"Length_L": LengthOutput_Length_L,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Curve_C": new LengthInput_Curve_C(),
+		}
+		this.output = {
+			"Length_L": new LengthOutput_Length_L(),
+		}
+	}
+
+}
+
+class LengthInput_Curve_C extends ResthopperParameter {
+
+	public name: string = "Curve";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class LengthOutput_Length_L extends ResthopperParameter {
+
+	public name: string = "Length";
+	public nickName: string = "L";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

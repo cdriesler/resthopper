@@ -13,4 +13,52 @@ export default class Negative extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"Value_x": NegativeInput_Value_x,
+	}
+
+	public output:
+	{
+		"Result_y": NegativeOutput_Result_y,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Value_x": new NegativeInput_Value_x(),
+		}
+		this.output = {
+			"Result_y": new NegativeOutput_Result_y(),
+		}
+	}
+
+}
+
+class NegativeInput_Value_x extends ResthopperParameter {
+
+	public name: string = "Value";
+	public nickName: string = "x";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class NegativeOutput_Result_y extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "y";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

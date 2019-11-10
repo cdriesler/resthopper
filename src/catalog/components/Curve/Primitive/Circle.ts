@@ -13,4 +13,68 @@ export default class Circle extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"Plane_P": CircleInput_Plane_P,
+		"Radius_R": CircleInput_Radius_R,
+	}
+
+	public output:
+	{
+		"Circle_C": CircleOutput_Circle_C,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Plane_P": new CircleInput_Plane_P(),
+			"Radius_R": new CircleInput_Radius_R(),
+		}
+		this.output = {
+			"Circle_C": new CircleOutput_Circle_C(),
+		}
+	}
+
+}
+
+class CircleInput_Plane_P extends ResthopperParameter {
+
+	public name: string = "Plane";
+	public nickName: string = "P";
+	public isOptional: boolean = false;
+	public typeName: string = "Plane;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class CircleInput_Radius_R extends ResthopperParameter {
+
+	public name: string = "Radius";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class CircleOutput_Circle_C extends ResthopperParameter {
+
+	public name: string = "Circle";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Circle;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

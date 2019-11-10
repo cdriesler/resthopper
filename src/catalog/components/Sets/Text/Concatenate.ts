@@ -13,4 +13,68 @@ export default class Concatenate extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"FragmentA_A": ConcatenateInput_FragmentA_A,
+		"FragmentB_B": ConcatenateInput_FragmentB_B,
+	}
+
+	public output:
+	{
+		"Result_R": ConcatenateOutput_Result_R,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"FragmentA_A": new ConcatenateInput_FragmentA_A(),
+			"FragmentB_B": new ConcatenateInput_FragmentB_B(),
+		}
+		this.output = {
+			"Result_R": new ConcatenateOutput_Result_R(),
+		}
+	}
+
+}
+
+class ConcatenateInput_FragmentA_A extends ResthopperParameter {
+
+	public name: string = "FragmentA";
+	public nickName: string = "A";
+	public isOptional: boolean = true;
+	public typeName: string = "Text;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ConcatenateInput_FragmentB_B extends ResthopperParameter {
+
+	public name: string = "FragmentB";
+	public nickName: string = "B";
+	public isOptional: boolean = true;
+	public typeName: string = "Text;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ConcatenateOutput_Result_R extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Text;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -13,4 +13,68 @@ export default class Triangulate extends ResthopperComponent {
 
 	public library: string = "Surface Components";
 
+	public input:
+	{
+		"Mesh_M": TriangulateInput_Mesh_M,
+	}
+
+	public output:
+	{
+		"Mesh_M": TriangulateOutput_Mesh_M,
+		"Count_N": TriangulateOutput_Count_N,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Mesh_M": new TriangulateInput_Mesh_M(),
+		}
+		this.output = {
+			"Mesh_M": new TriangulateOutput_Mesh_M(),
+			"Count_N": new TriangulateOutput_Count_N(),
+		}
+	}
+
+}
+
+class TriangulateInput_Mesh_M extends ResthopperParameter {
+
+	public name: string = "Mesh";
+	public nickName: string = "M";
+	public isOptional: boolean = false;
+	public typeName: string = "Mesh;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class TriangulateOutput_Mesh_M extends ResthopperParameter {
+
+	public name: string = "Mesh";
+	public nickName: string = "M";
+	public isOptional: boolean = false;
+	public typeName: string = "Mesh;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class TriangulateOutput_Count_N extends ResthopperParameter {
+
+	public name: string = "Count";
+	public nickName: string = "N";
+	public isOptional: boolean = false;
+	public typeName: string = "Integer;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

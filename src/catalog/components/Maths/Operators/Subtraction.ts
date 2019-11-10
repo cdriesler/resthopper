@@ -13,4 +13,68 @@ export default class Subtraction extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"A_A": SubtractionInput_A_A,
+		"B_B": SubtractionInput_B_B,
+	}
+
+	public output:
+	{
+		"Result_R": SubtractionOutput_Result_R,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"A_A": new SubtractionInput_A_A(),
+			"B_B": new SubtractionInput_B_B(),
+		}
+		this.output = {
+			"Result_R": new SubtractionOutput_Result_R(),
+		}
+	}
+
+}
+
+class SubtractionInput_A_A extends ResthopperParameter {
+
+	public name: string = "A";
+	public nickName: string = "A";
+	public isOptional: boolean = true;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class SubtractionInput_B_B extends ResthopperParameter {
+
+	public name: string = "B";
+	public nickName: string = "B";
+	public isOptional: boolean = true;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class SubtractionOutput_Result_R extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -5,12 +5,76 @@ import { newGuid } from './../../../../utils/Guid';
 export default class QuadSphere extends ResthopperComponent {
 
 	public guid: string = "361790d6-9d66-4808-8c5a-8de9c218c227";
-	public name: string = "Quad Sphere";
+	public name: string = "QuadSphere";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a spherical brep made from quad nurbs patches.";
 	public isObsolete: boolean = false;
 
 	public library: string = "Surface Components";
+
+	public input:
+	{
+		"Base_B": QuadSphereInput_Base_B,
+		"Radius_R": QuadSphereInput_Radius_R,
+	}
+
+	public output:
+	{
+		"Sphere_S": QuadSphereOutput_Sphere_S,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Base_B": new QuadSphereInput_Base_B(),
+			"Radius_R": new QuadSphereInput_Radius_R(),
+		}
+		this.output = {
+			"Sphere_S": new QuadSphereOutput_Sphere_S(),
+		}
+	}
+
+}
+
+class QuadSphereInput_Base_B extends ResthopperParameter {
+
+	public name: string = "Base";
+	public nickName: string = "B";
+	public isOptional: boolean = false;
+	public typeName: string = "Plane;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class QuadSphereInput_Radius_R extends ResthopperParameter {
+
+	public name: string = "Radius";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class QuadSphereOutput_Sphere_S extends ResthopperParameter {
+
+	public name: string = "Sphere";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Brep;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
 
 }

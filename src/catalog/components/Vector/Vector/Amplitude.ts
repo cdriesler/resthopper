@@ -13,4 +13,68 @@ export default class Amplitude extends ResthopperComponent {
 
 	public library: string = "Vector Components";
 
+	public input:
+	{
+		"Vector_V": AmplitudeInput_Vector_V,
+		"Amplitude_A": AmplitudeInput_Amplitude_A,
+	}
+
+	public output:
+	{
+		"Vector_V": AmplitudeOutput_Vector_V,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Vector_V": new AmplitudeInput_Vector_V(),
+			"Amplitude_A": new AmplitudeInput_Amplitude_A(),
+		}
+		this.output = {
+			"Vector_V": new AmplitudeOutput_Vector_V(),
+		}
+	}
+
+}
+
+class AmplitudeInput_Vector_V extends ResthopperParameter {
+
+	public name: string = "Vector";
+	public nickName: string = "V";
+	public isOptional: boolean = false;
+	public typeName: string = "Vector;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class AmplitudeInput_Amplitude_A extends ResthopperParameter {
+
+	public name: string = "Amplitude";
+	public nickName: string = "A";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class AmplitudeOutput_Vector_V extends ResthopperParameter {
+
+	public name: string = "Vector";
+	public nickName: string = "V";
+	public isOptional: boolean = false;
+	public typeName: string = "Vector;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

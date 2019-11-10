@@ -13,4 +13,68 @@ export default class Line extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"StartPoint_A": LineInput_StartPoint_A,
+		"EndPoint_B": LineInput_EndPoint_B,
+	}
+
+	public output:
+	{
+		"Line_L": LineOutput_Line_L,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"StartPoint_A": new LineInput_StartPoint_A(),
+			"EndPoint_B": new LineInput_EndPoint_B(),
+		}
+		this.output = {
+			"Line_L": new LineOutput_Line_L(),
+		}
+	}
+
+}
+
+class LineInput_StartPoint_A extends ResthopperParameter {
+
+	public name: string = "StartPoint";
+	public nickName: string = "A";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class LineInput_EndPoint_B extends ResthopperParameter {
+
+	public name: string = "EndPoint";
+	public nickName: string = "B";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class LineOutput_Line_L extends ResthopperParameter {
+
+	public name: string = "Line";
+	public nickName: string = "L";
+	public isOptional: boolean = false;
+	public typeName: string = "Line;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

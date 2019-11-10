@@ -13,4 +13,68 @@ export default class Seam extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"Curve_C": SeamInput_Curve_C,
+		"Seam_t": SeamInput_Seam_t,
+	}
+
+	public output:
+	{
+		"Curve_C": SeamOutput_Curve_C,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Curve_C": new SeamInput_Curve_C(),
+			"Seam_t": new SeamInput_Seam_t(),
+		}
+		this.output = {
+			"Curve_C": new SeamOutput_Curve_C(),
+		}
+	}
+
+}
+
+class SeamInput_Curve_C extends ResthopperParameter {
+
+	public name: string = "Curve";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class SeamInput_Seam_t extends ResthopperParameter {
+
+	public name: string = "Seam";
+	public nickName: string = "t";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class SeamOutput_Curve_C extends ResthopperParameter {
+
+	public name: string = "Curve";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

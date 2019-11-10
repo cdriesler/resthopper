@@ -34,6 +34,10 @@ axios.get("http://localhost:8081/grasshopper").then(x => {
         }
     });
 
+    fs.mkdirSync("./src/catalog");
+    fs.mkdirSync("./src/catalog/components");
+    fs.mkdirSync("./src/catalog/parameters");
+
     writeParameterCatalog(parameters);
     writeComponentCatalog(components);
 
@@ -55,6 +59,11 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
         if (x.name == "Domain²") {
             className = "DomainSquared";
         }
+
+        if (indexTypes.includes(`"${className}"`)) {
+            return;
+        }
+        indexTypes.push(`"${className}"`);
 
         let text: string[] = [
             "import ResthopperParameter from './../../models/ResthopperParameter';",
@@ -87,7 +96,6 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
         indexImports.push(`import { ${className}Param } from './parameters/${className}';`);
         indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${className}Param(value);`);
         indexExports.push(`export { ${className}Param } from './parameters/${className}';`);
-        indexTypes.push(`"${className}"`);
     });
 
     let index: string[] = [];
@@ -171,8 +179,71 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             "",
             `\tpublic library: string = "${c.libraryName}";`,
             "",
-            "}"
+            "\tpublic input:",
+            "\t{",
+            Object.keys(c.input).map(x => `\t\t"${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}": ${className}Input_${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")},`).join("\n"),
+            "\t}",
+            "",
+            "\tpublic output:",
+            "\t{",
+            Object.keys(c.output).map(x => `\t\t"${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}": ${className}Output_${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")},`).join("\n"),
+            "\t}",
+            "",
+            "\tconstructor() {",
+            "\t\tsuper();",
+            "\t\tthis.input = {",
+            Object.keys(c.input).map(x => `\t\t\t"${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}": new ${className}Input_${c.input[x].name.replace(" ", "")}_${c.input[x].nickName.replace(" ", "")}(),`).join("\n"),
+            "\t\t}",
+            "\t\tthis.output = {",
+            Object.keys(c.output).map(x => `\t\t\t"${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}": new ${className}Output_${c.output[x].name.replace(" ", "")}_${c.output[x].nickName.replace(" ", "")}(),`).join("\n"),
+            "\t\t}",
+            "\t}",
+            "",
+            "}",
+            "",
         ];
+
+        Object.keys(c.input).forEach(x => {
+            const i = c.input[x];
+
+            text = text.concat([
+                `class ${className}Input_${i.name.replace(" ", "")}_${i.nickName.replace(" ", "")} extends ResthopperParameter {`,
+                "",
+                `\tpublic name: string = "${i.name}";`,
+                `\tpublic nickName: string = "${i.nickName}";`,
+                `\tpublic isOptional: boolean = ${i.isOptional};`,
+                `\tpublic typeName: string = "${i.typeName};"`,
+                "",
+                "\tconstructor() {",
+                "\t\tsuper();",
+                "\t\tthis.instanceGuid = newGuid();",
+                "\t}",
+                "",
+                "}",
+                ""
+            ]);
+        });
+
+        Object.keys(c.output).forEach(x => {
+            const o = c.output[x];
+
+            text = text.concat([
+                `class ${className}Output_${o.name.replace(" ", "")}_${o.nickName.replace(" ", "")} extends ResthopperParameter {`,
+                "",
+                `\tpublic name: string = "${o.name}";`,
+                `\tpublic nickName: string = "${o.nickName}";`,
+                `\tpublic isOptional: boolean = ${o.isOptional};`,
+                `\tpublic typeName: string = "${o.typeName};"`,
+                "",
+                "\tconstructor() {",
+                "\t\tsuper();",
+                "\t\tthis.instanceGuid = newGuid();",
+                "\t}",
+                "",
+                "}",
+                ""
+            ]);
+        });
 
         fs.writeFileSync(`${dir}/${className}.ts`, text.join("\n"));
     });

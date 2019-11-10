@@ -13,7 +13,6 @@ import { CurveParam } from './parameters/Curve';
 import { DataParam } from './parameters/Data';
 import { DataPathParam } from './parameters/DataPath';
 import { DomainParam } from './parameters/Domain';
-import { DomainSquaredParam } from './parameters/DomainSquared';
 import { FieldParam } from './parameters/Field';
 import { FilePathParam } from './parameters/FilePath';
 import { GeometryParam } from './parameters/Geometry';
@@ -27,9 +26,9 @@ import { LocationParam } from './parameters/Location';
 import { MarshallingsignalparameterParam } from './parameters/Marshallingsignalparameter';
 import { MatrixParam } from './parameters/Matrix';
 import { MeshParam } from './parameters/Mesh';
+import { MesherSettingsParam } from './parameters/MesherSettings';
 import { MeshFaceParam } from './parameters/MeshFace';
 import { MeshPointParam } from './parameters/MeshPoint';
-import { MesherSettingsParam } from './parameters/MesherSettings';
 import { NumberParam } from './parameters/Number';
 import { PlaneParam } from './parameters/Plane';
 import { PointParam } from './parameters/Point';
@@ -62,7 +61,6 @@ export default class ParameterIndex {
 		"Data",
 		"DataPath",
 		"Domain",
-		"DomainSquared",
 		"Field",
 		"FilePath",
 		"Geometry",
@@ -76,9 +74,9 @@ export default class ParameterIndex {
 		"Marshallingsignalparameter",
 		"Matrix",
 		"Mesh",
+		"MesherSettings",
 		"MeshFace",
 		"MeshPoint",
-		"MesherSettings",
 		"Number",
 		"Plane",
 		"Point",
@@ -125,8 +123,6 @@ export default class ParameterIndex {
 				return new DataPathParam(value);
 			case "Domain":
 				return new DomainParam(value);
-			case "DomainSquared":
-				return new DomainSquaredParam(value);
 			case "Field":
 				return new FieldParam(value);
 			case "FilePath":
@@ -153,12 +149,12 @@ export default class ParameterIndex {
 				return new MatrixParam(value);
 			case "Mesh":
 				return new MeshParam(value);
+			case "MesherSettings":
+				return new MesherSettingsParam(value);
 			case "MeshFace":
 				return new MeshFaceParam(value);
 			case "MeshPoint":
 				return new MeshPointParam(value);
-			case "MesherSettings":
-				return new MesherSettingsParam(value);
 			case "Number":
 				return new NumberParam(value);
 			case "Plane":
@@ -212,7 +208,6 @@ export { CurveParam } from './parameters/Curve';
 export { DataParam } from './parameters/Data';
 export { DataPathParam } from './parameters/DataPath';
 export { DomainParam } from './parameters/Domain';
-export { DomainSquaredParam } from './parameters/DomainSquared';
 export { FieldParam } from './parameters/Field';
 export { FilePathParam } from './parameters/FilePath';
 export { GeometryParam } from './parameters/Geometry';
@@ -226,9 +221,9 @@ export { LocationParam } from './parameters/Location';
 export { MarshallingsignalparameterParam } from './parameters/Marshallingsignalparameter';
 export { MatrixParam } from './parameters/Matrix';
 export { MeshParam } from './parameters/Mesh';
+export { MesherSettingsParam } from './parameters/MesherSettings';
 export { MeshFaceParam } from './parameters/MeshFace';
 export { MeshPointParam } from './parameters/MeshPoint';
-export { MesherSettingsParam } from './parameters/MesherSettings';
 export { NumberParam } from './parameters/Number';
 export { PlaneParam } from './parameters/Plane';
 export { PointParam } from './parameters/Point';
@@ -259,7 +254,6 @@ export type GrasshopperParameter =
 "Data" |
 "DataPath" |
 "Domain" |
-"DomainSquared" |
 "Field" |
 "FilePath" |
 "Geometry" |
@@ -273,9 +267,9 @@ export type GrasshopperParameter =
 "Marshallingsignalparameter" |
 "Matrix" |
 "Mesh" |
+"MesherSettings" |
 "MeshFace" |
 "MeshPoint" |
-"MesherSettings" |
 "Number" |
 "Plane" |
 "Point" |

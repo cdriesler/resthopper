@@ -13,4 +13,100 @@ export default class Scale extends ResthopperComponent {
 
 	public library: string = "Transform Components";
 
+	public input:
+	{
+		"Geometry_G": ScaleInput_Geometry_G,
+		"Center_C": ScaleInput_Center_C,
+		"Factor_F": ScaleInput_Factor_F,
+	}
+
+	public output:
+	{
+		"Geometry_G": ScaleOutput_Geometry_G,
+		"Transform_X": ScaleOutput_Transform_X,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Geometry_G": new ScaleInput_Geometry_G(),
+			"Center_C": new ScaleInput_Center_C(),
+			"Factor_F": new ScaleInput_Factor_F(),
+		}
+		this.output = {
+			"Geometry_G": new ScaleOutput_Geometry_G(),
+			"Transform_X": new ScaleOutput_Transform_X(),
+		}
+	}
+
+}
+
+class ScaleInput_Geometry_G extends ResthopperParameter {
+
+	public name: string = "Geometry";
+	public nickName: string = "G";
+	public isOptional: boolean = true;
+	public typeName: string = "Geometry;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ScaleInput_Center_C extends ResthopperParameter {
+
+	public name: string = "Center";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ScaleInput_Factor_F extends ResthopperParameter {
+
+	public name: string = "Factor";
+	public nickName: string = "F";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ScaleOutput_Geometry_G extends ResthopperParameter {
+
+	public name: string = "Geometry";
+	public nickName: string = "G";
+	public isOptional: boolean = false;
+	public typeName: string = "Geometry;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ScaleOutput_Transform_X extends ResthopperParameter {
+
+	public name: string = "Transform";
+	public nickName: string = "X";
+	public isOptional: boolean = false;
+	public typeName: string = "Transform;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -13,4 +13,68 @@ export default class Volume extends ResthopperComponent {
 
 	public library: string = "Surface Components";
 
+	public input:
+	{
+		"Geometry_G": VolumeInput_Geometry_G,
+	}
+
+	public output:
+	{
+		"Volume_V": VolumeOutput_Volume_V,
+		"Centroid_C": VolumeOutput_Centroid_C,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Geometry_G": new VolumeInput_Geometry_G(),
+		}
+		this.output = {
+			"Volume_V": new VolumeOutput_Volume_V(),
+			"Centroid_C": new VolumeOutput_Centroid_C(),
+		}
+	}
+
+}
+
+class VolumeInput_Geometry_G extends ResthopperParameter {
+
+	public name: string = "Geometry";
+	public nickName: string = "G";
+	public isOptional: boolean = false;
+	public typeName: string = "Geometry;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class VolumeOutput_Volume_V extends ResthopperParameter {
+
+	public name: string = "Volume";
+	public nickName: string = "V";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class VolumeOutput_Centroid_C extends ResthopperParameter {
+
+	public name: string = "Centroid";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

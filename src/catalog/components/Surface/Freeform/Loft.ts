@@ -13,4 +13,68 @@ export default class Loft extends ResthopperComponent {
 
 	public library: string = "Surface Components";
 
+	public input:
+	{
+		"Curves_C": LoftInput_Curves_C,
+		"Options_O": LoftInput_Options_O,
+	}
+
+	public output:
+	{
+		"Loft_L": LoftOutput_Loft_L,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Curves_C": new LoftInput_Curves_C(),
+			"Options_O": new LoftInput_Options_O(),
+		}
+		this.output = {
+			"Loft_L": new LoftOutput_Loft_L(),
+		}
+	}
+
+}
+
+class LoftInput_Curves_C extends ResthopperParameter {
+
+	public name: string = "Curves";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class LoftInput_Options_O extends ResthopperParameter {
+
+	public name: string = "Options";
+	public nickName: string = "O";
+	public isOptional: boolean = false;
+	public typeName: string = "Loft Options;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class LoftOutput_Loft_L extends ResthopperParameter {
+
+	public name: string = "Loft";
+	public nickName: string = "L";
+	public isOptional: boolean = false;
+	public typeName: string = "Brep;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -13,4 +13,84 @@ export default class Evaluate extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"Expression_F": EvaluateInput_Expression_F,
+		"Variablex_x": EvaluateInput_Variablex_x,
+		"Variabley_y": EvaluateInput_Variabley_y,
+	}
+
+	public output:
+	{
+		"Result_r": EvaluateOutput_Result_r,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Expression_F": new EvaluateInput_Expression_F(),
+			"Variablex_x": new EvaluateInput_Variablex_x(),
+			"Variabley_y": new EvaluateInput_Variabley_y(),
+		}
+		this.output = {
+			"Result_r": new EvaluateOutput_Result_r(),
+		}
+	}
+
+}
+
+class EvaluateInput_Expression_F extends ResthopperParameter {
+
+	public name: string = "Expression";
+	public nickName: string = "F";
+	public isOptional: boolean = false;
+	public typeName: string = "Expression;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class EvaluateInput_Variablex_x extends ResthopperParameter {
+
+	public name: string = "Variablex";
+	public nickName: string = "x";
+	public isOptional: boolean = true;
+	public typeName: string = "Expression Variant;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class EvaluateInput_Variabley_y extends ResthopperParameter {
+
+	public name: string = "Variabley";
+	public nickName: string = "y";
+	public isOptional: boolean = true;
+	public typeName: string = "Expression Variant;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class EvaluateOutput_Result_r extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "r";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

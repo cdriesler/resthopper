@@ -13,4 +13,84 @@ export default class Reduce extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"Polyline_P": ReduceInput_Polyline_P,
+		"Tolerance_T": ReduceInput_Tolerance_T,
+	}
+
+	public output:
+	{
+		"Polyline_P": ReduceOutput_Polyline_P,
+		"Reduction_R": ReduceOutput_Reduction_R,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Polyline_P": new ReduceInput_Polyline_P(),
+			"Tolerance_T": new ReduceInput_Tolerance_T(),
+		}
+		this.output = {
+			"Polyline_P": new ReduceOutput_Polyline_P(),
+			"Reduction_R": new ReduceOutput_Reduction_R(),
+		}
+	}
+
+}
+
+class ReduceInput_Polyline_P extends ResthopperParameter {
+
+	public name: string = "Polyline";
+	public nickName: string = "P";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ReduceInput_Tolerance_T extends ResthopperParameter {
+
+	public name: string = "Tolerance";
+	public nickName: string = "T";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ReduceOutput_Polyline_P extends ResthopperParameter {
+
+	public name: string = "Polyline";
+	public nickName: string = "P";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ReduceOutput_Reduction_R extends ResthopperParameter {
+
+	public name: string = "Reduction";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Integer;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

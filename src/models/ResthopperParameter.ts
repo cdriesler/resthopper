@@ -16,6 +16,10 @@ export default class ResthopperParameter {
     public sources: string[] = [];
     public values: string[] | number[] | boolean[] = [];
 
+    public getUniqueName(): string {
+        return "";
+    }
+
     public getSource(): string | undefined {
         return this.sources[0];
     }

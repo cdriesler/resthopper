@@ -29,8 +29,8 @@ export default class Parse {
         
         let rc = new ResthopperComponent();
         rc.guid = obj.Guid;
-        rc.name = obj.Name;
-        rc.nickName = obj.NickName;
+        rc.name = obj.Name.replace(/\W/g, '');
+        rc.nickName = obj.NickName.replace(/\W/g, '');
         rc.description = obj.Description;
         rc.category = obj.Category;
         rc.subCategory = obj.Subcategory;
@@ -54,8 +54,8 @@ export default class Parse {
         const p = object as ComputeObjectParam;
 
         let rp = new ResthopperParameter();
-        rp.name = p.Name;
-        rp.nickName = p.NickName;
+        rp.name = p.Name.replace(/\W/g, '');
+        rp.nickName = p.NickName.replace(/\W/g, '');
         rp.description = p.Description;
         rp.isOptional = p.IsOptional;
         rp.typeName = p.TypeName;
@@ -68,8 +68,8 @@ export default class Parse {
 
         p.guid = component.guid;
         p.isOptional = false;
-        p.name = component.name;
-        p.nickName = component.nickName;
+        p.name = component.name.replace(/\W/g, '');
+        p.nickName = component.nickName.replace(/\W/g, '');
         p.description = component.description;
 
         return p;

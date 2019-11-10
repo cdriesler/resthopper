@@ -13,4 +13,52 @@ export default class Untrim extends ResthopperComponent {
 
 	public library: string = "Surface Components";
 
+	public input:
+	{
+		"Surface_S": UntrimInput_Surface_S,
+	}
+
+	public output:
+	{
+		"Surface_S": UntrimOutput_Surface_S,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Surface_S": new UntrimInput_Surface_S(),
+		}
+		this.output = {
+			"Surface_S": new UntrimOutput_Surface_S(),
+		}
+	}
+
+}
+
+class UntrimInput_Surface_S extends ResthopperParameter {
+
+	public name: string = "Surface";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Surface;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class UntrimOutput_Surface_S extends ResthopperParameter {
+
+	public name: string = "Surface";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Surface;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

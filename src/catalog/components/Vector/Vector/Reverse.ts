@@ -13,4 +13,52 @@ export default class Reverse extends ResthopperComponent {
 
 	public library: string = "Vector Components";
 
+	public input:
+	{
+		"Vector_V": ReverseInput_Vector_V,
+	}
+
+	public output:
+	{
+		"Vector_V": ReverseOutput_Vector_V,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Vector_V": new ReverseInput_Vector_V(),
+		}
+		this.output = {
+			"Vector_V": new ReverseOutput_Vector_V(),
+		}
+	}
+
+}
+
+class ReverseInput_Vector_V extends ResthopperParameter {
+
+	public name: string = "Vector";
+	public nickName: string = "V";
+	public isOptional: boolean = false;
+	public typeName: string = "Vector;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ReverseOutput_Vector_V extends ResthopperParameter {
+
+	public name: string = "Vector";
+	public nickName: string = "V";
+	public isOptional: boolean = false;
+	public typeName: string = "Vector;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

@@ -13,4 +13,84 @@ export default class Extremes extends ResthopperComponent {
 
 	public library: string = "Curve Components";
 
+	public input:
+	{
+		"Curve_C": ExtremesInput_Curve_C,
+		"Plane_P": ExtremesInput_Plane_P,
+	}
+
+	public output:
+	{
+		"Highest_H": ExtremesOutput_Highest_H,
+		"Lowest_L": ExtremesOutput_Lowest_L,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Curve_C": new ExtremesInput_Curve_C(),
+			"Plane_P": new ExtremesInput_Plane_P(),
+		}
+		this.output = {
+			"Highest_H": new ExtremesOutput_Highest_H(),
+			"Lowest_L": new ExtremesOutput_Lowest_L(),
+		}
+	}
+
+}
+
+class ExtremesInput_Curve_C extends ResthopperParameter {
+
+	public name: string = "Curve";
+	public nickName: string = "C";
+	public isOptional: boolean = false;
+	public typeName: string = "Curve;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ExtremesInput_Plane_P extends ResthopperParameter {
+
+	public name: string = "Plane";
+	public nickName: string = "P";
+	public isOptional: boolean = false;
+	public typeName: string = "Plane;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ExtremesOutput_Highest_H extends ResthopperParameter {
+
+	public name: string = "Highest";
+	public nickName: string = "H";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ExtremesOutput_Lowest_L extends ResthopperParameter {
+
+	public name: string = "Lowest";
+	public nickName: string = "L";
+	public isOptional: boolean = false;
+	public typeName: string = "Point;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

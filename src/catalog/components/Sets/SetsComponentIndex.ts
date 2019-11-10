@@ -12,21 +12,6 @@ import SetsSetIntersection from './Sets/SetIntersection'
 import SetsSetMajority from './Sets/SetMajority'
 import SetsSetUnion from './Sets/SetUnion'
 import SetsSubSet from './Sets/SubSet'
-import SequenceCharSequence from './Sequence/CharSequence'
-import SequenceCullIndex from './Sequence/CullIndex'
-import SequenceCullNth from './Sequence/CullNth'
-import SequenceCullPattern from './Sequence/CullPattern'
-import SequenceDuplicateData from './Sequence/DuplicateData'
-import SequenceFibonacci from './Sequence/Fibonacci'
-import SequenceJitter from './Sequence/Jitter'
-import SequenceRandom from './Sequence/Random'
-import SequenceRandomReduce from './Sequence/RandomReduce'
-import SequenceRandomEx from './Sequence/RandomEx'
-import SequenceRange from './Sequence/Range'
-import SequenceRepeatData from './Sequence/RepeatData'
-import SequenceSequence from './Sequence/Sequence'
-import SequenceSeries from './Sequence/Series'
-import SequenceStackData from './Sequence/StackData'
 import TextCharacters from './Text/Characters'
 import TextConcatenate from './Text/Concatenate'
 import TextFormat from './Text/Format'
@@ -40,6 +25,21 @@ import TextTextJoin from './Text/TextJoin'
 import TextTextLength from './Text/TextLength'
 import TextTextSplit from './Text/TextSplit'
 import TextTextTrim from './Text/TextTrim'
+import SequenceCharSequence from './Sequence/CharSequence'
+import SequenceCullIndex from './Sequence/CullIndex'
+import SequenceCullNth from './Sequence/CullNth'
+import SequenceCullPattern from './Sequence/CullPattern'
+import SequenceDuplicateData from './Sequence/DuplicateData'
+import SequenceFibonacci from './Sequence/Fibonacci'
+import SequenceJitter from './Sequence/Jitter'
+import SequenceRandom from './Sequence/Random'
+import SequenceRandomEx from './Sequence/RandomEx'
+import SequenceRandomReduce from './Sequence/RandomReduce'
+import SequenceRange from './Sequence/Range'
+import SequenceRepeatData from './Sequence/RepeatData'
+import SequenceSequence from './Sequence/Sequence'
+import SequenceSeries from './Sequence/Series'
+import SequenceStackData from './Sequence/StackData'
 import TreeCleanTree from './Tree/CleanTree'
 import TreeConstructPath from './Tree/ConstructPath'
 import TreeDeconstructPath from './Tree/DeconstructPath'
@@ -112,23 +112,6 @@ const Sets = {
 		SetUnion: SetsSetUnion,
 		SubSet: SetsSubSet,
 	},
-	Sequence: {
-		CharSequence: SequenceCharSequence,
-		CullIndex: SequenceCullIndex,
-		CullNth: SequenceCullNth,
-		CullPattern: SequenceCullPattern,
-		DuplicateData: SequenceDuplicateData,
-		Fibonacci: SequenceFibonacci,
-		Jitter: SequenceJitter,
-		Random: SequenceRandom,
-		RandomReduce: SequenceRandomReduce,
-		RandomEx: SequenceRandomEx,
-		Range: SequenceRange,
-		RepeatData: SequenceRepeatData,
-		Sequence: SequenceSequence,
-		Series: SequenceSeries,
-		StackData: SequenceStackData,
-	},
 	Text: {
 		Characters: TextCharacters,
 		Concatenate: TextConcatenate,
@@ -143,6 +126,23 @@ const Sets = {
 		TextLength: TextTextLength,
 		TextSplit: TextTextSplit,
 		TextTrim: TextTextTrim,
+	},
+	Sequence: {
+		CharSequence: SequenceCharSequence,
+		CullIndex: SequenceCullIndex,
+		CullNth: SequenceCullNth,
+		CullPattern: SequenceCullPattern,
+		DuplicateData: SequenceDuplicateData,
+		Fibonacci: SequenceFibonacci,
+		Jitter: SequenceJitter,
+		Random: SequenceRandom,
+		RandomEx: SequenceRandomEx,
+		RandomReduce: SequenceRandomReduce,
+		Range: SequenceRange,
+		RepeatData: SequenceRepeatData,
+		Sequence: SequenceSequence,
+		Series: SequenceSeries,
+		StackData: SequenceStackData,
 	},
 	Tree: {
 		CleanTree: TreeCleanTree,

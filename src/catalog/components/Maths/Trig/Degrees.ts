@@ -13,4 +13,52 @@ export default class Degrees extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"Radians_R": DegreesInput_Radians_R,
+	}
+
+	public output:
+	{
+		"Degrees_D": DegreesOutput_Degrees_D,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Radians_R": new DegreesInput_Radians_R(),
+		}
+		this.output = {
+			"Degrees_D": new DegreesOutput_Degrees_D(),
+		}
+	}
+
+}
+
+class DegreesInput_Radians_R extends ResthopperParameter {
+
+	public name: string = "Radians";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class DegreesOutput_Degrees_D extends ResthopperParameter {
+
+	public name: string = "Degrees";
+	public nickName: string = "D";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

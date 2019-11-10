@@ -13,4 +13,68 @@ export default class Maximum extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"A_A": MaximumInput_A_A,
+		"B_B": MaximumInput_B_B,
+	}
+
+	public output:
+	{
+		"Result_R": MaximumOutput_Result_R,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"A_A": new MaximumInput_A_A(),
+			"B_B": new MaximumInput_B_B(),
+		}
+		this.output = {
+			"Result_R": new MaximumOutput_Result_R(),
+		}
+	}
+
+}
+
+class MaximumInput_A_A extends ResthopperParameter {
+
+	public name: string = "A";
+	public nickName: string = "A";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MaximumInput_B_B extends ResthopperParameter {
+
+	public name: string = "B";
+	public nickName: string = "B";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MaximumOutput_Result_R extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Generic Data;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

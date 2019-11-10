@@ -13,4 +13,52 @@ export default class Bounds extends ResthopperComponent {
 
 	public library: string = "Math Components";
 
+	public input:
+	{
+		"Numbers_N": BoundsInput_Numbers_N,
+	}
+
+	public output:
+	{
+		"Domain_I": BoundsOutput_Domain_I,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Numbers_N": new BoundsInput_Numbers_N(),
+		}
+		this.output = {
+			"Domain_I": new BoundsOutput_Domain_I(),
+		}
+	}
+
+}
+
+class BoundsInput_Numbers_N extends ResthopperParameter {
+
+	public name: string = "Numbers";
+	public nickName: string = "N";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class BoundsOutput_Domain_I extends ResthopperParameter {
+
+	public name: string = "Domain";
+	public nickName: string = "I";
+	public isOptional: boolean = false;
+	public typeName: string = "Domain;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

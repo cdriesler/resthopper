@@ -13,4 +13,84 @@ export default class Flip extends ResthopperComponent {
 
 	public library: string = "Surface Components";
 
+	public input:
+	{
+		"Surface_S": FlipInput_Surface_S,
+		"Guide_G": FlipInput_Guide_G,
+	}
+
+	public output:
+	{
+		"Surface_S": FlipOutput_Surface_S,
+		"Result_R": FlipOutput_Result_R,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Surface_S": new FlipInput_Surface_S(),
+			"Guide_G": new FlipInput_Guide_G(),
+		}
+		this.output = {
+			"Surface_S": new FlipOutput_Surface_S(),
+			"Result_R": new FlipOutput_Result_R(),
+		}
+	}
+
+}
+
+class FlipInput_Surface_S extends ResthopperParameter {
+
+	public name: string = "Surface";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Surface;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class FlipInput_Guide_G extends ResthopperParameter {
+
+	public name: string = "Guide";
+	public nickName: string = "G";
+	public isOptional: boolean = true;
+	public typeName: string = "Surface;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class FlipOutput_Surface_S extends ResthopperParameter {
+
+	public name: string = "Surface";
+	public nickName: string = "S";
+	public isOptional: boolean = false;
+	public typeName: string = "Surface;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class FlipOutput_Result_R extends ResthopperParameter {
+
+	public name: string = "Result";
+	public nickName: string = "R";
+	public isOptional: boolean = false;
+	public typeName: string = "Boolean;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }

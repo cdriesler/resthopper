@@ -13,4 +13,52 @@ export default class Group extends ResthopperComponent {
 
 	public library: string = "Grasshopper";
 
+	public input:
+	{
+		"Objects_O": GroupInput_Objects_O,
+	}
+
+	public output:
+	{
+		"Group_G": GroupOutput_Group_G,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"Objects_O": new GroupInput_Objects_O(),
+		}
+		this.output = {
+			"Group_G": new GroupOutput_Group_G(),
+		}
+	}
+
+}
+
+class GroupInput_Objects_O extends ResthopperParameter {
+
+	public name: string = "Objects";
+	public nickName: string = "O";
+	public isOptional: boolean = false;
+	public typeName: string = "Geometry;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class GroupOutput_Group_G extends ResthopperParameter {
+
+	public name: string = "Group";
+	public nickName: string = "G";
+	public isOptional: boolean = false;
+	public typeName: string = "Group;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
 }
