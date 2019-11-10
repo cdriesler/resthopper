@@ -10,6 +10,7 @@ export default class AlignPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Perform minimal rotation to align a plane with a guide vector";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

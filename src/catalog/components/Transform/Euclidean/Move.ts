@@ -10,6 +10,7 @@ export default class Move extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Translate (move) an object along a vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

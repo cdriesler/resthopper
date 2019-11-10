@@ -10,6 +10,7 @@ export default class KnotVector extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a nurbs curve knot vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class CollisionManyMany extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Test for many|many collision between objects";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

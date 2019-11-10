@@ -10,6 +10,7 @@ export default class Split extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Split a compound transformation into fragments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

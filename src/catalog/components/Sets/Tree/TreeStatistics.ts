@@ -10,6 +10,7 @@ export default class TreeStatistics extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Get some statistics regarding a data tree.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

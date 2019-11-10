@@ -10,6 +10,7 @@ export default class Dispatch extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Dispatch the items in a list into two target lists.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

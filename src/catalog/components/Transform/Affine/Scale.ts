@@ -10,6 +10,7 @@ export default class Scale extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Scale an object uniformly in all directions.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

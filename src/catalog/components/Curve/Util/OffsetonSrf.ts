@@ -10,6 +10,7 @@ export default class OffsetonSrf extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a curve on a surface with a specified distance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

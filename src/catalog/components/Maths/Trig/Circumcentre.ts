@@ -10,6 +10,7 @@ export default class Circumcentre extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle circumcentre from perpendicular bisectors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

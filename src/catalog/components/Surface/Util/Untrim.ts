@@ -10,6 +10,7 @@ export default class Untrim extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Remove all trim curves from a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

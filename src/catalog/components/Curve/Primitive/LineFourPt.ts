@@ -10,6 +10,7 @@ export default class LineFourPt extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line from four points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

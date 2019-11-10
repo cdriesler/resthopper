@@ -10,6 +10,7 @@ export default class CoTangent extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the co-tangent (reciprocal of the Tangent) of an angle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

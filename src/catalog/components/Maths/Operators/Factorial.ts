@@ -10,6 +10,7 @@ export default class Factorial extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Returns the factorial of an integer.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

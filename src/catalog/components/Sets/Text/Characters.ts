@@ -10,6 +10,7 @@ export default class Characters extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Break text into individual characters";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class PerpendicularDisplay extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Display the perpendicularity of a field through a section";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

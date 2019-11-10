@@ -10,6 +10,7 @@ export default class MeshDepth extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Validate the depth of a mesh.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

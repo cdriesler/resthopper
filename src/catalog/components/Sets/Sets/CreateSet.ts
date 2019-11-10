@@ -10,6 +10,7 @@ export default class CreateSet extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Creates the valid set from a list of items (a valid set only contains distinct elements).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

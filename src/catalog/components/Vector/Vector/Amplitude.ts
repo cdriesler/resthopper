@@ -10,6 +10,7 @@ export default class Amplitude extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Set the amplitude (length) of a vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

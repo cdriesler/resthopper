@@ -10,6 +10,7 @@ export default class TangentCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a curve through a set of points with tangents.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

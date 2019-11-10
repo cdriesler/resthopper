@@ -10,6 +10,7 @@ export default class CharSequence extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Create a sequence of textual characters.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

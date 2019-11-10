@@ -10,6 +10,7 @@ export default class Merge extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Merge two streams into one.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

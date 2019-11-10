@@ -10,6 +10,7 @@ export default class PullCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Pull a curve onto a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

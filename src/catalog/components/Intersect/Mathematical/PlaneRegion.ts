@@ -10,6 +10,7 @@ export default class PlaneRegion extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a bounded region from intersecting planes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

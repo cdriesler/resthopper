@@ -10,6 +10,7 @@ export default class SolidIntersection extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid intersection on two Brep sets.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

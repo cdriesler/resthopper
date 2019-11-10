@@ -10,6 +10,7 @@ export default class Absolute extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Compute the absolute of a value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

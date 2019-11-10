@@ -10,6 +10,7 @@ export default class Maximum extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Return the greater of two items.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

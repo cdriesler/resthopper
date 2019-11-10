@@ -10,6 +10,7 @@ export default class Mirror extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Mirror an object.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

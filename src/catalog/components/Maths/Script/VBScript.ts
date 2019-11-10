@@ -10,6 +10,7 @@ export default class VBScript extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "A VB.NET scriptable component";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Script Components";
 

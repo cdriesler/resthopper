@@ -10,6 +10,7 @@ export default class XZPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "World XZ plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

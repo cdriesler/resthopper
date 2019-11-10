@@ -10,6 +10,7 @@ export default class IsoCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct {uv} isocurves on a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

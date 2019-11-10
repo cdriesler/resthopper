@@ -10,6 +10,7 @@ export default class RotatePlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Perform plane rotation around plane z-axis";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class DomainBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box defined by a base plane and size domains.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

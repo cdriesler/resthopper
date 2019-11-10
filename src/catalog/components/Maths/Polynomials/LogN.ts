@@ -10,6 +10,7 @@ export default class LogN extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Return the N-base logarithm of a number.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

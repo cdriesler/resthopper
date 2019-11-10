@@ -10,6 +10,7 @@ export default class SegmentLengths extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Finds the shortest and longest segments of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

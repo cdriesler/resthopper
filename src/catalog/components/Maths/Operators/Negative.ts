@@ -10,6 +10,7 @@ export default class Negative extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Compute the negative of a value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

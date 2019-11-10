@@ -10,6 +10,7 @@ export default class Stretch extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deforms objects by stretching them along a finite axis.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

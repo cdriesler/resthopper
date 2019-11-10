@@ -10,6 +10,7 @@ export default class SmoothMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Smooth the vertices of a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

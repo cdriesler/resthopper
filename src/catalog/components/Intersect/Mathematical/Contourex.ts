@@ -10,6 +10,7 @@ export default class Contourex extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a set of Brep or Mesh contours";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class DeconstructDomain extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Deconstruct a two-dimensional domain into its component parts";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

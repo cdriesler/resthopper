@@ -10,6 +10,7 @@ export default class VoronoiGroups extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute a custom set of nested voronoi diagrams.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Triangulation Components";
 

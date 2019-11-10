@@ -10,6 +10,7 @@ export default class PopulateThreeD extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "Populate a 3-Dimensional region with points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

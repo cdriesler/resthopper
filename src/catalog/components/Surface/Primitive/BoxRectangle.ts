@@ -10,6 +10,7 @@ export default class BoxRectangle extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box defined by a rectangle and a height.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

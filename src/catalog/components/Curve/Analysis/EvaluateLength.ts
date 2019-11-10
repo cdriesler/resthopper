@@ -10,6 +10,7 @@ export default class EvaluateLength extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate a curve at a certain factor along its length. Length factors can be supplied both in curve units and normalized units. Change the [N] parameter to toggle between the two modes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

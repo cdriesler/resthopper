@@ -10,6 +10,7 @@ export default class Similarity extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Test for similarity of two numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

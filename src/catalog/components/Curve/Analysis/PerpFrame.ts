@@ -10,6 +10,7 @@ export default class PerpFrame extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve the perpendicular (zero-twisting) frame at a specified curve parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

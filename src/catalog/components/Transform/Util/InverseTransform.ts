@@ -10,6 +10,7 @@ export default class InverseTransform extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Invert a transformation.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

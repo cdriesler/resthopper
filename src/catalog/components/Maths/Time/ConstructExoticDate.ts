@@ -10,6 +10,7 @@ export default class ConstructExoticDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Construct a date using a specific calendar";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class SetUnion extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Creates the union of two sets (the collection of unique objects present in either set).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

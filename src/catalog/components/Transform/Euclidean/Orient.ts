@@ -10,6 +10,7 @@ export default class Orient extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Orient an object. Orientation is sometimes called a 'ChangeBasis tranformation'. It allows for remapping of geometry from one axis-system to another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

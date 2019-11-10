@@ -10,6 +10,7 @@ export default class Retrim extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Retrim a surface based on 3D trim data from another surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

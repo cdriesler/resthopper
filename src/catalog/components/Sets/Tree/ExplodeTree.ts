@@ -10,6 +10,7 @@ export default class ExplodeTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Extract all the branches from a tree";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Grasshopper";
 

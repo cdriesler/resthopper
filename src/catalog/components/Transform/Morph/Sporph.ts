@@ -10,6 +10,7 @@ export default class Sporph extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deforms an object from a source surface to a target surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

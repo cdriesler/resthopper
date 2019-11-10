@@ -10,6 +10,7 @@ export default class BlurMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Blur the colours on a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

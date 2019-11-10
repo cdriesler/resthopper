@@ -10,6 +10,7 @@ export default class DivideDistance extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Divide a curve with a preset distance between points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

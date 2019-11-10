@@ -10,6 +10,7 @@ export default class PointOrder extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Displays the order of a list of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

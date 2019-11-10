@@ -10,6 +10,7 @@ export default class FilletDistance extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Fillet the sharp corners of a curve by distance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

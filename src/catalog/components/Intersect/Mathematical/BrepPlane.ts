@@ -10,6 +10,7 @@ export default class BrepPlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Brep and a plane (otherwise known as section).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

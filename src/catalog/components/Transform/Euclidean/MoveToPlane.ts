@@ -10,6 +10,7 @@ export default class MoveToPlane extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Translate (move) an object onto a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

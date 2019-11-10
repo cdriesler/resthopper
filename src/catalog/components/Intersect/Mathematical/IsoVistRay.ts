@@ -10,6 +10,7 @@ export default class IsoVistRay extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Compute a single isovist sample at a location";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

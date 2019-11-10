@@ -10,6 +10,7 @@ export default class BrepEdges extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the edge curves of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

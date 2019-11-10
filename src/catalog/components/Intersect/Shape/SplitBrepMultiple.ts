@@ -10,6 +10,7 @@ export default class SplitBrepMultiple extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Split one brep with a bunch of others.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

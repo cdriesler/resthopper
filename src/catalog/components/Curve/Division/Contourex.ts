@@ -10,6 +10,7 @@ export default class Contourex extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Create a set of Curve contours";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

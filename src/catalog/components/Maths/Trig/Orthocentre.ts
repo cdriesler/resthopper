@@ -10,6 +10,7 @@ export default class Orthocentre extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle orthocentre from altitudes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

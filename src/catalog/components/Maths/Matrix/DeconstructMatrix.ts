@@ -10,6 +10,7 @@ export default class DeconstructMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Deconstruct a matrix into its component parts";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

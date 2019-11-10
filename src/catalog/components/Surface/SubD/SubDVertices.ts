@@ -10,6 +10,7 @@ export default class SubDVertices extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Extract all vertex data from a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

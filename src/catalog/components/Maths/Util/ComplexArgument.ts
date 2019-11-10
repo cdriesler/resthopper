@@ -10,6 +10,7 @@ export default class ComplexArgument extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Get the argument of a Complex number";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

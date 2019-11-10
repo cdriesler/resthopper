@@ -10,6 +10,7 @@ export default class DotNETCScriptLEGACY extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "A C#.NET scriptable component";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Script Components";
 

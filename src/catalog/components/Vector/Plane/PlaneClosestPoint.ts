@@ -10,6 +10,7 @@ export default class PlaneClosestPoint extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Find the closest point on a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

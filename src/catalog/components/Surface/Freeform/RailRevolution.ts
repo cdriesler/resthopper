@@ -10,6 +10,7 @@ export default class RailRevolution extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface of revolution using a sweep rail.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

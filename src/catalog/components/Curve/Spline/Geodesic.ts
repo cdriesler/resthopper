@@ -10,6 +10,7 @@ export default class Geodesic extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a surface geodesic between two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

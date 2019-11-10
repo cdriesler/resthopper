@@ -10,6 +10,7 @@ export default class PolygonCenter extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find the center point (average) for a polyline.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

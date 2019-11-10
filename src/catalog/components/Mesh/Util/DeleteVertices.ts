@@ -10,6 +10,7 @@ export default class DeleteVertices extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Delete vertices from a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

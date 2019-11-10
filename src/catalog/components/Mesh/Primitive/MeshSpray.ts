@@ -10,6 +10,7 @@ export default class MeshSpray extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Assign colours to a mesh based on spray points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

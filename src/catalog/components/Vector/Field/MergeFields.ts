@@ -10,6 +10,7 @@ export default class MergeFields extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Merge a collection of fields into one";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

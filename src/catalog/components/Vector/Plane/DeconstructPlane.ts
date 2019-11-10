@@ -10,6 +10,7 @@ export default class DeconstructPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Deconstruct a plane into its component parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

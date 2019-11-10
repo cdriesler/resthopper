@@ -10,6 +10,7 @@ export default class Planar extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test a curve for planarity.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

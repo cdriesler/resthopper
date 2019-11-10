@@ -10,6 +10,7 @@ export default class SubList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Extract a subset from a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

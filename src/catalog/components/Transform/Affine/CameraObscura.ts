@@ -10,6 +10,7 @@ export default class CameraObscura extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Camera Obscura (point mirror) transformation.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

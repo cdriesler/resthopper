@@ -10,6 +10,7 @@ export default class Average extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Solve the arithmetic average for a set of items";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ConsecutiveDomains extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create consecutive domains from a list of numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

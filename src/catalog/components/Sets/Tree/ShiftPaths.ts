@@ -10,6 +10,7 @@ export default class ShiftPaths extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Shift the indices in all data tree paths";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

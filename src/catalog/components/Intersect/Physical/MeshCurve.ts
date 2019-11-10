@@ -10,6 +10,7 @@ export default class MeshCurve extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Mesh Curve intersection";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

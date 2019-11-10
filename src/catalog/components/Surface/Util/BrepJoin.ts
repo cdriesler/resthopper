@@ -10,6 +10,7 @@ export default class BrepJoin extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Join a number of Breps together";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class RelativeItems extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Retrieve a relative item combo from two data trees";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

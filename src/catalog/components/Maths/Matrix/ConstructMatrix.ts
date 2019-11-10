@@ -10,6 +10,7 @@ export default class ConstructMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Construct a matrix from initial values";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ConstructPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Construct a plane from an origin point and {x}, {y} axes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

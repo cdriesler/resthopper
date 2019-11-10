@@ -10,6 +10,7 @@ export default class Patch extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a patch surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

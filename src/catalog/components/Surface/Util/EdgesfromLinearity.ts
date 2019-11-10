@@ -10,6 +10,7 @@ export default class EdgesfromLinearity extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Select brep edges based on linearity";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

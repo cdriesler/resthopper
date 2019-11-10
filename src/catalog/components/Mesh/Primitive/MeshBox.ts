@@ -10,6 +10,7 @@ export default class MeshBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh box.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

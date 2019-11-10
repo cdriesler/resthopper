@@ -10,6 +10,7 @@ export default class ImageGallery extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Display a sequence of images";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

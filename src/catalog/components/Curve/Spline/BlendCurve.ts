@@ -10,6 +10,7 @@ export default class BlendCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a blend curve between two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class PathCompare extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Compare a path to a mask pattern";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class PerpFrames extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Generate a number of equally spaced, perpendicular frames along a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

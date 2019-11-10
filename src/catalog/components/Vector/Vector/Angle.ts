@@ -10,6 +10,7 @@ export default class Angle extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Compute the angle between two vectors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class PlaneFit extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Fit a plane through a set of points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

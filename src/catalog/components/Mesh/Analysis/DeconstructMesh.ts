@@ -10,6 +10,7 @@ export default class DeconstructMesh extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Deconstruct a mesh into its component parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

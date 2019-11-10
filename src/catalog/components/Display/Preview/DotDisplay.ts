@@ -10,6 +10,7 @@ export default class DotDisplay extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Draw a collection of coloured dots";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class UnitZ extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Unit vector parallel to the world {z} axis.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

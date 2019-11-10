@@ -10,6 +10,7 @@ export default class CustomPreview extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Allows for customized geometry previews";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

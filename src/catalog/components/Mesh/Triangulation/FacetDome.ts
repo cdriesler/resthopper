@@ -10,6 +10,7 @@ export default class FacetDome extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Create a facetted dome";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

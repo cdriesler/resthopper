@@ -10,6 +10,7 @@ export default class DivideByDeviation extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Divide a curve into segments with equal deviation";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class ReplaceNulls extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Replace nulls or invalid data with other data";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

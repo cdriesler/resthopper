@@ -10,6 +10,7 @@ export default class OrientDirection extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Orient an object using directional constraints only.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

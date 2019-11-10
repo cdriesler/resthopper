@@ -10,6 +10,7 @@ export default class BoundarySurfaces extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create planar surfaces from a collection of boundary edge curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

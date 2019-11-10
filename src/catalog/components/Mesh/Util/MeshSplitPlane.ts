@@ -10,6 +10,7 @@ export default class MeshSplitPlane extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Split a mesh with an infinite plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class RandomEx extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Generate random data between extremes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

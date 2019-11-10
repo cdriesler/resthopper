@@ -10,6 +10,7 @@ export default class BoundingBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Solve oriented geometry bounding boxes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

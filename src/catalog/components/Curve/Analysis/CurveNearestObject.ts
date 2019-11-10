@@ -10,6 +10,7 @@ export default class CurveNearestObject extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find the object nearest to a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

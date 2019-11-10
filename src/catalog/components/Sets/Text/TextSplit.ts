@@ -10,6 +10,7 @@ export default class TextSplit extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Split some text into fragments using separators";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

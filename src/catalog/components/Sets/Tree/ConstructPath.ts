@@ -10,6 +10,7 @@ export default class ConstructPath extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Construct a data tree branch path.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

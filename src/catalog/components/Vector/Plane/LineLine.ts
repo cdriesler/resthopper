@@ -10,6 +10,7 @@ export default class LineLine extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane from two line segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class CullDuplicates extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Cull points that are coincident within tolerance";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

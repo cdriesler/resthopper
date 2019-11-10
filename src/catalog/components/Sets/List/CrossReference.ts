@@ -10,6 +10,7 @@ export default class CrossReference extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Cross Reference data from multiple lists";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

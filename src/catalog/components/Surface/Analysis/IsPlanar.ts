@@ -10,6 +10,7 @@ export default class IsPlanar extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a surface is planar";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

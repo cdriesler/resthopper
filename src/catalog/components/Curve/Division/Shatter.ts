@@ -10,6 +10,7 @@ export default class Shatter extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Shatter a curve into segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

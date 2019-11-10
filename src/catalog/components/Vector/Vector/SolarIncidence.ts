@@ -10,6 +10,7 @@ export default class SolarIncidence extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Gets the solar incidence vector for a certain time and place";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

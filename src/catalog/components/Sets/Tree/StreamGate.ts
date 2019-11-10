@@ -10,6 +10,7 @@ export default class StreamGate extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Redirects a stream into specific outputs.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Grasshopper";
 

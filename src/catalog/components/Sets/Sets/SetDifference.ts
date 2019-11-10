@@ -10,6 +10,7 @@ export default class SetDifference extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Create the difference of two sets (the collection of objects present in A but not in B).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

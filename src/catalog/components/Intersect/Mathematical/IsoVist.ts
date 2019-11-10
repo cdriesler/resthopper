@@ -10,6 +10,7 @@ export default class IsoVist extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Compute an isovist sampling at a location";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

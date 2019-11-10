@@ -10,6 +10,7 @@ export default class ControlPointLoft extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a loft through curve control points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

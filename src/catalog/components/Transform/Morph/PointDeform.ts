@@ -10,6 +10,7 @@ export default class PointDeform extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deform a shape by moving control-points individually";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

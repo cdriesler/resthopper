@@ -10,6 +10,7 @@ export default class LongestList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Grow a collection of lists to the longest length amongst them";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class SettingsCustom extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Represents custom mesh settings.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

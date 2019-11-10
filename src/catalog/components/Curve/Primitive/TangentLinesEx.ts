@@ -10,6 +10,7 @@ export default class TangentLinesEx extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create external tangent lines between circles";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

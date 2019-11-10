@@ -10,6 +10,7 @@ export default class Modulus extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Divides two numbers and returns only the remainder.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

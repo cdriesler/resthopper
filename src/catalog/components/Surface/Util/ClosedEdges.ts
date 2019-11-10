@@ -10,6 +10,7 @@ export default class ClosedEdges extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Select closed edges.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

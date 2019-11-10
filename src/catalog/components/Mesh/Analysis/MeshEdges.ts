@@ -10,6 +10,7 @@ export default class MeshEdges extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get all the edges of a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

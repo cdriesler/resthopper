@@ -10,6 +10,7 @@ export default class TrimTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Reduce the complexity of a tree by merging the outermost branches.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

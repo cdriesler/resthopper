@@ -10,6 +10,7 @@ export default class MeshMesh extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Mesh Mesh intersection";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

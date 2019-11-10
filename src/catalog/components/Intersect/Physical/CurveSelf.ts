@@ -10,6 +10,7 @@ export default class CurveSelf extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve all self intersection events for a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

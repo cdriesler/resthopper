@@ -10,6 +10,7 @@ export default class CarthesianProduct extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Create the Carthesian product for two sets of identical cardinality.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

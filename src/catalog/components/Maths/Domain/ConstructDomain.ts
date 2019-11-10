@@ -10,6 +10,7 @@ export default class ConstructDomain extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric domain from two numeric extremes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class Square extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "2D grid with square cells";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

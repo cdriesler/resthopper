@@ -10,6 +10,7 @@ export default class TestCrash extends ResthopperComponent {
 	public subCategory: string = "Test";
 	public description: string = "Test crashing of GH";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

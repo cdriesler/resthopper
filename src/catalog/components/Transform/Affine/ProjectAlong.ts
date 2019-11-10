@@ -10,6 +10,7 @@ export default class ProjectAlong extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Project an object onto a plane along a direction.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

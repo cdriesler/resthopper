@@ -10,6 +10,7 @@ export default class ReplaceItems extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Replace certain items in a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class PlaneOrigin extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Change the origin point of a plane";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

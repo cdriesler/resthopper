@@ -10,6 +10,7 @@ export default class ValueTracker extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Track a collection of numeric values over time";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

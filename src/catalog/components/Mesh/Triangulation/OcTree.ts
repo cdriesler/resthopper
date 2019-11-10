@@ -10,6 +10,7 @@ export default class OcTree extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "A three-dimensional oc-tree structure";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

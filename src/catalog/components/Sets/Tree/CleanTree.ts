@@ -10,6 +10,7 @@ export default class CleanTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Removed all null and invalid items from a data tree.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

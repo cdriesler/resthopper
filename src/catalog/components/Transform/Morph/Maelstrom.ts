@@ -10,6 +10,7 @@ export default class Maelstrom extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Spirally deforms objects as if they were caught in a whirlpool";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class LineLine extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for two lines.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

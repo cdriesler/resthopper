@@ -10,6 +10,7 @@ export default class ComplexConjugate extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create the conjugate of a Complex number";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

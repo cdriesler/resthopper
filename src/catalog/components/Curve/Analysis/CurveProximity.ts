@@ -10,6 +10,7 @@ export default class CurveProximity extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find the pair of closest points between two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

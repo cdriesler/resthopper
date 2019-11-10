@@ -10,6 +10,7 @@ export default class Substrate extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Substrate algorithm inspired by Jared Tarbell (Complexification.net)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

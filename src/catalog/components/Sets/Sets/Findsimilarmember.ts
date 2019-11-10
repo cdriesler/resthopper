@@ -10,6 +10,7 @@ export default class Findsimilarmember extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Find the most similar member in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class Loft extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a lofted surface through a set of section curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

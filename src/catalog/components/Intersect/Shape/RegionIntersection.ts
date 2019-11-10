@@ -10,6 +10,7 @@ export default class RegionIntersection extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Intersection between two sets of planar closed curves (regions)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

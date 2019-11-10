@@ -10,6 +10,7 @@ export default class CombineData extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Combine non-null items out of several inputs";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

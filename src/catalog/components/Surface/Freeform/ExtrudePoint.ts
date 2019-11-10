@@ -10,6 +10,7 @@ export default class ExtrudePoint extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude curves and surfaces to a point.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

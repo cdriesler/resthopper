@@ -10,6 +10,7 @@ export default class MergeFaces extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Merge all adjacent co-planar faces in a brep";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

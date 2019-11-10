@@ -10,6 +10,7 @@ export default class LinearArray extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Create a linear array of geometry.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

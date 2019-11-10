@@ -10,6 +10,7 @@ export default class ListItem extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Retrieve a specific item from a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

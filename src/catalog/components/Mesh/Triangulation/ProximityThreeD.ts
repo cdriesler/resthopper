@@ -10,6 +10,7 @@ export default class ProximityThreeD extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Search for three-dimensional proximity within a point list";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

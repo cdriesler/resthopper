@@ -10,6 +10,7 @@ export default class EdgesfromFaces extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Select all brep edges that delineate certain faces";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

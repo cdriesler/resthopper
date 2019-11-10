@@ -10,6 +10,7 @@ export default class Sine extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the sine of a value";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

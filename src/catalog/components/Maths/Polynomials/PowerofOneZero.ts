@@ -10,6 +10,7 @@ export default class PowerofOneZero extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Raise 10 to the power of N.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

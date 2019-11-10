@@ -10,6 +10,7 @@ export default class ColourLab extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {CIE L*ab} channels.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

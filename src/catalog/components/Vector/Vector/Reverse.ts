@@ -10,6 +10,7 @@ export default class Reverse extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Reverse a vector (multiply by -1).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

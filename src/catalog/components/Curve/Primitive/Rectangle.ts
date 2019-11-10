@@ -10,6 +10,7 @@ export default class Rectangle extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a rectangle on a plane";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

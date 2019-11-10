@@ -1,8 +1,11 @@
 import axios from 'axios';
 import fs from 'fs';
+import rimraf from 'rimraf';
 import Parse from './predicates/Parse';
 import ResthopperComponent from './models/ResthopperComponent';
 import ResthopperParameter from './models/ResthopperParameter';
+
+rimraf.sync("./src/catalog");
 
 // Get server configuration and convert response objects to resthopper model
 axios.get("http://localhost:8081/grasshopper").then(x => {
@@ -178,6 +181,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             `\tpublic subCategory: string = "${c.subCategory}";`,
             `\tpublic description: string = "${c.description}";`,
             `\tpublic isObsolete: boolean = ${c.isObsolete};`,
+            `\tpublic isVariable: boolean = ${c.isVariable};`,
             "",
             `\tpublic library: string = "${c.libraryName}";`,
             "",

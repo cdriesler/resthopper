@@ -10,6 +10,7 @@ export default class HorizontalFrame extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get a horizontally aligned frame along a curve at a specified parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

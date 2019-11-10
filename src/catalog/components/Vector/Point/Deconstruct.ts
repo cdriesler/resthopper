@@ -10,6 +10,7 @@ export default class Deconstruct extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Deconstruct a point into its component parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

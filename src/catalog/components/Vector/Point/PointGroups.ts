@@ -10,6 +10,7 @@ export default class PointGroups extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Create groups from nearby points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

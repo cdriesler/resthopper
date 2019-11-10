@@ -10,6 +10,7 @@ export default class InterpolateDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Interpolate between two dates or times.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

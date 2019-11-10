@@ -10,6 +10,7 @@ export default class MeshPlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Mesh and a Plane (otherwise known as section).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

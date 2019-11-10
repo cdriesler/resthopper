@@ -10,6 +10,7 @@ export default class MetaBalltCustom extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "2D Metaball isosurface by threshold and custom charge values";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class DashPattern extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Convert a curve to a dash pattern.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

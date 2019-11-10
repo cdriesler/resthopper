@@ -10,6 +10,7 @@ export default class BoxArray extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Create a box array of geometry.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class MeshDifference extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid difference on two sets of meshes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

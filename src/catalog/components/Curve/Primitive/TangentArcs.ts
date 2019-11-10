@@ -10,6 +10,7 @@ export default class TangentArcs extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create tangent arcs between circles";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

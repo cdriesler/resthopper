@@ -10,6 +10,7 @@ export default class RightTrigonometry extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Right triangle trigonometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class LineSDL extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line segment defined by start point, tangent and length.}";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

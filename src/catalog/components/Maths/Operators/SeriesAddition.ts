@@ -10,6 +10,7 @@ export default class SeriesAddition extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform serial addition until a goal has been reached";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

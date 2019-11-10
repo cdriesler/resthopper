@@ -10,6 +10,7 @@ export default class CapHolesEx extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Cap as many holes as possible in a Brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

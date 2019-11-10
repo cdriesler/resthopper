@@ -10,6 +10,7 @@ export default class SmoothNumbers extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Smooth out changing numbers over time";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

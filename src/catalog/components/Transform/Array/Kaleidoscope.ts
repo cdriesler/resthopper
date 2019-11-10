@@ -10,6 +10,7 @@ export default class Kaleidoscope extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Apply a kaleidoscope transformation to an object.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

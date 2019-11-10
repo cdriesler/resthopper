@@ -10,6 +10,7 @@ export default class CurveFrame extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get the curvature frame of a curve at a specified parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class DuplicateData extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Duplicate data a predefined number of times.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

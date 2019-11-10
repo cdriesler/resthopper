@@ -10,6 +10,7 @@ export default class PolygonEdge extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a polygon from a single edge.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

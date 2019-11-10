@@ -10,6 +10,7 @@ export default class EvaluateBox extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate a box in normalised {UVW} space.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class CircularDimension extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create an angle annotation projected to a circle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

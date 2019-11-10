@@ -10,6 +10,7 @@ export default class VolumeMoments extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve volume properties for closed breps and meshes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

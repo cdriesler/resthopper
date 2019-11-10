@@ -10,6 +10,7 @@ export default class Area extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve area properties for breps, meshes and planar closed curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class ColourXYZ extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {XYZ} channels (CIE 1931 spec).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

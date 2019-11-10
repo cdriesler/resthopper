@@ -10,6 +10,7 @@ export default class PruneTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Remove small branches from a Data Tree.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

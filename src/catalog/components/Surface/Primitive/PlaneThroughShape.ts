@@ -10,6 +10,7 @@ export default class PlaneThroughShape extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Make a rectangular surface that is larger than a given shape.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class BiArc extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a bi-arc based on endpoints and tangents.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

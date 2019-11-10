@@ -10,6 +10,7 @@ export default class Round extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Round a floating point value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

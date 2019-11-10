@@ -10,6 +10,7 @@ export default class ConvexHull extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute the planar, convex hull for a collection of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

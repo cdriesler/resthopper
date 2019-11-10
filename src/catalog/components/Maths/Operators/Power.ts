@@ -10,6 +10,7 @@ export default class Power extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Raise a value to a power.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

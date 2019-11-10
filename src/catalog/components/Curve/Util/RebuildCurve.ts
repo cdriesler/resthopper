@@ -10,6 +10,7 @@ export default class RebuildCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Rebuild a curve with a specific number of control-points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

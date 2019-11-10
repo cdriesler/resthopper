@@ -10,6 +10,7 @@ export default class ReplaceText extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Replace all occurences of a specific text fragment with another";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

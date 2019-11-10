@@ -10,6 +10,7 @@ export default class CurveDomain extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Measure and set the curve domain";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

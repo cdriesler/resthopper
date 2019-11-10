@@ -10,6 +10,7 @@ export default class PointInBrep extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a point is inside a closed brep";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

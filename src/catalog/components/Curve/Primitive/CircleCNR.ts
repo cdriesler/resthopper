@@ -10,6 +10,7 @@ export default class CircleCNR extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a circle defined by center, normal and radius.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

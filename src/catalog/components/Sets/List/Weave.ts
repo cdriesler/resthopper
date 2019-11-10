@@ -10,6 +10,7 @@ export default class Weave extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Weave a set of input data using a custom pattern.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class BrepTopology extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get and display the topology of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

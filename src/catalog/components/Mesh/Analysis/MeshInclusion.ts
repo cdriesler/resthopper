@@ -10,6 +10,7 @@ export default class MeshInclusion extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test a point for Mesh inclusion";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

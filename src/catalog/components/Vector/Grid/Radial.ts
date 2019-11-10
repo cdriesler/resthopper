@@ -10,6 +10,7 @@ export default class Radial extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "2D radial grid";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

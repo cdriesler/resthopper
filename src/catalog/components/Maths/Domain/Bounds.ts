@@ -10,6 +10,7 @@ export default class Bounds extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric domain which encompasses a list of numbers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

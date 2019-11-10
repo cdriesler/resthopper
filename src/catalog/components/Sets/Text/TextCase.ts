@@ -10,6 +10,7 @@ export default class TextCase extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Change the CaSiNg of a piece of text";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

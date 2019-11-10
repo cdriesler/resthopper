@@ -10,6 +10,7 @@ export default class PolylineCollapse extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Collapse short segments in a polyline curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

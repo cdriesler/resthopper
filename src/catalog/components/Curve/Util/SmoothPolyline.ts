@@ -10,6 +10,7 @@ export default class SmoothPolyline extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Smooth the vertices of a polyline curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

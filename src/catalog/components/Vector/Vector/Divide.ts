@@ -10,6 +10,7 @@ export default class Divide extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Perform vector-scalar division.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

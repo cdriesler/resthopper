@@ -10,6 +10,7 @@ export default class DisjointMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Split a mesh into disjoint pieces.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

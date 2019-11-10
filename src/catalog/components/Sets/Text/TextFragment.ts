@@ -10,6 +10,7 @@ export default class TextFragment extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Extract a fragment (subset) of some text";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

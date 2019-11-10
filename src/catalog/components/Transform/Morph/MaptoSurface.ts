@@ -10,6 +10,7 @@ export default class MaptoSurface extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Map a curve onto a surface via control points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

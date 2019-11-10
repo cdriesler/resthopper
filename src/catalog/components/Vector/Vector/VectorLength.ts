@@ -10,6 +10,7 @@ export default class VectorLength extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Compute the length (amplitude) of a vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

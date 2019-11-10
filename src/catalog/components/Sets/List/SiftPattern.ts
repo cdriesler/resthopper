@@ -10,6 +10,7 @@ export default class SiftPattern extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Sift elements in a list using a repeating index pattern.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

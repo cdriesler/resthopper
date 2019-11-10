@@ -10,6 +10,7 @@ export default class SplitwithBrep extends ResthopperComponent {
 	public subCategory: string = "Region";
 	public description: string = "Split a curve with a Brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

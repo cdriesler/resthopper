@@ -10,6 +10,7 @@ export default class ExtendCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Extend a curve by a specified distance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class PlaneNormal extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane perpendicular to a vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

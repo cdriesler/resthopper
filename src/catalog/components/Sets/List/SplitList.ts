@@ -10,6 +10,7 @@ export default class SplitList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Split a list into separate parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

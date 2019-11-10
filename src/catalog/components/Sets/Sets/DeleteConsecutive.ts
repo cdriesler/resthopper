@@ -10,6 +10,7 @@ export default class DeleteConsecutive extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Delete consecutive similar members in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class PointInCurve extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test a point for closed curve containment.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

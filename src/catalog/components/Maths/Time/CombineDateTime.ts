@@ -10,6 +10,7 @@ export default class CombineDateTime extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Combine a pure date and a pure time into a single date";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

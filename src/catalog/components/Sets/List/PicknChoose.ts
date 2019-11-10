@@ -10,6 +10,7 @@ export default class PicknChoose extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Pick and choose from a set of input data.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ConnectCurves extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Connect a sequence of curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

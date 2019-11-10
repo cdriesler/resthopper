@@ -10,6 +10,7 @@ export default class PieChart extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Displays a set of text fragments as a pie chart";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

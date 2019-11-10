@@ -10,6 +10,7 @@ export default class GateNand extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean alternative denial (NAND gate).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

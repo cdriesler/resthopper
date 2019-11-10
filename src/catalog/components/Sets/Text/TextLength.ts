@@ -10,6 +10,7 @@ export default class TextLength extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Get the length (character count) of some text";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

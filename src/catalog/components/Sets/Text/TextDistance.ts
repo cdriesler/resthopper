@@ -10,6 +10,7 @@ export default class TextDistance extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Compute the Levenshtein distance between two fragments of text.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

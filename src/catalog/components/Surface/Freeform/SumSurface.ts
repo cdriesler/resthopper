@@ -10,6 +10,7 @@ export default class SumSurface extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a sum surface from two edge curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

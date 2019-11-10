@@ -10,6 +10,7 @@ export default class Concatenate extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Concatenate some fragments of text";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class Derivatives extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the derivatives of a curve at a specified parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Curve Components";
 

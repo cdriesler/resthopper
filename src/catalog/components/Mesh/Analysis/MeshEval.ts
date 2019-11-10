@@ -10,6 +10,7 @@ export default class MeshEval extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate a mesh at a given parameter";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

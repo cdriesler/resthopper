@@ -10,6 +10,7 @@ export default class Extremes extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Find the extremes in a list of values";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

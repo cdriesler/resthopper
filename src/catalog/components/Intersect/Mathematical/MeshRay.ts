@@ -10,6 +10,7 @@ export default class MeshRay extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Intersect a mesh with a semi-infinite ray";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

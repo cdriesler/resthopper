@@ -10,6 +10,7 @@ export default class ListLength extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Measure the length of a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

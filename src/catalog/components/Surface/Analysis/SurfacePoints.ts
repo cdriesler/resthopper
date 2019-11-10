@@ -10,6 +10,7 @@ export default class SurfacePoints extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get the control-points of a Nurbs Surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

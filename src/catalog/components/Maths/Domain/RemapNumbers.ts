@@ -10,6 +10,7 @@ export default class RemapNumbers extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Remap numbers into a new numeric domain";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

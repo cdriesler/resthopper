@@ -10,6 +10,7 @@ export default class RegionUnion extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Union of a set of planar closed curves (regions)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

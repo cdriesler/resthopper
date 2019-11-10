@@ -10,6 +10,7 @@ export default class CatenaryEx extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a variable catenary chain between two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

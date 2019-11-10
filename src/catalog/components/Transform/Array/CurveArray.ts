@@ -10,6 +10,7 @@ export default class CurveArray extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Create an array of geometry along a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

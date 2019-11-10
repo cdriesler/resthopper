@@ -10,6 +10,7 @@ export default class GateAnd extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean conjunction (AND gate).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

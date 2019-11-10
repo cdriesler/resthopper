@@ -10,6 +10,7 @@ export default class Quadrangulate extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Quadrangulate as many triangles as possible in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

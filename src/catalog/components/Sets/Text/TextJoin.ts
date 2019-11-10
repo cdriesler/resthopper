@@ -10,6 +10,7 @@ export default class TextJoin extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Join a collection of text fragments into one";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

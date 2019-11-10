@@ -10,6 +10,7 @@ export default class SubSet extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Test two sets for inclusion.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

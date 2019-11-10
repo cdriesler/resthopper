@@ -10,6 +10,7 @@ export default class QuadTree extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "A two-dimensional quadtree structure";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

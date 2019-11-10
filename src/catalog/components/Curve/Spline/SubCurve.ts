@@ -10,6 +10,7 @@ export default class SubCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a curve from the sub-domain of a base curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

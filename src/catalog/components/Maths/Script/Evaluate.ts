@@ -10,6 +10,7 @@ export default class Evaluate extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "Evaluate an expression with a flexible number of variables.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

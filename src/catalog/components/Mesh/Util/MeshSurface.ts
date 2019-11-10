@@ -10,6 +10,7 @@ export default class MeshSurface extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create a Surface UV mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class ShearAngle extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Shear an object based on tilt angles.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

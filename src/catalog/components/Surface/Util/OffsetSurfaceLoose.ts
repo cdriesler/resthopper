@@ -10,6 +10,7 @@ export default class OffsetSurfaceLoose extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a surface by moving the control points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

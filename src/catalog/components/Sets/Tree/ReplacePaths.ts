@@ -10,6 +10,7 @@ export default class ReplacePaths extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Find & replace paths in a data tree";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

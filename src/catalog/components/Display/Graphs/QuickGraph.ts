@@ -10,6 +10,7 @@ export default class QuickGraph extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Display a set of y-values as a graph";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class KeyValueSearch extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Extract an item from a collection using a key-value match";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

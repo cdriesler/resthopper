@@ -10,6 +10,7 @@ export default class QuadSphere extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a spherical brep made from quad nurbs patches.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

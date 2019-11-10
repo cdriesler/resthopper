@@ -10,6 +10,7 @@ export default class Includes extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Test a numeric value to see if it is included in the domain";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

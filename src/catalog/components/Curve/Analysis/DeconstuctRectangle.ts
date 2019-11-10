@@ -10,6 +10,7 @@ export default class DeconstuctRectangle extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane and side intervals of a rectangle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

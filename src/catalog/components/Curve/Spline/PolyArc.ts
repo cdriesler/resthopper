@@ -10,6 +10,7 @@ export default class PolyArc extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a polycurve consisting of arc and line segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

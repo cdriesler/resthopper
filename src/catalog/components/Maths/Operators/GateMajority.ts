@@ -10,6 +10,7 @@ export default class GateMajority extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Calculates the majority vote among three booleans.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

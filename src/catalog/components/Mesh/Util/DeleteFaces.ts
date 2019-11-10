@@ -10,6 +10,7 @@ export default class DeleteFaces extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Delete faces from a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

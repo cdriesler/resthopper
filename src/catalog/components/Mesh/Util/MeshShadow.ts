@@ -10,6 +10,7 @@ export default class MeshShadow extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Compute the shadow outline for a mesh object";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

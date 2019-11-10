@@ -10,6 +10,7 @@ export default class FourPointSurface extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface connecting three or four corner points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

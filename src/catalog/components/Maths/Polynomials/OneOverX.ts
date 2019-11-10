@@ -10,6 +10,7 @@ export default class OneOverX extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute one over x.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

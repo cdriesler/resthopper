@@ -10,6 +10,7 @@ export default class RuledSurface extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface between two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

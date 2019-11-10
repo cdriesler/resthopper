@@ -10,6 +10,7 @@ export default class DeconstructFace extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Deconstruct a mesh face into its four corner indices.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

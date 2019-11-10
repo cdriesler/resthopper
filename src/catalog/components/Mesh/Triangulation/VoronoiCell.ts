@@ -10,6 +10,7 @@ export default class VoronoiCell extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute a single 3D Voronoi cell";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

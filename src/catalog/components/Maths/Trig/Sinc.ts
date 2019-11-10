@@ -10,6 +10,7 @@ export default class Sinc extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the sinc (Sinus Cardinalis) of a value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class DeconstructDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Deconstruct a date into years, months, days, hours, minutes and seconds";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ConstructMesh extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Construct a mesh from vertices, faces and optional colours.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

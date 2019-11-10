@@ -10,6 +10,7 @@ export default class BlendBox extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Create a twisted box between two surfaces.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class SurfaceSplit extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Split a surface with a bunch of curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

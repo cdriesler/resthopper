@@ -10,6 +10,7 @@ export default class Fillet extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Fillet a curve at a parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

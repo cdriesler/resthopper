@@ -10,6 +10,7 @@ export default class CreateMaterial extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Create an OpenGL material.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
