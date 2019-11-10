@@ -1,0 +1,112 @@
+import ResthopperComponent from './../../../../models/ResthopperComponent';
+import ResthopperParameter from './../../../../models/ResthopperParameter';
+import { newGuid } from './../../../../utils/Guid';
+
+export default class MeshPlane extends ResthopperComponent {
+
+	public guid: string = "8adbf481-7589-4a40-b490-006531ea001d";
+	public name: string = "MeshPlane";
+	public category: string = "Mesh";
+	public subCategory: string = "Primitive";
+	public description: string = "Create a mesh plane.";
+	public isObsolete: boolean = false;
+
+	public library: string = "Surface Components";
+
+	public input:
+	{
+		"boundary_b": MeshPlaneInput_boundary_b,
+		"widthcount_w": MeshPlaneInput_widthcount_w,
+		"heightcount_h": MeshPlaneInput_heightcount_h,
+	}
+
+	public output:
+	{
+		"mesh_m": MeshPlaneOutput_mesh_m,
+		"area_a": MeshPlaneOutput_area_a,
+	}
+
+	constructor() {
+		super();
+		this.input = {
+			"boundary_b": new MeshPlaneInput_boundary_b(),
+			"widthcount_w": new MeshPlaneInput_widthcount_w(),
+			"heightcount_h": new MeshPlaneInput_heightcount_h(),
+		}
+		this.output = {
+			"mesh_m": new MeshPlaneOutput_mesh_m(),
+			"area_a": new MeshPlaneOutput_area_a(),
+		}
+	}
+
+}
+
+class MeshPlaneInput_boundary_b extends ResthopperParameter {
+
+	public name: string = "Boundary";
+	public nickName: string = "B";
+	public isOptional: boolean = false;
+	public typeName: string = "Rectangle;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MeshPlaneInput_widthcount_w extends ResthopperParameter {
+
+	public name: string = "Widthcount";
+	public nickName: string = "W";
+	public isOptional: boolean = false;
+	public typeName: string = "Integer;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MeshPlaneInput_heightcount_h extends ResthopperParameter {
+
+	public name: string = "Heightcount";
+	public nickName: string = "H";
+	public isOptional: boolean = false;
+	public typeName: string = "Integer;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MeshPlaneOutput_mesh_m extends ResthopperParameter {
+
+	public name: string = "Mesh";
+	public nickName: string = "M";
+	public isOptional: boolean = false;
+	public typeName: string = "Mesh;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class MeshPlaneOutput_area_a extends ResthopperParameter {
+
+	public name: string = "Area";
+	public nickName: string = "A";
+	public isOptional: boolean = false;
+	public typeName: string = "Number;"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
