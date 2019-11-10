@@ -42,7 +42,7 @@ class DivideDomainInput_domain_i extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class DivideDomainInput_count_c extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class DivideDomainOutput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

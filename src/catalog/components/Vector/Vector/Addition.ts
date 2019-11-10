@@ -46,7 +46,7 @@ class AdditionInput_vectora_a extends ResthopperParameter {
 	public name: string = "VectorA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class AdditionInput_vectorb_b extends ResthopperParameter {
 	public name: string = "VectorB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class AdditionInput_unitize_u extends ResthopperParameter {
 	public name: string = "Unitize";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class AdditionOutput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class AdditionOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

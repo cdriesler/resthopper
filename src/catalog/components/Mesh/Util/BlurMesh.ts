@@ -42,7 +42,7 @@ class BlurMeshInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class BlurMeshInput_iterations_i extends ResthopperParameter {
 	public name: string = "Iterations";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class BlurMeshOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

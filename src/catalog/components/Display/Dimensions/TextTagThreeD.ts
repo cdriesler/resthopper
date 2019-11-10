@@ -48,7 +48,7 @@ class TextTagThreeDInput_location_l extends ResthopperParameter {
 	public name: string = "Location";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class TextTagThreeDInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class TextTagThreeDInput_size_s extends ResthopperParameter {
 	public name: string = "Size";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class TextTagThreeDInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class TextTagThreeDInput_justification_j extends ResthopperParameter {
 	public name: string = "Justification";
 	public nickName: string = "J";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

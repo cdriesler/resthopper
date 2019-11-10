@@ -42,7 +42,7 @@ class JoinCurvesInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class JoinCurvesInput_preserve_p extends ResthopperParameter {
 	public name: string = "Preserve";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class JoinCurvesOutput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

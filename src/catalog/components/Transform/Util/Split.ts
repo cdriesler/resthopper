@@ -40,7 +40,7 @@ class SplitInput_transform_t extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class SplitOutput_fragments_f extends ResthopperParameter {
 	public name: string = "Fragments";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class VectorDisplayExInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class VectorDisplayExInput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = true;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class VectorDisplayExInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class VectorDisplayExInput_width_w extends ResthopperParameter {
 	public name: string = "Width";
 	public nickName: string = "W";
 	public isOptional: boolean = true;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

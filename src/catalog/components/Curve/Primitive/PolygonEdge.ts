@@ -50,7 +50,7 @@ class PolygonEdgeInput_edgestart_e0 extends ResthopperParameter {
 	public name: string = "EdgeStart";
 	public nickName: string = "E0";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class PolygonEdgeInput_edgeend_e1 extends ResthopperParameter {
 	public name: string = "EdgeEnd";
 	public nickName: string = "E1";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class PolygonEdgeInput_planepoint_p extends ResthopperParameter {
 	public name: string = "PlanePoint";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class PolygonEdgeInput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class PolygonEdgeOutput_polygon_p extends ResthopperParameter {
 	public name: string = "Polygon";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class PolygonEdgeOutput_centre_c extends ResthopperParameter {
 	public name: string = "Centre";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class PolygonEdgeOutput_edgeradius_rc extends ResthopperParameter {
 	public name: string = "EdgeRadius";
 	public nickName: string = "Rc";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

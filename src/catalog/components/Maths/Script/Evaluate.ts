@@ -44,7 +44,7 @@ class EvaluateInput_expression_f extends ResthopperParameter {
 	public name: string = "Expression";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Expression;"
+	public typeName: string = "Expression"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class EvaluateInput_variablex_x extends ResthopperParameter {
 	public name: string = "Variablex";
 	public nickName: string = "x";
 	public isOptional: boolean = true;
-	public typeName: string = "Expression Variant;"
+	public typeName: string = "Expression Variant"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class EvaluateInput_variabley_y extends ResthopperParameter {
 	public name: string = "Variabley";
 	public nickName: string = "y";
 	public isOptional: boolean = true;
-	public typeName: string = "Expression Variant;"
+	public typeName: string = "Expression Variant"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class EvaluateOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "r";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

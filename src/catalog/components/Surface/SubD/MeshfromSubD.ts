@@ -42,7 +42,7 @@ class MeshfromSubDInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class MeshfromSubDInput_density_d extends ResthopperParameter {
 	public name: string = "Density";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class MeshfromSubDOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class ProjectInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ProjectInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ProjectInput_direction_d extends ResthopperParameter {
 	public name: string = "Direction";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ProjectOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

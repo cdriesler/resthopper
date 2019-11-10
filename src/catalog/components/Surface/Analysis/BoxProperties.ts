@@ -48,7 +48,7 @@ class BoxPropertiesInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class BoxPropertiesOutput_center_c extends ResthopperParameter {
 	public name: string = "Center";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class BoxPropertiesOutput_diagonal_d extends ResthopperParameter {
 	public name: string = "Diagonal";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class BoxPropertiesOutput_area_a extends ResthopperParameter {
 	public name: string = "Area";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class BoxPropertiesOutput_volume_v extends ResthopperParameter {
 	public name: string = "Volume";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class BoxPropertiesOutput_degeneracy_d extends ResthopperParameter {
 	public name: string = "Degeneracy";
 	public nickName: string = "d";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

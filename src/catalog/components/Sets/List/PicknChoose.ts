@@ -44,7 +44,7 @@ class PicknChooseInput_stream0_0 extends ResthopperParameter {
 	public name: string = "Stream0";
 	public nickName: string = "0";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class PicknChooseInput_stream1_1 extends ResthopperParameter {
 	public name: string = "Stream1";
 	public nickName: string = "1";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class PicknChooseInput_pattern_p extends ResthopperParameter {
 	public name: string = "Pattern";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class PicknChooseOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

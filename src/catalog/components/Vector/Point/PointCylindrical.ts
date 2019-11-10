@@ -46,7 +46,7 @@ class PointCylindricalInput_baseplane_p extends ResthopperParameter {
 	public name: string = "Baseplane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PointCylindricalInput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PointCylindricalInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PointCylindricalInput_elevation_e extends ResthopperParameter {
 	public name: string = "Elevation";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PointCylindricalOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

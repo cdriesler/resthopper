@@ -40,7 +40,7 @@ class CapHolesInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class CapHolesOutput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

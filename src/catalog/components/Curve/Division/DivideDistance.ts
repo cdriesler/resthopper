@@ -46,7 +46,7 @@ class DivideDistanceInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class DivideDistanceInput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class DivideDistanceOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class DivideDistanceOutput_tangents_t extends ResthopperParameter {
 	public name: string = "Tangents";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class DivideDistanceOutput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

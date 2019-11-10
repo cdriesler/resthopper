@@ -46,7 +46,7 @@ class DeconstructPlaneInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class DeconstructPlaneOutput_origin_o extends ResthopperParameter {
 	public name: string = "Origin";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class DeconstructPlaneOutput_xaxis_x extends ResthopperParameter {
 	public name: string = "XAxis";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class DeconstructPlaneOutput_yaxis_y extends ResthopperParameter {
 	public name: string = "YAxis";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class DeconstructPlaneOutput_zaxis_z extends ResthopperParameter {
 	public name: string = "ZAxis";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

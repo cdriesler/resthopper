@@ -52,7 +52,7 @@ class SurfaceCurveInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -66,7 +66,7 @@ class SurfaceCurveInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -80,7 +80,7 @@ class SurfaceCurveOutput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -94,7 +94,7 @@ class SurfaceCurveOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -108,7 +108,7 @@ class SurfaceCurveOutput_uvpoints_uv extends ResthopperParameter {
 	public name: string = "UVPoints";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -122,7 +122,7 @@ class SurfaceCurveOutput_normals_n extends ResthopperParameter {
 	public name: string = "Normals";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -136,7 +136,7 @@ class SurfaceCurveOutput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -150,7 +150,7 @@ class SurfaceCurveOutput_tangents_t extends ResthopperParameter {
 	public name: string = "Tangents";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

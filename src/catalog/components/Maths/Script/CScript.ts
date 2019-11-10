@@ -44,7 +44,7 @@ class CScriptInput_x_x extends ResthopperParameter {
 	public name: string = "x";
 	public nickName: string = "x";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class CScriptInput_y_y extends ResthopperParameter {
 	public name: string = "y";
 	public nickName: string = "y";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class CScriptOutput_out_out extends ResthopperParameter {
 	public name: string = "out";
 	public nickName: string = "out";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class CScriptOutput_a_a extends ResthopperParameter {
 	public name: string = "A";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class CombineDataInput_input0_0 extends ResthopperParameter {
 	public name: string = "Input0";
 	public nickName: string = "0";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class CombineDataInput_input1_1 extends ResthopperParameter {
 	public name: string = "Input1";
 	public nickName: string = "1";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class CombineDataOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class CombineDataOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

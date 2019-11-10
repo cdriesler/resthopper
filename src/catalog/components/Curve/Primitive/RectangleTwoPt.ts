@@ -48,7 +48,7 @@ class RectangleTwoPtInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class RectangleTwoPtInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class RectangleTwoPtInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class RectangleTwoPtInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class RectangleTwoPtOutput_rectangle_r extends ResthopperParameter {
 	public name: string = "Rectangle";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class RectangleTwoPtOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

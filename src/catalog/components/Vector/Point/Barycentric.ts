@@ -50,7 +50,7 @@ class BarycentricInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class BarycentricInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class BarycentricInput_pointc_c extends ResthopperParameter {
 	public name: string = "PointC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class BarycentricInput_coordinateu_u extends ResthopperParameter {
 	public name: string = "CoordinateU";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class BarycentricInput_coordinatev_v extends ResthopperParameter {
 	public name: string = "CoordinateV";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class BarycentricInput_coordinatew_w extends ResthopperParameter {
 	public name: string = "CoordinateW";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class BarycentricOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

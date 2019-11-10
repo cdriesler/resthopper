@@ -48,7 +48,7 @@ class EvaluateLengthInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class EvaluateLengthInput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class EvaluateLengthInput_normalized_n extends ResthopperParameter {
 	public name: string = "Normalized";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class EvaluateLengthOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class EvaluateLengthOutput_tangent_t extends ResthopperParameter {
 	public name: string = "Tangent";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class EvaluateLengthOutput_parameter_t extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

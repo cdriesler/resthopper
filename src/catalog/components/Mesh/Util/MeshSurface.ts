@@ -48,7 +48,7 @@ class MeshSurfaceInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class MeshSurfaceInput_ucount_u extends ResthopperParameter {
 	public name: string = "UCount";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class MeshSurfaceInput_vcount_v extends ResthopperParameter {
 	public name: string = "VCount";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class MeshSurfaceInput_overhang_h extends ResthopperParameter {
 	public name: string = "Overhang";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class MeshSurfaceInput_equalize_q extends ResthopperParameter {
 	public name: string = "Equalize";
 	public nickName: string = "Q";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class MeshSurfaceOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

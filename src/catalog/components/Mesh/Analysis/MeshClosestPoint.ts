@@ -44,7 +44,7 @@ class MeshClosestPointInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class MeshClosestPointInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class MeshClosestPointOutput_parameter_p extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh Parameter;"
+	public typeName: string = "Mesh Parameter"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class MeshClosestPointOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

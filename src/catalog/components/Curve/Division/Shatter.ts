@@ -42,7 +42,7 @@ class ShatterInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class ShatterInput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class ShatterOutput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

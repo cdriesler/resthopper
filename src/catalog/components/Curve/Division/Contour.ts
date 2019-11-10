@@ -48,7 +48,7 @@ class ContourInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class ContourInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class ContourInput_direction_n extends ResthopperParameter {
 	public name: string = "Direction";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class ContourInput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class ContourOutput_contours_c extends ResthopperParameter {
 	public name: string = "Contours";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class ContourOutput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

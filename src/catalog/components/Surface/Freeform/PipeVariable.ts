@@ -46,7 +46,7 @@ class PipeVariableInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PipeVariableInput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PipeVariableInput_radii_r extends ResthopperParameter {
 	public name: string = "Radii";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PipeVariableInput_caps_e extends ResthopperParameter {
 	public name: string = "Caps";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PipeVariableOutput_pipe_p extends ResthopperParameter {
 	public name: string = "Pipe";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

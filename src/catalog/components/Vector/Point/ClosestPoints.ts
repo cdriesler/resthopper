@@ -48,7 +48,7 @@ class ClosestPointsInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class ClosestPointsInput_cloud_c extends ResthopperParameter {
 	public name: string = "Cloud";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class ClosestPointsInput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class ClosestPointsOutput_closestpoint_p extends ResthopperParameter {
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class ClosestPointsOutput_cpindex_i extends ResthopperParameter {
 	public name: string = "CPIndex";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class ClosestPointsOutput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class ExplodeInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ExplodeInput_recursive_r extends ResthopperParameter {
 	public name: string = "Recursive";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ExplodeOutput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ExplodeOutput_vertices_v extends ResthopperParameter {
 	public name: string = "Vertices";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class FindDomainInput_domains_d extends ResthopperParameter {
 	public name: string = "Domains";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class FindDomainInput_number_n extends ResthopperParameter {
 	public name: string = "Number";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class FindDomainInput_strict_s extends ResthopperParameter {
 	public name: string = "Strict";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class FindDomainOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class FindDomainOutput_neighbour_n extends ResthopperParameter {
 	public name: string = "Neighbour";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

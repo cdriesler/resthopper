@@ -50,7 +50,7 @@ class RelativeItemsInput_treea_a extends ResthopperParameter {
 	public name: string = "TreeA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class RelativeItemsInput_treeb_b extends ResthopperParameter {
 	public name: string = "TreeB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class RelativeItemsInput_offset_o extends ResthopperParameter {
 	public name: string = "Offset";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class RelativeItemsInput_wrappaths_wp extends ResthopperParameter {
 	public name: string = "WrapPaths";
 	public nickName: string = "Wp";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class RelativeItemsInput_wrapitems_wi extends ResthopperParameter {
 	public name: string = "WrapItems";
 	public nickName: string = "Wi";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class RelativeItemsOutput_itema_a extends ResthopperParameter {
 	public name: string = "ItemA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class RelativeItemsOutput_itemb_b extends ResthopperParameter {
 	public name: string = "ItemB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

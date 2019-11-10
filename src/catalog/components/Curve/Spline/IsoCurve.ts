@@ -44,7 +44,7 @@ class IsoCurveInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class IsoCurveInput_uvpoint_uv extends ResthopperParameter {
 	public name: string = "UVpoint";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class IsoCurveOutput_uisocurve_u extends ResthopperParameter {
 	public name: string = "UIsocurve";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class IsoCurveOutput_visocurve_v extends ResthopperParameter {
 	public name: string = "VIsocurve";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class CylinderInput_base_b extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class CylinderInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class CylinderInput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class CylinderOutput_cylinder_c extends ResthopperParameter {
 	public name: string = "Cylinder";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

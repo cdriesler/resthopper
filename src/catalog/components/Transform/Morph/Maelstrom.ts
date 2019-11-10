@@ -50,7 +50,7 @@ class MaelstromInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class MaelstromInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class MaelstromInput_first_r0 extends ResthopperParameter {
 	public name: string = "First";
 	public nickName: string = "R0";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class MaelstromInput_second_r1 extends ResthopperParameter {
 	public name: string = "Second";
 	public nickName: string = "R1";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class MaelstromInput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class MaelstromInput_rigid_r extends ResthopperParameter {
 	public name: string = "Rigid";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class MaelstromOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

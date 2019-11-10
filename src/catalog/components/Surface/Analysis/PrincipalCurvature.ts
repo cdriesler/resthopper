@@ -46,7 +46,7 @@ class PrincipalCurvatureInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PrincipalCurvatureInput_point_uv extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PrincipalCurvatureOutput_frame_f extends ResthopperParameter {
 	public name: string = "Frame";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PrincipalCurvatureOutput_max_c extends ResthopperParameter {
 	public name: string = "Max";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PrincipalCurvatureOutput_maxdirection_k extends ResthopperParameter {
 	public name: string = "Maxdirection";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

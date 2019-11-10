@@ -44,7 +44,7 @@ class MeshSplitPlaneInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class MeshSplitPlaneInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class MeshSplitPlaneOutput_above_a extends ResthopperParameter {
 	public name: string = "Above";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class MeshSplitPlaneOutput_below_b extends ResthopperParameter {
 	public name: string = "Below";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

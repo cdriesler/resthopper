@@ -44,7 +44,7 @@ class RotateInput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class RotateInput_axis_x extends ResthopperParameter {
 	public name: string = "Axis";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class RotateInput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class RotateOutput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

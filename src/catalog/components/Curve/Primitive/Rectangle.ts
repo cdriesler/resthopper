@@ -48,7 +48,7 @@ class RectangleInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class RectangleInput_xsize_x extends ResthopperParameter {
 	public name: string = "XSize";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class RectangleInput_ysize_y extends ResthopperParameter {
 	public name: string = "YSize";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class RectangleInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class RectangleOutput_rectangle_r extends ResthopperParameter {
 	public name: string = "Rectangle";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class RectangleOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

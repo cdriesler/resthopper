@@ -42,7 +42,7 @@ class PlaneOffsetInput_baseplane_p extends ResthopperParameter {
 	public name: string = "BasePlane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class PlaneOffsetInput_offset_o extends ResthopperParameter {
 	public name: string = "Offset";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class PlaneOffsetOutput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

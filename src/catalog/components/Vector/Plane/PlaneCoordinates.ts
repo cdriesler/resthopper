@@ -46,7 +46,7 @@ class PlaneCoordinatesInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PlaneCoordinatesInput_system_s extends ResthopperParameter {
 	public name: string = "System";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PlaneCoordinatesOutput_xcoordinate_x extends ResthopperParameter {
 	public name: string = "Xcoordinate";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PlaneCoordinatesOutput_ycoordinate_y extends ResthopperParameter {
 	public name: string = "Ycoordinate";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PlaneCoordinatesOutput_zcoordinate_z extends ResthopperParameter {
 	public name: string = "Zcoordinate";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

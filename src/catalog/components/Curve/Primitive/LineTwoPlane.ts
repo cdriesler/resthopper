@@ -44,7 +44,7 @@ class LineTwoPlaneInput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class LineTwoPlaneInput_planea_a extends ResthopperParameter {
 	public name: string = "PlaneA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class LineTwoPlaneInput_planeb_b extends ResthopperParameter {
 	public name: string = "PlaneB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class LineTwoPlaneOutput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

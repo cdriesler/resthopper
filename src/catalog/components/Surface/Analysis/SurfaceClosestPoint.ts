@@ -46,7 +46,7 @@ class SurfaceClosestPointInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SurfaceClosestPointInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SurfaceClosestPointOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SurfaceClosestPointOutput_uvpoint_uvp extends ResthopperParameter {
 	public name: string = "UVPoint";
 	public nickName: string = "uvP";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SurfaceClosestPointOutput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

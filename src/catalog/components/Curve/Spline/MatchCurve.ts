@@ -44,7 +44,7 @@ class MatchCurveInput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class MatchCurveInput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class MatchCurveInput_continuity_c extends ResthopperParameter {
 	public name: string = "Continuity";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class MatchCurveOutput_match_m extends ResthopperParameter {
 	public name: string = "Match";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

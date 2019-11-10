@@ -50,7 +50,7 @@ class EdgesfromDirectionsInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class EdgesfromDirectionsInput_directions_d extends ResthopperParameter {
 	public name: string = "Directions";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class EdgesfromDirectionsInput_reflex_r extends ResthopperParameter {
 	public name: string = "Reflex";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class EdgesfromDirectionsInput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class EdgesfromDirectionsOutput_edges_e extends ResthopperParameter {
 	public name: string = "Edges";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class EdgesfromDirectionsOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class EdgesfromDirectionsOutput_map_m extends ResthopperParameter {
 	public name: string = "Map";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

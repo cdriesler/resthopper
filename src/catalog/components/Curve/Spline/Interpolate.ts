@@ -50,7 +50,7 @@ class InterpolateInput_vertices_v extends ResthopperParameter {
 	public name: string = "Vertices";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class InterpolateInput_degree_d extends ResthopperParameter {
 	public name: string = "Degree";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class InterpolateInput_periodic_p extends ResthopperParameter {
 	public name: string = "Periodic";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class InterpolateInput_knotstyle_k extends ResthopperParameter {
 	public name: string = "KnotStyle";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class InterpolateOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class InterpolateOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class InterpolateOutput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

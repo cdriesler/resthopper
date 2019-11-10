@@ -40,7 +40,7 @@ class NaturallogarithmInput_factor_n extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class NaturallogarithmOutput_output_y extends ResthopperParameter {
 	public name: string = "Output";
 	public nickName: string = "y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

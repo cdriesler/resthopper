@@ -44,7 +44,7 @@ class SequenceInput_notation_n extends ResthopperParameter {
 	public name: string = "Notation";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class SequenceInput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class SequenceInput_initial_i extends ResthopperParameter {
 	public name: string = "Initial";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class SequenceOutput_sequence_s extends ResthopperParameter {
 	public name: string = "Sequence";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

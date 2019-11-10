@@ -50,7 +50,7 @@ class EvaluateSurfaceInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class EvaluateSurfaceInput_point_uv extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class EvaluateSurfaceOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class EvaluateSurfaceOutput_normal_n extends ResthopperParameter {
 	public name: string = "Normal";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class EvaluateSurfaceOutput_udirection_u extends ResthopperParameter {
 	public name: string = "Udirection";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class EvaluateSurfaceOutput_vdirection_v extends ResthopperParameter {
 	public name: string = "Vdirection";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class EvaluateSurfaceOutput_frame_f extends ResthopperParameter {
 	public name: string = "Frame";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

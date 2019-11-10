@@ -44,7 +44,7 @@ class PolygonCenterInput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class PolygonCenterOutput_centerv_cv extends ResthopperParameter {
 	public name: string = "CenterV";
 	public nickName: string = "Cv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class PolygonCenterOutput_centere_ce extends ResthopperParameter {
 	public name: string = "CenterE";
 	public nickName: string = "Ce";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class PolygonCenterOutput_centera_ca extends ResthopperParameter {
 	public name: string = "CenterA";
 	public nickName: string = "Ca";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

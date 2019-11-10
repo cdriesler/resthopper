@@ -42,7 +42,7 @@ class LoftInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class LoftInput_options_o extends ResthopperParameter {
 	public name: string = "Options";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Loft Options;"
+	public typeName: string = "Loft Options"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class LoftOutput_loft_l extends ResthopperParameter {
 	public name: string = "Loft";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class FourPointSurfaceInput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class FourPointSurfaceInput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class FourPointSurfaceInput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class FourPointSurfaceInput_cornerd_d extends ResthopperParameter {
 	public name: string = "CornerD";
 	public nickName: string = "D";
 	public isOptional: boolean = true;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class FourPointSurfaceOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

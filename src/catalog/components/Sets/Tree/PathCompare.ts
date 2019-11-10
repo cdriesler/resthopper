@@ -42,7 +42,7 @@ class PathCompareInput_path_p extends ResthopperParameter {
 	public name: string = "Path";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class PathCompareInput_mask_m extends ResthopperParameter {
 	public name: string = "Mask";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class PathCompareOutput_comparison_c extends ResthopperParameter {
 	public name: string = "Comparison";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class EntwineInput_branch00_00 extends ResthopperParameter {
 	public name: string = "Branch00";
 	public nickName: string = "00";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class EntwineInput_branch01_01 extends ResthopperParameter {
 	public name: string = "Branch01";
 	public nickName: string = "01";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class EntwineInput_branch02_02 extends ResthopperParameter {
 	public name: string = "Branch02";
 	public nickName: string = "02";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class EntwineOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

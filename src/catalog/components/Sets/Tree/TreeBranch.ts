@@ -42,7 +42,7 @@ class TreeBranchInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TreeBranchInput_path_p extends ResthopperParameter {
 	public name: string = "Path";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TreeBranchOutput_branch_b extends ResthopperParameter {
 	public name: string = "Branch";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -48,7 +48,7 @@ class MergeZeroFiveInput_streama_a extends ResthopperParameter {
 	public name: string = "StreamA";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class MergeZeroFiveInput_streamb_b extends ResthopperParameter {
 	public name: string = "StreamB";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class MergeZeroFiveInput_streamc_c extends ResthopperParameter {
 	public name: string = "StreamC";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class MergeZeroFiveInput_streamd_d extends ResthopperParameter {
 	public name: string = "StreamD";
 	public nickName: string = "D";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class MergeZeroFiveInput_streame_e extends ResthopperParameter {
 	public name: string = "StreamE";
 	public nickName: string = "E";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class MergeZeroFiveOutput_stream_s extends ResthopperParameter {
 	public name: string = "Stream";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

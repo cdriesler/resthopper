@@ -46,7 +46,7 @@ class MeshDepthInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class MeshDepthInput_minimum_min extends ResthopperParameter {
 	public name: string = "Minimum";
 	public nickName: string = "Min";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class MeshDepthInput_maximum_max extends ResthopperParameter {
 	public name: string = "Maximum";
 	public nickName: string = "Max";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class MeshDepthOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class MeshDepthOutput_valid_v extends ResthopperParameter {
 	public name: string = "Valid";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

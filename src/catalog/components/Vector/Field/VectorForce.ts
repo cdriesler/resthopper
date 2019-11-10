@@ -42,7 +42,7 @@ class VectorForceInput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class VectorForceInput_bounds_b extends ResthopperParameter {
 	public name: string = "Bounds";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class VectorForceOutput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();

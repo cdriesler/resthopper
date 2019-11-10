@@ -50,7 +50,7 @@ class AlignedDimensionInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class AlignedDimensionInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class AlignedDimensionInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class AlignedDimensionInput_offset_o extends ResthopperParameter {
 	public name: string = "Offset";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class AlignedDimensionInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class AlignedDimensionInput_size_s extends ResthopperParameter {
 	public name: string = "Size";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

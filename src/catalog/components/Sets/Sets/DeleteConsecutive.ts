@@ -44,7 +44,7 @@ class DeleteConsecutiveInput_set_s extends ResthopperParameter {
 	public name: string = "Set";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DeleteConsecutiveInput_wrap_w extends ResthopperParameter {
 	public name: string = "Wrap";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DeleteConsecutiveOutput_set_s extends ResthopperParameter {
 	public name: string = "Set";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class DeleteConsecutiveOutput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

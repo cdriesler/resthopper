@@ -46,7 +46,7 @@ class SeriesAdditionInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SeriesAdditionInput_goal_g extends ResthopperParameter {
 	public name: string = "Goal";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SeriesAdditionInput_start_s extends ResthopperParameter {
 	public name: string = "Start";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SeriesAdditionOutput_series_s extends ResthopperParameter {
 	public name: string = "Series";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SeriesAdditionOutput_remainder_r extends ResthopperParameter {
 	public name: string = "Remainder";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

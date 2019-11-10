@@ -46,7 +46,7 @@ class SegmentLengthsInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SegmentLengthsOutput_shortestlength_sl extends ResthopperParameter {
 	public name: string = "ShortestLength";
 	public nickName: string = "Sl";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SegmentLengthsOutput_shortestdomain_sd extends ResthopperParameter {
 	public name: string = "ShortestDomain";
 	public nickName: string = "Sd";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SegmentLengthsOutput_longestlength_ll extends ResthopperParameter {
 	public name: string = "LongestLength";
 	public nickName: string = "Ll";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SegmentLengthsOutput_longestdomain_ld extends ResthopperParameter {
 	public name: string = "LongestDomain";
 	public nickName: string = "Ld";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

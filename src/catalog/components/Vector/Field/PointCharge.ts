@@ -46,7 +46,7 @@ class PointChargeInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PointChargeInput_charge_c extends ResthopperParameter {
 	public name: string = "Charge";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PointChargeInput_decay_d extends ResthopperParameter {
 	public name: string = "Decay";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PointChargeInput_bounds_b extends ResthopperParameter {
 	public name: string = "Bounds";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PointChargeOutput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();

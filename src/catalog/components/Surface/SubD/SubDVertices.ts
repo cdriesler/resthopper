@@ -42,7 +42,7 @@ class SubDVerticesInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class SubDVerticesOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class SubDVerticesOutput_id_i extends ResthopperParameter {
 	public name: string = "Id";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

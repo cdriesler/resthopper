@@ -42,7 +42,7 @@ class MeshColoursInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class MeshColoursInput_colours_c extends ResthopperParameter {
 	public name: string = "Colours";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class MeshColoursOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

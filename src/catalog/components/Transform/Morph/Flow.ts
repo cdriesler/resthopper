@@ -52,7 +52,7 @@ class FlowInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -66,7 +66,7 @@ class FlowInput_base_c0 extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "C0";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -80,7 +80,7 @@ class FlowInput_target_c1 extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "C1";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -94,7 +94,7 @@ class FlowInput_reversebase_r0 extends ResthopperParameter {
 	public name: string = "ReverseBase";
 	public nickName: string = "R0";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -108,7 +108,7 @@ class FlowInput_reversetarget_r1 extends ResthopperParameter {
 	public name: string = "ReverseTarget";
 	public nickName: string = "R1";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -122,7 +122,7 @@ class FlowInput_stretch_s extends ResthopperParameter {
 	public name: string = "Stretch";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -136,7 +136,7 @@ class FlowInput_rigid_r extends ResthopperParameter {
 	public name: string = "Rigid";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -150,7 +150,7 @@ class FlowOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

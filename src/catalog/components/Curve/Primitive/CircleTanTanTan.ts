@@ -46,7 +46,7 @@ class CircleTanTanTanInput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class CircleTanTanTanInput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class CircleTanTanTanInput_curvec_c extends ResthopperParameter {
 	public name: string = "CurveC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class CircleTanTanTanInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class CircleTanTanTanOutput_circle_c extends ResthopperParameter {
 	public name: string = "Circle";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();

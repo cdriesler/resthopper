@@ -42,7 +42,7 @@ class TextJoinInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TextJoinInput_join_j extends ResthopperParameter {
 	public name: string = "Join";
 	public nickName: string = "J";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TextJoinOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

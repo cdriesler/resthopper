@@ -44,7 +44,7 @@ class ReplaceTextInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ReplaceTextInput_find_f extends ResthopperParameter {
 	public name: string = "Find";
 	public nickName: string = "F";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ReplaceTextInput_replace_r extends ResthopperParameter {
 	public name: string = "Replace";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ReplaceTextOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

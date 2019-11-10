@@ -46,7 +46,7 @@ class InEllipseInput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class InEllipseInput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class InEllipseInput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class InEllipseOutput_ellipse_e extends ResthopperParameter {
 	public name: string = "Ellipse";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class InEllipseOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

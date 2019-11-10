@@ -46,7 +46,7 @@ class PerpFramesInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class PerpFramesInput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class PerpFramesInput_align_a extends ResthopperParameter {
 	public name: string = "Align";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class PerpFramesOutput_frames_f extends ResthopperParameter {
 	public name: string = "Frames";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class PerpFramesOutput_parameters_t extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

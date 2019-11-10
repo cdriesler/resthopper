@@ -46,7 +46,7 @@ class RailRevolutionInput_curve_p extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class RailRevolutionInput_rail_r extends ResthopperParameter {
 	public name: string = "Rail";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class RailRevolutionInput_axis_a extends ResthopperParameter {
 	public name: string = "Axis";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class RailRevolutionInput_scale_s extends ResthopperParameter {
 	public name: string = "Scale";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class RailRevolutionOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

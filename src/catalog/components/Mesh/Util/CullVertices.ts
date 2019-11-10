@@ -44,7 +44,7 @@ class CullVerticesInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class CullVerticesInput_pattern_p extends ResthopperParameter {
 	public name: string = "Pattern";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class CullVerticesInput_shrink_s extends ResthopperParameter {
 	public name: string = "Shrink";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class CullVerticesOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

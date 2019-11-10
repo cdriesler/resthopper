@@ -42,7 +42,7 @@ class SimplifyTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class SimplifyTreeInput_front_f extends ResthopperParameter {
 	public name: string = "Front";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class SimplifyTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

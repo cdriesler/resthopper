@@ -46,7 +46,7 @@ class VectorXYZInput_xcomponent_x extends ResthopperParameter {
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class VectorXYZInput_ycomponent_y extends ResthopperParameter {
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class VectorXYZInput_zcomponent_z extends ResthopperParameter {
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class VectorXYZOutput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class VectorXYZOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

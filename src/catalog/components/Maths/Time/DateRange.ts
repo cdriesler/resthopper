@@ -44,7 +44,7 @@ class DateRangeInput_timea_a extends ResthopperParameter {
 	public name: string = "TimeA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DateRangeInput_timeb_b extends ResthopperParameter {
 	public name: string = "TimeB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DateRangeInput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class DateRangeOutput_range_r extends ResthopperParameter {
 	public name: string = "Range";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();

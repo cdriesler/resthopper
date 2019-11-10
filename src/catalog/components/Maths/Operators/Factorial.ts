@@ -40,7 +40,7 @@ class FactorialInput_number_n extends ResthopperParameter {
 	public name: string = "Number";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class FactorialOutput_factorial_f extends ResthopperParameter {
 	public name: string = "Factorial";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

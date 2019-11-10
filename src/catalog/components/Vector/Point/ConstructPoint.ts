@@ -44,7 +44,7 @@ class ConstructPointInput_xcoordinate_x extends ResthopperParameter {
 	public name: string = "Xcoordinate";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ConstructPointInput_ycoordinate_y extends ResthopperParameter {
 	public name: string = "Ycoordinate";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ConstructPointInput_zcoordinate_z extends ResthopperParameter {
 	public name: string = "Zcoordinate";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ConstructPointOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

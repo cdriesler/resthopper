@@ -50,7 +50,7 @@ class SolarIncidenceInput_location_l extends ResthopperParameter {
 	public name: string = "Location";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Location;"
+	public typeName: string = "Location"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class SolarIncidenceInput_time_t extends ResthopperParameter {
 	public name: string = "Time";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class SolarIncidenceInput_orientation_p extends ResthopperParameter {
 	public name: string = "Orientation";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class SolarIncidenceOutput_direction_d extends ResthopperParameter {
 	public name: string = "Direction";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class SolarIncidenceOutput_elevation_e extends ResthopperParameter {
 	public name: string = "Elevation";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class SolarIncidenceOutput_horizon_h extends ResthopperParameter {
 	public name: string = "Horizon";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class SolarIncidenceOutput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

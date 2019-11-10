@@ -42,7 +42,7 @@ class MeshBrepInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class MeshBrepInput_settings_s extends ResthopperParameter {
 	public name: string = "Settings";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "MeshParameters;"
+	public typeName: string = "MeshParameters"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class MeshBrepOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

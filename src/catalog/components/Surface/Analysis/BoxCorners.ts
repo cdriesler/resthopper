@@ -54,7 +54,7 @@ class BoxCornersInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -68,7 +68,7 @@ class BoxCornersOutput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -82,7 +82,7 @@ class BoxCornersOutput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -96,7 +96,7 @@ class BoxCornersOutput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -110,7 +110,7 @@ class BoxCornersOutput_cornerd_d extends ResthopperParameter {
 	public name: string = "CornerD";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -124,7 +124,7 @@ class BoxCornersOutput_cornere_e extends ResthopperParameter {
 	public name: string = "CornerE";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -138,7 +138,7 @@ class BoxCornersOutput_cornerf_f extends ResthopperParameter {
 	public name: string = "CornerF";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -152,7 +152,7 @@ class BoxCornersOutput_cornerg_g extends ResthopperParameter {
 	public name: string = "CornerG";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -166,7 +166,7 @@ class BoxCornersOutput_cornerh_h extends ResthopperParameter {
 	public name: string = "CornerH";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

@@ -42,7 +42,7 @@ class SetDifferenceSInput_seta_a extends ResthopperParameter {
 	public name: string = "SetA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class SetDifferenceSInput_setb_b extends ResthopperParameter {
 	public name: string = "SetB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class SetDifferenceSOutput_exdifference_x extends ResthopperParameter {
 	public name: string = "ExDifference";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class OcTreeInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class OcTreeInput_square_s extends ResthopperParameter {
 	public name: string = "Square";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class OcTreeInput_group_g extends ResthopperParameter {
 	public name: string = "Group";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class OcTreeOutput_boxes_b extends ResthopperParameter {
 	public name: string = "Boxes";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class OcTreeOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

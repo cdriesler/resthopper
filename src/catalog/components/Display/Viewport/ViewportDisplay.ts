@@ -48,7 +48,7 @@ class ViewportDisplayInput_visible_v extends ResthopperParameter {
 	public name: string = "Visible";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class ViewportDisplayInput_left_l extends ResthopperParameter {
 	public name: string = "Left";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class ViewportDisplayInput_top_t extends ResthopperParameter {
 	public name: string = "Top";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class ViewportDisplayInput_width_w extends ResthopperParameter {
 	public name: string = "Width";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class ViewportDisplayInput_height_h extends ResthopperParameter {
 	public name: string = "Height";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

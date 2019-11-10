@@ -46,7 +46,7 @@ class TangentArcsInput_circlea_a extends ResthopperParameter {
 	public name: string = "CircleA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class TangentArcsInput_circleb_b extends ResthopperParameter {
 	public name: string = "CircleB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class TangentArcsInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class TangentArcsOutput_arca_a extends ResthopperParameter {
 	public name: string = "ArcA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Arc;"
+	public typeName: string = "Arc"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class TangentArcsOutput_arcb_b extends ResthopperParameter {
 	public name: string = "ArcB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Arc;"
+	public typeName: string = "Arc"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class StreamFilterInput_stream0_0 extends ResthopperParameter {
 	public name: string = "Stream0";
 	public nickName: string = "0";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class StreamFilterInput_stream1_1 extends ResthopperParameter {
 	public name: string = "Stream1";
 	public nickName: string = "1";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class StreamFilterInput_gate_g extends ResthopperParameter {
 	public name: string = "Gate";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class StreamFilterOutput_stream_s extends ResthopperParameter {
 	public name: string = "Stream";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class SplitARGBInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SplitARGBOutput_alpha_a extends ResthopperParameter {
 	public name: string = "Alpha";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SplitARGBOutput_red_r extends ResthopperParameter {
 	public name: string = "Red";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SplitARGBOutput_green_g extends ResthopperParameter {
 	public name: string = "Green";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SplitARGBOutput_blue_b extends ResthopperParameter {
 	public name: string = "Blue";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -42,7 +42,7 @@ class CopyTrimInput_source_s extends ResthopperParameter {
 	public name: string = "Source";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class CopyTrimInput_target_t extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class CopyTrimOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

@@ -42,7 +42,7 @@ class GeodesicInput_start_s extends ResthopperParameter {
 	public name: string = "Start";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class GeodesicInput_end_e extends ResthopperParameter {
 	public name: string = "End";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class GeodesicOutput_geodesic_g extends ResthopperParameter {
 	public name: string = "Geodesic";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

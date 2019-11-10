@@ -42,7 +42,7 @@ class ControlPointLoftInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class ControlPointLoftInput_degree_d extends ResthopperParameter {
 	public name: string = "Degree";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class ControlPointLoftOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

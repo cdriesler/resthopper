@@ -46,7 +46,7 @@ class RegionSlitsInput_regions_r extends ResthopperParameter {
 	public name: string = "Regions";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class RegionSlitsInput_width_w extends ResthopperParameter {
 	public name: string = "Width";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class RegionSlitsInput_gap_g extends ResthopperParameter {
 	public name: string = "Gap";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class RegionSlitsOutput_regions_r extends ResthopperParameter {
 	public name: string = "Regions";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class RegionSlitsOutput_topology_t extends ResthopperParameter {
 	public name: string = "Topology";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

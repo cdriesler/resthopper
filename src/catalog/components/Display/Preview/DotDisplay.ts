@@ -44,7 +44,7 @@ class DotDisplayInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DotDisplayInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DotDisplayInput_size_s extends ResthopperParameter {
 	public name: string = "Size";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

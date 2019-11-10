@@ -46,7 +46,7 @@ class SurfaceCurvatureInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SurfaceCurvatureInput_point_uv extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SurfaceCurvatureOutput_frame_f extends ResthopperParameter {
 	public name: string = "Frame";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SurfaceCurvatureOutput_gaussian_g extends ResthopperParameter {
 	public name: string = "Gaussian";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SurfaceCurvatureOutput_mean_m extends ResthopperParameter {
 	public name: string = "Mean";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

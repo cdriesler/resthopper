@@ -44,7 +44,7 @@ class IncludesInput_value_v extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class IncludesInput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class IncludesOutput_includes_i extends ResthopperParameter {
 	public name: string = "Includes";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class IncludesOutput_deviation_d extends ResthopperParameter {
 	public name: string = "Deviation";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

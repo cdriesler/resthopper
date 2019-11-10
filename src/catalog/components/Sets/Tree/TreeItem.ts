@@ -46,7 +46,7 @@ class TreeItemInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class TreeItemInput_path_p extends ResthopperParameter {
 	public name: string = "Path";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class TreeItemInput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class TreeItemInput_wrap_w extends ResthopperParameter {
 	public name: string = "Wrap";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class TreeItemOutput_element_e extends ResthopperParameter {
 	public name: string = "Element";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

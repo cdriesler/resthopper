@@ -40,7 +40,7 @@ class UnitZInput_factor_f extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class UnitZOutput_unitvector_v extends ResthopperParameter {
 	public name: string = "Unitvector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

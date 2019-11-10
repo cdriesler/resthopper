@@ -42,7 +42,7 @@ class MassMultiplicationInput_input_i extends ResthopperParameter {
 	public name: string = "Input";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class MassMultiplicationOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class MassMultiplicationOutput_partialresults_pr extends ResthopperParameter {
 	public name: string = "PartialResults";
 	public nickName: string = "Pr";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

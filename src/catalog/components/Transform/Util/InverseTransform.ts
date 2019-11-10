@@ -40,7 +40,7 @@ class InverseTransformInput_transform_t extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class InverseTransformOutput_transform_t extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

@@ -42,7 +42,7 @@ class TextSplitInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TextSplitInput_separators_c extends ResthopperParameter {
 	public name: string = "Separators";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TextSplitOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

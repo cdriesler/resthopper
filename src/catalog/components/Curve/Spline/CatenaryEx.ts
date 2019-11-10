@@ -50,7 +50,7 @@ class CatenaryExInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class CatenaryExInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class CatenaryExInput_lengths_l extends ResthopperParameter {
 	public name: string = "Lengths";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class CatenaryExInput_weights_w extends ResthopperParameter {
 	public name: string = "Weights";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class CatenaryExInput_gravity_g extends ResthopperParameter {
 	public name: string = "Gravity";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class CatenaryExOutput_catenary_c extends ResthopperParameter {
 	public name: string = "Catenary";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class CatenaryExOutput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

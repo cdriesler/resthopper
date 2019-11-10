@@ -48,7 +48,7 @@ class SmoothMeshInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class SmoothMeshInput_strength_s extends ResthopperParameter {
 	public name: string = "Strength";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class SmoothMeshInput_skipnaked_n extends ResthopperParameter {
 	public name: string = "SkipNaked";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class SmoothMeshInput_iterations_i extends ResthopperParameter {
 	public name: string = "Iterations";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class SmoothMeshInput_limit_l extends ResthopperParameter {
 	public name: string = "Limit";
 	public nickName: string = "L";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class SmoothMeshOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

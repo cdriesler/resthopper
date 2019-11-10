@@ -50,7 +50,7 @@ class OrthocentreInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class OrthocentreInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class OrthocentreInput_pointc_c extends ResthopperParameter {
 	public name: string = "PointC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class OrthocentreOutput_orthocentre_c extends ResthopperParameter {
 	public name: string = "Orthocentre";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class OrthocentreOutput_altitudeab_ab extends ResthopperParameter {
 	public name: string = "AltitudeAB";
 	public nickName: string = "AB";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class OrthocentreOutput_altitudebc_bc extends ResthopperParameter {
 	public name: string = "AltitudeBC";
 	public nickName: string = "BC";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class OrthocentreOutput_altitudeca_ca extends ResthopperParameter {
 	public name: string = "AltitudeCA";
 	public nickName: string = "CA";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

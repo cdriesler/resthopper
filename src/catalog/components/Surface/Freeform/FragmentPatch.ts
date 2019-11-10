@@ -40,7 +40,7 @@ class FragmentPatchInput_boundary_b extends ResthopperParameter {
 	public name: string = "Boundary";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class FragmentPatchOutput_patch_p extends ResthopperParameter {
 	public name: string = "Patch";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

@@ -48,7 +48,7 @@ class InCircleInput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class InCircleInput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class InCircleInput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class InCircleOutput_circle_c extends ResthopperParameter {
 	public name: string = "Circle";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class InCircleOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class InCircleOutput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

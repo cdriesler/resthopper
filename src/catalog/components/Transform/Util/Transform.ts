@@ -42,7 +42,7 @@ class TransformInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TransformInput_transform_t extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TransformOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

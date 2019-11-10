@@ -44,7 +44,7 @@ class DashPatternInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DashPatternInput_pattern_pt extends ResthopperParameter {
 	public name: string = "Pattern";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DashPatternOutput_dashes_d extends ResthopperParameter {
 	public name: string = "Dashes";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class DashPatternOutput_gaps_g extends ResthopperParameter {
 	public name: string = "Gaps";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

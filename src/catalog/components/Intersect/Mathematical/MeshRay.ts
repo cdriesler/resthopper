@@ -46,7 +46,7 @@ class MeshRayInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class MeshRayInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class MeshRayInput_direction_d extends ResthopperParameter {
 	public name: string = "Direction";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class MeshRayOutput_point_x extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class MeshRayOutput_hit_h extends ResthopperParameter {
 	public name: string = "Hit";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

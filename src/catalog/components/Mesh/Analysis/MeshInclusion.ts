@@ -44,7 +44,7 @@ class MeshInclusionInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class MeshInclusionInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class MeshInclusionInput_strict_s extends ResthopperParameter {
 	public name: string = "Strict";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class MeshInclusionOutput_inside_i extends ResthopperParameter {
 	public name: string = "Inside";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

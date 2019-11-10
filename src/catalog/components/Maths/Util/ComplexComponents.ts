@@ -42,7 +42,7 @@ class ComplexComponentsInput_complex_c extends ResthopperParameter {
 	public name: string = "Complex";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class ComplexComponentsOutput_real_r extends ResthopperParameter {
 	public name: string = "Real";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class ComplexComponentsOutput_imaginary_i extends ResthopperParameter {
 	public name: string = "Imaginary";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

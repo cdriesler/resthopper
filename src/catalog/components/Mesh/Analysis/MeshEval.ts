@@ -46,7 +46,7 @@ class MeshEvalInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class MeshEvalInput_parameter_p extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh Parameter;"
+	public typeName: string = "Mesh Parameter"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class MeshEvalOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class MeshEvalOutput_normal_n extends ResthopperParameter {
 	public name: string = "Normal";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class MeshEvalOutput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

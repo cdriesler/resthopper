@@ -50,7 +50,7 @@ class BezierSpanInput_startpoint_a extends ResthopperParameter {
 	public name: string = "Startpoint";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class BezierSpanInput_starttangent_at extends ResthopperParameter {
 	public name: string = "Starttangent";
 	public nickName: string = "At";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class BezierSpanInput_endpoint_b extends ResthopperParameter {
 	public name: string = "Endpoint";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class BezierSpanInput_endtangent_bt extends ResthopperParameter {
 	public name: string = "Endtangent";
 	public nickName: string = "Bt";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class BezierSpanOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class BezierSpanOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class BezierSpanOutput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

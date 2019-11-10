@@ -40,7 +40,7 @@ class TransposeMatrixInput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class TransposeMatrixOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();

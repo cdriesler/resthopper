@@ -42,7 +42,7 @@ class SetIntersectionInput_seta_a extends ResthopperParameter {
 	public name: string = "SetA";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class SetIntersectionInput_setb_b extends ResthopperParameter {
 	public name: string = "SetB";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class SetIntersectionOutput_union_u extends ResthopperParameter {
 	public name: string = "Union";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

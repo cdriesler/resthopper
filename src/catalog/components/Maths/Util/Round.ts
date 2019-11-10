@@ -44,7 +44,7 @@ class RoundInput_number_x extends ResthopperParameter {
 	public name: string = "Number";
 	public nickName: string = "x";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class RoundOutput_nearest_n extends ResthopperParameter {
 	public name: string = "Nearest";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class RoundOutput_floor_f extends ResthopperParameter {
 	public name: string = "Floor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class RoundOutput_ceiling_c extends ResthopperParameter {
 	public name: string = "Ceiling";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class MatchTextInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class MatchTextInput_pattern_p extends ResthopperParameter {
 	public name: string = "Pattern";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class MatchTextInput_regex_r extends ResthopperParameter {
 	public name: string = "RegEx";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class MatchTextInput_case_c extends ResthopperParameter {
 	public name: string = "Case";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class MatchTextOutput_match_m extends ResthopperParameter {
 	public name: string = "Match";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

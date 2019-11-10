@@ -48,7 +48,7 @@ class TwistInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class TwistInput_axis_x extends ResthopperParameter {
 	public name: string = "Axis";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class TwistInput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class TwistInput_infinite_i extends ResthopperParameter {
 	public name: string = "Infinite";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class TwistInput_rigid_r extends ResthopperParameter {
 	public name: string = "Rigid";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class TwistOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

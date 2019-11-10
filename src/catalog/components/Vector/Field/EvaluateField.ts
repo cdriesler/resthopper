@@ -44,7 +44,7 @@ class EvaluateFieldInput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class EvaluateFieldInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class EvaluateFieldOutput_tensor_t extends ResthopperParameter {
 	public name: string = "Tensor";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class EvaluateFieldOutput_strength_s extends ResthopperParameter {
 	public name: string = "Strength";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

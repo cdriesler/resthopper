@@ -50,7 +50,7 @@ class RectangularInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class RectangularInput_sizex_sx extends ResthopperParameter {
 	public name: string = "SizeX";
 	public nickName: string = "Sx";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class RectangularInput_sizey_sy extends ResthopperParameter {
 	public name: string = "SizeY";
 	public nickName: string = "Sy";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class RectangularInput_extentx_ex extends ResthopperParameter {
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class RectangularInput_extenty_ey extends ResthopperParameter {
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class RectangularOutput_cells_c extends ResthopperParameter {
 	public name: string = "Cells";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class RectangularOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

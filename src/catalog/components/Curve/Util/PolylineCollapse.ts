@@ -44,7 +44,7 @@ class PolylineCollapseInput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class PolylineCollapseInput_tolerance_t extends ResthopperParameter {
 	public name: string = "Tolerance";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class PolylineCollapseOutput_polyline_pl extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class PolylineCollapseOutput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

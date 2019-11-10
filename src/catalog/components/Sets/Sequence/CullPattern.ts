@@ -42,7 +42,7 @@ class CullPatternInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class CullPatternInput_cullpattern_p extends ResthopperParameter {
 	public name: string = "CullPattern";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class CullPatternOutput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

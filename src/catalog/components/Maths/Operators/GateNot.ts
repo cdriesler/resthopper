@@ -40,7 +40,7 @@ class GateNotInput_a_a extends ResthopperParameter {
 	public name: string = "A";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class GateNotOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

@@ -46,7 +46,7 @@ class RectangleMappingInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = true;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class RectangleMappingInput_source_s extends ResthopperParameter {
 	public name: string = "Source";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class RectangleMappingInput_target_t extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class RectangleMappingOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class RectangleMappingOutput_transform_x extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

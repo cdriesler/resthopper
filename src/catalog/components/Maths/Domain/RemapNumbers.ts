@@ -46,7 +46,7 @@ class RemapNumbersInput_value_v extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class RemapNumbersInput_source_s extends ResthopperParameter {
 	public name: string = "Source";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class RemapNumbersInput_target_t extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class RemapNumbersOutput_mapped_r extends ResthopperParameter {
 	public name: string = "Mapped";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class RemapNumbersOutput_clipped_c extends ResthopperParameter {
 	public name: string = "Clipped";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

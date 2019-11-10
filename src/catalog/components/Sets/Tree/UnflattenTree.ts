@@ -42,7 +42,7 @@ class UnflattenTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class UnflattenTreeInput_guide_g extends ResthopperParameter {
 	public name: string = "Guide";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class UnflattenTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

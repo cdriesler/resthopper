@@ -46,7 +46,7 @@ class ExtrudeAngledInput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class ExtrudeAngledInput_baseheight_hb extends ResthopperParameter {
 	public name: string = "Baseheight";
 	public nickName: string = "Hb";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class ExtrudeAngledInput_topheight_ht extends ResthopperParameter {
 	public name: string = "Topheight";
 	public nickName: string = "Ht";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class ExtrudeAngledInput_angles_a extends ResthopperParameter {
 	public name: string = "Angles";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class ExtrudeAngledOutput_shape_s extends ResthopperParameter {
 	public name: string = "Shape";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

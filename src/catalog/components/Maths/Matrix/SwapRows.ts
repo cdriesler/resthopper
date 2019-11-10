@@ -44,7 +44,7 @@ class SwapRowsInput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class SwapRowsInput_rowa_a extends ResthopperParameter {
 	public name: string = "RowA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class SwapRowsInput_rowb_b extends ResthopperParameter {
 	public name: string = "RowB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class SwapRowsOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();

@@ -48,7 +48,7 @@ class SpinForceInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class SpinForceInput_strength_s extends ResthopperParameter {
 	public name: string = "Strength";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class SpinForceInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class SpinForceInput_decay_d extends ResthopperParameter {
 	public name: string = "Decay";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class SpinForceInput_bounds_b extends ResthopperParameter {
 	public name: string = "Bounds";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class SpinForceOutput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();

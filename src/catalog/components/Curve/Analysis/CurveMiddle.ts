@@ -40,7 +40,7 @@ class CurveMiddleInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class CurveMiddleOutput_midpoint_m extends ResthopperParameter {
 	public name: string = "Midpoint";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

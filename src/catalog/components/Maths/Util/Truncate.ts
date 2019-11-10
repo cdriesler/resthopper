@@ -42,7 +42,7 @@ class TruncateInput_input_i extends ResthopperParameter {
 	public name: string = "Input";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TruncateInput_truncationfactor_t extends ResthopperParameter {
 	public name: string = "Truncationfactor";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TruncateOutput_result_t extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

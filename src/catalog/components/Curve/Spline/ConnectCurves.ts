@@ -46,7 +46,7 @@ class ConnectCurvesInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class ConnectCurvesInput_continuity_g extends ResthopperParameter {
 	public name: string = "Continuity";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class ConnectCurvesInput_close_l extends ResthopperParameter {
 	public name: string = "Close";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class ConnectCurvesInput_bulge_b extends ResthopperParameter {
 	public name: string = "Bulge";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class ConnectCurvesOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

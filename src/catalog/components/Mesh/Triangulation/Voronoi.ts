@@ -46,7 +46,7 @@ class VoronoiInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class VoronoiInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class VoronoiInput_boundary_b extends ResthopperParameter {
 	public name: string = "Boundary";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class VoronoiInput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class VoronoiOutput_cells_c extends ResthopperParameter {
 	public name: string = "Cells";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

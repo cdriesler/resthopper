@@ -42,7 +42,7 @@ class DeconstructDomainInput_domain_i extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class DeconstructDomainOutput_ucomponent_u extends ResthopperParameter {
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class DeconstructDomainOutput_vcomponent_v extends ResthopperParameter {
 	public name: string = "Vcomponent";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

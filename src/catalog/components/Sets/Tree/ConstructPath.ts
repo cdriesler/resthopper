@@ -40,7 +40,7 @@ class ConstructPathInput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class ConstructPathOutput_branch_b extends ResthopperParameter {
 	public name: string = "Branch";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();

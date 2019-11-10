@@ -42,7 +42,7 @@ class SmallerThanInput_firstnumber_a extends ResthopperParameter {
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class SmallerThanInput_secondnumber_b extends ResthopperParameter {
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class SmallerThanOutput_orequalto_ extends ResthopperParameter {
 	public name: string = "orEqualto";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

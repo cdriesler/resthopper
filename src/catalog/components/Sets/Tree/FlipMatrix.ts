@@ -40,7 +40,7 @@ class FlipMatrixInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class FlipMatrixOutput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -50,7 +50,7 @@ class EdgesfromPointsInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class EdgesfromPointsInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class EdgesfromPointsInput_valence_v extends ResthopperParameter {
 	public name: string = "Valence";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class EdgesfromPointsInput_tolerance_t extends ResthopperParameter {
 	public name: string = "Tolerance";
 	public nickName: string = "T";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class EdgesfromPointsOutput_edges_e extends ResthopperParameter {
 	public name: string = "Edges";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class EdgesfromPointsOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class EdgesfromPointsOutput_map_m extends ResthopperParameter {
 	public name: string = "Map";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

@@ -40,7 +40,7 @@ class BoundsInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class BoundsOutput_domain_i extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

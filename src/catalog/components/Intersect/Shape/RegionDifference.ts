@@ -44,7 +44,7 @@ class RegionDifferenceInput_curvesa_a extends ResthopperParameter {
 	public name: string = "CurvesA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class RegionDifferenceInput_curvesb_b extends ResthopperParameter {
 	public name: string = "CurvesB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class RegionDifferenceInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class RegionDifferenceOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

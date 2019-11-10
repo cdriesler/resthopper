@@ -44,7 +44,7 @@ class DotProductInput_vectora_a extends ResthopperParameter {
 	public name: string = "VectorA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DotProductInput_vectorb_b extends ResthopperParameter {
 	public name: string = "VectorB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DotProductInput_unitize_u extends ResthopperParameter {
 	public name: string = "Unitize";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class DotProductOutput_dotproduct_d extends ResthopperParameter {
 	public name: string = "Dotproduct";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

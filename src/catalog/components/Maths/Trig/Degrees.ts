@@ -40,7 +40,7 @@ class DegreesInput_radians_r extends ResthopperParameter {
 	public name: string = "Radians";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class DegreesOutput_degrees_d extends ResthopperParameter {
 	public name: string = "Degrees";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -40,7 +40,7 @@ class BoundaryVolumeInput_boundaries_b extends ResthopperParameter {
 	public name: string = "Boundaries";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class BoundaryVolumeOutput_solid_s extends ResthopperParameter {
 	public name: string = "Solid";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

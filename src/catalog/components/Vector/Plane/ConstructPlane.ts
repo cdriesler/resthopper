@@ -44,7 +44,7 @@ class ConstructPlaneInput_origin_o extends ResthopperParameter {
 	public name: string = "Origin";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ConstructPlaneInput_xaxis_x extends ResthopperParameter {
 	public name: string = "XAxis";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ConstructPlaneInput_yaxis_y extends ResthopperParameter {
 	public name: string = "YAxis";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ConstructPlaneOutput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

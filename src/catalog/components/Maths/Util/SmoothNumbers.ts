@@ -40,7 +40,7 @@ class SmoothNumbersInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class SmoothNumbersOutput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class ConstructTimeInput_hour_h extends ResthopperParameter {
 	public name: string = "Hour";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ConstructTimeInput_minute_m extends ResthopperParameter {
 	public name: string = "Minute";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ConstructTimeInput_second_s extends ResthopperParameter {
 	public name: string = "Second";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ConstructTimeOutput_time_t extends ResthopperParameter {
 	public name: string = "Time";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();

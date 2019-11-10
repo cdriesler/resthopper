@@ -44,7 +44,7 @@ class DeconstructInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class DeconstructOutput_xcomponent_x extends ResthopperParameter {
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class DeconstructOutput_ycomponent_y extends ResthopperParameter {
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class DeconstructOutput_zcomponent_z extends ResthopperParameter {
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -44,7 +44,7 @@ class SurfaceBoxInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class SurfaceBoxInput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class SurfaceBoxInput_height_h extends ResthopperParameter {
 	public name: string = "Height";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class SurfaceBoxOutput_twistedbox_b extends ResthopperParameter {
 	public name: string = "TwistedBox";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Twisted Box;"
+	public typeName: string = "Twisted Box"
 
 	constructor() {
 		super();

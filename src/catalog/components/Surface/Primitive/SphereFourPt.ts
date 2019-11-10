@@ -50,7 +50,7 @@ class SphereFourPtInput_point1_p1 extends ResthopperParameter {
 	public name: string = "Point1";
 	public nickName: string = "P1";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class SphereFourPtInput_point2_p2 extends ResthopperParameter {
 	public name: string = "Point2";
 	public nickName: string = "P2";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class SphereFourPtInput_point3_p3 extends ResthopperParameter {
 	public name: string = "Point3";
 	public nickName: string = "P3";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class SphereFourPtInput_point4_p4 extends ResthopperParameter {
 	public name: string = "Point4";
 	public nickName: string = "P4";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class SphereFourPtOutput_center_c extends ResthopperParameter {
 	public name: string = "Center";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class SphereFourPtOutput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class SphereFourPtOutput_sphere_s extends ResthopperParameter {
 	public name: string = "Sphere";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

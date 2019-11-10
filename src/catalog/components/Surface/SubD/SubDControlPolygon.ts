@@ -40,7 +40,7 @@ class SubDControlPolygonInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class SubDControlPolygonOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

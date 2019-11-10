@@ -46,7 +46,7 @@ class SubDFacesInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class SubDFacesOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class SubDFacesOutput_count_c extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class SubDFacesOutput_edges_e extends ResthopperParameter {
 	public name: string = "Edges";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class SubDFacesOutput_vertices_v extends ResthopperParameter {
 	public name: string = "Vertices";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

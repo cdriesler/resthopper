@@ -42,7 +42,7 @@ class BrepWireframeInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class BrepWireframeInput_density_d extends ResthopperParameter {
 	public name: string = "Density";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class BrepWireframeOutput_wireframe_w extends ResthopperParameter {
 	public name: string = "Wireframe";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

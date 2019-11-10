@@ -44,7 +44,7 @@ class ReplacePathsInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ReplacePathsInput_search_s extends ResthopperParameter {
 	public name: string = "Search";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ReplacePathsInput_replace_r extends ResthopperParameter {
 	public name: string = "Replace";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ReplacePathsOutput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

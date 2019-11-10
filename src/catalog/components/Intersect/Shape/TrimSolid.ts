@@ -42,7 +42,7 @@ class TrimSolidInput_shape_s extends ResthopperParameter {
 	public name: string = "Shape";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class TrimSolidInput_cutters_t extends ResthopperParameter {
 	public name: string = "Cutters";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class TrimSolidOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

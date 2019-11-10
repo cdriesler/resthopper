@@ -48,7 +48,7 @@ class SurfacePointsInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class SurfacePointsOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class SurfacePointsOutput_weights_w extends ResthopperParameter {
 	public name: string = "Weights";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class SurfacePointsOutput_greville_g extends ResthopperParameter {
 	public name: string = "Greville";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class SurfacePointsOutput_ucount_u extends ResthopperParameter {
 	public name: string = "UCount";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class SurfacePointsOutput_vcount_v extends ResthopperParameter {
 	public name: string = "VCount";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

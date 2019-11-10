@@ -40,7 +40,7 @@ class ComplexArgumentInput_complex_c extends ResthopperParameter {
 	public name: string = "Complex";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class ComplexArgumentOutput_argument_a extends ResthopperParameter {
 	public name: string = "Argument";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

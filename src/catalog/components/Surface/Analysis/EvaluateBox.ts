@@ -50,7 +50,7 @@ class EvaluateBoxInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -64,7 +64,7 @@ class EvaluateBoxInput_uparameter_u extends ResthopperParameter {
 	public name: string = "Uparameter";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -78,7 +78,7 @@ class EvaluateBoxInput_vparameter_v extends ResthopperParameter {
 	public name: string = "Vparameter";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +92,7 @@ class EvaluateBoxInput_wparameter_w extends ResthopperParameter {
 	public name: string = "Wparameter";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +106,7 @@ class EvaluateBoxOutput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -120,7 +120,7 @@ class EvaluateBoxOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -134,7 +134,7 @@ class EvaluateBoxOutput_include_i extends ResthopperParameter {
 	public name: string = "Include";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

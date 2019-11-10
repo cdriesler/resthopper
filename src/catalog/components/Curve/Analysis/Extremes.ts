@@ -44,7 +44,7 @@ class ExtremesInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class ExtremesInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class ExtremesOutput_highest_h extends ResthopperParameter {
 	public name: string = "Highest";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class ExtremesOutput_lowest_l extends ResthopperParameter {
 	public name: string = "Lowest";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

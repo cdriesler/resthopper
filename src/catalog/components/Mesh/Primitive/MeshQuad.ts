@@ -46,7 +46,7 @@ class MeshQuadInput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -60,7 +60,7 @@ class MeshQuadInput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +74,7 @@ class MeshQuadInput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +88,7 @@ class MeshQuadInput_cornerd_d extends ResthopperParameter {
 	public name: string = "CornerD";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +102,7 @@ class MeshQuadOutput_face_f extends ResthopperParameter {
 	public name: string = "Face";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh face;"
+	public typeName: string = "Mesh face"
 
 	constructor() {
 		super();

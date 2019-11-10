@@ -40,7 +40,7 @@ class AverageInput_input_i extends ResthopperParameter {
 	public name: string = "Input";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class AverageOutput_arithmeticmean_am extends ResthopperParameter {
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

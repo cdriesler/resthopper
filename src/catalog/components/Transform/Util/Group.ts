@@ -40,7 +40,7 @@ class GroupInput_objects_o extends ResthopperParameter {
 	public name: string = "Objects";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class GroupOutput_group_g extends ResthopperParameter {
 	public name: string = "Group";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Group;"
+	public typeName: string = "Group"
 
 	constructor() {
 		super();

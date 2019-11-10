@@ -44,7 +44,7 @@ class TweenCurveInput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class TweenCurveInput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class TweenCurveInput_factor_f extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class TweenCurveOutput_tween_t extends ResthopperParameter {
 	public name: string = "Tween";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

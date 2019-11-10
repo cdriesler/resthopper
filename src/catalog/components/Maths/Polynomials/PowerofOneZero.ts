@@ -40,7 +40,7 @@ class PowerofOneZeroInput_value_x extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "x";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +54,7 @@ class PowerofOneZeroOutput_result_y extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "y";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

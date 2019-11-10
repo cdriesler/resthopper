@@ -48,7 +48,7 @@ class BlendCurveInput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -62,7 +62,7 @@ class BlendCurveInput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -76,7 +76,7 @@ class BlendCurveInput_bulgea_fa extends ResthopperParameter {
 	public name: string = "BulgeA";
 	public nickName: string = "Fa";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +90,7 @@ class BlendCurveInput_bulgeb_fb extends ResthopperParameter {
 	public name: string = "BulgeB";
 	public nickName: string = "Fb";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +104,7 @@ class BlendCurveInput_continuity_c extends ResthopperParameter {
 	public name: string = "Continuity";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +118,7 @@ class BlendCurveOutput_blend_b extends ResthopperParameter {
 	public name: string = "Blend";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

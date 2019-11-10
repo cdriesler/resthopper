@@ -44,7 +44,7 @@ class SetMajorityInput_seta_a extends ResthopperParameter {
 	public name: string = "SetA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +58,7 @@ class SetMajorityInput_setb_b extends ResthopperParameter {
 	public name: string = "SetB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +72,7 @@ class SetMajorityInput_setc_c extends ResthopperParameter {
 	public name: string = "SetC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +86,7 @@ class SetMajorityOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

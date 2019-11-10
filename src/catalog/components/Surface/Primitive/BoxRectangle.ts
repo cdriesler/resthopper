@@ -42,7 +42,7 @@ class BoxRectangleInput_rectangle_r extends ResthopperParameter {
 	public name: string = "Rectangle";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -56,7 +56,7 @@ class BoxRectangleInput_height_h extends ResthopperParameter {
 	public name: string = "Height";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -70,7 +70,7 @@ class BoxRectangleOutput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
