@@ -10,6 +10,7 @@ export default class CrossProduct extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Compute vector cross product.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class CrossProductInput_vectora_a extends ResthopperParameter {
 	public name: string = "VectorA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class CrossProductInput_vectorb_b extends ResthopperParameter {
 	public name: string = "VectorB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class CrossProductInput_unitize_u extends ResthopperParameter {
 	public name: string = "Unitize";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class CrossProductOutput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class CrossProductOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

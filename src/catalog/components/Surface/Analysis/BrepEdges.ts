@@ -10,6 +10,7 @@ export default class BrepEdges extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the edge curves of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class BrepEdgesInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class BrepEdgesOutput_naked_en extends ResthopperParameter {
 	public name: string = "Naked";
 	public nickName: string = "En";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class BrepEdgesOutput_interior_ei extends ResthopperParameter {
 	public name: string = "Interior";
 	public nickName: string = "Ei";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class BrepEdgesOutput_nonmanifold_em extends ResthopperParameter {
 	public name: string = "NonManifold";
 	public nickName: string = "Em";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

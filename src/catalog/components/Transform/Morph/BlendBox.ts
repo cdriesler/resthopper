@@ -10,6 +10,7 @@ export default class BlendBox extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Create a twisted box between two surfaces.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -46,7 +47,7 @@ class BlendBoxInput_surfacea_sa extends ResthopperParameter {
 	public name: string = "SurfaceA";
 	public nickName: string = "Sa";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class BlendBoxInput_domaina_da extends ResthopperParameter {
 	public name: string = "DomainA";
 	public nickName: string = "Da";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class BlendBoxInput_surfaceb_sb extends ResthopperParameter {
 	public name: string = "SurfaceB";
 	public nickName: string = "Sb";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class BlendBoxInput_domainb_db extends ResthopperParameter {
 	public name: string = "DomainB";
 	public nickName: string = "Db";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class BlendBoxOutput_twistedbox_b extends ResthopperParameter {
 	public name: string = "TwistedBox";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Twisted Box;"
+	public typeName: string = "Twisted Box"
 
 	constructor() {
 		super();

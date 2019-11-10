@@ -10,6 +10,7 @@ export default class MeshJoin extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Join a set of meshes into a single mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class MeshJoinInput_meshes_m extends ResthopperParameter {
 	public name: string = "Meshes";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class MeshJoinOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

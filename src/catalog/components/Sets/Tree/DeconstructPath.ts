@@ -10,6 +10,7 @@ export default class DeconstructPath extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Deconstruct a data tree path into individual integers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class DeconstructPathInput_branch_b extends ResthopperParameter {
 	public name: string = "Branch";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class DeconstructPathOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

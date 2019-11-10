@@ -10,6 +10,7 @@ export default class DeconstructVector extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Deconstruct a vector into its component parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -44,7 +45,7 @@ class DeconstructVectorInput_vector_v extends ResthopperParameter {
 	public name: string = "Vector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class DeconstructVectorOutput_xcomponent_x extends ResthopperParameter {
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class DeconstructVectorOutput_ycomponent_y extends ResthopperParameter {
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class DeconstructVectorOutput_zcomponent_z extends ResthopperParameter {
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

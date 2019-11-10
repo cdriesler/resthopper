@@ -10,6 +10,7 @@ export default class CapHolesEx extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Cap as many holes as possible in a Brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class CapHolesExInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class CapHolesExOutput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class CapHolesExOutput_caps_c extends ResthopperParameter {
 	public name: string = "Caps";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class CapHolesExOutput_solid_s extends ResthopperParameter {
 	public name: string = "Solid";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

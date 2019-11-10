@@ -10,6 +10,7 @@ export default class Angle extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Compute the angle between two vectors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class AngleInput_vectora_a extends ResthopperParameter {
 	public name: string = "VectorA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class AngleInput_vectorb_b extends ResthopperParameter {
 	public name: string = "VectorB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class AngleInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class AngleOutput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class AngleOutput_reflex_r extends ResthopperParameter {
 	public name: string = "Reflex";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

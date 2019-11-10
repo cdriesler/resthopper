@@ -10,6 +10,7 @@ export default class BarGraph extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Bar graph representation of a set of numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class MakeTwoDPerspectiveView extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Define a perspective view for a Make2D solution";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class MakeTwoDPerspectiveViewInput_camera_c extends ResthopperParameter {
 	public name: string = "Camera";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MakeTwoDPerspectiveViewInput_frame_f extends ResthopperParameter {
 	public name: string = "Frame";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MakeTwoDPerspectiveViewOutput_view_v extends ResthopperParameter {
 	public name: string = "View";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Projection;"
+	public typeName: string = "Projection"
 
 	constructor() {
 		super();

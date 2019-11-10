@@ -10,6 +10,7 @@ export default class RectangularArray extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Create a rectangular array of geometry.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -48,7 +49,7 @@ class RectangularArrayInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = true;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class RectangularArrayInput_cell_c extends ResthopperParameter {
 	public name: string = "Cell";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class RectangularArrayInput_xcount_x extends ResthopperParameter {
 	public name: string = "XCount";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class RectangularArrayInput_ycount_y extends ResthopperParameter {
 	public name: string = "YCount";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class RectangularArrayOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class RectangularArrayOutput_transform_x extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

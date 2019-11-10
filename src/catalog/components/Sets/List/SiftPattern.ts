@@ -10,6 +10,7 @@ export default class SiftPattern extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Sift elements in a list using a repeating index pattern.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class SiftPatternInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SiftPatternInput_siftpattern_p extends ResthopperParameter {
 	public name: string = "SiftPattern";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SiftPatternOutput_output0_0 extends ResthopperParameter {
 	public name: string = "Output0";
 	public nickName: string = "0";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SiftPatternOutput_output1_1 extends ResthopperParameter {
 	public name: string = "Output1";
 	public nickName: string = "1";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

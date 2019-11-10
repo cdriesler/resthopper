@@ -10,6 +10,7 @@ export default class PointOrder extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Displays the order of a list of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -40,7 +41,7 @@ class PointOrderInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

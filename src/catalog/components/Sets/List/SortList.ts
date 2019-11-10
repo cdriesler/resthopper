@@ -10,6 +10,7 @@ export default class SortList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Sort a list of numeric keys.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class SortListInput_keys_k extends ResthopperParameter {
 	public name: string = "Keys";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SortListInput_valuesa_a extends ResthopperParameter {
 	public name: string = "ValuesA";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SortListOutput_keys_k extends ResthopperParameter {
 	public name: string = "Keys";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SortListOutput_valuesa_a extends ResthopperParameter {
 	public name: string = "ValuesA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

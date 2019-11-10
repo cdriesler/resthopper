@@ -10,6 +10,7 @@ export default class SimpleMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create a mesh that represents a Brep as simply as possible";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class SimpleMeshInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class SimpleMeshOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

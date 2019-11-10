@@ -10,6 +10,7 @@ export default class Incentre extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle incentre from angle bisectors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -50,7 +51,7 @@ class IncentreInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class IncentreInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class IncentreInput_pointc_c extends ResthopperParameter {
 	public name: string = "PointC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class IncentreOutput_incentre_i extends ResthopperParameter {
 	public name: string = "Incentre";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class IncentreOutput_bisectora_a extends ResthopperParameter {
 	public name: string = "BisectorA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class IncentreOutput_bisectorb_b extends ResthopperParameter {
 	public name: string = "BisectorB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class IncentreOutput_bisectorc_c extends ResthopperParameter {
 	public name: string = "BisectorC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

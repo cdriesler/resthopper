@@ -10,6 +10,7 @@ export default class CullIndex extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Cull (remove) indexed elements from a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class CullIndexInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class CullIndexInput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class CullIndexInput_wrap_w extends ResthopperParameter {
 	public name: string = "Wrap";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class CullIndexOutput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

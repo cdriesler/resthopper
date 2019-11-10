@@ -10,6 +10,7 @@ export default class Isotrim extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Extract an isoparametric subset of a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class IsotrimInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class IsotrimInput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class IsotrimOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

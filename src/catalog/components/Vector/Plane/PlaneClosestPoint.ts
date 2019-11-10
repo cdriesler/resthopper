@@ -10,6 +10,7 @@ export default class PlaneClosestPoint extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Find the closest point on a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class PlaneClosestPointInput_point_s extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class PlaneClosestPointInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class PlaneClosestPointOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class PlaneClosestPointOutput_uvpoint_uv extends ResthopperParameter {
 	public name: string = "UVPoint";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class PlaneClosestPointOutput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

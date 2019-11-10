@@ -10,6 +10,7 @@ export default class ItemIndex extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Retrieve the index of a certain item in a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class ItemIndexInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class ItemIndexInput_item_i extends ResthopperParameter {
 	public name: string = "Item";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class ItemIndexOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

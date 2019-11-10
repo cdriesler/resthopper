@@ -10,6 +10,7 @@ export default class RandomReduce extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Randomly remove N items from a list";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class RandomReduceInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class RandomReduceInput_reduction_r extends ResthopperParameter {
 	public name: string = "Reduction";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class RandomReduceInput_seed_s extends ResthopperParameter {
 	public name: string = "Seed";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class RandomReduceOutput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

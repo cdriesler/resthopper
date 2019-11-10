@@ -10,6 +10,7 @@ export default class CopyTrim extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Copy UV trim data from one surface to another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class CopyTrimInput_source_s extends ResthopperParameter {
 	public name: string = "Source";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CopyTrimInput_target_t extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CopyTrimOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class SettingsSpeed extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Represents 'Jagged & faster' mesh settings.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class SettingsSpeedOutput_settings_s extends ResthopperParameter {
 	public name: string = "Settings";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "MeshParameters;"
+	public typeName: string = "MeshParameters"
 
 	constructor() {
 		super();

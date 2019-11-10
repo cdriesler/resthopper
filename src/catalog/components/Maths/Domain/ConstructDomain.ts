@@ -10,6 +10,7 @@ export default class ConstructDomain extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric domain from two numeric extremes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class ConstructDomainInput_domainstart_a extends ResthopperParameter {
 	public name: string = "Domainstart";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class ConstructDomainInput_domainend_b extends ResthopperParameter {
 	public name: string = "Domainend";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class ConstructDomainOutput_domain_i extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

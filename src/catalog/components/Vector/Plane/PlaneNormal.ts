@@ -10,6 +10,7 @@ export default class PlaneNormal extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane perpendicular to a vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class PlaneNormalInput_origin_o extends ResthopperParameter {
 	public name: string = "Origin";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class PlaneNormalInput_zaxis_z extends ResthopperParameter {
 	public name: string = "ZAxis";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class PlaneNormalOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

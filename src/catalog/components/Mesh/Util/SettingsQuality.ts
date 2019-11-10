@@ -10,6 +10,7 @@ export default class SettingsQuality extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Represents 'Smooth & slower' mesh settings.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class SettingsQualityOutput_settings_s extends ResthopperParameter {
 	public name: string = "Settings";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "MeshParameters;"
+	public typeName: string = "MeshParameters"
 
 	constructor() {
 		super();

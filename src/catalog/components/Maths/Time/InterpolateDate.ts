@@ -10,6 +10,7 @@ export default class InterpolateDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Interpolate between two dates or times.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class InterpolateDateInput_datea_a extends ResthopperParameter {
 	public name: string = "DateA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class InterpolateDateInput_dateb_b extends ResthopperParameter {
 	public name: string = "DateB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class InterpolateDateInput_interpolation_t extends ResthopperParameter {
 	public name: string = "Interpolation";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class InterpolateDateOutput_date_d extends ResthopperParameter {
 	public name: string = "Date";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();

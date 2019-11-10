@@ -10,6 +10,7 @@ export default class Radians extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Convert an angle specified in degrees to radians";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class RadiansInput_degrees_d extends ResthopperParameter {
 	public name: string = "Degrees";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class RadiansOutput_radians_r extends ResthopperParameter {
 	public name: string = "Radians";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

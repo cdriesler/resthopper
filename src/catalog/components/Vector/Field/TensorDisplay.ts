@@ -10,6 +10,7 @@ export default class TensorDisplay extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Display the tensor vectors of a field section";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -44,7 +45,7 @@ class TensorDisplayInput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TensorDisplayInput_section_s extends ResthopperParameter {
 	public name: string = "Section";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TensorDisplayInput_samples_n extends ResthopperParameter {
 	public name: string = "Samples";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

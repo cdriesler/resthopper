@@ -10,6 +10,7 @@ export default class PlanePlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve the intersection event of two planes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class PlanePlaneInput_planea_a extends ResthopperParameter {
 	public name: string = "PlaneA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class PlanePlaneInput_planeb_b extends ResthopperParameter {
 	public name: string = "PlaneB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class PlanePlaneOutput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class Sporph extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deforms an object from a source surface to a target surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -50,7 +51,7 @@ class SporphInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class SporphInput_base_s0 extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "S0";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class SporphInput_parameter_p0 extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "P0";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class SporphInput_target_s1 extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "S1";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class SporphInput_parameter_p1 extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "P1";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class SporphInput_rigid_r extends ResthopperParameter {
 	public name: string = "Rigid";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class SporphOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

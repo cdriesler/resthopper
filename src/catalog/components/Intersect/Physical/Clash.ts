@@ -10,6 +10,7 @@ export default class Clash extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Perform clash analysis on a set of shapes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -54,7 +55,7 @@ class ClashInput_firstset_a extends ResthopperParameter {
 	public name: string = "FirstSet";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -68,7 +69,7 @@ class ClashInput_secondset_b extends ResthopperParameter {
 	public name: string = "SecondSet";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -82,7 +83,7 @@ class ClashInput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -96,7 +97,7 @@ class ClashInput_resultlimit_l extends ResthopperParameter {
 	public name: string = "ResultLimit";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -110,7 +111,7 @@ class ClashOutput_clashcount_n extends ResthopperParameter {
 	public name: string = "ClashCount";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -124,7 +125,7 @@ class ClashOutput_clashpoints_p extends ResthopperParameter {
 	public name: string = "ClashPoints";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -138,7 +139,7 @@ class ClashOutput_clashradii_r extends ResthopperParameter {
 	public name: string = "ClashRadii";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -152,7 +153,7 @@ class ClashOutput_firstindex_i extends ResthopperParameter {
 	public name: string = "FirstIndex";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -166,7 +167,7 @@ class ClashOutput_secondindex_j extends ResthopperParameter {
 	public name: string = "Secondindex";
 	public nickName: string = "j";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

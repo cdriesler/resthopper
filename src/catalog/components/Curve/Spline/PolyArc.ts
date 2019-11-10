@@ -10,6 +10,7 @@ export default class PolyArc extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a polycurve consisting of arc and line segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class PolyArcInput_vertices_v extends ResthopperParameter {
 	public name: string = "Vertices";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class PolyArcInput_tangent_t extends ResthopperParameter {
 	public name: string = "Tangent";
 	public nickName: string = "T";
 	public isOptional: boolean = true;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class PolyArcInput_closed_c extends ResthopperParameter {
 	public name: string = "Closed";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class PolyArcOutput_polyarc_crv extends ResthopperParameter {
 	public name: string = "PolyArc";
 	public nickName: string = "Crv";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

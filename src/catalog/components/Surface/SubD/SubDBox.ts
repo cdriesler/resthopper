@@ -10,6 +10,7 @@ export default class SubDBox extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Create a subdivision box";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -44,7 +45,7 @@ class SubDBoxInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SubDBoxInput_density_d extends ResthopperParameter {
 	public name: string = "Density";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SubDBoxInput_creases_c extends ResthopperParameter {
 	public name: string = "Creases";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SubDBoxOutput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class GraftTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Graft a data tree by adding an extra branch for every item.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -40,7 +41,7 @@ class GraftTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class GraftTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

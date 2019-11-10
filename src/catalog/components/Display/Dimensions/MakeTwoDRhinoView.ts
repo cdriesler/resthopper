@@ -10,6 +10,7 @@ export default class MakeTwoDRhinoView extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Import a Rhino view for a Make2D solution";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class MakeTwoDRhinoViewInput_name_n extends ResthopperParameter {
 	public name: string = "Name";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MakeTwoDRhinoViewInput_clip_c extends ResthopperParameter {
 	public name: string = "Clip";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MakeTwoDRhinoViewOutput_view_v extends ResthopperParameter {
 	public name: string = "View";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Projection;"
+	public typeName: string = "Projection"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class TransposeMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Transpose a matrix (swap rows and columns)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class TransposeMatrixInput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class TransposeMatrixOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class BoxArray extends ResthopperComponent {
 	public subCategory: string = "Array";
 	public description: string = "Create a box array of geometry.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -50,7 +51,7 @@ class BoxArrayInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = true;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class BoxArrayInput_cell_c extends ResthopperParameter {
 	public name: string = "Cell";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class BoxArrayInput_xcount_x extends ResthopperParameter {
 	public name: string = "XCount";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class BoxArrayInput_ycount_y extends ResthopperParameter {
 	public name: string = "YCount";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class BoxArrayInput_zcount_z extends ResthopperParameter {
 	public name: string = "ZCount";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class BoxArrayOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class BoxArrayOutput_transform_x extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

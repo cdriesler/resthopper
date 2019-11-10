@@ -10,6 +10,7 @@ export default class SplitAHSV extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Split a colour into floating point {AHSV} channels";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -46,7 +47,7 @@ class SplitAHSVInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SplitAHSVOutput_alpha_a extends ResthopperParameter {
 	public name: string = "Alpha";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SplitAHSVOutput_hue_h extends ResthopperParameter {
 	public name: string = "Hue";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SplitAHSVOutput_saturation_s extends ResthopperParameter {
 	public name: string = "Saturation";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SplitAHSVOutput_value_v extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

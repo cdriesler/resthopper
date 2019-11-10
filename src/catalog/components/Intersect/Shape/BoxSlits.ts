@@ -10,6 +10,7 @@ export default class BoxSlits extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Add slits to a collection of intersecting boxes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class BoxSlitsInput_boxes_b extends ResthopperParameter {
 	public name: string = "Boxes";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class BoxSlitsInput_gap_g extends ResthopperParameter {
 	public name: string = "Gap";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class BoxSlitsOutput_breps_b extends ResthopperParameter {
 	public name: string = "Breps";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class BoxSlitsOutput_topology_t extends ResthopperParameter {
 	public name: string = "Topology";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

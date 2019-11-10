@@ -10,6 +10,7 @@ export default class SubDControlPolygon extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Extract the control polygon from a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -40,7 +41,7 @@ class SubDControlPolygonInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class SubDControlPolygonOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

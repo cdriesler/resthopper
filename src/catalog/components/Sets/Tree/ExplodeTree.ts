@@ -10,6 +10,7 @@ export default class ExplodeTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Extract all the branches from a tree";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Grasshopper";
 
@@ -40,7 +41,7 @@ class ExplodeTreeInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class ExplodeTreeOutput_branch1_ extends ResthopperParameter {
 	public name: string = "Branch1";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

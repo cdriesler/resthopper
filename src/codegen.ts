@@ -1,8 +1,11 @@
 import axios from 'axios';
 import fs from 'fs';
+import rimraf from 'rimraf';
 import Parse from './predicates/Parse';
 import ResthopperComponent from './models/ResthopperComponent';
 import ResthopperParameter from './models/ResthopperParameter';
+
+rimraf.sync("./src/catalog");
 
 // Get server configuration and convert response objects to resthopper model
 axios.get("http://localhost:8081/grasshopper").then(x => {
@@ -67,6 +70,7 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
 
         let text: string[] = [
             "import ResthopperParameter from './../../models/ResthopperParameter';",
+            "import { newGuid } from './../../utils/Guid';",
             "",
             `export class ${className}Param extends ResthopperParameter {`,
             "",
@@ -86,6 +90,7 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
             "\tconstructor(value?: any) {",
             "\t\tsuper();",
             "\t\tthis.values = [value!] ?? [];",
+            "\t\tthis.instanceGuid = newGuid();",
             "\t}",
             "",
             "}"
@@ -176,6 +181,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             `\tpublic subCategory: string = "${c.subCategory}";`,
             `\tpublic description: string = "${c.description}";`,
             `\tpublic isObsolete: boolean = ${c.isObsolete};`,
+            `\tpublic isVariable: boolean = ${c.isVariable};`,
             "",
             `\tpublic library: string = "${c.libraryName}";`,
             "",
@@ -212,7 +218,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
                 `\tpublic name: string = "${i.name}";`,
                 `\tpublic nickName: string = "${i.nickName}";`,
                 `\tpublic isOptional: boolean = ${i.isOptional};`,
-                `\tpublic typeName: string = "${i.typeName};"`,
+                `\tpublic typeName: string = "${i.typeName}"`,
                 "",
                 "\tconstructor() {",
                 "\t\tsuper();",
@@ -233,7 +239,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
                 `\tpublic name: string = "${o.name}";`,
                 `\tpublic nickName: string = "${o.nickName}";`,
                 `\tpublic isOptional: boolean = ${o.isOptional};`,
-                `\tpublic typeName: string = "${o.typeName};"`,
+                `\tpublic typeName: string = "${o.typeName}"`,
                 "",
                 "\tconstructor() {",
                 "\t\tsuper();",
@@ -285,6 +291,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
     const path = "./src/catalog/ComponentIndex.ts";
 
     var indexImports: string[] = ["import ResthopperComponent from '../models/ResthopperComponent';"];
+    var indexExports: string[] = [];
     var indexCases: string[] = [];
     var indexTypes: string[] = [];
 
@@ -296,12 +303,14 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         }
 
         const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
-        if (indexTypes.includes(className)) {
+        if (indexTypes.includes(`"${className}"`) || className == "Transform") {
             return;
         }
 
         indexTypes.push(`"${className}"`);
         indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${c.category}.${c.subCategory}.${className}();`)
+
+        indexExports.push(`import ${className} from './components/${c.category}/${c.subCategory}/${className}';`)
     });
 
     var text: string[] = [
@@ -325,6 +334,12 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         "\t\treturn this.names.map(x => this.createComponent(x as GrasshopperComponent));",
         "\t}",
         "",
+        "}",
+        "",
+        indexExports.join("\n"),
+        "",
+        "export {",
+        indexTypes.map(x => `\t${x.replace('"', "").replace('"', "")}`).join(",\n"),
         "}",
         "",
         `export type GrasshopperComponent =\n${indexTypes.join(" |\n")}`

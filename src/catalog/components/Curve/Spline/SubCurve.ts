@@ -10,6 +10,7 @@ export default class SubCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a curve from the sub-domain of a base curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class SubCurveInput_basecurve_c extends ResthopperParameter {
 	public name: string = "Basecurve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SubCurveInput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class SubCurveOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

@@ -352,80 +352,135 @@ export default class ResthopperDefinition {
             `${t}\t\t\t</items>`,
             `${t}\t\t\t<chunks count="2">`,
             `${t}\t\t\t\t<chunk name="Attributes" />`,
-            `${t}\t\t\t\t<chunk name="ParameterData">`,
-            `${t}\t\t\t\t\t<items count="${c.getInputCount() + c.getOutputCount() + 2}">`,
         ];
 
-        // Compile top-level input and output ids
-        const paramGuid = newGuid();
+        if (c.isVariable) {
+            component = component.concat([
+                `${t}\t\t\t\t<chunk name="ParameterData">`,
+                `${t}\t\t\t\t\t<items count="${c.getInputCount() + c.getOutputCount() + 2}">`,
+            ])
 
-        component.push(`${t}\t\t\t\t\t\t<item name="InputCount" type_name="gh_int32" type_code="3">${c.getInputCount()}</item>`);
-        for(let j = 0; j < c.getInputCount(); j++) {
-            component.push(`${t}\t\t\t\t\t\t<item name="InputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
-        }
+            // Compile top-level input and output ids
+            const paramGuid = newGuid();
 
-        component.push(`${t}\t\t\t\t\t\t<item name="OutputCount" type_name="gh_int32" type_code="3">${c.getOutputCount()}</item>`);
-        for(let j = 0; j < c.getOutputCount(); j++) {
-            component.push(`${t}\t\t\t\t\t\t<item name="OutputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
-        }
+            component.push(`${t}\t\t\t\t\t\t<item name="InputCount" type_name="gh_int32" type_code="3">${c.getInputCount()}</item>`);
+            for(let j = 0; j < c.getInputCount(); j++) {
+                component.push(`${t}\t\t\t\t\t\t<item name="InputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
+            }
 
-        // Compile inputs and outputs
-        component = component.concat([
-            `${t}\t\t\t\t\t</items>`,
-            `${t}\t\t\t\t\t<chunks count="${c.getInputCount() + c.getOutputCount()}">`
-        ]);
+            component.push(`${t}\t\t\t\t\t\t<item name="OutputCount" type_name="gh_int32" type_code="3">${c.getOutputCount()}</item>`);
+            for(let j = 0; j < c.getOutputCount(); j++) {
+                component.push(`${t}\t\t\t\t\t\t<item name="OutputId" index="${j}" type_name="gh_guid" type_code="9">${paramGuid}</item>`);
+            }
 
-        const tabs = this.getTabs(12);
+            // Compile inputs and outputs
+            component = component.concat([
+                `${t}\t\t\t\t\t</items>`,
+                `${t}\t\t\t\t\t<chunks count="${c.getInputCount() + c.getOutputCount()}">`
+            ]);
 
-        // Compile inputs and their sources
-        for(let j = 0; j < c.getInputCount(); j++) {
-            const input = c.getInputByIndex(j);
+            const tabs = this.getTabs(12);
 
-            if (input == undefined) {
-                continue;
+            // Compile inputs and their sources
+            for(let j = 0; j < c.getInputCount(); j++) {
+                const input = c.getInputByIndex(j);
+
+                if (input == undefined) {
+                    continue;
+                }
+
+                component = component.concat([
+                    `${tabs}<chunk name="InputParam" index="${j}">`,
+                    `${tabs}\t<items count="4">`,
+                    `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.instanceGuid}</item>`,
+                    `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">${input.isOptional}</item>`,
+                    input.sources.length > 0 ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${input.sources[0]}</item>` : "",
+                    `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${input.sources.length}</item>`,
+                    `${tabs}\t</items>`,
+                    `${tabs}\t<chunks count="1">`,
+                    `${tabs}\t\t<chunk name="Attributes" />`,
+                    `${tabs}\t</chunks>`,
+                    `${tabs}</chunk>`
+                ]);
+            }
+
+            // Compile outputs with empty sources
+            for(let j = 0; j < c.getOutputCount(); j++) {
+                const output = c.getOutputByIndex(j);
+
+                if (output == undefined) {
+                    continue;
+                }
+
+                component = component.concat([
+                    `${tabs}<chunk name="OutputParam" index="${j}">`,
+                    `${tabs}\t<items count="3">`,
+                    `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.instanceGuid}</item>`,
+                    `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">false</item>`,
+                    `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
+                    `${tabs}\t</items>`,
+                    `${tabs}\t<chunks count="1">`,
+                    `${tabs}\t\t<chunk name="Attributes" />`,
+                    `${tabs}\t</chunks>`,
+                    `${tabs}</chunk>`
+                ]);
             }
 
             component = component.concat([
-                `${tabs}<chunk name="InputParam" index="${j}">`,
-                `${tabs}\t<items count="4">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.instanceGuid}</item>`,
-                `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">${input.isOptional}</item>`,
-                input.sources.length > 0 ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${input.sources[0]}</item>` : "",
-                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${input.sources.length}</item>`,
-                `${tabs}\t</items>`,
-                `${tabs}\t<chunks count="1">`,
-                `${tabs}\t\t<chunk name="Attributes" />`,
-                `${tabs}\t</chunks>`,
-                `${tabs}</chunk>`
+                `${t}\t\t\t\t\t</chunks>`,
+                `${t}\t\t\t\t</chunk>`,
             ]);
         }
+        else {
+            const tabs = this.getTabs(10);
 
-        // Compile outputs with empty sources
-        for(let j = 0; j < c.getOutputCount(); j++) {
-            const output = c.getOutputByIndex(j);
+            for(let j = 0; j < c.getInputCount(); j++) {
+                
+                const input = c.getInputByIndex(j);
 
-            if (output == undefined) {
-                continue;
+                if (input == undefined) {
+                    continue;
+                }
+
+                component = component.concat([
+                    `${tabs}<chunk name="param_input" index="${j}">`,
+                    `${tabs}\t<items count="4">`,
+                    `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${input.instanceGuid}</item>`,
+                    `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">${input.isOptional}</item>`,
+                    input.sources.length > 0 ? `${tabs}\t\t<item name="Source" index="0" type_name="gh_guid" type_code="9">${input.sources[0]}</item>` : "",
+                    `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">${input.sources.length}</item>`,
+                    `${tabs}\t</items>`,
+                    `${tabs}\t<chunks count="1">`,
+                    `${tabs}\t\t<chunk name="Attributes" />`,
+                    `${tabs}\t</chunks>`,
+                    `${tabs}</chunk>`
+                ]);
             }
 
-            component = component.concat([
-                `${tabs}<chunk name="OutputParam" index="${j}">`,
-                `${tabs}\t<items count="3">`,
-                `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.instanceGuid}</item>`,
-                `${tabs}\t\t<item name="optional" type_name="gh_bool" type_code="1">false</item>`,
-                `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
-                `${tabs}\t</items>`,
-                `${tabs}\t<chunks count="1">`,
-                `${tabs}\t\t<chunk name="Attributes" />`,
-                `${tabs}\t</chunks>`,
-                `${tabs}</chunk>`
-            ]);
+            for(let j = 0; j < c.getOutputCount(); j++) {
+                const output = c.getOutputByIndex(j);
+
+                if (output == undefined) {
+                    continue;
+                }
+
+                component = component.concat([
+                    `${tabs}<chunk name="param_output" index="${j}">`,
+                    `${tabs}\t<items count="3">`,
+                    `${tabs}\t\t<item name="InstanceGuid" type_name="gh_guid" type_code="9">${output.instanceGuid}</item>`,
+                    `${tabs}\t\t<item name="Optional" type_name="gh_bool" type_code="1">false</item>`,
+                    `${tabs}\t\t<item name="SourceCount" type_name="gh_int32" type_code="3">0</item>`,
+                    `${tabs}\t</items>`,
+                    `${tabs}\t<chunks count="1">`,
+                    `${tabs}\t\t<chunk name="Attributes" />`,
+                    `${tabs}\t</chunks>`,
+                    `${tabs}</chunk>`
+                ]);
+            }
         }
 
         // Finish component compilation
         component = component.concat([
-            `${t}\t\t\t\t\t</chunks>`,
-            `${t}\t\t\t\t</chunk>`,
             `${t}\t\t\t</chunks>`,
             `${t}\t\t</chunk>`,
             `${t}\t</chunks>`,

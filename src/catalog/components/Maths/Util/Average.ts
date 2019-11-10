@@ -10,6 +10,7 @@ export default class Average extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Solve the arithmetic average for a set of items";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class AverageInput_input_i extends ResthopperParameter {
 	public name: string = "Input";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class AverageOutput_arithmeticmean_am extends ResthopperParameter {
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

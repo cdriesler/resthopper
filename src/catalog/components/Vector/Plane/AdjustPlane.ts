@@ -10,6 +10,7 @@ export default class AdjustPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Adjust a plane to match a new normal direction";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class AdjustPlaneInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class AdjustPlaneInput_normal_n extends ResthopperParameter {
 	public name: string = "Normal";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class AdjustPlaneOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

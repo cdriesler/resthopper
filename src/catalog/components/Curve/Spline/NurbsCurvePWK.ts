@@ -10,6 +10,7 @@ export default class NurbsCurvePWK extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a nurbs curve from control points, weights and knots.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class NurbsCurvePWKInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class NurbsCurvePWKInput_weights_w extends ResthopperParameter {
 	public name: string = "Weights";
 	public nickName: string = "W";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class NurbsCurvePWKInput_knots_k extends ResthopperParameter {
 	public name: string = "Knots";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class NurbsCurvePWKOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class NurbsCurvePWKOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class NurbsCurvePWKOutput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

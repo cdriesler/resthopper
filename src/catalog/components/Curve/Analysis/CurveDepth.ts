@@ -10,6 +10,7 @@ export default class CurveDepth extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the depth of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -50,7 +51,7 @@ class CurveDepthInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class CurveDepthInput_minimum_min extends ResthopperParameter {
 	public name: string = "Minimum";
 	public nickName: string = "Min";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class CurveDepthInput_maximum_max extends ResthopperParameter {
 	public name: string = "Maximum";
 	public nickName: string = "Max";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class CurveDepthOutput_minimumparameter_tmin extends ResthopperParameter {
 	public name: string = "MinimumParameter";
 	public nickName: string = "tMin";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class CurveDepthOutput_minimumdepth_dmin extends ResthopperParameter {
 	public name: string = "MinimumDepth";
 	public nickName: string = "dMin";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class CurveDepthOutput_maximumparameter_tmax extends ResthopperParameter {
 	public name: string = "MaximumParameter";
 	public nickName: string = "tMax";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class CurveDepthOutput_maximumdepth_dmax extends ResthopperParameter {
 	public name: string = "MaximumDepth";
 	public nickName: string = "dMax";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

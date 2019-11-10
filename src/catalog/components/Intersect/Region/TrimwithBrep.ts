@@ -10,6 +10,7 @@ export default class TrimwithBrep extends ResthopperComponent {
 	public subCategory: string = "Region";
 	public description: string = "Trim a curve with a Brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class TrimwithBrepInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TrimwithBrepInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TrimwithBrepOutput_inside_ci extends ResthopperParameter {
 	public name: string = "Inside";
 	public nickName: string = "Ci";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class TrimwithBrepOutput_outside_co extends ResthopperParameter {
 	public name: string = "Outside";
 	public nickName: string = "Co";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

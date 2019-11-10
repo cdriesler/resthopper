@@ -10,6 +10,7 @@ export default class CombineDateTime extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Combine a pure date and a pure time into a single date";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class CombineDateTimeInput_date_d extends ResthopperParameter {
 	public name: string = "Date";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CombineDateTimeInput_time_t extends ResthopperParameter {
 	public name: string = "Time";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CombineDateTimeOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();

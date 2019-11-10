@@ -10,6 +10,7 @@ export default class NumberstoPoints extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Convert a list of numbers to a list of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class NumberstoPointsInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class NumberstoPointsInput_mask_m extends ResthopperParameter {
 	public name: string = "Mask";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Coordinate Mask;"
+	public typeName: string = "Coordinate Mask"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class NumberstoPointsOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

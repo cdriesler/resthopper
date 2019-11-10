@@ -10,6 +10,7 @@ export default class DeconstructArc extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane, radius and angle domain of an arc.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class DeconstructArcInput_arc_a extends ResthopperParameter {
 	public name: string = "Arc";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Arc;"
+	public typeName: string = "Arc"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class DeconstructArcOutput_baseplane_b extends ResthopperParameter {
 	public name: string = "BasePlane";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class DeconstructArcOutput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class DeconstructArcOutput_angle_a extends ResthopperParameter {
 	public name: string = "Angle";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

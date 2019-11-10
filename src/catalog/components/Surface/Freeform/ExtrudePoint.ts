@@ -10,6 +10,7 @@ export default class ExtrudePoint extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude curves and surfaces to a point.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class ExtrudePointInput_base_b extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class ExtrudePointInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class ExtrudePointOutput_extrusion_e extends ResthopperParameter {
 	public name: string = "Extrusion";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

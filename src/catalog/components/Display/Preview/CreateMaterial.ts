@@ -10,6 +10,7 @@ export default class CreateMaterial extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Create an OpenGL material.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -48,7 +49,7 @@ class CreateMaterialInput_diffuse_kd extends ResthopperParameter {
 	public name: string = "Diffuse";
 	public nickName: string = "Kd";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class CreateMaterialInput_specular_ks extends ResthopperParameter {
 	public name: string = "Specular";
 	public nickName: string = "Ks";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class CreateMaterialInput_emission_ke extends ResthopperParameter {
 	public name: string = "Emission";
 	public nickName: string = "Ke";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class CreateMaterialInput_transparency_t extends ResthopperParameter {
 	public name: string = "Transparency";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class CreateMaterialInput_shine_s extends ResthopperParameter {
 	public name: string = "Shine";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class CreateMaterialOutput_material_m extends ResthopperParameter {
 	public name: string = "Material";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Shader;"
+	public typeName: string = "Shader"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class RandomEx extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Generate random data between extremes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -46,7 +47,7 @@ class RandomExInput_min_l0 extends ResthopperParameter {
 	public name: string = "Min";
 	public nickName: string = "L0";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class RandomExInput_max_l1 extends ResthopperParameter {
 	public name: string = "Max";
 	public nickName: string = "L1";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class RandomExInput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class RandomExInput_seed_s extends ResthopperParameter {
 	public name: string = "Seed";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class RandomExOutput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

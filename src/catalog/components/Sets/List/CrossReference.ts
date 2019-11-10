@@ -10,6 +10,7 @@ export default class CrossReference extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Cross Reference data from multiple lists";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class CrossReferenceInput_lista_a extends ResthopperParameter {
 	public name: string = "ListA";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class CrossReferenceInput_listb_b extends ResthopperParameter {
 	public name: string = "ListB";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class CrossReferenceOutput_lista_a extends ResthopperParameter {
 	public name: string = "ListA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class CrossReferenceOutput_listb_b extends ResthopperParameter {
 	public name: string = "ListB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

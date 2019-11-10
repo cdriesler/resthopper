@@ -10,6 +10,7 @@ export default class TangentLines extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create tangent lines between a point and a circle";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class TangentLinesInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TangentLinesInput_circle_c extends ResthopperParameter {
 	public name: string = "Circle";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TangentLinesOutput_tangent1_t1 extends ResthopperParameter {
 	public name: string = "Tangent1";
 	public nickName: string = "T1";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class TangentLinesOutput_tangent2_t2 extends ResthopperParameter {
 	public name: string = "Tangent2";
 	public nickName: string = "T2";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

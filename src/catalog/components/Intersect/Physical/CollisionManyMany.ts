@@ -10,6 +10,7 @@ export default class CollisionManyMany extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Test for many|many collision between objects";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class CollisionManyManyInput_colliders_c extends ResthopperParameter {
 	public name: string = "Colliders";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CollisionManyManyOutput_collision_c extends ResthopperParameter {
 	public name: string = "Collision";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CollisionManyManyOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

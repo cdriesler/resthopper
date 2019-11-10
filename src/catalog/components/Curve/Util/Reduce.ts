@@ -10,6 +10,7 @@ export default class Reduce extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Reduce a polyline by removing least significant vertices.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class ReduceInput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class ReduceInput_tolerance_t extends ResthopperParameter {
 	public name: string = "Tolerance";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class ReduceOutput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class ReduceOutput_reduction_r extends ResthopperParameter {
 	public name: string = "Reduction";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

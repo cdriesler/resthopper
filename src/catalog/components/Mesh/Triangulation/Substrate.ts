@@ -10,6 +10,7 @@ export default class Substrate extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Substrate algorithm inspired by Jared Tarbell (Complexification.net)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 
@@ -48,7 +49,7 @@ class SubstrateInput_border_b extends ResthopperParameter {
 	public name: string = "Border";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class SubstrateInput_count_n extends ResthopperParameter {
 	public name: string = "Count";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class SubstrateInput_angles_a extends ResthopperParameter {
 	public name: string = "Angles";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class SubstrateInput_deviation_d extends ResthopperParameter {
 	public name: string = "Deviation";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class SubstrateInput_seed_s extends ResthopperParameter {
 	public name: string = "Seed";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class SubstrateOutput_substrate_s extends ResthopperParameter {
 	public name: string = "Substrate";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

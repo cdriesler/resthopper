@@ -10,6 +10,7 @@ export default class BlurNumbers extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Blur a list of numbers by averaging neighbours";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -48,7 +49,7 @@ class BlurNumbersInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class BlurNumbersInput_strength_s extends ResthopperParameter {
 	public name: string = "Strength";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class BlurNumbersInput_iterations_i extends ResthopperParameter {
 	public name: string = "Iterations";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class BlurNumbersInput_lock_l extends ResthopperParameter {
 	public name: string = "Lock";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class BlurNumbersInput_wrap_w extends ResthopperParameter {
 	public name: string = "Wrap";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class BlurNumbersOutput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

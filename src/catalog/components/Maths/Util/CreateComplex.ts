@@ -10,6 +10,7 @@ export default class CreateComplex extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create a complex number from a Real and an Imaginary component";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class CreateComplexInput_real_r extends ResthopperParameter {
 	public name: string = "Real";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CreateComplexInput_imaginary_i extends ResthopperParameter {
 	public name: string = "Imaginary";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CreateComplexOutput_complex_c extends ResthopperParameter {
 	public name: string = "Complex";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();

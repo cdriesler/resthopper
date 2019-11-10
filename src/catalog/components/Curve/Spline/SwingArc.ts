@@ -10,6 +10,7 @@ export default class SwingArc extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a polycurve consisting of arcs defined by center points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class SwingArcInput_centers_c extends ResthopperParameter {
 	public name: string = "Centers";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class SwingArcInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class SwingArcInput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class SwingArcOutput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class SwingArcOutput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class SwingArcOutput_circles_c extends ResthopperParameter {
 	public name: string = "Circles";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();

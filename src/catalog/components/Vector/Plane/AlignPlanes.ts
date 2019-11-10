@@ -10,6 +10,7 @@ export default class AlignPlanes extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Align planes by minimizing their serial rotation.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class AlignPlanesInput_planes_p extends ResthopperParameter {
 	public name: string = "Planes";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class AlignPlanesInput_master_m extends ResthopperParameter {
 	public name: string = "Master";
 	public nickName: string = "M";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class AlignPlanesOutput_planes_p extends ResthopperParameter {
 	public name: string = "Planes";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

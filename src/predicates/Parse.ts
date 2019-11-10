@@ -1,5 +1,6 @@
 import ResthopperComponent from "./../models/ResthopperComponent";
 import ResthopperParameter from "./../models/ResthopperParameter";
+import ResthopperSchema from "./../models/ResthopperSchema";
 
 interface ComputeObject {
     Guid: string;
@@ -9,6 +10,7 @@ interface ComputeObject {
     Category: string;
     Subcategory: string;
     IsObsolete: boolean;
+    IsVariable: boolean;
     Inputs: ComputeObjectParam[];
     Outputs: ComputeObjectParam[];
     LibraryName: string;
@@ -35,6 +37,7 @@ export default class Parse {
         rc.category = obj.Category;
         rc.subCategory = obj.Subcategory;
         rc.isObsolete = obj.IsObsolete;
+        rc.isVariable = obj.IsVariable;
         rc.libraryName = obj.LibraryName;
 
         (<any[]>object.Inputs).forEach(x => {
@@ -73,5 +76,9 @@ export default class Parse {
         p.description = component.description;
 
         return p;
+    }
+
+    public static ResthopperSchemaAsOutputValue(schema: ResthopperSchema): any {
+        return schema.values[0].InnerTree['{ 0; }'][0].data;
     }
 }

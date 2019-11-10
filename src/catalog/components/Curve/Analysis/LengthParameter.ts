@@ -10,6 +10,7 @@ export default class LengthParameter extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the length of a curve to and from a parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class LengthParameterInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class LengthParameterInput_parameter_p extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class LengthParameterOutput_length_l extends ResthopperParameter {
 	public name: string = "Length";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

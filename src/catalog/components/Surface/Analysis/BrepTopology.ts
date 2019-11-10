@@ -10,6 +10,7 @@ export default class BrepTopology extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get and display the topology of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class BrepTopologyInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class BrepTopologyOutput_facefaceadjacency_ff extends ResthopperParameter {
 	public name: string = "FaceFaceAdjacency";
 	public nickName: string = "FF";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class BrepTopologyOutput_faceedgeadjacency_fe extends ResthopperParameter {
 	public name: string = "FaceEdgeAdjacency";
 	public nickName: string = "FE";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class BrepTopologyOutput_edgefaceadjacency_ef extends ResthopperParameter {
 	public name: string = "EdgeFaceAdjacency";
 	public nickName: string = "EF";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

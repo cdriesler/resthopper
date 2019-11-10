@@ -10,6 +10,7 @@ export default class PointInBreps extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a point is inside a collection of closed breps";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class PointInBrepsInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class PointInBrepsInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class PointInBrepsInput_strict_s extends ResthopperParameter {
 	public name: string = "Strict";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class PointInBrepsOutput_inside_i extends ResthopperParameter {
 	public name: string = "Inside";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class PointInBrepsOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

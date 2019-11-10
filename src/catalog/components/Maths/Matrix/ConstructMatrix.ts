@@ -10,6 +10,7 @@ export default class ConstructMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Construct a matrix from initial values";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class ConstructMatrixInput_rows_r extends ResthopperParameter {
 	public name: string = "Rows";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class ConstructMatrixInput_columns_c extends ResthopperParameter {
 	public name: string = "Columns";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class ConstructMatrixInput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class ConstructMatrixOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();

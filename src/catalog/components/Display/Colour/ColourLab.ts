@@ -10,6 +10,7 @@ export default class ColourLab extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {CIE L*ab} channels.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class ColourLabInput_a_a extends ResthopperParameter {
 	public name: string = "A";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class ColourLabInput_luminance_l extends ResthopperParameter {
 	public name: string = "Luminance";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class ColourLabInput_b_b extends ResthopperParameter {
 	public name: string = "B";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class ColourLabOutput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

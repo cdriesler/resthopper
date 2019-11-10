@@ -10,6 +10,7 @@ export default class Random extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Generate a list of pseudo random numbers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class RandomInput_range_r extends ResthopperParameter {
 	public name: string = "Range";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class RandomInput_number_n extends ResthopperParameter {
 	public name: string = "Number";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class RandomInput_seed_s extends ResthopperParameter {
 	public name: string = "Seed";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class RandomOutput_random_r extends ResthopperParameter {
 	public name: string = "Random";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

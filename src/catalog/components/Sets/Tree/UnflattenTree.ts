@@ -10,6 +10,7 @@ export default class UnflattenTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Unflatten a data tree by moving items back into branches.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -42,7 +43,7 @@ class UnflattenTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class UnflattenTreeInput_guide_g extends ResthopperParameter {
 	public name: string = "Guide";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class UnflattenTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

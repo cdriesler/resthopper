@@ -10,6 +10,7 @@ export default class Characters extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Break text into individual characters";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class CharactersInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CharactersOutput_result_c extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CharactersOutput_unicode_u extends ResthopperParameter {
 	public name: string = "Unicode";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

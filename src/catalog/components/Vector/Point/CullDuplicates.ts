@@ -10,6 +10,7 @@ export default class CullDuplicates extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Cull points that are coincident within tolerance";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class CullDuplicatesInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class CullDuplicatesInput_tolerance_t extends ResthopperParameter {
 	public name: string = "Tolerance";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class CullDuplicatesOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class CullDuplicatesOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class CullDuplicatesOutput_valence_v extends ResthopperParameter {
 	public name: string = "Valence";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class Occlusion extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Solve occlusion for a collection of view rays and obstructions.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class OcclusionInput_samples_s extends ResthopperParameter {
 	public name: string = "Samples";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class OcclusionInput_obstructions_o extends ResthopperParameter {
 	public name: string = "Obstructions";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class OcclusionInput_rays_r extends ResthopperParameter {
 	public name: string = "Rays";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class OcclusionOutput_hits_h extends ResthopperParameter {
 	public name: string = "Hits";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class OcclusionOutput_occlusion_o extends ResthopperParameter {
 	public name: string = "Occlusion";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

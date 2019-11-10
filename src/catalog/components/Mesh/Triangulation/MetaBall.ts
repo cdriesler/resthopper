@@ -10,6 +10,7 @@ export default class MetaBall extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "2D Metaball isocurve through point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -46,7 +47,7 @@ class MetaBallInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class MetaBallInput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class MetaBallInput_point_x extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class MetaBallInput_accuracy_a extends ResthopperParameter {
 	public name: string = "Accuracy";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class MetaBallOutput_isocurve_i extends ResthopperParameter {
 	public name: string = "Isocurve";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

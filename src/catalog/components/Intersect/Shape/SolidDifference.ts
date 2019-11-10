@@ -10,6 +10,7 @@ export default class SolidDifference extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid difference on two Brep sets.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class SolidDifferenceInput_brepsa_a extends ResthopperParameter {
 	public name: string = "BrepsA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SolidDifferenceInput_brepsb_b extends ResthopperParameter {
 	public name: string = "BrepsB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class SolidDifferenceOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

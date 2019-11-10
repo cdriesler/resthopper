@@ -10,6 +10,7 @@ export default class DeconstructFace extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Deconstruct a mesh face into its four corner indices.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class DeconstructFaceInput_face_f extends ResthopperParameter {
 	public name: string = "Face";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh face;"
+	public typeName: string = "Mesh face"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class DeconstructFaceOutput_cornera_a extends ResthopperParameter {
 	public name: string = "CornerA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class DeconstructFaceOutput_cornerb_b extends ResthopperParameter {
 	public name: string = "CornerB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class DeconstructFaceOutput_cornerc_c extends ResthopperParameter {
 	public name: string = "CornerC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class DeconstructFaceOutput_cornerd_d extends ResthopperParameter {
 	public name: string = "CornerD";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

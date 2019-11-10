@@ -10,6 +10,7 @@ export default class LineLine extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane from two line segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class LineLineInput_linea_a extends ResthopperParameter {
 	public name: string = "LineA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class LineLineInput_lineb_b extends ResthopperParameter {
 	public name: string = "LineB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class LineLineOutput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

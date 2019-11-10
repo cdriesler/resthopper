@@ -10,6 +10,7 @@ export default class Line extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line between two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class LineInput_startpoint_a extends ResthopperParameter {
 	public name: string = "StartPoint";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class LineInput_endpoint_b extends ResthopperParameter {
 	public name: string = "EndPoint";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class LineOutput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

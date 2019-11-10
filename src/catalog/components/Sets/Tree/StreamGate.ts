@@ -10,6 +10,7 @@ export default class StreamGate extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Redirects a stream into specific outputs.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Grasshopper";
 
@@ -44,7 +45,7 @@ class StreamGateInput_stream_s extends ResthopperParameter {
 	public name: string = "Stream";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class StreamGateInput_gate_g extends ResthopperParameter {
 	public name: string = "Gate";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class StreamGateOutput_target0_0 extends ResthopperParameter {
 	public name: string = "Target0";
 	public nickName: string = "0";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class StreamGateOutput_target1_1 extends ResthopperParameter {
 	public name: string = "Target1";
 	public nickName: string = "1";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

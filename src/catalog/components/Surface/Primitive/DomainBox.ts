@@ -10,6 +10,7 @@ export default class DomainBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box defined by a base plane and size domains.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class DomainBoxInput_base_b extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class DomainBoxInput_x_x extends ResthopperParameter {
 	public name: string = "X";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class DomainBoxInput_y_y extends ResthopperParameter {
 	public name: string = "Y";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class DomainBoxInput_z_z extends ResthopperParameter {
 	public name: string = "Z";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class DomainBoxOutput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();

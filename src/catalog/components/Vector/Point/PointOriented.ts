@@ -10,6 +10,7 @@ export default class PointOriented extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Create a point from plane {u,v,w} coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class PointOrientedInput_baseplane_p extends ResthopperParameter {
 	public name: string = "Baseplane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class PointOrientedInput_ucomponent_u extends ResthopperParameter {
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class PointOrientedInput_vcomponent_v extends ResthopperParameter {
 	public name: string = "Vcomponent";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class PointOrientedInput_wcomponent_w extends ResthopperParameter {
 	public name: string = "Wcomponent";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class PointOrientedOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class ProximityThreeD extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Search for three-dimensional proximity within a point list";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 
@@ -46,7 +47,7 @@ class ProximityThreeDInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ProximityThreeDInput_group_g extends ResthopperParameter {
 	public name: string = "Group";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ProximityThreeDInput_maxradius_r extends ResthopperParameter {
 	public name: string = "MaxRadius";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ProximityThreeDOutput_links_l extends ResthopperParameter {
 	public name: string = "Links";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ProximityThreeDOutput_topology_t extends ResthopperParameter {
 	public name: string = "Topology";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class Taper extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deforms objects toward or away from an axis";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -52,7 +53,7 @@ class TaperInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -66,7 +67,7 @@ class TaperInput_axis_x extends ResthopperParameter {
 	public name: string = "Axis";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -80,7 +81,7 @@ class TaperInput_start_r0 extends ResthopperParameter {
 	public name: string = "Start";
 	public nickName: string = "R0";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -94,7 +95,7 @@ class TaperInput_end_r1 extends ResthopperParameter {
 	public name: string = "End";
 	public nickName: string = "R1";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -108,7 +109,7 @@ class TaperInput_flat_f extends ResthopperParameter {
 	public name: string = "Flat";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -122,7 +123,7 @@ class TaperInput_infinite_i extends ResthopperParameter {
 	public name: string = "Infinite";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -136,7 +137,7 @@ class TaperInput_rigid_r extends ResthopperParameter {
 	public name: string = "Rigid";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -150,7 +151,7 @@ class TaperOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

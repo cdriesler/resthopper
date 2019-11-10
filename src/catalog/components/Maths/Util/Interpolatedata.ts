@@ -10,6 +10,7 @@ export default class Interpolatedata extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Interpolate a collection of data.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class InterpolatedataInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class InterpolatedataInput_parameter_t extends ResthopperParameter {
 	public name: string = "Parameter";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class InterpolatedataOutput_value_v extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

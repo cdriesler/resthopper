@@ -10,6 +10,7 @@ export default class CenterBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box centered on a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class CenterBoxInput_base_b extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class CenterBoxInput_x_x extends ResthopperParameter {
 	public name: string = "X";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class CenterBoxInput_y_y extends ResthopperParameter {
 	public name: string = "Y";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class CenterBoxInput_z_z extends ResthopperParameter {
 	public name: string = "Z";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class CenterBoxOutput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();

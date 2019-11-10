@@ -10,6 +10,7 @@ export default class ToPolar extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Convert a 3D point to plane polar coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class ToPolarInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ToPolarInput_system_s extends ResthopperParameter {
 	public name: string = "System";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ToPolarOutput_phi_p extends ResthopperParameter {
 	public name: string = "Phi";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ToPolarOutput_theta_t extends ResthopperParameter {
 	public name: string = "Theta";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ToPolarOutput_radius_r extends ResthopperParameter {
 	public name: string = "Radius";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

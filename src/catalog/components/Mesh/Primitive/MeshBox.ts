@@ -10,6 +10,7 @@ export default class MeshBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh box.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class MeshBoxInput_base_b extends ResthopperParameter {
 	public name: string = "Base";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class MeshBoxInput_xcount_x extends ResthopperParameter {
 	public name: string = "XCount";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class MeshBoxInput_ycount_y extends ResthopperParameter {
 	public name: string = "YCount";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class MeshBoxInput_zcount_z extends ResthopperParameter {
 	public name: string = "ZCount";
 	public nickName: string = "Z";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class MeshBoxOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

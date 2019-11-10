@@ -10,6 +10,7 @@ export default class SubDfromMesh extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Create a subdivision surface from a control mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -46,7 +47,7 @@ class SubDfromMeshInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SubDfromMeshInput_creases_cr extends ResthopperParameter {
 	public name: string = "Creases";
 	public nickName: string = "Cr";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SubDfromMeshInput_corners_co extends ResthopperParameter {
 	public name: string = "Corners";
 	public nickName: string = "Co";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SubDfromMeshInput_interpolate_i extends ResthopperParameter {
 	public name: string = "Interpolate";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SubDfromMeshOutput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();

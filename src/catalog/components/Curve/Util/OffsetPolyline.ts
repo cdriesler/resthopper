@@ -10,6 +10,7 @@ export default class OffsetPolyline extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a 2D polyline";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class OffsetPolylineInput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class OffsetPolylineInput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class OffsetPolylineOutput_offset_o extends ResthopperParameter {
 	public name: string = "Offset";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class OffsetPolylineOutput_valid_v extends ResthopperParameter {
 	public name: string = "Valid";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

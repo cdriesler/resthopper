@@ -10,6 +10,7 @@ export default class KeyValueSearch extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Extract an item from a collection using a key-value match";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class KeyValueSearchInput_keys_k extends ResthopperParameter {
 	public name: string = "Keys";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class KeyValueSearchInput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class KeyValueSearchInput_search_s extends ResthopperParameter {
 	public name: string = "Search";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class KeyValueSearchOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

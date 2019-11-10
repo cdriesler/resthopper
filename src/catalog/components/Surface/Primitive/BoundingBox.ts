@@ -10,6 +10,7 @@ export default class BoundingBox extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Solve oriented geometry bounding boxes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class BoundingBoxInput_content_c extends ResthopperParameter {
 	public name: string = "Content";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class BoundingBoxInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class BoundingBoxOutput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();

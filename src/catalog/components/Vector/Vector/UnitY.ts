@@ -10,6 +10,7 @@ export default class UnitY extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Unit vector parallel to the world {y} axis.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -40,7 +41,7 @@ class UnitYInput_factor_f extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class UnitYOutput_unitvector_v extends ResthopperParameter {
 	public name: string = "Unitvector";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

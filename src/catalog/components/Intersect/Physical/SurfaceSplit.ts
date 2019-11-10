@@ -10,6 +10,7 @@ export default class SurfaceSplit extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Split a surface with a bunch of curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class SurfaceSplitInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SurfaceSplitInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class SurfaceSplitOutput_fragments_f extends ResthopperParameter {
 	public name: string = "Fragments";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

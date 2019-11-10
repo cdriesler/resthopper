@@ -10,6 +10,7 @@ export default class Naturallogarithm extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Returns a factor of the natural number (e).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class NaturallogarithmInput_factor_n extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class NaturallogarithmOutput_output_y extends ResthopperParameter {
 	public name: string = "Output";
 	public nickName: string = "y";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

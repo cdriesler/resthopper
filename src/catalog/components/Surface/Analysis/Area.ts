@@ -10,6 +10,7 @@ export default class Area extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve area properties for breps, meshes and planar closed curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class AreaInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class AreaOutput_area_a extends ResthopperParameter {
 	public name: string = "Area";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class AreaOutput_centroid_c extends ResthopperParameter {
 	public name: string = "Centroid";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

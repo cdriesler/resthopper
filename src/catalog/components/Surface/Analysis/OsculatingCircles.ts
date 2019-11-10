@@ -10,6 +10,7 @@ export default class OsculatingCircles extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Calculate the principal osculating circles of a surface at a {uv} coordinate.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class OsculatingCirclesInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class OsculatingCirclesInput_point_uv extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class OsculatingCirclesOutput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class OsculatingCirclesOutput_firstcircle_c1 extends ResthopperParameter {
 	public name: string = "Firstcircle";
 	public nickName: string = "C1";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class OsculatingCirclesOutput_secondcircle_c2 extends ResthopperParameter {
 	public name: string = "Secondcircle";
 	public nickName: string = "C2";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

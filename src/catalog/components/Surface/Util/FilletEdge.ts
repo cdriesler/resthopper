@@ -10,6 +10,7 @@ export default class FilletEdge extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Fillet some edges of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class FilletEdgeInput_shape_s extends ResthopperParameter {
 	public name: string = "Shape";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class FilletEdgeInput_blend_b extends ResthopperParameter {
 	public name: string = "Blend";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class FilletEdgeInput_metric_m extends ResthopperParameter {
 	public name: string = "Metric";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class FilletEdgeInput_edges_e extends ResthopperParameter {
 	public name: string = "Edges";
 	public nickName: string = "E";
 	public isOptional: boolean = true;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class FilletEdgeInput_radii_r extends ResthopperParameter {
 	public name: string = "Radii";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class FilletEdgeOutput_result_b extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

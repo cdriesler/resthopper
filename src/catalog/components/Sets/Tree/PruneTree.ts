@@ -10,6 +10,7 @@ export default class PruneTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Remove small branches from a Data Tree.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -44,7 +45,7 @@ class PruneTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class PruneTreeInput_minimum_n0 extends ResthopperParameter {
 	public name: string = "Minimum";
 	public nickName: string = "N0";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class PruneTreeInput_maximum_n1 extends ResthopperParameter {
 	public name: string = "Maximum";
 	public nickName: string = "N1";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class PruneTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

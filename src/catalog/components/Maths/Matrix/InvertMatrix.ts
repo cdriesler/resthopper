@@ -10,6 +10,7 @@ export default class InvertMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Invert a matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class InvertMatrixInput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class InvertMatrixInput_tolerance_t extends ResthopperParameter {
 	public name: string = "Tolerance";
 	public nickName: string = "t";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class InvertMatrixOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class InvertMatrixOutput_success_s extends ResthopperParameter {
 	public name: string = "Success";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

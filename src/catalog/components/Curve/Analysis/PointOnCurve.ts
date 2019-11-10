@@ -10,6 +10,7 @@ export default class PointOnCurve extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluates a curve at a specific location";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

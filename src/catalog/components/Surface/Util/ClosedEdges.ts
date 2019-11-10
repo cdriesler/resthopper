@@ -10,6 +10,7 @@ export default class ClosedEdges extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Select closed edges.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class ClosedEdgesInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class ClosedEdgesInput_tangency_t extends ResthopperParameter {
 	public name: string = "Tangency";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class ClosedEdgesOutput_closed_c extends ResthopperParameter {
 	public name: string = "Closed";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class ClosedEdgesOutput_closedindices_ci extends ResthopperParameter {
 	public name: string = "ClosedIndices";
 	public nickName: string = "Ci";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class ClosedEdgesOutput_open_o extends ResthopperParameter {
 	public name: string = "Open";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class ClosedEdgesOutput_openindices_oi extends ResthopperParameter {
 	public name: string = "OpenIndices";
 	public nickName: string = "Oi";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

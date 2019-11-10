@@ -10,6 +10,7 @@ export default class CurveToPolyline extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Convert a curve to a polyline.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class CurveToPolylineInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class CurveToPolylineInput_tolerancedistance_td extends ResthopperParameter {
 	public name: string = "Tolerancedistance";
 	public nickName: string = "Td";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class CurveToPolylineInput_toleranceangle_ta extends ResthopperParameter {
 	public name: string = "Toleranceangle";
 	public nickName: string = "Ta";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class CurveToPolylineInput_maxedge_e extends ResthopperParameter {
 	public name: string = "MaxEdge";
 	public nickName: string = "E";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class CurveToPolylineOutput_polyline_p extends ResthopperParameter {
 	public name: string = "Polyline";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class CurveToPolylineOutput_segments_s extends ResthopperParameter {
 	public name: string = "Segments";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

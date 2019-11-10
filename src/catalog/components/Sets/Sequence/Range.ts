@@ -10,6 +10,7 @@ export default class Range extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Create a range of numbers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class RangeInput_domain_d extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class RangeInput_steps_n extends ResthopperParameter {
 	public name: string = "Steps";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class RangeOutput_range_r extends ResthopperParameter {
 	public name: string = "Range";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

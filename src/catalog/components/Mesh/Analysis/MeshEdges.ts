@@ -10,6 +10,7 @@ export default class MeshEdges extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get all the edges of a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class MeshEdgesInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class MeshEdgesOutput_nakededges_e1 extends ResthopperParameter {
 	public name: string = "NakedEdges";
 	public nickName: string = "E1";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class MeshEdgesOutput_interioredges_e2 extends ResthopperParameter {
 	public name: string = "InteriorEdges";
 	public nickName: string = "E2";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class MeshEdgesOutput_nonmanifoldedges_e3 extends ResthopperParameter {
 	public name: string = "NonManifoldEdges";
 	public nickName: string = "E3";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

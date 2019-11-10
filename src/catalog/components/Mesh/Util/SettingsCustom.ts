@@ -10,6 +10,7 @@ export default class SettingsCustom extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Represents custom mesh settings.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -58,7 +59,7 @@ class SettingsCustomInput_stitchseams_stitch extends ResthopperParameter {
 	public name: string = "StitchSeams";
 	public nickName: string = "Stitch";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SettingsCustomInput_simpleplanes_planes extends ResthopperParameter {
 	public name: string = "SimplePlanes";
 	public nickName: string = "Planes";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SettingsCustomInput_refine_refine extends ResthopperParameter {
 	public name: string = "Refine";
 	public nickName: string = "Refine";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -100,7 +101,7 @@ class SettingsCustomInput_mincount_min extends ResthopperParameter {
 	public name: string = "MinCount";
 	public nickName: string = "Min";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -114,7 +115,7 @@ class SettingsCustomInput_maxcount_max extends ResthopperParameter {
 	public name: string = "MaxCount";
 	public nickName: string = "Max";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -128,7 +129,7 @@ class SettingsCustomInput_aspectratio_aspect extends ResthopperParameter {
 	public name: string = "AspectRatio";
 	public nickName: string = "Aspect";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -142,7 +143,7 @@ class SettingsCustomInput_maxdistance_maxdist extends ResthopperParameter {
 	public name: string = "MaxDistance";
 	public nickName: string = "MaxDist";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -156,7 +157,7 @@ class SettingsCustomInput_maxangle_maxangle extends ResthopperParameter {
 	public name: string = "MaxAngle";
 	public nickName: string = "MaxAngle";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -170,7 +171,7 @@ class SettingsCustomInput_minedge_minedge extends ResthopperParameter {
 	public name: string = "MinEdge";
 	public nickName: string = "MinEdge";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -184,7 +185,7 @@ class SettingsCustomInput_maxedge_maxedge extends ResthopperParameter {
 	public name: string = "MaxEdge";
 	public nickName: string = "MaxEdge";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -198,7 +199,7 @@ class SettingsCustomOutput_settings_s extends ResthopperParameter {
 	public name: string = "Settings";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "MeshParameters;"
+	public typeName: string = "MeshParameters"
 
 	constructor() {
 		super();

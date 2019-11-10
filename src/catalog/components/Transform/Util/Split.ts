@@ -10,6 +10,7 @@ export default class Split extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Split a compound transformation into fragments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -40,7 +41,7 @@ class SplitInput_transform_t extends ResthopperParameter {
 	public name: string = "Transform";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class SplitOutput_fragments_f extends ResthopperParameter {
 	public name: string = "Fragments";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Transform;"
+	public typeName: string = "Transform"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class FlipMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Flip the normal vectors of a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class FlipMeshInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class FlipMeshInput_vertexnormals_vn extends ResthopperParameter {
 	public name: string = "VertexNormals";
 	public nickName: string = "Vn";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class FlipMeshInput_facenormals_fn extends ResthopperParameter {
 	public name: string = "FaceNormals";
 	public nickName: string = "Fn";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class FlipMeshInput_faceorientation_fo extends ResthopperParameter {
 	public name: string = "FaceOrientation";
 	public nickName: string = "Fo";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class FlipMeshOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class Closed extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test if a curve is closed or periodic.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -42,7 +43,7 @@ class ClosedInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class ClosedOutput_closed_c extends ResthopperParameter {
 	public name: string = "Closed";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class ClosedOutput_periodic_p extends ResthopperParameter {
 	public name: string = "Periodic";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

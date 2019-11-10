@@ -10,6 +10,7 @@ export default class ConsecutiveDomains extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create consecutive domains from a list of numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class ConsecutiveDomainsInput_numbers_n extends ResthopperParameter {
 	public name: string = "Numbers";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class ConsecutiveDomainsInput_additive_a extends ResthopperParameter {
 	public name: string = "Additive";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class ConsecutiveDomainsOutput_domains_d extends ResthopperParameter {
 	public name: string = "Domains";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

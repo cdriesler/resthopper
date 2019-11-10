@@ -10,6 +10,7 @@ export default class RightTrigonometry extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Right triangle trigonometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -52,7 +53,7 @@ class RightTrigonometryInput_beta_ extends ResthopperParameter {
 	public name: string = "Beta";
 	public nickName: string = "";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -66,7 +67,7 @@ class RightTrigonometryInput_plength_p extends ResthopperParameter {
 	public name: string = "Plength";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -80,7 +81,7 @@ class RightTrigonometryInput_qlength_q extends ResthopperParameter {
 	public name: string = "Qlength";
 	public nickName: string = "Q";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -94,7 +95,7 @@ class RightTrigonometryInput_rlength_r extends ResthopperParameter {
 	public name: string = "Rlength";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -108,7 +109,7 @@ class RightTrigonometryOutput_beta_ extends ResthopperParameter {
 	public name: string = "Beta";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -122,7 +123,7 @@ class RightTrigonometryOutput_plength_p extends ResthopperParameter {
 	public name: string = "Plength";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -136,7 +137,7 @@ class RightTrigonometryOutput_qlength_q extends ResthopperParameter {
 	public name: string = "Qlength";
 	public nickName: string = "Q";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -150,7 +151,7 @@ class RightTrigonometryOutput_rlength_r extends ResthopperParameter {
 	public name: string = "Rlength";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

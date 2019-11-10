@@ -10,6 +10,7 @@ export default class FieldLine extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Compute the field line through a certain point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -48,7 +49,7 @@ class FieldLineInput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class FieldLineInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class FieldLineInput_steps_n extends ResthopperParameter {
 	public name: string = "Steps";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class FieldLineInput_accuracy_a extends ResthopperParameter {
 	public name: string = "Accuracy";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class FieldLineInput_method_m extends ResthopperParameter {
 	public name: string = "Method";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class FieldLineOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

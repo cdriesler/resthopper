@@ -10,6 +10,7 @@ export default class ComplexModulus extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Get the modulus of a Complex number";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class ComplexModulusInput_complex_c extends ResthopperParameter {
 	public name: string = "Complex";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class ComplexModulusOutput_modulus_m extends ResthopperParameter {
 	public name: string = "Modulus";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

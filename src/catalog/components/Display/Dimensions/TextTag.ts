@@ -10,6 +10,7 @@ export default class TextTag extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Represents a list of text tags in a Rhino viewport";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -44,7 +45,7 @@ class TextTagInput_location_l extends ResthopperParameter {
 	public name: string = "Location";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TextTagInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TextTagInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

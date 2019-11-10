@@ -10,6 +10,7 @@ export default class Centroid extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle centroid from medians.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -50,7 +51,7 @@ class CentroidInput_pointa_a extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class CentroidInput_pointb_b extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class CentroidInput_pointc_c extends ResthopperParameter {
 	public name: string = "PointC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class CentroidOutput_centroid_c extends ResthopperParameter {
 	public name: string = "Centroid";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class CentroidOutput_medianab_ab extends ResthopperParameter {
 	public name: string = "MedianAB";
 	public nickName: string = "AB";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class CentroidOutput_medianbc_bc extends ResthopperParameter {
 	public name: string = "MedianBC";
 	public nickName: string = "BC";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class CentroidOutput_medianca_ca extends ResthopperParameter {
 	public name: string = "MedianCA";
 	public nickName: string = "CA";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

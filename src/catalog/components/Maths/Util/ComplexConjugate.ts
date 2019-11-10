@@ -10,6 +10,7 @@ export default class ComplexConjugate extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create the conjugate of a Complex number";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class ComplexConjugateInput_complex_c extends ResthopperParameter {
 	public name: string = "Complex";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class ComplexConjugateOutput_conjugate_c extends ResthopperParameter {
 	public name: string = "Conjugate";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Complex;"
+	public typeName: string = "Complex"
 
 	constructor() {
 		super();

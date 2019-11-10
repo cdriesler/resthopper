@@ -10,6 +10,7 @@ export default class FaceNormals extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the normals and center points of all faces in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class FaceNormalsInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class FaceNormalsOutput_centers_c extends ResthopperParameter {
 	public name: string = "Centers";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class FaceNormalsOutput_normals_n extends ResthopperParameter {
 	public name: string = "Normals";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

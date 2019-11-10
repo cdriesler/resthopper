@@ -10,6 +10,7 @@ export default class ColourLCH extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {CIE LCH} channels.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -46,7 +47,7 @@ class ColourLCHInput_alpha_a extends ResthopperParameter {
 	public name: string = "Alpha";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ColourLCHInput_luminance_l extends ResthopperParameter {
 	public name: string = "Luminance";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ColourLCHInput_chroma_c extends ResthopperParameter {
 	public name: string = "Chroma";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ColourLCHInput_hue_h extends ResthopperParameter {
 	public name: string = "Hue";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ColourLCHOutput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

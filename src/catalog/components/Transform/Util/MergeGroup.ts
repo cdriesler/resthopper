@@ -10,6 +10,7 @@ export default class MergeGroup extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Merge two groups";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -42,7 +43,7 @@ class MergeGroupInput_groupa_a extends ResthopperParameter {
 	public name: string = "GroupA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Group;"
+	public typeName: string = "Group"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MergeGroupInput_groupb_b extends ResthopperParameter {
 	public name: string = "GroupB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Group;"
+	public typeName: string = "Group"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MergeGroupOutput_group_g extends ResthopperParameter {
 	public name: string = "Group";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Group;"
+	public typeName: string = "Group"
 
 	constructor() {
 		super();

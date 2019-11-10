@@ -10,6 +10,7 @@ export default class ConvexHull extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute the planar, convex hull for a collection of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 
@@ -46,7 +47,7 @@ class ConvexHullInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ConvexHullInput_plane_pl extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "Pl";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ConvexHullOutput_hull_h extends ResthopperParameter {
 	public name: string = "Hull";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ConvexHullOutput_hullz_hz extends ResthopperParameter {
 	public name: string = "Hullz";
 	public nickName: string = "Hz";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ConvexHullOutput_indices_i extends ResthopperParameter {
 	public name: string = "Indices";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

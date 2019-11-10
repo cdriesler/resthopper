@@ -10,6 +10,7 @@ export default class BreakField extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Break a field into individual elements";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -40,7 +41,7 @@ class BreakFieldInput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class BreakFieldOutput_fields_f extends ResthopperParameter {
 	public name: string = "Fields";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();

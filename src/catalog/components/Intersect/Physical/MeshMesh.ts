@@ -10,6 +10,7 @@ export default class MeshMesh extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Mesh Mesh intersection";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class MeshMeshInput_mesha_a extends ResthopperParameter {
 	public name: string = "MeshA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MeshMeshInput_meshb_b extends ResthopperParameter {
 	public name: string = "MeshB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MeshMeshOutput_intersections_x extends ResthopperParameter {
 	public name: string = "Intersections";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

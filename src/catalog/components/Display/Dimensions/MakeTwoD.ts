@@ -10,6 +10,7 @@ export default class MakeTwoD extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a hidden line drawing from geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -58,7 +59,7 @@ class MakeTwoDInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class MakeTwoDInput_clippingplanes_c extends ResthopperParameter {
 	public name: string = "ClippingPlanes";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class MakeTwoDInput_view_v extends ResthopperParameter {
 	public name: string = "View";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Projection;"
+	public typeName: string = "Projection"
 
 	constructor() {
 		super();
@@ -100,7 +101,7 @@ class MakeTwoDInput_tangentedges_te extends ResthopperParameter {
 	public name: string = "TangentEdges";
 	public nickName: string = "Te";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -114,7 +115,7 @@ class MakeTwoDInput_tangentseams_ts extends ResthopperParameter {
 	public name: string = "TangentSeams";
 	public nickName: string = "Ts";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -128,7 +129,7 @@ class MakeTwoDOutput_visiblecurves_v extends ResthopperParameter {
 	public name: string = "Visiblecurves";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -142,7 +143,7 @@ class MakeTwoDOutput_visibleindex_vi extends ResthopperParameter {
 	public name: string = "Visibleindex";
 	public nickName: string = "Vi";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -156,7 +157,7 @@ class MakeTwoDOutput_visibletype_vt extends ResthopperParameter {
 	public name: string = "Visibletype";
 	public nickName: string = "Vt";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -170,7 +171,7 @@ class MakeTwoDOutput_hiddencurves_h extends ResthopperParameter {
 	public name: string = "Hiddencurves";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -184,7 +185,7 @@ class MakeTwoDOutput_hiddenindex_hi extends ResthopperParameter {
 	public name: string = "Hiddenindex";
 	public nickName: string = "Hi";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -198,7 +199,7 @@ class MakeTwoDOutput_hiddentype_ht extends ResthopperParameter {
 	public name: string = "Hiddentype";
 	public nickName: string = "Ht";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

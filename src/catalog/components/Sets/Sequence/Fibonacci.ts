@@ -10,6 +10,7 @@ export default class Fibonacci extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Creates a Fibonacci sequence.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class FibonacciInput_seeda_a extends ResthopperParameter {
 	public name: string = "SeedA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class FibonacciInput_seedb_b extends ResthopperParameter {
 	public name: string = "SeedB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class FibonacciInput_number_n extends ResthopperParameter {
 	public name: string = "Number";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class FibonacciOutput_series_s extends ResthopperParameter {
 	public name: string = "Series";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

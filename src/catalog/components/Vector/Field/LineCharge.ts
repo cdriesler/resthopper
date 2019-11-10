@@ -10,6 +10,7 @@ export default class LineCharge extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Create a field due to a line charge";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -44,7 +45,7 @@ class LineChargeInput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class LineChargeInput_charge_c extends ResthopperParameter {
 	public name: string = "Charge";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class LineChargeInput_bounds_b extends ResthopperParameter {
 	public name: string = "Bounds";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class LineChargeOutput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();

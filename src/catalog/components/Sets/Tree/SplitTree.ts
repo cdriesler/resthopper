@@ -10,6 +10,7 @@ export default class SplitTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Split a data tree into two parts using path masks.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -44,7 +45,7 @@ class SplitTreeInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SplitTreeInput_masks_m extends ResthopperParameter {
 	public name: string = "Masks";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SplitTreeOutput_positive_p extends ResthopperParameter {
 	public name: string = "Positive";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SplitTreeOutput_negative_n extends ResthopperParameter {
 	public name: string = "Negative";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

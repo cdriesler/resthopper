@@ -10,6 +10,7 @@ export default class FaceCircles extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve the circumscribed circles for all mesh faces";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class FaceCirclesInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class FaceCirclesOutput_centers_c extends ResthopperParameter {
 	public name: string = "Centers";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Circle;"
+	public typeName: string = "Circle"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class FaceCirclesOutput_ratio_r extends ResthopperParameter {
 	public name: string = "Ratio";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

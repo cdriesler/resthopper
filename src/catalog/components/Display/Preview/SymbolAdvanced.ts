@@ -10,6 +10,7 @@ export default class SymbolAdvanced extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Advanced symbol display properties";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -54,7 +55,7 @@ class SymbolAdvancedInput_style_x extends ResthopperParameter {
 	public name: string = "Style";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -68,7 +69,7 @@ class SymbolAdvancedInput_sizeprimary_s1 extends ResthopperParameter {
 	public name: string = "SizePrimary";
 	public nickName: string = "S1";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -82,7 +83,7 @@ class SymbolAdvancedInput_sizesecondary_s2 extends ResthopperParameter {
 	public name: string = "SizeSecondary";
 	public nickName: string = "S2";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -96,7 +97,7 @@ class SymbolAdvancedInput_rotation_r extends ResthopperParameter {
 	public name: string = "Rotation";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -110,7 +111,7 @@ class SymbolAdvancedInput_fill_cf extends ResthopperParameter {
 	public name: string = "Fill";
 	public nickName: string = "Cf";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -124,7 +125,7 @@ class SymbolAdvancedInput_edge_ce extends ResthopperParameter {
 	public name: string = "Edge";
 	public nickName: string = "Ce";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -138,7 +139,7 @@ class SymbolAdvancedInput_width_w extends ResthopperParameter {
 	public name: string = "Width";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -152,7 +153,7 @@ class SymbolAdvancedInput_adjust_a extends ResthopperParameter {
 	public name: string = "Adjust";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -166,7 +167,7 @@ class SymbolAdvancedOutput_symboldisplay_d extends ResthopperParameter {
 	public name: string = "SymbolDisplay";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Symbol Display;"
+	public typeName: string = "Symbol Display"
 
 	constructor() {
 		super();

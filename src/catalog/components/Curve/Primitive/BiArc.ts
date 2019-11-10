@@ -10,6 +10,7 @@ export default class BiArc extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a bi-arc based on endpoints and tangents.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -52,7 +53,7 @@ class BiArcInput_startpoint_s extends ResthopperParameter {
 	public name: string = "StartPoint";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -66,7 +67,7 @@ class BiArcInput_starttangent_ts extends ResthopperParameter {
 	public name: string = "StartTangent";
 	public nickName: string = "Ts";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -80,7 +81,7 @@ class BiArcInput_endpoint_e extends ResthopperParameter {
 	public name: string = "EndPoint";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -94,7 +95,7 @@ class BiArcInput_endtangent_te extends ResthopperParameter {
 	public name: string = "EndTangent";
 	public nickName: string = "Te";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -108,7 +109,7 @@ class BiArcInput_ratio_r extends ResthopperParameter {
 	public name: string = "Ratio";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -122,7 +123,7 @@ class BiArcOutput_firstarc_a1 extends ResthopperParameter {
 	public name: string = "Firstarc";
 	public nickName: string = "A1";
 	public isOptional: boolean = false;
-	public typeName: string = "Arc;"
+	public typeName: string = "Arc"
 
 	constructor() {
 		super();
@@ -136,7 +137,7 @@ class BiArcOutput_secondarc_a2 extends ResthopperParameter {
 	public name: string = "Secondarc";
 	public nickName: string = "A2";
 	public isOptional: boolean = false;
-	public typeName: string = "Arc;"
+	public typeName: string = "Arc"
 
 	constructor() {
 		super();
@@ -150,7 +151,7 @@ class BiArcOutput_biarc_b extends ResthopperParameter {
 	public name: string = "BiArc";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

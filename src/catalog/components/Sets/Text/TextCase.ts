@@ -10,6 +10,7 @@ export default class TextCase extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Change the CaSiNg of a piece of text";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class TextCaseInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TextCaseInput_culture_c extends ResthopperParameter {
 	public name: string = "Culture";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Culture;"
+	public typeName: string = "Culture"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TextCaseOutput_uppercase_u extends ResthopperParameter {
 	public name: string = "UpperCase";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class TextCaseOutput_lowercase_l extends ResthopperParameter {
 	public name: string = "LowerCase";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class FlattenTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Flatten a data tree by removing all branching information.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -42,7 +43,7 @@ class FlattenTreeInput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class FlattenTreeInput_path_p extends ResthopperParameter {
 	public name: string = "Path";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Path;"
+	public typeName: string = "Path"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class FlattenTreeOutput_tree_t extends ResthopperParameter {
 	public name: string = "Tree";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class Similarity extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Test for similarity of two numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -46,7 +47,7 @@ class SimilarityInput_firstnumber_a extends ResthopperParameter {
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SimilarityInput_secondnumber_b extends ResthopperParameter {
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SimilarityInput_threshold_t extends ResthopperParameter {
 	public name: string = "Threshold";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SimilarityOutput_similarity_ extends ResthopperParameter {
 	public name: string = "Similarity";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SimilarityOutput_absolutedifference_dt extends ResthopperParameter {
 	public name: string = "Absolutedifference";
 	public nickName: string = "dt";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

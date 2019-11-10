@@ -8,6 +8,7 @@ export default class ResthopperComponent {
     public category: string = "";
     public subCategory: string = "";
     public isObsolete: boolean = false;
+    public isVariable: boolean = false;
 
     public libraryName: string = "";
 

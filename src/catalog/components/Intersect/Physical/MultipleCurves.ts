@@ -10,6 +10,7 @@ export default class MultipleCurves extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for multiple curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class MultipleCurvesInput_curves_c extends ResthopperParameter {
 	public name: string = "Curves";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class MultipleCurvesOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class MultipleCurvesOutput_indexa_ia extends ResthopperParameter {
 	public name: string = "IndexA";
 	public nickName: string = "iA";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class MultipleCurvesOutput_indexb_ib extends ResthopperParameter {
 	public name: string = "IndexB";
 	public nickName: string = "iB";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class MultipleCurvesOutput_parama_ta extends ResthopperParameter {
 	public name: string = "ParamA";
 	public nickName: string = "tA";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class MultipleCurvesOutput_paramb_tb extends ResthopperParameter {
 	public name: string = "ParamB";
 	public nickName: string = "tB";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class CustomPreview extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Allows for customized geometry previews";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 
@@ -42,7 +43,7 @@ class CustomPreviewInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CustomPreviewInput_material_m extends ResthopperParameter {
 	public name: string = "Material";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Shader;"
+	public typeName: string = "Shader"
 
 	constructor() {
 		super();

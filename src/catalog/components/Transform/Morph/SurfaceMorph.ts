@@ -10,6 +10,7 @@ export default class SurfaceMorph extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Morph geometry into surface UVW coordinates";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -50,7 +51,7 @@ class SurfaceMorphInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class SurfaceMorphInput_reference_r extends ResthopperParameter {
 	public name: string = "Reference";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class SurfaceMorphInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class SurfaceMorphInput_udomain_u extends ResthopperParameter {
 	public name: string = "UDomain";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class SurfaceMorphInput_vdomain_v extends ResthopperParameter {
 	public name: string = "VDomain";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class SurfaceMorphInput_wdomain_w extends ResthopperParameter {
 	public name: string = "WDomain";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class SurfaceMorphOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

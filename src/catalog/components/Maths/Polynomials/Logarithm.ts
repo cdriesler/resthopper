@@ -10,6 +10,7 @@ export default class Logarithm extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the Base-10 logarithm of a value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class LogarithmInput_value_x extends ResthopperParameter {
 	public name: string = "Value";
 	public nickName: string = "x";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class LogarithmOutput_result_y extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "y";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

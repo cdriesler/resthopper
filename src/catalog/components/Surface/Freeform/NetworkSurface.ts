@@ -10,6 +10,7 @@ export default class NetworkSurface extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface from curve networks";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class NetworkSurfaceInput_curvesu_u extends ResthopperParameter {
 	public name: string = "CurvesU";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class NetworkSurfaceInput_curvesv_v extends ResthopperParameter {
 	public name: string = "CurvesV";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class NetworkSurfaceInput_continuity_c extends ResthopperParameter {
 	public name: string = "Continuity";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class NetworkSurfaceOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();

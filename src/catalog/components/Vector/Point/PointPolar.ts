@@ -10,6 +10,7 @@ export default class PointPolar extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Create a point from polar {phi,theta,offset} coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class PointPolarInput_baseplane_p extends ResthopperParameter {
 	public name: string = "Baseplane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class PointPolarInput_xyangle_xy extends ResthopperParameter {
 	public name: string = "XYangle";
 	public nickName: string = "xy";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class PointPolarInput_zangle_z extends ResthopperParameter {
 	public name: string = "Zangle";
 	public nickName: string = "z";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class PointPolarInput_offset_d extends ResthopperParameter {
 	public name: string = "Offset";
 	public nickName: string = "d";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class PointPolarOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

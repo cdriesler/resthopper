@@ -10,6 +10,7 @@ export default class SortText extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Sort a collection of text fragments";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -46,7 +47,7 @@ class SortTextInput_keys_k extends ResthopperParameter {
 	public name: string = "Keys";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SortTextInput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SortTextInput_culture_c extends ResthopperParameter {
 	public name: string = "Culture";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Culture;"
+	public typeName: string = "Culture"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SortTextOutput_keys_k extends ResthopperParameter {
 	public name: string = "Keys";
 	public nickName: string = "K";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SortTextOutput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

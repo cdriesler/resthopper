@@ -10,6 +10,7 @@ export default class PathMapper extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Perform lexical operations on data trees.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

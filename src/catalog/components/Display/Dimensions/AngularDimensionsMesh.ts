@@ -10,6 +10,7 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create angle annotations for all mesh corners.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -50,7 +51,7 @@ class AngularDimensionsMeshInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class AngularDimensionsMeshInput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class AngularDimensionsMeshInput_size_s extends ResthopperParameter {
 	public name: string = "Size";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class AngularDimensionsMeshInput_lengthfactor_f extends ResthopperParameter {
 	public name: string = "LengthFactor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class AngularDimensionsMeshInput_minimumangle_a0 extends ResthopperParameter {
 	public name: string = "MinimumAngle";
 	public nickName: string = "A0";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class AngularDimensionsMeshInput_maximumangle_a1 extends ResthopperParameter {
 	public name: string = "MaximumAngle";
 	public nickName: string = "A1";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

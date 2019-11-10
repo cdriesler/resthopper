@@ -10,6 +10,7 @@ export default class Equality extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Test for (in)equality of two numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class EqualityInput_firstnumber_a extends ResthopperParameter {
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class EqualityInput_secondnumber_b extends ResthopperParameter {
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class EqualityOutput_inequality_ extends ResthopperParameter {
 	public name: string = "Inequality";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

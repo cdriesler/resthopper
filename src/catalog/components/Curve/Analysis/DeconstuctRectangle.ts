@@ -10,6 +10,7 @@ export default class DeconstuctRectangle extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane and side intervals of a rectangle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -44,7 +45,7 @@ class DeconstuctRectangleInput_rectangle_r extends ResthopperParameter {
 	public name: string = "Rectangle";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class DeconstuctRectangleOutput_baseplane_b extends ResthopperParameter {
 	public name: string = "BasePlane";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class DeconstuctRectangleOutput_xinterval_x extends ResthopperParameter {
 	public name: string = "XInterval";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class DeconstuctRectangleOutput_yinterval_y extends ResthopperParameter {
 	public name: string = "YInterval";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain;"
+	public typeName: string = "Domain"
 
 	constructor() {
 		super();

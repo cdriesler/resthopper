@@ -10,6 +10,7 @@ export default class MeshPlane extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class MeshPlaneInput_boundary_b extends ResthopperParameter {
 	public name: string = "Boundary";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class MeshPlaneInput_widthcount_w extends ResthopperParameter {
 	public name: string = "Widthcount";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class MeshPlaneInput_heightcount_h extends ResthopperParameter {
 	public name: string = "Heightcount";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class MeshPlaneOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class MeshPlaneOutput_area_a extends ResthopperParameter {
 	public name: string = "Area";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

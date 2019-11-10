@@ -10,6 +10,7 @@ export default class Format extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Format some data using placeholders and formatting tags";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 
@@ -46,7 +47,7 @@ class FormatInput_data0_0 extends ResthopperParameter {
 	public name: string = "Data0";
 	public nickName: string = "0";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class FormatInput_data1_1 extends ResthopperParameter {
 	public name: string = "Data1";
 	public nickName: string = "1";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class FormatInput_format_f extends ResthopperParameter {
 	public name: string = "Format";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class FormatInput_culture_c extends ResthopperParameter {
 	public name: string = "Culture";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Culture;"
+	public typeName: string = "Culture"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class FormatOutput_text_t extends ResthopperParameter {
 	public name: string = "Text";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

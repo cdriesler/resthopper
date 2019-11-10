@@ -10,6 +10,7 @@ export default class BoundsTwoD extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric two-dimensional domain which encompasses a list of coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class BoundsTwoDInput_coordinates_c extends ResthopperParameter {
 	public name: string = "Coordinates";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class BoundsTwoDOutput_domain_i extends ResthopperParameter {
 	public name: string = "Domain";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Domain²;"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();

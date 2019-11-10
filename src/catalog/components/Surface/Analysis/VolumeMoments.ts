@@ -10,6 +10,7 @@ export default class VolumeMoments extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve volume properties for closed breps and meshes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -48,7 +49,7 @@ class VolumeMomentsInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class VolumeMomentsOutput_volume_v extends ResthopperParameter {
 	public name: string = "Volume";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class VolumeMomentsOutput_centroid_c extends ResthopperParameter {
 	public name: string = "Centroid";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class VolumeMomentsOutput_inertiaerror_i extends ResthopperParameter {
 	public name: string = "Inertiaerror";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class VolumeMomentsOutput_secondaryerror_s extends ResthopperParameter {
 	public name: string = "Secondaryerror";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class VolumeMomentsOutput_gyration_g extends ResthopperParameter {
 	public name: string = "Gyration";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class ConstructMesh extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Construct a mesh from vertices, faces and optional colours.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class ConstructMeshInput_vertices_v extends ResthopperParameter {
 	public name: string = "Vertices";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class ConstructMeshInput_faces_f extends ResthopperParameter {
 	public name: string = "Faces";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh face;"
+	public typeName: string = "Mesh face"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class ConstructMeshInput_colours_c extends ResthopperParameter {
 	public name: string = "Colours";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class ConstructMeshOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

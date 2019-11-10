@@ -10,6 +10,7 @@ export default class Ellipse extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create an ellipse defined by base plane and two radii.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class EllipseInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class EllipseInput_radius1_r1 extends ResthopperParameter {
 	public name: string = "Radius1";
 	public nickName: string = "R1";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class EllipseInput_radius2_r2 extends ResthopperParameter {
 	public name: string = "Radius2";
 	public nickName: string = "R2";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class EllipseOutput_ellipse_e extends ResthopperParameter {
 	public name: string = "Ellipse";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class EllipseOutput_focus1_f1 extends ResthopperParameter {
 	public name: string = "Focus1";
 	public nickName: string = "F1";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class EllipseOutput_focus2_f2 extends ResthopperParameter {
 	public name: string = "Focus2";
 	public nickName: string = "F2";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

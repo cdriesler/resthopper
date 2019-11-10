@@ -10,6 +10,7 @@ export default class VoronoiCell extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute a single 3D Voronoi cell";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 
@@ -44,7 +45,7 @@ class VoronoiCellInput_point_p extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class VoronoiCellInput_neighbours_n extends ResthopperParameter {
 	public name: string = "Neighbours";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class VoronoiCellInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class VoronoiCellOutput_cell_c extends ResthopperParameter {
 	public name: string = "Cell";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

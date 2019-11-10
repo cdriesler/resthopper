@@ -10,6 +10,7 @@ export default class MeshfromSubD extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Get the approximation mesh of a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -42,7 +43,7 @@ class MeshfromSubDInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MeshfromSubDInput_density_d extends ResthopperParameter {
 	public name: string = "Density";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MeshfromSubDOutput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();

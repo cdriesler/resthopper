@@ -10,6 +10,7 @@ export default class BlendColours extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Interpolate (blend) between two colours.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class BlendColoursInput_coloura_a extends ResthopperParameter {
 	public name: string = "ColourA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class BlendColoursInput_colourb_b extends ResthopperParameter {
 	public name: string = "ColourB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class BlendColoursInput_factor_f extends ResthopperParameter {
 	public name: string = "Factor";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class BlendColoursOutput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();

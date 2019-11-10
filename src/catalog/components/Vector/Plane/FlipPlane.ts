@@ -10,6 +10,7 @@ export default class FlipPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Flip or swap the axes of a plane";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -46,7 +47,7 @@ class FlipPlaneInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class FlipPlaneInput_reversex_x extends ResthopperParameter {
 	public name: string = "ReverseX";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class FlipPlaneInput_reversey_y extends ResthopperParameter {
 	public name: string = "ReverseY";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class FlipPlaneInput_swapaxes_s extends ResthopperParameter {
 	public name: string = "Swapaxes";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class FlipPlaneOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

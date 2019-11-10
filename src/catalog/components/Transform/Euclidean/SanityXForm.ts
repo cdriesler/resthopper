@@ -10,6 +10,7 @@ export default class SanityXForm extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Apply a sanity transformation to f a r - a w a y, tiny or HUGE geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -42,7 +43,7 @@ class SanityXFormInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SanityXFormOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class SanityXFormOutput_wackometry_w extends ResthopperParameter {
 	public name: string = "Wackometry";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

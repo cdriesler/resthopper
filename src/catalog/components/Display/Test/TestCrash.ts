@@ -10,6 +10,7 @@ export default class TestCrash extends ResthopperComponent {
 	public subCategory: string = "Test";
 	public description: string = "Test crashing of GH";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -40,7 +41,7 @@ class TestCrashInput_crash_c extends ResthopperParameter {
 	public name: string = "Crash";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

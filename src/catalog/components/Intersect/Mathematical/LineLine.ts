@@ -10,6 +10,7 @@ export default class LineLine extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for two lines.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -48,7 +49,7 @@ class LineLineInput_line1_a extends ResthopperParameter {
 	public name: string = "Line1";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class LineLineInput_line2_b extends ResthopperParameter {
 	public name: string = "Line2";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class LineLineOutput_parama_ta extends ResthopperParameter {
 	public name: string = "ParamA";
 	public nickName: string = "tA";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class LineLineOutput_paramb_tb extends ResthopperParameter {
 	public name: string = "ParamB";
 	public nickName: string = "tB";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class LineLineOutput_pointa_pa extends ResthopperParameter {
 	public name: string = "PointA";
 	public nickName: string = "pA";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class LineLineOutput_pointb_pb extends ResthopperParameter {
 	public name: string = "PointB";
 	public nickName: string = "pB";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

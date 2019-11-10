@@ -10,6 +10,7 @@ export default class TrimwithRegions extends ResthopperComponent {
 	public subCategory: string = "Region";
 	public description: string = "Trim a curve with multiple regions.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -46,7 +47,7 @@ class TrimwithRegionsInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class TrimwithRegionsInput_regions_r extends ResthopperParameter {
 	public name: string = "Regions";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class TrimwithRegionsInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class TrimwithRegionsOutput_inside_ci extends ResthopperParameter {
 	public name: string = "Inside";
 	public nickName: string = "Ci";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class TrimwithRegionsOutput_outside_co extends ResthopperParameter {
 	public name: string = "Outside";
 	public nickName: string = "Co";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class SwapColumns extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Swap two columns in a matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class SwapColumnsInput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SwapColumnsInput_columna_a extends ResthopperParameter {
 	public name: string = "ColumnA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SwapColumnsInput_columnb_b extends ResthopperParameter {
 	public name: string = "ColumnB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SwapColumnsOutput_matrix_m extends ResthopperParameter {
 	public name: string = "Matrix";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Matrix;"
+	public typeName: string = "Matrix"
 
 	constructor() {
 		super();

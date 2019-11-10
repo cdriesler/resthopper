@@ -10,6 +10,7 @@ export default class DotNETCScriptLEGACY extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "A C#.NET scriptable component";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Script Components";
 
@@ -44,7 +45,7 @@ class DotNETCScriptLEGACYInput_x_x extends ResthopperParameter {
 	public name: string = "x";
 	public nickName: string = "x";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class DotNETCScriptLEGACYInput_y_y extends ResthopperParameter {
 	public name: string = "y";
 	public nickName: string = "y";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class DotNETCScriptLEGACYOutput_output_out extends ResthopperParameter {
 	public name: string = "Output";
 	public nickName: string = "out";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class DotNETCScriptLEGACYOutput_a_a extends ResthopperParameter {
 	public name: string = "A";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

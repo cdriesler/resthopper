@@ -10,6 +10,7 @@ export default class VoronoiGroups extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Compute a custom set of nested voronoi diagrams.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Triangulation Components";
 
@@ -46,7 +47,7 @@ class VoronoiGroupsInput_boundary_b extends ResthopperParameter {
 	public name: string = "Boundary";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class VoronoiGroupsInput_generation1_g1 extends ResthopperParameter {
 	public name: string = "Generation1";
 	public nickName: string = "G1";
 	public isOptional: boolean = true;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class VoronoiGroupsInput_generation2_g2 extends ResthopperParameter {
 	public name: string = "Generation2";
 	public nickName: string = "G2";
 	public isOptional: boolean = true;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class VoronoiGroupsOutput_diagram1_d1 extends ResthopperParameter {
 	public name: string = "Diagram1";
 	public nickName: string = "D1";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class VoronoiGroupsOutput_diagram2_d2 extends ResthopperParameter {
 	public name: string = "Diagram2";
 	public nickName: string = "D2";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

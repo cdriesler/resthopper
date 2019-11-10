@@ -10,6 +10,7 @@ export default class SymbolDisplay extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Display symbols";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -42,7 +43,7 @@ class SymbolDisplayInput_location_p extends ResthopperParameter {
 	public name: string = "Location";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SymbolDisplayInput_display_d extends ResthopperParameter {
 	public name: string = "Display";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Symbol Display;"
+	public typeName: string = "Symbol Display"
 
 	constructor() {
 		super();

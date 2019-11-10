@@ -10,6 +10,7 @@ export default class PointInTrim extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a {uv} coordinate is inside the trimmed portion of a surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class PointInTrimInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class PointInTrimInput_uvpoint_p extends ResthopperParameter {
 	public name: string = "UVPoint";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class PointInTrimOutput_inclusion_i extends ResthopperParameter {
 	public name: string = "Inclusion";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class RelativeDifferences extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Compute relative differences for a list of data";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -40,7 +41,7 @@ class RelativeDifferencesInput_values_v extends ResthopperParameter {
 	public name: string = "Values";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class RelativeDifferencesOutput_differenced_d extends ResthopperParameter {
 	public name: string = "Differenced";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

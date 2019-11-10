@@ -10,6 +10,7 @@ export default class ExtendCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Extend a curve by a specified distance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 
@@ -46,7 +47,7 @@ class ExtendCurveInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ExtendCurveInput_type_t extends ResthopperParameter {
 	public name: string = "Type";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ExtendCurveInput_start_l0 extends ResthopperParameter {
 	public name: string = "Start";
 	public nickName: string = "L0";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ExtendCurveInput_end_l1 extends ResthopperParameter {
 	public name: string = "End";
 	public nickName: string = "L1";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ExtendCurveOutput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

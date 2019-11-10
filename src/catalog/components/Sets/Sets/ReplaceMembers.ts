@@ -10,6 +10,7 @@ export default class ReplaceMembers extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Replace members in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class ReplaceMembersInput_set_s extends ResthopperParameter {
 	public name: string = "Set";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class ReplaceMembersInput_find_f extends ResthopperParameter {
 	public name: string = "Find";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class ReplaceMembersInput_replace_r extends ResthopperParameter {
 	public name: string = "Replace";
 	public nickName: string = "R";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class ReplaceMembersOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

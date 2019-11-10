@@ -10,6 +10,7 @@ export default class FaceBoundaries extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Convert all mesh faces to polylines";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class FaceBoundariesInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class FaceBoundariesOutput_boundaries_b extends ResthopperParameter {
 	public name: string = "Boundaries";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

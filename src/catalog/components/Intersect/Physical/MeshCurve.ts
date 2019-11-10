@@ -10,6 +10,7 @@ export default class MeshCurve extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Mesh Curve intersection";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class MeshCurveInput_mesh_m extends ResthopperParameter {
 	public name: string = "Mesh";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class MeshCurveInput_curve_c extends ResthopperParameter {
 	public name: string = "Curve";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class MeshCurveOutput_points_x extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class MeshCurveOutput_faces_f extends ResthopperParameter {
 	public name: string = "Faces";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

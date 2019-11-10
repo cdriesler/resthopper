@@ -10,6 +10,7 @@ export default class TriangleTrigonometry extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generic triangle trigonometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -52,7 +53,7 @@ class TriangleTrigonometryInput_gamma_ extends ResthopperParameter {
 	public name: string = "Gamma";
 	public nickName: string = "";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -66,7 +67,7 @@ class TriangleTrigonometryInput_alength_a extends ResthopperParameter {
 	public name: string = "Alength";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -80,7 +81,7 @@ class TriangleTrigonometryInput_blength_b extends ResthopperParameter {
 	public name: string = "Blength";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -94,7 +95,7 @@ class TriangleTrigonometryInput_clength_c extends ResthopperParameter {
 	public name: string = "Clength";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -108,7 +109,7 @@ class TriangleTrigonometryOutput_gamma_ extends ResthopperParameter {
 	public name: string = "Gamma";
 	public nickName: string = "";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -122,7 +123,7 @@ class TriangleTrigonometryOutput_alength_a extends ResthopperParameter {
 	public name: string = "Alength";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -136,7 +137,7 @@ class TriangleTrigonometryOutput_blength_b extends ResthopperParameter {
 	public name: string = "Blength";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -150,7 +151,7 @@ class TriangleTrigonometryOutput_clength_c extends ResthopperParameter {
 	public name: string = "Clength";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

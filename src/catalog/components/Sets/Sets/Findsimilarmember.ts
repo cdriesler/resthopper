@@ -10,6 +10,7 @@ export default class Findsimilarmember extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Find the most similar member in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class FindsimilarmemberInput_data_d extends ResthopperParameter {
 	public name: string = "Data";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class FindsimilarmemberInput_set_s extends ResthopperParameter {
 	public name: string = "Set";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class FindsimilarmemberOutput_hit_h extends ResthopperParameter {
 	public name: string = "Hit";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class FindsimilarmemberOutput_index_i extends ResthopperParameter {
 	public name: string = "Index";
 	public nickName: string = "i";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

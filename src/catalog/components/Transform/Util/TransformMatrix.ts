@@ -10,6 +10,7 @@ export default class TransformMatrix extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "A 4x4 Transformation matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

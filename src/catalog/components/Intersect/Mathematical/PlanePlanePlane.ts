@@ -10,6 +10,7 @@ export default class PlanePlanePlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve the intersection events of three planes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -50,7 +51,7 @@ class PlanePlanePlaneInput_planea_a extends ResthopperParameter {
 	public name: string = "PlaneA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class PlanePlanePlaneInput_planeb_b extends ResthopperParameter {
 	public name: string = "PlaneB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class PlanePlanePlaneInput_planec_c extends ResthopperParameter {
 	public name: string = "PlaneC";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class PlanePlanePlaneOutput_point_pt extends ResthopperParameter {
 	public name: string = "Point";
 	public nickName: string = "Pt";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class PlanePlanePlaneOutput_lineab_ab extends ResthopperParameter {
 	public name: string = "LineAB";
 	public nickName: string = "AB";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class PlanePlanePlaneOutput_lineac_ac extends ResthopperParameter {
 	public name: string = "LineAC";
 	public nickName: string = "AC";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class PlanePlanePlaneOutput_linebc_bc extends ResthopperParameter {
 	public name: string = "LineBC";
 	public nickName: string = "BC";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();

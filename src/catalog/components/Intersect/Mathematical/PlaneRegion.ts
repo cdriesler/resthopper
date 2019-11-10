@@ -10,6 +10,7 @@ export default class PlaneRegion extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a bounded region from intersecting planes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -42,7 +43,7 @@ class PlaneRegionInput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class PlaneRegionInput_bounds_b extends ResthopperParameter {
 	public name: string = "Bounds";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class PlaneRegionOutput_region_r extends ResthopperParameter {
 	public name: string = "Region";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();

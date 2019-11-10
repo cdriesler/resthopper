@@ -10,6 +10,7 @@ export default class SymbolSimple extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Simple symbol display properties";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -46,7 +47,7 @@ class SymbolSimpleInput_style_x extends ResthopperParameter {
 	public name: string = "Style";
 	public nickName: string = "X";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SymbolSimpleInput_size_s extends ResthopperParameter {
 	public name: string = "Size";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SymbolSimpleInput_rotation_r extends ResthopperParameter {
 	public name: string = "Rotation";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SymbolSimpleInput_colour_c extends ResthopperParameter {
 	public name: string = "Colour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SymbolSimpleOutput_symboldisplay_d extends ResthopperParameter {
 	public name: string = "SymbolDisplay";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Symbol Display;"
+	public typeName: string = "Symbol Display"
 
 	constructor() {
 		super();

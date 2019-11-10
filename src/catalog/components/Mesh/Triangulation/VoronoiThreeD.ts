@@ -10,6 +10,7 @@ export default class VoronoiThreeD extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Volumetric voronoi diagram for a collection of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 
@@ -44,7 +45,7 @@ class VoronoiThreeDInput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class VoronoiThreeDInput_box_b extends ResthopperParameter {
 	public name: string = "Box";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class VoronoiThreeDOutput_cells_c extends ResthopperParameter {
 	public name: string = "Cells";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class VoronoiThreeDOutput_boundary_b extends ResthopperParameter {
 	public name: string = "Boundary";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();

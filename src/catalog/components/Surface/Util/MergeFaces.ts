@@ -10,6 +10,7 @@ export default class MergeFaces extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Merge all adjacent co-planar faces in a brep";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class MergeFacesInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class MergeFacesOutput_breps_b extends ResthopperParameter {
 	public name: string = "Breps";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class MergeFacesOutput_before_n0 extends ResthopperParameter {
 	public name: string = "Before";
 	public nickName: string = "N0";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class MergeFacesOutput_after_n1 extends ResthopperParameter {
 	public name: string = "After";
 	public nickName: string = "N1";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

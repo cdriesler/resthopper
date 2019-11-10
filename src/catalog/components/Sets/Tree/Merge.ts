@@ -10,6 +10,7 @@ export default class Merge extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Merge two streams into one.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class MergeInput_streama_a extends ResthopperParameter {
 	public name: string = "StreamA";
 	public nickName: string = "A";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class MergeInput_streamb_b extends ResthopperParameter {
 	public name: string = "StreamB";
 	public nickName: string = "B";
 	public isOptional: boolean = true;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class MergeOutput_stream_s extends ResthopperParameter {
 	public name: string = "Stream";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

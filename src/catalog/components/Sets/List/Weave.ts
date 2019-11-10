@@ -10,6 +10,7 @@ export default class Weave extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Weave a set of input data using a custom pattern.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class WeaveInput_stream0_0 extends ResthopperParameter {
 	public name: string = "Stream0";
 	public nickName: string = "0";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class WeaveInput_stream1_1 extends ResthopperParameter {
 	public name: string = "Stream1";
 	public nickName: string = "1";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class WeaveInput_pattern_p extends ResthopperParameter {
 	public name: string = "Pattern";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class WeaveOutput_weave_w extends ResthopperParameter {
 	public name: string = "Weave";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

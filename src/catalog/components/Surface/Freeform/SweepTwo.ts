@@ -10,6 +10,7 @@ export default class SweepTwo extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a sweep surface with two rail curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -44,7 +45,7 @@ class SweepTwoInput_rail2_r extends ResthopperParameter {
 	public name: string = "Rail2";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class SweepTwoInput_sections_s extends ResthopperParameter {
 	public name: string = "Sections";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class SweepTwoInput_sameheight_h extends ResthopperParameter {
 	public name: string = "SameHeight";
 	public nickName: string = "H";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class SweepTwoOutput_brep_s extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

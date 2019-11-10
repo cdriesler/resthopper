@@ -10,6 +10,7 @@ export default class Dimensions extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get the approximate dimensions of a surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class DimensionsInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class DimensionsOutput_udimension_u extends ResthopperParameter {
 	public name: string = "Udimension";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class DimensionsOutput_vdimension_v extends ResthopperParameter {
 	public name: string = "Vdimension";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();

@@ -10,6 +10,7 @@ export default class ExtrudeLinear extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude curves and surfaces along a straight path.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class ExtrudeLinearInput_profile_p extends ResthopperParameter {
 	public name: string = "Profile";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class ExtrudeLinearInput_orientationp_po extends ResthopperParameter {
 	public name: string = "OrientationP";
 	public nickName: string = "Po";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class ExtrudeLinearInput_axis_a extends ResthopperParameter {
 	public name: string = "Axis";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class ExtrudeLinearInput_orientationa_ao extends ResthopperParameter {
 	public name: string = "OrientationA";
 	public nickName: string = "Ao";
 	public isOptional: boolean = true;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class ExtrudeLinearOutput_extrusion_e extends ResthopperParameter {
 	public name: string = "Extrusion";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

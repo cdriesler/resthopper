@@ -10,6 +10,7 @@ export default class DivideSurface extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Generate a grid of {uv} points on a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -48,7 +49,7 @@ class DivideSurfaceInput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Surface;"
+	public typeName: string = "Surface"
 
 	constructor() {
 		super();
@@ -62,7 +63,7 @@ class DivideSurfaceInput_ucount_u extends ResthopperParameter {
 	public name: string = "UCount";
 	public nickName: string = "U";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -76,7 +77,7 @@ class DivideSurfaceInput_vcount_v extends ResthopperParameter {
 	public name: string = "VCount";
 	public nickName: string = "V";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -90,7 +91,7 @@ class DivideSurfaceOutput_points_p extends ResthopperParameter {
 	public name: string = "Points";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -104,7 +105,7 @@ class DivideSurfaceOutput_normals_n extends ResthopperParameter {
 	public name: string = "Normals";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Vector;"
+	public typeName: string = "Vector"
 
 	constructor() {
 		super();
@@ -118,7 +119,7 @@ class DivideSurfaceOutput_parameters_uv extends ResthopperParameter {
 	public name: string = "Parameters";
 	public nickName: string = "uv";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();

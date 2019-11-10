@@ -10,6 +10,7 @@ export default class CreateSet extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Creates the valid set from a list of items (a valid set only contains distinct elements).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class CreateSetInput_list_l extends ResthopperParameter {
 	public name: string = "List";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class CreateSetOutput_set_s extends ResthopperParameter {
 	public name: string = "Set";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class CreateSetOutput_map_m extends ResthopperParameter {
 	public name: string = "Map";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

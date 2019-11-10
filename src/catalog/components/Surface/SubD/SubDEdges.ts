@@ -10,6 +10,7 @@ export default class SubDEdges extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Extract all edge data from a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -46,7 +47,7 @@ class SubDEdgesInput_subd_s extends ResthopperParameter {
 	public name: string = "SubD";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "SubD;"
+	public typeName: string = "SubD"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class SubDEdgesOutput_line_l extends ResthopperParameter {
 	public name: string = "Line";
 	public nickName: string = "L";
 	public isOptional: boolean = false;
-	public typeName: string = "Line;"
+	public typeName: string = "Line"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class SubDEdgesOutput_edge_e extends ResthopperParameter {
 	public name: string = "Edge";
 	public nickName: string = "E";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class SubDEdgesOutput_tag_t extends ResthopperParameter {
 	public name: string = "Tag";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class SubDEdgesOutput_id_i extends ResthopperParameter {
 	public name: string = "Id";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();

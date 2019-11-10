@@ -10,6 +10,7 @@ export default class DeconstructDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Deconstruct a date into years, months, days, hours, minutes and seconds";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -50,7 +51,7 @@ class DeconstructDateInput_date_d extends ResthopperParameter {
 	public name: string = "Date";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Time;"
+	public typeName: string = "Time"
 
 	constructor() {
 		super();
@@ -64,7 +65,7 @@ class DeconstructDateOutput_year_y extends ResthopperParameter {
 	public name: string = "Year";
 	public nickName: string = "Y";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -78,7 +79,7 @@ class DeconstructDateOutput_month_m extends ResthopperParameter {
 	public name: string = "Month";
 	public nickName: string = "M";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -92,7 +93,7 @@ class DeconstructDateOutput_day_d extends ResthopperParameter {
 	public name: string = "Day";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -106,7 +107,7 @@ class DeconstructDateOutput_hour_h extends ResthopperParameter {
 	public name: string = "Hour";
 	public nickName: string = "h";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -120,7 +121,7 @@ class DeconstructDateOutput_minute_m extends ResthopperParameter {
 	public name: string = "Minute";
 	public nickName: string = "m";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -134,7 +135,7 @@ class DeconstructDateOutput_second_s extends ResthopperParameter {
 	public name: string = "Second";
 	public nickName: string = "s";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

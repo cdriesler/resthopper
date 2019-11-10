@@ -10,6 +10,7 @@ export default class BoxMorph extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Morph an object into a twisted box.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 
@@ -44,7 +45,7 @@ class BoxMorphInput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class BoxMorphInput_reference_r extends ResthopperParameter {
 	public name: string = "Reference";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Box;"
+	public typeName: string = "Box"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class BoxMorphInput_target_t extends ResthopperParameter {
 	public name: string = "Target";
 	public nickName: string = "T";
 	public isOptional: boolean = false;
-	public typeName: string = "Twisted Box;"
+	public typeName: string = "Twisted Box"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class BoxMorphOutput_geometry_g extends ResthopperParameter {
 	public name: string = "Geometry";
 	public nickName: string = "G";
 	public isOptional: boolean = false;
-	public typeName: string = "Geometry;"
+	public typeName: string = "Geometry"
 
 	constructor() {
 		super();

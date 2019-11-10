@@ -10,6 +10,7 @@ export default class TextDistance extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Compute the Levenshtein distance between two fragments of text.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -44,7 +45,7 @@ class TextDistanceInput_texta_a extends ResthopperParameter {
 	public name: string = "TextA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -58,7 +59,7 @@ class TextDistanceInput_textb_b extends ResthopperParameter {
 	public name: string = "TextB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Text;"
+	public typeName: string = "Text"
 
 	constructor() {
 		super();
@@ -72,7 +73,7 @@ class TextDistanceInput_case_c extends ResthopperParameter {
 	public name: string = "Case";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Boolean;"
+	public typeName: string = "Boolean"
 
 	constructor() {
 		super();
@@ -86,7 +87,7 @@ class TextDistanceOutput_distance_d extends ResthopperParameter {
 	public name: string = "Distance";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();

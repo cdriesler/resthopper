@@ -10,6 +10,7 @@ export default class XZPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "World XZ plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 
@@ -40,7 +41,7 @@ class XZPlaneInput_origin_o extends ResthopperParameter {
 	public name: string = "Origin";
 	public nickName: string = "O";
 	public isOptional: boolean = false;
-	public typeName: string = "Point;"
+	public typeName: string = "Point"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class XZPlaneOutput_plane_p extends ResthopperParameter {
 	public name: string = "Plane";
 	public nickName: string = "P";
 	public isOptional: boolean = false;
-	public typeName: string = "Plane;"
+	public typeName: string = "Plane"
 
 	constructor() {
 		super();

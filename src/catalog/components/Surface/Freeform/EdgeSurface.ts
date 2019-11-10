@@ -10,6 +10,7 @@ export default class EdgeSurface extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface from two, three or four edge curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -46,7 +47,7 @@ class EdgeSurfaceInput_curvea_a extends ResthopperParameter {
 	public name: string = "CurveA";
 	public nickName: string = "A";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class EdgeSurfaceInput_curveb_b extends ResthopperParameter {
 	public name: string = "CurveB";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class EdgeSurfaceInput_curvec_c extends ResthopperParameter {
 	public name: string = "CurveC";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class EdgeSurfaceInput_curved_d extends ResthopperParameter {
 	public name: string = "CurveD";
 	public nickName: string = "D";
 	public isOptional: boolean = true;
-	public typeName: string = "Curve;"
+	public typeName: string = "Curve"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class EdgeSurfaceOutput_surface_s extends ResthopperParameter {
 	public name: string = "Surface";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

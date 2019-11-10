@@ -10,6 +10,7 @@ export default class WeightedAverage extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Solve the arithmetic weighted average for a set of items";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
@@ -42,7 +43,7 @@ class WeightedAverageInput_input_i extends ResthopperParameter {
 	public name: string = "Input";
 	public nickName: string = "I";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class WeightedAverageInput_weights_w extends ResthopperParameter {
 	public name: string = "Weights";
 	public nickName: string = "W";
 	public isOptional: boolean = false;
-	public typeName: string = "Number;"
+	public typeName: string = "Number"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class WeightedAverageOutput_arithmeticmean_am extends ResthopperParameter {
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";
 	public isOptional: boolean = false;
-	public typeName: string = "Generic Data;"
+	public typeName: string = "Generic Data"
 
 	constructor() {
 		super();

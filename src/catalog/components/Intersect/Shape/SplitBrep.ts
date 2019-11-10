@@ -10,6 +10,7 @@ export default class SplitBrep extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Split one brep with another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -42,7 +43,7 @@ class SplitBrepInput_brep_b extends ResthopperParameter {
 	public name: string = "Brep";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -56,7 +57,7 @@ class SplitBrepInput_cutter_c extends ResthopperParameter {
 	public name: string = "Cutter";
 	public nickName: string = "C";
 	public isOptional: boolean = true;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -70,7 +71,7 @@ class SplitBrepOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

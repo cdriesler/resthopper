@@ -10,6 +10,7 @@ export default class SolidUnion extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid union on a set of Breps.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 
@@ -40,7 +41,7 @@ class SolidUnionInput_breps_b extends ResthopperParameter {
 	public name: string = "Breps";
 	public nickName: string = "B";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();
@@ -54,7 +55,7 @@ class SolidUnionOutput_result_r extends ResthopperParameter {
 	public name: string = "Result";
 	public nickName: string = "R";
 	public isOptional: boolean = false;
-	public typeName: string = "Brep;"
+	public typeName: string = "Brep"
 
 	constructor() {
 		super();

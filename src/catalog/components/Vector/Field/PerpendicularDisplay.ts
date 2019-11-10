@@ -10,6 +10,7 @@ export default class PerpendicularDisplay extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Display the perpendicularity of a field through a section";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 
@@ -46,7 +47,7 @@ class PerpendicularDisplayInput_field_f extends ResthopperParameter {
 	public name: string = "Field";
 	public nickName: string = "F";
 	public isOptional: boolean = false;
-	public typeName: string = "Field;"
+	public typeName: string = "Field"
 
 	constructor() {
 		super();
@@ -60,7 +61,7 @@ class PerpendicularDisplayInput_section_s extends ResthopperParameter {
 	public name: string = "Section";
 	public nickName: string = "S";
 	public isOptional: boolean = false;
-	public typeName: string = "Rectangle;"
+	public typeName: string = "Rectangle"
 
 	constructor() {
 		super();
@@ -74,7 +75,7 @@ class PerpendicularDisplayInput_samples_n extends ResthopperParameter {
 	public name: string = "Samples";
 	public nickName: string = "N";
 	public isOptional: boolean = false;
-	public typeName: string = "Integer;"
+	public typeName: string = "Integer"
 
 	constructor() {
 		super();
@@ -88,7 +89,7 @@ class PerpendicularDisplayInput_negativecolour_c extends ResthopperParameter {
 	public name: string = "NegativeColour";
 	public nickName: string = "C";
 	public isOptional: boolean = false;
-	public typeName: string = "Colour;"
+	public typeName: string = "Colour"
 
 	constructor() {
 		super();
@@ -102,7 +103,7 @@ class PerpendicularDisplayOutput_display_d extends ResthopperParameter {
 	public name: string = "Display";
 	public nickName: string = "D";
 	public isOptional: boolean = false;
-	public typeName: string = "Mesh;"
+	public typeName: string = "Mesh"
 
 	constructor() {
 		super();
