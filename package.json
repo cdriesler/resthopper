@@ -1,6 +1,6 @@
 {
   "name": "resthopper",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "client-side composition of resthopper definitions and requests",
   "main": "dist/index.js",
   "scripts": {

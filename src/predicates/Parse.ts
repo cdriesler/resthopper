@@ -10,6 +10,7 @@ interface ComputeObject {
     Category: string;
     Subcategory: string;
     IsObsolete: boolean;
+    IsVariable: boolean;
     Inputs: ComputeObjectParam[];
     Outputs: ComputeObjectParam[];
     LibraryName: string;
@@ -36,6 +37,7 @@ export default class Parse {
         rc.category = obj.Category;
         rc.subCategory = obj.Subcategory;
         rc.isObsolete = obj.IsObsolete;
+        rc.isVariable = obj.IsVariable;
         rc.libraryName = obj.LibraryName;
 
         (<any[]>object.Inputs).forEach(x => {
