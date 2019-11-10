@@ -201,7 +201,46 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
 
         fs.writeFileSync(path, categoryIndex.join("\n"));
     });
-    
+
+    const path = "./src/catalog/ComponentIndex.ts";
+
+    var indexImports: string[] = ["import ResthopperComponent from '../models/ResthopperComponent';"];
+    var indexCases: string[] = [];
+    var indexTypes: string[] = [];
+
+    // Write top-level index based on component list
+    components.sort((a, b) => a.name.localeCompare(b.name)).forEach(c => {
+        const imp = `import ${c.category} from './components/${c.category}/${c.category}ComponentIndex';`;
+        if (!indexImports.includes(imp)) {
+            indexImports.push(imp);
+        }
+
+        const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
+        if (indexTypes.includes(className)) {
+            return;
+        }
+
+        indexTypes.push(`"${className}"`);
+        indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${c.category}.${c.subCategory}.${className}();`)
+    });
+
+    var text: string[] = [
+        indexImports.join("\n"),
+        "",
+        "export default class ComponentIndex {",
+        "",
+        "\tpublic static createComponent(name: GrasshopperComponent): ResthopperComponent {",
+        "\t\tswitch(name) {",
+        indexCases.join("\n"),
+        "\t\t}",
+        "\t}",
+        "",
+        "}",
+        "",
+        `export type GrasshopperComponent =\n${indexTypes.join(" |\n")}`
+    ];
+
+    fs.writeFileSync(path, text.join("\n"));  
 }
 
 function replaceNumbersWithNames(s: string): string {
