@@ -1,5 +1,6 @@
 import ResthopperComponent from "./../models/ResthopperComponent";
 import ResthopperParameter from "./../models/ResthopperParameter";
+import ResthopperSchema from "./../models/ResthopperSchema";
 
 interface ComputeObject {
     Guid: string;
@@ -73,5 +74,9 @@ export default class Parse {
         p.description = component.description;
 
         return p;
+    }
+
+    public static ResthopperSchemaAsOutputValue(schema: ResthopperSchema): any {
+        return schema.values[0].InnerTree['{ 0; }'][0].data;
     }
 }
