@@ -1,4 +1,5 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
+import { newGuid } from './../../utils/Guid';
 
 export class MeshFaceParam extends ResthopperParameter {
 
@@ -18,6 +19,7 @@ export class MeshFaceParam extends ResthopperParameter {
 	constructor(value?: any) {
 		super();
 		this.values = [value!] ?? [];
+		this.instanceGuid = newGuid();
 	}
 
 }

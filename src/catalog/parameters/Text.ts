@@ -1,4 +1,5 @@
 import ResthopperParameter from './../../models/ResthopperParameter';
+import { newGuid } from './../../utils/Guid';
 
 export class TextParam extends ResthopperParameter {
 
@@ -18,6 +19,7 @@ export class TextParam extends ResthopperParameter {
 	constructor(value?: any) {
 		super();
 		this.values = [value!] ?? [];
+		this.instanceGuid = newGuid();
 	}
 
 }

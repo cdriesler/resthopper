@@ -67,6 +67,7 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
 
         let text: string[] = [
             "import ResthopperParameter from './../../models/ResthopperParameter';",
+            "import { newGuid } from './../../utils/Guid';",
             "",
             `export class ${className}Param extends ResthopperParameter {`,
             "",
@@ -86,6 +87,7 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
             "\tconstructor(value?: any) {",
             "\t\tsuper();",
             "\t\tthis.values = [value!] ?? [];",
+            "\t\tthis.instanceGuid = newGuid();",
             "\t}",
             "",
             "}"
