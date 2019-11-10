@@ -47,6 +47,54 @@ import { VectorParam } from './parameters/Vector';
 
 export default class ParameterIndex {
 
+	private static names: string[] = [
+		"Atom",
+		"Boolean",
+		"Box",
+		"Brep",
+		"Circle",
+		"CircularArc",
+		"Colour",
+		"Complex",
+		"Constant",
+		"Culture",
+		"Curve",
+		"Data",
+		"DataPath",
+		"Domain",
+		"DomainSquared",
+		"Field",
+		"FilePath",
+		"Geometry",
+		"GeometryCache",
+		"GeometryPipeline",
+		"Group",
+		"Guid",
+		"Integer",
+		"Line",
+		"Location",
+		"Marshallingsignalparameter",
+		"Matrix",
+		"Mesh",
+		"MeshFace",
+		"MeshPoint",
+		"MesherSettings",
+		"Number",
+		"Plane",
+		"Point",
+		"Receiver",
+		"Rectangle",
+		"Shader",
+		"SubD",
+		"Surface",
+		"SymbolDisplay",
+		"Text",
+		"Time",
+		"Transform",
+		"TwistedBox",
+		"Vector"
+	];
+
 	public static createParameter(type: GrasshopperParameter, value?: any): ResthopperParameter {
 		switch(type) {
 			case "Atom":
@@ -143,6 +191,11 @@ export default class ParameterIndex {
 				throw new Error('Selected parameter is not supported by resthopper.');
 		}
 	}
+
+	public static getAllParameters(): ResthopperParameter[] {
+		return this.names.map(x => this.createParameter(x as GrasshopperParameter));
+	}
+
 }
 
 export { AtomParam } from './parameters/Atom';
