@@ -10,6 +10,7 @@ export default class Dimensions extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get the approximate dimensions of a surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

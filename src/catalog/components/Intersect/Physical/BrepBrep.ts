@@ -10,6 +10,7 @@ export default class BrepBrep extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for two Breps.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

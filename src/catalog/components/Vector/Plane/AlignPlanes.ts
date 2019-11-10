@@ -10,6 +10,7 @@ export default class AlignPlanes extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Align planes by minimizing their serial rotation.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

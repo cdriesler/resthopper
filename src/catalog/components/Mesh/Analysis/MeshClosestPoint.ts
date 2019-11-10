@@ -10,6 +10,7 @@ export default class MeshClosestPoint extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Finds the closest point on a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

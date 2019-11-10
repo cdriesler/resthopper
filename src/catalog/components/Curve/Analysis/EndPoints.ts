@@ -10,6 +10,7 @@ export default class EndPoints extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the end points of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

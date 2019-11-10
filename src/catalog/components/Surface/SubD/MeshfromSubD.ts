@@ -10,6 +10,7 @@ export default class MeshfromSubD extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Get the approximation mesh of a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class Extremes extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find the extremes (highest and lowest points) on a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

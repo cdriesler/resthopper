@@ -10,6 +10,7 @@ export default class OffsetCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a curve with a specified distance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

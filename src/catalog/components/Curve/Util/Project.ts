@@ -10,6 +10,7 @@ export default class Project extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Project a curve onto a Brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

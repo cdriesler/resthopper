@@ -10,6 +10,7 @@ export default class DivideDomain extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Divide a domain into equal segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class CurveSide extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find on which side of a curve a point exists";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

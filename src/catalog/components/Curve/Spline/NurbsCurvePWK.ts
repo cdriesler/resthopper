@@ -10,6 +10,7 @@ export default class NurbsCurvePWK extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a nurbs curve from control points, weights and knots.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

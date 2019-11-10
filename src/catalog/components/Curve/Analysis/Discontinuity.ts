@@ -10,6 +10,7 @@ export default class Discontinuity extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find all discontinuities along a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

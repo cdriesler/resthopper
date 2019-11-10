@@ -10,6 +10,7 @@ export default class PointCharge extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Create a field due to a point charge";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

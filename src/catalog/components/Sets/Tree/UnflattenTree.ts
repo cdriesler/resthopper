@@ -10,6 +10,7 @@ export default class UnflattenTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Unflatten a data tree by moving items back into branches.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

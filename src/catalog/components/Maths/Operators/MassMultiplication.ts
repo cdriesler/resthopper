@@ -10,6 +10,7 @@ export default class MassMultiplication extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform mass multiplication of a list of items";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

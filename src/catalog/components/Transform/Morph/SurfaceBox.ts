@@ -10,6 +10,7 @@ export default class SurfaceBox extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Create a twisted box on a surface patch.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

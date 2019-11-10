@@ -10,6 +10,7 @@ export default class ShortestList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Shrink a collection of lists to the shortest length amongst them";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

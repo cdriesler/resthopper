@@ -10,6 +10,7 @@ export default class Variable extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "Contains a collection of script-friendly data";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

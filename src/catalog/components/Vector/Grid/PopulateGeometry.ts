@@ -10,6 +10,7 @@ export default class PopulateGeometry extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "Populate generic geometry with points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

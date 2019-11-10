@@ -10,6 +10,7 @@ export default class Compound extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Compound two transformations.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

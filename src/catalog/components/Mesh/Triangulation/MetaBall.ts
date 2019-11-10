@@ -10,6 +10,7 @@ export default class MetaBall extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "2D Metaball isocurve through point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

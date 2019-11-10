@@ -10,6 +10,7 @@ export default class Distance extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Compute Euclidean distance between two point coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

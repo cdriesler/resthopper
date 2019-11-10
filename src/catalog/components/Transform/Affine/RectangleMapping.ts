@@ -10,6 +10,7 @@ export default class RectangleMapping extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Transform geometry from one rectangle into another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

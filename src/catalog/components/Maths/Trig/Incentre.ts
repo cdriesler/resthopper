@@ -10,6 +10,7 @@ export default class Incentre extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle incentre from angle bisectors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

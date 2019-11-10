@@ -10,6 +10,7 @@ export default class PullPoint extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Pull a point to a variety of geometry.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

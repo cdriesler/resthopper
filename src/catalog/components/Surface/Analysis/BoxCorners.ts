@@ -10,6 +10,7 @@ export default class BoxCorners extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract all 8 corners of a box.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

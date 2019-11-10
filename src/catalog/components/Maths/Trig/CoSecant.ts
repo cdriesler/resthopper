@@ -10,6 +10,7 @@ export default class CoSecant extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the co-secant (reciprocal of the Sine) of an angle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

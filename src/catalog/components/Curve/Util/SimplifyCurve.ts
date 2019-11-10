@@ -10,6 +10,7 @@ export default class SimplifyCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Simplify a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

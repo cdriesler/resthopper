@@ -10,6 +10,7 @@ export default class Rotate extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object in a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

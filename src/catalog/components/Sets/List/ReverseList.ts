@@ -10,6 +10,7 @@ export default class ReverseList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Reverse the order of a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

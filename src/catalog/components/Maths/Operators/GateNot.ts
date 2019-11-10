@@ -10,6 +10,7 @@ export default class GateNot extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean negation (NOT gate).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

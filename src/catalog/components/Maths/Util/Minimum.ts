@@ -10,6 +10,7 @@ export default class Minimum extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Return the lesser of two items.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

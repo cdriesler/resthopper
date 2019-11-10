@@ -10,6 +10,7 @@ export default class SimplifyTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Simplify a data tree by removing the overlap shared amongst all branches.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

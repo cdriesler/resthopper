@@ -10,6 +10,7 @@ export default class MemberIndex extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Find the occurences of a specific member in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

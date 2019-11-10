@@ -10,6 +10,7 @@ export default class Cylinder extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a cylindrical surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

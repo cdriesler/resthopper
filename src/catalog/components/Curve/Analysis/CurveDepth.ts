@@ -10,6 +10,7 @@ export default class CurveDepth extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the depth of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

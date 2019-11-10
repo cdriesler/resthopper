@@ -10,6 +10,7 @@ export default class DeconstructVector extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Deconstruct a vector into its component parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

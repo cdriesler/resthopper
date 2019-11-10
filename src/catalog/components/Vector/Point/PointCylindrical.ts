@@ -10,6 +10,7 @@ export default class PointCylindrical extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Create a point from cylindrical {angle,radius,elevation} coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class FlipMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Flip the normal vectors of a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

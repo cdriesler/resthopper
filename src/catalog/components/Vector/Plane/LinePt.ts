@@ -10,6 +10,7 @@ export default class LinePt extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane from a line and a point.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class ConstructDate extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Construct a date and time instance.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

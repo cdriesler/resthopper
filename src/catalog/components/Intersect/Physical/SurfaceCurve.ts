@@ -10,6 +10,7 @@ export default class SurfaceCurve extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for a surface and a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

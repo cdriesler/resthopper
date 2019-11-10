@@ -10,6 +10,7 @@ export default class GhPythonScript extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "GhPython provides a Python script component";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "";
 

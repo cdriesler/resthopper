@@ -10,6 +10,7 @@ export default class DeconstructBox extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Deconstruct a box into its constituent parts.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

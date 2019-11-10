@@ -10,6 +10,7 @@ export default class Interpolate extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create an interpolated curve through a set of points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class LoftOptions extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create loft options from atomic inputs";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

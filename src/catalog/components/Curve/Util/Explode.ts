@@ -10,6 +10,7 @@ export default class Explode extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Explode a curve into smaller segments.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

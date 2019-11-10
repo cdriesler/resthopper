@@ -10,6 +10,7 @@ export default class MatchCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Match two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

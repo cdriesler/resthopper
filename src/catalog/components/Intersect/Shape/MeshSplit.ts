@@ -10,6 +10,7 @@ export default class MeshSplit extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Mesh Mesh split";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

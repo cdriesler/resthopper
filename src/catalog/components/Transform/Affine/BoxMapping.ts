@@ -10,6 +10,7 @@ export default class BoxMapping extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Transform geometry from one box into another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class MirrorSurface extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Mirror geometry in a freeform surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

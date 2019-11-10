@@ -10,6 +10,7 @@ export default class Torsion extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the torsion of a curve at a specified parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

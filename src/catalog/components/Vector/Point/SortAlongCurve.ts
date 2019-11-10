@@ -10,6 +10,7 @@ export default class SortAlongCurve extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Sort points along a curve";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class MeshQuad extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh quad.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

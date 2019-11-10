@@ -10,6 +10,7 @@ export default class Entwine extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Flatten and combine a collection of data streams";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

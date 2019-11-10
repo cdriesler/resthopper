@@ -10,6 +10,7 @@ export default class Ungroup extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Ungroup a set of objects";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

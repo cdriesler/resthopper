@@ -10,6 +10,7 @@ export default class SphereFit extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Fit a sphere to a 3D collection of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

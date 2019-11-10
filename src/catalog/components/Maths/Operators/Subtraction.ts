@@ -10,6 +10,7 @@ export default class Subtraction extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical subtraction";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

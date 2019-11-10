@@ -10,6 +10,7 @@ export default class CircleTanTanTan extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a circle tangent to three curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

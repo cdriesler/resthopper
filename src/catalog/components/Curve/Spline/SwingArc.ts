@@ -10,6 +10,7 @@ export default class SwingArc extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Create a polycurve consisting of arcs defined by center points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

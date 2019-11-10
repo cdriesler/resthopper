@@ -10,6 +10,7 @@ export default class DivideLength extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Divide a curve into segments with a preset length";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

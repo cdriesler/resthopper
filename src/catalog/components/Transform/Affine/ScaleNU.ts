@@ -10,6 +10,7 @@ export default class ScaleNU extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Scale an object with non-uniform factors.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class DeconstructArc extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane, radius and angle domain of an arc.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

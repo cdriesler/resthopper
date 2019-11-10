@@ -10,6 +10,7 @@ export default class PlaneOffset extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Offset a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

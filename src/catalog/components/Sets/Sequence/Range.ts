@@ -10,6 +10,7 @@ export default class Range extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Create a range of numbers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

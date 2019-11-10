@@ -10,6 +10,7 @@ export default class StreamFilter extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Filters a collection of input streams";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Grasshopper";
 

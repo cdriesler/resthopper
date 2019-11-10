@@ -10,6 +10,7 @@ export default class ShapeInBrep extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Tests whether a shape is inside a brep";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

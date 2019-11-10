@@ -10,6 +10,7 @@ export default class MarkerDimension extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a text annotation at a point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

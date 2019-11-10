@@ -10,6 +10,7 @@ export default class RotateThreeD extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object around a center point and an axis vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

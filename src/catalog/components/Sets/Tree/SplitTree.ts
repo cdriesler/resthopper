@@ -10,6 +10,7 @@ export default class SplitTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Split a data tree into two parts using path masks.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

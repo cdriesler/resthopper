@@ -10,6 +10,7 @@ export default class MeshUnion extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid union on a set of meshes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

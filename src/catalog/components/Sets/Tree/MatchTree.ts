@@ -10,6 +10,7 @@ export default class MatchTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Match one data tree with another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

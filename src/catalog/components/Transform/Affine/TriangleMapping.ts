@@ -10,6 +10,7 @@ export default class TriangleMapping extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Transform geometry from one triangle into another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

@@ -10,6 +10,7 @@ export default class Rotate extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Rotate a vector around an axis.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

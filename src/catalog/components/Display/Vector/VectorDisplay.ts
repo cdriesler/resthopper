@@ -10,6 +10,7 @@ export default class VectorDisplay extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Preview vectors in the viewport";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

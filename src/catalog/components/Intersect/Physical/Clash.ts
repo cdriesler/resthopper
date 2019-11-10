@@ -10,6 +10,7 @@ export default class Clash extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Perform clash analysis on a set of shapes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

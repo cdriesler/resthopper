@@ -10,6 +10,7 @@ export default class SubDfromMesh extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Create a subdivision surface from a control mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

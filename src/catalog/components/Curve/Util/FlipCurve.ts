@@ -10,6 +10,7 @@ export default class FlipCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Flip a curve using an optional guide curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

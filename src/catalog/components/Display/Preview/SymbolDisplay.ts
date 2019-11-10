@@ -10,6 +10,7 @@ export default class SymbolDisplay extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Display symbols";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

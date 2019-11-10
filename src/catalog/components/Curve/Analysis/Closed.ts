@@ -10,6 +10,7 @@ export default class Closed extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Test if a curve is closed or periodic.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

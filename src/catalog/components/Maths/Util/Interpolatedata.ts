@@ -10,6 +10,7 @@ export default class Interpolatedata extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Interpolate a collection of data.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

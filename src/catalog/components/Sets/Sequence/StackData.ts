@@ -10,6 +10,7 @@ export default class StackData extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Duplicate individual items in a list of data";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

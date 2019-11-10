@@ -10,6 +10,7 @@ export default class BrepLine extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Brep and a line.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

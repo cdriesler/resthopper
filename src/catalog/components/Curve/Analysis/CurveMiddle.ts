@@ -10,6 +10,7 @@ export default class CurveMiddle extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Get the point in the middle of a curve";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

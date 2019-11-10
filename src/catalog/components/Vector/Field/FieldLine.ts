@@ -10,6 +10,7 @@ export default class FieldLine extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Compute the field line through a certain point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

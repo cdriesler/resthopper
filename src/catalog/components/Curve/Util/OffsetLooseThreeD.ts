@@ -10,6 +10,7 @@ export default class OffsetLooseThreeD extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset the control-points of a curve with a specified distance in 3D.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class Format extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Format some data using placeholders and formatting tags";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

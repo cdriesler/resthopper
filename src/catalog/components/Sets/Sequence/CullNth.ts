@@ -10,6 +10,7 @@ export default class CullNth extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Cull (remove) every Nth element in a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

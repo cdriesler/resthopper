@@ -10,6 +10,7 @@ export default class BoxTwoPt extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box defined by two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

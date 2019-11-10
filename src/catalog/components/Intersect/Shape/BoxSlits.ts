@@ -10,6 +10,7 @@ export default class BoxSlits extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Add slits to a collection of intersecting boxes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

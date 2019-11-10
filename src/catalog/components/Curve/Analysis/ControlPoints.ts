@@ -10,6 +10,7 @@ export default class ControlPoints extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the nurbs control points and knots of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

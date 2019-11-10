@@ -10,6 +10,7 @@ export default class CoordinateMask extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Represents a list of point coordinate masks";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class SubDBox extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Create a subdivision box";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

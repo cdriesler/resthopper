@@ -10,6 +10,7 @@ export default class GateXnor extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean biconditional (XNOR gate).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

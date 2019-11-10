@@ -10,6 +10,7 @@ export default class VectorXYZ extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Create a vector from {xyz} components.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

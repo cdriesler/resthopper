@@ -10,6 +10,7 @@ export default class PointList extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Displays details about lists of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

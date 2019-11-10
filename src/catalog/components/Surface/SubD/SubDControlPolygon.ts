@@ -10,6 +10,7 @@ export default class SubDControlPolygon extends ResthopperComponent {
 	public subCategory: string = "SubD";
 	public description: string = "Extract the control polygon from a Sub-D surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

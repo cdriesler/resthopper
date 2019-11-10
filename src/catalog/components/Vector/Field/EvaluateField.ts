@@ -10,6 +10,7 @@ export default class EvaluateField extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Evaluate a field at a point";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

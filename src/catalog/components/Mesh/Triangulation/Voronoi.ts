@@ -10,6 +10,7 @@ export default class Voronoi extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Planar voronoi diagram for a collection of points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

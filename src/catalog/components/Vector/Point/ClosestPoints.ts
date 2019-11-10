@@ -10,6 +10,7 @@ export default class ClosestPoints extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Find closest points in a point collection.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

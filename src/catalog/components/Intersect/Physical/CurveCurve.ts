@@ -10,6 +10,7 @@ export default class CurveCurve extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class BrepCurve extends ResthopperComponent {
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for a Brep and a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

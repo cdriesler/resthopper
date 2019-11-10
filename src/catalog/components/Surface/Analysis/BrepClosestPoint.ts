@@ -10,6 +10,7 @@ export default class BrepClosestPoint extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Find the closest point on a brep";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

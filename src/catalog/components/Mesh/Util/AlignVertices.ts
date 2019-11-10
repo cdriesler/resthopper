@@ -10,6 +10,7 @@ export default class AlignVertices extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Align nearby vertices in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

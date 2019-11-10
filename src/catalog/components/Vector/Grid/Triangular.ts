@@ -10,6 +10,7 @@ export default class Triangular extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "2D grid with triangular cells";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

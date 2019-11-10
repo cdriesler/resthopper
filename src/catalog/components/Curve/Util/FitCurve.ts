@@ -10,6 +10,7 @@ export default class FitCurve extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Fit a curve along another curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

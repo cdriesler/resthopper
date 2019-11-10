@@ -10,6 +10,7 @@ export default class SwapColumns extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Swap two columns in a matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

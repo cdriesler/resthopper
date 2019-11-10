@@ -10,6 +10,7 @@ export default class LinePlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection event for a line and a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

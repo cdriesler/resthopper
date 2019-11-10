@@ -10,6 +10,7 @@ export default class MeshColours extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Assign a repeating colour pattern to a mesh object.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

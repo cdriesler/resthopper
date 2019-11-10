@@ -10,6 +10,7 @@ export default class Revolution extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface of revolution.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

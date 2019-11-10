@@ -10,6 +10,7 @@ export default class BlurNumbers extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Blur a list of numbers by averaging neighbours";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

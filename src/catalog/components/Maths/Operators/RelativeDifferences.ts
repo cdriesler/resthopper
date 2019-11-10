@@ -10,6 +10,7 @@ export default class RelativeDifferences extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Compute relative differences for a list of data";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

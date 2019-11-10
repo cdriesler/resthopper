@@ -10,6 +10,7 @@ export default class EvaluateCurve extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate a curve at the specified parameter.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

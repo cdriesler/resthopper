@@ -10,6 +10,7 @@ export default class RotateAxis extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object around an axis.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

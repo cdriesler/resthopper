@@ -10,6 +10,7 @@ export default class Transform extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Transform an object.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

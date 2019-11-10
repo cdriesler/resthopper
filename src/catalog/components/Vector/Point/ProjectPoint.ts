@@ -10,6 +10,7 @@ export default class ProjectPoint extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Project a point onto a collection of shapes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

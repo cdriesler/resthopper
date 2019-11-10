@@ -10,6 +10,7 @@ export default class Random extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Generate a list of pseudo random numbers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

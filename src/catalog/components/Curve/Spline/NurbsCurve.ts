@@ -10,6 +10,7 @@ export default class NurbsCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a nurbs curve from control points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

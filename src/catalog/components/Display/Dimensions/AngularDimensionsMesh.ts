@@ -10,6 +10,7 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create angle annotations for all mesh corners.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

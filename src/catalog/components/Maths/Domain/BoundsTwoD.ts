@@ -10,6 +10,7 @@ export default class BoundsTwoD extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric two-dimensional domain which encompasses a list of coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

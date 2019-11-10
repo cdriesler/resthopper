@@ -10,6 +10,7 @@ export default class EvaluateSurface extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate local surface properties at a {uv} coordinate.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

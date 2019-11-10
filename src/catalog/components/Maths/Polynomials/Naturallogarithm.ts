@@ -10,6 +10,7 @@ export default class Naturallogarithm extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the natural logarithm of a value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

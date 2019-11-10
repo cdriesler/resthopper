@@ -10,6 +10,7 @@ export default class VectorTwoPt extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Create a vector between two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

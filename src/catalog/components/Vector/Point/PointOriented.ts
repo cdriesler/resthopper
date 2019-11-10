@@ -10,6 +10,7 @@ export default class PointOriented extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Create a point from plane {u,v,w} coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

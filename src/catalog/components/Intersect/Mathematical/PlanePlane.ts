@@ -10,6 +10,7 @@ export default class PlanePlane extends ResthopperComponent {
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve the intersection event of two planes.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

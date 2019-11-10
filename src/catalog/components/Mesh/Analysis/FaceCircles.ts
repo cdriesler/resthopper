@@ -10,6 +10,7 @@ export default class FaceCircles extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Solve the circumscribed circles for all mesh faces";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

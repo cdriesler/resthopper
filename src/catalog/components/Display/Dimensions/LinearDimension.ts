@@ -10,6 +10,7 @@ export default class LinearDimension extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a distance annotation between points, projected to a line.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

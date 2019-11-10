@@ -10,6 +10,7 @@ export default class NullItem extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Test a data item for null or invalidity";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

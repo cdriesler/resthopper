@@ -10,6 +10,7 @@ export default class Project extends ResthopperComponent {
 	public subCategory: string = "Affine";
 	public description: string = "Project an object onto a plane.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

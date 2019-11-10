@@ -10,6 +10,7 @@ export default class ExtrudeAngled extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude a planar polyline at angles";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

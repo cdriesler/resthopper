@@ -10,6 +10,7 @@ export default class CopyTrim extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Copy UV trim data from one surface to another.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

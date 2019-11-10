@@ -10,6 +10,7 @@ export default class SortText extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Sort a collection of text fragments";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ColourHSL extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {HSL} channels.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

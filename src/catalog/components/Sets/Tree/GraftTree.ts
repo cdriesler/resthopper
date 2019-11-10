@@ -10,6 +10,7 @@ export default class GraftTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Graft a data tree by adding an extra branch for every item.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class PrincipalCurvature extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the principal curvature of a surface at a {uv} coordinate.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

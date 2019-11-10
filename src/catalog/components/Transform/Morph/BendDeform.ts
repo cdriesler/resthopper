@@ -10,6 +10,7 @@ export default class BendDeform extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Deform a shape by bending it";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

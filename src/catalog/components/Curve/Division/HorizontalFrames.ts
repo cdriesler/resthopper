@@ -10,6 +10,7 @@ export default class HorizontalFrames extends ResthopperComponent {
 	public subCategory: string = "Division";
 	public description: string = "Generate a number of equally spaced, horizontally aligned curve frames.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

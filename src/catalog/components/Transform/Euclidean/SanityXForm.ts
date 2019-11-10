@@ -10,6 +10,7 @@ export default class SanityXForm extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Apply a sanity transformation to f a r - a w a y, tiny or HUGE geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

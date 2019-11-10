@@ -10,6 +10,7 @@ export default class LineCharge extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Create a field due to a line charge";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

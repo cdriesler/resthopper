@@ -10,6 +10,7 @@ export default class RegionDifference extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Difference between two sets of planar closed curves (regions)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

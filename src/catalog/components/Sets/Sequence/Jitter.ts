@@ -10,6 +10,7 @@ export default class Jitter extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Randomly shuffles a list of values.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class AdjustPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Adjust a plane to match a new normal direction";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

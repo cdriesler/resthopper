@@ -10,6 +10,7 @@ export default class InsertItems extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Insert a collection of items into a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

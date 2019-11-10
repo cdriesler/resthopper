@@ -10,6 +10,7 @@ export default class Arc extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create an arc defined by base plane, radius and angle domain.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

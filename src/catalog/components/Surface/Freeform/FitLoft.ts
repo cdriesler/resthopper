@@ -10,6 +10,7 @@ export default class FitLoft extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a loft fitted through a set of curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

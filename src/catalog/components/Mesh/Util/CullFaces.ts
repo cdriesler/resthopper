@@ -10,6 +10,7 @@ export default class CullFaces extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Cull faces from a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

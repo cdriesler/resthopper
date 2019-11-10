@@ -10,6 +10,7 @@ export default class Triangulate extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Triangulate all quads in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

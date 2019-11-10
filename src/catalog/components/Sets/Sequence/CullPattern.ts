@@ -10,6 +10,7 @@ export default class CullPattern extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Cull (remove) elements in a list using a repeating bit mask.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

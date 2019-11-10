@@ -10,6 +10,7 @@ export default class LargerThan extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Larger than (or equal to)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

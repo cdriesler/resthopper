@@ -10,6 +10,7 @@ export default class DisplayMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Display a matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

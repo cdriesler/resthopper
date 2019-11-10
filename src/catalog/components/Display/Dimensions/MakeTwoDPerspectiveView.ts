@@ -10,6 +10,7 @@ export default class MakeTwoDPerspectiveView extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Define a perspective view for a Make2D solution";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

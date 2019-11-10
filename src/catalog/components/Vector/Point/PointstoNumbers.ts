@@ -10,6 +10,7 @@ export default class PointstoNumbers extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Convert a list of points to a list of numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

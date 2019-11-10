@@ -10,6 +10,7 @@ export default class MakeTwoDRhinoView extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Import a Rhino view for a Make2D solution";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

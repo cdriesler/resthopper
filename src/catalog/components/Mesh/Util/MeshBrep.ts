@@ -10,6 +10,7 @@ export default class MeshBrep extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create a mesh that approximates Brep geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class Epsilon extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Returns a factor of double precision floating point epsilon.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

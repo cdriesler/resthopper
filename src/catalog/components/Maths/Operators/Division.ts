@@ -10,6 +10,7 @@ export default class Division extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical division";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class FindDomain extends ResthopperComponent {
 	public subCategory: string = "Domain";
 	public description: string = "Find the first domain that contains a specific value";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class RectangleTwoPt extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a rectangle from a base plane and two points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

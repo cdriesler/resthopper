@@ -10,6 +10,7 @@ export default class SortList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Sort a list of numeric keys.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

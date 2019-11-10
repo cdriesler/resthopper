@@ -10,6 +10,7 @@ export default class TwoByFourJam extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Jam a two-by-four into a crooked room";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

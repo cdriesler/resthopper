@@ -10,6 +10,7 @@ export default class Polygon extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a polygon with optional round edges.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

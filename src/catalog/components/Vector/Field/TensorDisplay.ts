@@ -10,6 +10,7 @@ export default class TensorDisplay extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Display the tensor vectors of a field section";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

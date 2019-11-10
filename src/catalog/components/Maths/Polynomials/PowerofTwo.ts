@@ -10,6 +10,7 @@ export default class PowerofTwo extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Raise 2 to the power of N.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class RepeatData extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Repeat a pattern until it reaches a certain length.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class ItemIndex extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Retrieve the index of a certain item in a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

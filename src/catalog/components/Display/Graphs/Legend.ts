@@ -10,6 +10,7 @@ export default class Legend extends ResthopperComponent {
 	public subCategory: string = "Graphs";
 	public description: string = "Display a legend consisting of Tags and Colours";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

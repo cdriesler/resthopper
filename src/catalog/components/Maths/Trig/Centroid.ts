@@ -10,6 +10,7 @@ export default class Centroid extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle centroid from medians.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

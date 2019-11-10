@@ -10,6 +10,7 @@ export default class RegionSlits extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Add slits to a collection of intersecting planar regions";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class DelaunayEdges extends ResthopperComponent {
 	public subCategory: string = "Triangulation";
 	public description: string = "Delaunay connectivity";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Triangulation Components";
 

@@ -10,6 +10,7 @@ export default class SetMajority extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Determine majority member presence amongst three sets.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

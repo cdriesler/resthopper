@@ -10,6 +10,7 @@ export default class SplitARGB extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Split a colour into floating point {ARGB} channels.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

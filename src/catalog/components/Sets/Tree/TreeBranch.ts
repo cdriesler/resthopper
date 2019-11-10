@@ -10,6 +10,7 @@ export default class TreeBranch extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Retrieve a specific branch from a data tree.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

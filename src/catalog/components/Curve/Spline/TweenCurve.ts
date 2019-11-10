@@ -10,6 +10,7 @@ export default class TweenCurve extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Tween between two curves.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

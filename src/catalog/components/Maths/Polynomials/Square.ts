@@ -10,6 +10,7 @@ export default class Square extends ResthopperComponent {
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the square of a value";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

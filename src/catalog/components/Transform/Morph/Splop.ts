@@ -10,6 +10,7 @@ export default class Splop extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Wraps geometry onto a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

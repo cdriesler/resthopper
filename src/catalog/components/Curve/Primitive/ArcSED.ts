@@ -10,6 +10,7 @@ export default class ArcSED extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create an arc defined by start point, end point and a tangent vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

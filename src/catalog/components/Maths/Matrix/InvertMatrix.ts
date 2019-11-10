@@ -10,6 +10,7 @@ export default class InvertMatrix extends ResthopperComponent {
 	public subCategory: string = "Matrix";
 	public description: string = "Invert a matrix";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

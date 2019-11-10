@@ -10,6 +10,7 @@ export default class SweepOne extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a sweep surface with one rail curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

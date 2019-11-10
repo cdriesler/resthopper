@@ -10,6 +10,7 @@ export default class MergeOneZero extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Merge ten streams into one.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

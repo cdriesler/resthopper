@@ -10,6 +10,7 @@ export default class OffsetSurface extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a surface by a fixed amount.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

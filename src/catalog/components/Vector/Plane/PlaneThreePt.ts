@@ -10,6 +10,7 @@ export default class PlaneThreePt extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane through three points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

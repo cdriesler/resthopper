@@ -10,6 +10,7 @@ export default class AngularDimension extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create an angle annotation between points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class Cosine extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the cosine of a value";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

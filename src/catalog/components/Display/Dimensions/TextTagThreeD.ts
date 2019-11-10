@@ -10,6 +10,7 @@ export default class TextTagThreeD extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Represents a list of 3D text tags in a Rhino viewport";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

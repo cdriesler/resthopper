@@ -10,6 +10,7 @@ export default class Fibonacci extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Creates a Fibonacci sequence.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

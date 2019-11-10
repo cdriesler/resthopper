@@ -10,6 +10,7 @@ export default class MergeGroup extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Merge two groups";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

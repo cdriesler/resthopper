@@ -10,6 +10,7 @@ export default class FlipMatrix extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Flip a matrix-like data tree by swapping rows and columns.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

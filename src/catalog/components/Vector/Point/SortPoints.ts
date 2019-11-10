@@ -10,6 +10,7 @@ export default class SortPoints extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Sort points by Euclidean coordinates (first x, then y, then z)";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class OsculatingCircles extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Calculate the principal osculating circles of a surface at a {uv} coordinate.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

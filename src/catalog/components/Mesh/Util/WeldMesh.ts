@@ -10,6 +10,7 @@ export default class WeldMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Weld (merge) creases in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

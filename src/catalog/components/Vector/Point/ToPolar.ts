@@ -10,6 +10,7 @@ export default class ToPolar extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Convert a 3D point to plane polar coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

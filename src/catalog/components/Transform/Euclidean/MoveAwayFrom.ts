@@ -10,6 +10,7 @@ export default class MoveAwayFrom extends ResthopperComponent {
 	public subCategory: string = "Euclidean";
 	public description: string = "Translate (move) an object away from another object.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

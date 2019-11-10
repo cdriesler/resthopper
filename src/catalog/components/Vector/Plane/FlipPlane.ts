@@ -10,6 +10,7 @@ export default class FlipPlane extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Flip or swap the axes of a plane";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

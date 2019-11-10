@@ -10,6 +10,7 @@ export default class SetIntersection extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Creates the intersection of two sets (the collection of unique objects present in both sets).";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

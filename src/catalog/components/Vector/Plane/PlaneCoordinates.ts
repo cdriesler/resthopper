@@ -10,6 +10,7 @@ export default class PlaneCoordinates extends ResthopperComponent {
 	public subCategory: string = "Plane";
 	public description: string = "Get the coordinates of a point in a plane axis system.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

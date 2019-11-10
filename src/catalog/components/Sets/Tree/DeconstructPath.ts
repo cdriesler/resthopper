@@ -10,6 +10,7 @@ export default class DeconstructPath extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Deconstruct a data tree path into individual integers.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class FaceBoundaries extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Convert all mesh faces to polylines";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

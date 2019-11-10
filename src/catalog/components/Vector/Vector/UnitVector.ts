@@ -10,6 +10,7 @@ export default class UnitVector extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Unitize vector.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

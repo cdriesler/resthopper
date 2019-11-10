@@ -10,6 +10,7 @@ export default class CurvatureGraph extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Draws Rhino Curvature Graphs.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

@@ -10,6 +10,7 @@ export default class Secant extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the secant (reciprocal of the Cosine) of an angle.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

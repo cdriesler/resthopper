@@ -10,6 +10,7 @@ export default class ConstructPoint extends ResthopperComponent {
 	public subCategory: string = "Point";
 	public description: string = "Construct a point from {xyz} coordinates.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

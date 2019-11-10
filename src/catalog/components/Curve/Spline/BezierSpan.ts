@@ -10,6 +10,7 @@ export default class BezierSpan extends ResthopperComponent {
 	public subCategory: string = "Spline";
 	public description: string = "Construct a bezier span from endpoints and tangents.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

@@ -10,6 +10,7 @@ export default class DateRange extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Create a range of successive dates or times";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

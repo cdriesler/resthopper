@@ -10,6 +10,7 @@ export default class DotProduct extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Compute vector dot product.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

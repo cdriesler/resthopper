@@ -10,6 +10,7 @@ export default class SplitGroup extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Split a group";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

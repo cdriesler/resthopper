@@ -10,6 +10,7 @@ export default class TrimSolid extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Cut holes into a shape with a set of solid cutters.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class ArcTangent extends ResthopperComponent {
 	public subCategory: string = "Trig";
 	public description: string = "Compute the angle whose tangent is the specified value.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

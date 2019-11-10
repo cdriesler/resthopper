@@ -10,6 +10,7 @@ export default class UnweldMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Unweld (split) creases in a mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

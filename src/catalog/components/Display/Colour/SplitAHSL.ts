@@ -10,6 +10,7 @@ export default class SplitAHSL extends ResthopperComponent {
 	public subCategory: string = "Colour";
 	public description: string = "Split a colour into floating point {AHSL} channels";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

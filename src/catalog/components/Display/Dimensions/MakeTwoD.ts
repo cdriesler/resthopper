@@ -10,6 +10,7 @@ export default class MakeTwoD extends ResthopperComponent {
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a hidden line drawing from geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

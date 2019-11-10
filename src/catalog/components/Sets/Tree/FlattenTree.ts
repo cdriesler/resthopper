@@ -10,6 +10,7 @@ export default class FlattenTree extends ResthopperComponent {
 	public subCategory: string = "Tree";
 	public description: string = "Flatten a data tree by removing all branching information.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

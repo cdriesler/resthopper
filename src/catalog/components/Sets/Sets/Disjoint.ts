@@ -10,6 +10,7 @@ export default class Disjoint extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Test whether two sets are disjoint.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

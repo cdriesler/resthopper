@@ -10,6 +10,7 @@ export default class PartitionList extends ResthopperComponent {
 	public subCategory: string = "List";
 	public description: string = "Partition a list into sub-lists";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

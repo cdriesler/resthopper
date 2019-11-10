@@ -10,6 +10,7 @@ export default class Expression extends ResthopperComponent {
 	public subCategory: string = "Script";
 	public description: string = "Evaluate an expression";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = true;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class EdgesfromLength extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Select brep edges based on length";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

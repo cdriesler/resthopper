@@ -10,6 +10,7 @@ export default class FilletEdge extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Fillet some edges of a brep.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

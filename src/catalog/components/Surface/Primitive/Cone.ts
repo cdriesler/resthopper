@@ -10,6 +10,7 @@ export default class Cone extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a conical surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

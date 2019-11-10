@@ -10,6 +10,7 @@ export default class DivideSurface extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Generate a grid of {uv} points on a surface.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

@@ -10,6 +10,7 @@ export default class ReplaceMembers extends ResthopperComponent {
 	public subCategory: string = "Sets";
 	public description: string = "Replace members in a set.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class SpatialDeformcustom extends ResthopperComponent {
 	public subCategory: string = "Morph";
 	public description: string = "Perform spatial deformation based on custom space syntax.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Transform Components";
 

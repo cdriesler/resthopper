@@ -10,6 +10,7 @@ export default class Sequence extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Generate a sequence of numbers";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

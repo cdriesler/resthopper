@@ -10,6 +10,7 @@ export default class ExtrudeAlong extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude curves and surfaces along a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

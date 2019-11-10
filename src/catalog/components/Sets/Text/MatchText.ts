@@ -10,6 +10,7 @@ export default class MatchText extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Match a text against a pattern";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

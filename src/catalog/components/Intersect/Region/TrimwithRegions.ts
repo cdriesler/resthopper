@@ -10,6 +10,7 @@ export default class TrimwithRegions extends ResthopperComponent {
 	public subCategory: string = "Region";
 	public description: string = "Trim a curve with multiple regions.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

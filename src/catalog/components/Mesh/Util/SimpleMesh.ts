@@ -10,6 +10,7 @@ export default class SimpleMesh extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Create a mesh that represents a Brep as simply as possible";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class JoinCurves extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Join as many curves as possible";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

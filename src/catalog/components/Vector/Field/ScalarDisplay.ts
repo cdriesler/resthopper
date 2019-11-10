@@ -10,6 +10,7 @@ export default class ScalarDisplay extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Display the scalar values of a field section";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

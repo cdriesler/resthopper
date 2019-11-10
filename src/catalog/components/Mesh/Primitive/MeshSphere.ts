@@ -10,6 +10,7 @@ export default class MeshSphere extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh sphere.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

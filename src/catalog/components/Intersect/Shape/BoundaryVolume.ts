@@ -10,6 +10,7 @@ export default class BoundaryVolume extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Create a closed polysurface from boundary surfaces";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

@@ -10,6 +10,7 @@ export default class CloudDisplay extends ResthopperComponent {
 	public subCategory: string = "Preview";
 	public description: string = "Draw a collection of points as a fuzzy cloud";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

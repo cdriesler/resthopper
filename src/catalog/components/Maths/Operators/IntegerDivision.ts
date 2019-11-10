@@ -10,6 +10,7 @@ export default class IntegerDivision extends ResthopperComponent {
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical integer division";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

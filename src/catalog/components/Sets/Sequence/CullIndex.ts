@@ -10,6 +10,7 @@ export default class CullIndex extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Cull (remove) indexed elements from a list.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

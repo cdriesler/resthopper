@@ -10,6 +10,7 @@ export default class Group extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Group a set of objects";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Grasshopper";
 

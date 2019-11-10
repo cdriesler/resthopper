@@ -10,6 +10,7 @@ export default class Rectangular extends ResthopperComponent {
 	public subCategory: string = "Grid";
 	public description: string = "2D grid with rectangular cells";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

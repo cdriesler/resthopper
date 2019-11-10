@@ -10,6 +10,7 @@ export default class ViewportDisplay extends ResthopperComponent {
 	public subCategory: string = "Viewport";
 	public description: string = "Display viewport on canvas";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

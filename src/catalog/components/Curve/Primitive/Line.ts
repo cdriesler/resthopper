@@ -10,6 +10,7 @@ export default class Line extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line between two points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

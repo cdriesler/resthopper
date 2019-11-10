@@ -10,6 +10,7 @@ export default class ControlPolygon extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the nurbs control polygon of a curve.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

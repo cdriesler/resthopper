@@ -10,6 +10,7 @@ export default class FragmentPatch extends ResthopperComponent {
 	public subCategory: string = "Freeform";
 	public description: string = "Create a fragmented patch from a polyline boundary";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

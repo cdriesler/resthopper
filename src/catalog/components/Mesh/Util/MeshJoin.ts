@@ -10,6 +10,7 @@ export default class MeshJoin extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Join a set of meshes into a single mesh";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

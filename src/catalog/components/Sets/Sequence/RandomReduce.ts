@@ -10,6 +10,7 @@ export default class RandomReduce extends ResthopperComponent {
 	public subCategory: string = "Sequence";
 	public description: string = "Randomly remove N items from a list";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

@@ -10,6 +10,7 @@ export default class BreakField extends ResthopperComponent {
 	public subCategory: string = "Field";
 	public description: string = "Break a field into individual elements";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Field Components";
 

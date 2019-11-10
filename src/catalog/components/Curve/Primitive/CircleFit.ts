@@ -10,6 +10,7 @@ export default class CircleFit extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Fit a circle to a collection of points.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

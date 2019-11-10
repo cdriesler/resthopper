@@ -10,6 +10,7 @@ export default class RectangleThreePt extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create a rectangle from three points";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

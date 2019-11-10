@@ -10,6 +10,7 @@ export default class OffsetPolyline extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Offset a 2D polyline";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

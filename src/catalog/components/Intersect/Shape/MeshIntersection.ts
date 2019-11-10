@@ -10,6 +10,7 @@ export default class MeshIntersection extends ResthopperComponent {
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid intersection on a set of meshes";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

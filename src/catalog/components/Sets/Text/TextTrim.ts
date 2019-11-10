@@ -10,6 +10,7 @@ export default class TextTrim extends ResthopperComponent {
 	public subCategory: string = "Text";
 	public description: string = "Remove whitespace characters from the start and end of some text.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 

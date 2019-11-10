@@ -10,6 +10,7 @@ export default class Addition extends ResthopperComponent {
 	public subCategory: string = "Vector";
 	public description: string = "Perform vector-vector addition.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Vector Components";
 

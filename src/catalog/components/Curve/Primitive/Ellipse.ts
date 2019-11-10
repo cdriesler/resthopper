@@ -10,6 +10,7 @@ export default class Ellipse extends ResthopperComponent {
 	public subCategory: string = "Primitive";
 	public description: string = "Create an ellipse defined by base plane and two radii.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Curve Components";
 

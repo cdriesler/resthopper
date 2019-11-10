@@ -10,6 +10,7 @@ export default class Flip extends ResthopperComponent {
 	public subCategory: string = "Util";
 	public description: string = "Flip the normals of a surface based on local or remote geometry";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

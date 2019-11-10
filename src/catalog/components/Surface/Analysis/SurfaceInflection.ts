@@ -10,6 +10,7 @@ export default class SurfaceInflection extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Compute the inflection curves for a surface";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

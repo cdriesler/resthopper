@@ -10,6 +10,7 @@ export default class SurfaceCurvature extends ResthopperComponent {
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the surface curvature at a {uv} coordinate.";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Surface Components";
 

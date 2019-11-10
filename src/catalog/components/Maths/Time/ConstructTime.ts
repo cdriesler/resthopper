@@ -10,6 +10,7 @@ export default class ConstructTime extends ResthopperComponent {
 	public subCategory: string = "Time";
 	public description: string = "Construct a time instance";
 	public isObsolete: boolean = false;
+	public isVariable: boolean = false;
 
 	public library: string = "Math Components";
 
