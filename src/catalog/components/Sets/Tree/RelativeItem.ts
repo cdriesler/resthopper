@@ -6,6 +6,7 @@ export default class RelativeItem extends ResthopperComponent {
 
 	public guid: string = "fac0d5be-e3ff-4bbb-9742-ec9a54900d41";
 	public name: string = "RelativeItem";
+	public nickName: string = "RelItem";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Retrieve a relative item combo from a data tree";

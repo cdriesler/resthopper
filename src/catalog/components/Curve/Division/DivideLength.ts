@@ -6,6 +6,7 @@ export default class DivideLength extends ResthopperComponent {
 
 	public guid: string = "fdc466a9-d3b8-4056-852a-09dba0f74aca";
 	public name: string = "DivideLength";
+	public nickName: string = "DivLength";
 	public category: string = "Curve";
 	public subCategory: string = "Division";
 	public description: string = "Divide a curve into segments with a preset length";

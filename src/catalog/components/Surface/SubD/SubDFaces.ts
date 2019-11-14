@@ -6,6 +6,7 @@ export default class SubDFaces extends ResthopperComponent {
 
 	public guid: string = "83c81431-17bc-4bff-bb85-be0a846bd044";
 	public name: string = "SubDFaces";
+	public nickName: string = "SubDFaces";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";
 	public description: string = "Extract all face data from a Sub-D surface.";

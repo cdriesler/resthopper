@@ -6,6 +6,7 @@ export default class Range extends ResthopperComponent {
 
 	public guid: string = "9445ca40-cc73-4861-a455-146308676855";
 	public name: string = "Range";
+	public nickName: string = "Range";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Create a range of numbers.";

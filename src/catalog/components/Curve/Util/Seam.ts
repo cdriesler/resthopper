@@ -6,6 +6,7 @@ export default class Seam extends ResthopperComponent {
 
 	public guid: string = "42ad8dc1-b0c0-40df-91f5-2c46e589e6c2";
 	public name: string = "Seam";
+	public nickName: string = "Seam";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Adjust the seam of a closed curve.";

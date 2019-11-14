@@ -6,6 +6,7 @@ export default class Negative extends ResthopperComponent {
 
 	public guid: string = "a3371040-e552-4bc8-b0ff-10a840258e88";
 	public name: string = "Negative";
+	public nickName: string = "Neg";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Compute the negative of a value.";

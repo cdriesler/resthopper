@@ -6,6 +6,7 @@ export default class PolyLine extends ResthopperComponent {
 
 	public guid: string = "71b5b089-500a-4ea6-81c5-2f960441a0e8";
 	public name: string = "PolyLine";
+	public nickName: string = "PLine";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Create a polyline connecting a number of points.";

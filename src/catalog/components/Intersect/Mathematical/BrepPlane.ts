@@ -6,6 +6,7 @@ export default class BrepPlane extends ResthopperComponent {
 
 	public guid: string = "4fe828e8-fa95-4cc5-9a8c-c33856ecc783";
 	public name: string = "BrepPlane";
+	public nickName: string = "Sec";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Brep and a plane (otherwise known as section).";

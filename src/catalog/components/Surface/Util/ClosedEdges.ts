@@ -6,6 +6,7 @@ export default class ClosedEdges extends ResthopperComponent {
 
 	public guid: string = "70905be1-e22f-4fa8-b9ae-e119d417904f";
 	public name: string = "ClosedEdges";
+	public nickName: string = "EdgesCls";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Select closed edges.";

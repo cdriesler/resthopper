@@ -6,6 +6,7 @@ export default class SettingsQuality extends ResthopperComponent {
 
 	public guid: string = "1b0ee096-cc76-4847-8941-04a9e256de76";
 	public name: string = "SettingsQuality";
+	public nickName: string = "Smooth";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Represents 'Smooth & slower' mesh settings.";

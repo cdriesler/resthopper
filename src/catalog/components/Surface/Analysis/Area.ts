@@ -6,6 +6,7 @@ export default class Area extends ResthopperComponent {
 
 	public guid: string = "2e205f24-9279-47b2-b414-d06dcd0b21a7";
 	public name: string = "Area";
+	public nickName: string = "Area";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Solve area properties for breps, meshes and planar closed curves.";

@@ -6,6 +6,7 @@ export default class MatchText extends ResthopperComponent {
 
 	public guid: string = "3756c55f-95c3-442c-a027-6b3ab0455a94";
 	public name: string = "MatchText";
+	public nickName: string = "TMatch";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Match a text against a pattern";

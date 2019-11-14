@@ -6,6 +6,7 @@ export default class Expression extends ResthopperComponent {
 
 	public guid: string = "9df5e896-552d-4c8c-b9ca-4fc147ffa022";
 	public name: string = "Expression";
+	public nickName: string = "Expression";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
 	public description: string = "Evaluate an expression";

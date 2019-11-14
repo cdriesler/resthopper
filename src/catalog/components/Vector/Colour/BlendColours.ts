@@ -6,6 +6,7 @@ export default class BlendColours extends ResthopperComponent {
 
 	public guid: string = "8b4da37d-1124-436a-9de2-952e4224a220";
 	public name: string = "BlendColours";
+	public nickName: string = "BlendCol";
 	public category: string = "Vector";
 	public subCategory: string = "Colour";
 	public description: string = "Interpolate (blend) between two colours.";

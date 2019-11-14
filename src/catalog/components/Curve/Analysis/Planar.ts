@@ -6,6 +6,7 @@ export default class Planar extends ResthopperComponent {
 
 	public guid: string = "5816ec9c-f170-4c59-ac44-364401ff84cd";
 	public name: string = "Planar";
+	public nickName: string = "Planar";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Test a curve for planarity.";

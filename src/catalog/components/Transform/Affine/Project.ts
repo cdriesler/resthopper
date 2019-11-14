@@ -6,6 +6,7 @@ export default class Project extends ResthopperComponent {
 
 	public guid: string = "23285717-156c-468f-a691-b242488c06a6";
 	public name: string = "Project";
+	public nickName: string = "Project";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";
 	public description: string = "Project an object onto a plane.";

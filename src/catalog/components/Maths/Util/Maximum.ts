@@ -6,6 +6,7 @@ export default class Maximum extends ResthopperComponent {
 
 	public guid: string = "0d1e2027-f153-460d-84c0-f9af431b08cb";
 	public name: string = "Maximum";
+	public nickName: string = "Max";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Return the greater of two items.";

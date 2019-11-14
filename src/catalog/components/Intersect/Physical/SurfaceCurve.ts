@@ -6,6 +6,7 @@ export default class SurfaceCurve extends ResthopperComponent {
 
 	public guid: string = "68546dd0-aa82-471c-87e9-81cb16ac50ed";
 	public name: string = "SurfaceCurve";
+	public nickName: string = "SCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for a surface and a curve.";

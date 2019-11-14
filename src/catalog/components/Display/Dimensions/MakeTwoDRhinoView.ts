@@ -6,6 +6,7 @@ export default class MakeTwoDRhinoView extends ResthopperComponent {
 
 	public guid: string = "4ac24770-e38b-4363-be38-551a3b134707";
 	public name: string = "Make2DRhinoView";
+	public nickName: string = "M2DRhino";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Import a Rhino view for a Make2D solution";

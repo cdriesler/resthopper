@@ -6,6 +6,7 @@ export default class OcTree extends ResthopperComponent {
 
 	public guid: string = "a59a68ad-fdd6-41dd-88f0-d7a6fb8d2e16";
 	public name: string = "OcTree";
+	public nickName: string = "OcT";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";
 	public description: string = "A three-dimensional oc-tree structure";

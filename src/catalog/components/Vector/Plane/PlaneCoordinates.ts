@@ -6,6 +6,7 @@ export default class PlaneCoordinates extends ResthopperComponent {
 
 	public guid: string = "5f127fa4-ca61-418e-bb2d-e3739d900f1f";
 	public name: string = "PlaneCoordinates";
+	public nickName: string = "PlCoord";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Get the coordinates of a point in a plane axis system.";

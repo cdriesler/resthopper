@@ -6,6 +6,7 @@ export default class FindDomain extends ResthopperComponent {
 
 	public guid: string = "0b5c7fad-0473-41aa-bf52-d7a861dcaa29";
 	public name: string = "FindDomain";
+	public nickName: string = "FDom";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
 	public description: string = "Find the first domain that contains a specific value";

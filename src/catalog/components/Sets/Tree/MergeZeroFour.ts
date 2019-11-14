@@ -6,6 +6,7 @@ export default class MergeZeroFour extends ResthopperComponent {
 
 	public guid: string = "b5be5d1f-717f-493c-b958-816957f271fd";
 	public name: string = "Merge04";
+	public nickName: string = "M4";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Merge four streams into one.";

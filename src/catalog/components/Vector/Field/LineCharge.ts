@@ -6,6 +6,7 @@ export default class LineCharge extends ResthopperComponent {
 
 	public guid: string = "8cc9eb88-26a7-4baa-a896-13e5fc12416a";
 	public name: string = "LineCharge";
+	public nickName: string = "LCharge";
 	public category: string = "Vector";
 	public subCategory: string = "Field";
 	public description: string = "Create a field due to a line charge";

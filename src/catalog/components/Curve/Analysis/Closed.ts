@@ -6,6 +6,7 @@ export default class Closed extends ResthopperComponent {
 
 	public guid: string = "323f3245-af49-4489-8677-7a2c73664077";
 	public name: string = "Closed";
+	public nickName: string = "Cls";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Test if a curve is closed or periodic.";

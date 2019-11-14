@@ -6,6 +6,7 @@ export default class TriangleMapping extends ResthopperComponent {
 
 	public guid: string = "61d81100-c4d3-462d-8b51-d951c0ae32db";
 	public name: string = "TriangleMapping";
+	public nickName: string = "TriMap";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";
 	public description: string = "Transform geometry from one triangle into another.";

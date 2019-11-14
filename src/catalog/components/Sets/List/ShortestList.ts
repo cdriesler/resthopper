@@ -6,6 +6,7 @@ export default class ShortestList extends ResthopperComponent {
 
 	public guid: string = "5a13ec19-e4e9-43da-bf65-f93025fa87ca";
 	public name: string = "ShortestList";
+	public nickName: string = "Short";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Shrink a collection of lists to the shortest length amongst them";

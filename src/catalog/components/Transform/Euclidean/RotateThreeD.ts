@@ -6,6 +6,7 @@ export default class RotateThreeD extends ResthopperComponent {
 
 	public guid: string = "3dfb9a77-6e05-4016-9f20-94f78607d672";
 	public name: string = "Rotate3D";
+	public nickName: string = "Rot3D";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object around a center point and an axis vector.";

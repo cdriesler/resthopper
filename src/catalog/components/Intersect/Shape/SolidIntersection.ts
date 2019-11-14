@@ -6,6 +6,7 @@ export default class SolidIntersection extends ResthopperComponent {
 
 	public guid: string = "5723c845-cafc-442d-a667-8c76532845e6";
 	public name: string = "SolidIntersection";
+	public nickName: string = "SInt";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid intersection on two Brep sets.";

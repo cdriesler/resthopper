@@ -6,6 +6,7 @@ export default class RotateDirection extends ResthopperComponent {
 
 	public guid: string = "5edaea74-32cb-4586-bd72-66694eb73160";
 	public name: string = "RotateDirection";
+	public nickName: string = "Rotate";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object from one direction to another.";

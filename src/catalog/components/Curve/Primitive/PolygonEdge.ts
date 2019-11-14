@@ -6,6 +6,7 @@ export default class PolygonEdge extends ResthopperComponent {
 
 	public guid: string = "f4568ce6-aade-4511-8f32-f27d8a6bf9e9";
 	public name: string = "PolygonEdge";
+	public nickName: string = "PolEdge";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a polygon from a single edge.";

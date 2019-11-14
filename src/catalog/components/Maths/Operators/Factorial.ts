@@ -6,6 +6,7 @@ export default class Factorial extends ResthopperComponent {
 
 	public guid: string = "a0a38131-c5fc-4984-b05d-34cf57f0c018";
 	public name: string = "Factorial";
+	public nickName: string = "Fac";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Returns the factorial of an integer.";

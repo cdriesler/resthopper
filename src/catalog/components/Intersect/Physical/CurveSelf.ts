@@ -6,6 +6,7 @@ export default class CurveSelf extends ResthopperComponent {
 
 	public guid: string = "0991ac99-6a0b-47a9-b07d-dd510ca57f0f";
 	public name: string = "CurveSelf";
+	public nickName: string = "CX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Solve all self intersection events for a curve.";

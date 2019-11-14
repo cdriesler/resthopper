@@ -6,6 +6,7 @@ export default class DivideDistance extends ResthopperComponent {
 
 	public guid: string = "1e531c08-9c80-46d6-8850-1b50d1dae69f";
 	public name: string = "DivideDistance";
+	public nickName: string = "DivDist";
 	public category: string = "Curve";
 	public subCategory: string = "Division";
 	public description: string = "Divide a curve with a preset distance between points";

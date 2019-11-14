@@ -6,6 +6,7 @@ export default class ColourRGBf extends ResthopperComponent {
 
 	public guid: string = "f35132c0-c298-4b9c-b446-42e960f52677";
 	public name: string = "ColourRGBf";
+	public nickName: string = "fRGB";
 	public category: string = "Display";
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {RGB} channels.";

@@ -6,6 +6,7 @@ export default class MeshPlane extends ResthopperComponent {
 
 	public guid: string = "3b1ae469-0e9b-461d-8c30-fa5a7de8b7a9";
 	public name: string = "MeshPlane";
+	public nickName: string = "Sec";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Mesh and a Plane (otherwise known as section).";

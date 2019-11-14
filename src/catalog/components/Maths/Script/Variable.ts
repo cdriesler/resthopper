@@ -6,6 +6,7 @@ export default class Variable extends ResthopperComponent {
 
 	public guid: string = "84fa917c-1ed8-4db3-8be1-7bdc4a6495a2";
 	public name: string = "Variable";
+	public nickName: string = "var";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
 	public description: string = "Contains a collection of script-friendly data";

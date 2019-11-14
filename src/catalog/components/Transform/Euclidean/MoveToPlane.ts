@@ -6,6 +6,7 @@ export default class MoveToPlane extends ResthopperComponent {
 
 	public guid: string = "4fe87ef8-49e4-4605-9859-87940d62e1de";
 	public name: string = "MoveToPlane";
+	public nickName: string = "MoveToPlane";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Translate (move) an object onto a plane.";

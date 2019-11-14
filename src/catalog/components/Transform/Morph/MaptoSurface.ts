@@ -6,6 +6,7 @@ export default class MaptoSurface extends ResthopperComponent {
 
 	public guid: string = "fc5b7d12-7247-4de0-81bc-9b2c2f8f72f6";
 	public name: string = "MaptoSurface";
+	public nickName: string = "MapSrf";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Map a curve onto a surface via control points.";

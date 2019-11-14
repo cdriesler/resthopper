@@ -6,6 +6,7 @@ export default class UnitZ extends ResthopperComponent {
 
 	public guid: string = "9103c240-a6a9-4223-9b42-dbd19bf38e2b";
 	public name: string = "UnitZ";
+	public nickName: string = "Z";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Unit vector parallel to the world {z} axis.";

@@ -6,6 +6,7 @@ export default class GoldenRatio extends ResthopperComponent {
 
 	public guid: string = "cb22d3ed-93d8-4629-bdf2-c0c7c25afd2c";
 	public name: string = "GoldenRatio";
+	public nickName: string = "Phi";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Returns a factor of the golden ratio (Phi).";

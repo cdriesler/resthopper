@@ -6,6 +6,7 @@ export default class SurfaceBox extends ResthopperComponent {
 
 	public guid: string = "4f65c681-9331-4818-9d54-6290cae686c3";
 	public name: string = "SurfaceBox";
+	public nickName: string = "SBox";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Create a twisted box on a surface patch.";

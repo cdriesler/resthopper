@@ -6,6 +6,7 @@ export default class MassAddition extends ResthopperComponent {
 
 	public guid: string = "5b850221-b527-4bd6-8c62-e94168cd6efa";
 	public name: string = "MassAddition";
+	public nickName: string = "MA";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Perform mass addition of a list of items";

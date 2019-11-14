@@ -6,6 +6,7 @@ export default class LineSDL extends ResthopperComponent {
 
 	public guid: string = "4c619bc9-39fd-4717-82a6-1e07ea237bbe";
 	public name: string = "LineSDL";
+	public nickName: string = "Line";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line segment defined by start point, tangent and length.}";

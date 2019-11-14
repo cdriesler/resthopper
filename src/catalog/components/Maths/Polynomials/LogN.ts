@@ -6,6 +6,7 @@ export default class LogN extends ResthopperComponent {
 
 	public guid: string = "7ab8d289-26a2-4dd4-b4ad-df5b477999d8";
 	public name: string = "LogN";
+	public nickName: string = "LogN";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Return the N-base logarithm of a number.";

@@ -6,6 +6,7 @@ export default class AngularDimensionsMesh extends ResthopperComponent {
 
 	public guid: string = "91f3bde5-26e6-432e-a5fe-a2938b2a94f9";
 	public name: string = "AngularDimensionsMesh";
+	public nickName: string = "AngleDimMesh";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Create angle annotations for all mesh corners.";

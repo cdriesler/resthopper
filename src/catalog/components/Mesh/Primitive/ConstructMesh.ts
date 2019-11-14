@@ -6,6 +6,7 @@ export default class ConstructMesh extends ResthopperComponent {
 
 	public guid: string = "e2c0f9db-a862-4bd9-810c-ef2610e7a56f";
 	public name: string = "ConstructMesh";
+	public nickName: string = "ConMesh";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";
 	public description: string = "Construct a mesh from vertices, faces and optional colours.";

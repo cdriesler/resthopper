@@ -6,6 +6,7 @@ export default class GateXnor extends ResthopperComponent {
 
 	public guid: string = "b6aedcac-bf43-42d4-899e-d763612f834d";
 	public name: string = "GateXnor";
+	public nickName: string = "Xnor";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean biconditional (XNOR gate).";

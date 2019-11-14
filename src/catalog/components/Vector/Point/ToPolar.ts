@@ -6,6 +6,7 @@ export default class ToPolar extends ResthopperComponent {
 
 	public guid: string = "61647ba2-31eb-4921-9632-df81e3286f7d";
 	public name: string = "ToPolar";
+	public nickName: string = "Polar";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Convert a 3D point to plane polar coordinates.";

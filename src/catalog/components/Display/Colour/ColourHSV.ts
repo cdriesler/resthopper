@@ -6,6 +6,7 @@ export default class ColourHSV extends ResthopperComponent {
 
 	public guid: string = "5958a658-20c2-4a2b-86ba-4d1b81bf5348";
 	public name: string = "ColourHSV";
+	public nickName: string = "HSV";
 	public category: string = "Display";
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {HSV} channels.";

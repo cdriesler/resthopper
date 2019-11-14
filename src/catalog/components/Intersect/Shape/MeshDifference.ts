@@ -6,6 +6,7 @@ export default class MeshDifference extends ResthopperComponent {
 
 	public guid: string = "4f3147f4-9fcd-4a7e-be0e-b1841caa5f97";
 	public name: string = "MeshDifference";
+	public nickName: string = "MDif";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";
 	public description: string = "Perform a solid difference on two sets of meshes";

@@ -6,6 +6,7 @@ export default class CenterBox extends ResthopperComponent {
 
 	public guid: string = "28061aae-04fb-4cb5-ac45-16f3b66bc0a4";
 	public name: string = "CenterBox";
+	public nickName: string = "Box";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box centered on a plane.";

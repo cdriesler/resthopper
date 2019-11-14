@@ -6,6 +6,7 @@ export default class BoundaryVolume extends ResthopperComponent {
 
 	public guid: string = "b57bf805-046a-4360-ad76-51aeddfe9720";
 	public name: string = "BoundaryVolume";
+	public nickName: string = "BVol";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";
 	public description: string = "Create a closed polysurface from boundary surfaces";

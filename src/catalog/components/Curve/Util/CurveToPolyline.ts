@@ -6,6 +6,7 @@ export default class CurveToPolyline extends ResthopperComponent {
 
 	public guid: string = "2956d989-3599-476f-bc92-1d847aff98b6";
 	public name: string = "CurveToPolyline";
+	public nickName: string = "ToPoly";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Convert a curve to a polyline.";

@@ -6,6 +6,7 @@ export default class VBScript extends ResthopperComponent {
 
 	public guid: string = "079bd9bd-54a0-41d4-98af-db999015f63d";
 	public name: string = "VBScript";
+	public nickName: string = "VB";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
 	public description: string = "A VB.NET scriptable component";

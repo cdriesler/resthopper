@@ -6,6 +6,7 @@ export default class PowerofOneZero extends ResthopperComponent {
 
 	public guid: string = "2ebb82ef-1f90-4ac9-9a71-1fe0f4ef7044";
 	public name: string = "Powerof10";
+	public nickName: string = "10";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Raise 10 to the power of N.";

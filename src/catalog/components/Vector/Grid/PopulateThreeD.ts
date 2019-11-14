@@ -6,6 +6,7 @@ export default class PopulateThreeD extends ResthopperComponent {
 
 	public guid: string = "e202025b-dc8e-4c51-ae19-4415b172886f";
 	public name: string = "Populate3D";
+	public nickName: string = "Pop3D";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";
 	public description: string = "Populate a 3-Dimensional region with points";

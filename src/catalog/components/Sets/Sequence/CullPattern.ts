@@ -6,6 +6,7 @@ export default class CullPattern extends ResthopperComponent {
 
 	public guid: string = "008e9a6f-478a-4813-8c8a-546273bc3a6b";
 	public name: string = "CullPattern";
+	public nickName: string = "Cull";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Cull (remove) elements in a list using a repeating bit mask.";

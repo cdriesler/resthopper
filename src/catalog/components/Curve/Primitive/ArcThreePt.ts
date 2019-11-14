@@ -6,6 +6,7 @@ export default class ArcThreePt extends ResthopperComponent {
 
 	public guid: string = "9fa1b081-b1c7-4a12-a163-0aa8da9ff6c4";
 	public name: string = "Arc3Pt";
+	public nickName: string = "Arc";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create an arc through three points.";

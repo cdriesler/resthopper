@@ -6,6 +6,7 @@ export default class MergeZeroThree extends ResthopperComponent {
 
 	public guid: string = "481f0339-1299-43ba-b15c-c07891a8f822";
 	public name: string = "Merge03";
+	public nickName: string = "M3";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Merge three streams into one.";

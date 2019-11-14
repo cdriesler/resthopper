@@ -6,6 +6,7 @@ export default class FlattenTree extends ResthopperComponent {
 
 	public guid: string = "f80cfe18-9510-4b89-8301-8e58faf423bb";
 	public name: string = "FlattenTree";
+	public nickName: string = "Flatten";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Flatten a data tree by removing all branching information.";

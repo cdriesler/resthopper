@@ -6,6 +6,7 @@ export default class Interpolate extends ResthopperComponent {
 
 	public guid: string = "2b2a4145-3dff-41d4-a8de-1ea9d29eef33";
 	public name: string = "Interpolate";
+	public nickName: string = "IntCrv";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Create an interpolated curve through a set of points.";

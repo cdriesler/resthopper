@@ -6,6 +6,7 @@ export default class PlanePlane extends ResthopperComponent {
 
 	public guid: string = "290cf9c4-0711-4704-851e-4c99e3343ac5";
 	public name: string = "PlanePlane";
+	public nickName: string = "PPX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve the intersection event of two planes.";

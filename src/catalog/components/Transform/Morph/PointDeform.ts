@@ -6,6 +6,7 @@ export default class PointDeform extends ResthopperComponent {
 
 	public guid: string = "4dbd15c7-ebcb-4af6-b3bd-32e80502520c";
 	public name: string = "PointDeform";
+	public nickName: string = "PDeform";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Deform a shape by moving control-points individually";

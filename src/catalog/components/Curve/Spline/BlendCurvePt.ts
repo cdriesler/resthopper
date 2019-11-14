@@ -6,6 +6,7 @@ export default class BlendCurvePt extends ResthopperComponent {
 
 	public guid: string = "14cf43b6-5eb9-460f-899c-bdece732213a";
 	public name: string = "BlendCurvePt";
+	public nickName: string = "BlendCPt";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Create a blend curve between two curves that intersects a point.";

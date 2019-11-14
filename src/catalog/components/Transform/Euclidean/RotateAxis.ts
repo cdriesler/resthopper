@@ -6,6 +6,7 @@ export default class RotateAxis extends ResthopperComponent {
 
 	public guid: string = "3ac8e589-37f5-477d-aa61-6699702c5728";
 	public name: string = "RotateAxis";
+	public nickName: string = "RotAx";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Rotate an object around an axis.";

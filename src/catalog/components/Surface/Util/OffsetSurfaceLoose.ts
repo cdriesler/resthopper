@@ -6,6 +6,7 @@ export default class OffsetSurfaceLoose extends ResthopperComponent {
 
 	public guid: string = "e7e43403-f913-4d83-8aff-5b1c7a7f9fbc";
 	public name: string = "OffsetSurfaceLoose";
+	public nickName: string = "OffsetL";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Offset a surface by moving the control points.";

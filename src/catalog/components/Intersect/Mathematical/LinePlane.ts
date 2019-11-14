@@ -6,6 +6,7 @@ export default class LinePlane extends ResthopperComponent {
 
 	public guid: string = "75d0442c-1aa3-47cf-bd94-457b42c16e9f";
 	public name: string = "LinePlane";
+	public nickName: string = "PLX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection event for a line and a plane.";

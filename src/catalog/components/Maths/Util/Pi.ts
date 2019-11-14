@@ -6,6 +6,7 @@ export default class Pi extends ResthopperComponent {
 
 	public guid: string = "0d2ccfb3-9d41-4759-9452-da6a522c3eaa";
 	public name: string = "Pi";
+	public nickName: string = "Pi";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Returns a factor of Pi.";

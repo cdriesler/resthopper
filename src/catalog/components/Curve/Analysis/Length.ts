@@ -6,6 +6,7 @@ export default class Length extends ResthopperComponent {
 
 	public guid: string = "c75b62fa-0a33-4da7-a5bd-03fd0068fd93";
 	public name: string = "Length";
+	public nickName: string = "Len";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the length of a curve.";

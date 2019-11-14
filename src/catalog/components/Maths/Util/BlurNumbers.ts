@@ -6,6 +6,7 @@ export default class BlurNumbers extends ResthopperComponent {
 
 	public guid: string = "57e1d392-e3fb-4de9-be98-982854a92351";
 	public name: string = "BlurNumbers";
+	public nickName: string = "NBlur";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Blur a list of numbers by averaging neighbours";

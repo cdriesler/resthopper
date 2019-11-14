@@ -6,6 +6,7 @@ export default class DateRange extends ResthopperComponent {
 
 	public guid: string = "38a4e722-ad5a-4229-a170-e27ae1345538";
 	public name: string = "DateRange";
+	public nickName: string = "RDate";
 	public category: string = "Maths";
 	public subCategory: string = "Time";
 	public description: string = "Create a range of successive dates or times";

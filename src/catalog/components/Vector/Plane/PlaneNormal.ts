@@ -6,6 +6,7 @@ export default class PlaneNormal extends ResthopperComponent {
 
 	public guid: string = "cfb6b17f-ca82-4f5d-b604-d4f69f569de3";
 	public name: string = "PlaneNormal";
+	public nickName: string = "Pl";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Create a plane perpendicular to a vector.";

@@ -6,6 +6,7 @@ export default class CarthesianProduct extends ResthopperComponent {
 
 	public guid: string = "deffaf1e-270a-4c15-a693-9216b68afd4a";
 	public name: string = "CarthesianProduct";
+	public nickName: string = "CProd";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Create the Carthesian product for two sets of identical cardinality.";

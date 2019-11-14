@@ -6,6 +6,7 @@ export default class SurfaceMorph extends ResthopperComponent {
 
 	public guid: string = "5889b68f-fd88-4032-860f-869fb69654dd";
 	public name: string = "SurfaceMorph";
+	public nickName: string = "SrfMorph";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Morph geometry into surface UVW coordinates";

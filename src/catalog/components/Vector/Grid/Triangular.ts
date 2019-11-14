@@ -6,6 +6,7 @@ export default class Triangular extends ResthopperComponent {
 
 	public guid: string = "86a9944b-dea5-4126-9433-9e95ff07927a";
 	public name: string = "Triangular";
+	public nickName: string = "TriGrid";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";
 	public description: string = "2D grid with triangular cells";

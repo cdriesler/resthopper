@@ -6,6 +6,7 @@ export default class MatchTree extends ResthopperComponent {
 
 	public guid: string = "46372d0d-82dc-4acb-adc3-25d1fde04c4e";
 	public name: string = "MatchTree";
+	public nickName: string = "Match";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Match one data tree with another.";

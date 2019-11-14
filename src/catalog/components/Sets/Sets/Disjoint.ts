@@ -6,6 +6,7 @@ export default class Disjoint extends ResthopperComponent {
 
 	public guid: string = "81800098-1060-4e2b-80d4-17f835cc825f";
 	public name: string = "Disjoint";
+	public nickName: string = "Disjoint";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Test whether two sets are disjoint.";

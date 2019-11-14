@@ -6,6 +6,7 @@ export default class Multiply extends ResthopperComponent {
 
 	public guid: string = "63fff845-7c61-4dfb-ba12-44d481b4bf0f";
 	public name: string = "Multiply";
+	public nickName: string = "VMul";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Perform vector-scalar multiplication.";

@@ -6,6 +6,7 @@ export default class MeshPlane extends ResthopperComponent {
 
 	public guid: string = "8adbf481-7589-4a40-b490-006531ea001d";
 	public name: string = "MeshPlane";
+	public nickName: string = "MPlane";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh plane.";

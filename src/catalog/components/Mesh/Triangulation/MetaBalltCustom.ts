@@ -6,6 +6,7 @@ export default class MetaBalltCustom extends ResthopperComponent {
 
 	public guid: string = "c4373505-a4cf-4992-8db1-fd6e6bb5850d";
 	public name: string = "MetaBalltCustom";
+	public nickName: string = "MetaBallt";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";
 	public description: string = "2D Metaball isosurface by threshold and custom charge values";

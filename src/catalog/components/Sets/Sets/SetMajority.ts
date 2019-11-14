@@ -6,6 +6,7 @@ export default class SetMajority extends ResthopperComponent {
 
 	public guid: string = "d4136a7b-7422-4660-9404-640474bd2725";
 	public name: string = "SetMajority";
+	public nickName: string = "Majority";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Determine majority member presence amongst three sets.";

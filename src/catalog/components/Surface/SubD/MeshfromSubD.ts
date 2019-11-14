@@ -6,6 +6,7 @@ export default class MeshfromSubD extends ResthopperComponent {
 
 	public guid: string = "c0b3c6e9-d05d-4c51-a0df-1ce2678c7a33";
 	public name: string = "MeshfromSubD";
+	public nickName: string = "MeshSubD";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";
 	public description: string = "Get the approximation mesh of a Sub-D surface.";

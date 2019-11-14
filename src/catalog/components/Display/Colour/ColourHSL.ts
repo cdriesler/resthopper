@@ -6,6 +6,7 @@ export default class ColourHSL extends ResthopperComponent {
 
 	public guid: string = "a45d68b3-c299-4b17-bdae-7975f216cec6";
 	public name: string = "ColourHSL";
+	public nickName: string = "HSL";
 	public category: string = "Display";
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {HSL} channels.";

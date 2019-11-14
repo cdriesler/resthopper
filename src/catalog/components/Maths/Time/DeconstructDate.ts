@@ -6,6 +6,7 @@ export default class DeconstructDate extends ResthopperComponent {
 
 	public guid: string = "d5e28df8-495b-4892-bca8-60748743d955";
 	public name: string = "DeconstructDate";
+	public nickName: string = "DDate";
 	public category: string = "Maths";
 	public subCategory: string = "Time";
 	public description: string = "Deconstruct a date into years, months, days, hours, minutes and seconds";

@@ -6,6 +6,7 @@ export default class Weave extends ResthopperComponent {
 
 	public guid: string = "50faccbd-9c92-4175-a5fa-d65e36013db6";
 	public name: string = "Weave";
+	public nickName: string = "Weave";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Weave a set of input data using a custom pattern.";

@@ -6,6 +6,7 @@ export default class CurveFrame extends ResthopperComponent {
 
 	public guid: string = "6b2a5853-07aa-4329-ba84-0a5d46b51dbd";
 	public name: string = "CurveFrame";
+	public nickName: string = "Frame";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Get the curvature frame of a curve at a specified parameter.";

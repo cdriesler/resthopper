@@ -6,6 +6,7 @@ export default class PlaneOffset extends ResthopperComponent {
 
 	public guid: string = "3a0c7bda-3d22-4588-8bab-03f57a52a6ea";
 	public name: string = "PlaneOffset";
+	public nickName: string = "PlOffset";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Offset a plane.";

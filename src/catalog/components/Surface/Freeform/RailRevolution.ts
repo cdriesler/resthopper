@@ -6,6 +6,7 @@ export default class RailRevolution extends ResthopperComponent {
 
 	public guid: string = "d8d68c35-f869-486d-adf3-69ee3cc2d501";
 	public name: string = "RailRevolution";
+	public nickName: string = "RailRev";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface of revolution using a sweep rail.";

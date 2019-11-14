@@ -6,6 +6,7 @@ export default class VectorDisplay extends ResthopperComponent {
 
 	public guid: string = "2a3f7078-2e25-4dd4-96f7-0efb491bd61c";
 	public name: string = "VectorDisplay";
+	public nickName: string = "VDis";
 	public category: string = "Display";
 	public subCategory: string = "Vector";
 	public description: string = "Preview vectors in the viewport";

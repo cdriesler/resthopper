@@ -6,6 +6,7 @@ export default class DivideDomain extends ResthopperComponent {
 
 	public guid: string = "75ef4190-91a2-42d9-a245-32a7162b0384";
 	public name: string = "DivideDomain";
+	public nickName: string = "Div";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
 	public description: string = "Divide a domain into equal segments.";

@@ -6,6 +6,7 @@ export default class Taper extends ResthopperComponent {
 
 	public guid: string = "ad0ee51e-c86f-4668-8de5-b55b850f6001";
 	public name: string = "Taper";
+	public nickName: string = "Taper";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Deforms objects toward or away from an axis";

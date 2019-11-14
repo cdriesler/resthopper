@@ -6,6 +6,7 @@ export default class IsoVistRay extends ResthopperComponent {
 
 	public guid: string = "93d0dcbc-6207-4745-aaf7-fe57a880f959";
 	public name: string = "IsoVistRay";
+	public nickName: string = "IVRay";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Compute a single isovist sample at a location";

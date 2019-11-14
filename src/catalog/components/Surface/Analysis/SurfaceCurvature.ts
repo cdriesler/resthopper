@@ -6,6 +6,7 @@ export default class SurfaceCurvature extends ResthopperComponent {
 
 	public guid: string = "4139f3a3-cf93-4fc0-b5e0-18a3acd0b003";
 	public name: string = "SurfaceCurvature";
+	public nickName: string = "Curvature";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the surface curvature at a {uv} coordinate.";

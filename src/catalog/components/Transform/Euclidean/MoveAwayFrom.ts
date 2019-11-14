@@ -6,6 +6,7 @@ export default class MoveAwayFrom extends ResthopperComponent {
 
 	public guid: string = "dd9f597a-4db0-42b1-9cb2-5607ec97db09";
 	public name: string = "MoveAwayFrom";
+	public nickName: string = "MoveAway";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Translate (move) an object away from another object.";

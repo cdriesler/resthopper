@@ -6,6 +6,7 @@ export default class LineDimension extends ResthopperComponent {
 
 	public guid: string = "d78f026a-0109-4bcc-bf91-d08475711466";
 	public name: string = "LineDimension";
+	public nickName: string = "LineDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a distance annotation along a line.";

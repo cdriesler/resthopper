@@ -6,6 +6,7 @@ export default class ConstructDate extends ResthopperComponent {
 
 	public guid: string = "0c2f0932-5ddc-4ece-bd84-a3a059d3df7a";
 	public name: string = "ConstructDate";
+	public nickName: string = "Date";
 	public category: string = "Maths";
 	public subCategory: string = "Time";
 	public description: string = "Construct a date and time instance.";

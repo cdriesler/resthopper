@@ -6,6 +6,7 @@ export default class Project extends ResthopperComponent {
 
 	public guid: string = "d7ee52ff-89b8-4d1a-8662-3e0dd391d0af";
 	public name: string = "Project";
+	public nickName: string = "Project";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Project a curve onto a Brep.";

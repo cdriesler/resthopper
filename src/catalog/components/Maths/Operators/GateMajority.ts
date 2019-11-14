@@ -6,6 +6,7 @@ export default class GateMajority extends ResthopperComponent {
 
 	public guid: string = "78669f9c-4fea-44fd-ab12-2a69eeec58de";
 	public name: string = "GateMajority";
+	public nickName: string = "Vote";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Calculates the majority vote among three booleans.";

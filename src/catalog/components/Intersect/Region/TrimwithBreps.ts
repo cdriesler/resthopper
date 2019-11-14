@@ -6,6 +6,7 @@ export default class TrimwithBreps extends ResthopperComponent {
 
 	public guid: string = "916e7ebc-524c-47ce-8936-e50a09a7b43c";
 	public name: string = "TrimwithBreps";
+	public nickName: string = "Trim";
 	public category: string = "Intersect";
 	public subCategory: string = "Region";
 	public description: string = "Trim a curve with multiple Breps.";

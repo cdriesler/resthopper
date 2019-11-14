@@ -6,6 +6,7 @@ export default class Extremes extends ResthopperComponent {
 
 	public guid: string = "ebd6c758-19ae-4d74-aed7-b8a0392ff743";
 	public name: string = "Extremes";
+	public nickName: string = "Xtremez";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Find the extremes (highest and lowest points) on a curve.";

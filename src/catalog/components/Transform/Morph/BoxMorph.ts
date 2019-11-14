@@ -6,6 +6,7 @@ export default class BoxMorph extends ResthopperComponent {
 
 	public guid: string = "d8940ff0-dd4a-4e74-9361-54df537b50db";
 	public name: string = "BoxMorph";
+	public nickName: string = "Morph";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Morph an object into a twisted box.";

@@ -6,6 +6,7 @@ export default class Barycentric extends ResthopperComponent {
 
 	public guid: string = "9adffd61-f5d1-4e9e-9572-e8d9145730dc";
 	public name: string = "Barycentric";
+	public nickName: string = "BCentric";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Create a point from barycentric {u,v,w} coordinates";

@@ -6,6 +6,7 @@ export default class PointOrder extends ResthopperComponent {
 
 	public guid: string = "0ad9f1ab-2204-45bb-b282-474469e2fa7b";
 	public name: string = "PointOrder";
+	public nickName: string = "Order";
 	public category: string = "Display";
 	public subCategory: string = "Vector";
 	public description: string = "Displays the order of a list of points";

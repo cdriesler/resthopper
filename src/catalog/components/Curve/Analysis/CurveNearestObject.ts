@@ -6,6 +6,7 @@ export default class CurveNearestObject extends ResthopperComponent {
 
 	public guid: string = "748f214a-bc64-4556-9da5-4fa59a30c5c7";
 	public name: string = "CurveNearestObject";
+	public nickName: string = "CrvNear";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Find the object nearest to a curve.";

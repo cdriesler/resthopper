@@ -6,6 +6,7 @@ export default class Hexagonal extends ResthopperComponent {
 
 	public guid: string = "125dc122-8544-4617-945e-bb9a0c101c50";
 	public name: string = "Hexagonal";
+	public nickName: string = "HexGrid";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";
 	public description: string = "2D grid with hexagonal cells";

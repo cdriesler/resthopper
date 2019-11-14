@@ -6,6 +6,7 @@ export default class IsoCurve extends ResthopperComponent {
 
 	public guid: string = "d1d57181-d594-41e8-8efb-041e29f8a5ca";
 	public name: string = "IsoCurve";
+	public nickName: string = "Iso";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Construct {uv} isocurves on a surface.";

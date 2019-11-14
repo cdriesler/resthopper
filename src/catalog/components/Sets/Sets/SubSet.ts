@@ -6,6 +6,7 @@ export default class SubSet extends ResthopperComponent {
 
 	public guid: string = "4cfc0bb0-0745-4772-a520-39f9bf3d99bc";
 	public name: string = "SubSet";
+	public nickName: string = "SubSet";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Test two sets for inclusion.";

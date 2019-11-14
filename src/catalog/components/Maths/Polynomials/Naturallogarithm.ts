@@ -6,6 +6,7 @@ export default class Naturallogarithm extends ResthopperComponent {
 
 	public guid: string = "23afc7aa-2d2f-4ae7-b876-bf366246b826";
 	public name: string = "Naturallogarithm";
+	public nickName: string = "Ln";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the natural logarithm of a value.";

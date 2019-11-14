@@ -6,6 +6,7 @@ export default class Radial extends ResthopperComponent {
 
 	public guid: string = "66eedc35-187d-4dab-b49b-408491b1255f";
 	public name: string = "Radial";
+	public nickName: string = "RadGrid";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";
 	public description: string = "2D radial grid";

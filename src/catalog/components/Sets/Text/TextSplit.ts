@@ -6,6 +6,7 @@ export default class TextSplit extends ResthopperComponent {
 
 	public guid: string = "04887d01-504c-480e-b2a2-01ea19cc5922";
 	public name: string = "TextSplit";
+	public nickName: string = "Split";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Split some text into fragments using separators";

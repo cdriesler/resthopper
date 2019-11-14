@@ -6,6 +6,7 @@ export default class CameraObscura extends ResthopperComponent {
 
 	public guid: string = "407e35c6-7c40-4652-bd80-fde1eb7ec034";
 	public name: string = "CameraObscura";
+	public nickName: string = "CO";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";
 	public description: string = "Camera Obscura (point mirror) transformation.";

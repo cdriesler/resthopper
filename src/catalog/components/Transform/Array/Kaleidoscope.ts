@@ -6,6 +6,7 @@ export default class Kaleidoscope extends ResthopperComponent {
 
 	public guid: string = "b90eaa92-6e38-4054-a915-afcf486224b3";
 	public name: string = "Kaleidoscope";
+	public nickName: string = "KScope";
 	public category: string = "Transform";
 	public subCategory: string = "Array";
 	public description: string = "Apply a kaleidoscope transformation to an object.";

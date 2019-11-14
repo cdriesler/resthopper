@@ -6,6 +6,7 @@ export default class TangentCurve extends ResthopperComponent {
 
 	public guid: string = "f73498c5-178b-4e09-ad61-73d172fa6e56";
 	public name: string = "TangentCurve";
+	public nickName: string = "TanCurve";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Create a curve through a set of points with tangents.";

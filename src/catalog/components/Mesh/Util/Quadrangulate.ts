@@ -6,6 +6,7 @@ export default class Quadrangulate extends ResthopperComponent {
 
 	public guid: string = "9266a2bb-918f-4675-9c91-f67d0dd33eac";
 	public name: string = "Quadrangulate";
+	public nickName: string = "Quad";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Quadrangulate as many triangles as possible in a mesh";

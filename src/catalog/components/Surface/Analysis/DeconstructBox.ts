@@ -6,6 +6,7 @@ export default class DeconstructBox extends ResthopperComponent {
 
 	public guid: string = "db7d83b1-2898-4ef9-9be5-4e94b4e2048d";
 	public name: string = "DeconstructBox";
+	public nickName: string = "DeBox";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Deconstruct a box into its constituent parts.";

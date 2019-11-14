@@ -177,6 +177,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
             "",
             `\tpublic guid: string = "${c.guid}";`,
             `\tpublic name: string = "${c.name}";`,
+            `\tpublic nickName: string = "${c.nickName}";`,
             `\tpublic category: string = "${c.category}";`,
             `\tpublic subCategory: string = "${c.subCategory}";`,
             `\tpublic description: string = "${c.description}";`,

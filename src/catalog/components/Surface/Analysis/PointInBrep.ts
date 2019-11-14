@@ -6,6 +6,7 @@ export default class PointInBrep extends ResthopperComponent {
 
 	public guid: string = "e03561f8-0e66-41d3-afde-62049f152443";
 	public name: string = "PointInBrep";
+	public nickName: string = "BrepInc";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a point is inside a closed brep";

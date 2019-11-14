@@ -6,6 +6,7 @@ export default class VectorXYZ extends ResthopperComponent {
 
 	public guid: string = "56b92eab-d121-43f7-94d3-6cd8f0ddead8";
 	public name: string = "VectorXYZ";
+	public nickName: string = "Vec";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Create a vector from {xyz} components.";

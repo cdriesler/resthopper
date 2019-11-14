@@ -6,6 +6,7 @@ export default class CleanTree extends ResthopperComponent {
 
 	public guid: string = "7991bc5f-8a01-4768-bfb0-a39357ac6b84";
 	public name: string = "CleanTree";
+	public nickName: string = "Clean";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Removed all null and invalid items from a data tree.";

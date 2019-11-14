@@ -6,6 +6,7 @@ export default class DotProduct extends ResthopperComponent {
 
 	public guid: string = "43b9ea8f-f772-40f2-9880-011a9c3cbbb0";
 	public name: string = "DotProduct";
+	public nickName: string = "DProd";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Compute vector dot product.";

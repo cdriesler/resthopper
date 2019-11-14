@@ -6,6 +6,7 @@ export default class RandomReduce extends ResthopperComponent {
 
 	public guid: string = "455925fd-23ff-4e57-a0e7-913a4165e659";
 	public name: string = "RandomReduce";
+	public nickName: string = "Reduce";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Randomly remove N items from a list";

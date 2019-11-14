@@ -6,6 +6,7 @@ export default class ViewportDisplay extends ResthopperComponent {
 
 	public guid: string = "b78d95bc-dffb-414c-b177-c611c92580b9";
 	public name: string = "ViewportDisplay";
+	public nickName: string = "ViewportDisplay";
 	public category: string = "Display";
 	public subCategory: string = "Viewport";
 	public description: string = "Display viewport on canvas";

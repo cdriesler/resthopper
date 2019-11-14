@@ -6,6 +6,7 @@ export default class MultipleCurves extends ResthopperComponent {
 
 	public guid: string = "931e6030-ccb3-4a7b-a89a-99dcce8770cd";
 	public name: string = "MultipleCurves";
+	public nickName: string = "MCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for multiple curves.";

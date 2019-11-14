@@ -6,6 +6,7 @@ export default class FitLoft extends ResthopperComponent {
 
 	public guid: string = "342aa574-1327-4bc2-8daf-203da2a45676";
 	public name: string = "FitLoft";
+	public nickName: string = "FitLoft";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a loft fitted through a set of curves.";

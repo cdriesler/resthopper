@@ -6,6 +6,7 @@ export default class ConstructPlane extends ResthopperComponent {
 
 	public guid: string = "bc3e379e-7206-4e7b-b63a-ff61f4b38a3e";
 	public name: string = "ConstructPlane";
+	public nickName: string = "Pl";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Construct a plane from an origin point and {x}, {y} axes.";

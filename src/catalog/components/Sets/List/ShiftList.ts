@@ -6,6 +6,7 @@ export default class ShiftList extends ResthopperComponent {
 
 	public guid: string = "4fdfe351-6c07-47ce-9fb9-be027fb62186";
 	public name: string = "ShiftList";
+	public nickName: string = "Shift";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Offset all items in a list.";

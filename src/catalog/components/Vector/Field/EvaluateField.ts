@@ -6,6 +6,7 @@ export default class EvaluateField extends ResthopperComponent {
 
 	public guid: string = "a7c9f738-f8bd-4f64-8e7f-33341183e493";
 	public name: string = "EvaluateField";
+	public nickName: string = "EvF";
 	public category: string = "Vector";
 	public subCategory: string = "Field";
 	public description: string = "Evaluate a field at a point";

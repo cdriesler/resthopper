@@ -6,6 +6,7 @@ export default class Interpolatet extends ResthopperComponent {
 
 	public guid: string = "75eb156d-d023-42f9-a85e-2f2456b8bcce";
 	public name: string = "Interpolatet";
+	public nickName: string = "IntCrvt";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Create an interpolated curve through a set of points with tangents.";

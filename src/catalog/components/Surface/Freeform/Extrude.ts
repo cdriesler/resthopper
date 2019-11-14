@@ -6,6 +6,7 @@ export default class Extrude extends ResthopperComponent {
 
 	public guid: string = "962034e9-cc27-4394-afc4-5c16e3447cf9";
 	public name: string = "Extrude";
+	public nickName: string = "Extr";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Extrude curves and surfaces along a vector.";

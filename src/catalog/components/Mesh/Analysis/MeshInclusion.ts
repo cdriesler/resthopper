@@ -6,6 +6,7 @@ export default class MeshInclusion extends ResthopperComponent {
 
 	public guid: string = "01e3991d-18bd-474f-9fbd-076a8700159f";
 	public name: string = "MeshInclusion";
+	public nickName: string = "MInc";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";
 	public description: string = "Test a point for Mesh inclusion";

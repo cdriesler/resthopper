@@ -6,6 +6,7 @@ export default class Stretch extends ResthopperComponent {
 
 	public guid: string = "2a27f87c-61c5-47c2-a0b7-7863f31a3594";
 	public name: string = "Stretch";
+	public nickName: string = "Stretch";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Deforms objects by stretching them along a finite axis.";

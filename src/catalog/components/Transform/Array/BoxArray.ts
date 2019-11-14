@@ -6,6 +6,7 @@ export default class BoxArray extends ResthopperComponent {
 
 	public guid: string = "9f6f954c-ba7b-4428-bf1e-1768cdff666c";
 	public name: string = "BoxArray";
+	public nickName: string = "ArrBox";
 	public category: string = "Transform";
 	public subCategory: string = "Array";
 	public description: string = "Create a box array of geometry.";

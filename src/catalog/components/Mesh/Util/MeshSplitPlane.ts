@@ -6,6 +6,7 @@ export default class MeshSplitPlane extends ResthopperComponent {
 
 	public guid: string = "330eb9c9-0098-4375-9078-e00a419d49fb";
 	public name: string = "MeshSplitPlane";
+	public nickName: string = "MSplit";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Split a mesh with an infinite plane.";

@@ -6,6 +6,7 @@ export default class DotNETCScriptLEGACY extends ResthopperComponent {
 
 	public guid: string = "88c3f2b5-27f7-48a2-9528-1397fad62b93";
 	public name: string = "DotNETCScriptLEGACY";
+	public nickName: string = "C";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
 	public description: string = "A C#.NET scriptable component";

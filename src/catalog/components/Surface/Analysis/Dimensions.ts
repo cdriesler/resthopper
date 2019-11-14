@@ -6,6 +6,7 @@ export default class Dimensions extends ResthopperComponent {
 
 	public guid: string = "f241e42e-8983-4ed3-b869-621c07630b00";
 	public name: string = "Dimensions";
+	public nickName: string = "Dim";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Get the approximate dimensions of a surface";

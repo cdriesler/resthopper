@@ -6,6 +6,7 @@ export default class MakeTwoD extends ResthopperComponent {
 
 	public guid: string = "96e40f6b-ba46-4102-bf15-ebf90471f4a0";
 	public name: string = "Make2D";
+	public nickName: string = "Make2D";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a hidden line drawing from geometry";

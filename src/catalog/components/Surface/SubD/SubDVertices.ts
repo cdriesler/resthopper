@@ -6,6 +6,7 @@ export default class SubDVertices extends ResthopperComponent {
 
 	public guid: string = "cd9efa8f-0084-4d52-ab13-ad88ff22dc46";
 	public name: string = "SubDVertices";
+	public nickName: string = "SubDVerts";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";
 	public description: string = "Extract all vertex data from a Sub-D surface.";

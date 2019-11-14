@@ -6,6 +6,7 @@ export default class ClosestPoints extends ResthopperComponent {
 
 	public guid: string = "446014c4-c11c-45a7-8839-c45dc60950d6";
 	public name: string = "ClosestPoints";
+	public nickName: string = "CPs";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Find closest points in a point collection.";

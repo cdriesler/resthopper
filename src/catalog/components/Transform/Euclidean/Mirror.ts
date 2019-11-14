@@ -6,6 +6,7 @@ export default class Mirror extends ResthopperComponent {
 
 	public guid: string = "f12daa2f-4fd5-48c1-8ac3-5dea476912ca";
 	public name: string = "Mirror";
+	public nickName: string = "Mirror";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Mirror an object.";

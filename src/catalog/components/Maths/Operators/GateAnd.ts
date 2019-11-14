@@ -6,6 +6,7 @@ export default class GateAnd extends ResthopperComponent {
 
 	public guid: string = "040f195d-0b4e-4fe0-901f-fedb2fd3db15";
 	public name: string = "GateAnd";
+	public nickName: string = "And";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean conjunction (AND gate).";

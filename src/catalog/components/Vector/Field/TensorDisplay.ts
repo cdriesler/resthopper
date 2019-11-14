@@ -6,6 +6,7 @@ export default class TensorDisplay extends ResthopperComponent {
 
 	public guid: string = "08619b6d-f9c4-4cb2-adcd-90959f08dc0d";
 	public name: string = "TensorDisplay";
+	public nickName: string = "FTensor";
 	public category: string = "Vector";
 	public subCategory: string = "Field";
 	public description: string = "Display the tensor vectors of a field section";

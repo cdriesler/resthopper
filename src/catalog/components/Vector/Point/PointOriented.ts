@@ -6,6 +6,7 @@ export default class PointOriented extends ResthopperComponent {
 
 	public guid: string = "aa333235-5922-424c-9002-1e0b866a854b";
 	public name: string = "PointOriented";
+	public nickName: string = "Pt";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Create a point from plane {u,v,w} coordinates.";

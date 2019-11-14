@@ -6,6 +6,7 @@ export default class RepeatData extends ResthopperComponent {
 
 	public guid: string = "c40dc145-9e36-4a69-ac1a-6d825c654993";
 	public name: string = "RepeatData";
+	public nickName: string = "Repeat";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Repeat a pattern until it reaches a certain length.";

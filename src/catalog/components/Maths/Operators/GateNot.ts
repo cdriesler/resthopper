@@ -6,6 +6,7 @@ export default class GateNot extends ResthopperComponent {
 
 	public guid: string = "cb2c7d3c-41b4-4c6d-a6bd-9235bd2851bb";
 	public name: string = "GateNot";
+	public nickName: string = "Not";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean negation (NOT gate).";

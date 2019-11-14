@@ -6,6 +6,7 @@ export default class Geodesic extends ResthopperComponent {
 
 	public guid: string = "ce5963b4-1cea-4f71-acd2-a3c28ab85662";
 	public name: string = "Geodesic";
+	public nickName: string = "Geodesic";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";
 	public description: string = "Construct a surface geodesic between two points.";

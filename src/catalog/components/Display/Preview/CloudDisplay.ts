@@ -6,6 +6,7 @@ export default class CloudDisplay extends ResthopperComponent {
 
 	public guid: string = "059b72b0-9bb3-4542-a805-2dcd27493164";
 	public name: string = "CloudDisplay";
+	public nickName: string = "Cloud";
 	public category: string = "Display";
 	public subCategory: string = "Preview";
 	public description: string = "Draw a collection of points as a fuzzy cloud";

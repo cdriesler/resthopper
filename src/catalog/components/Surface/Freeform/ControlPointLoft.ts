@@ -6,6 +6,7 @@ export default class ControlPointLoft extends ResthopperComponent {
 
 	public guid: string = "5c270622-ee80-45a4-b07a-bd8ffede92a2";
 	public name: string = "ControlPointLoft";
+	public nickName: string = "CPLoft";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a loft through curve control points.";

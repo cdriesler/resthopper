@@ -6,6 +6,7 @@ export default class TransposeMatrix extends ResthopperComponent {
 
 	public guid: string = "0e90b1f3-b870-4e09-8711-4bf819675d90";
 	public name: string = "TransposeMatrix";
+	public nickName: string = "Transpose";
 	public category: string = "Maths";
 	public subCategory: string = "Matrix";
 	public description: string = "Transpose a matrix (swap rows and columns)";

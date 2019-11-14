@@ -6,6 +6,7 @@ export default class Orthocentre extends ResthopperComponent {
 
 	public guid: string = "36dd5551-b6bd-4246-bd2f-1fd91eb2f02d";
 	public name: string = "Orthocentre";
+	public nickName: string = "OCentre";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle orthocentre from altitudes.";

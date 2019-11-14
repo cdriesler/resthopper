@@ -6,6 +6,7 @@ export default class SiftPattern extends ResthopperComponent {
 
 	public guid: string = "3249222f-f536-467a-89f4-f0353fba455a";
 	public name: string = "SiftPattern";
+	public nickName: string = "Sift";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Sift elements in a list using a repeating index pattern.";

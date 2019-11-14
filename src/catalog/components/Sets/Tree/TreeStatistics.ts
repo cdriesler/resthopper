@@ -6,6 +6,7 @@ export default class TreeStatistics extends ResthopperComponent {
 
 	public guid: string = "99bee19d-588c-41a0-b9b9-1d00fb03ea1a";
 	public name: string = "TreeStatistics";
+	public nickName: string = "TStat";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Get some statistics regarding a data tree.";

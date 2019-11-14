@@ -6,6 +6,7 @@ export default class MeshSurface extends ResthopperComponent {
 
 	public guid: string = "58cf422f-19f7-42f7-9619-fc198c51c657";
 	public name: string = "MeshSurface";
+	public nickName: string = "MeshUV";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Create a Surface UV mesh";

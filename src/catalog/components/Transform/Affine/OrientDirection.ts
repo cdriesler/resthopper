@@ -6,6 +6,7 @@ export default class OrientDirection extends ResthopperComponent {
 
 	public guid: string = "1602b2cc-007c-4b79-8926-0067c6184e44";
 	public name: string = "OrientDirection";
+	public nickName: string = "Orient";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";
 	public description: string = "Orient an object using directional constraints only.";

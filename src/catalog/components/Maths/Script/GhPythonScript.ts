@@ -6,6 +6,7 @@ export default class GhPythonScript extends ResthopperComponent {
 
 	public guid: string = "410755b1-224a-4c1e-a407-bf32fb45ea7e";
 	public name: string = "GhPythonScript";
+	public nickName: string = "Python";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
 	public description: string = "GhPython provides a Python script component";

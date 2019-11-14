@@ -6,6 +6,7 @@ export default class SurfacePoints extends ResthopperComponent {
 
 	public guid: string = "15128198-399d-4d6c-9586-1f65db3ce7bf";
 	public name: string = "SurfacePoints";
+	public nickName: string = "SrfPt";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Get the control-points of a Nurbs Surface";

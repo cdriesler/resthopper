@@ -6,6 +6,7 @@ export default class FitLine extends ResthopperComponent {
 
 	public guid: string = "1f798a28-9de6-47b5-8201-cac57256b777";
 	public name: string = "FitLine";
+	public nickName: string = "FLine";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Fit a line to a collection of points.";

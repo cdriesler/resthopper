@@ -6,6 +6,7 @@ export default class SimplifyCurve extends ResthopperComponent {
 
 	public guid: string = "922dc7e5-0f0e-4c21-ae4b-f6a8654e63f6";
 	public name: string = "SimplifyCurve";
+	public nickName: string = "Simplify";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Simplify a curve.";

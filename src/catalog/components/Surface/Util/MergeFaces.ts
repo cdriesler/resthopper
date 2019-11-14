@@ -6,6 +6,7 @@ export default class MergeFaces extends ResthopperComponent {
 
 	public guid: string = "d6b43673-55dd-4e2f-95c4-6c69a14513a6";
 	public name: string = "MergeFaces";
+	public nickName: string = "FMerge";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Merge all adjacent co-planar faces in a brep";

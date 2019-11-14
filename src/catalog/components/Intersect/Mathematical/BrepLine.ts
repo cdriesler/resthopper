@@ -6,6 +6,7 @@ export default class BrepLine extends ResthopperComponent {
 
 	public guid: string = "ed0742f9-6647-4d95-9dfd-9ad17080ae9c";
 	public name: string = "BrepLine";
+	public nickName: string = "BLX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Solve intersection events for a Brep and a line.";

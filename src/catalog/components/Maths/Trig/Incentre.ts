@@ -6,6 +6,7 @@ export default class Incentre extends ResthopperComponent {
 
 	public guid: string = "c3342ea2-e181-46aa-a9b9-e438ccbfb831";
 	public name: string = "Incentre";
+	public nickName: string = "ICentre";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Generate the triangle incentre from angle bisectors.";

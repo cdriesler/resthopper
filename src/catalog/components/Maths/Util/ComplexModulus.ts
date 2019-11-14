@@ -6,6 +6,7 @@ export default class ComplexModulus extends ResthopperComponent {
 
 	public guid: string = "88fb33f9-f467-452b-a0e3-44bdb78a9b06";
 	public name: string = "ComplexModulus";
+	public nickName: string = "CMod";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Get the modulus of a Complex number";

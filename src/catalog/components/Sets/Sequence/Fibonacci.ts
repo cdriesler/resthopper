@@ -6,6 +6,7 @@ export default class Fibonacci extends ResthopperComponent {
 
 	public guid: string = "fe99f302-3d0d-4389-8494-bd53f7935a02";
 	public name: string = "Fibonacci";
+	public nickName: string = "Fib";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Creates a Fibonacci sequence.";

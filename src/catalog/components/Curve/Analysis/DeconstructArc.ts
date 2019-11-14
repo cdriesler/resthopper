@@ -6,6 +6,7 @@ export default class DeconstructArc extends ResthopperComponent {
 
 	public guid: string = "23862862-049a-40be-b558-2418aacbd916";
 	public name: string = "DeconstructArc";
+	public nickName: string = "DArc";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane, radius and angle domain of an arc.";

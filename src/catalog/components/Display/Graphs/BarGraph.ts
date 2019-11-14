@@ -6,6 +6,7 @@ export default class BarGraph extends ResthopperComponent {
 
 	public guid: string = "e1905a16-da43-4705-bd65-41d34328c4e6";
 	public name: string = "BarGraph";
+	public nickName: string = "BarGraph";
 	public category: string = "Display";
 	public subCategory: string = "Graphs";
 	public description: string = "Bar graph representation of a set of numbers";

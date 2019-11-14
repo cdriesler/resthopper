@@ -6,6 +6,7 @@ export default class PopulateTwoD extends ResthopperComponent {
 
 	public guid: string = "e2d958e8-9f08-44f7-bf47-a684882d0b2a";
 	public name: string = "Populate2D";
+	public nickName: string = "Pop2D";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";
 	public description: string = "Populate a 2-Dimensional region with points";

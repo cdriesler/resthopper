@@ -6,6 +6,7 @@ export default class LoftOptions extends ResthopperComponent {
 
 	public guid: string = "45f19d16-1c9f-4b0f-a9a6-45a77f3d206c";
 	public name: string = "LoftOptions";
+	public nickName: string = "LoftOpt";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create loft options from atomic inputs";

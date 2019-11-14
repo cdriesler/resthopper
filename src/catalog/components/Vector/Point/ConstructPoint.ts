@@ -6,6 +6,7 @@ export default class ConstructPoint extends ResthopperComponent {
 
 	public guid: string = "3581f42a-9592-4549-bd6b-1c0fc39d067b";
 	public name: string = "ConstructPoint";
+	public nickName: string = "Pt";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Construct a point from {xyz} coordinates.";

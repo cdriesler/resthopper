@@ -6,6 +6,7 @@ export default class ColourLab extends ResthopperComponent {
 
 	public guid: string = "f922ed44-6e4a-44a0-8b4b-4b4a46bdfe29";
 	public name: string = "ColourLab";
+	public nickName: string = "LAB";
 	public category: string = "Display";
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {CIE L*ab} channels.";

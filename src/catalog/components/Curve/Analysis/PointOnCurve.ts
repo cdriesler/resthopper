@@ -6,6 +6,7 @@ export default class PointOnCurve extends ResthopperComponent {
 
 	public guid: string = "7f6a9d34-0470-4bb7-aadd-07496bcbe572";
 	public name: string = "PointOnCurve";
+	public nickName: string = "CurvePoint";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluates a curve at a specific location";

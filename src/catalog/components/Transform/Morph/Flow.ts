@@ -6,6 +6,7 @@ export default class Flow extends ResthopperComponent {
 
 	public guid: string = "c3249da4-3f8e-4400-833e-e4e984d28657";
 	public name: string = "Flow";
+	public nickName: string = "Flow";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Re-aligns objects from a base curve to a target curve.";

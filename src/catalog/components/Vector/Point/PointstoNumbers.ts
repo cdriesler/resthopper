@@ -6,6 +6,7 @@ export default class PointstoNumbers extends ResthopperComponent {
 
 	public guid: string = "d24169cc-9922-4923-92bc-b9222efc413f";
 	public name: string = "PointstoNumbers";
+	public nickName: string = "Pt2Num";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Convert a list of points to a list of numbers";

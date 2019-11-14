@@ -6,6 +6,7 @@ export default class Contour extends ResthopperComponent {
 
 	public guid: string = "3b112fb6-3eba-42d2-ba75-0f903c18faab";
 	public name: string = "Contour";
+	public nickName: string = "Contour";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a set of Brep or Mesh contours";

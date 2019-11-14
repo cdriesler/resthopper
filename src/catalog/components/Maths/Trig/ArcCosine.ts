@@ -6,6 +6,7 @@ export default class ArcCosine extends ResthopperComponent {
 
 	public guid: string = "49584390-d541-41f7-b5f6-1f9515ac0f73";
 	public name: string = "ArcCosine";
+	public nickName: string = "ACos";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Compute the angle whose cosine is the specified value.";

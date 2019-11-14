@@ -6,6 +6,7 @@ export default class Maelstrom extends ResthopperComponent {
 
 	public guid: string = "134a849b-0ff4-4f36-bdd5-95e3996bae8b";
 	public name: string = "Maelstrom";
+	public nickName: string = "Maelstrom";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Spirally deforms objects as if they were caught in a whirlpool";

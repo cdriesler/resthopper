@@ -6,6 +6,7 @@ export default class DeleteConsecutive extends ResthopperComponent {
 
 	public guid: string = "190d042c-2270-4bc1-81c0-4f90c170c9c9";
 	public name: string = "DeleteConsecutive";
+	public nickName: string = "DCon";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Delete consecutive similar members in a set.";

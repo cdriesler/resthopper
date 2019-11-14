@@ -6,6 +6,7 @@ export default class Characters extends ResthopperComponent {
 
 	public guid: string = "86503240-d884-43f9-9323-efe30488a6e1";
 	public name: string = "Characters";
+	public nickName: string = "Chars";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Break text into individual characters";

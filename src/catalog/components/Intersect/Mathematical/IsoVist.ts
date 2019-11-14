@@ -6,6 +6,7 @@ export default class IsoVist extends ResthopperComponent {
 
 	public guid: string = "cab92254-1c79-4e5a-9972-0a4412b35c88";
 	public name: string = "IsoVist";
+	public nickName: string = "IVist";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Compute an isovist sampling at a location";

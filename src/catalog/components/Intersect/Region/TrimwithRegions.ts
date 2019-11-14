@@ -6,6 +6,7 @@ export default class TrimwithRegions extends ResthopperComponent {
 
 	public guid: string = "26949c81-9b50-43b7-ac49-3203deb6eec7";
 	public name: string = "TrimwithRegions";
+	public nickName: string = "Trim";
 	public category: string = "Intersect";
 	public subCategory: string = "Region";
 	public description: string = "Trim a curve with multiple regions.";

@@ -6,6 +6,7 @@ export default class TextFragment extends ResthopperComponent {
 
 	public guid: string = "07e0811f-034a-4504-bca0-2d03b2c46217";
 	public name: string = "TextFragment";
+	public nickName: string = "Fragment";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Extract a fragment (subset) of some text";

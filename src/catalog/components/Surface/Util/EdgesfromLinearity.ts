@@ -6,6 +6,7 @@ export default class EdgesfromLinearity extends ResthopperComponent {
 
 	public guid: string = "e4ff8101-73c9-4802-8c5d-704d8721b909";
 	public name: string = "EdgesfromLinearity";
+	public nickName: string = "EdgesLin";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Select brep edges based on linearity";

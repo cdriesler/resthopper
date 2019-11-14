@@ -6,6 +6,7 @@ export default class Reduce extends ResthopperComponent {
 
 	public guid: string = "884646c3-0e70-4ad1-90c5-42601ee26450";
 	public name: string = "Reduce";
+	public nickName: string = "RedPLine";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Reduce a polyline by removing least significant vertices.";

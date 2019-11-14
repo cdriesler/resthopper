@@ -6,6 +6,7 @@ export default class AlignVertices extends ResthopperComponent {
 
 	public guid: string = "db661dd7-63a4-44c6-91f2-6faab2471383";
 	public name: string = "AlignVertices";
+	public nickName: string = "AlignVert";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Align nearby vertices in a mesh";

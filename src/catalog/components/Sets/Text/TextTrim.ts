@@ -6,6 +6,7 @@ export default class TextTrim extends ResthopperComponent {
 
 	public guid: string = "e4cb7168-5e32-4c54-b425-5a31c6fd685a";
 	public name: string = "TextTrim";
+	public nickName: string = "Trim";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Remove whitespace characters from the start and end of some text.";

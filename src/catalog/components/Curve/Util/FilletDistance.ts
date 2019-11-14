@@ -6,6 +6,7 @@ export default class FilletDistance extends ResthopperComponent {
 
 	public guid: string = "6fb21315-a032-400e-a80f-248687f5507f";
 	public name: string = "FilletDistance";
+	public nickName: string = "Fillet";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Fillet the sharp corners of a curve by distance.";

@@ -6,6 +6,7 @@ export default class Patch extends ResthopperComponent {
 
 	public guid: string = "57b2184c-8931-4e70-9220-612ec5b3809a";
 	public name: string = "Patch";
+	public nickName: string = "Patch";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a patch surface";

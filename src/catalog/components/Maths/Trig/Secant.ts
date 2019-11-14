@@ -6,6 +6,7 @@ export default class Secant extends ResthopperComponent {
 
 	public guid: string = "60103def-1bb7-4700-b294-3a89100525c4";
 	public name: string = "Secant";
+	public nickName: string = "Sec";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Compute the secant (reciprocal of the Cosine) of an angle.";

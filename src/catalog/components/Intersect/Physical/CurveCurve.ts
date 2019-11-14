@@ -6,6 +6,7 @@ export default class CurveCurve extends ResthopperComponent {
 
 	public guid: string = "84627490-0fb2-4498-8138-ad134ee4cb36";
 	public name: string = "CurveCurve";
+	public nickName: string = "CCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Solve intersection events for two curves.";

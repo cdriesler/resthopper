@@ -6,6 +6,7 @@ export default class CircleTanTanTan extends ResthopperComponent {
 
 	public guid: string = "dcaa922d-5491-4826-9a22-5adefa139f43";
 	public name: string = "CircleTanTanTan";
+	public nickName: string = "CircleTTT";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a circle tangent to three curves.";

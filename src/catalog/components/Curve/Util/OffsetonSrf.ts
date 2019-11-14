@@ -6,6 +6,7 @@ export default class OffsetonSrf extends ResthopperComponent {
 
 	public guid: string = "b6f5cb51-f260-4c74-bf73-deb47de1bf91";
 	public name: string = "OffsetonSrf";
+	public nickName: string = "OffsetS";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Offset a curve on a surface with a specified distance.";

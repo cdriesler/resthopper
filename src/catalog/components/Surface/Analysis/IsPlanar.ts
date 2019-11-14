@@ -6,6 +6,7 @@ export default class IsPlanar extends ResthopperComponent {
 
 	public guid: string = "d4bc9653-c770-4bee-a31d-d120cbb75b39";
 	public name: string = "IsPlanar";
+	public nickName: string = "Planar";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a surface is planar";

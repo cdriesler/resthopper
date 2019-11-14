@@ -6,6 +6,7 @@ export default class Distance extends ResthopperComponent {
 
 	public guid: string = "93b8e93d-f932-402c-b435-84be04d87666";
 	public name: string = "Distance";
+	public nickName: string = "Dist";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Compute Euclidean distance between two point coordinates.";

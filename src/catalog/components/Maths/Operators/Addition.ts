@@ -6,6 +6,7 @@ export default class Addition extends ResthopperComponent {
 
 	public guid: string = "a0d62394-a118-422d-abb3-6af115c75b25";
 	public name: string = "Addition";
+	public nickName: string = "AB";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical addition";

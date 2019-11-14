@@ -6,6 +6,7 @@ export default class LengthParameter extends ResthopperComponent {
 
 	public guid: string = "a1c16251-74f0-400f-9e7c-5e379d739963";
 	public name: string = "LengthParameter";
+	public nickName: string = "LenP";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the length of a curve to and from a parameter.";

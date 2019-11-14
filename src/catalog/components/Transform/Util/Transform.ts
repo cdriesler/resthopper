@@ -6,6 +6,7 @@ export default class Transform extends ResthopperComponent {
 
 	public guid: string = "610e689b-5adc-47b3-af8f-e3a32b7ea341";
 	public name: string = "Transform";
+	public nickName: string = "Transform";
 	public category: string = "Transform";
 	public subCategory: string = "Util";
 	public description: string = "Transform an object.";

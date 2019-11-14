@@ -6,6 +6,7 @@ export default class Isotrim extends ResthopperComponent {
 
 	public guid: string = "6a9ccaab-1b03-484e-bbda-be9c81584a66";
 	public name: string = "Isotrim";
+	public nickName: string = "SubSrf";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Extract an isoparametric subset of a surface.";

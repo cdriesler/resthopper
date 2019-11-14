@@ -6,6 +6,7 @@ export default class PathCompare extends ResthopperComponent {
 
 	public guid: string = "1d8b0e2c-e772-4fa9-b7f7-b158251b34b8";
 	public name: string = "PathCompare";
+	public nickName: string = "Compare";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Compare a path to a mask pattern";

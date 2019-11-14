@@ -6,6 +6,7 @@ export default class MeshSpray extends ResthopperComponent {
 
 	public guid: string = "edcf10e1-02a0-48a4-ae2d-70c50d903dc8";
 	public name: string = "MeshSpray";
+	public nickName: string = "MSpray";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";
 	public description: string = "Assign colours to a mesh based on spray points.";

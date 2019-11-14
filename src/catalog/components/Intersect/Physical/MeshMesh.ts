@@ -6,6 +6,7 @@ export default class MeshMesh extends ResthopperComponent {
 
 	public guid: string = "21b6a605-9568-4bf8-acc1-631565d609d7";
 	public name: string = "MeshMesh";
+	public nickName: string = "MMX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Mesh Mesh intersection";

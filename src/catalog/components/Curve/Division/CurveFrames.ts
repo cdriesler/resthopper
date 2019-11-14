@@ -6,6 +6,7 @@ export default class CurveFrames extends ResthopperComponent {
 
 	public guid: string = "0e94542a-2e46-4793-9f98-2200b06b28f4";
 	public name: string = "CurveFrames";
+	public nickName: string = "Frames";
 	public category: string = "Curve";
 	public subCategory: string = "Division";
 	public description: string = "Generate a number of equally spaced curve frames.";

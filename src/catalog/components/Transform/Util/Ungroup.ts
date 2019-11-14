@@ -6,6 +6,7 @@ export default class Ungroup extends ResthopperComponent {
 
 	public guid: string = "a45f59c8-11c1-4ea7-9e10-847061b80d75";
 	public name: string = "Ungroup";
+	public nickName: string = "Ungroup";
 	public category: string = "Transform";
 	public subCategory: string = "Util";
 	public description: string = "Ungroup a set of objects";

@@ -6,6 +6,7 @@ export default class LongestList extends ResthopperComponent {
 
 	public guid: string = "8440fd1b-b6e0-4bdb-aa93-4ec295c213e9";
 	public name: string = "LongestList";
+	public nickName: string = "Long";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Grow a collection of lists to the longest length amongst them";

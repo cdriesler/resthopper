@@ -6,6 +6,7 @@ export default class FlipMatrix extends ResthopperComponent {
 
 	public guid: string = "41aa4112-9c9b-42f4-847e-503b9d90e4c7";
 	public name: string = "FlipMatrix";
+	public nickName: string = "Flip";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Flip a matrix-like data tree by swapping rows and columns.";

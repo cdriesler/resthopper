@@ -6,6 +6,7 @@ export default class ProjectPoint extends ResthopperComponent {
 
 	public guid: string = "5184b8cb-b71e-4def-a590-cd2c9bc58906";
 	public name: string = "ProjectPoint";
+	public nickName: string = "Project";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Project a point onto a collection of shapes";

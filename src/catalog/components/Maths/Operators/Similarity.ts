@@ -6,6 +6,7 @@ export default class Similarity extends ResthopperComponent {
 
 	public guid: string = "40177d8a-a35c-4622-bca7-d150031fe427";
 	public name: string = "Similarity";
+	public nickName: string = "Similar";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Test for similarity of two numbers";

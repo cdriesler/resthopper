@@ -6,6 +6,7 @@ export default class Power extends ResthopperComponent {
 
 	public guid: string = "78fed580-851b-46fe-af2f-6519a9d378e0";
 	public name: string = "Power";
+	public nickName: string = "Pow";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Raise a value to a power.";

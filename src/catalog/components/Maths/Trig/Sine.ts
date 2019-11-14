@@ -6,6 +6,7 @@ export default class Sine extends ResthopperComponent {
 
 	public guid: string = "7663efbb-d9b8-4c6a-a0da-c3750a7bbe77";
 	public name: string = "Sine";
+	public nickName: string = "Sin";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Compute the sine of a value";

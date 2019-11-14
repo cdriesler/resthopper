@@ -6,6 +6,7 @@ export default class MarkerDimension extends ResthopperComponent {
 
 	public guid: string = "c5208969-16f9-48af-8a86-e500c033fb76";
 	public name: string = "MarkerDimension";
+	public nickName: string = "MarkDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Create a text annotation at a point";

@@ -6,6 +6,7 @@ export default class FaceCircles extends ResthopperComponent {
 
 	public guid: string = "d8cf1555-a0d5-43cb-8a10-46f8c014db3a";
 	public name: string = "FaceCircles";
+	public nickName: string = "FaceC";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";
 	public description: string = "Solve the circumscribed circles for all mesh faces";

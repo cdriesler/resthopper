@@ -6,6 +6,7 @@ export default class GraftTree extends ResthopperComponent {
 
 	public guid: string = "87e1d9ef-088b-4d30-9dda-8a7448a17329";
 	public name: string = "GraftTree";
+	public nickName: string = "Graft";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Graft a data tree by adding an extra branch for every item.";

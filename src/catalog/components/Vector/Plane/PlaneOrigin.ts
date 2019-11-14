@@ -6,6 +6,7 @@ export default class PlaneOrigin extends ResthopperComponent {
 
 	public guid: string = "75eec078-a905-47a1-b0d2-0934182b1e3d";
 	public name: string = "PlaneOrigin";
+	public nickName: string = "PlOrigin";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Change the origin point of a plane";

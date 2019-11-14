@@ -6,6 +6,7 @@ export default class PrincipalCurvature extends ResthopperComponent {
 
 	public guid: string = "404f75ac-5594-4c48-ad8a-7d0f472bbf8a";
 	public name: string = "PrincipalCurvature";
+	public nickName: string = "Curvature";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Evaluate the principal curvature of a surface at a {uv} coordinate.";

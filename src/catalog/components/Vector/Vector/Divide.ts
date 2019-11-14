@@ -6,6 +6,7 @@ export default class Divide extends ResthopperComponent {
 
 	public guid: string = "310e1065-d03a-4858-bcd1-809d39c042af";
 	public name: string = "Divide";
+	public nickName: string = "VDiv";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Perform vector-scalar division.";

@@ -6,6 +6,7 @@ export default class MeshShadow extends ResthopperComponent {
 
 	public guid: string = "c3dce3e8-c9cc-413c-a93f-732434282fdd";
 	public name: string = "MeshShadow";
+	public nickName: string = "MShadow";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Compute the shadow outline for a mesh object";

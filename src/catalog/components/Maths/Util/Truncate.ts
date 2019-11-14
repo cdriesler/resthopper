@@ -6,6 +6,7 @@ export default class Truncate extends ResthopperComponent {
 
 	public guid: string = "bd96f893-d57b-4f04-90d0-dca0d72ff2f9";
 	public name: string = "Truncate";
+	public nickName: string = "Trunc";
 	public category: string = "Maths";
 	public subCategory: string = "Util";
 	public description: string = "Perform truncation of numerical extremes";

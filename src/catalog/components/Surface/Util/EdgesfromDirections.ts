@@ -6,6 +6,7 @@ export default class EdgesfromDirections extends ResthopperComponent {
 
 	public guid: string = "64ff9813-8fe8-4708-ac9f-61b825213e83";
 	public name: string = "EdgesfromDirections";
+	public nickName: string = "EdgesDir";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Select brep edges based on edge direction";

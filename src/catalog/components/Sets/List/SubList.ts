@@ -6,6 +6,7 @@ export default class SubList extends ResthopperComponent {
 
 	public guid: string = "b333ff42-93bd-406b-8e17-15780719b6ec";
 	public name: string = "SubList";
+	public nickName: string = "SubSet";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Extract a subset from a list.";

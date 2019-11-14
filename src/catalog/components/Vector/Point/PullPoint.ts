@@ -6,6 +6,7 @@ export default class PullPoint extends ResthopperComponent {
 
 	public guid: string = "902289da-28dc-454b-98d4-b8f8aa234516";
 	public name: string = "PullPoint";
+	public nickName: string = "Pull";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Pull a point to a variety of geometry.";

@@ -6,6 +6,7 @@ export default class PerpFrame extends ResthopperComponent {
 
 	public guid: string = "69f3e5ee-4770-44b3-8851-ae10ae555398";
 	public name: string = "PerpFrame";
+	public nickName: string = "PFrame";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Solve the perpendicular (zero-twisting) frame at a specified curve parameter.";

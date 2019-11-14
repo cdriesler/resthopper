@@ -6,6 +6,7 @@ export default class Contourex extends ResthopperComponent {
 
 	public guid: string = "3e7e4827-6edd-4e10-93ac-cc234414d2b9";
 	public name: string = "Contourex";
+	public nickName: string = "Contour";
 	public category: string = "Curve";
 	public subCategory: string = "Division";
 	public description: string = "Create a set of Curve contours";

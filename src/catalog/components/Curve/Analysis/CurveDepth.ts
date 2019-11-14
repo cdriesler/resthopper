@@ -6,6 +6,7 @@ export default class CurveDepth extends ResthopperComponent {
 
 	public guid: string = "a583f722-240a-4fc9-aa1d-021720a4516a";
 	public name: string = "CurveDepth";
+	public nickName: string = "Depth";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Measure the depth of a curve.";

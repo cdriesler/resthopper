@@ -6,6 +6,7 @@ export default class BoundingBox extends ResthopperComponent {
 
 	public guid: string = "0bb3d234-9097-45db-9998-621639c87d3b";
 	public name: string = "BoundingBox";
+	public nickName: string = "BBox";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Solve oriented geometry bounding boxes.";

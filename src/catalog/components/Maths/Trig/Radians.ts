@@ -6,6 +6,7 @@ export default class Radians extends ResthopperComponent {
 
 	public guid: string = "a4cd2751-414d-42ec-8916-476ebf62d7fe";
 	public name: string = "Radians";
+	public nickName: string = "Rad";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";
 	public description: string = "Convert an angle specified in degrees to radians";

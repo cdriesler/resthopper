@@ -6,6 +6,7 @@ export default class Addition extends ResthopperComponent {
 
 	public guid: string = "fb012ef9-4734-4049-84a0-b92b85bb09da";
 	public name: string = "Addition";
+	public nickName: string = "VAdd";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Perform vector-vector addition.";

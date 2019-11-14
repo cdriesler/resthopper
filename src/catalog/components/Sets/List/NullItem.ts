@@ -6,6 +6,7 @@ export default class NullItem extends ResthopperComponent {
 
 	public guid: string = "c74efd0e-7fe3-4c2d-8c9d-295c5672fb13";
 	public name: string = "NullItem";
+	public nickName: string = "Null";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Test a data item for null or invalidity";

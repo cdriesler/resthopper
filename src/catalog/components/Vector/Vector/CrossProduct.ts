@@ -6,6 +6,7 @@ export default class CrossProduct extends ResthopperComponent {
 
 	public guid: string = "2a5cfb31-028a-4b34-b4e1-9b20ae15312e";
 	public name: string = "CrossProduct";
+	public nickName: string = "XProd";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Compute vector cross product.";

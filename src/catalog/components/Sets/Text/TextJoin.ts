@@ -6,6 +6,7 @@ export default class TextJoin extends ResthopperComponent {
 
 	public guid: string = "1274d51a-81e6-4ccf-ad1f-0edf4c769cac";
 	public name: string = "TextJoin";
+	public nickName: string = "Join";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Join a collection of text fragments into one";

@@ -6,6 +6,7 @@ export default class PointCharge extends ResthopperComponent {
 
 	public guid: string = "cffdbaf3-8d33-4b38-9cad-c264af9fc3f4";
 	public name: string = "PointCharge";
+	public nickName: string = "PCharge";
 	public category: string = "Vector";
 	public subCategory: string = "Field";
 	public description: string = "Create a field due to a point charge";

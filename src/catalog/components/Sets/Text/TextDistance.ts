@@ -6,6 +6,7 @@ export default class TextDistance extends ResthopperComponent {
 
 	public guid: string = "f7608c4d-836c-4adf-9d1f-3b04e6a2647d";
 	public name: string = "TextDistance";
+	public nickName: string = "TDist";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Compute the Levenshtein distance between two fragments of text.";

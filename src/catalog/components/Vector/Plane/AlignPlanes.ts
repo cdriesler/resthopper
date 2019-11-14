@@ -6,6 +6,7 @@ export default class AlignPlanes extends ResthopperComponent {
 
 	public guid: string = "2318aee8-01fe-4ea8-9524-6966023fc622";
 	public name: string = "AlignPlanes";
+	public nickName: string = "Align";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Align planes by minimizing their serial rotation.";

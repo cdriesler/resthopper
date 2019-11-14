@@ -6,6 +6,7 @@ export default class BoxCorners extends ResthopperComponent {
 
 	public guid: string = "a10e8cdf-7c7a-4aac-aa70-ddb7010ab231";
 	public name: string = "BoxCorners";
+	public nickName: string = "BoxCorners";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Extract all 8 corners of a box.";

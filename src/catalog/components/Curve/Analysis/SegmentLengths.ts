@@ -6,6 +6,7 @@ export default class SegmentLengths extends ResthopperComponent {
 
 	public guid: string = "f88a6cd9-1035-4361-b896-4f2dfe79272d";
 	public name: string = "SegmentLengths";
+	public nickName: string = "LenSeg";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Finds the shortest and longest segments of a curve.";

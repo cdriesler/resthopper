@@ -6,6 +6,7 @@ export default class MakeTwoDParallelView extends ResthopperComponent {
 
 	public guid: string = "3fc08088-d75d-43bc-83cc-7a654f156cb7";
 	public name: string = "Make2DParallelView";
+	public nickName: string = "M2DParallel";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Define a parallel view for a Make2D solution";

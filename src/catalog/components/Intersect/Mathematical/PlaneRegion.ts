@@ -6,6 +6,7 @@ export default class PlaneRegion extends ResthopperComponent {
 
 	public guid: string = "80e3614a-25ae-43e7-bb0a-760e68ade864";
 	public name: string = "PlaneRegion";
+	public nickName: string = "PlReg";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a bounded region from intersecting planes.";

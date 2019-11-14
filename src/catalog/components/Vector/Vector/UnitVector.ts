@@ -6,6 +6,7 @@ export default class UnitVector extends ResthopperComponent {
 
 	public guid: string = "d2da1306-259a-4994-85a4-672d8a4c7805";
 	public name: string = "UnitVector";
+	public nickName: string = "Unit";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Unitize vector.";

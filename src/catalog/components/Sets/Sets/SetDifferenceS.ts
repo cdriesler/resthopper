@@ -6,6 +6,7 @@ export default class SetDifferenceS extends ResthopperComponent {
 
 	public guid: string = "d2461702-3164-4894-8c10-ed1fc4b52965";
 	public name: string = "SetDifferenceS";
+	public nickName: string = "ExDiff";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Create the symmetric difference of two sets (the collection of objects present in A or B but not both).";

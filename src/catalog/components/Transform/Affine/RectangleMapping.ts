@@ -6,6 +6,7 @@ export default class RectangleMapping extends ResthopperComponent {
 
 	public guid: string = "17d40004-489e-42d9-ad10-857f7b436801";
 	public name: string = "RectangleMapping";
+	public nickName: string = "RecMap";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";
 	public description: string = "Transform geometry from one rectangle into another.";

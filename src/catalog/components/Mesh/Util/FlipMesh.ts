@@ -6,6 +6,7 @@ export default class FlipMesh extends ResthopperComponent {
 
 	public guid: string = "47fbc929-e88a-4a13-882e-dad84763256d";
 	public name: string = "FlipMesh";
+	public nickName: string = "FlipM";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Flip the normal vectors of a mesh";

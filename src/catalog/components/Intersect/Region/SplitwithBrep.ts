@@ -6,6 +6,7 @@ export default class SplitwithBrep extends ResthopperComponent {
 
 	public guid: string = "4bdc2eb0-24ed-4c90-a27b-a32db069eaef";
 	public name: string = "SplitwithBrep";
+	public nickName: string = "Split";
 	public category: string = "Intersect";
 	public subCategory: string = "Region";
 	public description: string = "Split a curve with a Brep.";

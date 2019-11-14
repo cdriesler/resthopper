@@ -6,6 +6,7 @@ export default class BoxRectangle extends ResthopperComponent {
 
 	public guid: string = "d0a56c9e-2483-45e7-ab98-a450b97f1bc0";
 	public name: string = "BoxRectangle";
+	public nickName: string = "BoxRec";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a box defined by a rectangle and a height.";

@@ -6,6 +6,7 @@ export default class BrepClosestPoint extends ResthopperComponent {
 
 	public guid: string = "4beead95-8aa2-4613-8bb9-24758a0f5c4c";
 	public name: string = "BrepClosestPoint";
+	public nickName: string = "BrepCP";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Find the closest point on a brep";

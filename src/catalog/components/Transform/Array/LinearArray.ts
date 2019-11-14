@@ -6,6 +6,7 @@ export default class LinearArray extends ResthopperComponent {
 
 	public guid: string = "e87db220-a0a0-4d67-a405-f97fd14b2d7a";
 	public name: string = "LinearArray";
+	public nickName: string = "ArrLinear";
 	public category: string = "Transform";
 	public subCategory: string = "Array";
 	public description: string = "Create a linear array of geometry.";

@@ -6,6 +6,7 @@ export default class Merge extends ResthopperComponent {
 
 	public guid: string = "86866576-6cc0-485a-9cd2-6f7d493f57f7";
 	public name: string = "Merge";
+	public nickName: string = "Merge";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Merge two streams into one.";

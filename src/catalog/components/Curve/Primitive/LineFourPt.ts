@@ -6,6 +6,7 @@ export default class LineFourPt extends ResthopperComponent {
 
 	public guid: string = "b9fde5fa-d654-4306-8ee1-6b69e6757604";
 	public name: string = "Line4Pt";
+	public nickName: string = "Ln4Pt";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a line from four points.";

@@ -6,6 +6,7 @@ export default class InvertMatrix extends ResthopperComponent {
 
 	public guid: string = "f986e79a-1215-4822-a1e7-3311dbdeb851";
 	public name: string = "InvertMatrix";
+	public nickName: string = "MInvert";
 	public category: string = "Maths";
 	public subCategory: string = "Matrix";
 	public description: string = "Invert a matrix";

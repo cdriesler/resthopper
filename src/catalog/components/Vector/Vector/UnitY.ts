@@ -6,6 +6,7 @@ export default class UnitY extends ResthopperComponent {
 
 	public guid: string = "d3d195ea-2d59-4ffa-90b1-8b7ff3369f69";
 	public name: string = "UnitY";
+	public nickName: string = "Y";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Unit vector parallel to the world {y} axis.";

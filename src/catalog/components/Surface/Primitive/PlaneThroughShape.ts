@@ -6,6 +6,7 @@ export default class PlaneThroughShape extends ResthopperComponent {
 
 	public guid: string = "d8698126-0e91-4ae7-ba05-2490258573ea";
 	public name: string = "PlaneThroughShape";
+	public nickName: string = "PxS";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Make a rectangular surface that is larger than a given shape.";

@@ -6,6 +6,7 @@ export default class Logarithm extends ResthopperComponent {
 
 	public guid: string = "27d6f724-a701-4585-992f-3897488abf08";
 	public name: string = "Logarithm";
+	public nickName: string = "Log";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the Base-10 logarithm of a value.";

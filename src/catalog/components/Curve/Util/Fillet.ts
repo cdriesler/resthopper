@@ -6,6 +6,7 @@ export default class Fillet extends ResthopperComponent {
 
 	public guid: string = "c92cdfc8-3df8-4c4e-abc1-ede092a0aa8a";
 	public name: string = "Fillet";
+	public nickName: string = "Fillet";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Fillet a curve at a parameter.";

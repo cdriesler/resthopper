@@ -6,6 +6,7 @@ export default class PerpFrames extends ResthopperComponent {
 
 	public guid: string = "983c7600-980c-44da-bc53-c804067f667f";
 	public name: string = "PerpFrames";
+	public nickName: string = "PFrames";
 	public category: string = "Curve";
 	public subCategory: string = "Division";
 	public description: string = "Generate a number of equally spaced, perpendicular frames along a curve.";

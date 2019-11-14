@@ -6,6 +6,7 @@ export default class StreamGate extends ResthopperComponent {
 
 	public guid: string = "71fcc052-6add-4d70-8d97-cfb37ea9d169";
 	public name: string = "StreamGate";
+	public nickName: string = "Gate";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Redirects a stream into specific outputs.";

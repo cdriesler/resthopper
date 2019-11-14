@@ -6,6 +6,7 @@ export default class RelativeDifferences extends ResthopperComponent {
 
 	public guid: string = "dd17d442-3776-40b3-ad5b-5e188b56bd4c";
 	public name: string = "RelativeDifferences";
+	public nickName: string = "RelDif";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Compute relative differences for a list of data";

@@ -6,6 +6,7 @@ export default class BrepWireframe extends ResthopperComponent {
 
 	public guid: string = "ac750e41-2450-4f98-9658-98fef97b01b2";
 	public name: string = "BrepWireframe";
+	public nickName: string = "Wires";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the wireframe curves of a brep.";

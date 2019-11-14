@@ -6,6 +6,7 @@ export default class Division extends ResthopperComponent {
 
 	public guid: string = "9c85271f-89fa-4e9f-9f4a-d75802120ccc";
 	public name: string = "Division";
+	public nickName: string = "AB";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical division";

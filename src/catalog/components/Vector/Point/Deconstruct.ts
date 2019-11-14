@@ -6,6 +6,7 @@ export default class Deconstruct extends ResthopperComponent {
 
 	public guid: string = "9abae6b7-fa1d-448c-9209-4a8155345841";
 	public name: string = "Deconstruct";
+	public nickName: string = "pDecon";
 	public category: string = "Vector";
 	public subCategory: string = "Point";
 	public description: string = "Deconstruct a point into its component parts.";

@@ -6,6 +6,7 @@ export default class ShapeInBrep extends ResthopperComponent {
 
 	public guid: string = "2ba64356-be21-4c12-bbd4-ced54f04c8ef";
 	public name: string = "ShapeInBrep";
+	public nickName: string = "ShapeIn";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Tests whether a shape is inside a brep";

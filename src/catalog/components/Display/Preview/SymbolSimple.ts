@@ -6,6 +6,7 @@ export default class SymbolSimple extends ResthopperComponent {
 
 	public guid: string = "79747717-1874-4c34-b790-faef53b50569";
 	public name: string = "SymbolSimple";
+	public nickName: string = "SymSim";
 	public category: string = "Display";
 	public subCategory: string = "Preview";
 	public description: string = "Simple symbol display properties";

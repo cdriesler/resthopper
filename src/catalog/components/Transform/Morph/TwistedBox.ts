@@ -6,6 +6,7 @@ export default class TwistedBox extends ResthopperComponent {
 
 	public guid: string = "124de0f5-65f8-4ae0-8f61-8fb066e2ba02";
 	public name: string = "TwistedBox";
+	public nickName: string = "TBox";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Create a twisted box from corner points.";

@@ -6,6 +6,7 @@ export default class Split extends ResthopperComponent {
 
 	public guid: string = "915f8f93-f5d1-4a7b-aecb-c327bab88ffb";
 	public name: string = "Split";
+	public nickName: string = "Split";
 	public category: string = "Transform";
 	public subCategory: string = "Util";
 	public description: string = "Split a compound transformation into fragments.";

@@ -6,6 +6,7 @@ export default class TangentArcs extends ResthopperComponent {
 
 	public guid: string = "f1c0783b-60e9-42a7-8081-925bc755494c";
 	public name: string = "TangentArcs";
+	public nickName: string = "TArc";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create tangent arcs between circles";

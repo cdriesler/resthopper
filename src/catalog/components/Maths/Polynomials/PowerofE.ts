@@ -6,6 +6,7 @@ export default class PowerofE extends ResthopperComponent {
 
 	public guid: string = "c717f26f-e4a0-475c-8e1c-b8f77af1bc99";
 	public name: string = "PowerofE";
+	public nickName: string = "E";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Raise E to the power of N.";

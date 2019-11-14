@@ -6,6 +6,7 @@ export default class Absolute extends ResthopperComponent {
 
 	public guid: string = "28124995-cf99-4298-b6f4-c75a8e379f18";
 	public name: string = "Absolute";
+	public nickName: string = "Abs";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Compute the absolute of a value.";

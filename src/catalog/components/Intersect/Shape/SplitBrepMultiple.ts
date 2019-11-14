@@ -6,6 +6,7 @@ export default class SplitBrepMultiple extends ResthopperComponent {
 
 	public guid: string = "03f22640-ff80-484e-bb53-a4025c5faa07";
 	public name: string = "SplitBrepMultiple";
+	public nickName: string = "SplitMul";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";
 	public description: string = "Split one brep with a bunch of others.";

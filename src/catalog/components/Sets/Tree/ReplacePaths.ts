@@ -6,6 +6,7 @@ export default class ReplacePaths extends ResthopperComponent {
 
 	public guid: string = "bfaaf799-77dc-4f31-9ad8-2f7d1a80aeb0";
 	public name: string = "ReplacePaths";
+	public nickName: string = "Replace";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Find & replace paths in a data tree";

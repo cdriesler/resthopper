@@ -6,6 +6,7 @@ export default class CollisionManyMany extends ResthopperComponent {
 
 	public guid: string = "2168853c-acd8-4a63-9c9b-ecde9e239eae";
 	public name: string = "CollisionManyMany";
+	public nickName: string = "ColMM";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";
 	public description: string = "Test for many|many collision between objects";

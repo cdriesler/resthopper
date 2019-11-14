@@ -6,6 +6,7 @@ export default class Includes extends ResthopperComponent {
 
 	public guid: string = "f217f873-92f1-47ae-ad71-ca3c5a45c3f8";
 	public name: string = "Includes";
+	public nickName: string = "Inc";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
 	public description: string = "Test a numeric value to see if it is included in the domain";

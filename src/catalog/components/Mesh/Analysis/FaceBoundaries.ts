@@ -6,6 +6,7 @@ export default class FaceBoundaries extends ResthopperComponent {
 
 	public guid: string = "0b4ac802-fc4a-4201-9c66-0078b837c1eb";
 	public name: string = "FaceBoundaries";
+	public nickName: string = "FaceB";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";
 	public description: string = "Convert all mesh faces to polylines";

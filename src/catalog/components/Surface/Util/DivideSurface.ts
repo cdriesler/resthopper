@@ -6,6 +6,7 @@ export default class DivideSurface extends ResthopperComponent {
 
 	public guid: string = "5106bafc-d5d4-4983-83e7-7be3ed07f502";
 	public name: string = "DivideSurface";
+	public nickName: string = "SDivide";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Generate a grid of {uv} points on a surface.";

@@ -6,6 +6,7 @@ export default class Occlusion extends ResthopperComponent {
 
 	public guid: string = "1583bd7e-4ab7-4439-b922-d6f8cd63c399";
 	public name: string = "Occlusion";
+	public nickName: string = "Occ";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Solve occlusion for a collection of view rays and obstructions.";

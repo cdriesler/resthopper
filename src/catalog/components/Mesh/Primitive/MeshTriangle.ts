@@ -6,6 +6,7 @@ export default class MeshTriangle extends ResthopperComponent {
 
 	public guid: string = "5a4ddedd-5af9-49e5-bace-12910a8b9366";
 	public name: string = "MeshTriangle";
+	public nickName: string = "Triangle";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh triangle.";

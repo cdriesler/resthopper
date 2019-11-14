@@ -6,6 +6,7 @@ export default class ConstructExoticDate extends ResthopperComponent {
 
 	public guid: string = "e5ff52c5-40df-4f43-ac3b-d2418d05ae32";
 	public name: string = "ConstructExoticDate";
+	public nickName: string = "DateEx";
 	public category: string = "Maths";
 	public subCategory: string = "Time";
 	public description: string = "Construct a date using a specific calendar";

@@ -6,6 +6,7 @@ export default class BrepTopology extends ResthopperComponent {
 
 	public guid: string = "866ee39d-9ebf-4e1d-b209-324c56825605";
 	public name: string = "BrepTopology";
+	public nickName: string = "Topology";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Get and display the topology of a brep.";

@@ -6,6 +6,7 @@ export default class PipeVariable extends ResthopperComponent {
 
 	public guid: string = "888f9c3c-f1e1-4344-94b0-5ee6a45aee11";
 	public name: string = "PipeVariable";
+	public nickName: string = "VPipe";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a pipe surface with variable radii around a rail curve.";

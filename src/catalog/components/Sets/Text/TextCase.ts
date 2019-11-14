@@ -6,6 +6,7 @@ export default class TextCase extends ResthopperComponent {
 
 	public guid: string = "b1991128-8bf1-4dea-8497-4b7188a64e9d";
 	public name: string = "TextCase";
+	public nickName: string = "Case";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Change the CaSiNg of a piece of text";

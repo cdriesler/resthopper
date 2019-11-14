@@ -6,6 +6,7 @@ export default class BrepEdges extends ResthopperComponent {
 
 	public guid: string = "0148a65d-6f42-414a-9db7-9a9b2eb78437";
 	public name: string = "BrepEdges";
+	public nickName: string = "Edges";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Extract the edge curves of a brep.";

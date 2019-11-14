@@ -6,6 +6,7 @@ export default class SplitTree extends ResthopperComponent {
 
 	public guid: string = "d8b1e7ac-cd31-4748-b262-e07e53068afc";
 	public name: string = "SplitTree";
+	public nickName: string = "Split";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";
 	public description: string = "Split a data tree into two parts using path masks.";

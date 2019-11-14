@@ -6,6 +6,7 @@ export default class MeshSphereEx extends ResthopperComponent {
 
 	public guid: string = "76f85ee4-5a88-4511-8ba7-30df07e50533";
 	public name: string = "MeshSphereEx";
+	public nickName: string = "MSphereEx";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a mesh sphere from square patches.";

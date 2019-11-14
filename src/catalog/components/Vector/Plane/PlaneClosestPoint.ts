@@ -6,6 +6,7 @@ export default class PlaneClosestPoint extends ResthopperComponent {
 
 	public guid: string = "b075c065-efda-4c9f-9cc9-288362b1b4b9";
 	public name: string = "PlaneClosestPoint";
+	public nickName: string = "CP";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Find the closest point on a plane.";

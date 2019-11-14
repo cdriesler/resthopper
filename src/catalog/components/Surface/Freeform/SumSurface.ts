@@ -6,6 +6,7 @@ export default class SumSurface extends ResthopperComponent {
 
 	public guid: string = "5e33c760-adcd-4235-b1dd-05cf72eb7a38";
 	public name: string = "SumSurface";
+	public nickName: string = "SumSrf";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a sum surface from two edge curves.";

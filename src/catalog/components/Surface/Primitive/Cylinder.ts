@@ -6,6 +6,7 @@ export default class Cylinder extends ResthopperComponent {
 
 	public guid: string = "0373008a-80ee-45be-887d-ab5a244afc29";
 	public name: string = "Cylinder";
+	public nickName: string = "Cyl";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";
 	public description: string = "Create a cylindrical surface.";

@@ -6,6 +6,7 @@ export default class AreaMoments extends ResthopperComponent {
 
 	public guid: string = "c98c1666-5f29-4bb8-aafd-bb5a708e8a95";
 	public name: string = "AreaMoments";
+	public nickName: string = "AMoments";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Solve area moments for breps, meshes and planar closed curves.";

@@ -6,6 +6,7 @@ export default class SettingsCustom extends ResthopperComponent {
 
 	public guid: string = "4a0180e5-d8f9-46e7-bd34-ced804601462";
 	public name: string = "SettingsCustom";
+	public nickName: string = "CustomMeshSettings";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Represents custom mesh settings.";

@@ -6,6 +6,7 @@ export default class Modulus extends ResthopperComponent {
 
 	public guid: string = "431bc610-8ae1-4090-b217-1a9d9c519fe2";
 	public name: string = "Modulus";
+	public nickName: string = "Mod";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Divides two numbers and returns only the remainder.";

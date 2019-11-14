@@ -6,6 +6,7 @@ export default class Contourex extends ResthopperComponent {
 
 	public guid: string = "246cda78-5e88-4087-ba09-ae082bbc4af8";
 	public name: string = "Contourex";
+	public nickName: string = "Contour";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Create a set of Brep or Mesh contours";

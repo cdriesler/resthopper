@@ -6,6 +6,7 @@ export default class MeshDepth extends ResthopperComponent {
 
 	public guid: string = "07a3b2a0-c4d0-4638-9044-39ac4681e782";
 	public name: string = "MeshDepth";
+	public nickName: string = "MDepth";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";
 	public description: string = "Validate the depth of a mesh.";

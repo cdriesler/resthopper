@@ -6,6 +6,7 @@ export default class MeshRay extends ResthopperComponent {
 
 	public guid: string = "4c02a168-9aba-4f42-8951-2719f24d391f";
 	public name: string = "MeshRay";
+	public nickName: string = "MeshRay";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";
 	public description: string = "Intersect a mesh with a semi-infinite ray";

@@ -6,6 +6,7 @@ export default class FieldLine extends ResthopperComponent {
 
 	public guid: string = "add6be3e-c57f-4740-96e4-5680abaa9169";
 	public name: string = "FieldLine";
+	public nickName: string = "FLine";
 	public category: string = "Vector";
 	public subCategory: string = "Field";
 	public description: string = "Compute the field line through a certain point";

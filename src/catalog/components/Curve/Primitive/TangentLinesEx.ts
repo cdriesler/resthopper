@@ -6,6 +6,7 @@ export default class TangentLinesEx extends ResthopperComponent {
 
 	public guid: string = "d6d68c93-d00f-4cd5-ba89-903c7f6be64c";
 	public name: string = "TangentLinesEx";
+	public nickName: string = "TanEx";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";
 	public description: string = "Create external tangent lines between circles";

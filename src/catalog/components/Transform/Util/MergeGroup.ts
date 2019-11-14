@@ -6,6 +6,7 @@ export default class MergeGroup extends ResthopperComponent {
 
 	public guid: string = "15204c6d-bba8-403d-9e8f-6660ab8e0df5";
 	public name: string = "MergeGroup";
+	public nickName: string = "GMerge";
 	public category: string = "Transform";
 	public subCategory: string = "Util";
 	public description: string = "Merge two groups";

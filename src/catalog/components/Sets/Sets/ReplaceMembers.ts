@@ -6,6 +6,7 @@ export default class ReplaceMembers extends ResthopperComponent {
 
 	public guid: string = "bafac914-ede4-4a59-a7b2-cc41bc3de961";
 	public name: string = "ReplaceMembers";
+	public nickName: string = "Replace";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";
 	public description: string = "Replace members in a set.";

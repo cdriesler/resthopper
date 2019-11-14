@@ -6,6 +6,7 @@ export default class PointInTrim extends ResthopperComponent {
 
 	public guid: string = "f881810b-96de-4668-a95a-f9a6d683e65c";
 	public name: string = "PointInTrim";
+	public nickName: string = "TrimInc";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";
 	public description: string = "Test whether a {uv} coordinate is inside the trimmed portion of a surface";

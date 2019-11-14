@@ -6,6 +6,7 @@ export default class RebuildCurve extends ResthopperComponent {
 
 	public guid: string = "9333c5b3-11f9-423c-bbb5-7e5156430219";
 	public name: string = "RebuildCurve";
+	public nickName: string = "ReB";
 	public category: string = "Curve";
 	public subCategory: string = "Util";
 	public description: string = "Rebuild a curve with a specific number of control-points.";

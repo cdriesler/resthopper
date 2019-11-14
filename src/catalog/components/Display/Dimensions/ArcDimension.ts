@@ -6,6 +6,7 @@ export default class ArcDimension extends ResthopperComponent {
 
 	public guid: string = "1bd97813-4fec-4453-9645-4ac920844f9d";
 	public name: string = "ArcDimension";
+	public nickName: string = "ArcDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";
 	public description: string = "Create an angle annotation based on an arc.";

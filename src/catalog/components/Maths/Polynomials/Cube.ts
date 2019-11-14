@@ -6,6 +6,7 @@ export default class Cube extends ResthopperComponent {
 
 	public guid: string = "7e3185eb-a38c-4949-bcf2-0e80dee3a344";
 	public name: string = "Cube";
+	public nickName: string = "Cube";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";
 	public description: string = "Compute the cube of a value";

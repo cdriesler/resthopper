@@ -6,6 +6,7 @@ export default class Concatenate extends ResthopperComponent {
 
 	public guid: string = "2013e425-8713-42e2-a661-b57e78840337";
 	public name: string = "Concatenate";
+	public nickName: string = "Concat";
 	public category: string = "Sets";
 	public subCategory: string = "Text";
 	public description: string = "Concatenate some fragments of text";

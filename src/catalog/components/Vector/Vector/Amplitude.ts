@@ -6,6 +6,7 @@ export default class Amplitude extends ResthopperComponent {
 
 	public guid: string = "6ec39468-dae7-4ffa-a766-f2ab22a2c62e";
 	public name: string = "Amplitude";
+	public nickName: string = "Amp";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";
 	public description: string = "Set the amplitude (length) of a vector.";

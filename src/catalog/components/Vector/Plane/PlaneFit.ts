@@ -6,6 +6,7 @@ export default class PlaneFit extends ResthopperComponent {
 
 	public guid: string = "33bfc73c-19b2-480b-81e6-f3523a012ea6";
 	public name: string = "PlaneFit";
+	public nickName: string = "PlFit";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Fit a plane through a set of points.";

@@ -6,6 +6,7 @@ export default class SettingsSpeed extends ResthopperComponent {
 
 	public guid: string = "255ca3e9-2c1e-443a-a404-e76b5c63f4cb";
 	public name: string = "SettingsSpeed";
+	public nickName: string = "Jagged";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";
 	public description: string = "Represents 'Jagged & faster' mesh settings.";

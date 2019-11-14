@@ -6,6 +6,7 @@ export default class ConstructDomain extends ResthopperComponent {
 
 	public guid: string = "d1a28e95-cf96-4936-bf34-8bf142d731bf";
 	public name: string = "ConstructDomain";
+	public nickName: string = "Dom";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
 	public description: string = "Create a numeric domain from two numeric extremes.";

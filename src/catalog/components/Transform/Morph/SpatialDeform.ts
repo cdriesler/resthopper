@@ -6,6 +6,7 @@ export default class SpatialDeform extends ResthopperComponent {
 
 	public guid: string = "66e6596f-6c8f-4ac3-99e0-0c4b7a59a7f7";
 	public name: string = "SpatialDeform";
+	public nickName: string = "Deform";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";
 	public description: string = "Perform spatial deformation based on custom space syntax.";

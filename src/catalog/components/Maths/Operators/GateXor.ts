@@ -6,6 +6,7 @@ export default class GateXor extends ResthopperComponent {
 
 	public guid: string = "de4a0d86-2709-4564-935a-88bf4d40af89";
 	public name: string = "GateXor";
+	public nickName: string = "Xor";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Perform boolean exclusive disjunction (XOR gate).";

@@ -6,6 +6,7 @@ export default class EdgesfromLength extends ResthopperComponent {
 
 	public guid: string = "ff187e6a-84bc-4bb9-a572-b39006a0576d";
 	public name: string = "EdgesfromLength";
+	public nickName: string = "EdgesLen";
 	public category: string = "Surface";
 	public subCategory: string = "Util";
 	public description: string = "Select brep edges based on length";

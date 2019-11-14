@@ -6,6 +6,7 @@ export default class FourPointSurface extends ResthopperComponent {
 
 	public guid: string = "c77a8b3b-c569-4d81-9b59-1c27299a1c45";
 	public name: string = "4PointSurface";
+	public nickName: string = "Srf4Pt";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";
 	public description: string = "Create a surface connecting three or four corner points.";

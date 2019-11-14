@@ -6,6 +6,7 @@ export default class ColourLCH extends ResthopperComponent {
 
 	public guid: string = "75a07554-8a2c-4d87-81b9-d854f498509d";
 	public name: string = "ColourLCH";
+	public nickName: string = "LCH";
 	public category: string = "Display";
 	public subCategory: string = "Colour";
 	public description: string = "Create a colour from floating point {CIE LCH} channels.";

@@ -6,6 +6,7 @@ export default class CharSequence extends ResthopperComponent {
 
 	public guid: string = "01640871-69ea-40ac-9380-4660d6d28bd2";
 	public name: string = "CharSequence";
+	public nickName: string = "CharSeq";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";
 	public description: string = "Create a sequence of textual characters.";

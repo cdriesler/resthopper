@@ -6,6 +6,7 @@ export default class AdjustPlane extends ResthopperComponent {
 
 	public guid: string = "9ce34996-d8c6-40d3-b442-1a7c8c093614";
 	public name: string = "AdjustPlane";
+	public nickName: string = "PAdjust";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";
 	public description: string = "Adjust a plane to match a new normal direction";

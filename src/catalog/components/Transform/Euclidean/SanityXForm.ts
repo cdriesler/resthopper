@@ -6,6 +6,7 @@ export default class SanityXForm extends ResthopperComponent {
 
 	public guid: string = "03b3db66-d7e8-4d2d-bc0c-122913317254";
 	public name: string = "SanityXForm";
+	public nickName: string = "MWHAHAHA";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";
 	public description: string = "Apply a sanity transformation to f a r - a w a y, tiny or HUGE geometry";

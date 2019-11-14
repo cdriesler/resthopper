@@ -6,6 +6,7 @@ export default class DeconstuctRectangle extends ResthopperComponent {
 
 	public guid: string = "e5c33a79-53d5-4f2b-9a97-d3d45c780edc";
 	public name: string = "DeconstuctRectangle";
+	public nickName: string = "DRec";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";
 	public description: string = "Retrieve the base plane and side intervals of a rectangle.";

@@ -6,6 +6,7 @@ export default class Subtraction extends ResthopperComponent {
 
 	public guid: string = "9c007a04-d0d9-48e4-9da3-9ba142bc4d46";
 	public name: string = "Subtraction";
+	public nickName: string = "AB";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";
 	public description: string = "Mathematical subtraction";

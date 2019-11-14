@@ -6,6 +6,7 @@ export default class InsertItems extends ResthopperComponent {
 
 	public guid: string = "e2039b07-d3f3-40f8-af88-d74fed238727";
 	public name: string = "InsertItems";
+	public nickName: string = "Ins";
 	public category: string = "Sets";
 	public subCategory: string = "List";
 	public description: string = "Insert a collection of items into a list.";

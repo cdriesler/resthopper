@@ -6,6 +6,7 @@ export default class DelaunayEdges extends ResthopperComponent {
 
 	public guid: string = "db2a4d25-23fa-4887-8983-ee5293cc82c0";
 	public name: string = "DelaunayEdges";
+	public nickName: string = "Con";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";
 	public description: string = "Delaunay connectivity";
