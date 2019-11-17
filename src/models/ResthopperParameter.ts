@@ -13,6 +13,8 @@ export default class ResthopperParameter {
     public isUserInput: boolean = false;
     public isUserOutput: boolean = false;
 
+    public position: { x: number, y: number } = { x: 0, y: 0 }
+
     public sources: string[] = [];
     public values: string[] | number[] | boolean[] = [];
 
