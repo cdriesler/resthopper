@@ -12,6 +12,8 @@ export default class ResthopperComponent {
 
     public libraryName: string = "";
 
+    public position: { x: number, y: number } = { x: 0, y: 0 }
+
     public input: { [name: string]: ResthopperParameter } = {};
     public output: { [name: string]: ResthopperParameter } = {};
 
