@@ -1,6 +1,7 @@
 import ResthopperComponent from './ResthopperComponent';
 import Parameter from './ResthopperParameter';
 import ResthopperSchema from './ResthopperSchema';
+import  {GrasshopperDocument, GrasshopperParameter } from './GrasshopperDocument';
 import { newGuid } from '../utils/Guid';
 
 export default class ResthopperDefinition {
@@ -10,6 +11,35 @@ export default class ResthopperDefinition {
 
     constructor() {
 
+    }
+
+    public toGrasshopperDocument(targets: string[]): GrasshopperDocument {
+        const ghdoc: GrasshopperDocument = {
+            targets: targets,
+            components: [],
+        }
+
+        function toGrasshopperParameter(p: Parameter): GrasshopperParameter {
+            return {
+                nickName: p.nickName,
+                instanceGuid: p.instanceGuid,
+                sources: p.sources,
+                typeName: p.typeName,
+                values: (<any[]>p.values).map((v:any, index:number) => {return { path: [index], value: v}}),
+            }
+        }
+
+        this.components.forEach(c => {
+            ghdoc.components.push({
+                name: c.name,
+                guid: c.guid,
+                position: c.position,
+                inputs: Object.keys(c.input).map(p => toGrasshopperParameter(c.input[p])),
+                outputs: Object.keys(c.output).map(p => toGrasshopperParameter(c.output[p])),
+            })
+        })
+
+        return ghdoc;
     }
 
     public toRequest(): ResthopperSchema {

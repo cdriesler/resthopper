@@ -17,8 +17,8 @@ describe("given a resthopper definition", () => {
             num.isUserInput = true;
 
             let mult = ComponentIndex.createComponent("Multiplication");
-            mult.setInputByIndex(0, num);
-            mult.setInputByIndex(1, num);
+            mult.getInputByIndex(0)!.values = [2];
+            mult.getInputByIndex(1)!.values = [3];
             let result = mult.getOutputByIndex(0);
 
             let pt = ComponentIndex.createComponent("ConstructPoint");
@@ -39,7 +39,7 @@ describe("given a resthopper definition", () => {
             definition.parameters = [num, out];
             definition.components = [mult, pt, dept];
 
-            ghx = JSON.stringify(definition.toRequest());
+            ghx = JSON.stringify(definition.toGrasshopperDocument([val?.instanceGuid ?? ""]));
         })
 
         it("should generate valid markup", () => {
