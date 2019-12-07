@@ -51,6 +51,7 @@ class SplopInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -65,6 +66,7 @@ class SplopInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,6 +81,7 @@ class SplopInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -93,6 +96,7 @@ class SplopInput_parameter_uv extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "uv";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class SplopInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -121,6 +126,7 @@ class SplopInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -135,6 +141,7 @@ class SplopOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

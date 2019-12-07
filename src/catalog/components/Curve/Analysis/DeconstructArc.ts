@@ -45,6 +45,7 @@ class DeconstructArcInput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
+	public description: string = "Empty Arc parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -59,6 +60,7 @@ class DeconstructArcOutput_baseplane_b extends ResthopperParameter {
 
 	public name: string = "BasePlane";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -73,6 +75,7 @@ class DeconstructArcOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class DeconstructArcOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

@@ -47,6 +47,7 @@ class ColourHSVInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -61,6 +62,7 @@ class ColourHSVInput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class ColourHSVInput_saturation_s extends ResthopperParameter {
 
 	public name: string = "Saturation";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class ColourHSVInput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class ColourHSVOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

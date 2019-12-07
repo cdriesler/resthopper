@@ -43,6 +43,7 @@ class PolyLineInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -57,6 +58,7 @@ class PolyLineInput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -71,6 +73,7 @@ class PolyLineOutput_polyline_pl extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "Pl";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

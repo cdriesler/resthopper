@@ -51,6 +51,7 @@ class CentroidInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class CentroidInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class CentroidInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -93,6 +96,7 @@ class CentroidOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class CentroidOutput_medianab_ab extends ResthopperParameter {
 
 	public name: string = "MedianAB";
 	public nickName: string = "AB";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -121,6 +126,7 @@ class CentroidOutput_medianbc_bc extends ResthopperParameter {
 
 	public name: string = "MedianBC";
 	public nickName: string = "BC";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -135,6 +141,7 @@ class CentroidOutput_medianca_ca extends ResthopperParameter {
 
 	public name: string = "MedianCA";
 	public nickName: string = "CA";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

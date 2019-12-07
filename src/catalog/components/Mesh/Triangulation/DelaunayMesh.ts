@@ -43,6 +43,7 @@ class DelaunayMeshInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -57,6 +58,7 @@ class DelaunayMeshInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -71,6 +73,7 @@ class DelaunayMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

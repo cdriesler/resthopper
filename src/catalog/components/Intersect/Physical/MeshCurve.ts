@@ -45,6 +45,7 @@ class MeshCurveInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -59,6 +60,7 @@ class MeshCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,6 +75,7 @@ class MeshCurveOutput_points_x extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "X";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -87,6 +90,7 @@ class MeshCurveOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

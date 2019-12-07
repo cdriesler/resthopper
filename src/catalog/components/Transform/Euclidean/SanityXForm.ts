@@ -43,6 +43,7 @@ class SanityXFormInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -57,6 +58,7 @@ class SanityXFormOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -71,6 +73,7 @@ class SanityXFormOutput_wackometry_w extends ResthopperParameter {
 
 	public name: string = "Wackometry";
 	public nickName: string = "W";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

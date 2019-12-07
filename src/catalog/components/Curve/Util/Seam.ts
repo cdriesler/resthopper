@@ -43,6 +43,7 @@ class SeamInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -57,6 +58,7 @@ class SeamInput_seam_t extends ResthopperParameter {
 
 	public name: string = "Seam";
 	public nickName: string = "t";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class SeamOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

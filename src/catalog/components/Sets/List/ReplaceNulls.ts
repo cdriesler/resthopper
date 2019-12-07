@@ -45,6 +45,7 @@ class ReplaceNullsInput_items_i extends ResthopperParameter {
 
 	public name: string = "Items";
 	public nickName: string = "I";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class ReplaceNullsInput_replacements_r extends ResthopperParameter {
 
 	public name: string = "Replacements";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,6 +75,7 @@ class ReplaceNullsOutput_items_i extends ResthopperParameter {
 
 	public name: string = "Items";
 	public nickName: string = "I";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class ReplaceNullsOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

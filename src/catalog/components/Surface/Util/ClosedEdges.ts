@@ -49,6 +49,7 @@ class ClosedEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -63,6 +64,7 @@ class ClosedEdgesInput_tangency_t extends ResthopperParameter {
 
 	public name: string = "Tangency";
 	public nickName: string = "T";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -77,6 +79,7 @@ class ClosedEdgesOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -91,6 +94,7 @@ class ClosedEdgesOutput_closedindices_ci extends ResthopperParameter {
 
 	public name: string = "ClosedIndices";
 	public nickName: string = "Ci";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -105,6 +109,7 @@ class ClosedEdgesOutput_open_o extends ResthopperParameter {
 
 	public name: string = "Open";
 	public nickName: string = "O";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -119,6 +124,7 @@ class ClosedEdgesOutput_openindices_oi extends ResthopperParameter {
 
 	public name: string = "OpenIndices";
 	public nickName: string = "Oi";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

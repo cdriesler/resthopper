@@ -45,6 +45,7 @@ class MirrorInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -59,6 +60,7 @@ class MirrorInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -73,6 +75,7 @@ class MirrorOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -87,6 +90,7 @@ class MirrorOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
+	public description: string = "Empty Transform parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

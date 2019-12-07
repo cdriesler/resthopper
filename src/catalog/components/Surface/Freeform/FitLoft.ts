@@ -47,6 +47,7 @@ class FitLoftInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -61,6 +62,7 @@ class FitLoftInput_countu_nu extends ResthopperParameter {
 
 	public name: string = "CountU";
 	public nickName: string = "Nu";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class FitLoftInput_degreeu_du extends ResthopperParameter {
 
 	public name: string = "DegreeU";
 	public nickName: string = "Du";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class FitLoftInput_degreev_dv extends ResthopperParameter {
 
 	public name: string = "DegreeV";
 	public nickName: string = "Dv";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -103,6 +107,7 @@ class FitLoftOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

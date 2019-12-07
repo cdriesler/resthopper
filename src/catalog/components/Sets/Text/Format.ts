@@ -47,6 +47,7 @@ class FormatInput_data0_0 extends ResthopperParameter {
 
 	public name: string = "Data0";
 	public nickName: string = "0";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -61,6 +62,7 @@ class FormatInput_data1_1 extends ResthopperParameter {
 
 	public name: string = "Data1";
 	public nickName: string = "1";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,6 +77,7 @@ class FormatInput_format_f extends ResthopperParameter {
 
 	public name: string = "Format";
 	public nickName: string = "F";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -89,6 +92,7 @@ class FormatInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
+	public description: string = "Empty Culture parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Culture"
 
@@ -103,6 +107,7 @@ class FormatOutput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

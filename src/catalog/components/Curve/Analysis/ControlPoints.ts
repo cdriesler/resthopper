@@ -45,6 +45,7 @@ class ControlPointsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -59,6 +60,7 @@ class ControlPointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,6 +75,7 @@ class ControlPointsOutput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class ControlPointsOutput_knots_k extends ResthopperParameter {
 
 	public name: string = "Knots";
 	public nickName: string = "K";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

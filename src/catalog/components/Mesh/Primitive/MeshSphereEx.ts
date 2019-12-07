@@ -45,6 +45,7 @@ class MeshSphereExInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -59,6 +60,7 @@ class MeshSphereExInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,6 +75,7 @@ class MeshSphereExInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class MeshSphereExOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

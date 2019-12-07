@@ -45,6 +45,7 @@ class CloudDisplayInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class CloudDisplayInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Colour"
 
@@ -73,6 +75,7 @@ class CloudDisplayInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 

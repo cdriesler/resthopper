@@ -47,6 +47,7 @@ class OsculatingCirclesInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -61,6 +62,7 @@ class OsculatingCirclesInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,6 +77,7 @@ class OsculatingCirclesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -89,6 +92,7 @@ class OsculatingCirclesOutput_firstcircle_c1 extends ResthopperParameter {
 
 	public name: string = "Firstcircle";
 	public nickName: string = "C1";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -103,6 +107,7 @@ class OsculatingCirclesOutput_secondcircle_c2 extends ResthopperParameter {
 
 	public name: string = "Secondcircle";
 	public nickName: string = "C2";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -45,6 +45,7 @@ class NetworkSurfaceInput_curvesu_u extends ResthopperParameter {
 
 	public name: string = "CurvesU";
 	public nickName: string = "U";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -59,6 +60,7 @@ class NetworkSurfaceInput_curvesv_v extends ResthopperParameter {
 
 	public name: string = "CurvesV";
 	public nickName: string = "V";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,6 +75,7 @@ class NetworkSurfaceInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class NetworkSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

@@ -51,6 +51,7 @@ class MaelstromInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -65,6 +66,7 @@ class MaelstromInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,6 +81,7 @@ class MaelstromInput_first_r0 extends ResthopperParameter {
 
 	public name: string = "First";
 	public nickName: string = "R0";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -93,6 +96,7 @@ class MaelstromInput_second_r1 extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "R1";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,6 +111,7 @@ class MaelstromInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -121,6 +126,7 @@ class MaelstromInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -135,6 +141,7 @@ class MaelstromOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

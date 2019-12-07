@@ -43,6 +43,7 @@ class SurfaceSplitInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -57,6 +58,7 @@ class SurfaceSplitInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Curve"
 
@@ -71,6 +73,7 @@ class SurfaceSplitOutput_fragments_f extends ResthopperParameter {
 
 	public name: string = "Fragments";
 	public nickName: string = "F";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

@@ -41,6 +41,7 @@ class ComplexArgumentInput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";
+	public description: string = "Empty Complex parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Complex"
 
@@ -55,6 +56,7 @@ class ComplexArgumentOutput_argument_a extends ResthopperParameter {
 
 	public name: string = "Argument";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

@@ -41,6 +41,7 @@ class SolidUnionInput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -55,6 +56,7 @@ class SolidUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

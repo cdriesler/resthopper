@@ -45,6 +45,7 @@ class NullItemInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class NullItemOutput_nullflags_n extends ResthopperParameter {
 
 	public name: string = "NullFlags";
 	public nickName: string = "N";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,6 +75,7 @@ class NullItemOutput_invalidflags_x extends ResthopperParameter {
 
 	public name: string = "InvalidFlags";
 	public nickName: string = "X";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class NullItemOutput_description_d extends ResthopperParameter {
 
 	public name: string = "Description";
 	public nickName: string = "D";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

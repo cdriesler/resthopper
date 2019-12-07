@@ -43,6 +43,7 @@ class ModifiedArcInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Domain"
 
@@ -57,6 +58,7 @@ class ModifiedArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class ModifiedArcOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
+	public description: string = "Empty Arc parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 

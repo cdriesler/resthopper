@@ -47,6 +47,7 @@ class StretchInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -61,6 +62,7 @@ class StretchInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -75,6 +77,7 @@ class StretchInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class StretchInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class StretchOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

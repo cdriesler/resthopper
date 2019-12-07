@@ -47,6 +47,7 @@ class SegmentLengthsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -61,6 +62,7 @@ class SegmentLengthsOutput_shortestlength_sl extends ResthopperParameter {
 
 	public name: string = "ShortestLength";
 	public nickName: string = "Sl";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class SegmentLengthsOutput_shortestdomain_sd extends ResthopperParameter {
 
 	public name: string = "ShortestDomain";
 	public nickName: string = "Sd";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -89,6 +92,7 @@ class SegmentLengthsOutput_longestlength_ll extends ResthopperParameter {
 
 	public name: string = "LongestLength";
 	public nickName: string = "Ll";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class SegmentLengthsOutput_longestdomain_ld extends ResthopperParameter {
 
 	public name: string = "LongestDomain";
 	public nickName: string = "Ld";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

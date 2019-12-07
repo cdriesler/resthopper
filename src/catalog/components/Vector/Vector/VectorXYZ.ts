@@ -47,6 +47,7 @@ class VectorXYZInput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -61,6 +62,7 @@ class VectorXYZInput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class VectorXYZInput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class VectorXYZOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -103,6 +107,7 @@ class VectorXYZOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

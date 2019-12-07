@@ -45,6 +45,7 @@ class SeriesInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -59,6 +60,7 @@ class SeriesInput_step_n extends ResthopperParameter {
 
 	public name: string = "Step";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,6 +75,7 @@ class SeriesInput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class SeriesOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

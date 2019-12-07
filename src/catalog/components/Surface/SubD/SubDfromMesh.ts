@@ -47,6 +47,7 @@ class SubDfromMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -61,6 +62,7 @@ class SubDfromMeshInput_creases_cr extends ResthopperParameter {
 
 	public name: string = "Creases";
 	public nickName: string = "Cr";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class SubDfromMeshInput_corners_co extends ResthopperParameter {
 
 	public name: string = "Corners";
 	public nickName: string = "Co";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class SubDfromMeshInput_interpolate_i extends ResthopperParameter {
 
 	public name: string = "Interpolate";
 	public nickName: string = "I";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class SubDfromMeshOutput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
+	public description: string = "Empty SubD parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "SubD"
 

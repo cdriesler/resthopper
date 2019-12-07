@@ -49,6 +49,7 @@ class KinkyCurveInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class KinkyCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,6 +79,7 @@ class KinkyCurveInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -91,6 +94,7 @@ class KinkyCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -105,6 +109,7 @@ class KinkyCurveOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class KinkyCurveOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

@@ -49,6 +49,7 @@ class NurbsCurvePWKInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class NurbsCurvePWKInput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class NurbsCurvePWKInput_knots_k extends ResthopperParameter {
 
 	public name: string = "Knots";
 	public nickName: string = "K";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -91,6 +94,7 @@ class NurbsCurvePWKOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -105,6 +109,7 @@ class NurbsCurvePWKOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class NurbsCurvePWKOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

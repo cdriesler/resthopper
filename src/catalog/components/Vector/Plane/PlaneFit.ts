@@ -43,6 +43,7 @@ class PlaneFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -57,6 +58,7 @@ class PlaneFitOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -71,6 +73,7 @@ class PlaneFitOutput_deviation_dx extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "dx";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

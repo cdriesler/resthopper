@@ -41,6 +41,7 @@ class NaturallogarithmInput_factor_n extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -55,6 +56,7 @@ class NaturallogarithmOutput_output_y extends ResthopperParameter {
 
 	public name: string = "Output";
 	public nickName: string = "y";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

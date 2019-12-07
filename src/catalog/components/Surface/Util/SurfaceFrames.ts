@@ -47,6 +47,7 @@ class SurfaceFramesInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -61,6 +62,7 @@ class SurfaceFramesInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class SurfaceFramesInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class SurfaceFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -103,6 +107,7 @@ class SurfaceFramesOutput_parameters_uv extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "uv";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

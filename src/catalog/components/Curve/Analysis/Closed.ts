@@ -43,6 +43,7 @@ class ClosedInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -57,6 +58,7 @@ class ClosedOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -71,6 +73,7 @@ class ClosedOutput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

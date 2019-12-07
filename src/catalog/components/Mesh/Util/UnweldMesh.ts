@@ -43,6 +43,7 @@ class UnweldMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -57,6 +58,7 @@ class UnweldMeshInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class UnweldMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

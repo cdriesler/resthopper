@@ -45,6 +45,7 @@ class DeconstructMatrixInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
+	public description: string = "Empty Matrix parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 
@@ -59,6 +60,7 @@ class DeconstructMatrixOutput_rows_r extends ResthopperParameter {
 
 	public name: string = "Rows";
 	public nickName: string = "R";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class DeconstructMatrixOutput_columns_c extends ResthopperParameter {
 
 	public name: string = "Columns";
 	public nickName: string = "C";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class DeconstructMatrixOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

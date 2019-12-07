@@ -41,6 +41,7 @@ class ListLengthInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -55,6 +56,7 @@ class ListLengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

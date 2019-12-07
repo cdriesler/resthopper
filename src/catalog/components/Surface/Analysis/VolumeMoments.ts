@@ -49,6 +49,7 @@ class VolumeMomentsInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -63,6 +64,7 @@ class VolumeMomentsOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class VolumeMomentsOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -91,6 +94,7 @@ class VolumeMomentsOutput_inertiaerror_i extends ResthopperParameter {
 
 	public name: string = "Inertiaerror";
 	public nickName: string = "I";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -105,6 +109,7 @@ class VolumeMomentsOutput_secondaryerror_s extends ResthopperParameter {
 
 	public name: string = "Secondaryerror";
 	public nickName: string = "S";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -119,6 +124,7 @@ class VolumeMomentsOutput_gyration_g extends ResthopperParameter {
 
 	public name: string = "Gyration";
 	public nickName: string = "G";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

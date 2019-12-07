@@ -47,6 +47,7 @@ class SortTextInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -61,6 +62,7 @@ class SortTextInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,6 +77,7 @@ class SortTextInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
+	public description: string = "Empty Culture parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Culture"
 
@@ -89,6 +92,7 @@ class SortTextOutput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -103,6 +107,7 @@ class SortTextOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -47,6 +47,7 @@ class BrepClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -61,6 +62,7 @@ class BrepClosestPointInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -75,6 +77,7 @@ class BrepClosestPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -89,6 +92,7 @@ class BrepClosestPointOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -103,6 +107,7 @@ class BrepClosestPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

@@ -53,6 +53,7 @@ class TaperInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -67,6 +68,7 @@ class TaperInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -81,6 +83,7 @@ class TaperInput_start_r0 extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "R0";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -95,6 +98,7 @@ class TaperInput_end_r1 extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "R1";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,6 +113,7 @@ class TaperInput_flat_f extends ResthopperParameter {
 
 	public name: string = "Flat";
 	public nickName: string = "F";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -123,6 +128,7 @@ class TaperInput_infinite_i extends ResthopperParameter {
 
 	public name: string = "Infinite";
 	public nickName: string = "I";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -137,6 +143,7 @@ class TaperInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -151,6 +158,7 @@ class TaperOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

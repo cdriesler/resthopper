@@ -43,6 +43,7 @@ class ConcatenateInput_fragmenta_a extends ResthopperParameter {
 
 	public name: string = "FragmentA";
 	public nickName: string = "A";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Text"
 
@@ -57,6 +58,7 @@ class ConcatenateInput_fragmentb_b extends ResthopperParameter {
 
 	public name: string = "FragmentB";
 	public nickName: string = "B";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Text"
 
@@ -71,6 +73,7 @@ class ConcatenateOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

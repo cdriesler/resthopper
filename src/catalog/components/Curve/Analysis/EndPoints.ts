@@ -43,6 +43,7 @@ class EndPointsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -57,6 +58,7 @@ class EndPointsOutput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -71,6 +73,7 @@ class EndPointsOutput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

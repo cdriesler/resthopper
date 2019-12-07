@@ -49,6 +49,7 @@ class MultipleCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -63,6 +64,7 @@ class MultipleCurvesOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class MultipleCurvesOutput_indexa_ia extends ResthopperParameter {
 
 	public name: string = "IndexA";
 	public nickName: string = "iA";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class MultipleCurvesOutput_indexb_ib extends ResthopperParameter {
 
 	public name: string = "IndexB";
 	public nickName: string = "iB";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -105,6 +109,7 @@ class MultipleCurvesOutput_parama_ta extends ResthopperParameter {
 
 	public name: string = "ParamA";
 	public nickName: string = "tA";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class MultipleCurvesOutput_paramb_tb extends ResthopperParameter {
 
 	public name: string = "ParamB";
 	public nickName: string = "tB";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

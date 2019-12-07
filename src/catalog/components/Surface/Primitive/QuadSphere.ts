@@ -43,6 +43,7 @@ class QuadSphereInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -57,6 +58,7 @@ class QuadSphereInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class QuadSphereOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

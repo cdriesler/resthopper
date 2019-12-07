@@ -45,6 +45,7 @@ class SubDBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -59,6 +60,7 @@ class SubDBoxInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class SubDBoxInput_creases_c extends ResthopperParameter {
 
 	public name: string = "Creases";
 	public nickName: string = "C";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class SubDBoxOutput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
+	public description: string = "Empty SubD parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "SubD"
 

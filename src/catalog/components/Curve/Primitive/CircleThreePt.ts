@@ -49,6 +49,7 @@ class CircleThreePtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class CircleThreePtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class CircleThreePtInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -91,6 +94,7 @@ class CircleThreePtOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
+	public description: string = "Empty Circle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 
@@ -105,6 +109,7 @@ class CircleThreePtOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -119,6 +124,7 @@ class CircleThreePtOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

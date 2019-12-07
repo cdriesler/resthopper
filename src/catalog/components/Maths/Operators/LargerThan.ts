@@ -43,6 +43,7 @@ class LargerThanInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -57,6 +58,7 @@ class LargerThanInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class LargerThanOutput_orequalto_ extends ResthopperParameter {
 
 	public name: string = "orEqualto";
 	public nickName: string = "";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -47,6 +47,7 @@ class CurveLineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -61,6 +62,7 @@ class CurveLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -75,6 +77,7 @@ class CurveLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -89,6 +92,7 @@ class CurveLineOutput_params_t extends ResthopperParameter {
 
 	public name: string = "Params";
 	public nickName: string = "t";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class CurveLineOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

@@ -45,6 +45,7 @@ class TextDistanceInput_texta_a extends ResthopperParameter {
 
 	public name: string = "TextA";
 	public nickName: string = "A";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -59,6 +60,7 @@ class TextDistanceInput_textb_b extends ResthopperParameter {
 
 	public name: string = "TextB";
 	public nickName: string = "B";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -73,6 +75,7 @@ class TextDistanceInput_case_c extends ResthopperParameter {
 
 	public name: string = "Case";
 	public nickName: string = "C";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class TextDistanceOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

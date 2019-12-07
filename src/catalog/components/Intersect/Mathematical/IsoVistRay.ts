@@ -49,6 +49,7 @@ class IsoVistRayInput_sample_s extends ResthopperParameter {
 
 	public name: string = "Sample";
 	public nickName: string = "S";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -63,6 +64,7 @@ class IsoVistRayInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class IsoVistRayInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -91,6 +94,7 @@ class IsoVistRayOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -105,6 +109,7 @@ class IsoVistRayOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class IsoVistRayOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

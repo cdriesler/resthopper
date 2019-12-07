@@ -49,6 +49,7 @@ class ArcSEDInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class ArcSEDInput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class ArcSEDInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -91,6 +94,7 @@ class ArcSEDOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -105,6 +109,7 @@ class ArcSEDOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -119,6 +124,7 @@ class ArcSEDOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

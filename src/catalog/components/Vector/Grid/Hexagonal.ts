@@ -49,6 +49,7 @@ class HexagonalInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -63,6 +64,7 @@ class HexagonalInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class HexagonalInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class HexagonalInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -105,6 +109,7 @@ class HexagonalOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -119,6 +124,7 @@ class HexagonalOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

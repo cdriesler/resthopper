@@ -53,6 +53,7 @@ class TriangleTrigonometryInput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -67,6 +68,7 @@ class TriangleTrigonometryInput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -81,6 +83,7 @@ class TriangleTrigonometryInput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -95,6 +98,7 @@ class TriangleTrigonometryInput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -109,6 +113,7 @@ class TriangleTrigonometryOutput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -123,6 +128,7 @@ class TriangleTrigonometryOutput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -137,6 +143,7 @@ class TriangleTrigonometryOutput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -151,6 +158,7 @@ class TriangleTrigonometryOutput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

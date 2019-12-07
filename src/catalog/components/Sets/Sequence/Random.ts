@@ -45,6 +45,7 @@ class RandomInput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -59,6 +60,7 @@ class RandomInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class RandomInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class RandomOutput_random_r extends ResthopperParameter {
 
 	public name: string = "Random";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -45,6 +45,7 @@ class SurfaceBoxInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -59,6 +60,7 @@ class SurfaceBoxInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
+	public description: string = "Empty Domain² parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -73,6 +75,7 @@ class SurfaceBoxInput_height_h extends ResthopperParameter {
 
 	public name: string = "Height";
 	public nickName: string = "H";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class SurfaceBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";
+	public description: string = "Empty Twisted Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Twisted Box"
 

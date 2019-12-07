@@ -47,6 +47,7 @@ class DeconstructBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -61,6 +62,7 @@ class DeconstructBoxOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class DeconstructBoxOutput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -89,6 +92,7 @@ class DeconstructBoxOutput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -103,6 +107,7 @@ class DeconstructBoxOutput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

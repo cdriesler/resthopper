@@ -47,6 +47,7 @@ class InsertItemsInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -61,6 +62,7 @@ class InsertItemsInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,6 +77,7 @@ class InsertItemsInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class InsertItemsInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class InsertItemsOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

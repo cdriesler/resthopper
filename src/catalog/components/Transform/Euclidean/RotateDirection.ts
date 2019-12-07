@@ -49,6 +49,7 @@ class RotateDirectionInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -63,6 +64,7 @@ class RotateDirectionInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class RotateDirectionInput_from_f extends ResthopperParameter {
 
 	public name: string = "From";
 	public nickName: string = "F";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -91,6 +94,7 @@ class RotateDirectionInput_to_t extends ResthopperParameter {
 
 	public name: string = "To";
 	public nickName: string = "T";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -105,6 +109,7 @@ class RotateDirectionOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -119,6 +124,7 @@ class RotateDirectionOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
+	public description: string = "Empty Transform parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

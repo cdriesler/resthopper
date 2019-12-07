@@ -43,6 +43,7 @@ class TreeBranchInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -57,6 +58,7 @@ class TreeBranchInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
+	public description: string = "Empty Path parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 
@@ -71,6 +73,7 @@ class TreeBranchOutput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

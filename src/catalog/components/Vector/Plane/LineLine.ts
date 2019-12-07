@@ -43,6 +43,7 @@ class LineLineInput_linea_a extends ResthopperParameter {
 
 	public name: string = "LineA";
 	public nickName: string = "A";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -57,6 +58,7 @@ class LineLineInput_lineb_b extends ResthopperParameter {
 
 	public name: string = "LineB";
 	public nickName: string = "B";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -71,6 +73,7 @@ class LineLineOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

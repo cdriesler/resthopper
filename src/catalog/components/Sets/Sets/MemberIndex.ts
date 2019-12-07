@@ -45,6 +45,7 @@ class MemberIndexInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class MemberIndexInput_member_m extends ResthopperParameter {
 
 	public name: string = "Member";
 	public nickName: string = "M";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,6 +75,7 @@ class MemberIndexOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class MemberIndexOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

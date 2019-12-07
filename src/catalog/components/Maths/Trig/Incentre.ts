@@ -51,6 +51,7 @@ class IncentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class IncentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class IncentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -93,6 +96,7 @@ class IncentreOutput_incentre_i extends ResthopperParameter {
 
 	public name: string = "Incentre";
 	public nickName: string = "I";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class IncentreOutput_bisectora_a extends ResthopperParameter {
 
 	public name: string = "BisectorA";
 	public nickName: string = "A";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -121,6 +126,7 @@ class IncentreOutput_bisectorb_b extends ResthopperParameter {
 
 	public name: string = "BisectorB";
 	public nickName: string = "B";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -135,6 +141,7 @@ class IncentreOutput_bisectorc_c extends ResthopperParameter {
 
 	public name: string = "BisectorC";
 	public nickName: string = "C";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

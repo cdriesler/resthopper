@@ -41,6 +41,7 @@ class MergeFieldsInput_fields_f extends ResthopperParameter {
 
 	public name: string = "Fields";
 	public nickName: string = "F";
+	public description: string = "Empty Field parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -55,6 +56,7 @@ class MergeFieldsOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
+	public description: string = "Empty Field parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 

@@ -47,6 +47,7 @@ class MetaBalltInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -61,6 +62,7 @@ class MetaBalltInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class MetaBalltInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class MetaBalltInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class MetaBalltOutput_isocurve_i extends ResthopperParameter {
 
 	public name: string = "Isocurve";
 	public nickName: string = "I";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

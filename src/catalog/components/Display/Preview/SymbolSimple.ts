@@ -47,6 +47,7 @@ class SymbolSimpleInput_style_x extends ResthopperParameter {
 
 	public name: string = "Style";
 	public nickName: string = "X";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -61,6 +62,7 @@ class SymbolSimpleInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class SymbolSimpleInput_rotation_r extends ResthopperParameter {
 
 	public name: string = "Rotation";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class SymbolSimpleInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -103,6 +107,7 @@ class SymbolSimpleOutput_symboldisplay_d extends ResthopperParameter {
 
 	public name: string = "SymbolDisplay";
 	public nickName: string = "D";
+	public description: string = "Empty Symbol Display parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Symbol Display"
 

@@ -53,6 +53,7 @@ class SurfaceCurveInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -67,6 +68,7 @@ class SurfaceCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -81,6 +83,7 @@ class SurfaceCurveOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -95,6 +98,7 @@ class SurfaceCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,6 +113,7 @@ class SurfaceCurveOutput_uvpoints_uv extends ResthopperParameter {
 
 	public name: string = "UVPoints";
 	public nickName: string = "uv";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -123,6 +128,7 @@ class SurfaceCurveOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -137,6 +143,7 @@ class SurfaceCurveOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -151,6 +158,7 @@ class SurfaceCurveOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

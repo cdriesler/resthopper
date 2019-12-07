@@ -43,6 +43,7 @@ class VectorDisplayInput_anchor_a extends ResthopperParameter {
 
 	public name: string = "Anchor";
 	public nickName: string = "A";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -57,6 +58,7 @@ class VectorDisplayInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Vector"
 

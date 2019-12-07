@@ -43,6 +43,7 @@ class ItemIndexInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -57,6 +58,7 @@ class ItemIndexInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "i";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -71,6 +73,7 @@ class ItemIndexOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

@@ -49,6 +49,7 @@ class FilletEdgeInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -63,6 +64,7 @@ class FilletEdgeInput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,6 +79,7 @@ class FilletEdgeInput_metric_m extends ResthopperParameter {
 
 	public name: string = "Metric";
 	public nickName: string = "M";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class FilletEdgeInput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Integer"
 
@@ -105,6 +109,7 @@ class FilletEdgeInput_radii_r extends ResthopperParameter {
 
 	public name: string = "Radii";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class FilletEdgeOutput_result_b extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

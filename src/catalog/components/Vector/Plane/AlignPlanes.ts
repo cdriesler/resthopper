@@ -43,6 +43,7 @@ class AlignPlanesInput_planes_p extends ResthopperParameter {
 
 	public name: string = "Planes";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -57,6 +58,7 @@ class AlignPlanesInput_master_m extends ResthopperParameter {
 
 	public name: string = "Master";
 	public nickName: string = "M";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -71,6 +73,7 @@ class AlignPlanesOutput_planes_p extends ResthopperParameter {
 
 	public name: string = "Planes";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

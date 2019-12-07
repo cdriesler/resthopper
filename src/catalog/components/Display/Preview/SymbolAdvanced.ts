@@ -55,6 +55,7 @@ class SymbolAdvancedInput_style_x extends ResthopperParameter {
 
 	public name: string = "Style";
 	public nickName: string = "X";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -69,6 +70,7 @@ class SymbolAdvancedInput_sizeprimary_s1 extends ResthopperParameter {
 
 	public name: string = "SizePrimary";
 	public nickName: string = "S1";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -83,6 +85,7 @@ class SymbolAdvancedInput_sizesecondary_s2 extends ResthopperParameter {
 
 	public name: string = "SizeSecondary";
 	public nickName: string = "S2";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -97,6 +100,7 @@ class SymbolAdvancedInput_rotation_r extends ResthopperParameter {
 
 	public name: string = "Rotation";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,6 +115,7 @@ class SymbolAdvancedInput_fill_cf extends ResthopperParameter {
 
 	public name: string = "Fill";
 	public nickName: string = "Cf";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -125,6 +130,7 @@ class SymbolAdvancedInput_edge_ce extends ResthopperParameter {
 
 	public name: string = "Edge";
 	public nickName: string = "Ce";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -139,6 +145,7 @@ class SymbolAdvancedInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -153,6 +160,7 @@ class SymbolAdvancedInput_adjust_a extends ResthopperParameter {
 
 	public name: string = "Adjust";
 	public nickName: string = "A";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -167,6 +175,7 @@ class SymbolAdvancedOutput_symboldisplay_d extends ResthopperParameter {
 
 	public name: string = "SymbolDisplay";
 	public nickName: string = "D";
+	public description: string = "Empty Symbol Display parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Symbol Display"
 

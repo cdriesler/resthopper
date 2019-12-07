@@ -47,6 +47,7 @@ class ArcDimensionInput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
+	public description: string = "Empty Arc parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -61,6 +62,7 @@ class ArcDimensionInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class ArcDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -89,6 +92,7 @@ class ArcDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

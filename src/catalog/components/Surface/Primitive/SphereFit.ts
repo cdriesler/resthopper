@@ -45,6 +45,7 @@ class SphereFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class SphereFitOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,6 +75,7 @@ class SphereFitOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class SphereFitOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

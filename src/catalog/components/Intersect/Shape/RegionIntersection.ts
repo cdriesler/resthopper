@@ -45,6 +45,7 @@ class RegionIntersectionInput_curvesa_a extends ResthopperParameter {
 
 	public name: string = "CurvesA";
 	public nickName: string = "A";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -59,6 +60,7 @@ class RegionIntersectionInput_curvesb_b extends ResthopperParameter {
 
 	public name: string = "CurvesB";
 	public nickName: string = "B";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,6 +75,7 @@ class RegionIntersectionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -87,6 +90,7 @@ class RegionIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -43,6 +43,7 @@ class BoundingBoxInput_content_c extends ResthopperParameter {
 
 	public name: string = "Content";
 	public nickName: string = "C";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -57,6 +58,7 @@ class BoundingBoxInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -71,6 +73,7 @@ class BoundingBoxOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 

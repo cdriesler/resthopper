@@ -47,6 +47,7 @@ class ToPolarInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -61,6 +62,7 @@ class ToPolarInput_system_s extends ResthopperParameter {
 
 	public name: string = "System";
 	public nickName: string = "S";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class ToPolarOutput_phi_p extends ResthopperParameter {
 
 	public name: string = "Phi";
 	public nickName: string = "P";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class ToPolarOutput_theta_t extends ResthopperParameter {
 
 	public name: string = "Theta";
 	public nickName: string = "T";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class ToPolarOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

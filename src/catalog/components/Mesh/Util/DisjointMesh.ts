@@ -41,6 +41,7 @@ class DisjointMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -55,6 +56,7 @@ class DisjointMeshOutput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

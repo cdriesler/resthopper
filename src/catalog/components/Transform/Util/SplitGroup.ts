@@ -47,6 +47,7 @@ class SplitGroupInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
+	public description: string = "Empty Group parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 
@@ -61,6 +62,7 @@ class SplitGroupInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class SplitGroupInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -89,6 +92,7 @@ class SplitGroupOutput_groupa_a extends ResthopperParameter {
 
 	public name: string = "GroupA";
 	public nickName: string = "A";
+	public description: string = "Empty Group parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 
@@ -103,6 +107,7 @@ class SplitGroupOutput_groupb_b extends ResthopperParameter {
 
 	public name: string = "GroupB";
 	public nickName: string = "B";
+	public description: string = "Empty Group parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 

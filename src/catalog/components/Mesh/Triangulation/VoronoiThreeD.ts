@@ -45,6 +45,7 @@ class VoronoiThreeDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class VoronoiThreeDInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Box"
 
@@ -73,6 +75,7 @@ class VoronoiThreeDOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -87,6 +90,7 @@ class VoronoiThreeDOutput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

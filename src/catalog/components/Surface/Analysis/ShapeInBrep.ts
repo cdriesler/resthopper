@@ -43,6 +43,7 @@ class ShapeInBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -57,6 +58,7 @@ class ShapeInBrepInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -71,6 +73,7 @@ class ShapeInBrepOutput_relation_r extends ResthopperParameter {
 
 	public name: string = "Relation";
 	public nickName: string = "R";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

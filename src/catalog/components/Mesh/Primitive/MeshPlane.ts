@@ -47,6 +47,7 @@ class MeshPlaneInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
+	public description: string = "Empty Rectangle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -61,6 +62,7 @@ class MeshPlaneInput_widthcount_w extends ResthopperParameter {
 
 	public name: string = "Widthcount";
 	public nickName: string = "W";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class MeshPlaneInput_heightcount_h extends ResthopperParameter {
 
 	public name: string = "Heightcount";
 	public nickName: string = "H";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class MeshPlaneOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -103,6 +107,7 @@ class MeshPlaneOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

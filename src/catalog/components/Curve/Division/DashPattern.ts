@@ -45,6 +45,7 @@ class DashPatternInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -59,6 +60,7 @@ class DashPatternInput_pattern_pt extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "Pt";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,6 +75,7 @@ class DashPatternOutput_dashes_d extends ResthopperParameter {
 
 	public name: string = "Dashes";
 	public nickName: string = "D";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -87,6 +90,7 @@ class DashPatternOutput_gaps_g extends ResthopperParameter {
 
 	public name: string = "Gaps";
 	public nickName: string = "G";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -45,6 +45,7 @@ class CircleCNRInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class CircleCNRInput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -73,6 +75,7 @@ class CircleCNRInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class CircleCNROutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
+	public description: string = "Empty Circle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 

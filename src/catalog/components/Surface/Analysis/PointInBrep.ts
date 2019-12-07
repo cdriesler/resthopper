@@ -45,6 +45,7 @@ class PointInBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -59,6 +60,7 @@ class PointInBrepInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,6 +75,7 @@ class PointInBrepInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class PointInBrepOutput_inside_i extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "I";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

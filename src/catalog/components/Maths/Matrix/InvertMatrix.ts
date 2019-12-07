@@ -45,6 +45,7 @@ class InvertMatrixInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
+	public description: string = "Empty Matrix parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 
@@ -59,6 +60,7 @@ class InvertMatrixInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,6 +75,7 @@ class InvertMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
+	public description: string = "Empty Matrix parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 
@@ -87,6 +90,7 @@ class InvertMatrixOutput_success_s extends ResthopperParameter {
 
 	public name: string = "Success";
 	public nickName: string = "S";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

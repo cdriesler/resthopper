@@ -45,6 +45,7 @@ class TextFragmentInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -59,6 +60,7 @@ class TextFragmentInput_start_i extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class TextFragmentInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class TextFragmentOutput_fragment_f extends ResthopperParameter {
 
 	public name: string = "Fragment";
 	public nickName: string = "F";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

@@ -43,6 +43,7 @@ class PointInTrimInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -57,6 +58,7 @@ class PointInTrimInput_uvpoint_p extends ResthopperParameter {
 
 	public name: string = "UVPoint";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -71,6 +73,7 @@ class PointInTrimOutput_inclusion_i extends ResthopperParameter {
 
 	public name: string = "Inclusion";
 	public nickName: string = "I";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -49,6 +49,7 @@ class SmoothMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -63,6 +64,7 @@ class SmoothMeshInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class SmoothMeshInput_skipnaked_n extends ResthopperParameter {
 
 	public name: string = "SkipNaked";
 	public nickName: string = "N";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -91,6 +94,7 @@ class SmoothMeshInput_iterations_i extends ResthopperParameter {
 
 	public name: string = "Iterations";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -105,6 +109,7 @@ class SmoothMeshInput_limit_l extends ResthopperParameter {
 
 	public name: string = "Limit";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class SmoothMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

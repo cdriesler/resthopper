@@ -47,6 +47,7 @@ class FlipPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -61,6 +62,7 @@ class FlipPlaneInput_reversex_x extends ResthopperParameter {
 
 	public name: string = "ReverseX";
 	public nickName: string = "X";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,6 +77,7 @@ class FlipPlaneInput_reversey_y extends ResthopperParameter {
 
 	public name: string = "ReverseY";
 	public nickName: string = "Y";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -89,6 +92,7 @@ class FlipPlaneInput_swapaxes_s extends ResthopperParameter {
 
 	public name: string = "Swapaxes";
 	public nickName: string = "S";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class FlipPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

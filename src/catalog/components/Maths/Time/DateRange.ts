@@ -45,6 +45,7 @@ class DateRangeInput_timea_a extends ResthopperParameter {
 
 	public name: string = "TimeA";
 	public nickName: string = "A";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -59,6 +60,7 @@ class DateRangeInput_timeb_b extends ResthopperParameter {
 
 	public name: string = "TimeB";
 	public nickName: string = "B";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -73,6 +75,7 @@ class DateRangeInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class DateRangeOutput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

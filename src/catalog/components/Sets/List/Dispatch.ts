@@ -45,6 +45,7 @@ class DispatchInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class DispatchInput_dispatchpattern_p extends ResthopperParameter {
 
 	public name: string = "Dispatchpattern";
 	public nickName: string = "P";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,6 +75,7 @@ class DispatchOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class DispatchOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -49,6 +49,7 @@ class CurveToPolylineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -63,6 +64,7 @@ class CurveToPolylineInput_tolerancedistance_td extends ResthopperParameter {
 
 	public name: string = "Tolerancedistance";
 	public nickName: string = "Td";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class CurveToPolylineInput_toleranceangle_ta extends ResthopperParameter {
 
 	public name: string = "Toleranceangle";
 	public nickName: string = "Ta";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -91,6 +94,7 @@ class CurveToPolylineInput_maxedge_e extends ResthopperParameter {
 
 	public name: string = "MaxEdge";
 	public nickName: string = "E";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -105,6 +109,7 @@ class CurveToPolylineOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -119,6 +124,7 @@ class CurveToPolylineOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

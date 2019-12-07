@@ -45,6 +45,7 @@ class DirectionDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
+	public description: string = "Empty Field parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -59,6 +60,7 @@ class DirectionDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
+	public description: string = "Empty Rectangle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -73,6 +75,7 @@ class DirectionDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class DirectionDisplayOutput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

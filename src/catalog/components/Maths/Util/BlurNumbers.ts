@@ -49,6 +49,7 @@ class BlurNumbersInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -63,6 +64,7 @@ class BlurNumbersInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,6 +79,7 @@ class BlurNumbersInput_iterations_i extends ResthopperParameter {
 
 	public name: string = "Iterations";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class BlurNumbersInput_lock_l extends ResthopperParameter {
 
 	public name: string = "Lock";
 	public nickName: string = "L";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -105,6 +109,7 @@ class BlurNumbersInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -119,6 +124,7 @@ class BlurNumbersOutput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

@@ -45,6 +45,7 @@ class CircleFitInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class CircleFitOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
+	public description: string = "Empty Circle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 
@@ -73,6 +75,7 @@ class CircleFitOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class CircleFitOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

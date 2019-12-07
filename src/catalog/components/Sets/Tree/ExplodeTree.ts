@@ -41,6 +41,7 @@ class ExplodeTreeInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -55,6 +56,7 @@ class ExplodeTreeOutput_branch1_ extends ResthopperParameter {
 
 	public name: string = "Branch1";
 	public nickName: string = "";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

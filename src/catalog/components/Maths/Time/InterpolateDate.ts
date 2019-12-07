@@ -45,6 +45,7 @@ class InterpolateDateInput_datea_a extends ResthopperParameter {
 
 	public name: string = "DateA";
 	public nickName: string = "A";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -59,6 +60,7 @@ class InterpolateDateInput_dateb_b extends ResthopperParameter {
 
 	public name: string = "DateB";
 	public nickName: string = "B";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -73,6 +75,7 @@ class InterpolateDateInput_interpolation_t extends ResthopperParameter {
 
 	public name: string = "Interpolation";
 	public nickName: string = "t";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class InterpolateDateOutput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

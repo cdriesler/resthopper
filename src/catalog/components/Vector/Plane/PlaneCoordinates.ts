@@ -47,6 +47,7 @@ class PlaneCoordinatesInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -61,6 +62,7 @@ class PlaneCoordinatesInput_system_s extends ResthopperParameter {
 
 	public name: string = "System";
 	public nickName: string = "S";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class PlaneCoordinatesOutput_xcoordinate_x extends ResthopperParameter {
 
 	public name: string = "Xcoordinate";
 	public nickName: string = "X";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class PlaneCoordinatesOutput_ycoordinate_y extends ResthopperParameter {
 
 	public name: string = "Ycoordinate";
 	public nickName: string = "Y";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class PlaneCoordinatesOutput_zcoordinate_z extends ResthopperParameter {
 
 	public name: string = "Zcoordinate";
 	public nickName: string = "Z";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

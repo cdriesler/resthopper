@@ -51,6 +51,7 @@ class CircumcentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class CircumcentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class CircumcentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -93,6 +96,7 @@ class CircumcentreOutput_circumcentre_c extends ResthopperParameter {
 
 	public name: string = "Circumcentre";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class CircumcentreOutput_bisectorab_ab extends ResthopperParameter {
 
 	public name: string = "BisectorAB";
 	public nickName: string = "AB";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -121,6 +126,7 @@ class CircumcentreOutput_bisectorbc_bc extends ResthopperParameter {
 
 	public name: string = "BisectorBC";
 	public nickName: string = "BC";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -135,6 +141,7 @@ class CircumcentreOutput_bisectorca_ca extends ResthopperParameter {
 
 	public name: string = "BisectorCA";
 	public nickName: string = "CA";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

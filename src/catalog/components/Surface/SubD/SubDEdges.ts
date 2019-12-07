@@ -47,6 +47,7 @@ class SubDEdgesInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
+	public description: string = "Empty SubD parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "SubD"
 
@@ -61,6 +62,7 @@ class SubDEdgesOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -75,6 +77,7 @@ class SubDEdgesOutput_edge_e extends ResthopperParameter {
 
 	public name: string = "Edge";
 	public nickName: string = "E";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -89,6 +92,7 @@ class SubDEdgesOutput_tag_t extends ResthopperParameter {
 
 	public name: string = "Tag";
 	public nickName: string = "T";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -103,6 +107,7 @@ class SubDEdgesOutput_id_i extends ResthopperParameter {
 
 	public name: string = "Id";
 	public nickName: string = "I";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

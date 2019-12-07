@@ -43,6 +43,7 @@ class ConsecutiveDomainsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -57,6 +58,7 @@ class ConsecutiveDomainsInput_additive_a extends ResthopperParameter {
 
 	public name: string = "Additive";
 	public nickName: string = "A";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -71,6 +73,7 @@ class ConsecutiveDomainsOutput_domains_d extends ResthopperParameter {
 
 	public name: string = "Domains";
 	public nickName: string = "D";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

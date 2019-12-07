@@ -45,6 +45,7 @@ class CollisionOneManyInput_collider_c extends ResthopperParameter {
 
 	public name: string = "Collider";
 	public nickName: string = "C";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -59,6 +60,7 @@ class CollisionOneManyInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -73,6 +75,7 @@ class CollisionOneManyOutput_collision_c extends ResthopperParameter {
 
 	public name: string = "Collision";
 	public nickName: string = "C";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class CollisionOneManyOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

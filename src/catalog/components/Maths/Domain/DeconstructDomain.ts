@@ -43,6 +43,7 @@ class DeconstructDomainInput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
+	public description: string = "Empty Domain² parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -57,6 +58,7 @@ class DeconstructDomainOutput_ucomponent_u extends ResthopperParameter {
 
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -71,6 +73,7 @@ class DeconstructDomainOutput_vcomponent_v extends ResthopperParameter {
 
 	public name: string = "Vcomponent";
 	public nickName: string = "V";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

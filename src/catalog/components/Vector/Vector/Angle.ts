@@ -47,6 +47,7 @@ class AngleInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -61,6 +62,7 @@ class AngleInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -75,6 +77,7 @@ class AngleInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -89,6 +92,7 @@ class AngleOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class AngleOutput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

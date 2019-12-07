@@ -49,6 +49,7 @@ class FieldLineInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
+	public description: string = "Empty Field parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -63,6 +64,7 @@ class FieldLineInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class FieldLineInput_steps_n extends ResthopperParameter {
 
 	public name: string = "Steps";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class FieldLineInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -105,6 +109,7 @@ class FieldLineInput_method_m extends ResthopperParameter {
 
 	public name: string = "Method";
 	public nickName: string = "M";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -119,6 +124,7 @@ class FieldLineOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

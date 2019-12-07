@@ -45,6 +45,7 @@ class DeconstuctRectangleInput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
+	public description: string = "Empty Rectangle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -59,6 +60,7 @@ class DeconstuctRectangleOutput_baseplane_b extends ResthopperParameter {
 
 	public name: string = "BasePlane";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -73,6 +75,7 @@ class DeconstuctRectangleOutput_xinterval_x extends ResthopperParameter {
 
 	public name: string = "XInterval";
 	public nickName: string = "X";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -87,6 +90,7 @@ class DeconstuctRectangleOutput_yinterval_y extends ResthopperParameter {
 
 	public name: string = "YInterval";
 	public nickName: string = "Y";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

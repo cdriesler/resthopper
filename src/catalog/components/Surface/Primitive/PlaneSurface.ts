@@ -45,6 +45,7 @@ class PlaneSurfaceInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -59,6 +60,7 @@ class PlaneSurfaceInput_xsize_x extends ResthopperParameter {
 
 	public name: string = "XSize";
 	public nickName: string = "X";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -73,6 +75,7 @@ class PlaneSurfaceInput_ysize_y extends ResthopperParameter {
 
 	public name: string = "YSize";
 	public nickName: string = "Y";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -87,6 +90,7 @@ class PlaneSurfaceOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

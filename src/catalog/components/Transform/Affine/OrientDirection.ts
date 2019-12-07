@@ -51,6 +51,7 @@ class OrientDirectionInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -65,6 +66,7 @@ class OrientDirectionInput_pointa_pa extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "pA";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class OrientDirectionInput_directiona_da extends ResthopperParameter {
 
 	public name: string = "DirectionA";
 	public nickName: string = "dA";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -93,6 +96,7 @@ class OrientDirectionInput_pointb_pb extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "pB";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class OrientDirectionInput_directionb_db extends ResthopperParameter {
 
 	public name: string = "DirectionB";
 	public nickName: string = "dB";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -121,6 +126,7 @@ class OrientDirectionOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -135,6 +141,7 @@ class OrientDirectionOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
+	public description: string = "Empty Transform parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

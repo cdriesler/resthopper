@@ -43,6 +43,7 @@ class ModulusInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -57,6 +58,7 @@ class ModulusInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -71,6 +73,7 @@ class ModulusOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

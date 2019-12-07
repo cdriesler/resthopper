@@ -45,6 +45,7 @@ class CleanTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class CleanTreeInput_cleaninvalid_x extends ResthopperParameter {
 
 	public name: string = "CleanInvalid";
 	public nickName: string = "X";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,6 +75,7 @@ class CleanTreeInput_cleanempty_e extends ResthopperParameter {
 
 	public name: string = "CleanEmpty";
 	public nickName: string = "E";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class CleanTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

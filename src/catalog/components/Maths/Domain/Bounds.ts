@@ -41,6 +41,7 @@ class BoundsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -55,6 +56,7 @@ class BoundsOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

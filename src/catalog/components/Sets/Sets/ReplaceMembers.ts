@@ -45,6 +45,7 @@ class ReplaceMembersInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class ReplaceMembersInput_find_f extends ResthopperParameter {
 
 	public name: string = "Find";
 	public nickName: string = "F";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,6 +75,7 @@ class ReplaceMembersInput_replace_r extends ResthopperParameter {
 
 	public name: string = "Replace";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class ReplaceMembersOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

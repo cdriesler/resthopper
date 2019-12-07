@@ -47,6 +47,7 @@ class RebuildCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -61,6 +62,7 @@ class RebuildCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class RebuildCurveInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class RebuildCurveInput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class RebuildCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

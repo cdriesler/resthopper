@@ -51,6 +51,7 @@ class ConstructDateInput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -65,6 +66,7 @@ class ConstructDateInput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -79,6 +81,7 @@ class ConstructDateInput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -93,6 +96,7 @@ class ConstructDateInput_hour_h extends ResthopperParameter {
 
 	public name: string = "Hour";
 	public nickName: string = "h";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,6 +111,7 @@ class ConstructDateInput_minute_m extends ResthopperParameter {
 
 	public name: string = "Minute";
 	public nickName: string = "m";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -121,6 +126,7 @@ class ConstructDateInput_second_s extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "s";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -135,6 +141,7 @@ class ConstructDateOutput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

@@ -47,6 +47,7 @@ class SeriesAdditionInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -61,6 +62,7 @@ class SeriesAdditionInput_goal_g extends ResthopperParameter {
 
 	public name: string = "Goal";
 	public nickName: string = "G";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,6 +77,7 @@ class SeriesAdditionInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -89,6 +92,7 @@ class SeriesAdditionOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -103,6 +107,7 @@ class SeriesAdditionOutput_remainder_r extends ResthopperParameter {
 
 	public name: string = "Remainder";
 	public nickName: string = "R";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

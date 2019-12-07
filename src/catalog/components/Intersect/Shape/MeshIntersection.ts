@@ -43,6 +43,7 @@ class MeshIntersectionInput_meshesa_a extends ResthopperParameter {
 
 	public name: string = "MeshesA";
 	public nickName: string = "A";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -57,6 +58,7 @@ class MeshIntersectionInput_meshesb_b extends ResthopperParameter {
 
 	public name: string = "MeshesB";
 	public nickName: string = "B";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -71,6 +73,7 @@ class MeshIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

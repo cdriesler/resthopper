@@ -51,6 +51,7 @@ class SurfaceMorphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -65,6 +66,7 @@ class SurfaceMorphInput_reference_r extends ResthopperParameter {
 
 	public name: string = "Reference";
 	public nickName: string = "R";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -79,6 +81,7 @@ class SurfaceMorphInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -93,6 +96,7 @@ class SurfaceMorphInput_udomain_u extends ResthopperParameter {
 
 	public name: string = "UDomain";
 	public nickName: string = "U";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -107,6 +111,7 @@ class SurfaceMorphInput_vdomain_v extends ResthopperParameter {
 
 	public name: string = "VDomain";
 	public nickName: string = "V";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -121,6 +126,7 @@ class SurfaceMorphInput_wdomain_w extends ResthopperParameter {
 
 	public name: string = "WDomain";
 	public nickName: string = "W";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -135,6 +141,7 @@ class SurfaceMorphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

@@ -51,6 +51,7 @@ class SolarIncidenceInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
+	public description: string = "Empty Location parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Location"
 
@@ -65,6 +66,7 @@ class SolarIncidenceInput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
+	public description: string = "Empty Time parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -79,6 +81,7 @@ class SolarIncidenceInput_orientation_p extends ResthopperParameter {
 
 	public name: string = "Orientation";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -93,6 +96,7 @@ class SolarIncidenceOutput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -107,6 +111,7 @@ class SolarIncidenceOutput_elevation_e extends ResthopperParameter {
 
 	public name: string = "Elevation";
 	public nickName: string = "E";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -121,6 +126,7 @@ class SolarIncidenceOutput_horizon_h extends ResthopperParameter {
 
 	public name: string = "Horizon";
 	public nickName: string = "H";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -135,6 +141,7 @@ class SolarIncidenceOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

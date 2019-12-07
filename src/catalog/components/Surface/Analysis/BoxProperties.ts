@@ -49,6 +49,7 @@ class BoxPropertiesInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -63,6 +64,7 @@ class BoxPropertiesOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class BoxPropertiesOutput_diagonal_d extends ResthopperParameter {
 
 	public name: string = "Diagonal";
 	public nickName: string = "D";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -91,6 +94,7 @@ class BoxPropertiesOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -105,6 +109,7 @@ class BoxPropertiesOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -119,6 +124,7 @@ class BoxPropertiesOutput_degeneracy_d extends ResthopperParameter {
 
 	public name: string = "Degeneracy";
 	public nickName: string = "d";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

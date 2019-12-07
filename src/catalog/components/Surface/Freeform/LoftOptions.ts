@@ -49,6 +49,7 @@ class LoftOptionsInput_closed_cls extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "Cls";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -63,6 +64,7 @@ class LoftOptionsInput_adjust_adj extends ResthopperParameter {
 
 	public name: string = "Adjust";
 	public nickName: string = "Adj";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -77,6 +79,7 @@ class LoftOptionsInput_rebuild_rbd extends ResthopperParameter {
 
 	public name: string = "Rebuild";
 	public nickName: string = "Rbd";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class LoftOptionsInput_refit_rft extends ResthopperParameter {
 
 	public name: string = "Refit";
 	public nickName: string = "Rft";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -105,6 +109,7 @@ class LoftOptionsInput_type_t extends ResthopperParameter {
 
 	public name: string = "Type";
 	public nickName: string = "T";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -119,6 +124,7 @@ class LoftOptionsOutput_options_o extends ResthopperParameter {
 
 	public name: string = "Options";
 	public nickName: string = "O";
+	public description: string = "Empty Loft Options parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Loft Options"
 

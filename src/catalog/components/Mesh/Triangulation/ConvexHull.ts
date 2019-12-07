@@ -47,6 +47,7 @@ class ConvexHullInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -61,6 +62,7 @@ class ConvexHullInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class ConvexHullOutput_hull_h extends ResthopperParameter {
 
 	public name: string = "Hull";
 	public nickName: string = "H";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -89,6 +92,7 @@ class ConvexHullOutput_hullz_hz extends ResthopperParameter {
 
 	public name: string = "Hullz";
 	public nickName: string = "Hz";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -103,6 +107,7 @@ class ConvexHullOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

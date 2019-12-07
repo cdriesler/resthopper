@@ -41,6 +41,7 @@ class ComplexConjugateInput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";
+	public description: string = "Empty Complex parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Complex"
 
@@ -55,6 +56,7 @@ class ComplexConjugateOutput_conjugate_c extends ResthopperParameter {
 
 	public name: string = "Conjugate";
 	public nickName: string = "C";
+	public description: string = "Empty Complex parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Complex"
 

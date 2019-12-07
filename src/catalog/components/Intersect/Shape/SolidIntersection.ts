@@ -43,6 +43,7 @@ class SolidIntersectionInput_brepsa_a extends ResthopperParameter {
 
 	public name: string = "BrepsA";
 	public nickName: string = "A";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -57,6 +58,7 @@ class SolidIntersectionInput_brepsb_b extends ResthopperParameter {
 
 	public name: string = "BrepsB";
 	public nickName: string = "B";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -71,6 +73,7 @@ class SolidIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

@@ -45,6 +45,7 @@ class SweepOneInput_rail_r extends ResthopperParameter {
 
 	public name: string = "Rail";
 	public nickName: string = "R";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -59,6 +60,7 @@ class SweepOneInput_sections_s extends ResthopperParameter {
 
 	public name: string = "Sections";
 	public nickName: string = "S";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,6 +75,7 @@ class SweepOneInput_miter_m extends ResthopperParameter {
 
 	public name: string = "Miter";
 	public nickName: string = "M";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -87,6 +90,7 @@ class SweepOneOutput_brep_s extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "S";
+	public description: string = "Empty Brep parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

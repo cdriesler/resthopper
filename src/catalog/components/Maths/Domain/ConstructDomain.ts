@@ -43,6 +43,7 @@ class ConstructDomainInput_domainstart_a extends ResthopperParameter {
 
 	public name: string = "Domainstart";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -57,6 +58,7 @@ class ConstructDomainInput_domainend_b extends ResthopperParameter {
 
 	public name: string = "Domainend";
 	public nickName: string = "B";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class ConstructDomainOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

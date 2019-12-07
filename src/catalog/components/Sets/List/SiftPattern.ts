@@ -45,6 +45,7 @@ class SiftPatternInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class SiftPatternInput_siftpattern_p extends ResthopperParameter {
 
 	public name: string = "SiftPattern";
 	public nickName: string = "P";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class SiftPatternOutput_output0_0 extends ResthopperParameter {
 
 	public name: string = "Output0";
 	public nickName: string = "0";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class SiftPatternOutput_output1_1 extends ResthopperParameter {
 
 	public name: string = "Output1";
 	public nickName: string = "1";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

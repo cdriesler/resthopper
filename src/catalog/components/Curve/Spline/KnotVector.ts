@@ -45,6 +45,7 @@ class KnotVectorInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -59,6 +60,7 @@ class KnotVectorInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class KnotVectorInput_periodic_p extends ResthopperParameter {
 
 	public name: string = "Periodic";
 	public nickName: string = "P";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -87,6 +90,7 @@ class KnotVectorOutput_knots_k extends ResthopperParameter {
 
 	public name: string = "Knots";
 	public nickName: string = "K";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

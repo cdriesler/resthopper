@@ -45,6 +45,7 @@ class FlipInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -59,6 +60,7 @@ class FlipInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Surface"
 
@@ -73,6 +75,7 @@ class FlipOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -87,6 +90,7 @@ class FlipOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

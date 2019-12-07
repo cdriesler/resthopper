@@ -51,6 +51,7 @@ class SphereFourPtInput_point1_p1 extends ResthopperParameter {
 
 	public name: string = "Point1";
 	public nickName: string = "P1";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class SphereFourPtInput_point2_p2 extends ResthopperParameter {
 
 	public name: string = "Point2";
 	public nickName: string = "P2";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class SphereFourPtInput_point3_p3 extends ResthopperParameter {
 
 	public name: string = "Point3";
 	public nickName: string = "P3";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -93,6 +96,7 @@ class SphereFourPtInput_point4_p4 extends ResthopperParameter {
 
 	public name: string = "Point4";
 	public nickName: string = "P4";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class SphereFourPtOutput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -121,6 +126,7 @@ class SphereFourPtOutput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -135,6 +141,7 @@ class SphereFourPtOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";
+	public description: string = "Empty Surface parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

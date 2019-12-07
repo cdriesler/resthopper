@@ -45,6 +45,7 @@ class ConstructMeshInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -59,6 +60,7 @@ class ConstructMeshInput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
+	public description: string = "Empty Mesh face parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh face"
 
@@ -73,6 +75,7 @@ class ConstructMeshInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
+	public description: string = "Empty Colour parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Colour"
 
@@ -87,6 +90,7 @@ class ConstructMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

@@ -47,6 +47,7 @@ class FlipMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -61,6 +62,7 @@ class FlipMeshInput_vertexnormals_vn extends ResthopperParameter {
 
 	public name: string = "VertexNormals";
 	public nickName: string = "Vn";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,6 +77,7 @@ class FlipMeshInput_facenormals_fn extends ResthopperParameter {
 
 	public name: string = "FaceNormals";
 	public nickName: string = "Fn";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -89,6 +92,7 @@ class FlipMeshInput_faceorientation_fo extends ResthopperParameter {
 
 	public name: string = "FaceOrientation";
 	public nickName: string = "Fo";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class FlipMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

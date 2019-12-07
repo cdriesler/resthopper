@@ -51,6 +51,7 @@ class ScaleNUInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -65,6 +66,7 @@ class ScaleNUInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,6 +81,7 @@ class ScaleNUInput_scalex_x extends ResthopperParameter {
 
 	public name: string = "ScaleX";
 	public nickName: string = "X";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -93,6 +96,7 @@ class ScaleNUInput_scaley_y extends ResthopperParameter {
 
 	public name: string = "ScaleY";
 	public nickName: string = "Y";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,6 +111,7 @@ class ScaleNUInput_scalez_z extends ResthopperParameter {
 
 	public name: string = "ScaleZ";
 	public nickName: string = "Z";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -121,6 +126,7 @@ class ScaleNUOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -135,6 +141,7 @@ class ScaleNUOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
+	public description: string = "Empty Transform parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

@@ -49,6 +49,7 @@ class ClosestPointsInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class ClosestPointsInput_cloud_c extends ResthopperParameter {
 
 	public name: string = "Cloud";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,6 +79,7 @@ class ClosestPointsInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class ClosestPointsOutput_closestpoint_p extends ResthopperParameter {
 
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -105,6 +109,7 @@ class ClosestPointsOutput_cpindex_i extends ResthopperParameter {
 
 	public name: string = "CPIndex";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -119,6 +124,7 @@ class ClosestPointsOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

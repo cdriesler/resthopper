@@ -43,6 +43,7 @@ class VectorForceInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -57,6 +58,7 @@ class VectorForceInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
+	public description: string = "Empty Box parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Box"
 
@@ -71,6 +73,7 @@ class VectorForceOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
+	public description: string = "Empty Field parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 

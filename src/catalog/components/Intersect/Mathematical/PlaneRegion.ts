@@ -43,6 +43,7 @@ class PlaneRegionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -57,6 +58,7 @@ class PlaneRegionInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -71,6 +73,7 @@ class PlaneRegionOutput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

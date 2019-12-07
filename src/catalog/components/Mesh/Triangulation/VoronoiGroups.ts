@@ -47,6 +47,7 @@ class VoronoiGroupsInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
+	public description: string = "Empty Rectangle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -61,6 +62,7 @@ class VoronoiGroupsInput_generation1_g1 extends ResthopperParameter {
 
 	public name: string = "Generation1";
 	public nickName: string = "G1";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -75,6 +77,7 @@ class VoronoiGroupsInput_generation2_g2 extends ResthopperParameter {
 
 	public name: string = "Generation2";
 	public nickName: string = "G2";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -89,6 +92,7 @@ class VoronoiGroupsOutput_diagram1_d1 extends ResthopperParameter {
 
 	public name: string = "Diagram1";
 	public nickName: string = "D1";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -103,6 +107,7 @@ class VoronoiGroupsOutput_diagram2_d2 extends ResthopperParameter {
 
 	public name: string = "Diagram2";
 	public nickName: string = "D2";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

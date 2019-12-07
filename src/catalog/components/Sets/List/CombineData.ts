@@ -45,6 +45,7 @@ class CombineDataInput_input0_0 extends ResthopperParameter {
 
 	public name: string = "Input0";
 	public nickName: string = "0";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class CombineDataInput_input1_1 extends ResthopperParameter {
 
 	public name: string = "Input1";
 	public nickName: string = "1";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -73,6 +75,7 @@ class CombineDataOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class CombineDataOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

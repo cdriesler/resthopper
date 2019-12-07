@@ -47,6 +47,7 @@ class SimilarityInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -61,6 +62,7 @@ class SimilarityInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,6 +77,7 @@ class SimilarityInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class SimilarityOutput_similarity_ extends ResthopperParameter {
 
 	public name: string = "Similarity";
 	public nickName: string = "";
+	public description: string = "Empty Boolean parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -103,6 +107,7 @@ class SimilarityOutput_absolutedifference_dt extends ResthopperParameter {
 
 	public name: string = "Absolutedifference";
 	public nickName: string = "dt";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

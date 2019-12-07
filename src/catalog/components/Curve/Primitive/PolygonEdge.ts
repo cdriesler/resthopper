@@ -51,6 +51,7 @@ class PolygonEdgeInput_edgestart_e0 extends ResthopperParameter {
 
 	public name: string = "EdgeStart";
 	public nickName: string = "E0";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class PolygonEdgeInput_edgeend_e1 extends ResthopperParameter {
 
 	public name: string = "EdgeEnd";
 	public nickName: string = "E1";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,6 +81,7 @@ class PolygonEdgeInput_planepoint_p extends ResthopperParameter {
 
 	public name: string = "PlanePoint";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -93,6 +96,7 @@ class PolygonEdgeInput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,6 +111,7 @@ class PolygonEdgeOutput_polygon_p extends ResthopperParameter {
 
 	public name: string = "Polygon";
 	public nickName: string = "P";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -121,6 +126,7 @@ class PolygonEdgeOutput_centre_c extends ResthopperParameter {
 
 	public name: string = "Centre";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -135,6 +141,7 @@ class PolygonEdgeOutput_edgeradius_rc extends ResthopperParameter {
 
 	public name: string = "EdgeRadius";
 	public nickName: string = "Rc";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

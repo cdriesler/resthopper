@@ -55,6 +55,7 @@ class ClashInput_firstset_a extends ResthopperParameter {
 
 	public name: string = "FirstSet";
 	public nickName: string = "A";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -69,6 +70,7 @@ class ClashInput_secondset_b extends ResthopperParameter {
 
 	public name: string = "SecondSet";
 	public nickName: string = "B";
+	public description: string = "Empty Mesh parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -83,6 +85,7 @@ class ClashInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -97,6 +100,7 @@ class ClashInput_resultlimit_l extends ResthopperParameter {
 
 	public name: string = "ResultLimit";
 	public nickName: string = "L";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -111,6 +115,7 @@ class ClashOutput_clashcount_n extends ResthopperParameter {
 
 	public name: string = "ClashCount";
 	public nickName: string = "N";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -125,6 +130,7 @@ class ClashOutput_clashpoints_p extends ResthopperParameter {
 
 	public name: string = "ClashPoints";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -139,6 +145,7 @@ class ClashOutput_clashradii_r extends ResthopperParameter {
 
 	public name: string = "ClashRadii";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -153,6 +160,7 @@ class ClashOutput_firstindex_i extends ResthopperParameter {
 
 	public name: string = "FirstIndex";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -167,6 +175,7 @@ class ClashOutput_secondindex_j extends ResthopperParameter {
 
 	public name: string = "Secondindex";
 	public nickName: string = "j";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

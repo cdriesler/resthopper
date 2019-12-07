@@ -51,6 +51,7 @@ class InterpolatetInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -65,6 +66,7 @@ class InterpolatetInput_tangentstart_ts extends ResthopperParameter {
 
 	public name: string = "TangentStart";
 	public nickName: string = "Ts";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -79,6 +81,7 @@ class InterpolatetInput_tangentend_te extends ResthopperParameter {
 
 	public name: string = "TangentEnd";
 	public nickName: string = "Te";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -93,6 +96,7 @@ class InterpolatetInput_knotstyle_k extends ResthopperParameter {
 
 	public name: string = "KnotStyle";
 	public nickName: string = "K";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,6 +111,7 @@ class InterpolatetOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -121,6 +126,7 @@ class InterpolatetOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -135,6 +141,7 @@ class InterpolatetOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
+	public description: string = "Empty Domain parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

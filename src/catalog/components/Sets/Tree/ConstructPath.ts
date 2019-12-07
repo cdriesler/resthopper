@@ -41,6 +41,7 @@ class ConstructPathInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -55,6 +56,7 @@ class ConstructPathOutput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";
+	public description: string = "Empty Path parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 

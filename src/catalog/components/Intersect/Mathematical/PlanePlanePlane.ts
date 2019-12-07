@@ -51,6 +51,7 @@ class PlanePlanePlaneInput_planea_a extends ResthopperParameter {
 
 	public name: string = "PlaneA";
 	public nickName: string = "A";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -65,6 +66,7 @@ class PlanePlanePlaneInput_planeb_b extends ResthopperParameter {
 
 	public name: string = "PlaneB";
 	public nickName: string = "B";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,6 +81,7 @@ class PlanePlanePlaneInput_planec_c extends ResthopperParameter {
 
 	public name: string = "PlaneC";
 	public nickName: string = "C";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -93,6 +96,7 @@ class PlanePlanePlaneOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,6 +111,7 @@ class PlanePlanePlaneOutput_lineab_ab extends ResthopperParameter {
 
 	public name: string = "LineAB";
 	public nickName: string = "AB";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -121,6 +126,7 @@ class PlanePlanePlaneOutput_lineac_ac extends ResthopperParameter {
 
 	public name: string = "LineAC";
 	public nickName: string = "AC";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -135,6 +141,7 @@ class PlanePlanePlaneOutput_linebc_bc extends ResthopperParameter {
 
 	public name: string = "LineBC";
 	public nickName: string = "BC";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

@@ -45,6 +45,7 @@ class SplitListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class SplitListInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class SplitListOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class SplitListOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

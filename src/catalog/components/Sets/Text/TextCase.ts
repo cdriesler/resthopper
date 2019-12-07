@@ -45,6 +45,7 @@ class TextCaseInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -59,6 +60,7 @@ class TextCaseInput_culture_c extends ResthopperParameter {
 
 	public name: string = "Culture";
 	public nickName: string = "C";
+	public description: string = "Empty Culture parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Culture"
 
@@ -73,6 +75,7 @@ class TextCaseOutput_uppercase_u extends ResthopperParameter {
 
 	public name: string = "UpperCase";
 	public nickName: string = "U";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -87,6 +90,7 @@ class TextCaseOutput_lowercase_l extends ResthopperParameter {
 
 	public name: string = "LowerCase";
 	public nickName: string = "L";
+	public description: string = "Empty Text parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

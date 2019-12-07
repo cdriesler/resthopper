@@ -41,6 +41,7 @@ class SettingsQualityOutput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";
+	public description: string = "Empty MeshParameters parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "MeshParameters"
 

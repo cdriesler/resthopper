@@ -49,6 +49,7 @@ class ProximityTwoDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class ProximityTwoDInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -77,6 +79,7 @@ class ProximityTwoDInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -91,6 +94,7 @@ class ProximityTwoDInput_maxradius_r extends ResthopperParameter {
 
 	public name: string = "MaxRadius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -105,6 +109,7 @@ class ProximityTwoDOutput_links_l extends ResthopperParameter {
 
 	public name: string = "Links";
 	public nickName: string = "L";
+	public description: string = "Empty Line parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -119,6 +124,7 @@ class ProximityTwoDOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

@@ -43,6 +43,7 @@ class WeightedAverageInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -57,6 +58,7 @@ class WeightedAverageInput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -71,6 +73,7 @@ class WeightedAverageOutput_arithmeticmean_am extends ResthopperParameter {
 
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

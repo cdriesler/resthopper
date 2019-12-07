@@ -49,6 +49,7 @@ class SwingArcInput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -63,6 +64,7 @@ class SwingArcInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -77,6 +79,7 @@ class SwingArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -91,6 +94,7 @@ class SwingArcOutput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -105,6 +109,7 @@ class SwingArcOutput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -119,6 +124,7 @@ class SwingArcOutput_circles_c extends ResthopperParameter {
 
 	public name: string = "Circles";
 	public nickName: string = "C";
+	public description: string = "Empty Circle parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 

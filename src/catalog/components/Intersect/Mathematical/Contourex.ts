@@ -47,6 +47,7 @@ class ContourexInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
+	public description: string = "Empty Geometry parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -61,6 +62,7 @@ class ContourexInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
+	public description: string = "Empty Plane parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,6 +77,7 @@ class ContourexInput_offsets_o extends ResthopperParameter {
 
 	public name: string = "Offsets";
 	public nickName: string = "O";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -89,6 +92,7 @@ class ContourexInput_distances_d extends ResthopperParameter {
 
 	public name: string = "Distances";
 	public nickName: string = "D";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -103,6 +107,7 @@ class ContourexOutput_contours_c extends ResthopperParameter {
 
 	public name: string = "Contours";
 	public nickName: string = "C";
+	public description: string = "Empty Curve parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

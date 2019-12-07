@@ -43,6 +43,7 @@ class SymbolDisplayInput_location_p extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "P";
+	public description: string = "Empty Point parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -57,6 +58,7 @@ class SymbolDisplayInput_display_d extends ResthopperParameter {
 
 	public name: string = "Display";
 	public nickName: string = "D";
+	public description: string = "Empty Symbol Display parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Symbol Display"
 

@@ -45,6 +45,7 @@ class SortListInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -59,6 +60,7 @@ class SortListInput_valuesa_a extends ResthopperParameter {
 
 	public name: string = "ValuesA";
 	public nickName: string = "A";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -73,6 +75,7 @@ class SortListOutput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class SortListOutput_valuesa_a extends ResthopperParameter {
 
 	public name: string = "ValuesA";
 	public nickName: string = "A";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

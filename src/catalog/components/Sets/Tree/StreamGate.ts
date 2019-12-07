@@ -45,6 +45,7 @@ class StreamGateInput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -59,6 +60,7 @@ class StreamGateInput_gate_g extends ResthopperParameter {
 
 	public name: string = "Gate";
 	public nickName: string = "G";
+	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,6 +75,7 @@ class StreamGateOutput_target0_0 extends ResthopperParameter {
 
 	public name: string = "Target0";
 	public nickName: string = "0";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -87,6 +90,7 @@ class StreamGateOutput_target1_1 extends ResthopperParameter {
 
 	public name: string = "Target1";
 	public nickName: string = "1";
+	public description: string = "Empty Generic Data parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

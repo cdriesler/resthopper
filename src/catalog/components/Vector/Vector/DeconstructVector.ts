@@ -45,6 +45,7 @@ class DeconstructVectorInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
+	public description: string = "Empty Vector parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -59,6 +60,7 @@ class DeconstructVectorOutput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,6 +75,7 @@ class DeconstructVectorOutput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -87,6 +90,7 @@ class DeconstructVectorOutput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
+	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
