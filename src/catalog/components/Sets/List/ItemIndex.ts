@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ItemIndex extends ResthopperComponent {
 
 	public guid: string = "a759fd55-e6be-4673-8365-c28d5b52c6c0";
-	public name: string = "ItemIndex";
+	public name: string = "Item Index";
 	public nickName: string = "Index";
 	public category: string = "Sets";
 	public subCategory: string = "List";

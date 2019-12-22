@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ProjectAlong extends ResthopperComponent {
 
 	public guid: string = "06d7bc4a-ba3e-4445-8ab5-079613b52f28";
-	public name: string = "ProjectAlong";
+	public name: string = "Project Along";
 	public nickName: string = "ProjectA";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ProximityTwoD extends ResthopperComponent {
 
 	public guid: string = "458ed0e0-19a3-419b-8ead-f524925b8a35";
-	public name: string = "Proximity2D";
+	public name: string = "Proximity 2D";
 	public nickName: string = "Prox";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";

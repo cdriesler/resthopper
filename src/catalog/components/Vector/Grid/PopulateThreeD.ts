@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PopulateThreeD extends ResthopperComponent {
 
 	public guid: string = "e202025b-dc8e-4c51-ae19-4415b172886f";
-	public name: string = "Populate3D";
+	public name: string = "Populate 3D";
 	public nickName: string = "Pop3D";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";

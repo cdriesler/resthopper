@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class Interpolatet extends ResthopperComponent {
 
 	public guid: string = "75eb156d-d023-42f9-a85e-2f2456b8bcce";
-	public name: string = "Interpolatet";
+	public name: string = "Interpolate (t)";
 	public nickName: string = "IntCrvt";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

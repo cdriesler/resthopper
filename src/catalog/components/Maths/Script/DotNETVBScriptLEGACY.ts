@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DotNETVBScriptLEGACY extends ResthopperComponent {
 
 	public guid: string = "fb6aba99-fead-4e42-b5d8-c6de5ff90ea6";
-	public name: string = "DotNETVBScriptLEGACY";
+	public name: string = "DotNET VB Script (LEGACY)";
 	public nickName: string = "VB";
 	public category: string = "Maths";
 	public subCategory: string = "Script";

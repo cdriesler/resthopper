@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LargerThan extends ResthopperComponent {
 
 	public guid: string = "30d58600-1aab-42db-80a3-f1ea6c4269a0";
-	public name: string = "LargerThan";
+	public name: string = "Larger Than";
 	public nickName: string = "Larger";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ScalarDisplay extends ResthopperComponent {
 
 	public guid: string = "55f9ce6a-490c-4f25-a536-a3d47b794752";
-	public name: string = "ScalarDisplay";
+	public name: string = "Scalar Display";
 	public nickName: string = "FScalar";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

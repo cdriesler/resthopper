@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PointInBreps extends ResthopperComponent {
 
 	public guid: string = "859daa86-3ab7-49cb-9eda-f2811c984070";
-	public name: string = "PointInBreps";
+	public name: string = "Point In Breps";
 	public nickName: string = "BrepsInc";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

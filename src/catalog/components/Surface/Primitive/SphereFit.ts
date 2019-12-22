@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SphereFit extends ResthopperComponent {
 
 	public guid: string = "e7ffb3af-2d77-4804-a260-755308bf8285";
-	public name: string = "SphereFit";
+	public name: string = "Sphere Fit";
 	public nickName: string = "SFit";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

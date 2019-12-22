@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class QuadSphere extends ResthopperComponent {
 
 	public guid: string = "361790d6-9d66-4808-8c5a-8de9c218c227";
-	public name: string = "QuadSphere";
+	public name: string = "Quad Sphere";
 	public nickName: string = "QSph";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SolidUnion extends ResthopperComponent {
 
 	public guid: string = "10434a15-da85-4281-bb64-a2b3a995b9c6";
-	public name: string = "SolidUnion";
+	public name: string = "Solid Union";
 	public nickName: string = "SUnion";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

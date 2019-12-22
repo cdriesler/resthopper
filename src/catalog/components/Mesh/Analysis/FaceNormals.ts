@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FaceNormals extends ResthopperComponent {
 
 	public guid: string = "cb4ca22c-3419-4962-a078-ad4ff7f1f929";
-	public name: string = "FaceNormals";
+	public name: string = "Face Normals";
 	public nickName: string = "FaceN";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";

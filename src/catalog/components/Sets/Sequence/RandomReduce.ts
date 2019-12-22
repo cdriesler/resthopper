@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RandomReduce extends ResthopperComponent {
 
 	public guid: string = "455925fd-23ff-4e57-a0e7-913a4165e659";
-	public name: string = "RandomReduce";
+	public name: string = "Random Reduce";
 	public nickName: string = "Reduce";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TrimTree extends ResthopperComponent {
 
 	public guid: string = "1177d6ee-3993-4226-9558-52b7fd63e1e3";
-	public name: string = "TrimTree";
+	public name: string = "Trim Tree";
 	public nickName: string = "Trim";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

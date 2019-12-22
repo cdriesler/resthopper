@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CurveLine extends ResthopperComponent {
 
 	public guid: string = "0e3173b6-91c6-4845-a748-e45d4fdbc262";
-	public name: string = "CurveLine";
+	public name: string = "Curve | Line";
 	public nickName: string = "CLX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";

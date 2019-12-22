@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ShearAngle extends ResthopperComponent {
 
 	public guid: string = "f19ee36c-f21f-4e25-be4c-4ca4b30eda0d";
-	public name: string = "ShearAngle";
+	public name: string = "Shear Angle";
 	public nickName: string = "Shear";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";

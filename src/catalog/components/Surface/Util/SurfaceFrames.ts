@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceFrames extends ResthopperComponent {
 
 	public guid: string = "332378f4-acb2-43fe-8593-ed22bfeb2721";
-	public name: string = "SurfaceFrames";
+	public name: string = "Surface Frames";
 	public nickName: string = "SFrames";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

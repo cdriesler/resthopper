@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LengthParameter extends ResthopperComponent {
 
 	public guid: string = "a1c16251-74f0-400f-9e7c-5e379d739963";
-	public name: string = "LengthParameter";
+	public name: string = "Length Parameter";
 	public nickName: string = "LenP";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

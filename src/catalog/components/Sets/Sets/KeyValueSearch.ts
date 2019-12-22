@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class KeyValueSearch extends ResthopperComponent {
 
 	public guid: string = "1edcc3cf-cf84-41d4-8204-561162cfe510";
-	public name: string = "KeyValueSearch";
+	public name: string = "Key/Value Search";
 	public nickName: string = "KeySearch";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

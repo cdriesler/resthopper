@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BlendBox extends ResthopperComponent {
 
 	public guid: string = "6283fb37-e273-4eb2-8d2a-e347881e3928";
-	public name: string = "BlendBox";
+	public name: string = "Blend Box";
 	public nickName: string = "BlendBox";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

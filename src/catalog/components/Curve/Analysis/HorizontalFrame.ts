@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class HorizontalFrame extends ResthopperComponent {
 
 	public guid: string = "c048ad76-ffcd-43b1-a007-4dd1b2373326";
-	public name: string = "HorizontalFrame";
+	public name: string = "Horizontal Frame";
 	public nickName: string = "HFrame";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

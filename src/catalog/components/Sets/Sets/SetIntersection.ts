@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SetIntersection extends ResthopperComponent {
 
 	public guid: string = "82f19c48-9e73-43a4-ae6c-3a8368099b08";
-	public name: string = "SetIntersection";
+	public name: string = "Set Intersection";
 	public nickName: string = "Intersection";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BrepClosestPoint extends ResthopperComponent {
 
 	public guid: string = "4beead95-8aa2-4613-8bb9-24758a0f5c4c";
-	public name: string = "BrepClosestPoint";
+	public name: string = "Brep Closest Point";
 	public nickName: string = "BrepCP";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

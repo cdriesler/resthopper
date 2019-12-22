@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class InverseTransform extends ResthopperComponent {
 
 	public guid: string = "51f61166-7202-45aa-9126-3d83055b269e";
-	public name: string = "InverseTransform";
+	public name: string = "Inverse Transform";
 	public nickName: string = "Inverse";
 	public category: string = "Transform";
 	public subCategory: string = "Util";

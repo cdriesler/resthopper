@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LineTwoPlane extends ResthopperComponent {
 
 	public guid: string = "510c4a63-b9bf-42e7-9d07-9d71290264da";
-	public name: string = "Line2Plane";
+	public name: string = "Line 2Plane";
 	public nickName: string = "Ln2Pl";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

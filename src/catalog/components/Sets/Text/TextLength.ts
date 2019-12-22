@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TextLength extends ResthopperComponent {
 
 	public guid: string = "dca05f6f-e3d9-42e3-b3bb-eb20363fb335";
-	public name: string = "TextLength";
+	public name: string = "Text Length";
 	public nickName: string = "Len";
 	public category: string = "Sets";
 	public subCategory: string = "Text";

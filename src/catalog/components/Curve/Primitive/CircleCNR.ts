@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CircleCNR extends ResthopperComponent {
 
 	public guid: string = "d114323a-e6ee-4164-946b-e4ca0ce15efa";
-	public name: string = "CircleCNR";
+	public name: string = "Circle CNR";
 	public nickName: string = "Circle";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

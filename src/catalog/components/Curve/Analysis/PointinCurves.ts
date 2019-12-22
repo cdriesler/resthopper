@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PointinCurves extends ResthopperComponent {
 
 	public guid: string = "0b04e8b9-00d7-47a7-95c3-0d51e654fe88";
-	public name: string = "PointinCurves";
+	public name: string = "Point in Curves";
 	public nickName: string = "InCurves";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

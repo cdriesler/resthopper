@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BlendCurve extends ResthopperComponent {
 
 	public guid: string = "5909dbcb-4950-4ce4-9433-7cf9e62ee011";
-	public name: string = "BlendCurve";
+	public name: string = "Blend Curve";
 	public nickName: string = "BlendC";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

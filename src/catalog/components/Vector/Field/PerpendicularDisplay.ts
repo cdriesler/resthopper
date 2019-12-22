@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PerpendicularDisplay extends ResthopperComponent {
 
 	public guid: string = "bf106e4c-68f4-476f-b05b-9c15fb50e078";
-	public name: string = "PerpendicularDisplay";
+	public name: string = "Perpendicular Display";
 	public nickName: string = "FPerp";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

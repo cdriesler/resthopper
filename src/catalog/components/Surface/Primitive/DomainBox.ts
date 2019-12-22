@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DomainBox extends ResthopperComponent {
 
 	public guid: string = "79aa7f47-397c-4d3f-9761-aaf421bb7f5f";
-	public name: string = "DomainBox";
+	public name: string = "Domain Box";
 	public nickName: string = "Box";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

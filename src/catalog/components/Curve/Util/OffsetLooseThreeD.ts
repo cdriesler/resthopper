@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OffsetLooseThreeD extends ResthopperComponent {
 
 	public guid: string = "c6fe61e7-25e2-4333-9172-f4e2a123fcfe";
-	public name: string = "OffsetLoose3D";
+	public name: string = "Offset Loose 3D";
 	public nickName: string = "Offset3D";
 	public category: string = "Curve";
 	public subCategory: string = "Util";

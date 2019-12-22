@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TreeStatistics extends ResthopperComponent {
 
 	public guid: string = "99bee19d-588c-41a0-b9b9-1d00fb03ea1a";
-	public name: string = "TreeStatistics";
+	public name: string = "Tree Statistics";
 	public nickName: string = "TStat";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

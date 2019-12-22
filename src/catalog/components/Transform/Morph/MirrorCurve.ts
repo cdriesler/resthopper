@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MirrorCurve extends ResthopperComponent {
 
 	public guid: string = "9c9f8219-ae88-4d29-ba1b-3433ed713639";
-	public name: string = "MirrorCurve";
+	public name: string = "Mirror Curve";
 	public nickName: string = "Mirror";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

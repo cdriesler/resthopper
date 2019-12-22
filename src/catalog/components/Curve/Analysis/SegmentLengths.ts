@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SegmentLengths extends ResthopperComponent {
 
 	public guid: string = "f88a6cd9-1035-4361-b896-4f2dfe79272d";
-	public name: string = "SegmentLengths";
+	public name: string = "Segment Lengths";
 	public nickName: string = "LenSeg";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class XZPlane extends ResthopperComponent {
 
 	public guid: string = "8cc3a196-f6a0-49ea-9ed9-0cb343a3ae64";
-	public name: string = "XZPlane";
+	public name: string = "XZ Plane";
 	public nickName: string = "XZ";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";

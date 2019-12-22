@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class NetworkSurface extends ResthopperComponent {
 
 	public guid: string = "71506fa8-9bf0-432d-b897-b2e0c5ac316c";
-	public name: string = "NetworkSurface";
+	public name: string = "Network Surface";
 	public nickName: string = "NetSurf";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

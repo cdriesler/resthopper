@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ReplaceText extends ResthopperComponent {
 
 	public guid: string = "4df8df00-3635-45bd-95e6-f9206296c110";
-	public name: string = "ReplaceText";
+	public name: string = "Replace Text";
 	public nickName: string = "Rep";
 	public category: string = "Sets";
 	public subCategory: string = "Text";

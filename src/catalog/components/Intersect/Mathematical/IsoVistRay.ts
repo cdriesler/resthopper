@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class IsoVistRay extends ResthopperComponent {
 
 	public guid: string = "93d0dcbc-6207-4745-aaf7-fe57a880f959";
-	public name: string = "IsoVistRay";
+	public name: string = "IsoVist Ray";
 	public nickName: string = "IVRay";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";

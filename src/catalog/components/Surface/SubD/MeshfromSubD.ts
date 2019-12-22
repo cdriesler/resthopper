@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MeshfromSubD extends ResthopperComponent {
 
 	public guid: string = "c0b3c6e9-d05d-4c51-a0df-1ce2678c7a33";
-	public name: string = "MeshfromSubD";
+	public name: string = "Mesh from Sub-D";
 	public nickName: string = "MeshSubD";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";

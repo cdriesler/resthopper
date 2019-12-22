@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CreateSet extends ResthopperComponent {
 
 	public guid: string = "98c3c63a-e78a-43ea-a111-514fcf312c95";
-	public name: string = "CreateSet";
+	public name: string = "Create Set";
 	public nickName: string = "CSet";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

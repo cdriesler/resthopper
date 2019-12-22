@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RuledSurface extends ResthopperComponent {
 
 	public guid: string = "6e5de495-ba76-42d0-9985-a5c265e9aeca";
-	public name: string = "RuledSurface";
+	public name: string = "Ruled Surface";
 	public nickName: string = "RuleSrf";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

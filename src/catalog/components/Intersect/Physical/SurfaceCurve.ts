@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceCurve extends ResthopperComponent {
 
 	public guid: string = "68546dd0-aa82-471c-87e9-81cb16ac50ed";
-	public name: string = "SurfaceCurve";
+	public name: string = "Surface | Curve";
 	public nickName: string = "SCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";

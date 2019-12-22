@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TransposeMatrix extends ResthopperComponent {
 
 	public guid: string = "0e90b1f3-b870-4e09-8711-4bf819675d90";
-	public name: string = "TransposeMatrix";
+	public name: string = "Transpose Matrix";
 	public nickName: string = "Transpose";
 	public category: string = "Maths";
 	public subCategory: string = "Matrix";

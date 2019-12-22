@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SpatialDeformcustom extends ResthopperComponent {
 
 	public guid: string = "331b74f1-1f1f-4f37-b253-24fcdada29e3";
-	public name: string = "SpatialDeformcustom";
+	public name: string = "Spatial Deform (custom)";
 	public nickName: string = "Deform";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

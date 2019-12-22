@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CullDuplicates extends ResthopperComponent {
 
 	public guid: string = "6eaffbb2-3392-441a-8556-2dc126aa8910";
-	public name: string = "CullDuplicates";
+	public name: string = "Cull Duplicates";
 	public nickName: string = "CullPt";
 	public category: string = "Vector";
 	public subCategory: string = "Point";

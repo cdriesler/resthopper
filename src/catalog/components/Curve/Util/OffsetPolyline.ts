@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OffsetPolyline extends ResthopperComponent {
 
 	public guid: string = "e2c6cab3-91ea-4c01-900c-646642d3e436";
-	public name: string = "OffsetPolyline";
+	public name: string = "Offset Polyline";
 	public nickName: string = "OP";
 	public category: string = "Curve";
 	public subCategory: string = "Util";

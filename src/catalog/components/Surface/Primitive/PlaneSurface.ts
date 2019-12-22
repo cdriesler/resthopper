@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PlaneSurface extends ResthopperComponent {
 
 	public guid: string = "439a55a5-2f9e-4f66-9de2-32f24fec2ef5";
-	public name: string = "PlaneSurface";
+	public name: string = "Plane Surface";
 	public nickName: string = "PlaneSrf";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RegionUnion extends ResthopperComponent {
 
 	public guid: string = "1222394f-0d33-4f31-9101-7281bde89fe5";
-	public name: string = "RegionUnion";
+	public name: string = "Region Union";
 	public nickName: string = "RUnion";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

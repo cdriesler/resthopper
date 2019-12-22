@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CapHoles extends ResthopperComponent {
 
 	public guid: string = "b648d933-ddea-4e75-834c-8f6f3793e311";
-	public name: string = "CapHoles";
+	public name: string = "Cap Holes";
 	public nickName: string = "Cap";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

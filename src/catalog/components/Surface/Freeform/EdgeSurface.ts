@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class EdgeSurface extends ResthopperComponent {
 
 	public guid: string = "36132830-e2ef-4476-8ea1-6a43922344f0";
-	public name: string = "EdgeSurface";
+	public name: string = "Edge Surface";
 	public nickName: string = "EdgeSrf";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

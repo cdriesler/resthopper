@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SetUnion extends ResthopperComponent {
 
 	public guid: string = "8eed5d78-7810-4ba1-968e-8a1f1db98e39";
-	public name: string = "SetUnion";
+	public name: string = "Set Union";
 	public nickName: string = "SUnion";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

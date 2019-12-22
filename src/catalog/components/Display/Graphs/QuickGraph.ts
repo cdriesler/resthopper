@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class QuickGraph extends ResthopperComponent {
 
 	public guid: string = "2b69bf71-4e69-43aa-b7be-4f6ce7e45bef";
-	public name: string = "QuickGraph";
+	public name: string = "Quick Graph";
 	public nickName: string = "Graph";
 	public category: string = "Display";
 	public subCategory: string = "Graphs";

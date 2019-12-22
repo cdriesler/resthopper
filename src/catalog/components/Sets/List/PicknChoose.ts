@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PicknChoose extends ResthopperComponent {
 
 	public guid: string = "03b801eb-87cd-476a-a591-257fe5d5bf0f";
-	public name: string = "PicknChoose";
+	public name: string = "Pick'n'Choose";
 	public nickName: string = "PnC";
 	public category: string = "Sets";
 	public subCategory: string = "List";

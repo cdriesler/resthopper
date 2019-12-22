@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CarthesianProduct extends ResthopperComponent {
 
 	public guid: string = "deffaf1e-270a-4c15-a693-9216b68afd4a";
-	public name: string = "CarthesianProduct";
+	public name: string = "Carthesian Product";
 	public nickName: string = "CProd";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

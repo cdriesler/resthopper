@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SplitTree extends ResthopperComponent {
 
 	public guid: string = "d8b1e7ac-cd31-4748-b262-e07e53068afc";
-	public name: string = "SplitTree";
+	public name: string = "Split Tree";
 	public nickName: string = "Split";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

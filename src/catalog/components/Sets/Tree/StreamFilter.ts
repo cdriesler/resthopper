@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class StreamFilter extends ResthopperComponent {
 
 	public guid: string = "eeafc956-268e-461d-8e73-ee05c6f72c01";
-	public name: string = "StreamFilter";
+	public name: string = "Stream Filter";
 	public nickName: string = "Filter";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

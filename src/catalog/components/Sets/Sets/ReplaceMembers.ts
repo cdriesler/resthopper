@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ReplaceMembers extends ResthopperComponent {
 
 	public guid: string = "bafac914-ede4-4a59-a7b2-cc41bc3de961";
-	public name: string = "ReplaceMembers";
+	public name: string = "Replace Members";
 	public nickName: string = "Replace";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

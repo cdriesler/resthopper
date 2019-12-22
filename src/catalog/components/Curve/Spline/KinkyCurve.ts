@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class KinkyCurve extends ResthopperComponent {
 
 	public guid: string = "6f0993e8-5f2f-4fc0-bd73-b84bc240e78e";
-	public name: string = "KinkyCurve";
+	public name: string = "Kinky Curve";
 	public nickName: string = "KinkCrv";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

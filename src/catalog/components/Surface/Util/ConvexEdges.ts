@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConvexEdges extends ResthopperComponent {
 
 	public guid: string = "8248da39-0729-4e04-8395-267b3259bc2f";
-	public name: string = "ConvexEdges";
+	public name: string = "Convex Edges";
 	public nickName: string = "EdgesCvx";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

@@ -75,7 +75,7 @@ function writeParameterCatalog(parameters: ResthopperParameter[]): void {
             `export class ${className}Param extends ResthopperParameter {`,
             "",
             `\tpublic guid: string = "${x.guid}";`,
-            `\tpublic name: string = "${className}";`,
+            `\tpublic name: string = "${x.name}";`,
             `\tpublic nickName: string = "${x.nickName}"`,
             `\tpublic description: string = "${x.description}"`,
             `\tpublic isOptional: boolean = false;`,
@@ -297,23 +297,30 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
     var indexExports: string[] = [];
     var indexCases: string[] = [];
     var indexTypes: string[] = [];
+    var indexClassNames: string[] = [];
 
     // Write top-level index based on component list
     components.sort((a, b) => a.name.localeCompare(b.name)).forEach(c => {
+        const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
+
+        if (indexClassNames.includes(className)) {
+            return;
+        }
+
         const imp = `import ${c.category} from './components/${c.category}/${c.category}ComponentIndex';`;
         if (!indexImports.includes(imp)) {
             indexImports.push(imp);
         }
 
-        const className = replaceNumbersWithNames(c.name.replace(" ", "").replace(/\W/g, ''));
         if (indexTypes.includes(`"${className}"`) || className == "Transform") {
             return;
         }
 
-        indexTypes.push(`"${className}"`);
-        indexCases.push(`\t\t\tcase "${className}":\n\t\t\t\treturn new ${c.category}.${c.subCategory}.${className}();`)
+        indexTypes.push(`"${c.name}"`);
+        indexCases.push(`\t\t\tcase "${c.name}":\n\t\t\t\treturn new ${c.category}.${c.subCategory}.${className}();`);
 
-        indexExports.push(`import ${className} from './components/${c.category}/${c.subCategory}/${className}';`)
+        indexExports.push(`import ${className} from './components/${c.category}/${c.subCategory}/${className}';`);
+        indexClassNames.push(className);
     });
 
     var text: string[] = [
@@ -342,7 +349,7 @@ function writeComponentCatalog(components: ResthopperComponent[]): void {
         indexExports.join("\n"),
         "",
         "export {",
-        indexTypes.map(x => `\t${x.replace('"', "").replace('"', "")}`).join(",\n"),
+        indexClassNames.join(",\n"),
         "}",
         "",
         `export type GrasshopperComponent =\n${indexTypes.join(" |\n")}`

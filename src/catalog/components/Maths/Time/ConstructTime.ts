@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConstructTime extends ResthopperComponent {
 
 	public guid: string = "595aded2-8916-402d-87a3-a825244bbe3d";
-	public name: string = "ConstructTime";
+	public name: string = "Construct Time";
 	public nickName: string = "Time";
 	public category: string = "Maths";
 	public subCategory: string = "Time";

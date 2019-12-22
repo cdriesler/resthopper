@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class NumberstoPoints extends ResthopperComponent {
 
 	public guid: string = "0ae07da9-951b-4b9b-98ca-d312c252374d";
-	public name: string = "NumberstoPoints";
+	public name: string = "Numbers to Points";
 	public nickName: string = "Num2Pt";
 	public category: string = "Vector";
 	public subCategory: string = "Point";

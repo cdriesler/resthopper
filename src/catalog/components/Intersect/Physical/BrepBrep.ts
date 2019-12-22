@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BrepBrep extends ResthopperComponent {
 
 	public guid: string = "904e4b56-484a-4814-b35f-aa4baf362117";
-	public name: string = "BrepBrep";
+	public name: string = "Brep | Brep";
 	public nickName: string = "BBX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";

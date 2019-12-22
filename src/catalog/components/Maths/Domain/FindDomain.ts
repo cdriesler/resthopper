@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FindDomain extends ResthopperComponent {
 
 	public guid: string = "0b5c7fad-0473-41aa-bf52-d7a861dcaa29";
-	public name: string = "FindDomain";
+	public name: string = "Find Domain";
 	public nickName: string = "FDom";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";

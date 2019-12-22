@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FilletEdge extends ResthopperComponent {
 
 	public guid: string = "4b87eb13-f87c-4ff1-ae0e-6c9f1f2aecbd";
-	public name: string = "FilletEdge";
+	public name: string = "Fillet Edge";
 	public nickName: string = "FilEdge";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

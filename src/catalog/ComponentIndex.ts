@@ -2,8 +2,8 @@ import ResthopperComponent from '../models/ResthopperComponent';
 import Surface from './components/Surface/SurfaceComponentIndex';
 import Maths from './components/Maths/MathsComponentIndex';
 import Vector from './components/Vector/VectorComponentIndex';
-import Display from './components/Display/DisplayComponentIndex';
 import Mesh from './components/Mesh/MeshComponentIndex';
+import Display from './components/Display/DisplayComponentIndex';
 import Curve from './components/Curve/CurveComponentIndex';
 import Transform from './components/Transform/TransformComponentIndex';
 import Intersect from './components/Intersect/IntersectComponentIndex';
@@ -12,888 +12,890 @@ import Sets from './components/Sets/SetsComponentIndex';
 export default class ComponentIndex {
 
 	private static names: string[] = [
-		"FourPointSurface",
+		"4Point Surface",
 		"Absolute",
 		"Addition",
-		"AdjustPlane",
-		"AlignedDimension",
-		"AlignPlane",
-		"AlignPlanes",
-		"AlignVertices",
+		"Adjust Plane",
+		"Align Plane",
+		"Align Planes",
+		"Align Vertices",
+		"Aligned Dimension",
 		"Amplitude",
 		"Angle",
-		"AngularDimension",
-		"AngularDimensionsMesh",
+		"Angular Dimension",
+		"Angular Dimensions (Mesh)",
 		"Arc",
-		"ArcThreePt",
+		"Arc 3Pt",
+		"Arc Dimension",
+		"Arc SED",
 		"ArcCosine",
-		"ArcDimension",
-		"ArcSED",
 		"ArcSine",
 		"ArcTangent",
 		"Area",
-		"AreaMoments",
+		"Area Moments",
 		"Average",
-		"BarGraph",
+		"Bar Graph",
 		"Barycentric",
-		"BendDeform",
-		"BezierSpan",
+		"Bend Deform",
+		"Bezier Span",
 		"BiArc",
-		"BlendBox",
-		"BlendColours",
-		"BlendCurve",
-		"BlendCurvePt",
-		"BlurMesh",
-		"BlurNumbers",
-		"BoundarySurfaces",
-		"BoundaryVolume",
-		"BoundingBox",
+		"Blend Box",
+		"Blend Colours",
+		"Blend Curve",
+		"Blend Curve Pt",
+		"Blur Mesh",
+		"Blur Numbers",
+		"Boundary Surfaces",
+		"Boundary Volume",
+		"Bounding Box",
 		"Bounds",
-		"BoundsTwoD",
-		"BoxTwoPt",
-		"BoxArray",
-		"BoxCorners",
-		"BoxMapping",
-		"BoxMorph",
-		"BoxProperties",
-		"BoxRectangle",
-		"BoxSlits",
-		"BreakField",
-		"BrepBrep",
-		"BrepClosestPoint",
-		"BrepCurve",
-		"BrepEdges",
-		"BrepJoin",
-		"BrepLine",
-		"BrepPlane",
-		"BrepTopology",
-		"BrepWireframe",
-		"CameraObscura",
-		"CapHoles",
-		"CapHolesEx",
-		"CarthesianProduct",
+		"Bounds 2D",
+		"Box 2Pt",
+		"Box Array",
+		"Box Corners",
+		"Box Mapping",
+		"Box Morph",
+		"Box Properties",
+		"Box Rectangle",
+		"Box Slits",
+		"Break Field",
+		"Brep | Brep",
+		"Brep | Curve",
+		"Brep | Line",
+		"Brep | Plane",
+		"Brep Closest Point",
+		"Brep Edges",
+		"Brep Join",
+		"Brep Topology",
+		"Brep Wireframe",
+		"C# Script",
+		"Camera Obscura",
+		"Cap Holes",
+		"Cap Holes Ex",
+		"Carthesian Product",
 		"Catenary",
-		"CatenaryEx",
-		"CenterBox",
+		"Catenary Ex",
+		"Center Box",
 		"Centroid",
+		"Char Sequence",
 		"Characters",
-		"CharSequence",
 		"Circle",
-		"CircleThreePt",
-		"CircleCNR",
-		"CircleFit",
-		"CircleTanTan",
-		"CircleTanTanTan",
-		"CircularDimension",
+		"Circle 3Pt",
+		"Circle CNR",
+		"Circle Fit",
+		"Circle TanTan",
+		"Circle TanTanTan",
+		"Circular Dimension",
 		"Circumcentre",
 		"Clash",
-		"CleanTree",
+		"Clean Tree",
 		"Closed",
-		"ClosedEdges",
-		"ClosestPoint",
-		"ClosestPoints",
-		"CloudDisplay",
-		"CollisionManyMany",
-		"CollisionOneMany",
-		"ColourCMYK",
-		"ColourHSL",
-		"ColourHSV",
-		"ColourLab",
-		"ColourLCH",
-		"ColourRGB",
-		"ColourRGBf",
-		"ColourXYZ",
-		"CombineData",
-		"CombineDateTime",
-		"ComplexArgument",
-		"ComplexComponents",
-		"ComplexConjugate",
-		"ComplexModulus",
+		"Closed Edges",
+		"Closest Point",
+		"Closest Points",
+		"Cloud Display",
+		"Collision Many|Many",
+		"Collision One|Many",
+		"Colour CMYK",
+		"Colour HSL",
+		"Colour HSV",
+		"Colour L*ab",
+		"Colour LCH",
+		"Colour RGB",
+		"Colour RGB (f)",
+		"Colour XYZ",
+		"Combine Data",
+		"Combine Date & Time",
+		"Complex Argument",
+		"Complex Components",
+		"Complex Conjugate",
+		"Complex Modulus",
 		"Compound",
 		"Concatenate",
 		"Cone",
-		"ConnectCurves",
-		"ConsecutiveDomains",
-		"ConstructDate",
-		"ConstructDomain",
-		"ConstructExoticDate",
-		"ConstructMatrix",
-		"ConstructMesh",
-		"ConstructPath",
-		"ConstructPlane",
-		"ConstructPoint",
-		"ConstructSmoothTime",
-		"ConstructTime",
+		"Connect Curves",
+		"Consecutive Domains",
+		"Construct Date",
+		"Construct Domain",
+		"Construct Exotic Date",
+		"Construct Matrix",
+		"Construct Mesh",
+		"Construct Path",
+		"Construct Plane",
+		"Construct Point",
+		"Construct Smooth Time",
+		"Construct Time",
 		"Contour",
-		"Contourex",
-		"ControlPointLoft",
-		"ControlPoints",
-		"ControlPolygon",
-		"ConvexEdges",
-		"ConvexHull",
-		"CoordinateMask",
-		"CopyTrim",
+		"Contour (ex)",
+		"Control Point Loft",
+		"Control Points",
+		"Control Polygon",
+		"Convex Edges",
+		"Convex Hull",
+		"Coordinate Mask",
+		"Copy Trim",
 		"CoSecant",
 		"Cosine",
 		"CoTangent",
-		"CreateComplex",
-		"CreateMaterial",
-		"CreateSet",
-		"CrossProduct",
-		"CrossReference",
-		"CScript",
+		"Create Complex",
+		"Create Material",
+		"Create Set",
+		"Cross Product",
+		"Cross Reference",
 		"Cube",
-		"CubeRoot",
-		"CullDuplicates",
-		"CullFaces",
-		"CullIndex",
-		"CullNth",
-		"CullPattern",
-		"CullVertices",
+		"Cube Root",
+		"Cull Duplicates",
+		"Cull Faces",
+		"Cull Index",
+		"Cull Nth",
+		"Cull Pattern",
+		"Cull Vertices",
 		"Curvature",
-		"CurvatureGraph",
-		"CurveArray",
-		"CurveClosestPoint",
-		"CurveCurve",
-		"CurveDepth",
-		"CurveDomain",
-		"CurveFrame",
-		"CurveFrames",
-		"CurveLine",
-		"CurveMiddle",
-		"CurveNearestObject",
-		"CurveOnSurface",
-		"CurvePlane",
-		"CurveProximity",
-		"CurveSelf",
-		"CurveSide",
-		"CurveToPolyline",
-		"CustomPreview",
+		"Curvature Graph",
+		"Curve | Curve",
+		"Curve | Line",
+		"Curve | Plane",
+		"Curve | Self",
+		"Curve Array",
+		"Curve Closest Point",
+		"Curve Depth",
+		"Curve Domain",
+		"Curve Frame",
+		"Curve Frames",
+		"Curve Middle",
+		"Curve Nearest Object",
+		"Curve On Surface",
+		"Curve Proximity",
+		"Curve Side",
+		"Curve To Polyline",
+		"Custom Preview",
 		"Cylinder",
-		"DashPattern",
-		"DateRange",
+		"Dash Pattern",
+		"Date Range",
 		"Deconstruct",
-		"DeconstructArc",
-		"DeconstructBox",
-		"DeconstructBrep",
-		"DeconstructDate",
-		"DeconstructDomain",
-		"DeconstructFace",
-		"DeconstructMatrix",
-		"DeconstructMesh",
-		"DeconstructPath",
-		"DeconstructPlane",
-		"DeconstructVector",
-		"DeconstuctRectangle",
+		"Deconstruct Arc",
+		"Deconstruct Box",
+		"Deconstruct Brep",
+		"Deconstruct Date",
+		"Deconstruct Domain",
+		"Deconstruct Face",
+		"Deconstruct Matrix",
+		"Deconstruct Mesh",
+		"Deconstruct Path",
+		"Deconstruct Plane",
+		"Deconstruct Vector",
+		"Deconstuct Rectangle",
 		"Degrees",
-		"DelaunayEdges",
-		"DelaunayMesh",
-		"DeleteConsecutive",
-		"DeleteFaces",
-		"DeleteVertices",
+		"Delaunay Edges",
+		"Delaunay Mesh",
+		"Delete Consecutive",
+		"Delete Faces",
+		"Delete Vertices",
 		"Derivatives",
 		"Dimensions",
-		"DirectionDisplay",
+		"Direction Display",
 		"Discontinuity",
 		"Disjoint",
-		"DisjointMesh",
+		"Disjoint Mesh",
 		"Dispatch",
-		"DisplayMatrix",
+		"Display Matrix",
 		"Distance",
 		"Divide",
-		"DivideByDeviation",
-		"DivideCurve",
-		"DivideDistance",
-		"DivideDomain",
-		"DivideLength",
-		"DivideSurface",
+		"Divide By Deviation",
+		"Divide Curve",
+		"Divide Distance",
+		"Divide Domain",
+		"Divide Length",
+		"Divide Surface",
 		"Division",
-		"DomainBox",
-		"DotDisplay",
-		"DotNETCScriptLEGACY",
-		"DotNETVBScriptLEGACY",
-		"DotProduct",
-		"DuplicateData",
-		"EdgesfromDirections",
-		"EdgesfromFaces",
-		"EdgesfromLength",
-		"EdgesfromLinearity",
-		"EdgesfromPoints",
-		"EdgeSurface",
+		"Domain Box",
+		"Dot Display",
+		"Dot Product",
+		"DotNET C# Script (LEGACY)",
+		"DotNET VB Script (LEGACY)",
+		"Duplicate Data",
+		"Edge Surface",
+		"Edges from Directions",
+		"Edges from Faces",
+		"Edges from Length",
+		"Edges from Linearity",
+		"Edges from Points",
 		"Ellipse",
-		"EndPoints",
+		"End Points",
 		"Entwine",
 		"Epsilon",
 		"Equality",
 		"Evaluate",
-		"EvaluateBox",
-		"EvaluateCurve",
-		"EvaluateField",
-		"EvaluateLength",
-		"EvaluateSurface",
+		"Evaluate Box",
+		"Evaluate Curve",
+		"Evaluate Field",
+		"Evaluate Length",
+		"Evaluate Surface",
 		"Explode",
-		"ExplodeTree",
+		"Explode Tree",
 		"Exposure",
 		"Expression",
-		"ExtendCurve",
+		"Extend Curve",
 		"Extremes",
 		"Extrude",
-		"ExtrudeAlong",
-		"ExtrudeAngled",
-		"ExtrudeLinear",
-		"ExtrudePoint",
-		"FaceBoundaries",
-		"FaceCircles",
-		"FaceNormals",
-		"FacetDome",
+		"Extrude Along",
+		"Extrude Angled",
+		"Extrude Linear",
+		"Extrude Point",
+		"Face Boundaries",
+		"Face Circles",
+		"Face Normals",
+		"Facet Dome",
 		"Factorial",
 		"Fibonacci",
-		"FieldLine",
+		"Field Line",
 		"Fillet",
-		"FilletDistance",
-		"FilletEdge",
-		"FindDomain",
-		"Findsimilarmember",
-		"FitCurve",
-		"FitLine",
-		"FitLoft",
-		"FlattenTree",
+		"Fillet Distance",
+		"Fillet Edge",
+		"Find Domain",
+		"Find similar member",
+		"Fit Curve",
+		"Fit Line",
+		"Fit Loft",
+		"Flatten Tree",
 		"Flip",
-		"FlipCurve",
-		"FlipMatrix",
-		"FlipMesh",
-		"FlipPlane",
+		"Flip Curve",
+		"Flip Matrix",
+		"Flip Mesh",
+		"Flip Plane",
 		"Flow",
 		"Format",
-		"FragmentPatch",
-		"GateAnd",
-		"GateMajority",
-		"GateNand",
-		"GateNor",
-		"GateNot",
-		"GateOr",
-		"GateXnor",
-		"GateXor",
+		"Fragment Patch",
+		"Gate And",
+		"Gate Majority",
+		"Gate Nand",
+		"Gate Nor",
+		"Gate Not",
+		"Gate Or",
+		"Gate Xnor",
+		"Gate Xor",
 		"Geodesic",
-		"GhPythonScript",
-		"GoldenRatio",
-		"GraftTree",
+		"GhPython Script",
+		"Golden Ratio",
+		"Graft Tree",
 		"Group",
 		"Hexagonal",
-		"HorizontalFrame",
-		"HorizontalFrames",
-		"ImageGallery",
+		"Horizontal Frame",
+		"Horizontal Frames",
+		"Image Gallery",
 		"Incentre",
 		"InCircle",
 		"Includes",
 		"InEllipse",
-		"InsertItems",
-		"IntegerDivision",
+		"Insert Items",
+		"Integer Division",
 		"Interpolate",
-		"Interpolatedata",
-		"InterpolateDate",
-		"Interpolatet",
-		"InverseTransform",
-		"InvertMatrix",
-		"IsoCurve",
+		"Interpolate (t)",
+		"Interpolate data",
+		"Interpolate Date",
+		"Inverse Transform",
+		"Invert Matrix",
+		"Is Planar",
+		"Iso Curve",
 		"Isotrim",
 		"IsoVist",
-		"IsoVistRay",
-		"IsPlanar",
-		"ItemIndex",
+		"IsoVist Ray",
+		"Item Index",
 		"Jitter",
-		"JoinCurves",
+		"Join Curves",
 		"Kaleidoscope",
-		"KeyValueSearch",
-		"KinkyCurve",
-		"KnotVector",
-		"LargerThan",
+		"Key/Value Search",
+		"Kinky Curve",
+		"Knot Vector",
+		"Larger Than",
 		"Legend",
 		"Length",
-		"LengthDomain",
-		"LengthParameter",
+		"Length Domain",
+		"Length Parameter",
 		"Line",
-		"LineTwoPlane",
-		"LineFourPt",
-		"LinearArray",
-		"LinearDimension",
-		"LineCharge",
-		"LineDimension",
-		"LineLine",
-		"LinePlane",
-		"LinePt",
-		"LineSDL",
-		"ListItem",
-		"ListLength",
+		"Line + Line",
+		"Line + Pt",
+		"Line | Plane",
+		"Line 2Plane",
+		"Line 4Pt",
+		"Line Charge",
+		"Line Dimension",
+		"Line SDL",
+		"Linear Array",
+		"Linear Dimension",
+		"List Item",
+		"List Length",
 		"Loft",
-		"LoftOptions",
+		"Loft Options",
+		"Log N",
 		"Logarithm",
-		"LogN",
-		"LongestList",
+		"Longest List",
 		"Maelstrom",
-		"MakeTwoD",
-		"MakeTwoDParallelView",
-		"MakeTwoDPerspectiveView",
-		"MakeTwoDRhinoView",
-		"MaptoSurface",
-		"MarkerDimension",
-		"MassAddition",
-		"MassMultiplication",
-		"MatchCurve",
-		"MatchText",
-		"MatchTree",
+		"Make2D",
+		"Make2D Parallel View",
+		"Make2D Perspective View",
+		"Make2D Rhino View",
+		"Map to Surface",
+		"Marker Dimension",
+		"Mass Addition",
+		"Mass Multiplication",
+		"Match Curve",
+		"Match Text",
+		"Match Tree",
 		"Maximum",
-		"MemberIndex",
+		"Member Index",
 		"Merge",
-		"MergeZeroThree",
-		"MergeZeroFour",
-		"MergeZeroFive",
-		"MergeZeroSix",
-		"MergeZeroEight",
-		"MergeOneZero",
-		"MergeFaces",
-		"MergeFields",
-		"MergeGroup",
-		"MergeMultiple",
-		"MeshBox",
-		"MeshBrep",
-		"MeshClosestPoint",
-		"MeshColours",
-		"MeshCurve",
-		"MeshDepth",
-		"MeshDifference",
-		"MeshEdges",
-		"MeshEval",
-		"MeshfromSubD",
-		"MeshInclusion",
-		"MeshIntersection",
-		"MeshJoin",
-		"MeshMesh",
-		"MeshPlane",
-		"MeshQuad",
-		"MeshRay",
-		"MeshShadow",
-		"MeshSphere",
-		"MeshSphereEx",
-		"MeshSplit",
-		"MeshSplitPlane",
-		"MeshSpray",
-		"MeshSurface",
-		"MeshTriangle",
-		"MeshUnion",
+		"Merge 03",
+		"Merge 04",
+		"Merge 05",
+		"Merge 06",
+		"Merge 08",
+		"Merge 10",
+		"Merge Faces",
+		"Merge Fields",
+		"Merge Group",
+		"Merge Multiple",
+		"Mesh | Curve",
+		"Mesh | Mesh",
+		"Mesh | Plane",
+		"Mesh | Ray",
+		"Mesh Box",
+		"Mesh Brep",
+		"Mesh Closest Point",
+		"Mesh Colours",
+		"Mesh Depth",
+		"Mesh Difference",
+		"Mesh Edges",
+		"Mesh Eval",
+		"Mesh from Sub-D",
+		"Mesh Inclusion",
+		"Mesh Intersection",
+		"Mesh Join",
+		"Mesh Quad",
+		"Mesh Shadow",
+		"Mesh Sphere",
+		"Mesh Sphere Ex",
+		"Mesh Split",
+		"Mesh Split Plane",
+		"Mesh Spray",
+		"Mesh Surface",
+		"Mesh Triangle",
+		"Mesh Union",
 		"MetaBall",
-		"MetaBallt",
-		"MetaBalltCustom",
+		"MetaBall(t)",
+		"MetaBall(t) Custom",
 		"Minimum",
 		"Mirror",
-		"MirrorCurve",
-		"MirrorSurface",
-		"ModifiedArc",
+		"Mirror Curve",
+		"Mirror Surface",
+		"Modified Arc",
 		"Modulus",
 		"Move",
-		"MoveAwayFrom",
-		"MoveToPlane",
-		"MultipleCurves",
+		"Move Away From",
+		"Move To Plane",
+		"Multiple Curves",
 		"Multiplication",
 		"Multiply",
-		"Naturallogarithm",
+		"Natural logarithm",
 		"Negative",
-		"NetworkSurface",
-		"NullItem",
-		"NumberstoPoints",
-		"NurbsCurve",
-		"NurbsCurvePWK",
+		"Network Surface",
+		"Null Item",
+		"Numbers to Points",
+		"Nurbs Curve",
+		"Nurbs Curve PWK",
 		"Occlusion",
 		"OcTree",
-		"OffsetCurve",
-		"OffsetCurveLoose",
-		"OffsetLooseThreeD",
-		"OffsetonSrf",
-		"OffsetPolyline",
-		"OffsetSurface",
-		"OffsetSurfaceLoose",
-		"OneOverX",
+		"Offset Curve",
+		"Offset Curve Loose",
+		"Offset Loose 3D",
+		"Offset on Srf",
+		"Offset Polyline",
+		"Offset Surface",
+		"Offset Surface Loose",
+		"One Over X",
 		"Orient",
-		"OrientDirection",
+		"Orient Direction",
 		"Orthocentre",
-		"OsculatingCircles",
-		"PartitionList",
+		"Osculating Circles",
+		"Partition List",
 		"Patch",
-		"PathCompare",
-		"PathMapper",
-		"PerpendicularDisplay",
-		"PerpFrame",
-		"PerpFrames",
+		"Path Compare",
+		"Path Mapper",
+		"Perp Frame",
+		"Perp Frames",
+		"Perpendicular Display",
 		"Pi",
-		"PicknChoose",
-		"PieChart",
+		"Pick'n'Choose",
+		"Pie Chart",
 		"Pipe",
-		"PipeVariable",
+		"Pipe Variable",
 		"Planar",
-		"PlaneThreePt",
-		"PlaneClosestPoint",
-		"PlaneCoordinates",
-		"PlaneFit",
-		"PlaneNormal",
-		"PlaneOffset",
-		"PlaneOrigin",
-		"PlanePlane",
-		"PlanePlanePlane",
-		"PlaneRegion",
-		"PlaneSurface",
-		"PlaneThroughShape",
-		"PointCharge",
-		"PointCylindrical",
-		"PointDeform",
-		"PointGroups",
-		"PointInBrep",
-		"PointInBreps",
-		"PointInCurve",
-		"PointinCurves",
-		"PointInTrim",
-		"PointList",
-		"PointOnCurve",
-		"PointOrder",
-		"PointOriented",
-		"PointPolar",
-		"PointstoNumbers",
-		"PolarArray",
+		"Plane | Plane",
+		"Plane | Plane | Plane",
+		"Plane 3Pt",
+		"Plane Closest Point",
+		"Plane Coordinates",
+		"Plane Fit",
+		"Plane Normal",
+		"Plane Offset",
+		"Plane Origin",
+		"Plane Region",
+		"Plane Surface",
+		"Plane Through Shape",
+		"Point Charge",
+		"Point Cylindrical",
+		"Point Deform",
+		"Point Groups",
+		"Point In Brep",
+		"Point In Breps",
+		"Point In Curve",
+		"Point in Curves",
+		"Point In Trim",
+		"Point List",
+		"Point On Curve",
+		"Point Order",
+		"Point Oriented",
+		"Point Polar",
+		"Points to Numbers",
+		"Polar Array",
 		"PolyArc",
 		"Polygon",
-		"PolygonCenter",
-		"PolygonEdge",
+		"Polygon Center",
+		"Polygon Edge",
 		"PolyLine",
-		"PolylineCollapse",
-		"PopulateTwoD",
-		"PopulateThreeD",
-		"PopulateGeometry",
+		"Polyline Collapse",
+		"Populate 2D",
+		"Populate 3D",
+		"Populate Geometry",
 		"Power",
-		"PowerofOneZero",
-		"PowerofTwo",
-		"PowerofE",
-		"PrincipalCurvature",
+		"Power of 10",
+		"Power of 2",
+		"Power of E",
+		"Principal Curvature",
 		"Project",
-		"ProjectAlong",
-		"ProjectPoint",
-		"ProximityTwoD",
-		"ProximityThreeD",
-		"PruneTree",
-		"PullCurve",
-		"PullPoint",
+		"Project Along",
+		"Project Point",
+		"Proximity 2D",
+		"Proximity 3D",
+		"Prune Tree",
+		"Pull Curve",
+		"Pull Point",
+		"Quad Sphere",
 		"Quadrangulate",
-		"QuadSphere",
 		"QuadTree",
-		"QuickGraph",
+		"Quick Graph",
 		"Radial",
 		"Radians",
-		"RailRevolution",
+		"Rail Revolution",
 		"Random",
+		"Random Reduce",
 		"RandomEx",
-		"RandomReduce",
 		"Range",
-		"RebuildCurve",
+		"Rebuild Curve",
 		"Rectangle",
-		"RectangleTwoPt",
-		"RectangleThreePt",
-		"RectangleMapping",
+		"Rectangle 2Pt",
+		"Rectangle 3Pt",
+		"Rectangle Mapping",
 		"Rectangular",
-		"RectangularArray",
+		"Rectangular Array",
 		"Reduce",
-		"RegionDifference",
-		"RegionIntersection",
-		"RegionSlits",
-		"RegionUnion",
-		"RelativeDifferences",
-		"RelativeItem",
-		"RelativeItems",
-		"RemapNumbers",
-		"RepeatData",
-		"ReplaceItems",
-		"ReplaceMembers",
-		"ReplaceNulls",
-		"ReplacePaths",
-		"ReplaceText",
+		"Region Difference",
+		"Region Intersection",
+		"Region Slits",
+		"Region Union",
+		"Relative Differences",
+		"Relative Item",
+		"Relative Items",
+		"Remap Numbers",
+		"Repeat Data",
+		"Replace Items",
+		"Replace Members",
+		"Replace Nulls",
+		"Replace Paths",
+		"Replace Text",
 		"Retrim",
 		"Reverse",
-		"ReverseList",
+		"Reverse List",
 		"Revolution",
-		"RightTrigonometry",
+		"Right Trigonometry",
 		"Rotate",
-		"RotateThreeD",
-		"RotateAxis",
-		"RotateDirection",
-		"RotatePlane",
+		"Rotate 3D",
+		"Rotate Axis",
+		"Rotate Direction",
+		"Rotate Plane",
 		"Round",
-		"RuledSurface",
-		"SanityXForm",
-		"ScalarDisplay",
+		"Ruled Surface",
+		"Sanity XForm",
+		"Scalar Display",
 		"Scale",
-		"ScaleNU",
+		"Scale NU",
 		"Seam",
 		"Secant",
-		"SegmentLengths",
+		"Segment Lengths",
 		"Sequence",
-		"SerialDimension",
+		"Serial Dimension",
 		"Series",
-		"SeriesAddition",
-		"SetDifference",
-		"SetDifferenceS",
-		"SetIntersection",
-		"SetMajority",
-		"SettingsCustom",
-		"SettingsQuality",
-		"SettingsSpeed",
-		"SetUnion",
-		"ShapeInBrep",
+		"Series Addition",
+		"Set Difference",
+		"Set Difference (S)",
+		"Set Intersection",
+		"Set Majority",
+		"Set Union",
+		"Settings (Custom)",
+		"Settings (Quality)",
+		"Settings (Speed)",
+		"Shape In Brep",
 		"Shatter",
 		"Shear",
-		"ShearAngle",
-		"ShiftList",
-		"ShiftPaths",
-		"ShortestList",
-		"SiftPattern",
+		"Shear Angle",
+		"Shift List",
+		"Shift Paths",
+		"Shortest List",
+		"Sift Pattern",
 		"Similarity",
-		"SimpleMesh",
-		"SimplifyCurve",
-		"SimplifyTree",
+		"Simple Mesh",
+		"Simplify Curve",
+		"Simplify Tree",
 		"Sinc",
 		"Sine",
-		"SmallerThan",
-		"SmoothMesh",
-		"SmoothNumbers",
-		"SmoothPolyline",
-		"SolarIncidence",
-		"SolidDifference",
-		"SolidIntersection",
-		"SolidUnion",
-		"SortAlongCurve",
-		"SortList",
-		"SortPoints",
-		"SortText",
-		"SpatialDeform",
-		"SpatialDeformcustom",
+		"Smaller Than",
+		"Smooth Mesh",
+		"Smooth Numbers",
+		"Smooth Polyline",
+		"Solar Incidence",
+		"Solid Difference",
+		"Solid Intersection",
+		"Solid Union",
+		"Sort Along Curve",
+		"Sort List",
+		"Sort Points",
+		"Sort Text",
+		"Spatial Deform",
+		"Spatial Deform (custom)",
 		"Sphere",
-		"SphereFourPt",
-		"SphereFit",
-		"SpinForce",
+		"Sphere 4Pt",
+		"Sphere Fit",
+		"Spin Force",
 		"Split",
-		"SplitAHSL",
-		"SplitAHSV",
-		"SplitARGB",
-		"SplitBrep",
-		"SplitBrepMultiple",
-		"SplitGroup",
-		"SplitList",
-		"SplitTree",
-		"SplitwithBrep",
-		"SplitwithBreps",
+		"Split AHSL",
+		"Split AHSV",
+		"Split ARGB",
+		"Split Brep",
+		"Split Brep Multiple",
+		"Split Group",
+		"Split List",
+		"Split Tree",
+		"Split with Brep",
+		"Split with Breps",
 		"Splop",
 		"Sporph",
 		"Square",
-		"SquareRoot",
-		"StackData",
-		"StreamFilter",
-		"StreamGate",
+		"Square Root",
+		"Stack Data",
+		"Stream Filter",
+		"Stream Gate",
 		"Stretch",
-		"SubCurve",
-		"SubDBox",
-		"SubDControlPolygon",
-		"SubDEdges",
-		"SubDFaces",
-		"SubDfromMesh",
-		"SubDVertices",
-		"SubList",
+		"Sub Curve",
+		"Sub List",
+		"Sub-D Control Polygon",
+		"Sub-D Edges",
+		"Sub-D Faces",
+		"Sub-D from Mesh",
+		"Sub-D Vertices",
+		"SubD Box",
 		"SubSet",
 		"Substrate",
 		"Subtraction",
-		"SumSurface",
-		"SurfaceBox",
-		"SurfaceClosestPoint",
-		"SurfaceCurvature",
-		"SurfaceCurve",
-		"SurfaceFrames",
-		"SurfaceFromPoints",
-		"SurfaceInflection",
-		"SurfaceLine",
-		"SurfaceMorph",
-		"SurfacePoints",
-		"SurfaceSplit",
-		"SwapColumns",
-		"SwapRows",
-		"SweepOne",
-		"SweepTwo",
-		"SwingArc",
-		"SymbolAdvanced",
-		"SymbolDisplay",
-		"SymbolSimple",
+		"Sum Surface",
+		"Surface | Curve",
+		"Surface | Line",
+		"Surface Box",
+		"Surface Closest Point",
+		"Surface Curvature",
+		"Surface Frames",
+		"Surface From Points",
+		"Surface Inflection",
+		"Surface Morph",
+		"Surface Points",
+		"Surface Split",
+		"Swap Columns",
+		"Swap Rows",
+		"Sweep1",
+		"Sweep2",
+		"Swing Arc",
+		"Symbol (Advanced)",
+		"Symbol (Simple)",
+		"Symbol Display",
 		"Tangent",
-		"TangentArcs",
-		"TangentCurve",
-		"TangentLines",
-		"TangentLinesEx",
-		"TangentLinesIn",
+		"Tangent Arcs",
+		"Tangent Curve",
+		"Tangent Lines",
+		"Tangent Lines (Ex)",
+		"Tangent Lines (In)",
 		"Taper",
-		"TensorDisplay",
-		"TestCrash",
-		"TextCase",
-		"TextDistance",
-		"TextFragment",
-		"TextJoin",
-		"TextLength",
-		"TextSplit",
-		"TextTag",
-		"TextTagThreeD",
-		"TextTrim",
-		"ToPolar",
+		"Tensor Display",
+		"Test Crash",
+		"Text Case",
+		"Text Distance",
+		"Text Fragment",
+		"Text Join",
+		"Text Length",
+		"Text Split",
+		"Text Tag",
+		"Text Tag 3D",
+		"Text Trim",
+		"To Polar",
 		"Torsion",
-		"TransformMatrix",
-		"TransposeMatrix",
-		"TreeBranch",
-		"TreeItem",
-		"TreeStatistics",
-		"TriangleMapping",
-		"TriangleTrigonometry",
+		"Transform Matrix",
+		"Transpose Matrix",
+		"Tree Branch",
+		"Tree Item",
+		"Tree Statistics",
+		"Triangle Mapping",
+		"Triangle Trigonometry",
 		"Triangular",
 		"Triangulate",
-		"TrimSolid",
-		"TrimTree",
-		"TrimwithBrep",
-		"TrimwithBreps",
-		"TrimwithRegion",
-		"TrimwithRegions",
+		"Trim Solid",
+		"Trim Tree",
+		"Trim with Brep",
+		"Trim with Breps",
+		"Trim with Region",
+		"Trim with Regions",
 		"Truncate",
-		"TweenCurve",
+		"Tween Curve",
 		"Twist",
-		"TwistedBox",
+		"Twisted Box",
 		"TwoByFourJam",
-		"UnflattenTree",
+		"Unflatten Tree",
 		"Ungroup",
-		"UnifyMesh",
-		"UnitVector",
-		"UnitX",
-		"UnitY",
-		"UnitZ",
+		"Unify Mesh",
+		"Unit Vector",
+		"Unit X",
+		"Unit Y",
+		"Unit Z",
 		"Untrim",
-		"UnweldMesh",
-		"ValueTracker",
+		"Unweld Mesh",
+		"Value Tracker",
 		"Variable",
-		"VBScript",
-		"VectorTwoPt",
-		"VectorDisplay",
-		"VectorDisplayEx",
-		"VectorForce",
-		"VectorLength",
-		"VectorXYZ",
-		"ViewportDisplay",
+		"VB Script",
+		"Vector 2Pt",
+		"Vector Display",
+		"Vector Display Ex",
+		"Vector Force",
+		"Vector Length",
+		"Vector XYZ",
+		"Viewport Display",
 		"Volume",
-		"VolumeMoments",
+		"Volume Moments",
 		"Voronoi",
-		"VoronoiThreeD",
-		"VoronoiCell",
-		"VoronoiGroups",
+		"Voronoi 3D",
+		"Voronoi Cell",
+		"Voronoi Groups",
 		"Weave",
-		"WeightedAverage",
-		"WeldMesh",
-		"XYPlane",
-		"XZPlane",
-		"YZPlane"
+		"Weighted Average",
+		"Weld Mesh",
+		"XY Plane",
+		"XZ Plane",
+		"YZ Plane"
 	];
 
 	public static createComponent(name: GrasshopperComponent): ResthopperComponent {
 		switch(name) {
-			case "FourPointSurface":
+			case "4Point Surface":
 				return new Surface.Freeform.FourPointSurface();
 			case "Absolute":
 				return new Maths.Operators.Absolute();
 			case "Addition":
 				return new Maths.Operators.Addition();
-			case "AdjustPlane":
+			case "Adjust Plane":
 				return new Vector.Plane.AdjustPlane();
-			case "AlignedDimension":
-				return new Display.Dimensions.AlignedDimension();
-			case "AlignPlane":
+			case "Align Plane":
 				return new Vector.Plane.AlignPlane();
-			case "AlignPlanes":
+			case "Align Planes":
 				return new Vector.Plane.AlignPlanes();
-			case "AlignVertices":
+			case "Align Vertices":
 				return new Mesh.Util.AlignVertices();
+			case "Aligned Dimension":
+				return new Display.Dimensions.AlignedDimension();
 			case "Amplitude":
 				return new Vector.Vector.Amplitude();
 			case "Angle":
 				return new Vector.Vector.Angle();
-			case "AngularDimension":
+			case "Angular Dimension":
 				return new Display.Dimensions.AngularDimension();
-			case "AngularDimensionsMesh":
+			case "Angular Dimensions (Mesh)":
 				return new Display.Dimensions.AngularDimensionsMesh();
 			case "Arc":
 				return new Curve.Primitive.Arc();
-			case "ArcThreePt":
+			case "Arc 3Pt":
 				return new Curve.Primitive.ArcThreePt();
+			case "Arc Dimension":
+				return new Display.Dimensions.ArcDimension();
+			case "Arc SED":
+				return new Curve.Primitive.ArcSED();
 			case "ArcCosine":
 				return new Maths.Trig.ArcCosine();
-			case "ArcDimension":
-				return new Display.Dimensions.ArcDimension();
-			case "ArcSED":
-				return new Curve.Primitive.ArcSED();
 			case "ArcSine":
 				return new Maths.Trig.ArcSine();
 			case "ArcTangent":
 				return new Maths.Trig.ArcTangent();
 			case "Area":
 				return new Surface.Analysis.Area();
-			case "AreaMoments":
+			case "Area Moments":
 				return new Surface.Analysis.AreaMoments();
 			case "Average":
 				return new Maths.Util.Average();
-			case "BarGraph":
+			case "Bar Graph":
 				return new Display.Graphs.BarGraph();
 			case "Barycentric":
 				return new Vector.Point.Barycentric();
-			case "BendDeform":
+			case "Bend Deform":
 				return new Transform.Morph.BendDeform();
-			case "BezierSpan":
+			case "Bezier Span":
 				return new Curve.Spline.BezierSpan();
 			case "BiArc":
 				return new Curve.Primitive.BiArc();
-			case "BlendBox":
+			case "Blend Box":
 				return new Transform.Morph.BlendBox();
-			case "BlendColours":
+			case "Blend Colours":
 				return new Vector.Colour.BlendColours();
-			case "BlendCurve":
+			case "Blend Curve":
 				return new Curve.Spline.BlendCurve();
-			case "BlendCurvePt":
+			case "Blend Curve Pt":
 				return new Curve.Spline.BlendCurvePt();
-			case "BlurMesh":
+			case "Blur Mesh":
 				return new Mesh.Util.BlurMesh();
-			case "BlurNumbers":
+			case "Blur Numbers":
 				return new Maths.Util.BlurNumbers();
-			case "BoundarySurfaces":
+			case "Boundary Surfaces":
 				return new Surface.Freeform.BoundarySurfaces();
-			case "BoundaryVolume":
+			case "Boundary Volume":
 				return new Intersect.Shape.BoundaryVolume();
-			case "BoundingBox":
+			case "Bounding Box":
 				return new Surface.Primitive.BoundingBox();
 			case "Bounds":
 				return new Maths.Domain.Bounds();
-			case "BoundsTwoD":
+			case "Bounds 2D":
 				return new Maths.Domain.BoundsTwoD();
-			case "BoxTwoPt":
+			case "Box 2Pt":
 				return new Surface.Primitive.BoxTwoPt();
-			case "BoxArray":
+			case "Box Array":
 				return new Transform.Array.BoxArray();
-			case "BoxCorners":
+			case "Box Corners":
 				return new Surface.Analysis.BoxCorners();
-			case "BoxMapping":
+			case "Box Mapping":
 				return new Transform.Affine.BoxMapping();
-			case "BoxMorph":
+			case "Box Morph":
 				return new Transform.Morph.BoxMorph();
-			case "BoxProperties":
+			case "Box Properties":
 				return new Surface.Analysis.BoxProperties();
-			case "BoxRectangle":
+			case "Box Rectangle":
 				return new Surface.Primitive.BoxRectangle();
-			case "BoxSlits":
+			case "Box Slits":
 				return new Intersect.Shape.BoxSlits();
-			case "BreakField":
+			case "Break Field":
 				return new Vector.Field.BreakField();
-			case "BrepBrep":
+			case "Brep | Brep":
 				return new Intersect.Physical.BrepBrep();
-			case "BrepClosestPoint":
-				return new Surface.Analysis.BrepClosestPoint();
-			case "BrepCurve":
+			case "Brep | Curve":
 				return new Intersect.Physical.BrepCurve();
-			case "BrepEdges":
-				return new Surface.Analysis.BrepEdges();
-			case "BrepJoin":
-				return new Surface.Util.BrepJoin();
-			case "BrepLine":
+			case "Brep | Line":
 				return new Intersect.Mathematical.BrepLine();
-			case "BrepPlane":
+			case "Brep | Plane":
 				return new Intersect.Mathematical.BrepPlane();
-			case "BrepTopology":
+			case "Brep Closest Point":
+				return new Surface.Analysis.BrepClosestPoint();
+			case "Brep Edges":
+				return new Surface.Analysis.BrepEdges();
+			case "Brep Join":
+				return new Surface.Util.BrepJoin();
+			case "Brep Topology":
 				return new Surface.Analysis.BrepTopology();
-			case "BrepWireframe":
+			case "Brep Wireframe":
 				return new Surface.Analysis.BrepWireframe();
-			case "CameraObscura":
+			case "C# Script":
+				return new Maths.Script.CScript();
+			case "Camera Obscura":
 				return new Transform.Affine.CameraObscura();
-			case "CapHoles":
+			case "Cap Holes":
 				return new Surface.Util.CapHoles();
-			case "CapHolesEx":
+			case "Cap Holes Ex":
 				return new Surface.Util.CapHolesEx();
-			case "CarthesianProduct":
+			case "Carthesian Product":
 				return new Sets.Sets.CarthesianProduct();
 			case "Catenary":
 				return new Curve.Spline.Catenary();
-			case "CatenaryEx":
+			case "Catenary Ex":
 				return new Curve.Spline.CatenaryEx();
-			case "CenterBox":
+			case "Center Box":
 				return new Surface.Primitive.CenterBox();
 			case "Centroid":
 				return new Maths.Trig.Centroid();
+			case "Char Sequence":
+				return new Sets.Sequence.CharSequence();
 			case "Characters":
 				return new Sets.Text.Characters();
-			case "CharSequence":
-				return new Sets.Sequence.CharSequence();
 			case "Circle":
 				return new Curve.Primitive.Circle();
-			case "CircleThreePt":
+			case "Circle 3Pt":
 				return new Curve.Primitive.CircleThreePt();
-			case "CircleCNR":
+			case "Circle CNR":
 				return new Curve.Primitive.CircleCNR();
-			case "CircleFit":
+			case "Circle Fit":
 				return new Curve.Primitive.CircleFit();
-			case "CircleTanTan":
+			case "Circle TanTan":
 				return new Curve.Primitive.CircleTanTan();
-			case "CircleTanTanTan":
+			case "Circle TanTanTan":
 				return new Curve.Primitive.CircleTanTanTan();
-			case "CircularDimension":
+			case "Circular Dimension":
 				return new Display.Dimensions.CircularDimension();
 			case "Circumcentre":
 				return new Maths.Trig.Circumcentre();
 			case "Clash":
 				return new Intersect.Physical.Clash();
-			case "CleanTree":
+			case "Clean Tree":
 				return new Sets.Tree.CleanTree();
 			case "Closed":
 				return new Curve.Analysis.Closed();
-			case "ClosedEdges":
+			case "Closed Edges":
 				return new Surface.Util.ClosedEdges();
-			case "ClosestPoint":
+			case "Closest Point":
 				return new Vector.Point.ClosestPoint();
-			case "ClosestPoints":
+			case "Closest Points":
 				return new Vector.Point.ClosestPoints();
-			case "CloudDisplay":
+			case "Cloud Display":
 				return new Display.Preview.CloudDisplay();
-			case "CollisionManyMany":
+			case "Collision Many|Many":
 				return new Intersect.Physical.CollisionManyMany();
-			case "CollisionOneMany":
+			case "Collision One|Many":
 				return new Intersect.Physical.CollisionOneMany();
-			case "ColourCMYK":
+			case "Colour CMYK":
 				return new Display.Colour.ColourCMYK();
-			case "ColourHSL":
+			case "Colour HSL":
 				return new Display.Colour.ColourHSL();
-			case "ColourHSV":
+			case "Colour HSV":
 				return new Display.Colour.ColourHSV();
-			case "ColourLab":
+			case "Colour L*ab":
 				return new Display.Colour.ColourLab();
-			case "ColourLCH":
+			case "Colour LCH":
 				return new Display.Colour.ColourLCH();
-			case "ColourRGB":
+			case "Colour RGB":
 				return new Display.Colour.ColourRGB();
-			case "ColourRGBf":
+			case "Colour RGB (f)":
 				return new Display.Colour.ColourRGBf();
-			case "ColourXYZ":
+			case "Colour XYZ":
 				return new Display.Colour.ColourXYZ();
-			case "CombineData":
+			case "Combine Data":
 				return new Sets.List.CombineData();
-			case "CombineDateTime":
+			case "Combine Date & Time":
 				return new Maths.Time.CombineDateTime();
-			case "ComplexArgument":
+			case "Complex Argument":
 				return new Maths.Util.ComplexArgument();
-			case "ComplexComponents":
+			case "Complex Components":
 				return new Maths.Util.ComplexComponents();
-			case "ComplexConjugate":
+			case "Complex Conjugate":
 				return new Maths.Util.ComplexConjugate();
-			case "ComplexModulus":
+			case "Complex Modulus":
 				return new Maths.Util.ComplexModulus();
 			case "Compound":
 				return new Transform.Util.Compound();
@@ -901,47 +903,47 @@ export default class ComponentIndex {
 				return new Sets.Text.Concatenate();
 			case "Cone":
 				return new Surface.Primitive.Cone();
-			case "ConnectCurves":
+			case "Connect Curves":
 				return new Curve.Spline.ConnectCurves();
-			case "ConsecutiveDomains":
+			case "Consecutive Domains":
 				return new Maths.Domain.ConsecutiveDomains();
-			case "ConstructDate":
+			case "Construct Date":
 				return new Maths.Time.ConstructDate();
-			case "ConstructDomain":
+			case "Construct Domain":
 				return new Maths.Domain.ConstructDomain();
-			case "ConstructExoticDate":
+			case "Construct Exotic Date":
 				return new Maths.Time.ConstructExoticDate();
-			case "ConstructMatrix":
+			case "Construct Matrix":
 				return new Maths.Matrix.ConstructMatrix();
-			case "ConstructMesh":
+			case "Construct Mesh":
 				return new Mesh.Primitive.ConstructMesh();
-			case "ConstructPath":
+			case "Construct Path":
 				return new Sets.Tree.ConstructPath();
-			case "ConstructPlane":
+			case "Construct Plane":
 				return new Vector.Plane.ConstructPlane();
-			case "ConstructPoint":
+			case "Construct Point":
 				return new Vector.Point.ConstructPoint();
-			case "ConstructSmoothTime":
+			case "Construct Smooth Time":
 				return new Maths.Time.ConstructSmoothTime();
-			case "ConstructTime":
+			case "Construct Time":
 				return new Maths.Time.ConstructTime();
 			case "Contour":
 				return new Intersect.Mathematical.Contour();
-			case "Contourex":
+			case "Contour (ex)":
 				return new Intersect.Mathematical.Contourex();
-			case "ControlPointLoft":
+			case "Control Point Loft":
 				return new Surface.Freeform.ControlPointLoft();
-			case "ControlPoints":
+			case "Control Points":
 				return new Curve.Analysis.ControlPoints();
-			case "ControlPolygon":
+			case "Control Polygon":
 				return new Curve.Analysis.ControlPolygon();
-			case "ConvexEdges":
+			case "Convex Edges":
 				return new Surface.Util.ConvexEdges();
-			case "ConvexHull":
+			case "Convex Hull":
 				return new Mesh.Triangulation.ConvexHull();
-			case "CoordinateMask":
+			case "Coordinate Mask":
 				return new Vector.Point.CoordinateMask();
-			case "CopyTrim":
+			case "Copy Trim":
 				return new Surface.Util.CopyTrim();
 			case "CoSecant":
 				return new Maths.Trig.CoSecant();
@@ -949,177 +951,175 @@ export default class ComponentIndex {
 				return new Maths.Trig.Cosine();
 			case "CoTangent":
 				return new Maths.Trig.CoTangent();
-			case "CreateComplex":
+			case "Create Complex":
 				return new Maths.Util.CreateComplex();
-			case "CreateMaterial":
+			case "Create Material":
 				return new Display.Preview.CreateMaterial();
-			case "CreateSet":
+			case "Create Set":
 				return new Sets.Sets.CreateSet();
-			case "CrossProduct":
+			case "Cross Product":
 				return new Vector.Vector.CrossProduct();
-			case "CrossReference":
+			case "Cross Reference":
 				return new Sets.List.CrossReference();
-			case "CScript":
-				return new Maths.Script.CScript();
 			case "Cube":
 				return new Maths.Polynomials.Cube();
-			case "CubeRoot":
+			case "Cube Root":
 				return new Maths.Polynomials.CubeRoot();
-			case "CullDuplicates":
+			case "Cull Duplicates":
 				return new Vector.Point.CullDuplicates();
-			case "CullFaces":
+			case "Cull Faces":
 				return new Mesh.Util.CullFaces();
-			case "CullIndex":
+			case "Cull Index":
 				return new Sets.Sequence.CullIndex();
-			case "CullNth":
+			case "Cull Nth":
 				return new Sets.Sequence.CullNth();
-			case "CullPattern":
+			case "Cull Pattern":
 				return new Sets.Sequence.CullPattern();
-			case "CullVertices":
+			case "Cull Vertices":
 				return new Mesh.Util.CullVertices();
 			case "Curvature":
 				return new Curve.Analysis.Curvature();
-			case "CurvatureGraph":
+			case "Curvature Graph":
 				return new Curve.Analysis.CurvatureGraph();
-			case "CurveArray":
-				return new Transform.Array.CurveArray();
-			case "CurveClosestPoint":
-				return new Curve.Analysis.CurveClosestPoint();
-			case "CurveCurve":
+			case "Curve | Curve":
 				return new Intersect.Physical.CurveCurve();
-			case "CurveDepth":
-				return new Curve.Analysis.CurveDepth();
-			case "CurveDomain":
-				return new Curve.Analysis.CurveDomain();
-			case "CurveFrame":
-				return new Curve.Analysis.CurveFrame();
-			case "CurveFrames":
-				return new Curve.Division.CurveFrames();
-			case "CurveLine":
+			case "Curve | Line":
 				return new Intersect.Mathematical.CurveLine();
-			case "CurveMiddle":
-				return new Curve.Analysis.CurveMiddle();
-			case "CurveNearestObject":
-				return new Curve.Analysis.CurveNearestObject();
-			case "CurveOnSurface":
-				return new Curve.Spline.CurveOnSurface();
-			case "CurvePlane":
+			case "Curve | Plane":
 				return new Intersect.Mathematical.CurvePlane();
-			case "CurveProximity":
-				return new Curve.Analysis.CurveProximity();
-			case "CurveSelf":
+			case "Curve | Self":
 				return new Intersect.Physical.CurveSelf();
-			case "CurveSide":
+			case "Curve Array":
+				return new Transform.Array.CurveArray();
+			case "Curve Closest Point":
+				return new Curve.Analysis.CurveClosestPoint();
+			case "Curve Depth":
+				return new Curve.Analysis.CurveDepth();
+			case "Curve Domain":
+				return new Curve.Analysis.CurveDomain();
+			case "Curve Frame":
+				return new Curve.Analysis.CurveFrame();
+			case "Curve Frames":
+				return new Curve.Division.CurveFrames();
+			case "Curve Middle":
+				return new Curve.Analysis.CurveMiddle();
+			case "Curve Nearest Object":
+				return new Curve.Analysis.CurveNearestObject();
+			case "Curve On Surface":
+				return new Curve.Spline.CurveOnSurface();
+			case "Curve Proximity":
+				return new Curve.Analysis.CurveProximity();
+			case "Curve Side":
 				return new Curve.Analysis.CurveSide();
-			case "CurveToPolyline":
+			case "Curve To Polyline":
 				return new Curve.Util.CurveToPolyline();
-			case "CustomPreview":
+			case "Custom Preview":
 				return new Display.Preview.CustomPreview();
 			case "Cylinder":
 				return new Surface.Primitive.Cylinder();
-			case "DashPattern":
+			case "Dash Pattern":
 				return new Curve.Division.DashPattern();
-			case "DateRange":
+			case "Date Range":
 				return new Maths.Time.DateRange();
 			case "Deconstruct":
 				return new Vector.Point.Deconstruct();
-			case "DeconstructArc":
+			case "Deconstruct Arc":
 				return new Curve.Analysis.DeconstructArc();
-			case "DeconstructBox":
+			case "Deconstruct Box":
 				return new Surface.Analysis.DeconstructBox();
-			case "DeconstructBrep":
+			case "Deconstruct Brep":
 				return new Surface.Analysis.DeconstructBrep();
-			case "DeconstructDate":
+			case "Deconstruct Date":
 				return new Maths.Time.DeconstructDate();
-			case "DeconstructDomain":
+			case "Deconstruct Domain":
 				return new Maths.Domain.DeconstructDomain();
-			case "DeconstructFace":
+			case "Deconstruct Face":
 				return new Mesh.Analysis.DeconstructFace();
-			case "DeconstructMatrix":
+			case "Deconstruct Matrix":
 				return new Maths.Matrix.DeconstructMatrix();
-			case "DeconstructMesh":
+			case "Deconstruct Mesh":
 				return new Mesh.Analysis.DeconstructMesh();
-			case "DeconstructPath":
+			case "Deconstruct Path":
 				return new Sets.Tree.DeconstructPath();
-			case "DeconstructPlane":
+			case "Deconstruct Plane":
 				return new Vector.Plane.DeconstructPlane();
-			case "DeconstructVector":
+			case "Deconstruct Vector":
 				return new Vector.Vector.DeconstructVector();
-			case "DeconstuctRectangle":
+			case "Deconstuct Rectangle":
 				return new Curve.Analysis.DeconstuctRectangle();
 			case "Degrees":
 				return new Maths.Trig.Degrees();
-			case "DelaunayEdges":
+			case "Delaunay Edges":
 				return new Mesh.Triangulation.DelaunayEdges();
-			case "DelaunayMesh":
+			case "Delaunay Mesh":
 				return new Mesh.Triangulation.DelaunayMesh();
-			case "DeleteConsecutive":
+			case "Delete Consecutive":
 				return new Sets.Sets.DeleteConsecutive();
-			case "DeleteFaces":
+			case "Delete Faces":
 				return new Mesh.Util.DeleteFaces();
-			case "DeleteVertices":
+			case "Delete Vertices":
 				return new Mesh.Util.DeleteVertices();
 			case "Derivatives":
 				return new Curve.Analysis.Derivatives();
 			case "Dimensions":
 				return new Surface.Analysis.Dimensions();
-			case "DirectionDisplay":
+			case "Direction Display":
 				return new Vector.Field.DirectionDisplay();
 			case "Discontinuity":
 				return new Curve.Analysis.Discontinuity();
 			case "Disjoint":
 				return new Sets.Sets.Disjoint();
-			case "DisjointMesh":
+			case "Disjoint Mesh":
 				return new Mesh.Util.DisjointMesh();
 			case "Dispatch":
 				return new Sets.List.Dispatch();
-			case "DisplayMatrix":
+			case "Display Matrix":
 				return new Maths.Matrix.DisplayMatrix();
 			case "Distance":
 				return new Vector.Point.Distance();
 			case "Divide":
 				return new Vector.Vector.Divide();
-			case "DivideByDeviation":
+			case "Divide By Deviation":
 				return new Curve.Division.DivideByDeviation();
-			case "DivideCurve":
+			case "Divide Curve":
 				return new Curve.Division.DivideCurve();
-			case "DivideDistance":
+			case "Divide Distance":
 				return new Curve.Division.DivideDistance();
-			case "DivideDomain":
+			case "Divide Domain":
 				return new Maths.Domain.DivideDomain();
-			case "DivideLength":
+			case "Divide Length":
 				return new Curve.Division.DivideLength();
-			case "DivideSurface":
+			case "Divide Surface":
 				return new Surface.Util.DivideSurface();
 			case "Division":
 				return new Maths.Operators.Division();
-			case "DomainBox":
+			case "Domain Box":
 				return new Surface.Primitive.DomainBox();
-			case "DotDisplay":
+			case "Dot Display":
 				return new Display.Preview.DotDisplay();
-			case "DotNETCScriptLEGACY":
-				return new Maths.Script.DotNETCScriptLEGACY();
-			case "DotNETVBScriptLEGACY":
-				return new Maths.Script.DotNETVBScriptLEGACY();
-			case "DotProduct":
+			case "Dot Product":
 				return new Vector.Vector.DotProduct();
-			case "DuplicateData":
+			case "DotNET C# Script (LEGACY)":
+				return new Maths.Script.DotNETCScriptLEGACY();
+			case "DotNET VB Script (LEGACY)":
+				return new Maths.Script.DotNETVBScriptLEGACY();
+			case "Duplicate Data":
 				return new Sets.Sequence.DuplicateData();
-			case "EdgesfromDirections":
-				return new Surface.Util.EdgesfromDirections();
-			case "EdgesfromFaces":
-				return new Surface.Util.EdgesfromFaces();
-			case "EdgesfromLength":
-				return new Surface.Util.EdgesfromLength();
-			case "EdgesfromLinearity":
-				return new Surface.Util.EdgesfromLinearity();
-			case "EdgesfromPoints":
-				return new Surface.Util.EdgesfromPoints();
-			case "EdgeSurface":
+			case "Edge Surface":
 				return new Surface.Freeform.EdgeSurface();
+			case "Edges from Directions":
+				return new Surface.Util.EdgesfromDirections();
+			case "Edges from Faces":
+				return new Surface.Util.EdgesfromFaces();
+			case "Edges from Length":
+				return new Surface.Util.EdgesfromLength();
+			case "Edges from Linearity":
+				return new Surface.Util.EdgesfromLinearity();
+			case "Edges from Points":
+				return new Surface.Util.EdgesfromPoints();
 			case "Ellipse":
 				return new Curve.Primitive.Ellipse();
-			case "EndPoints":
+			case "End Points":
 				return new Curve.Analysis.EndPoints();
 			case "Entwine":
 				return new Sets.Tree.Entwine();
@@ -1129,119 +1129,119 @@ export default class ComponentIndex {
 				return new Maths.Operators.Equality();
 			case "Evaluate":
 				return new Maths.Script.Evaluate();
-			case "EvaluateBox":
+			case "Evaluate Box":
 				return new Surface.Analysis.EvaluateBox();
-			case "EvaluateCurve":
+			case "Evaluate Curve":
 				return new Curve.Analysis.EvaluateCurve();
-			case "EvaluateField":
+			case "Evaluate Field":
 				return new Vector.Field.EvaluateField();
-			case "EvaluateLength":
+			case "Evaluate Length":
 				return new Curve.Analysis.EvaluateLength();
-			case "EvaluateSurface":
+			case "Evaluate Surface":
 				return new Surface.Analysis.EvaluateSurface();
 			case "Explode":
 				return new Curve.Util.Explode();
-			case "ExplodeTree":
+			case "Explode Tree":
 				return new Sets.Tree.ExplodeTree();
 			case "Exposure":
 				return new Mesh.Util.Exposure();
 			case "Expression":
 				return new Maths.Script.Expression();
-			case "ExtendCurve":
+			case "Extend Curve":
 				return new Curve.Util.ExtendCurve();
 			case "Extremes":
 				return new Maths.Util.Extremes();
 			case "Extrude":
 				return new Surface.Freeform.Extrude();
-			case "ExtrudeAlong":
+			case "Extrude Along":
 				return new Surface.Freeform.ExtrudeAlong();
-			case "ExtrudeAngled":
+			case "Extrude Angled":
 				return new Surface.Freeform.ExtrudeAngled();
-			case "ExtrudeLinear":
+			case "Extrude Linear":
 				return new Surface.Freeform.ExtrudeLinear();
-			case "ExtrudePoint":
+			case "Extrude Point":
 				return new Surface.Freeform.ExtrudePoint();
-			case "FaceBoundaries":
+			case "Face Boundaries":
 				return new Mesh.Analysis.FaceBoundaries();
-			case "FaceCircles":
+			case "Face Circles":
 				return new Mesh.Analysis.FaceCircles();
-			case "FaceNormals":
+			case "Face Normals":
 				return new Mesh.Analysis.FaceNormals();
-			case "FacetDome":
+			case "Facet Dome":
 				return new Mesh.Triangulation.FacetDome();
 			case "Factorial":
 				return new Maths.Operators.Factorial();
 			case "Fibonacci":
 				return new Sets.Sequence.Fibonacci();
-			case "FieldLine":
+			case "Field Line":
 				return new Vector.Field.FieldLine();
 			case "Fillet":
 				return new Curve.Util.Fillet();
-			case "FilletDistance":
+			case "Fillet Distance":
 				return new Curve.Util.FilletDistance();
-			case "FilletEdge":
+			case "Fillet Edge":
 				return new Surface.Util.FilletEdge();
-			case "FindDomain":
+			case "Find Domain":
 				return new Maths.Domain.FindDomain();
-			case "Findsimilarmember":
+			case "Find similar member":
 				return new Sets.Sets.Findsimilarmember();
-			case "FitCurve":
+			case "Fit Curve":
 				return new Curve.Util.FitCurve();
-			case "FitLine":
+			case "Fit Line":
 				return new Curve.Primitive.FitLine();
-			case "FitLoft":
+			case "Fit Loft":
 				return new Surface.Freeform.FitLoft();
-			case "FlattenTree":
+			case "Flatten Tree":
 				return new Sets.Tree.FlattenTree();
 			case "Flip":
 				return new Surface.Util.Flip();
-			case "FlipCurve":
+			case "Flip Curve":
 				return new Curve.Util.FlipCurve();
-			case "FlipMatrix":
+			case "Flip Matrix":
 				return new Sets.Tree.FlipMatrix();
-			case "FlipMesh":
+			case "Flip Mesh":
 				return new Mesh.Util.FlipMesh();
-			case "FlipPlane":
+			case "Flip Plane":
 				return new Vector.Plane.FlipPlane();
 			case "Flow":
 				return new Transform.Morph.Flow();
 			case "Format":
 				return new Sets.Text.Format();
-			case "FragmentPatch":
+			case "Fragment Patch":
 				return new Surface.Freeform.FragmentPatch();
-			case "GateAnd":
+			case "Gate And":
 				return new Maths.Operators.GateAnd();
-			case "GateMajority":
+			case "Gate Majority":
 				return new Maths.Operators.GateMajority();
-			case "GateNand":
+			case "Gate Nand":
 				return new Maths.Operators.GateNand();
-			case "GateNor":
+			case "Gate Nor":
 				return new Maths.Operators.GateNor();
-			case "GateNot":
+			case "Gate Not":
 				return new Maths.Operators.GateNot();
-			case "GateOr":
+			case "Gate Or":
 				return new Maths.Operators.GateOr();
-			case "GateXnor":
+			case "Gate Xnor":
 				return new Maths.Operators.GateXnor();
-			case "GateXor":
+			case "Gate Xor":
 				return new Maths.Operators.GateXor();
 			case "Geodesic":
 				return new Curve.Spline.Geodesic();
-			case "GhPythonScript":
+			case "GhPython Script":
 				return new Maths.Script.GhPythonScript();
-			case "GoldenRatio":
+			case "Golden Ratio":
 				return new Maths.Util.GoldenRatio();
-			case "GraftTree":
+			case "Graft Tree":
 				return new Sets.Tree.GraftTree();
 			case "Group":
 				return new Transform.Util.Group();
 			case "Hexagonal":
 				return new Vector.Grid.Hexagonal();
-			case "HorizontalFrame":
+			case "Horizontal Frame":
 				return new Curve.Analysis.HorizontalFrame();
-			case "HorizontalFrames":
+			case "Horizontal Frames":
 				return new Curve.Division.HorizontalFrames();
-			case "ImageGallery":
+			case "Image Gallery":
 				return new Display.Graphs.ImageGallery();
 			case "Incentre":
 				return new Maths.Trig.Incentre();
@@ -1251,605 +1251,605 @@ export default class ComponentIndex {
 				return new Maths.Domain.Includes();
 			case "InEllipse":
 				return new Curve.Primitive.InEllipse();
-			case "InsertItems":
+			case "Insert Items":
 				return new Sets.List.InsertItems();
-			case "IntegerDivision":
+			case "Integer Division":
 				return new Maths.Operators.IntegerDivision();
 			case "Interpolate":
 				return new Curve.Spline.Interpolate();
-			case "Interpolatedata":
-				return new Maths.Util.Interpolatedata();
-			case "InterpolateDate":
-				return new Maths.Time.InterpolateDate();
-			case "Interpolatet":
+			case "Interpolate (t)":
 				return new Curve.Spline.Interpolatet();
-			case "InverseTransform":
+			case "Interpolate data":
+				return new Maths.Util.Interpolatedata();
+			case "Interpolate Date":
+				return new Maths.Time.InterpolateDate();
+			case "Inverse Transform":
 				return new Transform.Util.InverseTransform();
-			case "InvertMatrix":
+			case "Invert Matrix":
 				return new Maths.Matrix.InvertMatrix();
-			case "IsoCurve":
+			case "Is Planar":
+				return new Surface.Analysis.IsPlanar();
+			case "Iso Curve":
 				return new Curve.Spline.IsoCurve();
 			case "Isotrim":
 				return new Surface.Util.Isotrim();
 			case "IsoVist":
 				return new Intersect.Mathematical.IsoVist();
-			case "IsoVistRay":
+			case "IsoVist Ray":
 				return new Intersect.Mathematical.IsoVistRay();
-			case "IsPlanar":
-				return new Surface.Analysis.IsPlanar();
-			case "ItemIndex":
+			case "Item Index":
 				return new Sets.List.ItemIndex();
 			case "Jitter":
 				return new Sets.Sequence.Jitter();
-			case "JoinCurves":
+			case "Join Curves":
 				return new Curve.Util.JoinCurves();
 			case "Kaleidoscope":
 				return new Transform.Array.Kaleidoscope();
-			case "KeyValueSearch":
+			case "Key/Value Search":
 				return new Sets.Sets.KeyValueSearch();
-			case "KinkyCurve":
+			case "Kinky Curve":
 				return new Curve.Spline.KinkyCurve();
-			case "KnotVector":
+			case "Knot Vector":
 				return new Curve.Spline.KnotVector();
-			case "LargerThan":
+			case "Larger Than":
 				return new Maths.Operators.LargerThan();
 			case "Legend":
 				return new Display.Graphs.Legend();
 			case "Length":
 				return new Curve.Analysis.Length();
-			case "LengthDomain":
+			case "Length Domain":
 				return new Curve.Analysis.LengthDomain();
-			case "LengthParameter":
+			case "Length Parameter":
 				return new Curve.Analysis.LengthParameter();
 			case "Line":
 				return new Curve.Primitive.Line();
-			case "LineTwoPlane":
-				return new Curve.Primitive.LineTwoPlane();
-			case "LineFourPt":
-				return new Curve.Primitive.LineFourPt();
-			case "LinearArray":
-				return new Transform.Array.LinearArray();
-			case "LinearDimension":
-				return new Display.Dimensions.LinearDimension();
-			case "LineCharge":
-				return new Vector.Field.LineCharge();
-			case "LineDimension":
-				return new Display.Dimensions.LineDimension();
-			case "LineLine":
-				return new Intersect.Mathematical.LineLine();
-			case "LinePlane":
-				return new Intersect.Mathematical.LinePlane();
-			case "LinePt":
+			case "Line + Line":
+				return new Vector.Plane.LineLine();
+			case "Line + Pt":
 				return new Vector.Plane.LinePt();
-			case "LineSDL":
+			case "Line | Plane":
+				return new Intersect.Mathematical.LinePlane();
+			case "Line 2Plane":
+				return new Curve.Primitive.LineTwoPlane();
+			case "Line 4Pt":
+				return new Curve.Primitive.LineFourPt();
+			case "Line Charge":
+				return new Vector.Field.LineCharge();
+			case "Line Dimension":
+				return new Display.Dimensions.LineDimension();
+			case "Line SDL":
 				return new Curve.Primitive.LineSDL();
-			case "ListItem":
+			case "Linear Array":
+				return new Transform.Array.LinearArray();
+			case "Linear Dimension":
+				return new Display.Dimensions.LinearDimension();
+			case "List Item":
 				return new Sets.List.ListItem();
-			case "ListLength":
+			case "List Length":
 				return new Sets.List.ListLength();
 			case "Loft":
 				return new Surface.Freeform.Loft();
-			case "LoftOptions":
+			case "Loft Options":
 				return new Surface.Freeform.LoftOptions();
+			case "Log N":
+				return new Maths.Polynomials.LogN();
 			case "Logarithm":
 				return new Maths.Polynomials.Logarithm();
-			case "LogN":
-				return new Maths.Polynomials.LogN();
-			case "LongestList":
+			case "Longest List":
 				return new Sets.List.LongestList();
 			case "Maelstrom":
 				return new Transform.Morph.Maelstrom();
-			case "MakeTwoD":
+			case "Make2D":
 				return new Display.Dimensions.MakeTwoD();
-			case "MakeTwoDParallelView":
+			case "Make2D Parallel View":
 				return new Display.Dimensions.MakeTwoDParallelView();
-			case "MakeTwoDPerspectiveView":
+			case "Make2D Perspective View":
 				return new Display.Dimensions.MakeTwoDPerspectiveView();
-			case "MakeTwoDRhinoView":
+			case "Make2D Rhino View":
 				return new Display.Dimensions.MakeTwoDRhinoView();
-			case "MaptoSurface":
+			case "Map to Surface":
 				return new Transform.Morph.MaptoSurface();
-			case "MarkerDimension":
+			case "Marker Dimension":
 				return new Display.Dimensions.MarkerDimension();
-			case "MassAddition":
+			case "Mass Addition":
 				return new Maths.Operators.MassAddition();
-			case "MassMultiplication":
+			case "Mass Multiplication":
 				return new Maths.Operators.MassMultiplication();
-			case "MatchCurve":
+			case "Match Curve":
 				return new Curve.Spline.MatchCurve();
-			case "MatchText":
+			case "Match Text":
 				return new Sets.Text.MatchText();
-			case "MatchTree":
+			case "Match Tree":
 				return new Sets.Tree.MatchTree();
 			case "Maximum":
 				return new Maths.Util.Maximum();
-			case "MemberIndex":
+			case "Member Index":
 				return new Sets.Sets.MemberIndex();
 			case "Merge":
 				return new Sets.Tree.Merge();
-			case "MergeZeroThree":
+			case "Merge 03":
 				return new Sets.Tree.MergeZeroThree();
-			case "MergeZeroFour":
+			case "Merge 04":
 				return new Sets.Tree.MergeZeroFour();
-			case "MergeZeroFive":
+			case "Merge 05":
 				return new Sets.Tree.MergeZeroFive();
-			case "MergeZeroSix":
+			case "Merge 06":
 				return new Sets.Tree.MergeZeroSix();
-			case "MergeZeroEight":
+			case "Merge 08":
 				return new Sets.Tree.MergeZeroEight();
-			case "MergeOneZero":
+			case "Merge 10":
 				return new Sets.Tree.MergeOneZero();
-			case "MergeFaces":
+			case "Merge Faces":
 				return new Surface.Util.MergeFaces();
-			case "MergeFields":
+			case "Merge Fields":
 				return new Vector.Field.MergeFields();
-			case "MergeGroup":
+			case "Merge Group":
 				return new Transform.Util.MergeGroup();
-			case "MergeMultiple":
+			case "Merge Multiple":
 				return new Sets.Tree.MergeMultiple();
-			case "MeshBox":
-				return new Mesh.Primitive.MeshBox();
-			case "MeshBrep":
-				return new Mesh.Util.MeshBrep();
-			case "MeshClosestPoint":
-				return new Mesh.Analysis.MeshClosestPoint();
-			case "MeshColours":
-				return new Mesh.Primitive.MeshColours();
-			case "MeshCurve":
+			case "Mesh | Curve":
 				return new Intersect.Physical.MeshCurve();
-			case "MeshDepth":
-				return new Mesh.Analysis.MeshDepth();
-			case "MeshDifference":
-				return new Intersect.Shape.MeshDifference();
-			case "MeshEdges":
-				return new Mesh.Analysis.MeshEdges();
-			case "MeshEval":
-				return new Mesh.Analysis.MeshEval();
-			case "MeshfromSubD":
-				return new Surface.SubD.MeshfromSubD();
-			case "MeshInclusion":
-				return new Mesh.Analysis.MeshInclusion();
-			case "MeshIntersection":
-				return new Intersect.Shape.MeshIntersection();
-			case "MeshJoin":
-				return new Mesh.Util.MeshJoin();
-			case "MeshMesh":
+			case "Mesh | Mesh":
 				return new Intersect.Physical.MeshMesh();
-			case "MeshPlane":
+			case "Mesh | Plane":
 				return new Intersect.Mathematical.MeshPlane();
-			case "MeshQuad":
-				return new Mesh.Primitive.MeshQuad();
-			case "MeshRay":
+			case "Mesh | Ray":
 				return new Intersect.Mathematical.MeshRay();
-			case "MeshShadow":
+			case "Mesh Box":
+				return new Mesh.Primitive.MeshBox();
+			case "Mesh Brep":
+				return new Mesh.Util.MeshBrep();
+			case "Mesh Closest Point":
+				return new Mesh.Analysis.MeshClosestPoint();
+			case "Mesh Colours":
+				return new Mesh.Primitive.MeshColours();
+			case "Mesh Depth":
+				return new Mesh.Analysis.MeshDepth();
+			case "Mesh Difference":
+				return new Intersect.Shape.MeshDifference();
+			case "Mesh Edges":
+				return new Mesh.Analysis.MeshEdges();
+			case "Mesh Eval":
+				return new Mesh.Analysis.MeshEval();
+			case "Mesh from Sub-D":
+				return new Surface.SubD.MeshfromSubD();
+			case "Mesh Inclusion":
+				return new Mesh.Analysis.MeshInclusion();
+			case "Mesh Intersection":
+				return new Intersect.Shape.MeshIntersection();
+			case "Mesh Join":
+				return new Mesh.Util.MeshJoin();
+			case "Mesh Quad":
+				return new Mesh.Primitive.MeshQuad();
+			case "Mesh Shadow":
 				return new Mesh.Util.MeshShadow();
-			case "MeshSphere":
+			case "Mesh Sphere":
 				return new Mesh.Primitive.MeshSphere();
-			case "MeshSphereEx":
+			case "Mesh Sphere Ex":
 				return new Mesh.Primitive.MeshSphereEx();
-			case "MeshSplit":
+			case "Mesh Split":
 				return new Intersect.Shape.MeshSplit();
-			case "MeshSplitPlane":
+			case "Mesh Split Plane":
 				return new Mesh.Util.MeshSplitPlane();
-			case "MeshSpray":
+			case "Mesh Spray":
 				return new Mesh.Primitive.MeshSpray();
-			case "MeshSurface":
+			case "Mesh Surface":
 				return new Mesh.Util.MeshSurface();
-			case "MeshTriangle":
+			case "Mesh Triangle":
 				return new Mesh.Primitive.MeshTriangle();
-			case "MeshUnion":
+			case "Mesh Union":
 				return new Intersect.Shape.MeshUnion();
 			case "MetaBall":
 				return new Mesh.Triangulation.MetaBall();
-			case "MetaBallt":
+			case "MetaBall(t)":
 				return new Mesh.Triangulation.MetaBallt();
-			case "MetaBalltCustom":
+			case "MetaBall(t) Custom":
 				return new Mesh.Triangulation.MetaBalltCustom();
 			case "Minimum":
 				return new Maths.Util.Minimum();
 			case "Mirror":
 				return new Transform.Euclidean.Mirror();
-			case "MirrorCurve":
+			case "Mirror Curve":
 				return new Transform.Morph.MirrorCurve();
-			case "MirrorSurface":
+			case "Mirror Surface":
 				return new Transform.Morph.MirrorSurface();
-			case "ModifiedArc":
+			case "Modified Arc":
 				return new Curve.Primitive.ModifiedArc();
 			case "Modulus":
 				return new Maths.Operators.Modulus();
 			case "Move":
 				return new Transform.Euclidean.Move();
-			case "MoveAwayFrom":
+			case "Move Away From":
 				return new Transform.Euclidean.MoveAwayFrom();
-			case "MoveToPlane":
+			case "Move To Plane":
 				return new Transform.Euclidean.MoveToPlane();
-			case "MultipleCurves":
+			case "Multiple Curves":
 				return new Intersect.Physical.MultipleCurves();
 			case "Multiplication":
 				return new Maths.Operators.Multiplication();
 			case "Multiply":
 				return new Vector.Vector.Multiply();
-			case "Naturallogarithm":
+			case "Natural logarithm":
 				return new Maths.Polynomials.Naturallogarithm();
 			case "Negative":
 				return new Maths.Operators.Negative();
-			case "NetworkSurface":
+			case "Network Surface":
 				return new Surface.Freeform.NetworkSurface();
-			case "NullItem":
+			case "Null Item":
 				return new Sets.List.NullItem();
-			case "NumberstoPoints":
+			case "Numbers to Points":
 				return new Vector.Point.NumberstoPoints();
-			case "NurbsCurve":
+			case "Nurbs Curve":
 				return new Curve.Spline.NurbsCurve();
-			case "NurbsCurvePWK":
+			case "Nurbs Curve PWK":
 				return new Curve.Spline.NurbsCurvePWK();
 			case "Occlusion":
 				return new Mesh.Util.Occlusion();
 			case "OcTree":
 				return new Mesh.Triangulation.OcTree();
-			case "OffsetCurve":
+			case "Offset Curve":
 				return new Curve.Util.OffsetCurve();
-			case "OffsetCurveLoose":
+			case "Offset Curve Loose":
 				return new Curve.Util.OffsetCurveLoose();
-			case "OffsetLooseThreeD":
+			case "Offset Loose 3D":
 				return new Curve.Util.OffsetLooseThreeD();
-			case "OffsetonSrf":
+			case "Offset on Srf":
 				return new Curve.Util.OffsetonSrf();
-			case "OffsetPolyline":
+			case "Offset Polyline":
 				return new Curve.Util.OffsetPolyline();
-			case "OffsetSurface":
+			case "Offset Surface":
 				return new Surface.Util.OffsetSurface();
-			case "OffsetSurfaceLoose":
+			case "Offset Surface Loose":
 				return new Surface.Util.OffsetSurfaceLoose();
-			case "OneOverX":
+			case "One Over X":
 				return new Maths.Polynomials.OneOverX();
 			case "Orient":
 				return new Transform.Euclidean.Orient();
-			case "OrientDirection":
+			case "Orient Direction":
 				return new Transform.Affine.OrientDirection();
 			case "Orthocentre":
 				return new Maths.Trig.Orthocentre();
-			case "OsculatingCircles":
+			case "Osculating Circles":
 				return new Surface.Analysis.OsculatingCircles();
-			case "PartitionList":
+			case "Partition List":
 				return new Sets.List.PartitionList();
 			case "Patch":
 				return new Surface.Freeform.Patch();
-			case "PathCompare":
+			case "Path Compare":
 				return new Sets.Tree.PathCompare();
-			case "PathMapper":
+			case "Path Mapper":
 				return new Sets.Tree.PathMapper();
-			case "PerpendicularDisplay":
-				return new Vector.Field.PerpendicularDisplay();
-			case "PerpFrame":
+			case "Perp Frame":
 				return new Curve.Analysis.PerpFrame();
-			case "PerpFrames":
+			case "Perp Frames":
 				return new Curve.Division.PerpFrames();
+			case "Perpendicular Display":
+				return new Vector.Field.PerpendicularDisplay();
 			case "Pi":
 				return new Maths.Util.Pi();
-			case "PicknChoose":
+			case "Pick'n'Choose":
 				return new Sets.List.PicknChoose();
-			case "PieChart":
+			case "Pie Chart":
 				return new Display.Graphs.PieChart();
 			case "Pipe":
 				return new Surface.Freeform.Pipe();
-			case "PipeVariable":
+			case "Pipe Variable":
 				return new Surface.Freeform.PipeVariable();
 			case "Planar":
 				return new Curve.Analysis.Planar();
-			case "PlaneThreePt":
-				return new Vector.Plane.PlaneThreePt();
-			case "PlaneClosestPoint":
-				return new Vector.Plane.PlaneClosestPoint();
-			case "PlaneCoordinates":
-				return new Vector.Plane.PlaneCoordinates();
-			case "PlaneFit":
-				return new Vector.Plane.PlaneFit();
-			case "PlaneNormal":
-				return new Vector.Plane.PlaneNormal();
-			case "PlaneOffset":
-				return new Vector.Plane.PlaneOffset();
-			case "PlaneOrigin":
-				return new Vector.Plane.PlaneOrigin();
-			case "PlanePlane":
+			case "Plane | Plane":
 				return new Intersect.Mathematical.PlanePlane();
-			case "PlanePlanePlane":
+			case "Plane | Plane | Plane":
 				return new Intersect.Mathematical.PlanePlanePlane();
-			case "PlaneRegion":
+			case "Plane 3Pt":
+				return new Vector.Plane.PlaneThreePt();
+			case "Plane Closest Point":
+				return new Vector.Plane.PlaneClosestPoint();
+			case "Plane Coordinates":
+				return new Vector.Plane.PlaneCoordinates();
+			case "Plane Fit":
+				return new Vector.Plane.PlaneFit();
+			case "Plane Normal":
+				return new Vector.Plane.PlaneNormal();
+			case "Plane Offset":
+				return new Vector.Plane.PlaneOffset();
+			case "Plane Origin":
+				return new Vector.Plane.PlaneOrigin();
+			case "Plane Region":
 				return new Intersect.Mathematical.PlaneRegion();
-			case "PlaneSurface":
+			case "Plane Surface":
 				return new Surface.Primitive.PlaneSurface();
-			case "PlaneThroughShape":
+			case "Plane Through Shape":
 				return new Surface.Primitive.PlaneThroughShape();
-			case "PointCharge":
+			case "Point Charge":
 				return new Vector.Field.PointCharge();
-			case "PointCylindrical":
+			case "Point Cylindrical":
 				return new Vector.Point.PointCylindrical();
-			case "PointDeform":
+			case "Point Deform":
 				return new Transform.Morph.PointDeform();
-			case "PointGroups":
+			case "Point Groups":
 				return new Vector.Point.PointGroups();
-			case "PointInBrep":
+			case "Point In Brep":
 				return new Surface.Analysis.PointInBrep();
-			case "PointInBreps":
+			case "Point In Breps":
 				return new Surface.Analysis.PointInBreps();
-			case "PointInCurve":
+			case "Point In Curve":
 				return new Curve.Analysis.PointInCurve();
-			case "PointinCurves":
+			case "Point in Curves":
 				return new Curve.Analysis.PointinCurves();
-			case "PointInTrim":
+			case "Point In Trim":
 				return new Surface.Analysis.PointInTrim();
-			case "PointList":
+			case "Point List":
 				return new Display.Vector.PointList();
-			case "PointOnCurve":
+			case "Point On Curve":
 				return new Curve.Analysis.PointOnCurve();
-			case "PointOrder":
+			case "Point Order":
 				return new Display.Vector.PointOrder();
-			case "PointOriented":
+			case "Point Oriented":
 				return new Vector.Point.PointOriented();
-			case "PointPolar":
+			case "Point Polar":
 				return new Vector.Point.PointPolar();
-			case "PointstoNumbers":
+			case "Points to Numbers":
 				return new Vector.Point.PointstoNumbers();
-			case "PolarArray":
+			case "Polar Array":
 				return new Transform.Array.PolarArray();
 			case "PolyArc":
 				return new Curve.Spline.PolyArc();
 			case "Polygon":
 				return new Curve.Primitive.Polygon();
-			case "PolygonCenter":
+			case "Polygon Center":
 				return new Curve.Analysis.PolygonCenter();
-			case "PolygonEdge":
+			case "Polygon Edge":
 				return new Curve.Primitive.PolygonEdge();
 			case "PolyLine":
 				return new Curve.Spline.PolyLine();
-			case "PolylineCollapse":
+			case "Polyline Collapse":
 				return new Curve.Util.PolylineCollapse();
-			case "PopulateTwoD":
+			case "Populate 2D":
 				return new Vector.Grid.PopulateTwoD();
-			case "PopulateThreeD":
+			case "Populate 3D":
 				return new Vector.Grid.PopulateThreeD();
-			case "PopulateGeometry":
+			case "Populate Geometry":
 				return new Vector.Grid.PopulateGeometry();
 			case "Power":
 				return new Maths.Operators.Power();
-			case "PowerofOneZero":
+			case "Power of 10":
 				return new Maths.Polynomials.PowerofOneZero();
-			case "PowerofTwo":
+			case "Power of 2":
 				return new Maths.Polynomials.PowerofTwo();
-			case "PowerofE":
+			case "Power of E":
 				return new Maths.Polynomials.PowerofE();
-			case "PrincipalCurvature":
+			case "Principal Curvature":
 				return new Surface.Analysis.PrincipalCurvature();
 			case "Project":
 				return new Transform.Affine.Project();
-			case "ProjectAlong":
+			case "Project Along":
 				return new Transform.Affine.ProjectAlong();
-			case "ProjectPoint":
+			case "Project Point":
 				return new Vector.Point.ProjectPoint();
-			case "ProximityTwoD":
+			case "Proximity 2D":
 				return new Mesh.Triangulation.ProximityTwoD();
-			case "ProximityThreeD":
+			case "Proximity 3D":
 				return new Mesh.Triangulation.ProximityThreeD();
-			case "PruneTree":
+			case "Prune Tree":
 				return new Sets.Tree.PruneTree();
-			case "PullCurve":
+			case "Pull Curve":
 				return new Curve.Util.PullCurve();
-			case "PullPoint":
+			case "Pull Point":
 				return new Vector.Point.PullPoint();
+			case "Quad Sphere":
+				return new Surface.Primitive.QuadSphere();
 			case "Quadrangulate":
 				return new Mesh.Util.Quadrangulate();
-			case "QuadSphere":
-				return new Surface.Primitive.QuadSphere();
 			case "QuadTree":
 				return new Mesh.Triangulation.QuadTree();
-			case "QuickGraph":
+			case "Quick Graph":
 				return new Display.Graphs.QuickGraph();
 			case "Radial":
 				return new Vector.Grid.Radial();
 			case "Radians":
 				return new Maths.Trig.Radians();
-			case "RailRevolution":
+			case "Rail Revolution":
 				return new Surface.Freeform.RailRevolution();
 			case "Random":
 				return new Sets.Sequence.Random();
+			case "Random Reduce":
+				return new Sets.Sequence.RandomReduce();
 			case "RandomEx":
 				return new Sets.Sequence.RandomEx();
-			case "RandomReduce":
-				return new Sets.Sequence.RandomReduce();
 			case "Range":
 				return new Sets.Sequence.Range();
-			case "RebuildCurve":
+			case "Rebuild Curve":
 				return new Curve.Util.RebuildCurve();
 			case "Rectangle":
 				return new Curve.Primitive.Rectangle();
-			case "RectangleTwoPt":
+			case "Rectangle 2Pt":
 				return new Curve.Primitive.RectangleTwoPt();
-			case "RectangleThreePt":
+			case "Rectangle 3Pt":
 				return new Curve.Primitive.RectangleThreePt();
-			case "RectangleMapping":
+			case "Rectangle Mapping":
 				return new Transform.Affine.RectangleMapping();
 			case "Rectangular":
 				return new Vector.Grid.Rectangular();
-			case "RectangularArray":
+			case "Rectangular Array":
 				return new Transform.Array.RectangularArray();
 			case "Reduce":
 				return new Curve.Util.Reduce();
-			case "RegionDifference":
+			case "Region Difference":
 				return new Intersect.Shape.RegionDifference();
-			case "RegionIntersection":
+			case "Region Intersection":
 				return new Intersect.Shape.RegionIntersection();
-			case "RegionSlits":
+			case "Region Slits":
 				return new Intersect.Shape.RegionSlits();
-			case "RegionUnion":
+			case "Region Union":
 				return new Intersect.Shape.RegionUnion();
-			case "RelativeDifferences":
+			case "Relative Differences":
 				return new Maths.Operators.RelativeDifferences();
-			case "RelativeItem":
+			case "Relative Item":
 				return new Sets.Tree.RelativeItem();
-			case "RelativeItems":
+			case "Relative Items":
 				return new Sets.Tree.RelativeItems();
-			case "RemapNumbers":
+			case "Remap Numbers":
 				return new Maths.Domain.RemapNumbers();
-			case "RepeatData":
+			case "Repeat Data":
 				return new Sets.Sequence.RepeatData();
-			case "ReplaceItems":
+			case "Replace Items":
 				return new Sets.List.ReplaceItems();
-			case "ReplaceMembers":
+			case "Replace Members":
 				return new Sets.Sets.ReplaceMembers();
-			case "ReplaceNulls":
+			case "Replace Nulls":
 				return new Sets.List.ReplaceNulls();
-			case "ReplacePaths":
+			case "Replace Paths":
 				return new Sets.Tree.ReplacePaths();
-			case "ReplaceText":
+			case "Replace Text":
 				return new Sets.Text.ReplaceText();
 			case "Retrim":
 				return new Surface.Util.Retrim();
 			case "Reverse":
 				return new Vector.Vector.Reverse();
-			case "ReverseList":
+			case "Reverse List":
 				return new Sets.List.ReverseList();
 			case "Revolution":
 				return new Surface.Freeform.Revolution();
-			case "RightTrigonometry":
+			case "Right Trigonometry":
 				return new Maths.Trig.RightTrigonometry();
 			case "Rotate":
 				return new Vector.Vector.Rotate();
-			case "RotateThreeD":
+			case "Rotate 3D":
 				return new Transform.Euclidean.RotateThreeD();
-			case "RotateAxis":
+			case "Rotate Axis":
 				return new Transform.Euclidean.RotateAxis();
-			case "RotateDirection":
+			case "Rotate Direction":
 				return new Transform.Euclidean.RotateDirection();
-			case "RotatePlane":
+			case "Rotate Plane":
 				return new Vector.Plane.RotatePlane();
 			case "Round":
 				return new Maths.Util.Round();
-			case "RuledSurface":
+			case "Ruled Surface":
 				return new Surface.Freeform.RuledSurface();
-			case "SanityXForm":
+			case "Sanity XForm":
 				return new Transform.Euclidean.SanityXForm();
-			case "ScalarDisplay":
+			case "Scalar Display":
 				return new Vector.Field.ScalarDisplay();
 			case "Scale":
 				return new Transform.Affine.Scale();
-			case "ScaleNU":
+			case "Scale NU":
 				return new Transform.Affine.ScaleNU();
 			case "Seam":
 				return new Curve.Util.Seam();
 			case "Secant":
 				return new Maths.Trig.Secant();
-			case "SegmentLengths":
+			case "Segment Lengths":
 				return new Curve.Analysis.SegmentLengths();
 			case "Sequence":
 				return new Sets.Sequence.Sequence();
-			case "SerialDimension":
+			case "Serial Dimension":
 				return new Display.Dimensions.SerialDimension();
 			case "Series":
 				return new Sets.Sequence.Series();
-			case "SeriesAddition":
+			case "Series Addition":
 				return new Maths.Operators.SeriesAddition();
-			case "SetDifference":
+			case "Set Difference":
 				return new Sets.Sets.SetDifference();
-			case "SetDifferenceS":
+			case "Set Difference (S)":
 				return new Sets.Sets.SetDifferenceS();
-			case "SetIntersection":
+			case "Set Intersection":
 				return new Sets.Sets.SetIntersection();
-			case "SetMajority":
+			case "Set Majority":
 				return new Sets.Sets.SetMajority();
-			case "SettingsCustom":
-				return new Mesh.Util.SettingsCustom();
-			case "SettingsQuality":
-				return new Mesh.Util.SettingsQuality();
-			case "SettingsSpeed":
-				return new Mesh.Util.SettingsSpeed();
-			case "SetUnion":
+			case "Set Union":
 				return new Sets.Sets.SetUnion();
-			case "ShapeInBrep":
+			case "Settings (Custom)":
+				return new Mesh.Util.SettingsCustom();
+			case "Settings (Quality)":
+				return new Mesh.Util.SettingsQuality();
+			case "Settings (Speed)":
+				return new Mesh.Util.SettingsSpeed();
+			case "Shape In Brep":
 				return new Surface.Analysis.ShapeInBrep();
 			case "Shatter":
 				return new Curve.Division.Shatter();
 			case "Shear":
 				return new Transform.Affine.Shear();
-			case "ShearAngle":
+			case "Shear Angle":
 				return new Transform.Affine.ShearAngle();
-			case "ShiftList":
+			case "Shift List":
 				return new Sets.List.ShiftList();
-			case "ShiftPaths":
+			case "Shift Paths":
 				return new Sets.Tree.ShiftPaths();
-			case "ShortestList":
+			case "Shortest List":
 				return new Sets.List.ShortestList();
-			case "SiftPattern":
+			case "Sift Pattern":
 				return new Sets.List.SiftPattern();
 			case "Similarity":
 				return new Maths.Operators.Similarity();
-			case "SimpleMesh":
+			case "Simple Mesh":
 				return new Mesh.Util.SimpleMesh();
-			case "SimplifyCurve":
+			case "Simplify Curve":
 				return new Curve.Util.SimplifyCurve();
-			case "SimplifyTree":
+			case "Simplify Tree":
 				return new Sets.Tree.SimplifyTree();
 			case "Sinc":
 				return new Maths.Trig.Sinc();
 			case "Sine":
 				return new Maths.Trig.Sine();
-			case "SmallerThan":
+			case "Smaller Than":
 				return new Maths.Operators.SmallerThan();
-			case "SmoothMesh":
+			case "Smooth Mesh":
 				return new Mesh.Util.SmoothMesh();
-			case "SmoothNumbers":
+			case "Smooth Numbers":
 				return new Maths.Util.SmoothNumbers();
-			case "SmoothPolyline":
+			case "Smooth Polyline":
 				return new Curve.Util.SmoothPolyline();
-			case "SolarIncidence":
+			case "Solar Incidence":
 				return new Vector.Vector.SolarIncidence();
-			case "SolidDifference":
+			case "Solid Difference":
 				return new Intersect.Shape.SolidDifference();
-			case "SolidIntersection":
+			case "Solid Intersection":
 				return new Intersect.Shape.SolidIntersection();
-			case "SolidUnion":
+			case "Solid Union":
 				return new Intersect.Shape.SolidUnion();
-			case "SortAlongCurve":
+			case "Sort Along Curve":
 				return new Vector.Point.SortAlongCurve();
-			case "SortList":
+			case "Sort List":
 				return new Sets.List.SortList();
-			case "SortPoints":
+			case "Sort Points":
 				return new Vector.Point.SortPoints();
-			case "SortText":
+			case "Sort Text":
 				return new Sets.Text.SortText();
-			case "SpatialDeform":
+			case "Spatial Deform":
 				return new Transform.Morph.SpatialDeform();
-			case "SpatialDeformcustom":
+			case "Spatial Deform (custom)":
 				return new Transform.Morph.SpatialDeformcustom();
 			case "Sphere":
 				return new Surface.Primitive.Sphere();
-			case "SphereFourPt":
+			case "Sphere 4Pt":
 				return new Surface.Primitive.SphereFourPt();
-			case "SphereFit":
+			case "Sphere Fit":
 				return new Surface.Primitive.SphereFit();
-			case "SpinForce":
+			case "Spin Force":
 				return new Vector.Field.SpinForce();
 			case "Split":
 				return new Transform.Util.Split();
-			case "SplitAHSL":
+			case "Split AHSL":
 				return new Display.Colour.SplitAHSL();
-			case "SplitAHSV":
+			case "Split AHSV":
 				return new Display.Colour.SplitAHSV();
-			case "SplitARGB":
+			case "Split ARGB":
 				return new Display.Colour.SplitARGB();
-			case "SplitBrep":
+			case "Split Brep":
 				return new Intersect.Shape.SplitBrep();
-			case "SplitBrepMultiple":
+			case "Split Brep Multiple":
 				return new Intersect.Shape.SplitBrepMultiple();
-			case "SplitGroup":
+			case "Split Group":
 				return new Transform.Util.SplitGroup();
-			case "SplitList":
+			case "Split List":
 				return new Sets.List.SplitList();
-			case "SplitTree":
+			case "Split Tree":
 				return new Sets.Tree.SplitTree();
-			case "SplitwithBrep":
+			case "Split with Brep":
 				return new Intersect.Region.SplitwithBrep();
-			case "SplitwithBreps":
+			case "Split with Breps":
 				return new Intersect.Region.SplitwithBreps();
 			case "Splop":
 				return new Transform.Morph.Splop();
@@ -1857,219 +1857,219 @@ export default class ComponentIndex {
 				return new Transform.Morph.Sporph();
 			case "Square":
 				return new Maths.Polynomials.Square();
-			case "SquareRoot":
+			case "Square Root":
 				return new Maths.Polynomials.SquareRoot();
-			case "StackData":
+			case "Stack Data":
 				return new Sets.Sequence.StackData();
-			case "StreamFilter":
+			case "Stream Filter":
 				return new Sets.Tree.StreamFilter();
-			case "StreamGate":
+			case "Stream Gate":
 				return new Sets.Tree.StreamGate();
 			case "Stretch":
 				return new Transform.Morph.Stretch();
-			case "SubCurve":
+			case "Sub Curve":
 				return new Curve.Spline.SubCurve();
-			case "SubDBox":
-				return new Surface.SubD.SubDBox();
-			case "SubDControlPolygon":
-				return new Surface.SubD.SubDControlPolygon();
-			case "SubDEdges":
-				return new Surface.SubD.SubDEdges();
-			case "SubDFaces":
-				return new Surface.SubD.SubDFaces();
-			case "SubDfromMesh":
-				return new Surface.SubD.SubDfromMesh();
-			case "SubDVertices":
-				return new Surface.SubD.SubDVertices();
-			case "SubList":
+			case "Sub List":
 				return new Sets.List.SubList();
+			case "Sub-D Control Polygon":
+				return new Surface.SubD.SubDControlPolygon();
+			case "Sub-D Edges":
+				return new Surface.SubD.SubDEdges();
+			case "Sub-D Faces":
+				return new Surface.SubD.SubDFaces();
+			case "Sub-D from Mesh":
+				return new Surface.SubD.SubDfromMesh();
+			case "Sub-D Vertices":
+				return new Surface.SubD.SubDVertices();
+			case "SubD Box":
+				return new Surface.SubD.SubDBox();
 			case "SubSet":
 				return new Sets.Sets.SubSet();
 			case "Substrate":
 				return new Mesh.Triangulation.Substrate();
 			case "Subtraction":
 				return new Maths.Operators.Subtraction();
-			case "SumSurface":
+			case "Sum Surface":
 				return new Surface.Freeform.SumSurface();
-			case "SurfaceBox":
-				return new Transform.Morph.SurfaceBox();
-			case "SurfaceClosestPoint":
-				return new Surface.Analysis.SurfaceClosestPoint();
-			case "SurfaceCurvature":
-				return new Surface.Analysis.SurfaceCurvature();
-			case "SurfaceCurve":
+			case "Surface | Curve":
 				return new Intersect.Physical.SurfaceCurve();
-			case "SurfaceFrames":
-				return new Surface.Util.SurfaceFrames();
-			case "SurfaceFromPoints":
-				return new Surface.Freeform.SurfaceFromPoints();
-			case "SurfaceInflection":
-				return new Surface.Analysis.SurfaceInflection();
-			case "SurfaceLine":
+			case "Surface | Line":
 				return new Intersect.Mathematical.SurfaceLine();
-			case "SurfaceMorph":
+			case "Surface Box":
+				return new Transform.Morph.SurfaceBox();
+			case "Surface Closest Point":
+				return new Surface.Analysis.SurfaceClosestPoint();
+			case "Surface Curvature":
+				return new Surface.Analysis.SurfaceCurvature();
+			case "Surface Frames":
+				return new Surface.Util.SurfaceFrames();
+			case "Surface From Points":
+				return new Surface.Freeform.SurfaceFromPoints();
+			case "Surface Inflection":
+				return new Surface.Analysis.SurfaceInflection();
+			case "Surface Morph":
 				return new Transform.Morph.SurfaceMorph();
-			case "SurfacePoints":
+			case "Surface Points":
 				return new Surface.Analysis.SurfacePoints();
-			case "SurfaceSplit":
+			case "Surface Split":
 				return new Intersect.Physical.SurfaceSplit();
-			case "SwapColumns":
+			case "Swap Columns":
 				return new Maths.Matrix.SwapColumns();
-			case "SwapRows":
+			case "Swap Rows":
 				return new Maths.Matrix.SwapRows();
-			case "SweepOne":
+			case "Sweep1":
 				return new Surface.Freeform.SweepOne();
-			case "SweepTwo":
+			case "Sweep2":
 				return new Surface.Freeform.SweepTwo();
-			case "SwingArc":
+			case "Swing Arc":
 				return new Curve.Spline.SwingArc();
-			case "SymbolAdvanced":
+			case "Symbol (Advanced)":
 				return new Display.Preview.SymbolAdvanced();
-			case "SymbolDisplay":
-				return new Display.Preview.SymbolDisplay();
-			case "SymbolSimple":
+			case "Symbol (Simple)":
 				return new Display.Preview.SymbolSimple();
+			case "Symbol Display":
+				return new Display.Preview.SymbolDisplay();
 			case "Tangent":
 				return new Maths.Trig.Tangent();
-			case "TangentArcs":
+			case "Tangent Arcs":
 				return new Curve.Primitive.TangentArcs();
-			case "TangentCurve":
+			case "Tangent Curve":
 				return new Curve.Spline.TangentCurve();
-			case "TangentLines":
+			case "Tangent Lines":
 				return new Curve.Primitive.TangentLines();
-			case "TangentLinesEx":
+			case "Tangent Lines (Ex)":
 				return new Curve.Primitive.TangentLinesEx();
-			case "TangentLinesIn":
+			case "Tangent Lines (In)":
 				return new Curve.Primitive.TangentLinesIn();
 			case "Taper":
 				return new Transform.Morph.Taper();
-			case "TensorDisplay":
+			case "Tensor Display":
 				return new Vector.Field.TensorDisplay();
-			case "TestCrash":
+			case "Test Crash":
 				return new Display.Test.TestCrash();
-			case "TextCase":
+			case "Text Case":
 				return new Sets.Text.TextCase();
-			case "TextDistance":
+			case "Text Distance":
 				return new Sets.Text.TextDistance();
-			case "TextFragment":
+			case "Text Fragment":
 				return new Sets.Text.TextFragment();
-			case "TextJoin":
+			case "Text Join":
 				return new Sets.Text.TextJoin();
-			case "TextLength":
+			case "Text Length":
 				return new Sets.Text.TextLength();
-			case "TextSplit":
+			case "Text Split":
 				return new Sets.Text.TextSplit();
-			case "TextTag":
+			case "Text Tag":
 				return new Display.Dimensions.TextTag();
-			case "TextTagThreeD":
+			case "Text Tag 3D":
 				return new Display.Dimensions.TextTagThreeD();
-			case "TextTrim":
+			case "Text Trim":
 				return new Sets.Text.TextTrim();
-			case "ToPolar":
+			case "To Polar":
 				return new Vector.Point.ToPolar();
 			case "Torsion":
 				return new Curve.Analysis.Torsion();
-			case "TransformMatrix":
+			case "Transform Matrix":
 				return new Transform.Util.TransformMatrix();
-			case "TransposeMatrix":
+			case "Transpose Matrix":
 				return new Maths.Matrix.TransposeMatrix();
-			case "TreeBranch":
+			case "Tree Branch":
 				return new Sets.Tree.TreeBranch();
-			case "TreeItem":
+			case "Tree Item":
 				return new Sets.Tree.TreeItem();
-			case "TreeStatistics":
+			case "Tree Statistics":
 				return new Sets.Tree.TreeStatistics();
-			case "TriangleMapping":
+			case "Triangle Mapping":
 				return new Transform.Affine.TriangleMapping();
-			case "TriangleTrigonometry":
+			case "Triangle Trigonometry":
 				return new Maths.Trig.TriangleTrigonometry();
 			case "Triangular":
 				return new Vector.Grid.Triangular();
 			case "Triangulate":
 				return new Mesh.Util.Triangulate();
-			case "TrimSolid":
+			case "Trim Solid":
 				return new Intersect.Shape.TrimSolid();
-			case "TrimTree":
+			case "Trim Tree":
 				return new Sets.Tree.TrimTree();
-			case "TrimwithBrep":
+			case "Trim with Brep":
 				return new Intersect.Region.TrimwithBrep();
-			case "TrimwithBreps":
+			case "Trim with Breps":
 				return new Intersect.Region.TrimwithBreps();
-			case "TrimwithRegion":
+			case "Trim with Region":
 				return new Intersect.Region.TrimwithRegion();
-			case "TrimwithRegions":
+			case "Trim with Regions":
 				return new Intersect.Region.TrimwithRegions();
 			case "Truncate":
 				return new Maths.Util.Truncate();
-			case "TweenCurve":
+			case "Tween Curve":
 				return new Curve.Spline.TweenCurve();
 			case "Twist":
 				return new Transform.Morph.Twist();
-			case "TwistedBox":
+			case "Twisted Box":
 				return new Transform.Morph.TwistedBox();
 			case "TwoByFourJam":
 				return new Curve.Primitive.TwoByFourJam();
-			case "UnflattenTree":
+			case "Unflatten Tree":
 				return new Sets.Tree.UnflattenTree();
 			case "Ungroup":
 				return new Transform.Util.Ungroup();
-			case "UnifyMesh":
+			case "Unify Mesh":
 				return new Mesh.Util.UnifyMesh();
-			case "UnitVector":
+			case "Unit Vector":
 				return new Vector.Vector.UnitVector();
-			case "UnitX":
+			case "Unit X":
 				return new Vector.Vector.UnitX();
-			case "UnitY":
+			case "Unit Y":
 				return new Vector.Vector.UnitY();
-			case "UnitZ":
+			case "Unit Z":
 				return new Vector.Vector.UnitZ();
 			case "Untrim":
 				return new Surface.Util.Untrim();
-			case "UnweldMesh":
+			case "Unweld Mesh":
 				return new Mesh.Util.UnweldMesh();
-			case "ValueTracker":
+			case "Value Tracker":
 				return new Display.Graphs.ValueTracker();
 			case "Variable":
 				return new Maths.Script.Variable();
-			case "VBScript":
+			case "VB Script":
 				return new Maths.Script.VBScript();
-			case "VectorTwoPt":
+			case "Vector 2Pt":
 				return new Vector.Vector.VectorTwoPt();
-			case "VectorDisplay":
+			case "Vector Display":
 				return new Display.Vector.VectorDisplay();
-			case "VectorDisplayEx":
+			case "Vector Display Ex":
 				return new Display.Vector.VectorDisplayEx();
-			case "VectorForce":
+			case "Vector Force":
 				return new Vector.Field.VectorForce();
-			case "VectorLength":
+			case "Vector Length":
 				return new Vector.Vector.VectorLength();
-			case "VectorXYZ":
+			case "Vector XYZ":
 				return new Vector.Vector.VectorXYZ();
-			case "ViewportDisplay":
+			case "Viewport Display":
 				return new Display.Viewport.ViewportDisplay();
 			case "Volume":
 				return new Surface.Analysis.Volume();
-			case "VolumeMoments":
+			case "Volume Moments":
 				return new Surface.Analysis.VolumeMoments();
 			case "Voronoi":
 				return new Mesh.Triangulation.Voronoi();
-			case "VoronoiThreeD":
+			case "Voronoi 3D":
 				return new Mesh.Triangulation.VoronoiThreeD();
-			case "VoronoiCell":
+			case "Voronoi Cell":
 				return new Mesh.Triangulation.VoronoiCell();
-			case "VoronoiGroups":
+			case "Voronoi Groups":
 				return new Mesh.Triangulation.VoronoiGroups();
 			case "Weave":
 				return new Sets.List.Weave();
-			case "WeightedAverage":
+			case "Weighted Average":
 				return new Maths.Util.WeightedAverage();
-			case "WeldMesh":
+			case "Weld Mesh":
 				return new Mesh.Util.WeldMesh();
-			case "XYPlane":
+			case "XY Plane":
 				return new Vector.Plane.XYPlane();
-			case "XZPlane":
+			case "XZ Plane":
 				return new Vector.Plane.XZPlane();
-			case "YZPlane":
+			case "YZ Plane":
 				return new Vector.Plane.YZPlane();
 			default:
 				throw new Error('Selected component is not supported by resthopper.');
@@ -2086,19 +2086,19 @@ import FourPointSurface from './components/Surface/Freeform/FourPointSurface';
 import Absolute from './components/Maths/Operators/Absolute';
 import Addition from './components/Maths/Operators/Addition';
 import AdjustPlane from './components/Vector/Plane/AdjustPlane';
-import AlignedDimension from './components/Display/Dimensions/AlignedDimension';
 import AlignPlane from './components/Vector/Plane/AlignPlane';
 import AlignPlanes from './components/Vector/Plane/AlignPlanes';
 import AlignVertices from './components/Mesh/Util/AlignVertices';
+import AlignedDimension from './components/Display/Dimensions/AlignedDimension';
 import Amplitude from './components/Vector/Vector/Amplitude';
 import Angle from './components/Vector/Vector/Angle';
 import AngularDimension from './components/Display/Dimensions/AngularDimension';
 import AngularDimensionsMesh from './components/Display/Dimensions/AngularDimensionsMesh';
 import Arc from './components/Curve/Primitive/Arc';
 import ArcThreePt from './components/Curve/Primitive/ArcThreePt';
-import ArcCosine from './components/Maths/Trig/ArcCosine';
 import ArcDimension from './components/Display/Dimensions/ArcDimension';
 import ArcSED from './components/Curve/Primitive/ArcSED';
+import ArcCosine from './components/Maths/Trig/ArcCosine';
 import ArcSine from './components/Maths/Trig/ArcSine';
 import ArcTangent from './components/Maths/Trig/ArcTangent';
 import Area from './components/Surface/Analysis/Area';
@@ -2130,14 +2130,15 @@ import BoxRectangle from './components/Surface/Primitive/BoxRectangle';
 import BoxSlits from './components/Intersect/Shape/BoxSlits';
 import BreakField from './components/Vector/Field/BreakField';
 import BrepBrep from './components/Intersect/Physical/BrepBrep';
-import BrepClosestPoint from './components/Surface/Analysis/BrepClosestPoint';
 import BrepCurve from './components/Intersect/Physical/BrepCurve';
-import BrepEdges from './components/Surface/Analysis/BrepEdges';
-import BrepJoin from './components/Surface/Util/BrepJoin';
 import BrepLine from './components/Intersect/Mathematical/BrepLine';
 import BrepPlane from './components/Intersect/Mathematical/BrepPlane';
+import BrepClosestPoint from './components/Surface/Analysis/BrepClosestPoint';
+import BrepEdges from './components/Surface/Analysis/BrepEdges';
+import BrepJoin from './components/Surface/Util/BrepJoin';
 import BrepTopology from './components/Surface/Analysis/BrepTopology';
 import BrepWireframe from './components/Surface/Analysis/BrepWireframe';
+import CScript from './components/Maths/Script/CScript';
 import CameraObscura from './components/Transform/Affine/CameraObscura';
 import CapHoles from './components/Surface/Util/CapHoles';
 import CapHolesEx from './components/Surface/Util/CapHolesEx';
@@ -2146,8 +2147,8 @@ import Catenary from './components/Curve/Spline/Catenary';
 import CatenaryEx from './components/Curve/Spline/CatenaryEx';
 import CenterBox from './components/Surface/Primitive/CenterBox';
 import Centroid from './components/Maths/Trig/Centroid';
-import Characters from './components/Sets/Text/Characters';
 import CharSequence from './components/Sets/Sequence/CharSequence';
+import Characters from './components/Sets/Text/Characters';
 import Circle from './components/Curve/Primitive/Circle';
 import CircleThreePt from './components/Curve/Primitive/CircleThreePt';
 import CircleCNR from './components/Curve/Primitive/CircleCNR';
@@ -2211,7 +2212,6 @@ import CreateMaterial from './components/Display/Preview/CreateMaterial';
 import CreateSet from './components/Sets/Sets/CreateSet';
 import CrossProduct from './components/Vector/Vector/CrossProduct';
 import CrossReference from './components/Sets/List/CrossReference';
-import CScript from './components/Maths/Script/CScript';
 import Cube from './components/Maths/Polynomials/Cube';
 import CubeRoot from './components/Maths/Polynomials/CubeRoot';
 import CullDuplicates from './components/Vector/Point/CullDuplicates';
@@ -2222,20 +2222,20 @@ import CullPattern from './components/Sets/Sequence/CullPattern';
 import CullVertices from './components/Mesh/Util/CullVertices';
 import Curvature from './components/Curve/Analysis/Curvature';
 import CurvatureGraph from './components/Curve/Analysis/CurvatureGraph';
+import CurveCurve from './components/Intersect/Physical/CurveCurve';
+import CurveLine from './components/Intersect/Mathematical/CurveLine';
+import CurvePlane from './components/Intersect/Mathematical/CurvePlane';
+import CurveSelf from './components/Intersect/Physical/CurveSelf';
 import CurveArray from './components/Transform/Array/CurveArray';
 import CurveClosestPoint from './components/Curve/Analysis/CurveClosestPoint';
-import CurveCurve from './components/Intersect/Physical/CurveCurve';
 import CurveDepth from './components/Curve/Analysis/CurveDepth';
 import CurveDomain from './components/Curve/Analysis/CurveDomain';
 import CurveFrame from './components/Curve/Analysis/CurveFrame';
 import CurveFrames from './components/Curve/Division/CurveFrames';
-import CurveLine from './components/Intersect/Mathematical/CurveLine';
 import CurveMiddle from './components/Curve/Analysis/CurveMiddle';
 import CurveNearestObject from './components/Curve/Analysis/CurveNearestObject';
 import CurveOnSurface from './components/Curve/Spline/CurveOnSurface';
-import CurvePlane from './components/Intersect/Mathematical/CurvePlane';
 import CurveProximity from './components/Curve/Analysis/CurveProximity';
-import CurveSelf from './components/Intersect/Physical/CurveSelf';
 import CurveSide from './components/Curve/Analysis/CurveSide';
 import CurveToPolyline from './components/Curve/Util/CurveToPolyline';
 import CustomPreview from './components/Display/Preview/CustomPreview';
@@ -2280,16 +2280,16 @@ import DivideSurface from './components/Surface/Util/DivideSurface';
 import Division from './components/Maths/Operators/Division';
 import DomainBox from './components/Surface/Primitive/DomainBox';
 import DotDisplay from './components/Display/Preview/DotDisplay';
+import DotProduct from './components/Vector/Vector/DotProduct';
 import DotNETCScriptLEGACY from './components/Maths/Script/DotNETCScriptLEGACY';
 import DotNETVBScriptLEGACY from './components/Maths/Script/DotNETVBScriptLEGACY';
-import DotProduct from './components/Vector/Vector/DotProduct';
 import DuplicateData from './components/Sets/Sequence/DuplicateData';
+import EdgeSurface from './components/Surface/Freeform/EdgeSurface';
 import EdgesfromDirections from './components/Surface/Util/EdgesfromDirections';
 import EdgesfromFaces from './components/Surface/Util/EdgesfromFaces';
 import EdgesfromLength from './components/Surface/Util/EdgesfromLength';
 import EdgesfromLinearity from './components/Surface/Util/EdgesfromLinearity';
 import EdgesfromPoints from './components/Surface/Util/EdgesfromPoints';
-import EdgeSurface from './components/Surface/Freeform/EdgeSurface';
 import Ellipse from './components/Curve/Primitive/Ellipse';
 import EndPoints from './components/Curve/Analysis/EndPoints';
 import Entwine from './components/Sets/Tree/Entwine';
@@ -2360,16 +2360,16 @@ import InEllipse from './components/Curve/Primitive/InEllipse';
 import InsertItems from './components/Sets/List/InsertItems';
 import IntegerDivision from './components/Maths/Operators/IntegerDivision';
 import Interpolate from './components/Curve/Spline/Interpolate';
+import Interpolatet from './components/Curve/Spline/Interpolatet';
 import Interpolatedata from './components/Maths/Util/Interpolatedata';
 import InterpolateDate from './components/Maths/Time/InterpolateDate';
-import Interpolatet from './components/Curve/Spline/Interpolatet';
 import InverseTransform from './components/Transform/Util/InverseTransform';
 import InvertMatrix from './components/Maths/Matrix/InvertMatrix';
+import IsPlanar from './components/Surface/Analysis/IsPlanar';
 import IsoCurve from './components/Curve/Spline/IsoCurve';
 import Isotrim from './components/Surface/Util/Isotrim';
 import IsoVist from './components/Intersect/Mathematical/IsoVist';
 import IsoVistRay from './components/Intersect/Mathematical/IsoVistRay';
-import IsPlanar from './components/Surface/Analysis/IsPlanar';
 import ItemIndex from './components/Sets/List/ItemIndex';
 import Jitter from './components/Sets/Sequence/Jitter';
 import JoinCurves from './components/Curve/Util/JoinCurves';
@@ -2383,22 +2383,22 @@ import Length from './components/Curve/Analysis/Length';
 import LengthDomain from './components/Curve/Analysis/LengthDomain';
 import LengthParameter from './components/Curve/Analysis/LengthParameter';
 import Line from './components/Curve/Primitive/Line';
+import LineLine from './components/Vector/Plane/LineLine';
+import LinePt from './components/Vector/Plane/LinePt';
+import LinePlane from './components/Intersect/Mathematical/LinePlane';
 import LineTwoPlane from './components/Curve/Primitive/LineTwoPlane';
 import LineFourPt from './components/Curve/Primitive/LineFourPt';
-import LinearArray from './components/Transform/Array/LinearArray';
-import LinearDimension from './components/Display/Dimensions/LinearDimension';
 import LineCharge from './components/Vector/Field/LineCharge';
 import LineDimension from './components/Display/Dimensions/LineDimension';
-import LineLine from './components/Intersect/Mathematical/LineLine';
-import LinePlane from './components/Intersect/Mathematical/LinePlane';
-import LinePt from './components/Vector/Plane/LinePt';
 import LineSDL from './components/Curve/Primitive/LineSDL';
+import LinearArray from './components/Transform/Array/LinearArray';
+import LinearDimension from './components/Display/Dimensions/LinearDimension';
 import ListItem from './components/Sets/List/ListItem';
 import ListLength from './components/Sets/List/ListLength';
 import Loft from './components/Surface/Freeform/Loft';
 import LoftOptions from './components/Surface/Freeform/LoftOptions';
-import Logarithm from './components/Maths/Polynomials/Logarithm';
 import LogN from './components/Maths/Polynomials/LogN';
+import Logarithm from './components/Maths/Polynomials/Logarithm';
 import LongestList from './components/Sets/List/LongestList';
 import Maelstrom from './components/Transform/Morph/Maelstrom';
 import MakeTwoD from './components/Display/Dimensions/MakeTwoD';
@@ -2425,11 +2425,14 @@ import MergeFaces from './components/Surface/Util/MergeFaces';
 import MergeFields from './components/Vector/Field/MergeFields';
 import MergeGroup from './components/Transform/Util/MergeGroup';
 import MergeMultiple from './components/Sets/Tree/MergeMultiple';
+import MeshCurve from './components/Intersect/Physical/MeshCurve';
+import MeshMesh from './components/Intersect/Physical/MeshMesh';
+import MeshPlane from './components/Intersect/Mathematical/MeshPlane';
+import MeshRay from './components/Intersect/Mathematical/MeshRay';
 import MeshBox from './components/Mesh/Primitive/MeshBox';
 import MeshBrep from './components/Mesh/Util/MeshBrep';
 import MeshClosestPoint from './components/Mesh/Analysis/MeshClosestPoint';
 import MeshColours from './components/Mesh/Primitive/MeshColours';
-import MeshCurve from './components/Intersect/Physical/MeshCurve';
 import MeshDepth from './components/Mesh/Analysis/MeshDepth';
 import MeshDifference from './components/Intersect/Shape/MeshDifference';
 import MeshEdges from './components/Mesh/Analysis/MeshEdges';
@@ -2438,10 +2441,7 @@ import MeshfromSubD from './components/Surface/SubD/MeshfromSubD';
 import MeshInclusion from './components/Mesh/Analysis/MeshInclusion';
 import MeshIntersection from './components/Intersect/Shape/MeshIntersection';
 import MeshJoin from './components/Mesh/Util/MeshJoin';
-import MeshMesh from './components/Intersect/Physical/MeshMesh';
-import MeshPlane from './components/Intersect/Mathematical/MeshPlane';
 import MeshQuad from './components/Mesh/Primitive/MeshQuad';
-import MeshRay from './components/Intersect/Mathematical/MeshRay';
 import MeshShadow from './components/Mesh/Util/MeshShadow';
 import MeshSphere from './components/Mesh/Primitive/MeshSphere';
 import MeshSphereEx from './components/Mesh/Primitive/MeshSphereEx';
@@ -2491,15 +2491,17 @@ import PartitionList from './components/Sets/List/PartitionList';
 import Patch from './components/Surface/Freeform/Patch';
 import PathCompare from './components/Sets/Tree/PathCompare';
 import PathMapper from './components/Sets/Tree/PathMapper';
-import PerpendicularDisplay from './components/Vector/Field/PerpendicularDisplay';
 import PerpFrame from './components/Curve/Analysis/PerpFrame';
 import PerpFrames from './components/Curve/Division/PerpFrames';
+import PerpendicularDisplay from './components/Vector/Field/PerpendicularDisplay';
 import Pi from './components/Maths/Util/Pi';
 import PicknChoose from './components/Sets/List/PicknChoose';
 import PieChart from './components/Display/Graphs/PieChart';
 import Pipe from './components/Surface/Freeform/Pipe';
 import PipeVariable from './components/Surface/Freeform/PipeVariable';
 import Planar from './components/Curve/Analysis/Planar';
+import PlanePlane from './components/Intersect/Mathematical/PlanePlane';
+import PlanePlanePlane from './components/Intersect/Mathematical/PlanePlanePlane';
 import PlaneThreePt from './components/Vector/Plane/PlaneThreePt';
 import PlaneClosestPoint from './components/Vector/Plane/PlaneClosestPoint';
 import PlaneCoordinates from './components/Vector/Plane/PlaneCoordinates';
@@ -2507,8 +2509,6 @@ import PlaneFit from './components/Vector/Plane/PlaneFit';
 import PlaneNormal from './components/Vector/Plane/PlaneNormal';
 import PlaneOffset from './components/Vector/Plane/PlaneOffset';
 import PlaneOrigin from './components/Vector/Plane/PlaneOrigin';
-import PlanePlane from './components/Intersect/Mathematical/PlanePlane';
-import PlanePlanePlane from './components/Intersect/Mathematical/PlanePlanePlane';
 import PlaneRegion from './components/Intersect/Mathematical/PlaneRegion';
 import PlaneSurface from './components/Surface/Primitive/PlaneSurface';
 import PlaneThroughShape from './components/Surface/Primitive/PlaneThroughShape';
@@ -2550,16 +2550,16 @@ import ProximityThreeD from './components/Mesh/Triangulation/ProximityThreeD';
 import PruneTree from './components/Sets/Tree/PruneTree';
 import PullCurve from './components/Curve/Util/PullCurve';
 import PullPoint from './components/Vector/Point/PullPoint';
-import Quadrangulate from './components/Mesh/Util/Quadrangulate';
 import QuadSphere from './components/Surface/Primitive/QuadSphere';
+import Quadrangulate from './components/Mesh/Util/Quadrangulate';
 import QuadTree from './components/Mesh/Triangulation/QuadTree';
 import QuickGraph from './components/Display/Graphs/QuickGraph';
 import Radial from './components/Vector/Grid/Radial';
 import Radians from './components/Maths/Trig/Radians';
 import RailRevolution from './components/Surface/Freeform/RailRevolution';
 import Random from './components/Sets/Sequence/Random';
-import RandomEx from './components/Sets/Sequence/RandomEx';
 import RandomReduce from './components/Sets/Sequence/RandomReduce';
+import RandomEx from './components/Sets/Sequence/RandomEx';
 import Range from './components/Sets/Sequence/Range';
 import RebuildCurve from './components/Curve/Util/RebuildCurve';
 import Rectangle from './components/Curve/Primitive/Rectangle';
@@ -2610,10 +2610,10 @@ import SetDifference from './components/Sets/Sets/SetDifference';
 import SetDifferenceS from './components/Sets/Sets/SetDifferenceS';
 import SetIntersection from './components/Sets/Sets/SetIntersection';
 import SetMajority from './components/Sets/Sets/SetMajority';
+import SetUnion from './components/Sets/Sets/SetUnion';
 import SettingsCustom from './components/Mesh/Util/SettingsCustom';
 import SettingsQuality from './components/Mesh/Util/SettingsQuality';
 import SettingsSpeed from './components/Mesh/Util/SettingsSpeed';
-import SetUnion from './components/Sets/Sets/SetUnion';
 import ShapeInBrep from './components/Surface/Analysis/ShapeInBrep';
 import Shatter from './components/Curve/Division/Shatter';
 import Shear from './components/Transform/Affine/Shear';
@@ -2666,25 +2666,25 @@ import StreamFilter from './components/Sets/Tree/StreamFilter';
 import StreamGate from './components/Sets/Tree/StreamGate';
 import Stretch from './components/Transform/Morph/Stretch';
 import SubCurve from './components/Curve/Spline/SubCurve';
-import SubDBox from './components/Surface/SubD/SubDBox';
+import SubList from './components/Sets/List/SubList';
 import SubDControlPolygon from './components/Surface/SubD/SubDControlPolygon';
 import SubDEdges from './components/Surface/SubD/SubDEdges';
 import SubDFaces from './components/Surface/SubD/SubDFaces';
 import SubDfromMesh from './components/Surface/SubD/SubDfromMesh';
 import SubDVertices from './components/Surface/SubD/SubDVertices';
-import SubList from './components/Sets/List/SubList';
+import SubDBox from './components/Surface/SubD/SubDBox';
 import SubSet from './components/Sets/Sets/SubSet';
 import Substrate from './components/Mesh/Triangulation/Substrate';
 import Subtraction from './components/Maths/Operators/Subtraction';
 import SumSurface from './components/Surface/Freeform/SumSurface';
+import SurfaceCurve from './components/Intersect/Physical/SurfaceCurve';
+import SurfaceLine from './components/Intersect/Mathematical/SurfaceLine';
 import SurfaceBox from './components/Transform/Morph/SurfaceBox';
 import SurfaceClosestPoint from './components/Surface/Analysis/SurfaceClosestPoint';
 import SurfaceCurvature from './components/Surface/Analysis/SurfaceCurvature';
-import SurfaceCurve from './components/Intersect/Physical/SurfaceCurve';
 import SurfaceFrames from './components/Surface/Util/SurfaceFrames';
 import SurfaceFromPoints from './components/Surface/Freeform/SurfaceFromPoints';
 import SurfaceInflection from './components/Surface/Analysis/SurfaceInflection';
-import SurfaceLine from './components/Intersect/Mathematical/SurfaceLine';
 import SurfaceMorph from './components/Transform/Morph/SurfaceMorph';
 import SurfacePoints from './components/Surface/Analysis/SurfacePoints';
 import SurfaceSplit from './components/Intersect/Physical/SurfaceSplit';
@@ -2694,8 +2694,8 @@ import SweepOne from './components/Surface/Freeform/SweepOne';
 import SweepTwo from './components/Surface/Freeform/SweepTwo';
 import SwingArc from './components/Curve/Spline/SwingArc';
 import SymbolAdvanced from './components/Display/Preview/SymbolAdvanced';
-import SymbolDisplay from './components/Display/Preview/SymbolDisplay';
 import SymbolSimple from './components/Display/Preview/SymbolSimple';
+import SymbolDisplay from './components/Display/Preview/SymbolDisplay';
 import Tangent from './components/Maths/Trig/Tangent';
 import TangentArcs from './components/Curve/Primitive/TangentArcs';
 import TangentCurve from './components/Curve/Spline/TangentCurve';
@@ -2769,1376 +2769,1376 @@ import XZPlane from './components/Vector/Plane/XZPlane';
 import YZPlane from './components/Vector/Plane/YZPlane';
 
 export {
-	FourPointSurface,
-	Absolute,
-	Addition,
-	AdjustPlane,
-	AlignedDimension,
-	AlignPlane,
-	AlignPlanes,
-	AlignVertices,
-	Amplitude,
-	Angle,
-	AngularDimension,
-	AngularDimensionsMesh,
-	Arc,
-	ArcThreePt,
-	ArcCosine,
-	ArcDimension,
-	ArcSED,
-	ArcSine,
-	ArcTangent,
-	Area,
-	AreaMoments,
-	Average,
-	BarGraph,
-	Barycentric,
-	BendDeform,
-	BezierSpan,
-	BiArc,
-	BlendBox,
-	BlendColours,
-	BlendCurve,
-	BlendCurvePt,
-	BlurMesh,
-	BlurNumbers,
-	BoundarySurfaces,
-	BoundaryVolume,
-	BoundingBox,
-	Bounds,
-	BoundsTwoD,
-	BoxTwoPt,
-	BoxArray,
-	BoxCorners,
-	BoxMapping,
-	BoxMorph,
-	BoxProperties,
-	BoxRectangle,
-	BoxSlits,
-	BreakField,
-	BrepBrep,
-	BrepClosestPoint,
-	BrepCurve,
-	BrepEdges,
-	BrepJoin,
-	BrepLine,
-	BrepPlane,
-	BrepTopology,
-	BrepWireframe,
-	CameraObscura,
-	CapHoles,
-	CapHolesEx,
-	CarthesianProduct,
-	Catenary,
-	CatenaryEx,
-	CenterBox,
-	Centroid,
-	Characters,
-	CharSequence,
-	Circle,
-	CircleThreePt,
-	CircleCNR,
-	CircleFit,
-	CircleTanTan,
-	CircleTanTanTan,
-	CircularDimension,
-	Circumcentre,
-	Clash,
-	CleanTree,
-	Closed,
-	ClosedEdges,
-	ClosestPoint,
-	ClosestPoints,
-	CloudDisplay,
-	CollisionManyMany,
-	CollisionOneMany,
-	ColourCMYK,
-	ColourHSL,
-	ColourHSV,
-	ColourLab,
-	ColourLCH,
-	ColourRGB,
-	ColourRGBf,
-	ColourXYZ,
-	CombineData,
-	CombineDateTime,
-	ComplexArgument,
-	ComplexComponents,
-	ComplexConjugate,
-	ComplexModulus,
-	Compound,
-	Concatenate,
-	Cone,
-	ConnectCurves,
-	ConsecutiveDomains,
-	ConstructDate,
-	ConstructDomain,
-	ConstructExoticDate,
-	ConstructMatrix,
-	ConstructMesh,
-	ConstructPath,
-	ConstructPlane,
-	ConstructPoint,
-	ConstructSmoothTime,
-	ConstructTime,
-	Contour,
-	Contourex,
-	ControlPointLoft,
-	ControlPoints,
-	ControlPolygon,
-	ConvexEdges,
-	ConvexHull,
-	CoordinateMask,
-	CopyTrim,
-	CoSecant,
-	Cosine,
-	CoTangent,
-	CreateComplex,
-	CreateMaterial,
-	CreateSet,
-	CrossProduct,
-	CrossReference,
-	CScript,
-	Cube,
-	CubeRoot,
-	CullDuplicates,
-	CullFaces,
-	CullIndex,
-	CullNth,
-	CullPattern,
-	CullVertices,
-	Curvature,
-	CurvatureGraph,
-	CurveArray,
-	CurveClosestPoint,
-	CurveCurve,
-	CurveDepth,
-	CurveDomain,
-	CurveFrame,
-	CurveFrames,
-	CurveLine,
-	CurveMiddle,
-	CurveNearestObject,
-	CurveOnSurface,
-	CurvePlane,
-	CurveProximity,
-	CurveSelf,
-	CurveSide,
-	CurveToPolyline,
-	CustomPreview,
-	Cylinder,
-	DashPattern,
-	DateRange,
-	Deconstruct,
-	DeconstructArc,
-	DeconstructBox,
-	DeconstructBrep,
-	DeconstructDate,
-	DeconstructDomain,
-	DeconstructFace,
-	DeconstructMatrix,
-	DeconstructMesh,
-	DeconstructPath,
-	DeconstructPlane,
-	DeconstructVector,
-	DeconstuctRectangle,
-	Degrees,
-	DelaunayEdges,
-	DelaunayMesh,
-	DeleteConsecutive,
-	DeleteFaces,
-	DeleteVertices,
-	Derivatives,
-	Dimensions,
-	DirectionDisplay,
-	Discontinuity,
-	Disjoint,
-	DisjointMesh,
-	Dispatch,
-	DisplayMatrix,
-	Distance,
-	Divide,
-	DivideByDeviation,
-	DivideCurve,
-	DivideDistance,
-	DivideDomain,
-	DivideLength,
-	DivideSurface,
-	Division,
-	DomainBox,
-	DotDisplay,
-	DotNETCScriptLEGACY,
-	DotNETVBScriptLEGACY,
-	DotProduct,
-	DuplicateData,
-	EdgesfromDirections,
-	EdgesfromFaces,
-	EdgesfromLength,
-	EdgesfromLinearity,
-	EdgesfromPoints,
-	EdgeSurface,
-	Ellipse,
-	EndPoints,
-	Entwine,
-	Epsilon,
-	Equality,
-	Evaluate,
-	EvaluateBox,
-	EvaluateCurve,
-	EvaluateField,
-	EvaluateLength,
-	EvaluateSurface,
-	Explode,
-	ExplodeTree,
-	Exposure,
-	Expression,
-	ExtendCurve,
-	Extremes,
-	Extrude,
-	ExtrudeAlong,
-	ExtrudeAngled,
-	ExtrudeLinear,
-	ExtrudePoint,
-	FaceBoundaries,
-	FaceCircles,
-	FaceNormals,
-	FacetDome,
-	Factorial,
-	Fibonacci,
-	FieldLine,
-	Fillet,
-	FilletDistance,
-	FilletEdge,
-	FindDomain,
-	Findsimilarmember,
-	FitCurve,
-	FitLine,
-	FitLoft,
-	FlattenTree,
-	Flip,
-	FlipCurve,
-	FlipMatrix,
-	FlipMesh,
-	FlipPlane,
-	Flow,
-	Format,
-	FragmentPatch,
-	GateAnd,
-	GateMajority,
-	GateNand,
-	GateNor,
-	GateNot,
-	GateOr,
-	GateXnor,
-	GateXor,
-	Geodesic,
-	GhPythonScript,
-	GoldenRatio,
-	GraftTree,
-	Group,
-	Hexagonal,
-	HorizontalFrame,
-	HorizontalFrames,
-	ImageGallery,
-	Incentre,
-	InCircle,
-	Includes,
-	InEllipse,
-	InsertItems,
-	IntegerDivision,
-	Interpolate,
-	Interpolatedata,
-	InterpolateDate,
-	Interpolatet,
-	InverseTransform,
-	InvertMatrix,
-	IsoCurve,
-	Isotrim,
-	IsoVist,
-	IsoVistRay,
-	IsPlanar,
-	ItemIndex,
-	Jitter,
-	JoinCurves,
-	Kaleidoscope,
-	KeyValueSearch,
-	KinkyCurve,
-	KnotVector,
-	LargerThan,
-	Legend,
-	Length,
-	LengthDomain,
-	LengthParameter,
-	Line,
-	LineTwoPlane,
-	LineFourPt,
-	LinearArray,
-	LinearDimension,
-	LineCharge,
-	LineDimension,
-	LineLine,
-	LinePlane,
-	LinePt,
-	LineSDL,
-	ListItem,
-	ListLength,
-	Loft,
-	LoftOptions,
-	Logarithm,
-	LogN,
-	LongestList,
-	Maelstrom,
-	MakeTwoD,
-	MakeTwoDParallelView,
-	MakeTwoDPerspectiveView,
-	MakeTwoDRhinoView,
-	MaptoSurface,
-	MarkerDimension,
-	MassAddition,
-	MassMultiplication,
-	MatchCurve,
-	MatchText,
-	MatchTree,
-	Maximum,
-	MemberIndex,
-	Merge,
-	MergeZeroThree,
-	MergeZeroFour,
-	MergeZeroFive,
-	MergeZeroSix,
-	MergeZeroEight,
-	MergeOneZero,
-	MergeFaces,
-	MergeFields,
-	MergeGroup,
-	MergeMultiple,
-	MeshBox,
-	MeshBrep,
-	MeshClosestPoint,
-	MeshColours,
-	MeshCurve,
-	MeshDepth,
-	MeshDifference,
-	MeshEdges,
-	MeshEval,
-	MeshfromSubD,
-	MeshInclusion,
-	MeshIntersection,
-	MeshJoin,
-	MeshMesh,
-	MeshPlane,
-	MeshQuad,
-	MeshRay,
-	MeshShadow,
-	MeshSphere,
-	MeshSphereEx,
-	MeshSplit,
-	MeshSplitPlane,
-	MeshSpray,
-	MeshSurface,
-	MeshTriangle,
-	MeshUnion,
-	MetaBall,
-	MetaBallt,
-	MetaBalltCustom,
-	Minimum,
-	Mirror,
-	MirrorCurve,
-	MirrorSurface,
-	ModifiedArc,
-	Modulus,
-	Move,
-	MoveAwayFrom,
-	MoveToPlane,
-	MultipleCurves,
-	Multiplication,
-	Multiply,
-	Naturallogarithm,
-	Negative,
-	NetworkSurface,
-	NullItem,
-	NumberstoPoints,
-	NurbsCurve,
-	NurbsCurvePWK,
-	Occlusion,
-	OcTree,
-	OffsetCurve,
-	OffsetCurveLoose,
-	OffsetLooseThreeD,
-	OffsetonSrf,
-	OffsetPolyline,
-	OffsetSurface,
-	OffsetSurfaceLoose,
-	OneOverX,
-	Orient,
-	OrientDirection,
-	Orthocentre,
-	OsculatingCircles,
-	PartitionList,
-	Patch,
-	PathCompare,
-	PathMapper,
-	PerpendicularDisplay,
-	PerpFrame,
-	PerpFrames,
-	Pi,
-	PicknChoose,
-	PieChart,
-	Pipe,
-	PipeVariable,
-	Planar,
-	PlaneThreePt,
-	PlaneClosestPoint,
-	PlaneCoordinates,
-	PlaneFit,
-	PlaneNormal,
-	PlaneOffset,
-	PlaneOrigin,
-	PlanePlane,
-	PlanePlanePlane,
-	PlaneRegion,
-	PlaneSurface,
-	PlaneThroughShape,
-	PointCharge,
-	PointCylindrical,
-	PointDeform,
-	PointGroups,
-	PointInBrep,
-	PointInBreps,
-	PointInCurve,
-	PointinCurves,
-	PointInTrim,
-	PointList,
-	PointOnCurve,
-	PointOrder,
-	PointOriented,
-	PointPolar,
-	PointstoNumbers,
-	PolarArray,
-	PolyArc,
-	Polygon,
-	PolygonCenter,
-	PolygonEdge,
-	PolyLine,
-	PolylineCollapse,
-	PopulateTwoD,
-	PopulateThreeD,
-	PopulateGeometry,
-	Power,
-	PowerofOneZero,
-	PowerofTwo,
-	PowerofE,
-	PrincipalCurvature,
-	Project,
-	ProjectAlong,
-	ProjectPoint,
-	ProximityTwoD,
-	ProximityThreeD,
-	PruneTree,
-	PullCurve,
-	PullPoint,
-	Quadrangulate,
-	QuadSphere,
-	QuadTree,
-	QuickGraph,
-	Radial,
-	Radians,
-	RailRevolution,
-	Random,
-	RandomEx,
-	RandomReduce,
-	Range,
-	RebuildCurve,
-	Rectangle,
-	RectangleTwoPt,
-	RectangleThreePt,
-	RectangleMapping,
-	Rectangular,
-	RectangularArray,
-	Reduce,
-	RegionDifference,
-	RegionIntersection,
-	RegionSlits,
-	RegionUnion,
-	RelativeDifferences,
-	RelativeItem,
-	RelativeItems,
-	RemapNumbers,
-	RepeatData,
-	ReplaceItems,
-	ReplaceMembers,
-	ReplaceNulls,
-	ReplacePaths,
-	ReplaceText,
-	Retrim,
-	Reverse,
-	ReverseList,
-	Revolution,
-	RightTrigonometry,
-	Rotate,
-	RotateThreeD,
-	RotateAxis,
-	RotateDirection,
-	RotatePlane,
-	Round,
-	RuledSurface,
-	SanityXForm,
-	ScalarDisplay,
-	Scale,
-	ScaleNU,
-	Seam,
-	Secant,
-	SegmentLengths,
-	Sequence,
-	SerialDimension,
-	Series,
-	SeriesAddition,
-	SetDifference,
-	SetDifferenceS,
-	SetIntersection,
-	SetMajority,
-	SettingsCustom,
-	SettingsQuality,
-	SettingsSpeed,
-	SetUnion,
-	ShapeInBrep,
-	Shatter,
-	Shear,
-	ShearAngle,
-	ShiftList,
-	ShiftPaths,
-	ShortestList,
-	SiftPattern,
-	Similarity,
-	SimpleMesh,
-	SimplifyCurve,
-	SimplifyTree,
-	Sinc,
-	Sine,
-	SmallerThan,
-	SmoothMesh,
-	SmoothNumbers,
-	SmoothPolyline,
-	SolarIncidence,
-	SolidDifference,
-	SolidIntersection,
-	SolidUnion,
-	SortAlongCurve,
-	SortList,
-	SortPoints,
-	SortText,
-	SpatialDeform,
-	SpatialDeformcustom,
-	Sphere,
-	SphereFourPt,
-	SphereFit,
-	SpinForce,
-	Split,
-	SplitAHSL,
-	SplitAHSV,
-	SplitARGB,
-	SplitBrep,
-	SplitBrepMultiple,
-	SplitGroup,
-	SplitList,
-	SplitTree,
-	SplitwithBrep,
-	SplitwithBreps,
-	Splop,
-	Sporph,
-	Square,
-	SquareRoot,
-	StackData,
-	StreamFilter,
-	StreamGate,
-	Stretch,
-	SubCurve,
-	SubDBox,
-	SubDControlPolygon,
-	SubDEdges,
-	SubDFaces,
-	SubDfromMesh,
-	SubDVertices,
-	SubList,
-	SubSet,
-	Substrate,
-	Subtraction,
-	SumSurface,
-	SurfaceBox,
-	SurfaceClosestPoint,
-	SurfaceCurvature,
-	SurfaceCurve,
-	SurfaceFrames,
-	SurfaceFromPoints,
-	SurfaceInflection,
-	SurfaceLine,
-	SurfaceMorph,
-	SurfacePoints,
-	SurfaceSplit,
-	SwapColumns,
-	SwapRows,
-	SweepOne,
-	SweepTwo,
-	SwingArc,
-	SymbolAdvanced,
-	SymbolDisplay,
-	SymbolSimple,
-	Tangent,
-	TangentArcs,
-	TangentCurve,
-	TangentLines,
-	TangentLinesEx,
-	TangentLinesIn,
-	Taper,
-	TensorDisplay,
-	TestCrash,
-	TextCase,
-	TextDistance,
-	TextFragment,
-	TextJoin,
-	TextLength,
-	TextSplit,
-	TextTag,
-	TextTagThreeD,
-	TextTrim,
-	ToPolar,
-	Torsion,
-	TransformMatrix,
-	TransposeMatrix,
-	TreeBranch,
-	TreeItem,
-	TreeStatistics,
-	TriangleMapping,
-	TriangleTrigonometry,
-	Triangular,
-	Triangulate,
-	TrimSolid,
-	TrimTree,
-	TrimwithBrep,
-	TrimwithBreps,
-	TrimwithRegion,
-	TrimwithRegions,
-	Truncate,
-	TweenCurve,
-	Twist,
-	TwistedBox,
-	TwoByFourJam,
-	UnflattenTree,
-	Ungroup,
-	UnifyMesh,
-	UnitVector,
-	UnitX,
-	UnitY,
-	UnitZ,
-	Untrim,
-	UnweldMesh,
-	ValueTracker,
-	Variable,
-	VBScript,
-	VectorTwoPt,
-	VectorDisplay,
-	VectorDisplayEx,
-	VectorForce,
-	VectorLength,
-	VectorXYZ,
-	ViewportDisplay,
-	Volume,
-	VolumeMoments,
-	Voronoi,
-	VoronoiThreeD,
-	VoronoiCell,
-	VoronoiGroups,
-	Weave,
-	WeightedAverage,
-	WeldMesh,
-	XYPlane,
-	XZPlane,
-	YZPlane
+FourPointSurface,
+Absolute,
+Addition,
+AdjustPlane,
+AlignPlane,
+AlignPlanes,
+AlignVertices,
+AlignedDimension,
+Amplitude,
+Angle,
+AngularDimension,
+AngularDimensionsMesh,
+Arc,
+ArcThreePt,
+ArcDimension,
+ArcSED,
+ArcCosine,
+ArcSine,
+ArcTangent,
+Area,
+AreaMoments,
+Average,
+BarGraph,
+Barycentric,
+BendDeform,
+BezierSpan,
+BiArc,
+BlendBox,
+BlendColours,
+BlendCurve,
+BlendCurvePt,
+BlurMesh,
+BlurNumbers,
+BoundarySurfaces,
+BoundaryVolume,
+BoundingBox,
+Bounds,
+BoundsTwoD,
+BoxTwoPt,
+BoxArray,
+BoxCorners,
+BoxMapping,
+BoxMorph,
+BoxProperties,
+BoxRectangle,
+BoxSlits,
+BreakField,
+BrepBrep,
+BrepCurve,
+BrepLine,
+BrepPlane,
+BrepClosestPoint,
+BrepEdges,
+BrepJoin,
+BrepTopology,
+BrepWireframe,
+CScript,
+CameraObscura,
+CapHoles,
+CapHolesEx,
+CarthesianProduct,
+Catenary,
+CatenaryEx,
+CenterBox,
+Centroid,
+CharSequence,
+Characters,
+Circle,
+CircleThreePt,
+CircleCNR,
+CircleFit,
+CircleTanTan,
+CircleTanTanTan,
+CircularDimension,
+Circumcentre,
+Clash,
+CleanTree,
+Closed,
+ClosedEdges,
+ClosestPoint,
+ClosestPoints,
+CloudDisplay,
+CollisionManyMany,
+CollisionOneMany,
+ColourCMYK,
+ColourHSL,
+ColourHSV,
+ColourLab,
+ColourLCH,
+ColourRGB,
+ColourRGBf,
+ColourXYZ,
+CombineData,
+CombineDateTime,
+ComplexArgument,
+ComplexComponents,
+ComplexConjugate,
+ComplexModulus,
+Compound,
+Concatenate,
+Cone,
+ConnectCurves,
+ConsecutiveDomains,
+ConstructDate,
+ConstructDomain,
+ConstructExoticDate,
+ConstructMatrix,
+ConstructMesh,
+ConstructPath,
+ConstructPlane,
+ConstructPoint,
+ConstructSmoothTime,
+ConstructTime,
+Contour,
+Contourex,
+ControlPointLoft,
+ControlPoints,
+ControlPolygon,
+ConvexEdges,
+ConvexHull,
+CoordinateMask,
+CopyTrim,
+CoSecant,
+Cosine,
+CoTangent,
+CreateComplex,
+CreateMaterial,
+CreateSet,
+CrossProduct,
+CrossReference,
+Cube,
+CubeRoot,
+CullDuplicates,
+CullFaces,
+CullIndex,
+CullNth,
+CullPattern,
+CullVertices,
+Curvature,
+CurvatureGraph,
+CurveCurve,
+CurveLine,
+CurvePlane,
+CurveSelf,
+CurveArray,
+CurveClosestPoint,
+CurveDepth,
+CurveDomain,
+CurveFrame,
+CurveFrames,
+CurveMiddle,
+CurveNearestObject,
+CurveOnSurface,
+CurveProximity,
+CurveSide,
+CurveToPolyline,
+CustomPreview,
+Cylinder,
+DashPattern,
+DateRange,
+Deconstruct,
+DeconstructArc,
+DeconstructBox,
+DeconstructBrep,
+DeconstructDate,
+DeconstructDomain,
+DeconstructFace,
+DeconstructMatrix,
+DeconstructMesh,
+DeconstructPath,
+DeconstructPlane,
+DeconstructVector,
+DeconstuctRectangle,
+Degrees,
+DelaunayEdges,
+DelaunayMesh,
+DeleteConsecutive,
+DeleteFaces,
+DeleteVertices,
+Derivatives,
+Dimensions,
+DirectionDisplay,
+Discontinuity,
+Disjoint,
+DisjointMesh,
+Dispatch,
+DisplayMatrix,
+Distance,
+Divide,
+DivideByDeviation,
+DivideCurve,
+DivideDistance,
+DivideDomain,
+DivideLength,
+DivideSurface,
+Division,
+DomainBox,
+DotDisplay,
+DotProduct,
+DotNETCScriptLEGACY,
+DotNETVBScriptLEGACY,
+DuplicateData,
+EdgeSurface,
+EdgesfromDirections,
+EdgesfromFaces,
+EdgesfromLength,
+EdgesfromLinearity,
+EdgesfromPoints,
+Ellipse,
+EndPoints,
+Entwine,
+Epsilon,
+Equality,
+Evaluate,
+EvaluateBox,
+EvaluateCurve,
+EvaluateField,
+EvaluateLength,
+EvaluateSurface,
+Explode,
+ExplodeTree,
+Exposure,
+Expression,
+ExtendCurve,
+Extremes,
+Extrude,
+ExtrudeAlong,
+ExtrudeAngled,
+ExtrudeLinear,
+ExtrudePoint,
+FaceBoundaries,
+FaceCircles,
+FaceNormals,
+FacetDome,
+Factorial,
+Fibonacci,
+FieldLine,
+Fillet,
+FilletDistance,
+FilletEdge,
+FindDomain,
+Findsimilarmember,
+FitCurve,
+FitLine,
+FitLoft,
+FlattenTree,
+Flip,
+FlipCurve,
+FlipMatrix,
+FlipMesh,
+FlipPlane,
+Flow,
+Format,
+FragmentPatch,
+GateAnd,
+GateMajority,
+GateNand,
+GateNor,
+GateNot,
+GateOr,
+GateXnor,
+GateXor,
+Geodesic,
+GhPythonScript,
+GoldenRatio,
+GraftTree,
+Group,
+Hexagonal,
+HorizontalFrame,
+HorizontalFrames,
+ImageGallery,
+Incentre,
+InCircle,
+Includes,
+InEllipse,
+InsertItems,
+IntegerDivision,
+Interpolate,
+Interpolatet,
+Interpolatedata,
+InterpolateDate,
+InverseTransform,
+InvertMatrix,
+IsPlanar,
+IsoCurve,
+Isotrim,
+IsoVist,
+IsoVistRay,
+ItemIndex,
+Jitter,
+JoinCurves,
+Kaleidoscope,
+KeyValueSearch,
+KinkyCurve,
+KnotVector,
+LargerThan,
+Legend,
+Length,
+LengthDomain,
+LengthParameter,
+Line,
+LineLine,
+LinePt,
+LinePlane,
+LineTwoPlane,
+LineFourPt,
+LineCharge,
+LineDimension,
+LineSDL,
+LinearArray,
+LinearDimension,
+ListItem,
+ListLength,
+Loft,
+LoftOptions,
+LogN,
+Logarithm,
+LongestList,
+Maelstrom,
+MakeTwoD,
+MakeTwoDParallelView,
+MakeTwoDPerspectiveView,
+MakeTwoDRhinoView,
+MaptoSurface,
+MarkerDimension,
+MassAddition,
+MassMultiplication,
+MatchCurve,
+MatchText,
+MatchTree,
+Maximum,
+MemberIndex,
+Merge,
+MergeZeroThree,
+MergeZeroFour,
+MergeZeroFive,
+MergeZeroSix,
+MergeZeroEight,
+MergeOneZero,
+MergeFaces,
+MergeFields,
+MergeGroup,
+MergeMultiple,
+MeshCurve,
+MeshMesh,
+MeshPlane,
+MeshRay,
+MeshBox,
+MeshBrep,
+MeshClosestPoint,
+MeshColours,
+MeshDepth,
+MeshDifference,
+MeshEdges,
+MeshEval,
+MeshfromSubD,
+MeshInclusion,
+MeshIntersection,
+MeshJoin,
+MeshQuad,
+MeshShadow,
+MeshSphere,
+MeshSphereEx,
+MeshSplit,
+MeshSplitPlane,
+MeshSpray,
+MeshSurface,
+MeshTriangle,
+MeshUnion,
+MetaBall,
+MetaBallt,
+MetaBalltCustom,
+Minimum,
+Mirror,
+MirrorCurve,
+MirrorSurface,
+ModifiedArc,
+Modulus,
+Move,
+MoveAwayFrom,
+MoveToPlane,
+MultipleCurves,
+Multiplication,
+Multiply,
+Naturallogarithm,
+Negative,
+NetworkSurface,
+NullItem,
+NumberstoPoints,
+NurbsCurve,
+NurbsCurvePWK,
+Occlusion,
+OcTree,
+OffsetCurve,
+OffsetCurveLoose,
+OffsetLooseThreeD,
+OffsetonSrf,
+OffsetPolyline,
+OffsetSurface,
+OffsetSurfaceLoose,
+OneOverX,
+Orient,
+OrientDirection,
+Orthocentre,
+OsculatingCircles,
+PartitionList,
+Patch,
+PathCompare,
+PathMapper,
+PerpFrame,
+PerpFrames,
+PerpendicularDisplay,
+Pi,
+PicknChoose,
+PieChart,
+Pipe,
+PipeVariable,
+Planar,
+PlanePlane,
+PlanePlanePlane,
+PlaneThreePt,
+PlaneClosestPoint,
+PlaneCoordinates,
+PlaneFit,
+PlaneNormal,
+PlaneOffset,
+PlaneOrigin,
+PlaneRegion,
+PlaneSurface,
+PlaneThroughShape,
+PointCharge,
+PointCylindrical,
+PointDeform,
+PointGroups,
+PointInBrep,
+PointInBreps,
+PointInCurve,
+PointinCurves,
+PointInTrim,
+PointList,
+PointOnCurve,
+PointOrder,
+PointOriented,
+PointPolar,
+PointstoNumbers,
+PolarArray,
+PolyArc,
+Polygon,
+PolygonCenter,
+PolygonEdge,
+PolyLine,
+PolylineCollapse,
+PopulateTwoD,
+PopulateThreeD,
+PopulateGeometry,
+Power,
+PowerofOneZero,
+PowerofTwo,
+PowerofE,
+PrincipalCurvature,
+Project,
+ProjectAlong,
+ProjectPoint,
+ProximityTwoD,
+ProximityThreeD,
+PruneTree,
+PullCurve,
+PullPoint,
+QuadSphere,
+Quadrangulate,
+QuadTree,
+QuickGraph,
+Radial,
+Radians,
+RailRevolution,
+Random,
+RandomReduce,
+RandomEx,
+Range,
+RebuildCurve,
+Rectangle,
+RectangleTwoPt,
+RectangleThreePt,
+RectangleMapping,
+Rectangular,
+RectangularArray,
+Reduce,
+RegionDifference,
+RegionIntersection,
+RegionSlits,
+RegionUnion,
+RelativeDifferences,
+RelativeItem,
+RelativeItems,
+RemapNumbers,
+RepeatData,
+ReplaceItems,
+ReplaceMembers,
+ReplaceNulls,
+ReplacePaths,
+ReplaceText,
+Retrim,
+Reverse,
+ReverseList,
+Revolution,
+RightTrigonometry,
+Rotate,
+RotateThreeD,
+RotateAxis,
+RotateDirection,
+RotatePlane,
+Round,
+RuledSurface,
+SanityXForm,
+ScalarDisplay,
+Scale,
+ScaleNU,
+Seam,
+Secant,
+SegmentLengths,
+Sequence,
+SerialDimension,
+Series,
+SeriesAddition,
+SetDifference,
+SetDifferenceS,
+SetIntersection,
+SetMajority,
+SetUnion,
+SettingsCustom,
+SettingsQuality,
+SettingsSpeed,
+ShapeInBrep,
+Shatter,
+Shear,
+ShearAngle,
+ShiftList,
+ShiftPaths,
+ShortestList,
+SiftPattern,
+Similarity,
+SimpleMesh,
+SimplifyCurve,
+SimplifyTree,
+Sinc,
+Sine,
+SmallerThan,
+SmoothMesh,
+SmoothNumbers,
+SmoothPolyline,
+SolarIncidence,
+SolidDifference,
+SolidIntersection,
+SolidUnion,
+SortAlongCurve,
+SortList,
+SortPoints,
+SortText,
+SpatialDeform,
+SpatialDeformcustom,
+Sphere,
+SphereFourPt,
+SphereFit,
+SpinForce,
+Split,
+SplitAHSL,
+SplitAHSV,
+SplitARGB,
+SplitBrep,
+SplitBrepMultiple,
+SplitGroup,
+SplitList,
+SplitTree,
+SplitwithBrep,
+SplitwithBreps,
+Splop,
+Sporph,
+Square,
+SquareRoot,
+StackData,
+StreamFilter,
+StreamGate,
+Stretch,
+SubCurve,
+SubList,
+SubDControlPolygon,
+SubDEdges,
+SubDFaces,
+SubDfromMesh,
+SubDVertices,
+SubDBox,
+SubSet,
+Substrate,
+Subtraction,
+SumSurface,
+SurfaceCurve,
+SurfaceLine,
+SurfaceBox,
+SurfaceClosestPoint,
+SurfaceCurvature,
+SurfaceFrames,
+SurfaceFromPoints,
+SurfaceInflection,
+SurfaceMorph,
+SurfacePoints,
+SurfaceSplit,
+SwapColumns,
+SwapRows,
+SweepOne,
+SweepTwo,
+SwingArc,
+SymbolAdvanced,
+SymbolSimple,
+SymbolDisplay,
+Tangent,
+TangentArcs,
+TangentCurve,
+TangentLines,
+TangentLinesEx,
+TangentLinesIn,
+Taper,
+TensorDisplay,
+TestCrash,
+TextCase,
+TextDistance,
+TextFragment,
+TextJoin,
+TextLength,
+TextSplit,
+TextTag,
+TextTagThreeD,
+TextTrim,
+ToPolar,
+Torsion,
+TransformMatrix,
+TransposeMatrix,
+TreeBranch,
+TreeItem,
+TreeStatistics,
+TriangleMapping,
+TriangleTrigonometry,
+Triangular,
+Triangulate,
+TrimSolid,
+TrimTree,
+TrimwithBrep,
+TrimwithBreps,
+TrimwithRegion,
+TrimwithRegions,
+Truncate,
+TweenCurve,
+Twist,
+TwistedBox,
+TwoByFourJam,
+UnflattenTree,
+Ungroup,
+UnifyMesh,
+UnitVector,
+UnitX,
+UnitY,
+UnitZ,
+Untrim,
+UnweldMesh,
+ValueTracker,
+Variable,
+VBScript,
+VectorTwoPt,
+VectorDisplay,
+VectorDisplayEx,
+VectorForce,
+VectorLength,
+VectorXYZ,
+ViewportDisplay,
+Volume,
+VolumeMoments,
+Voronoi,
+VoronoiThreeD,
+VoronoiCell,
+VoronoiGroups,
+Weave,
+WeightedAverage,
+WeldMesh,
+XYPlane,
+XZPlane,
+YZPlane
 }
 
 export type GrasshopperComponent =
-"FourPointSurface" |
+"4Point Surface" |
 "Absolute" |
 "Addition" |
-"AdjustPlane" |
-"AlignedDimension" |
-"AlignPlane" |
-"AlignPlanes" |
-"AlignVertices" |
+"Adjust Plane" |
+"Align Plane" |
+"Align Planes" |
+"Align Vertices" |
+"Aligned Dimension" |
 "Amplitude" |
 "Angle" |
-"AngularDimension" |
-"AngularDimensionsMesh" |
+"Angular Dimension" |
+"Angular Dimensions (Mesh)" |
 "Arc" |
-"ArcThreePt" |
+"Arc 3Pt" |
+"Arc Dimension" |
+"Arc SED" |
 "ArcCosine" |
-"ArcDimension" |
-"ArcSED" |
 "ArcSine" |
 "ArcTangent" |
 "Area" |
-"AreaMoments" |
+"Area Moments" |
 "Average" |
-"BarGraph" |
+"Bar Graph" |
 "Barycentric" |
-"BendDeform" |
-"BezierSpan" |
+"Bend Deform" |
+"Bezier Span" |
 "BiArc" |
-"BlendBox" |
-"BlendColours" |
-"BlendCurve" |
-"BlendCurvePt" |
-"BlurMesh" |
-"BlurNumbers" |
-"BoundarySurfaces" |
-"BoundaryVolume" |
-"BoundingBox" |
+"Blend Box" |
+"Blend Colours" |
+"Blend Curve" |
+"Blend Curve Pt" |
+"Blur Mesh" |
+"Blur Numbers" |
+"Boundary Surfaces" |
+"Boundary Volume" |
+"Bounding Box" |
 "Bounds" |
-"BoundsTwoD" |
-"BoxTwoPt" |
-"BoxArray" |
-"BoxCorners" |
-"BoxMapping" |
-"BoxMorph" |
-"BoxProperties" |
-"BoxRectangle" |
-"BoxSlits" |
-"BreakField" |
-"BrepBrep" |
-"BrepClosestPoint" |
-"BrepCurve" |
-"BrepEdges" |
-"BrepJoin" |
-"BrepLine" |
-"BrepPlane" |
-"BrepTopology" |
-"BrepWireframe" |
-"CameraObscura" |
-"CapHoles" |
-"CapHolesEx" |
-"CarthesianProduct" |
+"Bounds 2D" |
+"Box 2Pt" |
+"Box Array" |
+"Box Corners" |
+"Box Mapping" |
+"Box Morph" |
+"Box Properties" |
+"Box Rectangle" |
+"Box Slits" |
+"Break Field" |
+"Brep | Brep" |
+"Brep | Curve" |
+"Brep | Line" |
+"Brep | Plane" |
+"Brep Closest Point" |
+"Brep Edges" |
+"Brep Join" |
+"Brep Topology" |
+"Brep Wireframe" |
+"C# Script" |
+"Camera Obscura" |
+"Cap Holes" |
+"Cap Holes Ex" |
+"Carthesian Product" |
 "Catenary" |
-"CatenaryEx" |
-"CenterBox" |
+"Catenary Ex" |
+"Center Box" |
 "Centroid" |
+"Char Sequence" |
 "Characters" |
-"CharSequence" |
 "Circle" |
-"CircleThreePt" |
-"CircleCNR" |
-"CircleFit" |
-"CircleTanTan" |
-"CircleTanTanTan" |
-"CircularDimension" |
+"Circle 3Pt" |
+"Circle CNR" |
+"Circle Fit" |
+"Circle TanTan" |
+"Circle TanTanTan" |
+"Circular Dimension" |
 "Circumcentre" |
 "Clash" |
-"CleanTree" |
+"Clean Tree" |
 "Closed" |
-"ClosedEdges" |
-"ClosestPoint" |
-"ClosestPoints" |
-"CloudDisplay" |
-"CollisionManyMany" |
-"CollisionOneMany" |
-"ColourCMYK" |
-"ColourHSL" |
-"ColourHSV" |
-"ColourLab" |
-"ColourLCH" |
-"ColourRGB" |
-"ColourRGBf" |
-"ColourXYZ" |
-"CombineData" |
-"CombineDateTime" |
-"ComplexArgument" |
-"ComplexComponents" |
-"ComplexConjugate" |
-"ComplexModulus" |
+"Closed Edges" |
+"Closest Point" |
+"Closest Points" |
+"Cloud Display" |
+"Collision Many|Many" |
+"Collision One|Many" |
+"Colour CMYK" |
+"Colour HSL" |
+"Colour HSV" |
+"Colour L*ab" |
+"Colour LCH" |
+"Colour RGB" |
+"Colour RGB (f)" |
+"Colour XYZ" |
+"Combine Data" |
+"Combine Date & Time" |
+"Complex Argument" |
+"Complex Components" |
+"Complex Conjugate" |
+"Complex Modulus" |
 "Compound" |
 "Concatenate" |
 "Cone" |
-"ConnectCurves" |
-"ConsecutiveDomains" |
-"ConstructDate" |
-"ConstructDomain" |
-"ConstructExoticDate" |
-"ConstructMatrix" |
-"ConstructMesh" |
-"ConstructPath" |
-"ConstructPlane" |
-"ConstructPoint" |
-"ConstructSmoothTime" |
-"ConstructTime" |
+"Connect Curves" |
+"Consecutive Domains" |
+"Construct Date" |
+"Construct Domain" |
+"Construct Exotic Date" |
+"Construct Matrix" |
+"Construct Mesh" |
+"Construct Path" |
+"Construct Plane" |
+"Construct Point" |
+"Construct Smooth Time" |
+"Construct Time" |
 "Contour" |
-"Contourex" |
-"ControlPointLoft" |
-"ControlPoints" |
-"ControlPolygon" |
-"ConvexEdges" |
-"ConvexHull" |
-"CoordinateMask" |
-"CopyTrim" |
+"Contour (ex)" |
+"Control Point Loft" |
+"Control Points" |
+"Control Polygon" |
+"Convex Edges" |
+"Convex Hull" |
+"Coordinate Mask" |
+"Copy Trim" |
 "CoSecant" |
 "Cosine" |
 "CoTangent" |
-"CreateComplex" |
-"CreateMaterial" |
-"CreateSet" |
-"CrossProduct" |
-"CrossReference" |
-"CScript" |
+"Create Complex" |
+"Create Material" |
+"Create Set" |
+"Cross Product" |
+"Cross Reference" |
 "Cube" |
-"CubeRoot" |
-"CullDuplicates" |
-"CullFaces" |
-"CullIndex" |
-"CullNth" |
-"CullPattern" |
-"CullVertices" |
+"Cube Root" |
+"Cull Duplicates" |
+"Cull Faces" |
+"Cull Index" |
+"Cull Nth" |
+"Cull Pattern" |
+"Cull Vertices" |
 "Curvature" |
-"CurvatureGraph" |
-"CurveArray" |
-"CurveClosestPoint" |
-"CurveCurve" |
-"CurveDepth" |
-"CurveDomain" |
-"CurveFrame" |
-"CurveFrames" |
-"CurveLine" |
-"CurveMiddle" |
-"CurveNearestObject" |
-"CurveOnSurface" |
-"CurvePlane" |
-"CurveProximity" |
-"CurveSelf" |
-"CurveSide" |
-"CurveToPolyline" |
-"CustomPreview" |
+"Curvature Graph" |
+"Curve | Curve" |
+"Curve | Line" |
+"Curve | Plane" |
+"Curve | Self" |
+"Curve Array" |
+"Curve Closest Point" |
+"Curve Depth" |
+"Curve Domain" |
+"Curve Frame" |
+"Curve Frames" |
+"Curve Middle" |
+"Curve Nearest Object" |
+"Curve On Surface" |
+"Curve Proximity" |
+"Curve Side" |
+"Curve To Polyline" |
+"Custom Preview" |
 "Cylinder" |
-"DashPattern" |
-"DateRange" |
+"Dash Pattern" |
+"Date Range" |
 "Deconstruct" |
-"DeconstructArc" |
-"DeconstructBox" |
-"DeconstructBrep" |
-"DeconstructDate" |
-"DeconstructDomain" |
-"DeconstructFace" |
-"DeconstructMatrix" |
-"DeconstructMesh" |
-"DeconstructPath" |
-"DeconstructPlane" |
-"DeconstructVector" |
-"DeconstuctRectangle" |
+"Deconstruct Arc" |
+"Deconstruct Box" |
+"Deconstruct Brep" |
+"Deconstruct Date" |
+"Deconstruct Domain" |
+"Deconstruct Face" |
+"Deconstruct Matrix" |
+"Deconstruct Mesh" |
+"Deconstruct Path" |
+"Deconstruct Plane" |
+"Deconstruct Vector" |
+"Deconstuct Rectangle" |
 "Degrees" |
-"DelaunayEdges" |
-"DelaunayMesh" |
-"DeleteConsecutive" |
-"DeleteFaces" |
-"DeleteVertices" |
+"Delaunay Edges" |
+"Delaunay Mesh" |
+"Delete Consecutive" |
+"Delete Faces" |
+"Delete Vertices" |
 "Derivatives" |
 "Dimensions" |
-"DirectionDisplay" |
+"Direction Display" |
 "Discontinuity" |
 "Disjoint" |
-"DisjointMesh" |
+"Disjoint Mesh" |
 "Dispatch" |
-"DisplayMatrix" |
+"Display Matrix" |
 "Distance" |
 "Divide" |
-"DivideByDeviation" |
-"DivideCurve" |
-"DivideDistance" |
-"DivideDomain" |
-"DivideLength" |
-"DivideSurface" |
+"Divide By Deviation" |
+"Divide Curve" |
+"Divide Distance" |
+"Divide Domain" |
+"Divide Length" |
+"Divide Surface" |
 "Division" |
-"DomainBox" |
-"DotDisplay" |
-"DotNETCScriptLEGACY" |
-"DotNETVBScriptLEGACY" |
-"DotProduct" |
-"DuplicateData" |
-"EdgesfromDirections" |
-"EdgesfromFaces" |
-"EdgesfromLength" |
-"EdgesfromLinearity" |
-"EdgesfromPoints" |
-"EdgeSurface" |
+"Domain Box" |
+"Dot Display" |
+"Dot Product" |
+"DotNET C# Script (LEGACY)" |
+"DotNET VB Script (LEGACY)" |
+"Duplicate Data" |
+"Edge Surface" |
+"Edges from Directions" |
+"Edges from Faces" |
+"Edges from Length" |
+"Edges from Linearity" |
+"Edges from Points" |
 "Ellipse" |
-"EndPoints" |
+"End Points" |
 "Entwine" |
 "Epsilon" |
 "Equality" |
 "Evaluate" |
-"EvaluateBox" |
-"EvaluateCurve" |
-"EvaluateField" |
-"EvaluateLength" |
-"EvaluateSurface" |
+"Evaluate Box" |
+"Evaluate Curve" |
+"Evaluate Field" |
+"Evaluate Length" |
+"Evaluate Surface" |
 "Explode" |
-"ExplodeTree" |
+"Explode Tree" |
 "Exposure" |
 "Expression" |
-"ExtendCurve" |
+"Extend Curve" |
 "Extremes" |
 "Extrude" |
-"ExtrudeAlong" |
-"ExtrudeAngled" |
-"ExtrudeLinear" |
-"ExtrudePoint" |
-"FaceBoundaries" |
-"FaceCircles" |
-"FaceNormals" |
-"FacetDome" |
+"Extrude Along" |
+"Extrude Angled" |
+"Extrude Linear" |
+"Extrude Point" |
+"Face Boundaries" |
+"Face Circles" |
+"Face Normals" |
+"Facet Dome" |
 "Factorial" |
 "Fibonacci" |
-"FieldLine" |
+"Field Line" |
 "Fillet" |
-"FilletDistance" |
-"FilletEdge" |
-"FindDomain" |
-"Findsimilarmember" |
-"FitCurve" |
-"FitLine" |
-"FitLoft" |
-"FlattenTree" |
+"Fillet Distance" |
+"Fillet Edge" |
+"Find Domain" |
+"Find similar member" |
+"Fit Curve" |
+"Fit Line" |
+"Fit Loft" |
+"Flatten Tree" |
 "Flip" |
-"FlipCurve" |
-"FlipMatrix" |
-"FlipMesh" |
-"FlipPlane" |
+"Flip Curve" |
+"Flip Matrix" |
+"Flip Mesh" |
+"Flip Plane" |
 "Flow" |
 "Format" |
-"FragmentPatch" |
-"GateAnd" |
-"GateMajority" |
-"GateNand" |
-"GateNor" |
-"GateNot" |
-"GateOr" |
-"GateXnor" |
-"GateXor" |
+"Fragment Patch" |
+"Gate And" |
+"Gate Majority" |
+"Gate Nand" |
+"Gate Nor" |
+"Gate Not" |
+"Gate Or" |
+"Gate Xnor" |
+"Gate Xor" |
 "Geodesic" |
-"GhPythonScript" |
-"GoldenRatio" |
-"GraftTree" |
+"GhPython Script" |
+"Golden Ratio" |
+"Graft Tree" |
 "Group" |
 "Hexagonal" |
-"HorizontalFrame" |
-"HorizontalFrames" |
-"ImageGallery" |
+"Horizontal Frame" |
+"Horizontal Frames" |
+"Image Gallery" |
 "Incentre" |
 "InCircle" |
 "Includes" |
 "InEllipse" |
-"InsertItems" |
-"IntegerDivision" |
+"Insert Items" |
+"Integer Division" |
 "Interpolate" |
-"Interpolatedata" |
-"InterpolateDate" |
-"Interpolatet" |
-"InverseTransform" |
-"InvertMatrix" |
-"IsoCurve" |
+"Interpolate (t)" |
+"Interpolate data" |
+"Interpolate Date" |
+"Inverse Transform" |
+"Invert Matrix" |
+"Is Planar" |
+"Iso Curve" |
 "Isotrim" |
 "IsoVist" |
-"IsoVistRay" |
-"IsPlanar" |
-"ItemIndex" |
+"IsoVist Ray" |
+"Item Index" |
 "Jitter" |
-"JoinCurves" |
+"Join Curves" |
 "Kaleidoscope" |
-"KeyValueSearch" |
-"KinkyCurve" |
-"KnotVector" |
-"LargerThan" |
+"Key/Value Search" |
+"Kinky Curve" |
+"Knot Vector" |
+"Larger Than" |
 "Legend" |
 "Length" |
-"LengthDomain" |
-"LengthParameter" |
+"Length Domain" |
+"Length Parameter" |
 "Line" |
-"LineTwoPlane" |
-"LineFourPt" |
-"LinearArray" |
-"LinearDimension" |
-"LineCharge" |
-"LineDimension" |
-"LineLine" |
-"LinePlane" |
-"LinePt" |
-"LineSDL" |
-"ListItem" |
-"ListLength" |
+"Line + Line" |
+"Line + Pt" |
+"Line | Plane" |
+"Line 2Plane" |
+"Line 4Pt" |
+"Line Charge" |
+"Line Dimension" |
+"Line SDL" |
+"Linear Array" |
+"Linear Dimension" |
+"List Item" |
+"List Length" |
 "Loft" |
-"LoftOptions" |
+"Loft Options" |
+"Log N" |
 "Logarithm" |
-"LogN" |
-"LongestList" |
+"Longest List" |
 "Maelstrom" |
-"MakeTwoD" |
-"MakeTwoDParallelView" |
-"MakeTwoDPerspectiveView" |
-"MakeTwoDRhinoView" |
-"MaptoSurface" |
-"MarkerDimension" |
-"MassAddition" |
-"MassMultiplication" |
-"MatchCurve" |
-"MatchText" |
-"MatchTree" |
+"Make2D" |
+"Make2D Parallel View" |
+"Make2D Perspective View" |
+"Make2D Rhino View" |
+"Map to Surface" |
+"Marker Dimension" |
+"Mass Addition" |
+"Mass Multiplication" |
+"Match Curve" |
+"Match Text" |
+"Match Tree" |
 "Maximum" |
-"MemberIndex" |
+"Member Index" |
 "Merge" |
-"MergeZeroThree" |
-"MergeZeroFour" |
-"MergeZeroFive" |
-"MergeZeroSix" |
-"MergeZeroEight" |
-"MergeOneZero" |
-"MergeFaces" |
-"MergeFields" |
-"MergeGroup" |
-"MergeMultiple" |
-"MeshBox" |
-"MeshBrep" |
-"MeshClosestPoint" |
-"MeshColours" |
-"MeshCurve" |
-"MeshDepth" |
-"MeshDifference" |
-"MeshEdges" |
-"MeshEval" |
-"MeshfromSubD" |
-"MeshInclusion" |
-"MeshIntersection" |
-"MeshJoin" |
-"MeshMesh" |
-"MeshPlane" |
-"MeshQuad" |
-"MeshRay" |
-"MeshShadow" |
-"MeshSphere" |
-"MeshSphereEx" |
-"MeshSplit" |
-"MeshSplitPlane" |
-"MeshSpray" |
-"MeshSurface" |
-"MeshTriangle" |
-"MeshUnion" |
+"Merge 03" |
+"Merge 04" |
+"Merge 05" |
+"Merge 06" |
+"Merge 08" |
+"Merge 10" |
+"Merge Faces" |
+"Merge Fields" |
+"Merge Group" |
+"Merge Multiple" |
+"Mesh | Curve" |
+"Mesh | Mesh" |
+"Mesh | Plane" |
+"Mesh | Ray" |
+"Mesh Box" |
+"Mesh Brep" |
+"Mesh Closest Point" |
+"Mesh Colours" |
+"Mesh Depth" |
+"Mesh Difference" |
+"Mesh Edges" |
+"Mesh Eval" |
+"Mesh from Sub-D" |
+"Mesh Inclusion" |
+"Mesh Intersection" |
+"Mesh Join" |
+"Mesh Quad" |
+"Mesh Shadow" |
+"Mesh Sphere" |
+"Mesh Sphere Ex" |
+"Mesh Split" |
+"Mesh Split Plane" |
+"Mesh Spray" |
+"Mesh Surface" |
+"Mesh Triangle" |
+"Mesh Union" |
 "MetaBall" |
-"MetaBallt" |
-"MetaBalltCustom" |
+"MetaBall(t)" |
+"MetaBall(t) Custom" |
 "Minimum" |
 "Mirror" |
-"MirrorCurve" |
-"MirrorSurface" |
-"ModifiedArc" |
+"Mirror Curve" |
+"Mirror Surface" |
+"Modified Arc" |
 "Modulus" |
 "Move" |
-"MoveAwayFrom" |
-"MoveToPlane" |
-"MultipleCurves" |
+"Move Away From" |
+"Move To Plane" |
+"Multiple Curves" |
 "Multiplication" |
 "Multiply" |
-"Naturallogarithm" |
+"Natural logarithm" |
 "Negative" |
-"NetworkSurface" |
-"NullItem" |
-"NumberstoPoints" |
-"NurbsCurve" |
-"NurbsCurvePWK" |
+"Network Surface" |
+"Null Item" |
+"Numbers to Points" |
+"Nurbs Curve" |
+"Nurbs Curve PWK" |
 "Occlusion" |
 "OcTree" |
-"OffsetCurve" |
-"OffsetCurveLoose" |
-"OffsetLooseThreeD" |
-"OffsetonSrf" |
-"OffsetPolyline" |
-"OffsetSurface" |
-"OffsetSurfaceLoose" |
-"OneOverX" |
+"Offset Curve" |
+"Offset Curve Loose" |
+"Offset Loose 3D" |
+"Offset on Srf" |
+"Offset Polyline" |
+"Offset Surface" |
+"Offset Surface Loose" |
+"One Over X" |
 "Orient" |
-"OrientDirection" |
+"Orient Direction" |
 "Orthocentre" |
-"OsculatingCircles" |
-"PartitionList" |
+"Osculating Circles" |
+"Partition List" |
 "Patch" |
-"PathCompare" |
-"PathMapper" |
-"PerpendicularDisplay" |
-"PerpFrame" |
-"PerpFrames" |
+"Path Compare" |
+"Path Mapper" |
+"Perp Frame" |
+"Perp Frames" |
+"Perpendicular Display" |
 "Pi" |
-"PicknChoose" |
-"PieChart" |
+"Pick'n'Choose" |
+"Pie Chart" |
 "Pipe" |
-"PipeVariable" |
+"Pipe Variable" |
 "Planar" |
-"PlaneThreePt" |
-"PlaneClosestPoint" |
-"PlaneCoordinates" |
-"PlaneFit" |
-"PlaneNormal" |
-"PlaneOffset" |
-"PlaneOrigin" |
-"PlanePlane" |
-"PlanePlanePlane" |
-"PlaneRegion" |
-"PlaneSurface" |
-"PlaneThroughShape" |
-"PointCharge" |
-"PointCylindrical" |
-"PointDeform" |
-"PointGroups" |
-"PointInBrep" |
-"PointInBreps" |
-"PointInCurve" |
-"PointinCurves" |
-"PointInTrim" |
-"PointList" |
-"PointOnCurve" |
-"PointOrder" |
-"PointOriented" |
-"PointPolar" |
-"PointstoNumbers" |
-"PolarArray" |
+"Plane | Plane" |
+"Plane | Plane | Plane" |
+"Plane 3Pt" |
+"Plane Closest Point" |
+"Plane Coordinates" |
+"Plane Fit" |
+"Plane Normal" |
+"Plane Offset" |
+"Plane Origin" |
+"Plane Region" |
+"Plane Surface" |
+"Plane Through Shape" |
+"Point Charge" |
+"Point Cylindrical" |
+"Point Deform" |
+"Point Groups" |
+"Point In Brep" |
+"Point In Breps" |
+"Point In Curve" |
+"Point in Curves" |
+"Point In Trim" |
+"Point List" |
+"Point On Curve" |
+"Point Order" |
+"Point Oriented" |
+"Point Polar" |
+"Points to Numbers" |
+"Polar Array" |
 "PolyArc" |
 "Polygon" |
-"PolygonCenter" |
-"PolygonEdge" |
+"Polygon Center" |
+"Polygon Edge" |
 "PolyLine" |
-"PolylineCollapse" |
-"PopulateTwoD" |
-"PopulateThreeD" |
-"PopulateGeometry" |
+"Polyline Collapse" |
+"Populate 2D" |
+"Populate 3D" |
+"Populate Geometry" |
 "Power" |
-"PowerofOneZero" |
-"PowerofTwo" |
-"PowerofE" |
-"PrincipalCurvature" |
+"Power of 10" |
+"Power of 2" |
+"Power of E" |
+"Principal Curvature" |
 "Project" |
-"ProjectAlong" |
-"ProjectPoint" |
-"ProximityTwoD" |
-"ProximityThreeD" |
-"PruneTree" |
-"PullCurve" |
-"PullPoint" |
+"Project Along" |
+"Project Point" |
+"Proximity 2D" |
+"Proximity 3D" |
+"Prune Tree" |
+"Pull Curve" |
+"Pull Point" |
+"Quad Sphere" |
 "Quadrangulate" |
-"QuadSphere" |
 "QuadTree" |
-"QuickGraph" |
+"Quick Graph" |
 "Radial" |
 "Radians" |
-"RailRevolution" |
+"Rail Revolution" |
 "Random" |
+"Random Reduce" |
 "RandomEx" |
-"RandomReduce" |
 "Range" |
-"RebuildCurve" |
+"Rebuild Curve" |
 "Rectangle" |
-"RectangleTwoPt" |
-"RectangleThreePt" |
-"RectangleMapping" |
+"Rectangle 2Pt" |
+"Rectangle 3Pt" |
+"Rectangle Mapping" |
 "Rectangular" |
-"RectangularArray" |
+"Rectangular Array" |
 "Reduce" |
-"RegionDifference" |
-"RegionIntersection" |
-"RegionSlits" |
-"RegionUnion" |
-"RelativeDifferences" |
-"RelativeItem" |
-"RelativeItems" |
-"RemapNumbers" |
-"RepeatData" |
-"ReplaceItems" |
-"ReplaceMembers" |
-"ReplaceNulls" |
-"ReplacePaths" |
-"ReplaceText" |
+"Region Difference" |
+"Region Intersection" |
+"Region Slits" |
+"Region Union" |
+"Relative Differences" |
+"Relative Item" |
+"Relative Items" |
+"Remap Numbers" |
+"Repeat Data" |
+"Replace Items" |
+"Replace Members" |
+"Replace Nulls" |
+"Replace Paths" |
+"Replace Text" |
 "Retrim" |
 "Reverse" |
-"ReverseList" |
+"Reverse List" |
 "Revolution" |
-"RightTrigonometry" |
+"Right Trigonometry" |
 "Rotate" |
-"RotateThreeD" |
-"RotateAxis" |
-"RotateDirection" |
-"RotatePlane" |
+"Rotate 3D" |
+"Rotate Axis" |
+"Rotate Direction" |
+"Rotate Plane" |
 "Round" |
-"RuledSurface" |
-"SanityXForm" |
-"ScalarDisplay" |
+"Ruled Surface" |
+"Sanity XForm" |
+"Scalar Display" |
 "Scale" |
-"ScaleNU" |
+"Scale NU" |
 "Seam" |
 "Secant" |
-"SegmentLengths" |
+"Segment Lengths" |
 "Sequence" |
-"SerialDimension" |
+"Serial Dimension" |
 "Series" |
-"SeriesAddition" |
-"SetDifference" |
-"SetDifferenceS" |
-"SetIntersection" |
-"SetMajority" |
-"SettingsCustom" |
-"SettingsQuality" |
-"SettingsSpeed" |
-"SetUnion" |
-"ShapeInBrep" |
+"Series Addition" |
+"Set Difference" |
+"Set Difference (S)" |
+"Set Intersection" |
+"Set Majority" |
+"Set Union" |
+"Settings (Custom)" |
+"Settings (Quality)" |
+"Settings (Speed)" |
+"Shape In Brep" |
 "Shatter" |
 "Shear" |
-"ShearAngle" |
-"ShiftList" |
-"ShiftPaths" |
-"ShortestList" |
-"SiftPattern" |
+"Shear Angle" |
+"Shift List" |
+"Shift Paths" |
+"Shortest List" |
+"Sift Pattern" |
 "Similarity" |
-"SimpleMesh" |
-"SimplifyCurve" |
-"SimplifyTree" |
+"Simple Mesh" |
+"Simplify Curve" |
+"Simplify Tree" |
 "Sinc" |
 "Sine" |
-"SmallerThan" |
-"SmoothMesh" |
-"SmoothNumbers" |
-"SmoothPolyline" |
-"SolarIncidence" |
-"SolidDifference" |
-"SolidIntersection" |
-"SolidUnion" |
-"SortAlongCurve" |
-"SortList" |
-"SortPoints" |
-"SortText" |
-"SpatialDeform" |
-"SpatialDeformcustom" |
+"Smaller Than" |
+"Smooth Mesh" |
+"Smooth Numbers" |
+"Smooth Polyline" |
+"Solar Incidence" |
+"Solid Difference" |
+"Solid Intersection" |
+"Solid Union" |
+"Sort Along Curve" |
+"Sort List" |
+"Sort Points" |
+"Sort Text" |
+"Spatial Deform" |
+"Spatial Deform (custom)" |
 "Sphere" |
-"SphereFourPt" |
-"SphereFit" |
-"SpinForce" |
+"Sphere 4Pt" |
+"Sphere Fit" |
+"Spin Force" |
 "Split" |
-"SplitAHSL" |
-"SplitAHSV" |
-"SplitARGB" |
-"SplitBrep" |
-"SplitBrepMultiple" |
-"SplitGroup" |
-"SplitList" |
-"SplitTree" |
-"SplitwithBrep" |
-"SplitwithBreps" |
+"Split AHSL" |
+"Split AHSV" |
+"Split ARGB" |
+"Split Brep" |
+"Split Brep Multiple" |
+"Split Group" |
+"Split List" |
+"Split Tree" |
+"Split with Brep" |
+"Split with Breps" |
 "Splop" |
 "Sporph" |
 "Square" |
-"SquareRoot" |
-"StackData" |
-"StreamFilter" |
-"StreamGate" |
+"Square Root" |
+"Stack Data" |
+"Stream Filter" |
+"Stream Gate" |
 "Stretch" |
-"SubCurve" |
-"SubDBox" |
-"SubDControlPolygon" |
-"SubDEdges" |
-"SubDFaces" |
-"SubDfromMesh" |
-"SubDVertices" |
-"SubList" |
+"Sub Curve" |
+"Sub List" |
+"Sub-D Control Polygon" |
+"Sub-D Edges" |
+"Sub-D Faces" |
+"Sub-D from Mesh" |
+"Sub-D Vertices" |
+"SubD Box" |
 "SubSet" |
 "Substrate" |
 "Subtraction" |
-"SumSurface" |
-"SurfaceBox" |
-"SurfaceClosestPoint" |
-"SurfaceCurvature" |
-"SurfaceCurve" |
-"SurfaceFrames" |
-"SurfaceFromPoints" |
-"SurfaceInflection" |
-"SurfaceLine" |
-"SurfaceMorph" |
-"SurfacePoints" |
-"SurfaceSplit" |
-"SwapColumns" |
-"SwapRows" |
-"SweepOne" |
-"SweepTwo" |
-"SwingArc" |
-"SymbolAdvanced" |
-"SymbolDisplay" |
-"SymbolSimple" |
+"Sum Surface" |
+"Surface | Curve" |
+"Surface | Line" |
+"Surface Box" |
+"Surface Closest Point" |
+"Surface Curvature" |
+"Surface Frames" |
+"Surface From Points" |
+"Surface Inflection" |
+"Surface Morph" |
+"Surface Points" |
+"Surface Split" |
+"Swap Columns" |
+"Swap Rows" |
+"Sweep1" |
+"Sweep2" |
+"Swing Arc" |
+"Symbol (Advanced)" |
+"Symbol (Simple)" |
+"Symbol Display" |
 "Tangent" |
-"TangentArcs" |
-"TangentCurve" |
-"TangentLines" |
-"TangentLinesEx" |
-"TangentLinesIn" |
+"Tangent Arcs" |
+"Tangent Curve" |
+"Tangent Lines" |
+"Tangent Lines (Ex)" |
+"Tangent Lines (In)" |
 "Taper" |
-"TensorDisplay" |
-"TestCrash" |
-"TextCase" |
-"TextDistance" |
-"TextFragment" |
-"TextJoin" |
-"TextLength" |
-"TextSplit" |
-"TextTag" |
-"TextTagThreeD" |
-"TextTrim" |
-"ToPolar" |
+"Tensor Display" |
+"Test Crash" |
+"Text Case" |
+"Text Distance" |
+"Text Fragment" |
+"Text Join" |
+"Text Length" |
+"Text Split" |
+"Text Tag" |
+"Text Tag 3D" |
+"Text Trim" |
+"To Polar" |
 "Torsion" |
-"TransformMatrix" |
-"TransposeMatrix" |
-"TreeBranch" |
-"TreeItem" |
-"TreeStatistics" |
-"TriangleMapping" |
-"TriangleTrigonometry" |
+"Transform Matrix" |
+"Transpose Matrix" |
+"Tree Branch" |
+"Tree Item" |
+"Tree Statistics" |
+"Triangle Mapping" |
+"Triangle Trigonometry" |
 "Triangular" |
 "Triangulate" |
-"TrimSolid" |
-"TrimTree" |
-"TrimwithBrep" |
-"TrimwithBreps" |
-"TrimwithRegion" |
-"TrimwithRegions" |
+"Trim Solid" |
+"Trim Tree" |
+"Trim with Brep" |
+"Trim with Breps" |
+"Trim with Region" |
+"Trim with Regions" |
 "Truncate" |
-"TweenCurve" |
+"Tween Curve" |
 "Twist" |
-"TwistedBox" |
+"Twisted Box" |
 "TwoByFourJam" |
-"UnflattenTree" |
+"Unflatten Tree" |
 "Ungroup" |
-"UnifyMesh" |
-"UnitVector" |
-"UnitX" |
-"UnitY" |
-"UnitZ" |
+"Unify Mesh" |
+"Unit Vector" |
+"Unit X" |
+"Unit Y" |
+"Unit Z" |
 "Untrim" |
-"UnweldMesh" |
-"ValueTracker" |
+"Unweld Mesh" |
+"Value Tracker" |
 "Variable" |
-"VBScript" |
-"VectorTwoPt" |
-"VectorDisplay" |
-"VectorDisplayEx" |
-"VectorForce" |
-"VectorLength" |
-"VectorXYZ" |
-"ViewportDisplay" |
+"VB Script" |
+"Vector 2Pt" |
+"Vector Display" |
+"Vector Display Ex" |
+"Vector Force" |
+"Vector Length" |
+"Vector XYZ" |
+"Viewport Display" |
 "Volume" |
-"VolumeMoments" |
+"Volume Moments" |
 "Voronoi" |
-"VoronoiThreeD" |
-"VoronoiCell" |
-"VoronoiGroups" |
+"Voronoi 3D" |
+"Voronoi Cell" |
+"Voronoi Groups" |
 "Weave" |
-"WeightedAverage" |
-"WeldMesh" |
-"XYPlane" |
-"XZPlane" |
-"YZPlane"
+"Weighted Average" |
+"Weld Mesh" |
+"XY Plane" |
+"XZ Plane" |
+"YZ Plane"

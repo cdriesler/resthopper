@@ -3,8 +3,8 @@ import DimensionsAngularDimension from './Dimensions/AngularDimension'
 import DimensionsAngularDimensionsMesh from './Dimensions/AngularDimensionsMesh'
 import DimensionsArcDimension from './Dimensions/ArcDimension'
 import DimensionsCircularDimension from './Dimensions/CircularDimension'
-import DimensionsLinearDimension from './Dimensions/LinearDimension'
 import DimensionsLineDimension from './Dimensions/LineDimension'
+import DimensionsLinearDimension from './Dimensions/LinearDimension'
 import DimensionsMakeTwoD from './Dimensions/MakeTwoD'
 import DimensionsMakeTwoDParallelView from './Dimensions/MakeTwoDParallelView'
 import DimensionsMakeTwoDPerspectiveView from './Dimensions/MakeTwoDPerspectiveView'
@@ -24,8 +24,8 @@ import PreviewCreateMaterial from './Preview/CreateMaterial'
 import PreviewCustomPreview from './Preview/CustomPreview'
 import PreviewDotDisplay from './Preview/DotDisplay'
 import PreviewSymbolAdvanced from './Preview/SymbolAdvanced'
-import PreviewSymbolDisplay from './Preview/SymbolDisplay'
 import PreviewSymbolSimple from './Preview/SymbolSimple'
+import PreviewSymbolDisplay from './Preview/SymbolDisplay'
 import ColourColourCMYK from './Colour/ColourCMYK'
 import ColourColourHSL from './Colour/ColourHSL'
 import ColourColourHSV from './Colour/ColourHSV'
@@ -51,8 +51,8 @@ const Display = {
 		AngularDimensionsMesh: DimensionsAngularDimensionsMesh,
 		ArcDimension: DimensionsArcDimension,
 		CircularDimension: DimensionsCircularDimension,
-		LinearDimension: DimensionsLinearDimension,
 		LineDimension: DimensionsLineDimension,
+		LinearDimension: DimensionsLinearDimension,
 		MakeTwoD: DimensionsMakeTwoD,
 		MakeTwoDParallelView: DimensionsMakeTwoDParallelView,
 		MakeTwoDPerspectiveView: DimensionsMakeTwoDPerspectiveView,
@@ -76,8 +76,8 @@ const Display = {
 		CustomPreview: PreviewCustomPreview,
 		DotDisplay: PreviewDotDisplay,
 		SymbolAdvanced: PreviewSymbolAdvanced,
-		SymbolDisplay: PreviewSymbolDisplay,
 		SymbolSimple: PreviewSymbolSimple,
+		SymbolDisplay: PreviewSymbolDisplay,
 	},
 	Colour: {
 		ColourCMYK: ColourColourCMYK,

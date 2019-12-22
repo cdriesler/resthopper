@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PlaneThroughShape extends ResthopperComponent {
 
 	public guid: string = "d8698126-0e91-4ae7-ba05-2490258573ea";
-	public name: string = "PlaneThroughShape";
+	public name: string = "Plane Through Shape";
 	public nickName: string = "PxS";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CircularDimension extends ResthopperComponent {
 
 	public guid: string = "7e9489e0-122d-401a-aba8-f1dae0217c40";
-	public name: string = "CircularDimension";
+	public name: string = "Circular Dimension";
 	public nickName: string = "CircleDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";

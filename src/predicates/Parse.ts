@@ -31,7 +31,7 @@ export default class Parse {
         
         let rc = new ResthopperComponent();
         rc.guid = obj.Guid;
-        rc.name = obj.Name.replace(/\W/g, '');
+        rc.name = obj.Name;
         rc.nickName = obj.NickName.replace(/\W/g, '');
         rc.description = obj.Description;
         rc.category = obj.Category;

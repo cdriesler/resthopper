@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MultipleCurves extends ResthopperComponent {
 
 	public guid: string = "931e6030-ccb3-4a7b-a89a-99dcce8770cd";
-	public name: string = "MultipleCurves";
+	public name: string = "Multiple Curves";
 	public nickName: string = "MCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";

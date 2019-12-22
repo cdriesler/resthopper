@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FragmentPatch extends ResthopperComponent {
 
 	public guid: string = "cb56b26c-2595-4d03-bdb2-eb2e6aeba82d";
-	public name: string = "FragmentPatch";
+	public name: string = "Fragment Patch";
 	public nickName: string = "FPatch";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

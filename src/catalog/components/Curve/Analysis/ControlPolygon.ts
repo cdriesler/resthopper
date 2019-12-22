@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ControlPolygon extends ResthopperComponent {
 
 	public guid: string = "66d2a68e-2f1d-43d2-a53b-c6a4d17e627b";
-	public name: string = "ControlPolygon";
+	public name: string = "Control Polygon";
 	public nickName: string = "CPoly";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LinearDimension extends ResthopperComponent {
 
 	public guid: string = "5018bf8d-8566-4917-a6e3-5a623bda8079";
-	public name: string = "LinearDimension";
+	public name: string = "Linear Dimension";
 	public nickName: string = "LinearDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";

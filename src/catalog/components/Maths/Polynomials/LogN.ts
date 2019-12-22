@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LogN extends ResthopperComponent {
 
 	public guid: string = "7ab8d289-26a2-4dd4-b4ad-df5b477999d8";
-	public name: string = "LogN";
+	public name: string = "Log N";
 	public nickName: string = "LogN";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";

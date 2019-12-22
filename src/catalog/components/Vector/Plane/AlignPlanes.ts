@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class AlignPlanes extends ResthopperComponent {
 
 	public guid: string = "2318aee8-01fe-4ea8-9524-6966023fc622";
-	public name: string = "AlignPlanes";
+	public name: string = "Align Planes";
 	public nickName: string = "Align";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";

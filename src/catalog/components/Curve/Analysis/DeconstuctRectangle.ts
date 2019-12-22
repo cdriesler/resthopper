@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DeconstuctRectangle extends ResthopperComponent {
 
 	public guid: string = "e5c33a79-53d5-4f2b-9a97-d3d45c780edc";
-	public name: string = "DeconstuctRectangle";
+	public name: string = "Deconstuct Rectangle";
 	public nickName: string = "DRec";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

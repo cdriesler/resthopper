@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MeshEval extends ResthopperComponent {
 
 	public guid: string = "b2dc090f-b022-4264-8889-87e22979336e";
-	public name: string = "MeshEval";
+	public name: string = "Mesh Eval";
 	public nickName: string = "MEval";
 	public category: string = "Mesh";
 	public subCategory: string = "Analysis";

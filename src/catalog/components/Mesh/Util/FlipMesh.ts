@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FlipMesh extends ResthopperComponent {
 
 	public guid: string = "47fbc929-e88a-4a13-882e-dad84763256d";
-	public name: string = "FlipMesh";
+	public name: string = "Flip Mesh";
 	public nickName: string = "FlipM";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FlipPlane extends ResthopperComponent {
 
 	public guid: string = "c73e1ed0-82a2-40b0-b4df-8f10e445d60b";
-	public name: string = "FlipPlane";
+	public name: string = "Flip Plane";
 	public nickName: string = "PFlip";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";

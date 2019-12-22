@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceFromPoints extends ResthopperComponent {
 
 	public guid: string = "4b04a1e1-cddf-405d-a7db-335aaa940541";
-	public name: string = "SurfaceFromPoints";
+	public name: string = "Surface From Points";
 	public nickName: string = "SrfGrid";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

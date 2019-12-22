@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PointDeform extends ResthopperComponent {
 
 	public guid: string = "4dbd15c7-ebcb-4af6-b3bd-32e80502520c";
-	public name: string = "PointDeform";
+	public name: string = "Point Deform";
 	public nickName: string = "PDeform";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

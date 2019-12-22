@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FourPointSurface extends ResthopperComponent {
 
 	public guid: string = "c77a8b3b-c569-4d81-9b59-1c27299a1c45";
-	public name: string = "4PointSurface";
+	public name: string = "4Point Surface";
 	public nickName: string = "Srf4Pt";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

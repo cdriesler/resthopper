@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CurveSide extends ResthopperComponent {
 
 	public guid: string = "bb2e13da-09ca-43fd-bef8-8d71f3653af9";
-	public name: string = "CurveSide";
+	public name: string = "Curve Side";
 	public nickName: string = "Side";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

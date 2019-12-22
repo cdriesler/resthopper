@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ControlPointLoft extends ResthopperComponent {
 
 	public guid: string = "5c270622-ee80-45a4-b07a-bd8ffede92a2";
-	public name: string = "ControlPointLoft";
+	public name: string = "Control Point Loft";
 	public nickName: string = "CPLoft";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

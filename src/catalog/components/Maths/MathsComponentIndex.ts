@@ -70,6 +70,14 @@ import DomainDivideDomain from './Domain/DivideDomain'
 import DomainFindDomain from './Domain/FindDomain'
 import DomainIncludes from './Domain/Includes'
 import DomainRemapNumbers from './Domain/RemapNumbers'
+import ScriptCScript from './Script/CScript'
+import ScriptDotNETCScriptLEGACY from './Script/DotNETCScriptLEGACY'
+import ScriptDotNETVBScriptLEGACY from './Script/DotNETVBScriptLEGACY'
+import ScriptEvaluate from './Script/Evaluate'
+import ScriptExpression from './Script/Expression'
+import ScriptGhPythonScript from './Script/GhPythonScript'
+import ScriptVariable from './Script/Variable'
+import ScriptVBScript from './Script/VBScript'
 import TimeCombineDateTime from './Time/CombineDateTime'
 import TimeConstructDate from './Time/ConstructDate'
 import TimeConstructExoticDate from './Time/ConstructExoticDate'
@@ -85,18 +93,10 @@ import MatrixInvertMatrix from './Matrix/InvertMatrix'
 import MatrixSwapColumns from './Matrix/SwapColumns'
 import MatrixSwapRows from './Matrix/SwapRows'
 import MatrixTransposeMatrix from './Matrix/TransposeMatrix'
-import ScriptCScript from './Script/CScript'
-import ScriptDotNETCScriptLEGACY from './Script/DotNETCScriptLEGACY'
-import ScriptDotNETVBScriptLEGACY from './Script/DotNETVBScriptLEGACY'
-import ScriptEvaluate from './Script/Evaluate'
-import ScriptExpression from './Script/Expression'
-import ScriptGhPythonScript from './Script/GhPythonScript'
-import ScriptVariable from './Script/Variable'
-import ScriptVBScript from './Script/VBScript'
 import PolynomialsCube from './Polynomials/Cube'
 import PolynomialsCubeRoot from './Polynomials/CubeRoot'
-import PolynomialsLogarithm from './Polynomials/Logarithm'
 import PolynomialsLogN from './Polynomials/LogN'
+import PolynomialsLogarithm from './Polynomials/Logarithm'
 import PolynomialsNaturallogarithm from './Polynomials/Naturallogarithm'
 import PolynomialsOneOverX from './Polynomials/OneOverX'
 import PolynomialsPowerofOneZero from './Polynomials/PowerofOneZero'
@@ -186,6 +186,16 @@ const Maths = {
 		Includes: DomainIncludes,
 		RemapNumbers: DomainRemapNumbers,
 	},
+	Script: {
+		CScript: ScriptCScript,
+		DotNETCScriptLEGACY: ScriptDotNETCScriptLEGACY,
+		DotNETVBScriptLEGACY: ScriptDotNETVBScriptLEGACY,
+		Evaluate: ScriptEvaluate,
+		Expression: ScriptExpression,
+		GhPythonScript: ScriptGhPythonScript,
+		Variable: ScriptVariable,
+		VBScript: ScriptVBScript,
+	},
 	Time: {
 		CombineDateTime: TimeCombineDateTime,
 		ConstructDate: TimeConstructDate,
@@ -205,21 +215,11 @@ const Maths = {
 		SwapRows: MatrixSwapRows,
 		TransposeMatrix: MatrixTransposeMatrix,
 	},
-	Script: {
-		CScript: ScriptCScript,
-		DotNETCScriptLEGACY: ScriptDotNETCScriptLEGACY,
-		DotNETVBScriptLEGACY: ScriptDotNETVBScriptLEGACY,
-		Evaluate: ScriptEvaluate,
-		Expression: ScriptExpression,
-		GhPythonScript: ScriptGhPythonScript,
-		Variable: ScriptVariable,
-		VBScript: ScriptVBScript,
-	},
 	Polynomials: {
 		Cube: PolynomialsCube,
 		CubeRoot: PolynomialsCubeRoot,
-		Logarithm: PolynomialsLogarithm,
 		LogN: PolynomialsLogN,
+		Logarithm: PolynomialsLogarithm,
 		Naturallogarithm: PolynomialsNaturallogarithm,
 		OneOverX: PolynomialsOneOverX,
 		PowerofOneZero: PolynomialsPowerofOneZero,

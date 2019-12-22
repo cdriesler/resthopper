@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ShiftList extends ResthopperComponent {
 
 	public guid: string = "4fdfe351-6c07-47ce-9fb9-be027fb62186";
-	public name: string = "ShiftList";
+	public name: string = "Shift List";
 	public nickName: string = "Shift";
 	public category: string = "Sets";
 	public subCategory: string = "List";

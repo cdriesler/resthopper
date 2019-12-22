@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SplitARGB extends ResthopperComponent {
 
 	public guid: string = "350f7d03-a48f-4121-bcee-328cfe1ed9ef";
-	public name: string = "SplitARGB";
+	public name: string = "Split ARGB";
 	public nickName: string = "ARGB";
 	public category: string = "Display";
 	public subCategory: string = "Colour";

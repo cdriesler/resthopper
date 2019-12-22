@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TextTrim extends ResthopperComponent {
 
 	public guid: string = "e4cb7168-5e32-4c54-b425-5a31c6fd685a";
-	public name: string = "TextTrim";
+	public name: string = "Text Trim";
 	public nickName: string = "Trim";
 	public category: string = "Sets";
 	public subCategory: string = "Text";

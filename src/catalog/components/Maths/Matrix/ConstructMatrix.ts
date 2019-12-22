@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConstructMatrix extends ResthopperComponent {
 
 	public guid: string = "54ac80cf-74f3-43f7-834c-0e3fe94632c6";
-	public name: string = "ConstructMatrix";
+	public name: string = "Construct Matrix";
 	public nickName: string = "Matrix";
 	public category: string = "Maths";
 	public subCategory: string = "Matrix";

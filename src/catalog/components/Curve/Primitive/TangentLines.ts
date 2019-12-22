@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TangentLines extends ResthopperComponent {
 
 	public guid: string = "ea0f0996-af7a-481d-8099-09c041e6c2d5";
-	public name: string = "TangentLines";
+	public name: string = "Tangent Lines";
 	public nickName: string = "Tan";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

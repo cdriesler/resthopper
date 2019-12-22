@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class AlignedDimension extends ResthopperComponent {
 
 	public guid: string = "3de3d3a0-1a1b-488c-b3d9-3fba0fdf07a8";
-	public name: string = "AlignedDimension";
+	public name: string = "Aligned Dimension";
 	public nickName: string = "AlignDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";

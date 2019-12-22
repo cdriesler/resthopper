@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SubDEdges extends ResthopperComponent {
 
 	public guid: string = "2183c4c6-b5b3-45d2-9261-2096c9357f92";
-	public name: string = "SubDEdges";
+	public name: string = "Sub-D Edges";
 	public nickName: string = "SubDEdges";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";

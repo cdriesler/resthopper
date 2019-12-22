@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ShapeInBrep extends ResthopperComponent {
 
 	public guid: string = "2ba64356-be21-4c12-bbd4-ced54f04c8ef";
-	public name: string = "ShapeInBrep";
+	public name: string = "Shape In Brep";
 	public nickName: string = "ShapeIn";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

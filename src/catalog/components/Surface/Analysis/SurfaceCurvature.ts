@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceCurvature extends ResthopperComponent {
 
 	public guid: string = "4139f3a3-cf93-4fc0-b5e0-18a3acd0b003";
-	public name: string = "SurfaceCurvature";
+	public name: string = "Surface Curvature";
 	public nickName: string = "Curvature";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

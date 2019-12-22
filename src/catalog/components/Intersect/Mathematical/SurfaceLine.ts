@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceLine extends ResthopperComponent {
 
 	public guid: string = "a834e823-ae01-44d8-9066-c138eeb6f391";
-	public name: string = "SurfaceLine";
+	public name: string = "Surface | Line";
 	public nickName: string = "SLX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";

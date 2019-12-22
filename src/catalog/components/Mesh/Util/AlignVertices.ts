@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class AlignVertices extends ResthopperComponent {
 
 	public guid: string = "db661dd7-63a4-44c6-91f2-6faab2471383";
-	public name: string = "AlignVertices";
+	public name: string = "Align Vertices";
 	public nickName: string = "AlignVert";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";

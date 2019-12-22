@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DirectionDisplay extends ResthopperComponent {
 
 	public guid: string = "5ba20fab-6d71-48ea-a98f-cb034db6bbdc";
-	public name: string = "DirectionDisplay";
+	public name: string = "Direction Display";
 	public nickName: string = "FDir";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

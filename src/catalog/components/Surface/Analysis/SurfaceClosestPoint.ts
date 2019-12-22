@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SurfaceClosestPoint extends ResthopperComponent {
 
 	public guid: string = "4a9e9a8e-0943-4438-b360-129c30f2bb0f";
-	public name: string = "SurfaceClosestPoint";
+	public name: string = "Surface Closest Point";
 	public nickName: string = "SrfCP";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

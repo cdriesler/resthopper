@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SubDBox extends ResthopperComponent {
 
 	public guid: string = "10487e4e-a405-48b5-b188-5a8a6328418b";
-	public name: string = "SubDBox";
+	public name: string = "SubD Box";
 	public nickName: string = "SubDBox";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";

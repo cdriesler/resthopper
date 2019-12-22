@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RegionDifference extends ResthopperComponent {
 
 	public guid: string = "f72c480b-7ee6-42ef-9821-c371e9203b44";
-	public name: string = "RegionDifference";
+	public name: string = "Region Difference";
 	public nickName: string = "RDiff";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

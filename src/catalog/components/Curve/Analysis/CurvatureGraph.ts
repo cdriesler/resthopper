@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CurvatureGraph extends ResthopperComponent {
 
 	public guid: string = "7376fe41-74ec-497e-b367-1ffe5072608b";
-	public name: string = "CurvatureGraph";
+	public name: string = "Curvature Graph";
 	public nickName: string = "CrvGraph";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

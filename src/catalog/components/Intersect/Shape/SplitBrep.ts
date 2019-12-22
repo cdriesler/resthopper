@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SplitBrep extends ResthopperComponent {
 
 	public guid: string = "ef6b26f4-f820-48d6-b0c5-85898ef8888b";
-	public name: string = "SplitBrep";
+	public name: string = "Split Brep";
 	public nickName: string = "Split";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DeconstructDomain extends ResthopperComponent {
 
 	public guid: string = "f0adfc96-b175-46a6-80c7-2b0ee17395c4";
-	public name: string = "DeconstructDomain";
+	public name: string = "Deconstruct Domain²";
 	public nickName: string = "DeDom2";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";

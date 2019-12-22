@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BendDeform extends ResthopperComponent {
 
 	public guid: string = "539f5564-4fc0-4fc1-a7d3-b802fa2ef072";
-	public name: string = "BendDeform";
+	public name: string = "Bend Deform";
 	public nickName: string = "Bend";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

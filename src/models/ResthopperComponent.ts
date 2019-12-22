@@ -21,6 +21,10 @@ export default class ResthopperComponent {
         return Object.keys(this.input).length;
     }
 
+    public getAllInputs(): ResthopperParameter[] {
+        return Object.keys(this.input).map(i => this.input[i]).reverse();
+    }
+
     public getInputByIndex(index: number): ResthopperParameter | undefined {
         return this.input[Object.keys(this.input)[index]];
     }
@@ -31,6 +35,10 @@ export default class ResthopperComponent {
 
     public getOutputCount(): number {
         return Object.keys(this.output).length;
+    }
+
+    public getAllOutputs(): ResthopperParameter[] {
+        return Object.keys(this.output).map(o => this.output[o]).reverse();
     }
 
     public getOutputByIndex(index: number): ResthopperParameter | undefined {

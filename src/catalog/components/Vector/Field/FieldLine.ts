@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FieldLine extends ResthopperComponent {
 
 	public guid: string = "add6be3e-c57f-4740-96e4-5680abaa9169";
-	public name: string = "FieldLine";
+	public name: string = "Field Line";
 	public nickName: string = "FLine";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DotDisplay extends ResthopperComponent {
 
 	public guid: string = "6b1bd8b2-47a4-4aa6-a471-3fd91c62a486";
-	public name: string = "DotDisplay";
+	public name: string = "Dot Display";
 	public nickName: string = "Dots";
 	public category: string = "Display";
 	public subCategory: string = "Preview";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SiftPattern extends ResthopperComponent {
 
 	public guid: string = "3249222f-f536-467a-89f4-f0353fba455a";
-	public name: string = "SiftPattern";
+	public name: string = "Sift Pattern";
 	public nickName: string = "Sift";
 	public category: string = "Sets";
 	public subCategory: string = "List";

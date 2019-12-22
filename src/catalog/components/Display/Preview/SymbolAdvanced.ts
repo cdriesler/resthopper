@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SymbolAdvanced extends ResthopperComponent {
 
 	public guid: string = "e5c82975-8011-412c-b56d-bb7fc9e7f28d";
-	public name: string = "SymbolAdvanced";
+	public name: string = "Symbol (Advanced)";
 	public nickName: string = "SymAdv";
 	public category: string = "Display";
 	public subCategory: string = "Preview";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ComplexModulus extends ResthopperComponent {
 
 	public guid: string = "88fb33f9-f467-452b-a0e3-44bdb78a9b06";
-	public name: string = "ComplexModulus";
+	public name: string = "Complex Modulus";
 	public nickName: string = "CMod";
 	public category: string = "Maths";
 	public subCategory: string = "Util";

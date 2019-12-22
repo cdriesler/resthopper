@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RemapNumbers extends ResthopperComponent {
 
 	public guid: string = "2fcc2743-8339-4cdf-a046-a1f17439191d";
-	public name: string = "RemapNumbers";
+	public name: string = "Remap Numbers";
 	public nickName: string = "ReMap";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";

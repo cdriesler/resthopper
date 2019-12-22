@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ScaleNU extends ResthopperComponent {
 
 	public guid: string = "290f418a-65ee-406a-a9d0-35699815b512";
-	public name: string = "ScaleNU";
+	public name: string = "Scale NU";
 	public nickName: string = "ScaleNU";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BezierSpan extends ResthopperComponent {
 
 	public guid: string = "30ce59ce-22a1-49ee-9e21-e6d16b3684a8";
-	public name: string = "BezierSpan";
+	public name: string = "Bezier Span";
 	public nickName: string = "BzSpan";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

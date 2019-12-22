@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BarGraph extends ResthopperComponent {
 
 	public guid: string = "e1905a16-da43-4705-bd65-41d34328c4e6";
-	public name: string = "BarGraph";
+	public name: string = "Bar Graph";
 	public nickName: string = "BarGraph";
 	public category: string = "Display";
 	public subCategory: string = "Graphs";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MergeOneZero extends ResthopperComponent {
 
 	public guid: string = "22f66ff6-d281-453c-bd8c-36ed24026783";
-	public name: string = "Merge10";
+	public name: string = "Merge 10";
 	public nickName: string = "M10";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

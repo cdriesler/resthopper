@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ArcDimension extends ResthopperComponent {
 
 	public guid: string = "1bd97813-4fec-4453-9645-4ac920844f9d";
-	public name: string = "ArcDimension";
+	public name: string = "Arc Dimension";
 	public nickName: string = "ArcDim";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";

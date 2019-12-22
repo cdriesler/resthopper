@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FitLoft extends ResthopperComponent {
 
 	public guid: string = "342aa574-1327-4bc2-8daf-203da2a45676";
-	public name: string = "FitLoft";
+	public name: string = "Fit Loft";
 	public nickName: string = "FitLoft";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

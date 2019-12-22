@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TestCrash extends ResthopperComponent {
 
 	public guid: string = "f3c769fd-aa9b-4695-a1ce-3ad4c53d1440";
-	public name: string = "TestCrash";
+	public name: string = "Test Crash";
 	public nickName: string = "TestCrash";
 	public category: string = "Display";
 	public subCategory: string = "Test";

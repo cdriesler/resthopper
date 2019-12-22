@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DeconstructBox extends ResthopperComponent {
 
 	public guid: string = "db7d83b1-2898-4ef9-9be5-4e94b4e2048d";
-	public name: string = "DeconstructBox";
+	public name: string = "Deconstruct Box";
 	public nickName: string = "DeBox";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

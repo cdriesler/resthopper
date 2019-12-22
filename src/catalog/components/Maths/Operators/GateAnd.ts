@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class GateAnd extends ResthopperComponent {
 
 	public guid: string = "040f195d-0b4e-4fe0-901f-fedb2fd3db15";
-	public name: string = "GateAnd";
+	public name: string = "Gate And";
 	public nickName: string = "And";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";

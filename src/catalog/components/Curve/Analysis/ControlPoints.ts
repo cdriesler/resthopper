@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ControlPoints extends ResthopperComponent {
 
 	public guid: string = "424eb433-2b3a-4859-beaf-804d8af0afd7";
-	public name: string = "ControlPoints";
+	public name: string = "Control Points";
 	public nickName: string = "CP";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

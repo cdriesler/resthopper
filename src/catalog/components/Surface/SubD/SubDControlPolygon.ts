@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SubDControlPolygon extends ResthopperComponent {
 
 	public guid: string = "c1a57c2a-11c5-4f77-851e-0a7dffef848e";
-	public name: string = "SubDControlPolygon";
+	public name: string = "Sub-D Control Polygon";
 	public nickName: string = "SubDPoly";
 	public category: string = "Surface";
 	public subCategory: string = "SubD";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SeriesAddition extends ResthopperComponent {
 
 	public guid: string = "586706a8-109b-43ec-b581-743e920c951a";
-	public name: string = "SeriesAddition";
+	public name: string = "Series Addition";
 	public nickName: string = "SA";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";

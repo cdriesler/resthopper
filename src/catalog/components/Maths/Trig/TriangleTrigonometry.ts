@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TriangleTrigonometry extends ResthopperComponent {
 
 	public guid: string = "92af1a02-9b87-43a0-8c45-0ce1b81555ec";
-	public name: string = "TriangleTrigonometry";
+	public name: string = "Triangle Trigonometry";
 	public nickName: string = "Trig";
 	public category: string = "Maths";
 	public subCategory: string = "Trig";

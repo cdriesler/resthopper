@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ArcSED extends ResthopperComponent {
 
 	public guid: string = "9d2583dd-6cf5-497c-8c40-c9a290598396";
-	public name: string = "ArcSED";
+	public name: string = "Arc SED";
 	public nickName: string = "Arc";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

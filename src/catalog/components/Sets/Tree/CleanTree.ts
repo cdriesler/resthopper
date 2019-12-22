@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CleanTree extends ResthopperComponent {
 
 	public guid: string = "7991bc5f-8a01-4768-bfb0-a39357ac6b84";
-	public name: string = "CleanTree";
+	public name: string = "Clean Tree";
 	public nickName: string = "Clean";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

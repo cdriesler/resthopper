@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RectangleTwoPt extends ResthopperComponent {
 
 	public guid: string = "575660b1-8c79-4b8d-9222-7ab4a6ddb359";
-	public name: string = "Rectangle2Pt";
+	public name: string = "Rectangle 2Pt";
 	public nickName: string = "Rec2Pt";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

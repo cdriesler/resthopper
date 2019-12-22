@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SwingArc extends ResthopperComponent {
 
 	public guid: string = "3edc4fbd-24c6-43de-aaa8-5bdf0704373d";
-	public name: string = "SwingArc";
+	public name: string = "Swing Arc";
 	public nickName: string = "Swing";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

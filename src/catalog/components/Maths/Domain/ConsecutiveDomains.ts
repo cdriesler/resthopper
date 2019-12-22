@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConsecutiveDomains extends ResthopperComponent {
 
 	public guid: string = "95992b33-89e1-4d36-bd35-2754a11af21e";
-	public name: string = "ConsecutiveDomains";
+	public name: string = "Consecutive Domains";
 	public nickName: string = "Consec";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoundarySurfaces extends ResthopperComponent {
 
 	public guid: string = "d51e9b65-aa4e-4fd6-976c-cef35d421d05";
-	public name: string = "BoundarySurfaces";
+	public name: string = "Boundary Surfaces";
 	public nickName: string = "Boundary";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

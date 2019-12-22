@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CubeRoot extends ResthopperComponent {
 
 	public guid: string = "5b0be57a-31f5-4446-a11a-ae0d348bca90";
-	public name: string = "CubeRoot";
+	public name: string = "Cube Root";
 	public nickName: string = "Cbrt";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";

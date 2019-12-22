@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RectangleMapping extends ResthopperComponent {
 
 	public guid: string = "17d40004-489e-42d9-ad10-857f7b436801";
-	public name: string = "RectangleMapping";
+	public name: string = "Rectangle Mapping";
 	public nickName: string = "RecMap";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";

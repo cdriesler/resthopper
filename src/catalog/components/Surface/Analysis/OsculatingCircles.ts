@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OsculatingCircles extends ResthopperComponent {
 
 	public guid: string = "b799b7c0-76df-4bdb-b3cc-401b1d021aa5";
-	public name: string = "OsculatingCircles";
+	public name: string = "Osculating Circles";
 	public nickName: string = "Osc";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

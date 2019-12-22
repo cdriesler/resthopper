@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class EvaluateLength extends ResthopperComponent {
 
 	public guid: string = "6b021f56-b194-4210-b9a1-6cef3b7d0848";
-	public name: string = "EvaluateLength";
+	public name: string = "Evaluate Length";
 	public nickName: string = "Eval";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

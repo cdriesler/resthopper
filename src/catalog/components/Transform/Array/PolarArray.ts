@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PolarArray extends ResthopperComponent {
 
 	public guid: string = "fca5ad7e-ecac-401d-a357-edda0a251cbc";
-	public name: string = "PolarArray";
+	public name: string = "Polar Array";
 	public nickName: string = "ArrPolar";
 	public category: string = "Transform";
 	public subCategory: string = "Array";

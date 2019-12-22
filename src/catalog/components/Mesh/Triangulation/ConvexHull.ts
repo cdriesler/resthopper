@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConvexHull extends ResthopperComponent {
 
 	public guid: string = "9d0c5284-ea24-4f9f-a183-ef57fc48b5b8";
-	public name: string = "ConvexHull";
+	public name: string = "Convex Hull";
 	public nickName: string = "Hull";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";

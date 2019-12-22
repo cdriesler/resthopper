@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class FlipMatrix extends ResthopperComponent {
 
 	public guid: string = "41aa4112-9c9b-42f4-847e-503b9d90e4c7";
-	public name: string = "FlipMatrix";
+	public name: string = "Flip Matrix";
 	public nickName: string = "Flip";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

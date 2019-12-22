@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class Contourex extends ResthopperComponent {
 
 	public guid: string = "246cda78-5e88-4087-ba09-ae082bbc4af8";
-	public name: string = "Contourex";
+	public name: string = "Contour (ex)";
 	public nickName: string = "Contour";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";

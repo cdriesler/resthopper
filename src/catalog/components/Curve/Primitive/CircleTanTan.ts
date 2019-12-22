@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CircleTanTan extends ResthopperComponent {
 
 	public guid: string = "50b204ef-d3de-41bb-a006-02fba2d3f709";
-	public name: string = "CircleTanTan";
+	public name: string = "Circle TanTan";
 	public nickName: string = "CircleTT";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

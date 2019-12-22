@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SetDifference extends ResthopperComponent {
 
 	public guid: string = "e3b1a10c-4d49-4140-b8e6-0b5732a26c31";
-	public name: string = "SetDifference";
+	public name: string = "Set Difference";
 	public nickName: string = "Difference";
 	public category: string = "Sets";
 	public subCategory: string = "Sets";

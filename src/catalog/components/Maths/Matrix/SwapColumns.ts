@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SwapColumns extends ResthopperComponent {
 
 	public guid: string = "4cebcaf7-9a6a-435b-8f8f-95a62bacb0f2";
-	public name: string = "SwapColumns";
+	public name: string = "Swap Columns";
 	public nickName: string = "SwapC";
 	public category: string = "Maths";
 	public subCategory: string = "Matrix";

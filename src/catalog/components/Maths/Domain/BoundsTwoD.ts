@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoundsTwoD extends ResthopperComponent {
 
 	public guid: string = "dd53b24c-003a-4a04-b185-a44d91633cbe";
-	public name: string = "Bounds2D";
+	public name: string = "Bounds 2D";
 	public nickName: string = "Bnd";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";

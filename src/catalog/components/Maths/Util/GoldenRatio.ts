@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class GoldenRatio extends ResthopperComponent {
 
 	public guid: string = "cb22d3ed-93d8-4629-bdf2-c0c7c25afd2c";
-	public name: string = "GoldenRatio";
+	public name: string = "Golden Ratio";
 	public nickName: string = "Phi";
 	public category: string = "Maths";
 	public subCategory: string = "Util";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PowerofTwo extends ResthopperComponent {
 
 	public guid: string = "7a1e5fd7-b7da-4244-a261-f1da66614992";
-	public name: string = "Powerof2";
+	public name: string = "Power of 2";
 	public nickName: string = "2";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";

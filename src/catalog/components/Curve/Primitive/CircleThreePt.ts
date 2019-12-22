@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CircleThreePt extends ResthopperComponent {
 
 	public guid: string = "47886835-e3ff-4516-a3ed-1b419f055464";
-	public name: string = "Circle3Pt";
+	public name: string = "Circle 3Pt";
 	public nickName: string = "Circle";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MeshIntersection extends ResthopperComponent {
 
 	public guid: string = "95aef4f6-66fc-477e-b8f8-32395a837831";
-	public name: string = "MeshIntersection";
+	public name: string = "Mesh Intersection";
 	public nickName: string = "MInt";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

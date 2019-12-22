@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ConstructExoticDate extends ResthopperComponent {
 
 	public guid: string = "e5ff52c5-40df-4f43-ac3b-d2418d05ae32";
-	public name: string = "ConstructExoticDate";
+	public name: string = "Construct Exotic Date";
 	public nickName: string = "DateEx";
 	public category: string = "Maths";
 	public subCategory: string = "Time";

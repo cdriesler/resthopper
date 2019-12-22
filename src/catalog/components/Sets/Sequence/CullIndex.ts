@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CullIndex extends ResthopperComponent {
 
 	public guid: string = "501aecbb-c191-4d13-83d6-7ee32445ac50";
-	public name: string = "CullIndex";
+	public name: string = "Cull Index";
 	public nickName: string = "Culli";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";

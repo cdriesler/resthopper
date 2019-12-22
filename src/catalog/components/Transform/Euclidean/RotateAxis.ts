@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class RotateAxis extends ResthopperComponent {
 
 	public guid: string = "3ac8e589-37f5-477d-aa61-6699702c5728";
-	public name: string = "RotateAxis";
+	public name: string = "Rotate Axis";
 	public nickName: string = "RotAx";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";

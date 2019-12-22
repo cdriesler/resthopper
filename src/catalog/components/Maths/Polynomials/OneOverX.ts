@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OneOverX extends ResthopperComponent {
 
 	public guid: string = "797d922f-3a1d-46fe-9155-358b009b5997";
-	public name: string = "OneOverX";
+	public name: string = "One Over X";
 	public nickName: string = "1x";
 	public category: string = "Maths";
 	public subCategory: string = "Polynomials";

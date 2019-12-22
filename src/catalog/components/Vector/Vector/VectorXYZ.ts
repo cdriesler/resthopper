@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class VectorXYZ extends ResthopperComponent {
 
 	public guid: string = "56b92eab-d121-43f7-94d3-6cd8f0ddead8";
-	public name: string = "VectorXYZ";
+	public name: string = "Vector XYZ";
 	public nickName: string = "Vec";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LineSDL extends ResthopperComponent {
 
 	public guid: string = "4c619bc9-39fd-4717-82a6-1e07ea237bbe";
-	public name: string = "LineSDL";
+	public name: string = "Line SDL";
 	public nickName: string = "Line";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

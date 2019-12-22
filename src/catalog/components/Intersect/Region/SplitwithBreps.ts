@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SplitwithBreps extends ResthopperComponent {
 
 	public guid: string = "5b742537-9bcb-4f06-9613-866da5bf845e";
-	public name: string = "SplitwithBreps";
+	public name: string = "Split with Breps";
 	public nickName: string = "Split";
 	public category: string = "Intersect";
 	public subCategory: string = "Region";

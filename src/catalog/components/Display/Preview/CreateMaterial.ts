@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CreateMaterial extends ResthopperComponent {
 
 	public guid: string = "76975309-75a6-446a-afed-f8653720a9f2";
-	public name: string = "CreateMaterial";
+	public name: string = "Create Material";
 	public nickName: string = "Material";
 	public category: string = "Display";
 	public subCategory: string = "Preview";

@@ -4,12 +4,12 @@ import { newGuid } from './../../../../utils/Guid';
 
 export default class ConstructDomain extends ResthopperComponent {
 
-	public guid: string = "d1a28e95-cf96-4936-bf34-8bf142d731bf";
-	public name: string = "ConstructDomain";
-	public nickName: string = "Dom";
+	public guid: string = "9083b87f-a98c-4e41-9591-077ae4220b19";
+	public name: string = "Construct Domain²";
+	public nickName: string = "DomNum";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
-	public description: string = "Create a numeric domain from two numeric extremes.";
+	public description: string = "Create a two-dimensinal domain from four numbers.";
 	public isObsolete: boolean = false;
 	public isVariable: boolean = false;
 
@@ -17,32 +17,36 @@ export default class ConstructDomain extends ResthopperComponent {
 
 	public input:
 	{
-		"domainstart_a": ConstructDomainInput_domainstart_a,
-		"domainend_b": ConstructDomainInput_domainend_b,
+		"umin_u0": ConstructDomainInput_umin_u0,
+		"umax_u1": ConstructDomainInput_umax_u1,
+		"vmin_v0": ConstructDomainInput_vmin_v0,
+		"vmax_v1": ConstructDomainInput_vmax_v1,
 	}
 
 	public output:
 	{
-		"domain_i": ConstructDomainOutput_domain_i,
+		"2ddomain_i": ConstructDomainOutput_2ddomain_i,
 	}
 
 	constructor() {
 		super();
 		this.input = {
-			"domainstart_a": new ConstructDomainInput_domainstart_a(),
-			"domainend_b": new ConstructDomainInput_domainend_b(),
+			"umin_u0": new ConstructDomainInput_umin_u0(),
+			"umax_u1": new ConstructDomainInput_umax_u1(),
+			"vmin_v0": new ConstructDomainInput_vmin_v0(),
+			"vmax_v1": new ConstructDomainInput_vmax_v1(),
 		}
 		this.output = {
-			"domain_i": new ConstructDomainOutput_domain_i(),
+			"2ddomain_i": new ConstructDomainOutput_2ddomain_i(),
 		}
 	}
 
 }
 
-class ConstructDomainInput_domainstart_a extends ResthopperParameter {
+class ConstructDomainInput_umin_u0 extends ResthopperParameter {
 
-	public name: string = "Domainstart";
-	public nickName: string = "A";
+	public name: string = "Umin";
+	public nickName: string = "U0";
 	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
@@ -54,10 +58,10 @@ class ConstructDomainInput_domainstart_a extends ResthopperParameter {
 
 }
 
-class ConstructDomainInput_domainend_b extends ResthopperParameter {
+class ConstructDomainInput_umax_u1 extends ResthopperParameter {
 
-	public name: string = "Domainend";
-	public nickName: string = "B";
+	public name: string = "Umax";
+	public nickName: string = "U1";
 	public description: string = "Empty Number parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
@@ -69,13 +73,43 @@ class ConstructDomainInput_domainend_b extends ResthopperParameter {
 
 }
 
-class ConstructDomainOutput_domain_i extends ResthopperParameter {
+class ConstructDomainInput_vmin_v0 extends ResthopperParameter {
 
-	public name: string = "Domain";
+	public name: string = "Vmin";
+	public nickName: string = "V0";
+	public description: string = "Empty Number parameter"
+	public isOptional: boolean = false;
+	public typeName: string = "Number"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ConstructDomainInput_vmax_v1 extends ResthopperParameter {
+
+	public name: string = "Vmax";
+	public nickName: string = "V1";
+	public description: string = "Empty Number parameter"
+	public isOptional: boolean = false;
+	public typeName: string = "Number"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class ConstructDomainOutput_2ddomain_i extends ResthopperParameter {
+
+	public name: string = "2DDomain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Empty Domain² parameter"
 	public isOptional: boolean = false;
-	public typeName: string = "Domain"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();

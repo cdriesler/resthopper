@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MeshCurve extends ResthopperComponent {
 
 	public guid: string = "19632848-4b95-4e5e-9e86-b79b47987a46";
-	public name: string = "MeshCurve";
+	public name: string = "Mesh | Curve";
 	public nickName: string = "MCX";
 	public category: string = "Intersect";
 	public subCategory: string = "Physical";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PopulateGeometry extends ResthopperComponent {
 
 	public guid: string = "c8cb6a5c-2ffd-4095-ba2a-5c35015e09e4";
-	public name: string = "PopulateGeometry";
+	public name: string = "Populate Geometry";
 	public nickName: string = "PopGeo";
 	public category: string = "Vector";
 	public subCategory: string = "Grid";

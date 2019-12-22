@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PointCylindrical extends ResthopperComponent {
 
 	public guid: string = "23603075-be64-4d86-9294-c3c125a12104";
-	public name: string = "PointCylindrical";
+	public name: string = "Point Cylindrical";
 	public nickName: string = "Pt";
 	public category: string = "Vector";
 	public subCategory: string = "Point";

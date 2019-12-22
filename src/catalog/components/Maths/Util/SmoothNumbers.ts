@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SmoothNumbers extends ResthopperComponent {
 
 	public guid: string = "5b424e1c-d061-43cd-8c20-db84564b0502";
-	public name: string = "SmoothNumbers";
+	public name: string = "Smooth Numbers";
 	public nickName: string = "Smooth";
 	public category: string = "Maths";
 	public subCategory: string = "Util";

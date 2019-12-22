@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class JoinCurves extends ResthopperComponent {
 
 	public guid: string = "8073a420-6bec-49e3-9b18-367f6fd76ac3";
-	public name: string = "JoinCurves";
+	public name: string = "Join Curves";
 	public nickName: string = "Join";
 	public category: string = "Curve";
 	public subCategory: string = "Util";

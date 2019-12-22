@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class EdgesfromFaces extends ResthopperComponent {
 
 	public guid: string = "71e99dbb-2d79-4f02-a8a6-e87a09d54f47";
-	public name: string = "EdgesfromFaces";
+	public name: string = "Edges from Faces";
 	public nickName: string = "EdgesFaces";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

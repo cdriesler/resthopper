@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PointOrder extends ResthopperComponent {
 
 	public guid: string = "0ad9f1ab-2204-45bb-b282-474469e2fa7b";
-	public name: string = "PointOrder";
+	public name: string = "Point Order";
 	public nickName: string = "Order";
 	public category: string = "Display";
 	public subCategory: string = "Vector";

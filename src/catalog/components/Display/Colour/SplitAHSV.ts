@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SplitAHSV extends ResthopperComponent {
 
 	public guid: string = "d84d2c2a-2813-4667-afb4-46642581e5f9";
-	public name: string = "SplitAHSV";
+	public name: string = "Split AHSV";
 	public nickName: string = "AHSV";
 	public category: string = "Display";
 	public subCategory: string = "Colour";

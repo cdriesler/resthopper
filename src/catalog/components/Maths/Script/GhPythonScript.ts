@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class GhPythonScript extends ResthopperComponent {
 
 	public guid: string = "410755b1-224a-4c1e-a407-bf32fb45ea7e";
-	public name: string = "GhPythonScript";
+	public name: string = "GhPython Script";
 	public nickName: string = "Python";
 	public category: string = "Maths";
 	public subCategory: string = "Script";
@@ -45,7 +45,7 @@ class GhPythonScriptInput_x_x extends ResthopperParameter {
 
 	public name: string = "x";
 	public nickName: string = "x";
-	public description: string = ""
+	public description: string = "Empty Generic Data parameter";
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class GhPythonScriptInput_y_y extends ResthopperParameter {
 
 	public name: string = "y";
 	public nickName: string = "y";
-	public description: string = "";
+	public description: string = "Empty Generic Data parameter";
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 

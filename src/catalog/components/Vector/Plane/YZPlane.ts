@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class YZPlane extends ResthopperComponent {
 
 	public guid: string = "fad344bc-09b1-4855-a2e6-437ef5715fe3";
-	public name: string = "YZPlane";
+	public name: string = "YZ Plane";
 	public nickName: string = "YZ";
 	public category: string = "Vector";
 	public subCategory: string = "Plane";

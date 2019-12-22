@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PolygonCenter extends ResthopperComponent {
 
 	public guid: string = "59e94548-cefd-4774-b3de-48142fc783fb";
-	public name: string = "PolygonCenter";
+	public name: string = "Polygon Center";
 	public nickName: string = "PCen";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

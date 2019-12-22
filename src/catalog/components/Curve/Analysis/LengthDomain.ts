@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class LengthDomain extends ResthopperComponent {
 
 	public guid: string = "188edd02-14a9-4828-a521-34995b0d1e4a";
-	public name: string = "LengthDomain";
+	public name: string = "Length Domain";
 	public nickName: string = "LenD";
 	public category: string = "Curve";
 	public subCategory: string = "Analysis";

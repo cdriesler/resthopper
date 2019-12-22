@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class WeightedAverage extends ResthopperComponent {
 
 	public guid: string = "338666eb-14c5-4d9b-82e2-2b5be60655df";
-	public name: string = "WeightedAverage";
+	public name: string = "Weighted Average";
 	public nickName: string = "Wav";
 	public category: string = "Maths";
 	public subCategory: string = "Util";

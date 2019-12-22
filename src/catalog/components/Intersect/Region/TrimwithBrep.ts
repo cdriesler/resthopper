@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TrimwithBrep extends ResthopperComponent {
 
 	public guid: string = "3eba04bc-00e8-416d-b58f-a3dc8b3e22e2";
-	public name: string = "TrimwithBrep";
+	public name: string = "Trim with Brep";
 	public nickName: string = "Trim";
 	public category: string = "Intersect";
 	public subCategory: string = "Region";

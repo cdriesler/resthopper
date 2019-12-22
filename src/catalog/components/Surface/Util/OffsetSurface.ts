@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OffsetSurface extends ResthopperComponent {
 
 	public guid: string = "b25c5762-f90e-4839-9fc5-74b74ab42b1e";
-	public name: string = "OffsetSurface";
+	public name: string = "Offset Surface";
 	public nickName: string = "Offset";
 	public category: string = "Surface";
 	public subCategory: string = "Util";

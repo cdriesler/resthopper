@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SanityXForm extends ResthopperComponent {
 
 	public guid: string = "03b3db66-d7e8-4d2d-bc0c-122913317254";
-	public name: string = "SanityXForm";
+	public name: string = "Sanity XForm";
 	public nickName: string = "MWHAHAHA";
 	public category: string = "Transform";
 	public subCategory: string = "Euclidean";

@@ -4,12 +4,12 @@ import { newGuid } from './../../../../utils/Guid';
 
 export default class DivideDomain extends ResthopperComponent {
 
-	public guid: string = "75ef4190-91a2-42d9-a245-32a7162b0384";
-	public name: string = "DivideDomain";
-	public nickName: string = "Div";
+	public guid: string = "75ac008b-1bc2-4edd-b967-667d628b9d24";
+	public name: string = "Divide Domain²";
+	public nickName: string = "Divide";
 	public category: string = "Maths";
 	public subCategory: string = "Domain";
-	public description: string = "Divide a domain into equal segments.";
+	public description: string = "Divides a two-dimensional domain into equal segments.";
 	public isObsolete: boolean = false;
 	public isVariable: boolean = false;
 
@@ -18,7 +18,8 @@ export default class DivideDomain extends ResthopperComponent {
 	public input:
 	{
 		"domain_i": DivideDomainInput_domain_i,
-		"count_c": DivideDomainInput_count_c,
+		"ucount_u": DivideDomainInput_ucount_u,
+		"vcount_v": DivideDomainInput_vcount_v,
 	}
 
 	public output:
@@ -30,7 +31,8 @@ export default class DivideDomain extends ResthopperComponent {
 		super();
 		this.input = {
 			"domain_i": new DivideDomainInput_domain_i(),
-			"count_c": new DivideDomainInput_count_c(),
+			"ucount_u": new DivideDomainInput_ucount_u(),
+			"vcount_v": new DivideDomainInput_vcount_v(),
 		}
 		this.output = {
 			"segments_s": new DivideDomainOutput_segments_s(),
@@ -43,9 +45,9 @@ class DivideDomainInput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Empty Domain² parameter"
 	public isOptional: boolean = false;
-	public typeName: string = "Domain"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();
@@ -54,10 +56,25 @@ class DivideDomainInput_domain_i extends ResthopperParameter {
 
 }
 
-class DivideDomainInput_count_c extends ResthopperParameter {
+class DivideDomainInput_ucount_u extends ResthopperParameter {
 
-	public name: string = "Count";
-	public nickName: string = "C";
+	public name: string = "UCount";
+	public nickName: string = "U";
+	public description: string = "Empty Integer parameter"
+	public isOptional: boolean = false;
+	public typeName: string = "Integer"
+
+	constructor() {
+		super();
+		this.instanceGuid = newGuid();
+	}
+
+}
+
+class DivideDomainInput_vcount_v extends ResthopperParameter {
+
+	public name: string = "VCount";
+	public nickName: string = "V";
 	public description: string = "Empty Integer parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
@@ -73,9 +90,9 @@ class DivideDomainOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Empty Domain² parameter"
 	public isOptional: boolean = false;
-	public typeName: string = "Domain"
+	public typeName: string = "Domain²"
 
 	constructor() {
 		super();

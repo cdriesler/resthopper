@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MaptoSurface extends ResthopperComponent {
 
 	public guid: string = "fc5b7d12-7247-4de0-81bc-9b2c2f8f72f6";
-	public name: string = "MaptoSurface";
+	public name: string = "Map to Surface";
 	public nickName: string = "MapSrf";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

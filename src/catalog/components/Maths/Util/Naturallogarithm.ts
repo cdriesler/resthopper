@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class Naturallogarithm extends ResthopperComponent {
 
 	public guid: string = "b6cac37c-21b9-46c6-bd0d-17ff67796578";
-	public name: string = "Naturallogarithm";
+	public name: string = "Natural logarithm";
 	public nickName: string = "E";
 	public category: string = "Maths";
 	public subCategory: string = "Util";

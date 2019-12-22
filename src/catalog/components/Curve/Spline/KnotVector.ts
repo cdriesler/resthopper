@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class KnotVector extends ResthopperComponent {
 
 	public guid: string = "846470bd-4918-4d00-9388-7e022b2cba73";
-	public name: string = "KnotVector";
+	public name: string = "Knot Vector";
 	public nickName: string = "Knots";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

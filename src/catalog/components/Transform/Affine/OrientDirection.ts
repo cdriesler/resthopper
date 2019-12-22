@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class OrientDirection extends ResthopperComponent {
 
 	public guid: string = "1602b2cc-007c-4b79-8926-0067c6184e44";
-	public name: string = "OrientDirection";
+	public name: string = "Orient Direction";
 	public nickName: string = "Orient";
 	public category: string = "Transform";
 	public subCategory: string = "Affine";

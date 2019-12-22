@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoundingBox extends ResthopperComponent {
 
 	public guid: string = "0bb3d234-9097-45db-9998-621639c87d3b";
-	public name: string = "BoundingBox";
+	public name: string = "Bounding Box";
 	public nickName: string = "BBox";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

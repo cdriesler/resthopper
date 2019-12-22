@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PartitionList extends ResthopperComponent {
 
 	public guid: string = "5a93246d-2595-4c28-bc2d-90657634f92a";
-	public name: string = "PartitionList";
+	public name: string = "Partition List";
 	public nickName: string = "Partition";
 	public category: string = "Sets";
 	public subCategory: string = "List";

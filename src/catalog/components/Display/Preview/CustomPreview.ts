@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CustomPreview extends ResthopperComponent {
 
 	public guid: string = "537b0419-bbc2-4ff4-bf08-afe526367b2c";
-	public name: string = "CustomPreview";
+	public name: string = "Custom Preview";
 	public nickName: string = "Preview";
 	public category: string = "Display";
 	public subCategory: string = "Preview";

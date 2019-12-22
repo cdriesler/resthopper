@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SolarIncidence extends ResthopperComponent {
 
 	public guid: string = "59e1f848-38d4-4cbf-ad7f-40ffc52acdf5";
-	public name: string = "SolarIncidence";
+	public name: string = "Solar Incidence";
 	public nickName: string = "Solar";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";

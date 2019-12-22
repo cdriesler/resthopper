@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SmallerThan extends ResthopperComponent {
 
 	public guid: string = "ae840986-cade-4e5a-96b0-570f007d4fc0";
-	public name: string = "SmallerThan";
+	public name: string = "Smaller Than";
 	public nickName: string = "Smaller";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";

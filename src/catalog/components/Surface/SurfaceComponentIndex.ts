@@ -84,12 +84,12 @@ import UtilRetrim from './Util/Retrim'
 import UtilSurfaceFrames from './Util/SurfaceFrames'
 import UtilUntrim from './Util/Untrim'
 import SubDMeshfromSubD from './SubD/MeshfromSubD'
-import SubDSubDBox from './SubD/SubDBox'
 import SubDSubDControlPolygon from './SubD/SubDControlPolygon'
 import SubDSubDEdges from './SubD/SubDEdges'
 import SubDSubDFaces from './SubD/SubDFaces'
 import SubDSubDfromMesh from './SubD/SubDfromMesh'
 import SubDSubDVertices from './SubD/SubDVertices'
+import SubDSubDBox from './SubD/SubDBox'
 
 const Surface = {
 	Freeform: {
@@ -187,12 +187,12 @@ const Surface = {
 	},
 	SubD: {
 		MeshfromSubD: SubDMeshfromSubD,
-		SubDBox: SubDSubDBox,
 		SubDControlPolygon: SubDSubDControlPolygon,
 		SubDEdges: SubDSubDEdges,
 		SubDFaces: SubDSubDFaces,
 		SubDfromMesh: SubDSubDfromMesh,
 		SubDVertices: SubDSubDVertices,
+		SubDBox: SubDSubDBox,
 	},
 }
 

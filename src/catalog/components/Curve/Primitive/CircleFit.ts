@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CircleFit extends ResthopperComponent {
 
 	public guid: string = "be52336f-a2e1-43b1-b5f5-178ba489508a";
-	public name: string = "CircleFit";
+	public name: string = "Circle Fit";
 	public nickName: string = "FCircle";
 	public category: string = "Curve";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TextTagThreeD extends ResthopperComponent {
 
 	public guid: string = "5a41528b-12b9-40dc-a3f2-842034d267c4";
-	public name: string = "TextTag3D";
+	public name: string = "Text Tag 3D";
 	public nickName: string = "Tag";
 	public category: string = "Display";
 	public subCategory: string = "Dimensions";

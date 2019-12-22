@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BrepLine extends ResthopperComponent {
 
 	public guid: string = "ed0742f9-6647-4d95-9dfd-9ad17080ae9c";
-	public name: string = "BrepLine";
+	public name: string = "Brep | Line";
 	public nickName: string = "BLX";
 	public category: string = "Intersect";
 	public subCategory: string = "Mathematical";

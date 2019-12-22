@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ExtrudeAlong extends ResthopperComponent {
 
 	public guid: string = "38a5638b-6d01-4417-bf11-976d925f8a71";
-	public name: string = "ExtrudeAlong";
+	public name: string = "Extrude Along";
 	public nickName: string = "ExtrCrv";
 	public category: string = "Surface";
 	public subCategory: string = "Freeform";

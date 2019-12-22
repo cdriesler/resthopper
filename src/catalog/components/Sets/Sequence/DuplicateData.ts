@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DuplicateData extends ResthopperComponent {
 
 	public guid: string = "dd8134c0-109b-4012-92be-51d843edfff7";
-	public name: string = "DuplicateData";
+	public name: string = "Duplicate Data";
 	public nickName: string = "Dup";
 	public category: string = "Sets";
 	public subCategory: string = "Sequence";

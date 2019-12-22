@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SimpleMesh extends ResthopperComponent {
 
 	public guid: string = "c3f9cea5-6fd4-4db5-959b-08cd08ed9fe1";
-	public name: string = "SimpleMesh";
+	public name: string = "Simple Mesh";
 	public nickName: string = "SMesh";
 	public category: string = "Mesh";
 	public subCategory: string = "Util";

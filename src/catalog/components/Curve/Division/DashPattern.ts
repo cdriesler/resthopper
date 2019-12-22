@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DashPattern extends ResthopperComponent {
 
 	public guid: string = "95866bbe-648e-4e2b-a97c-7d04679e94e0";
-	public name: string = "DashPattern";
+	public name: string = "Dash Pattern";
 	public nickName: string = "Dash";
 	public category: string = "Curve";
 	public subCategory: string = "Division";

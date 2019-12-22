@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CloudDisplay extends ResthopperComponent {
 
 	public guid: string = "059b72b0-9bb3-4542-a805-2dcd27493164";
-	public name: string = "CloudDisplay";
+	public name: string = "Cloud Display";
 	public nickName: string = "Cloud";
 	public category: string = "Display";
 	public subCategory: string = "Preview";

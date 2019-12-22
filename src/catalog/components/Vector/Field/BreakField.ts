@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BreakField extends ResthopperComponent {
 
 	public guid: string = "b27d53bc-e713-475d-81fd-71cdd8de2e58";
-	public name: string = "BreakField";
+	public name: string = "Break Field";
 	public nickName: string = "BreakF";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SortText extends ResthopperComponent {
 
 	public guid: string = "cec16c67-7b8b-41f7-a5a5-f675177e524b";
-	public name: string = "SortText";
+	public name: string = "Sort Text";
 	public nickName: string = "TSort";
 	public category: string = "Sets";
 	public subCategory: string = "Text";

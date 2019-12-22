@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoxRectangle extends ResthopperComponent {
 
 	public guid: string = "d0a56c9e-2483-45e7-ab98-a450b97f1bc0";
-	public name: string = "BoxRectangle";
+	public name: string = "Box Rectangle";
 	public nickName: string = "BoxRec";
 	public category: string = "Surface";
 	public subCategory: string = "Primitive";

@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CatenaryEx extends ResthopperComponent {
 
 	public guid: string = "769f9064-17f5-4c4a-921f-c3a0ee05ba3a";
-	public name: string = "CatenaryEx";
+	public name: string = "Catenary Ex";
 	public nickName: string = "CatEx";
 	public category: string = "Curve";
 	public subCategory: string = "Spline";

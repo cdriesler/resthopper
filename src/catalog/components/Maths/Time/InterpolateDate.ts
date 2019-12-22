@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class InterpolateDate extends ResthopperComponent {
 
 	public guid: string = "4083802b-3dd9-4b13-9756-bf5441213e70";
-	public name: string = "InterpolateDate";
+	public name: string = "Interpolate Date";
 	public nickName: string = "IntDate";
 	public category: string = "Maths";
 	public subCategory: string = "Time";

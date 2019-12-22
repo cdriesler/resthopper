@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SortAlongCurve extends ResthopperComponent {
 
 	public guid: string = "59aaebf8-6654-46b7-8386-89223c773978";
-	public name: string = "SortAlongCurve";
+	public name: string = "Sort Along Curve";
 	public nickName: string = "AlongCrv";
 	public category: string = "Vector";
 	public subCategory: string = "Point";

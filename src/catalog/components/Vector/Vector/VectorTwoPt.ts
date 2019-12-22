@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class VectorTwoPt extends ResthopperComponent {
 
 	public guid: string = "934ede4a-924a-4973-bb05-0dc4b36fae75";
-	public name: string = "Vector2Pt";
+	public name: string = "Vector 2Pt";
 	public nickName: string = "Vec2Pt";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";

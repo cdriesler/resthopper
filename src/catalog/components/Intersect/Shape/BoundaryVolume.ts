@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoundaryVolume extends ResthopperComponent {
 
 	public guid: string = "b57bf805-046a-4360-ad76-51aeddfe9720";
-	public name: string = "BoundaryVolume";
+	public name: string = "Boundary Volume";
 	public nickName: string = "BVol";
 	public category: string = "Intersect";
 	public subCategory: string = "Shape";

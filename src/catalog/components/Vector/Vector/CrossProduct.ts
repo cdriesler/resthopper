@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class CrossProduct extends ResthopperComponent {
 
 	public guid: string = "2a5cfb31-028a-4b34-b4e1-9b20ae15312e";
-	public name: string = "CrossProduct";
+	public name: string = "Cross Product";
 	public nickName: string = "XProd";
 	public category: string = "Vector";
 	public subCategory: string = "Vector";

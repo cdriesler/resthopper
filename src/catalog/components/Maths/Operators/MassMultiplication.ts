@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MassMultiplication extends ResthopperComponent {
 
 	public guid: string = "e44c1bd7-72cc-4697-80c9-02787baf7bb4";
-	public name: string = "MassMultiplication";
+	public name: string = "Mass Multiplication";
 	public nickName: string = "MM";
 	public category: string = "Maths";
 	public subCategory: string = "Operators";

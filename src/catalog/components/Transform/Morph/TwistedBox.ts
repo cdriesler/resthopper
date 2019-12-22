@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class TwistedBox extends ResthopperComponent {
 
 	public guid: string = "124de0f5-65f8-4ae0-8f61-8fb066e2ba02";
-	public name: string = "TwistedBox";
+	public name: string = "Twisted Box";
 	public nickName: string = "TBox";
 	public category: string = "Transform";
 	public subCategory: string = "Morph";

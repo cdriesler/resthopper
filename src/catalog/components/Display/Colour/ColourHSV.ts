@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ColourHSV extends ResthopperComponent {
 
 	public guid: string = "5958a658-20c2-4a2b-86ba-4d1b81bf5348";
-	public name: string = "ColourHSV";
+	public name: string = "Colour HSV";
 	public nickName: string = "HSV";
 	public category: string = "Display";
 	public subCategory: string = "Colour";

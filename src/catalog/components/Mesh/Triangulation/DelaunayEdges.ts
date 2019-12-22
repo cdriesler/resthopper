@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class DelaunayEdges extends ResthopperComponent {
 
 	public guid: string = "db2a4d25-23fa-4887-8983-ee5293cc82c0";
-	public name: string = "DelaunayEdges";
+	public name: string = "Delaunay Edges";
 	public nickName: string = "Con";
 	public category: string = "Mesh";
 	public subCategory: string = "Triangulation";

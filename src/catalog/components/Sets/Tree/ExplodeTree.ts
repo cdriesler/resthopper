@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class ExplodeTree extends ResthopperComponent {
 
 	public guid: string = "74cad441-2264-45fe-a57d-85034751208a";
-	public name: string = "ExplodeTree";
+	public name: string = "Explode Tree";
 	public nickName: string = "BANG";
 	public category: string = "Sets";
 	public subCategory: string = "Tree";

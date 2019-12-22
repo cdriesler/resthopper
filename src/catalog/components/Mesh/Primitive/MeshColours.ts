@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class MeshColours extends ResthopperComponent {
 
 	public guid: string = "d2cedf38-1149-4adc-8dbf-b06571cb5106";
-	public name: string = "MeshColours";
+	public name: string = "Mesh Colours";
 	public nickName: string = "MCol";
 	public category: string = "Mesh";
 	public subCategory: string = "Primitive";

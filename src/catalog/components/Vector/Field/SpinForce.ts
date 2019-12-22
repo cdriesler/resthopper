@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class SpinForce extends ResthopperComponent {
 
 	public guid: string = "4b59e893-d4ee-4e31-ae24-a489611d1088";
-	public name: string = "SpinForce";
+	public name: string = "Spin Force";
 	public nickName: string = "FSpin";
 	public category: string = "Vector";
 	public subCategory: string = "Field";

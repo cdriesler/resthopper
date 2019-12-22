@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class BoxCorners extends ResthopperComponent {
 
 	public guid: string = "a10e8cdf-7c7a-4aac-aa70-ddb7010ab231";
-	public name: string = "BoxCorners";
+	public name: string = "Box Corners";
 	public nickName: string = "BoxCorners";
 	public category: string = "Surface";
 	public subCategory: string = "Analysis";

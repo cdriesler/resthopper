@@ -5,7 +5,7 @@ import { newGuid } from './../../../../utils/Guid';
 export default class PieChart extends ResthopperComponent {
 
 	public guid: string = "952c2bcc-b5ec-480a-a0d7-27f016632e33";
-	public name: string = "PieChart";
+	public name: string = "Pie Chart";
 	public nickName: string = "Pie";
 	public category: string = "Display";
 	public subCategory: string = "Graphs";
