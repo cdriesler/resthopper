@@ -47,7 +47,7 @@ class ScaleInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -62,7 +62,7 @@ class ScaleInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Center of scaling"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class ScaleInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Scaling factor"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ScaleOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Scaled geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -107,7 +107,7 @@ class ScaleOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

@@ -45,7 +45,7 @@ class RoundInput_number_x extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "x";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to round"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -60,7 +60,7 @@ class RoundOutput_nearest_n extends ResthopperParameter {
 
 	public name: string = "Nearest";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Integer nearest to x"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class RoundOutput_floor_f extends ResthopperParameter {
 
 	public name: string = "Floor";
 	public nickName: string = "F";
-	public description: string = "Empty Integer parameter"
+	public description: string = "First integer smaller than or equal to x"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class RoundOutput_ceiling_c extends ResthopperParameter {
 
 	public name: string = "Ceiling";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "First integer larger than or equal to x"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

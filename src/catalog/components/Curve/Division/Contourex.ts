@@ -49,7 +49,7 @@ class ContourexInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to contour"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class ContourexInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane for contours"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,7 +79,7 @@ class ContourexInput_offsets_o extends ResthopperParameter {
 
 	public name: string = "Offsets";
 	public nickName: string = "O";
-	public description: string = "Empty Number parameter"
+	public description: string = "Contour offsets from base plane (if omitted, you must specify distances instead)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class ContourexInput_distances_d extends ResthopperParameter {
 
 	public name: string = "Distances";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distances between contours (if omitted, you must specify offset instead)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class ContourexOutput_contours_c extends ResthopperParameter {
 
 	public name: string = "Contours";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Resulting contour points (grouped by section)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -124,7 +124,7 @@ class ContourexOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve parameters for all contour points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

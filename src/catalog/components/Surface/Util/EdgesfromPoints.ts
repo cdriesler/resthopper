@@ -51,7 +51,7 @@ class EdgesfromPointsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -66,7 +66,7 @@ class EdgesfromPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points for coincidence check"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class EdgesfromPointsInput_valence_v extends ResthopperParameter {
 
 	public name: string = "Valence";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Minimum valence of points per edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -96,7 +96,7 @@ class EdgesfromPointsInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional coincidence tolerance."
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class EdgesfromPointsOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Found edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -126,7 +126,7 @@ class EdgesfromPointsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -141,7 +141,7 @@ class EdgesfromPointsOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";
-	public description: string = "Empty Text parameter"
+	public description: string = "Point map per edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

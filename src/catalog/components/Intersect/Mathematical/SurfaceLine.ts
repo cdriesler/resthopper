@@ -49,7 +49,7 @@ class SurfaceLineInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -64,7 +64,7 @@ class SurfaceLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Intersection line"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -79,7 +79,7 @@ class SurfaceLineOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Intersection overlap curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -94,7 +94,7 @@ class SurfaceLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class SurfaceLineOutput_uvpoints_uv extends ResthopperParameter {
 
 	public name: string = "UVPoints";
 	public nickName: string = "uv";
-	public description: string = "Empty Point parameter"
+	public description: string = "Surface {uv} coordinates at intersection events"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -124,7 +124,7 @@ class SurfaceLineOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Surface normal vector at intersection events"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

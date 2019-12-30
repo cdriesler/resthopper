@@ -41,7 +41,7 @@ class FaceBoundariesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for face boundary extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -56,7 +56,7 @@ class FaceBoundariesOutput_boundaries_b extends ResthopperParameter {
 
 	public name: string = "Boundaries";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Boundary polylines for each mesh face"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

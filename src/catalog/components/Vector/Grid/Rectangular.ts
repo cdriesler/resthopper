@@ -51,7 +51,7 @@ class RectangularInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane for grid"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -66,7 +66,7 @@ class RectangularInput_sizex_sx extends ResthopperParameter {
 
 	public name: string = "SizeX";
 	public nickName: string = "Sx";
-	public description: string = "Empty Number parameter"
+	public description: string = "Size of grid cells in base plane x-direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -81,7 +81,7 @@ class RectangularInput_sizey_sy extends ResthopperParameter {
 
 	public name: string = "SizeY";
 	public nickName: string = "Sy";
-	public description: string = "Empty Number parameter"
+	public description: string = "Size of grid cells in base plane y-direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class RectangularInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of grid cells in base plane x direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -111,7 +111,7 @@ class RectangularInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of grid cells in base plane y direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -126,7 +126,7 @@ class RectangularOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Grid cell outlines"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -141,7 +141,7 @@ class RectangularOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points at grid corners"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

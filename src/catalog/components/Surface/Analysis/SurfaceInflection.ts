@@ -43,7 +43,7 @@ class SurfaceInflectionInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface to analyse"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -58,7 +58,7 @@ class SurfaceInflectionInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Sampling tolerance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class SurfaceInflectionOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Line parameter"
+	public description: string = "Inflection curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

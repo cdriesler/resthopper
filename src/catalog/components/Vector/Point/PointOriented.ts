@@ -47,7 +47,7 @@ class PointOrientedInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane defining coordinate space"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class PointOrientedInput_ucomponent_u extends ResthopperParameter {
 
 	public name: string = "Ucomponent";
 	public nickName: string = "U";
-	public description: string = "Empty Number parameter"
+	public description: string = "U parameter on plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class PointOrientedInput_vcomponent_v extends ResthopperParameter {
 
 	public name: string = "Vcomponent";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "V parameter on plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class PointOrientedInput_wcomponent_w extends ResthopperParameter {
 
 	public name: string = "Wcomponent";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "W parameter on plane (elevation)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class PointOrientedOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
-	public description: string = "Empty Point parameter"
+	public description: string = "Oriented point coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

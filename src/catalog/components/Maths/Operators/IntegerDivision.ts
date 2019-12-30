@@ -43,7 +43,7 @@ class IntegerDivisionInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Item to divide (dividend)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -58,7 +58,7 @@ class IntegerDivisionInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Item to divide with (divisor)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class IntegerDivisionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Result of integer division"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

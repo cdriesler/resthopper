@@ -43,7 +43,7 @@ class MeshfromSubDInput_subd_s extends ResthopperParameter {
 
 	public name: string = "SubD";
 	public nickName: string = "S";
-	public description: string = "Empty SubD parameter"
+	public description: string = "Subdivision surface"
 	public isOptional: boolean = false;
 	public typeName: string = "SubD"
 
@@ -58,7 +58,7 @@ class MeshfromSubDInput_density_d extends ResthopperParameter {
 
 	public name: string = "Density";
 	public nickName: string = "D";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Subdivision density"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class MeshfromSubDOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh approximation"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

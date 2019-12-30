@@ -49,7 +49,7 @@ class DivideCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to divide"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class DivideCurveInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -79,7 +79,7 @@ class DivideCurveInput_kinks_k extends ResthopperParameter {
 
 	public name: string = "Kinks";
 	public nickName: string = "K";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Split segments at kinks"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -94,7 +94,7 @@ class DivideCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class DivideCurveOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vectors at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -124,7 +124,7 @@ class DivideCurveOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter values at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

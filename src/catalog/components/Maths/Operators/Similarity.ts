@@ -47,7 +47,7 @@ class SimilarityInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to compare"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class SimilarityInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to compare to"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class SimilarityInput_threshold_t extends ResthopperParameter {
 
 	public name: string = "Threshold";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Percentage (0% ~ 100%) of A and B below which similarity is assumed"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class SimilarityOutput_similarity_ extends ResthopperParameter {
 
 	public name: string = "Similarity";
 	public nickName: string = "";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if A ≈ B"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -107,7 +107,7 @@ class SimilarityOutput_absolutedifference_dt extends ResthopperParameter {
 
 	public name: string = "Absolutedifference";
 	public nickName: string = "dt";
-	public description: string = "Empty Number parameter"
+	public description: string = "The absolute difference between A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

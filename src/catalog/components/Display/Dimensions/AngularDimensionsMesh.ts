@@ -51,7 +51,7 @@ class AngularDimensionsMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to annotate"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -66,7 +66,7 @@ class AngularDimensionsMeshInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Dimension text"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -81,7 +81,7 @@ class AngularDimensionsMeshInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Dimension size"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class AngularDimensionsMeshInput_lengthfactor_f extends ResthopperParameter {
 
 	public name: string = "LengthFactor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius of dimension as part of edge length."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class AngularDimensionsMeshInput_minimumangle_a0 extends ResthopperParameter {
 
 	public name: string = "MinimumAngle";
 	public nickName: string = "A0";
-	public description: string = "Empty Number parameter"
+	public description: string = "Threshold angle below which dimensions are not drawn."
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -126,7 +126,7 @@ class AngularDimensionsMeshInput_maximumangle_a1 extends ResthopperParameter {
 
 	public name: string = "MaximumAngle";
 	public nickName: string = "A1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Threshold angle above which dimensions are not drawn."
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 

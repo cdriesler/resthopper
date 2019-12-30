@@ -45,7 +45,7 @@ class SweepTwoInput_rail2_r extends ResthopperParameter {
 
 	public name: string = "Rail2";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second rail curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class SweepTwoInput_sections_s extends ResthopperParameter {
 
 	public name: string = "Sections";
 	public nickName: string = "S";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Section curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class SweepTwoInput_sameheight_h extends ResthopperParameter {
 
 	public name: string = "SameHeight";
 	public nickName: string = "H";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Create a sweep with same-height properties."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class SweepTwoOutput_brep_s extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Resulting Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

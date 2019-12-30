@@ -51,7 +51,7 @@ class DeconstructDateInput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
-	public description: string = "Empty Time parameter"
+	public description: string = "Date and Time data"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -66,7 +66,7 @@ class DeconstructDateOutput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Year number"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -81,7 +81,7 @@ class DeconstructDateOutput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Month number"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -96,7 +96,7 @@ class DeconstructDateOutput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Day of month"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -111,7 +111,7 @@ class DeconstructDateOutput_hour_h extends ResthopperParameter {
 
 	public name: string = "Hour";
 	public nickName: string = "h";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Hour of day"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -126,7 +126,7 @@ class DeconstructDateOutput_minute_m extends ResthopperParameter {
 
 	public name: string = "Minute";
 	public nickName: string = "m";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Minute of the hour"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -141,7 +141,7 @@ class DeconstructDateOutput_second_s extends ResthopperParameter {
 
 	public name: string = "Second";
 	public nickName: string = "s";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Second of the minute"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

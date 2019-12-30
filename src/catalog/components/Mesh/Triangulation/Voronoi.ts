@@ -47,7 +47,7 @@ class VoronoiInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points for Voronoi diagram"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class VoronoiInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional cell radius"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class VoronoiInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Optional containment boundary for diagram."
 	public isOptional: boolean = true;
 	public typeName: string = "Rectangle"
 
@@ -92,7 +92,7 @@ class VoronoiInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional base plane. If no plane is provided, then the best-fit plane will be used."
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -107,7 +107,7 @@ class VoronoiOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Cells of the voronoi diagram."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

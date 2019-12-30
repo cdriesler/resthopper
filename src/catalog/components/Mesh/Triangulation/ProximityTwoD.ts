@@ -49,7 +49,7 @@ class ProximityTwoDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Input points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -64,7 +64,7 @@ class ProximityTwoDInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional base plane. If null, the best fit plane is used"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,7 +79,7 @@ class ProximityTwoDInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Maximum number of closest points to find"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class ProximityTwoDInput_maxradius_r extends ResthopperParameter {
 
 	public name: string = "MaxRadius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional maximum search radius."
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class ProximityTwoDOutput_links_l extends ResthopperParameter {
 
 	public name: string = "Links";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Proximity links"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -124,7 +124,7 @@ class ProximityTwoDOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Proximity topology"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

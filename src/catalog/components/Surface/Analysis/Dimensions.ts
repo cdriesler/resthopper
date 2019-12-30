@@ -43,7 +43,7 @@ class DimensionsInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface to measure"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -58,7 +58,7 @@ class DimensionsOutput_udimension_u extends ResthopperParameter {
 
 	public name: string = "Udimension";
 	public nickName: string = "U";
-	public description: string = "Empty Number parameter"
+	public description: string = "Approximate dimension in U direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class DimensionsOutput_vdimension_v extends ResthopperParameter {
 
 	public name: string = "Vdimension";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Approximate dimension in V direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

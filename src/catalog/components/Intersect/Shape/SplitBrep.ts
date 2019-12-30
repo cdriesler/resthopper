@@ -43,7 +43,7 @@ class SplitBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep to split"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -58,7 +58,7 @@ class SplitBrepInput_cutter_c extends ResthopperParameter {
 
 	public name: string = "Cutter";
 	public nickName: string = "C";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Cutting shape"
 	public isOptional: boolean = true;
 	public typeName: string = "Brep"
 
@@ -73,7 +73,7 @@ class SplitBrepOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep fragments"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

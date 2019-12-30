@@ -45,7 +45,7 @@ class FindsimilarmemberInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to search for."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class FindsimilarmemberInput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Set to search."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -75,7 +75,7 @@ class FindsimilarmemberOutput_hit_h extends ResthopperParameter {
 
 	public name: string = "Hit";
 	public nickName: string = "H";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Member in S closest to D."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -90,7 +90,7 @@ class FindsimilarmemberOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of H in set."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

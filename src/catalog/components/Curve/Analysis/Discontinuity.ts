@@ -45,7 +45,7 @@ class DiscontinuityInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to analyze"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class DiscontinuityInput_level_l extends ResthopperParameter {
 
 	public name: string = "Level";
 	public nickName: string = "L";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Level of discontinuity to test for (1=C1, 2=C2, 3=Cinfinite)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class DiscontinuityOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points at discontinuities"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class DiscontinuityOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve parameters at discontinuities"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

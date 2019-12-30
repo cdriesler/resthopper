@@ -41,7 +41,7 @@ class TestCrashInput_crash_c extends ResthopperParameter {
 
 	public name: string = "Crash";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "crash"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

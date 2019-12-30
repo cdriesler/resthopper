@@ -43,7 +43,7 @@ class DisjointInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "First set."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class DisjointInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Second set."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class DisjointOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if none of the items in A occur in B."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

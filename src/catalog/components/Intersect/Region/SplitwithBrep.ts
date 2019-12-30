@@ -45,7 +45,7 @@ class SplitwithBrepInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to split"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class SplitwithBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep to split with"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -75,7 +75,7 @@ class SplitwithBrepOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Split curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class SplitwithBrepOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Split points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

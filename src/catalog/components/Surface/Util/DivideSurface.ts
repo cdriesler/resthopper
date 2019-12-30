@@ -49,7 +49,7 @@ class DivideSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface to divide"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -64,7 +64,7 @@ class DivideSurfaceInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments in {u} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -79,7 +79,7 @@ class DivideSurfaceInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments in {v} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class DivideSurfaceOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class DivideSurfaceOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Normal vectors at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -124,7 +124,7 @@ class DivideSurfaceOutput_parameters_uv extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "uv";
-	public description: string = "Empty Point parameter"
+	public description: string = "Parameter coordinates at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

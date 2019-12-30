@@ -49,7 +49,7 @@ class CurveSideInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class CurveSideInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point to measure."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class CurveSideInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional plane to measure in. If omitted, the curve plane will be used."
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -94,7 +94,7 @@ class CurveSideOutput_side_s extends ResthopperParameter {
 
 	public name: string = "Side";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Side of curve on which point was found (-1=Left, 0=Coincident, +1=Right)."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -109,7 +109,7 @@ class CurveSideOutput_left_l extends ResthopperParameter {
 
 	public name: string = "Left";
 	public nickName: string = "L";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Boolean indicating whether a point is to the left of the curve."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -124,7 +124,7 @@ class CurveSideOutput_right_r extends ResthopperParameter {
 
 	public name: string = "Right";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Boolean indicating whether a point is to the right of the curve."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

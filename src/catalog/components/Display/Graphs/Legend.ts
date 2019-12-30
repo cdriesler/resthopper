@@ -45,7 +45,7 @@ class LegendInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Legend colours"
 	public isOptional: boolean = true;
 	public typeName: string = "Colour"
 
@@ -60,7 +60,7 @@ class LegendInput_tags_t extends ResthopperParameter {
 
 	public name: string = "Tags";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Legend tags"
 	public isOptional: boolean = true;
 	public typeName: string = "Text"
 
@@ -75,7 +75,7 @@ class LegendInput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Optional legend rectangle in 3D space"
 	public isOptional: boolean = true;
 	public typeName: string = "Rectangle"
 

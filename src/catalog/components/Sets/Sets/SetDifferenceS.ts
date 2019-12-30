@@ -43,7 +43,7 @@ class SetDifferenceSInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "First set for symmetric difference."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class SetDifferenceSInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Second set for symmetric difference."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class SetDifferenceSOutput_exdifference_x extends ResthopperParameter {
 
 	public name: string = "ExDifference";
 	public nickName: string = "X";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "The symmetric difference between A and B."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

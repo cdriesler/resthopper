@@ -41,7 +41,7 @@ class DeconstructPathInput_branch_b extends ResthopperParameter {
 
 	public name: string = "Branch";
 	public nickName: string = "B";
-	public description: string = "Empty Path parameter"
+	public description: string = "Branch path"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 
@@ -56,7 +56,7 @@ class DeconstructPathOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Branch path indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

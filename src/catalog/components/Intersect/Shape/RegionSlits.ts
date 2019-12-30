@@ -47,7 +47,7 @@ class RegionSlitsInput_regions_r extends ResthopperParameter {
 
 	public name: string = "Regions";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Planar regions to intersect"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class RegionSlitsInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "Width of slits"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class RegionSlitsInput_gap_g extends ResthopperParameter {
 
 	public name: string = "Gap";
 	public nickName: string = "G";
-	public description: string = "Empty Number parameter"
+	public description: string = "Additional gap size at slit meeting points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class RegionSlitsOutput_regions_r extends ResthopperParameter {
 
 	public name: string = "Regions";
 	public nickName: string = "R";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Regions with slits"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -107,7 +107,7 @@ class RegionSlitsOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Slit topology"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

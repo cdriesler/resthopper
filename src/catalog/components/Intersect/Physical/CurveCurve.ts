@@ -47,7 +47,7 @@ class CurveCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class CurveCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -77,7 +77,7 @@ class CurveCurveOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection events"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class CurveCurveOutput_paramsa_ta extends ResthopperParameter {
 
 	public name: string = "ParamsA";
 	public nickName: string = "tA";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameters on first curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class CurveCurveOutput_paramsb_tb extends ResthopperParameter {
 
 	public name: string = "ParamsB";
 	public nickName: string = "tB";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameters on second curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

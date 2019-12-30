@@ -51,7 +51,7 @@ class TangentCurveInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
-	public description: string = "Empty Point parameter"
+	public description: string = "Interpolation points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class TangentCurveInput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vectors for all interpolation points"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -81,7 +81,7 @@ class TangentCurveInput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Blend factor"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class TangentCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Curve degree (only odd degrees are supported)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -111,7 +111,7 @@ class TangentCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting nurbs curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -126,7 +126,7 @@ class TangentCurveOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class TangentCurveOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Curve domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

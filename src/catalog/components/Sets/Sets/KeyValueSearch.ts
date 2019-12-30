@@ -45,7 +45,7 @@ class KeyValueSearchInput_keys_k extends ResthopperParameter {
 
 	public name: string = "Keys";
 	public nickName: string = "K";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "A list of key values."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class KeyValueSearchInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "A list of value data, one for each key."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -75,7 +75,7 @@ class KeyValueSearchInput_search_s extends ResthopperParameter {
 
 	public name: string = "Search";
 	public nickName: string = "S";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "A key value to search for"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -90,7 +90,7 @@ class KeyValueSearchOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Resulting item in the value list that matches the Search key"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -47,7 +47,7 @@ class SimplifyCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to simplify"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class SimplifyCurveInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional deviation tolerance (if omitted, the current document tolerance is used)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class SimplifyCurveInput_angletolerance_a extends ResthopperParameter {
 
 	public name: string = "AngleTolerance";
 	public nickName: string = "a";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional angle tolerance (if omitted, the current document tolerance is used)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class SimplifyCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Simplified curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -107,7 +107,7 @@ class SimplifyCurveOutput_simplified_s extends ResthopperParameter {
 
 	public name: string = "Simplified";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if curve was modified in any way"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

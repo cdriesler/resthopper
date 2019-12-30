@@ -51,7 +51,7 @@ class AngularDimensionInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Angle centre point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class AngularDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "End of first angle direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class AngularDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "End of second angle direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class AngularDimensionInput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Create dimension for reflex angle"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -111,7 +111,7 @@ class AngularDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Dimension text"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -126,7 +126,7 @@ class AngularDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Dimension size"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

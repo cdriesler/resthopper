@@ -47,7 +47,7 @@ class ArcInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane of arc"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class ArcInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius of arc"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ArcInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Angle domain in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -92,7 +92,7 @@ class ArcOutput_arc_a extends ResthopperParameter {
 
 	public name: string = "Arc";
 	public nickName: string = "A";
-	public description: string = "Empty Arc parameter"
+	public description: string = "Resulting arc"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -107,7 +107,7 @@ class ArcOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Arc length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

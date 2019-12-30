@@ -43,7 +43,7 @@ class MakeTwoDRhinoViewInput_name_n extends ResthopperParameter {
 
 	public name: string = "Name";
 	public nickName: string = "N";
-	public description: string = "Empty Text parameter"
+	public description: string = "Named view or viewport name."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -58,7 +58,7 @@ class MakeTwoDRhinoViewInput_clip_c extends ResthopperParameter {
 
 	public name: string = "Clip";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, the view will be clipped to the frustum."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,7 +73,7 @@ class MakeTwoDRhinoViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";
-	public description: string = "Empty Projection parameter"
+	public description: string = "Parallel view"
 	public isOptional: boolean = false;
 	public typeName: string = "Projection"
 

@@ -45,7 +45,7 @@ class SplitTreeInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Tree to split"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class SplitTreeInput_masks_m extends ResthopperParameter {
 
 	public name: string = "Masks";
 	public nickName: string = "M";
-	public description: string = "Empty Text parameter"
+	public description: string = "Splitting masks"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -75,7 +75,7 @@ class SplitTreeOutput_positive_p extends ResthopperParameter {
 
 	public name: string = "Positive";
 	public nickName: string = "P";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Positive set of data (all branches that match any of the masks)"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -90,7 +90,7 @@ class SplitTreeOutput_negative_n extends ResthopperParameter {
 
 	public name: string = "Negative";
 	public nickName: string = "N";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Negative set of data (all branches that do not match any of the masks"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

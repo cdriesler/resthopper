@@ -47,7 +47,7 @@ class CurveArrayInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -62,7 +62,7 @@ class CurveArrayInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Array rail curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -77,7 +77,7 @@ class CurveArrayInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of elements in the array."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class CurveArrayOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Arrayed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -107,7 +107,7 @@ class CurveArrayOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

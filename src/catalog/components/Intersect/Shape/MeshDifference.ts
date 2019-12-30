@@ -43,7 +43,7 @@ class MeshDifferenceInput_meshesa_a extends ResthopperParameter {
 
 	public name: string = "MeshesA";
 	public nickName: string = "A";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "First mesh set"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class MeshDifferenceInput_meshesb_b extends ResthopperParameter {
 
 	public name: string = "MeshesB";
 	public nickName: string = "B";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Second mesh set"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -73,7 +73,7 @@ class MeshDifferenceOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Difference result of A-B"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

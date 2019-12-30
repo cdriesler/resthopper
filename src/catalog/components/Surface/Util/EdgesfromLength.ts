@@ -45,7 +45,7 @@ class EdgesfromLengthInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class EdgesfromLengthInput_maximum_l extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Maximum edge length for inclusion."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class EdgesfromLengthOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Found edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class EdgesfromLengthOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

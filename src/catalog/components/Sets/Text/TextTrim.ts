@@ -45,7 +45,7 @@ class TextTrimInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Text to split."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -60,7 +60,7 @@ class TextTrimInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Trim whitespace at start."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class TextTrimInput_end_e extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "E";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Trim whitespace at end."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class TextTrimOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Text parameter"
+	public description: string = "Trimmed text."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

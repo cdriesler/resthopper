@@ -55,7 +55,7 @@ class BoxCornersInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Base box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -70,7 +70,7 @@ class BoxCornersOutput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=min, y=min, z=min}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -85,7 +85,7 @@ class BoxCornersOutput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=max, y=min, z=min}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -100,7 +100,7 @@ class BoxCornersOutput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=max, y=max, z=min}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -115,7 +115,7 @@ class BoxCornersOutput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=min, y=max, z=min}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -130,7 +130,7 @@ class BoxCornersOutput_cornere_e extends ResthopperParameter {
 
 	public name: string = "CornerE";
 	public nickName: string = "E";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=min, y=min, z=max}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -145,7 +145,7 @@ class BoxCornersOutput_cornerf_f extends ResthopperParameter {
 
 	public name: string = "CornerF";
 	public nickName: string = "F";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=max, y=min, z=max}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -160,7 +160,7 @@ class BoxCornersOutput_cornerg_g extends ResthopperParameter {
 
 	public name: string = "CornerG";
 	public nickName: string = "G";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=max, y=max, z=max}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -175,7 +175,7 @@ class BoxCornersOutput_cornerh_h extends ResthopperParameter {
 
 	public name: string = "CornerH";
 	public nickName: string = "H";
-	public description: string = "Empty Point parameter"
+	public description: string = "Corner at {x=min, y=min, z=max}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

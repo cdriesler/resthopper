@@ -45,7 +45,7 @@ class OffsetCurveInput_corners_c extends ResthopperParameter {
 
 	public name: string = "Corners";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Corner type flag. Possible values:none = 0sharp = 1round = 2smooth = 3chamfer = 4"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -60,7 +60,7 @@ class OffsetCurveInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Offset distance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class OffsetCurveInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane for offset operation"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class OffsetCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting offsets"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

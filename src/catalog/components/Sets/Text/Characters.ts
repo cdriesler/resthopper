@@ -43,7 +43,7 @@ class CharactersInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Text to split."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -58,7 +58,7 @@ class CharactersOutput_result_c extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "C";
-	public description: string = "Empty Text parameter"
+	public description: string = "Resulting characters"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -73,7 +73,7 @@ class CharactersOutput_unicode_u extends ResthopperParameter {
 
 	public name: string = "Unicode";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Unicode value of character"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

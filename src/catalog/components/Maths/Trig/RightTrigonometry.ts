@@ -53,7 +53,7 @@ class RightTrigonometryInput_beta_ extends ResthopperParameter {
 
 	public name: string = "Beta";
 	public nickName: string = "";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional beta angle"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -68,7 +68,7 @@ class RightTrigonometryInput_plength_p extends ResthopperParameter {
 
 	public name: string = "Plength";
 	public nickName: string = "P";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of P edge"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -83,7 +83,7 @@ class RightTrigonometryInput_qlength_q extends ResthopperParameter {
 
 	public name: string = "Qlength";
 	public nickName: string = "Q";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of Q edge"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -98,7 +98,7 @@ class RightTrigonometryInput_rlength_r extends ResthopperParameter {
 
 	public name: string = "Rlength";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of R edge"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -113,7 +113,7 @@ class RightTrigonometryOutput_beta_ extends ResthopperParameter {
 
 	public name: string = "Beta";
 	public nickName: string = "";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed beta angle"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -128,7 +128,7 @@ class RightTrigonometryOutput_plength_p extends ResthopperParameter {
 
 	public name: string = "Plength";
 	public nickName: string = "P";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of P edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -143,7 +143,7 @@ class RightTrigonometryOutput_qlength_q extends ResthopperParameter {
 
 	public name: string = "Qlength";
 	public nickName: string = "Q";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of Q edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -158,7 +158,7 @@ class RightTrigonometryOutput_rlength_r extends ResthopperParameter {
 
 	public name: string = "Rlength";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of R edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

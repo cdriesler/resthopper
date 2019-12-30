@@ -49,7 +49,7 @@ class FieldLineInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Field to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -64,7 +64,7 @@ class FieldLineInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point to start from"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class FieldLineInput_steps_n extends ResthopperParameter {
 
 	public name: string = "Steps";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of samples"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class FieldLineInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Accuracy hint (will only be loosely obeyed)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class FieldLineInput_method_m extends ResthopperParameter {
 
 	public name: string = "Method";
 	public nickName: string = "M";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Solver (1=Euler, 2=RK2, 3=RK3, 4=RK4)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -124,7 +124,7 @@ class FieldLineOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve approximation of field line through P"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

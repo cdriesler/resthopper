@@ -53,7 +53,7 @@ class TriangleTrigonometryInput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional gamma angle"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -68,7 +68,7 @@ class TriangleTrigonometryInput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of A edge (opposite alpha)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -83,7 +83,7 @@ class TriangleTrigonometryInput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of B edge (opposite beta)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -98,7 +98,7 @@ class TriangleTrigonometryInput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional length of C edge (opposite gamma)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -113,7 +113,7 @@ class TriangleTrigonometryOutput_gamma_ extends ResthopperParameter {
 
 	public name: string = "Gamma";
 	public nickName: string = "";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed gamma angle"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -128,7 +128,7 @@ class TriangleTrigonometryOutput_alength_a extends ResthopperParameter {
 
 	public name: string = "Alength";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of A edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -143,7 +143,7 @@ class TriangleTrigonometryOutput_blength_b extends ResthopperParameter {
 
 	public name: string = "Blength";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of B edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -158,7 +158,7 @@ class TriangleTrigonometryOutput_clength_c extends ResthopperParameter {
 
 	public name: string = "Clength";
 	public nickName: string = "C";
-	public description: string = "Empty Number parameter"
+	public description: string = "Computed length of C edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

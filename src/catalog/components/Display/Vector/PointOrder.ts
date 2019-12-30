@@ -41,7 +41,7 @@ class PointOrderInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to display"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 

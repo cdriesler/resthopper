@@ -45,7 +45,7 @@ class RevolutionInput_curve_p extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Profile curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class RevolutionInput_axis_a extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "A";
-	public description: string = "Empty Line parameter"
+	public description: string = "Revolution axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -75,7 +75,7 @@ class RevolutionInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Angle domain (in radians)"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -90,7 +90,7 @@ class RevolutionOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep representing the revolution result."
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

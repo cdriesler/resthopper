@@ -45,7 +45,7 @@ class OffsetPolylineInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Polyline to offset"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class OffsetPolylineInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Offset distance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class OffsetPolylineOutput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Offset results"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class OffsetPolylineOutput_valid_v extends ResthopperParameter {
 
 	public name: string = "Valid";
 	public nickName: string = "V";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Offset validity"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -43,7 +43,7 @@ class RangeInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Domain of numeric range"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -58,7 +58,7 @@ class RangeInput_steps_n extends ResthopperParameter {
 
 	public name: string = "Steps";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of steps"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class RangeOutput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Range of numbers"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

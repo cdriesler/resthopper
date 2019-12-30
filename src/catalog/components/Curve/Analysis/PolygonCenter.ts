@@ -45,7 +45,7 @@ class PolygonCenterInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Polyline to average."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class PolygonCenterOutput_centerv_cv extends ResthopperParameter {
 
 	public name: string = "CenterV";
 	public nickName: string = "Cv";
-	public description: string = "Empty Point parameter"
+	public description: string = "Average of polyline vertices."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class PolygonCenterOutput_centere_ce extends ResthopperParameter {
 
 	public name: string = "CenterE";
 	public nickName: string = "Ce";
-	public description: string = "Empty Point parameter"
+	public description: string = "Average of polyline edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class PolygonCenterOutput_centera_ca extends ResthopperParameter {
 
 	public name: string = "CenterA";
 	public nickName: string = "Ca";
-	public description: string = "Empty Point parameter"
+	public description: string = "Area centroid of polyline shape"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

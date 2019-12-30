@@ -51,7 +51,7 @@ class OrthocentreInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First triangle corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class OrthocentreInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second triangle corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class OrthocentreInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Third triangle corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class OrthocentreOutput_orthocentre_c extends ResthopperParameter {
 
 	public name: string = "Orthocentre";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Orthocentre point for triangle"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -111,7 +111,7 @@ class OrthocentreOutput_altitudeab_ab extends ResthopperParameter {
 
 	public name: string = "AltitudeAB";
 	public nickName: string = "AB";
-	public description: string = "Empty Line parameter"
+	public description: string = "Altitude line connecting edge AB with corner C"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -126,7 +126,7 @@ class OrthocentreOutput_altitudebc_bc extends ResthopperParameter {
 
 	public name: string = "AltitudeBC";
 	public nickName: string = "BC";
-	public description: string = "Empty Line parameter"
+	public description: string = "Altitude line connecting edge BC with corner A"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -141,7 +141,7 @@ class OrthocentreOutput_altitudeca_ca extends ResthopperParameter {
 
 	public name: string = "AltitudeCA";
 	public nickName: string = "CA";
-	public description: string = "Empty Line parameter"
+	public description: string = "Altitude line connecting edge CA with corner B"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

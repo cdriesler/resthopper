@@ -45,7 +45,7 @@ class ExplodeInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to explode"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class ExplodeInput_recursive_r extends ResthopperParameter {
 
 	public name: string = "Recursive";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Recursive decomposition until all segments are atomic"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class ExplodeOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Exploded segments that make up the base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class ExplodeOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
-	public description: string = "Empty Point parameter"
+	public description: string = "Vertices of the exploded segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

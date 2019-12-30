@@ -49,7 +49,7 @@ class SpinForceInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Center and orientation of spin disc"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -64,7 +64,7 @@ class SpinForceInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Strength of spin force at center of disc"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class SpinForceInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius unit of spin disc"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class SpinForceInput_decay_d extends ResthopperParameter {
 
 	public name: string = "Decay";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Decay of spin force"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class SpinForceInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Optional bounds for the field"
 	public isOptional: boolean = true;
 	public typeName: string = "Box"
 
@@ -124,7 +124,7 @@ class SpinForceOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Field due to vector force"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 

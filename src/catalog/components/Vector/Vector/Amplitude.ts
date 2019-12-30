@@ -43,7 +43,7 @@ class AmplitudeInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Base vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -58,7 +58,7 @@ class AmplitudeInput_amplitude_a extends ResthopperParameter {
 
 	public name: string = "Amplitude";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Amplitude (length) value"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class AmplitudeOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Resulting vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

@@ -45,7 +45,7 @@ class LineFourPtInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Guide line."
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -60,7 +60,7 @@ class LineFourPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First point to project onto the guide."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class LineFourPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second point to project onto the guide."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class LineFourPtOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line segment between A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

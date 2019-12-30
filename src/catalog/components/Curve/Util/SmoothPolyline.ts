@@ -45,7 +45,7 @@ class SmoothPolylineInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Polyline to smooth"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class SmoothPolylineInput_strength_s extends ResthopperParameter {
 
 	public name: string = "Strength";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Smoothing strength (0 = none, 1 = maximum)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class SmoothPolylineInput_times_t extends ResthopperParameter {
 
 	public name: string = "Times";
 	public nickName: string = "T";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of times to apply the smoothing operation"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class SmoothPolylineOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Smoothed polyline"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

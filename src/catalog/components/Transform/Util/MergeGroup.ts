@@ -43,7 +43,7 @@ class MergeGroupInput_groupa_a extends ResthopperParameter {
 
 	public name: string = "GroupA";
 	public nickName: string = "A";
-	public description: string = "Empty Group parameter"
+	public description: string = "First group"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 
@@ -58,7 +58,7 @@ class MergeGroupInput_groupb_b extends ResthopperParameter {
 
 	public name: string = "GroupB";
 	public nickName: string = "B";
-	public description: string = "Empty Group parameter"
+	public description: string = "Second group"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 
@@ -73,7 +73,7 @@ class MergeGroupOutput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
-	public description: string = "Empty Group parameter"
+	public description: string = "Merged group"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 

@@ -45,7 +45,7 @@ class TensorDisplayInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Field to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -60,7 +60,7 @@ class TensorDisplayInput_section_s extends ResthopperParameter {
 
 	public name: string = "Section";
 	public nickName: string = "S";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Rectangle describing section"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -75,7 +75,7 @@ class TensorDisplayInput_samples_n extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Section sample count indicator"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

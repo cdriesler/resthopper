@@ -43,7 +43,7 @@ class PullCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to pull"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class PullCurveInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface that pulls"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -73,7 +73,7 @@ class PullCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve pulled onto the surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

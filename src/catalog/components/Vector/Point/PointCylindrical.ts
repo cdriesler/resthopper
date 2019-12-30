@@ -47,7 +47,7 @@ class PointCylindricalInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane defining cylindrical coordinate space"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class PointCylindricalInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angle in radians for P(x,y) rotation"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class PointCylindricalInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius of cylinder"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class PointCylindricalInput_elevation_e extends ResthopperParameter {
 
 	public name: string = "Elevation";
 	public nickName: string = "E";
-	public description: string = "Empty Number parameter"
+	public description: string = "Elevation of point"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class PointCylindricalOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
-	public description: string = "Empty Point parameter"
+	public description: string = "Cylindrical point coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

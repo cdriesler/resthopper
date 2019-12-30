@@ -49,7 +49,7 @@ class LineLineInput_line1_a extends ResthopperParameter {
 
 	public name: string = "Line1";
 	public nickName: string = "A";
-	public description: string = "Empty Line parameter"
+	public description: string = "First line for intersection"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -64,7 +64,7 @@ class LineLineInput_line2_b extends ResthopperParameter {
 
 	public name: string = "Line2";
 	public nickName: string = "B";
-	public description: string = "Empty Line parameter"
+	public description: string = "Second line for intersection"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -79,7 +79,7 @@ class LineLineOutput_parama_ta extends ResthopperParameter {
 
 	public name: string = "ParamA";
 	public nickName: string = "tA";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter on line A"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class LineLineOutput_paramb_tb extends ResthopperParameter {
 
 	public name: string = "ParamB";
 	public nickName: string = "tB";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter on line B"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class LineLineOutput_pointa_pa extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "pA";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on line A"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -124,7 +124,7 @@ class LineLineOutput_pointb_pb extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "pB";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on line B"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

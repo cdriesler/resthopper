@@ -43,7 +43,7 @@ class PointListInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to display"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class PointListInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional text size (in Rhino units)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 

@@ -51,7 +51,7 @@ class RelativeItemsInput_treea_a extends ResthopperParameter {
 
 	public name: string = "TreeA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "First Data Tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -66,7 +66,7 @@ class RelativeItemsInput_treeb_b extends ResthopperParameter {
 
 	public name: string = "TreeB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Second Data Tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -81,7 +81,7 @@ class RelativeItemsInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
-	public description: string = "Empty Text parameter"
+	public description: string = "Relative offset for item combo"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -96,7 +96,7 @@ class RelativeItemsInput_wrappaths_wp extends ResthopperParameter {
 
 	public name: string = "WrapPaths";
 	public nickName: string = "Wp";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap paths when the shift is out of bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -111,7 +111,7 @@ class RelativeItemsInput_wrapitems_wi extends ResthopperParameter {
 
 	public name: string = "WrapItems";
 	public nickName: string = "Wi";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap items when the shift is out of bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -126,7 +126,7 @@ class RelativeItemsOutput_itema_a extends ResthopperParameter {
 
 	public name: string = "ItemA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Item in tree A"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -141,7 +141,7 @@ class RelativeItemsOutput_itemb_b extends ResthopperParameter {
 
 	public name: string = "ItemB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Relative item in tree B"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -45,7 +45,7 @@ class CullVerticesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for vertex culling"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -60,7 +60,7 @@ class CullVerticesInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Vertex culling pattern"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class CullVerticesInput_shrink_s extends ResthopperParameter {
 
 	public name: string = "Shrink";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Shrink quads, if true, quads will become triangles if possible"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class CullVerticesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh with all indicated vertices removed"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

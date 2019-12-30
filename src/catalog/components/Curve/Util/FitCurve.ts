@@ -45,7 +45,7 @@ class FitCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to fit"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class FitCurveInput_degree_d extends ResthopperParameter {
 
 	public name: string = "Degree";
 	public nickName: string = "D";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Optional degree of curve (if omitted, input degree is used)"
 	public isOptional: boolean = true;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class FitCurveInput_tolerance_ft extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "Ft";
-	public description: string = "Empty Number parameter"
+	public description: string = "Tolerance for fitting (if omitted, document tolerance is used)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class FitCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Fitted curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

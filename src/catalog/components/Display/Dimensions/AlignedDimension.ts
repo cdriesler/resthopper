@@ -51,7 +51,7 @@ class AlignedDimensionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane for dimension"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -66,7 +66,7 @@ class AlignedDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First dimension point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class AlignedDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second dimension point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class AlignedDimensionInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
-	public description: string = "Empty Number parameter"
+	public description: string = "Offset for base line"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class AlignedDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Dimension text"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -126,7 +126,7 @@ class AlignedDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Dimension size"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

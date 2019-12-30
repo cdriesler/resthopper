@@ -47,7 +47,7 @@ class MeshDepthInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for inclusion test (only closed meshes will be considered)"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -62,7 +62,7 @@ class MeshDepthInput_minimum_min extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "Min";
-	public description: string = "Empty Number parameter"
+	public description: string = "Minimum valid mesh depth."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class MeshDepthInput_maximum_max extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "Max";
-	public description: string = "Empty Number parameter"
+	public description: string = "Maximum valid mesh depth."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class MeshDepthOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Coloured mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -107,7 +107,7 @@ class MeshDepthOutput_valid_v extends ResthopperParameter {
 
 	public name: string = "Valid";
 	public nickName: string = "V";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if mesh does not exceed limits"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -45,7 +45,7 @@ class DerivativesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class DerivativesInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter on curve domain to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class DerivativesOutput_firstderivative_1 extends ResthopperParameter {
 
 	public name: string = "Firstderivative";
 	public nickName: string = "1";
-	public description: string = "Empty Vector parameter"
+	public description: string = "First curve derivative at t (Velocity)"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -90,7 +90,7 @@ class DerivativesOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on curve at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

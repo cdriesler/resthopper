@@ -45,7 +45,7 @@ class TangentLinesInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point for tangent lines"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class TangentLinesInput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
-	public description: string = "Empty Circle parameter"
+	public description: string = "Base circle"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 
@@ -75,7 +75,7 @@ class TangentLinesOutput_tangent1_t1 extends ResthopperParameter {
 
 	public name: string = "Tangent1";
 	public nickName: string = "T1";
-	public description: string = "Empty Line parameter"
+	public description: string = "Primary tangent"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -90,7 +90,7 @@ class TangentLinesOutput_tangent2_t2 extends ResthopperParameter {
 
 	public name: string = "Tangent2";
 	public nickName: string = "T2";
-	public description: string = "Empty Line parameter"
+	public description: string = "Secondary tangent"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

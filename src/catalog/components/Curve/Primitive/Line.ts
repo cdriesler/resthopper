@@ -43,7 +43,7 @@ class LineInput_startpoint_a extends ResthopperParameter {
 
 	public name: string = "StartPoint";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "Line start point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class LineInput_endpoint_b extends ResthopperParameter {
 
 	public name: string = "EndPoint";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Line end point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,7 +73,7 @@ class LineOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line segment"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

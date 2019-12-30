@@ -49,7 +49,7 @@ class TriangularInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane for grid"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -64,7 +64,7 @@ class TriangularInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Size of triangle edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class TriangularInput_extentx_ex extends ResthopperParameter {
 
 	public name: string = "ExtentX";
 	public nickName: string = "Ex";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of grid cells in base plane x directions"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class TriangularInput_extenty_ey extends ResthopperParameter {
 
 	public name: string = "ExtentY";
 	public nickName: string = "Ey";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of grid cells in base plane y directions"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -109,7 +109,7 @@ class TriangularOutput_cells_c extends ResthopperParameter {
 
 	public name: string = "Cells";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Grid cell outlines"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -124,7 +124,7 @@ class TriangularOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points at grid centers"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

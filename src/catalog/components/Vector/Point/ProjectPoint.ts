@@ -47,7 +47,7 @@ class ProjectPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point to project"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class ProjectPointInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Projection direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -77,7 +77,7 @@ class ProjectPointInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to project onto"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -92,7 +92,7 @@ class ProjectPointOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Projected point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,7 +107,7 @@ class ProjectPointOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of object that was projected onto"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

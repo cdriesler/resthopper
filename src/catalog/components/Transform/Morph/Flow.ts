@@ -53,7 +53,7 @@ class FlowInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -68,7 +68,7 @@ class FlowInput_base_c0 extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "C0";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -83,7 +83,7 @@ class FlowInput_target_c1 extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "C1";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Target curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -98,7 +98,7 @@ class FlowInput_reversebase_r0 extends ResthopperParameter {
 
 	public name: string = "ReverseBase";
 	public nickName: string = "R0";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, then direction of the base curve is reversed."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -113,7 +113,7 @@ class FlowInput_reversetarget_r1 extends ResthopperParameter {
 
 	public name: string = "ReverseTarget";
 	public nickName: string = "R1";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, then direction of the target curve is reversed."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -128,7 +128,7 @@ class FlowInput_stretch_s extends ResthopperParameter {
 
 	public name: string = "Stretch";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, the length of objects along the curve directions is changed to reflect the curve dimensions."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -143,7 +143,7 @@ class FlowInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Geometry will not be deformed as it is transformed"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -158,7 +158,7 @@ class FlowOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Morphed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

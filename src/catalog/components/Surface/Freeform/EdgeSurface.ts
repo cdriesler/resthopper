@@ -47,7 +47,7 @@ class EdgeSurfaceInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class EdgeSurfaceInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -77,7 +77,7 @@ class EdgeSurfaceInput_curvec_c extends ResthopperParameter {
 
 	public name: string = "CurveC";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Optional Third curve"
 	public isOptional: boolean = true;
 	public typeName: string = "Curve"
 
@@ -92,7 +92,7 @@ class EdgeSurfaceInput_curved_d extends ResthopperParameter {
 
 	public name: string = "CurveD";
 	public nickName: string = "D";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Optional Fourth curve"
 	public isOptional: boolean = true;
 	public typeName: string = "Curve"
 
@@ -107,7 +107,7 @@ class EdgeSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep representing the edge-surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

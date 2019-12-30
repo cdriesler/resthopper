@@ -43,7 +43,7 @@ class BrepJoinInput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Breps to join"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -58,7 +58,7 @@ class BrepJoinOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Joined Breps"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -73,7 +73,7 @@ class BrepJoinOutput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Closed flag for each resulting Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

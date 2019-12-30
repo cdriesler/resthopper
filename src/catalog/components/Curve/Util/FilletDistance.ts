@@ -43,7 +43,7 @@ class FilletDistanceInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to fillet"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class FilletDistanceInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance from corner of fillet start"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class FilletDistanceOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve with filleted corners"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

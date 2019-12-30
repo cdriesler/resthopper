@@ -55,7 +55,7 @@ class MergeZeroEightInput_streama_a extends ResthopperParameter {
 
 	public name: string = "StreamA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #1"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -70,7 +70,7 @@ class MergeZeroEightInput_streamb_b extends ResthopperParameter {
 
 	public name: string = "StreamB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #2"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -85,7 +85,7 @@ class MergeZeroEightInput_streamc_c extends ResthopperParameter {
 
 	public name: string = "StreamC";
 	public nickName: string = "C";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #3"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -100,7 +100,7 @@ class MergeZeroEightInput_streamd_d extends ResthopperParameter {
 
 	public name: string = "StreamD";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #4"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -115,7 +115,7 @@ class MergeZeroEightInput_streame_e extends ResthopperParameter {
 
 	public name: string = "StreamE";
 	public nickName: string = "E";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #5"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -130,7 +130,7 @@ class MergeZeroEightInput_streamf_f extends ResthopperParameter {
 
 	public name: string = "StreamF";
 	public nickName: string = "F";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #6"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -145,7 +145,7 @@ class MergeZeroEightInput_streamg_g extends ResthopperParameter {
 
 	public name: string = "StreamG";
 	public nickName: string = "G";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #7"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -160,7 +160,7 @@ class MergeZeroEightInput_streamh_h extends ResthopperParameter {
 
 	public name: string = "StreamH";
 	public nickName: string = "H";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #8"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -175,7 +175,7 @@ class MergeZeroEightOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Merged stream"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -41,7 +41,7 @@ class FragmentPatchInput_boundary_b extends ResthopperParameter {
 
 	public name: string = "Boundary";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Fragment polyline boundary"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -56,7 +56,7 @@ class FragmentPatchOutput_patch_p extends ResthopperParameter {
 
 	public name: string = "Patch";
 	public nickName: string = "P";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Fragmented patch"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

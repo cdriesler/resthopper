@@ -47,7 +47,7 @@ class ExtrudeLinearInput_profile_p extends ResthopperParameter {
 
 	public name: string = "Profile";
 	public nickName: string = "P";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Profile curve or surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -62,7 +62,7 @@ class ExtrudeLinearInput_orientationp_po extends ResthopperParameter {
 
 	public name: string = "OrientationP";
 	public nickName: string = "Po";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane indicating orientation of profile shape"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -77,7 +77,7 @@ class ExtrudeLinearInput_axis_a extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "A";
-	public description: string = "Empty Line parameter"
+	public description: string = "Extrusion axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -92,7 +92,7 @@ class ExtrudeLinearInput_orientationa_ao extends ResthopperParameter {
 
 	public name: string = "OrientationA";
 	public nickName: string = "Ao";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional orientational plane for the axis"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -107,7 +107,7 @@ class ExtrudeLinearOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Extrusion result"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

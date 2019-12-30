@@ -41,7 +41,7 @@ class MeshJoinInput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Meshes to join"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -56,7 +56,7 @@ class MeshJoinOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh join result"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

@@ -43,7 +43,7 @@ class MeshPlaneInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Base Mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class MeshPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Section plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -73,7 +73,7 @@ class MeshPlaneOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Section polylines"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

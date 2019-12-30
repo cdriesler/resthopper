@@ -45,7 +45,7 @@ class PlanarInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class PlanarOutput_planar_p extends ResthopperParameter {
 
 	public name: string = "Planar";
 	public nickName: string = "p";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Planarity of curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class PlanarOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Curve plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class PlanarOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Deviation from curve plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

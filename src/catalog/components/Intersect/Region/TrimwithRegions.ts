@@ -47,7 +47,7 @@ class TrimwithRegionsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to trim"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class TrimwithRegionsInput_regions_r extends ResthopperParameter {
 
 	public name: string = "Regions";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Regions to trim against"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -77,7 +77,7 @@ class TrimwithRegionsInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional solution plane. If omitted the curve best-fit plane is used."
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -92,7 +92,7 @@ class TrimwithRegionsOutput_inside_ci extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "Ci";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Split curves inside the regions"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -107,7 +107,7 @@ class TrimwithRegionsOutput_outside_co extends ResthopperParameter {
 
 	public name: string = "Outside";
 	public nickName: string = "Co";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Split curves outside the regions"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

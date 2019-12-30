@@ -45,7 +45,7 @@ class BoxTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class BoxTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class BoxTwoPtInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class BoxTwoPtOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Resulting box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 

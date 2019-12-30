@@ -41,7 +41,7 @@ class GateNotInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Boolean value"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -56,7 +56,7 @@ class GateNotOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Inverse of {A}"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

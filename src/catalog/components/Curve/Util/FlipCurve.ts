@@ -45,7 +45,7 @@ class FlipCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to flip"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class FlipCurveInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Optional guide curve"
 	public isOptional: boolean = true;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class FlipCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Flipped curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class FlipCurveOutput_flag_f extends ResthopperParameter {
 
 	public name: string = "Flag";
 	public nickName: string = "F";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Flip action"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -47,7 +47,7 @@ class FindDomainInput_domains_d extends ResthopperParameter {
 
 	public name: string = "Domains";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Collection of domains to search"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -62,7 +62,7 @@ class FindDomainInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to test"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class FindDomainInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Strict comparison, if true then the value must be on the interior of a domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -92,7 +92,7 @@ class FindDomainOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of first domain that includes the specified value"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class FindDomainOutput_neighbour_n extends ResthopperParameter {
 
 	public name: string = "Neighbour";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of domain that is closest to the specified value"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

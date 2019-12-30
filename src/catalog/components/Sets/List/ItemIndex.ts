@@ -43,7 +43,7 @@ class ItemIndexInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to search"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class ItemIndexInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "i";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Item to search for"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class ItemIndexOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "The index of item in the list, or -1 if the item could not be found."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

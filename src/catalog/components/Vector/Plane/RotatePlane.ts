@@ -43,7 +43,7 @@ class RotatePlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane to rotate"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -58,7 +58,7 @@ class RotatePlaneInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rotation (counter clockwise) around plane z-axis in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class RotatePlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Rotated plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

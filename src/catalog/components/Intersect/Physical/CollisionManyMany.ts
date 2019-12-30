@@ -43,7 +43,7 @@ class CollisionManyManyInput_colliders_c extends ResthopperParameter {
 
 	public name: string = "Colliders";
 	public nickName: string = "C";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Objects for collision"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -58,7 +58,7 @@ class CollisionManyManyOutput_collision_c extends ResthopperParameter {
 
 	public name: string = "Collision";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if object at this index collides with any of the other objects"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,7 +73,7 @@ class CollisionManyManyOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of object in set which collided with the object at this index"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

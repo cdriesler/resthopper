@@ -43,7 +43,7 @@ class PartitionListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to partition"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class PartitionListInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Size of partitions"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class PartitionListOutput_chunks_c extends ResthopperParameter {
 
 	public name: string = "Chunks";
 	public nickName: string = "C";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List chunks"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

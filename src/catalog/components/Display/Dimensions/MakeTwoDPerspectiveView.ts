@@ -43,7 +43,7 @@ class MakeTwoDPerspectiveViewInput_camera_c extends ResthopperParameter {
 
 	public name: string = "Camera";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Camera position"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class MakeTwoDPerspectiveViewInput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Projection framing."
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -73,7 +73,7 @@ class MakeTwoDPerspectiveViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";
-	public description: string = "Empty Projection parameter"
+	public description: string = "Parallel view"
 	public isOptional: boolean = false;
 	public typeName: string = "Projection"
 

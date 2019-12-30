@@ -45,7 +45,7 @@ class TextTagInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
-	public description: string = "Empty Point parameter"
+	public description: string = "Location of text tag"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class TextTagInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "The text to display"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -75,7 +75,7 @@ class TextTagInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Optional colour for tag"
 	public isOptional: boolean = true;
 	public typeName: string = "Colour"
 

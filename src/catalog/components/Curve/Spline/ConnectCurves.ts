@@ -47,7 +47,7 @@ class ConnectCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curves to connect"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class ConnectCurvesInput_continuity_g extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "G";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Continuity of blends (0=position, 1=tangency, 2=curvature)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,7 +77,7 @@ class ConnectCurvesInput_close_l extends ResthopperParameter {
 
 	public name: string = "Close";
 	public nickName: string = "L";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Create a closed loop from all curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -92,7 +92,7 @@ class ConnectCurvesInput_bulge_b extends ResthopperParameter {
 
 	public name: string = "Bulge";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Bulge factor for connecting segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ConnectCurvesOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Joined segments and connecting curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

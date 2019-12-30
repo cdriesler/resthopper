@@ -47,7 +47,7 @@ class ColourXYZInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Alpha channel (alpha is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ColourXYZInput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
-	public description: string = "Empty Number parameter"
+	public description: string = "X stimulus (X is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ColourXYZInput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
-	public description: string = "Empty Number parameter"
+	public description: string = "Y stimulus (y is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ColourXYZInput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";
-	public description: string = "Empty Number parameter"
+	public description: string = "Z stimulus (Z is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ColourXYZOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Resulting colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

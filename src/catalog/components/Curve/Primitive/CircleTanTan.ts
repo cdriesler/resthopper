@@ -45,7 +45,7 @@ class CircleTanTanInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First curve for tangency constraint"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class CircleTanTanInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second curve for tangency constraint"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class CircleTanTanInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Circle center point guide"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class CircleTanTanOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
-	public description: string = "Empty Circle parameter"
+	public description: string = "Resulting circle"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 

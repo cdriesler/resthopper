@@ -41,7 +41,7 @@ class GroupInput_objects_o extends ResthopperParameter {
 
 	public name: string = "Objects";
 	public nickName: string = "O";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Objects to group"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -56,7 +56,7 @@ class GroupOutput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
-	public description: string = "Empty Group parameter"
+	public description: string = "Grouped objects"
 	public isOptional: boolean = false;
 	public typeName: string = "Group"
 

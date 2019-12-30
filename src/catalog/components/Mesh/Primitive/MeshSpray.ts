@@ -45,7 +45,7 @@ class MeshSprayInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Base mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -60,7 +60,7 @@ class MeshSprayInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Spray points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class MeshSprayInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Colours of spray points"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -90,7 +90,7 @@ class MeshSprayOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Sprayed mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

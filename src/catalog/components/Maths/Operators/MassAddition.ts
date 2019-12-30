@@ -43,7 +43,7 @@ class MassAdditionInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input values for mass addition."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class MassAdditionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Result of mass addition"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class MassAdditionOutput_partialresults_pr extends ResthopperParameter {
 
 	public name: string = "PartialResults";
 	public nickName: string = "Pr";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List of partial results"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

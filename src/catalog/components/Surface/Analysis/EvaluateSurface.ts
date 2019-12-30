@@ -51,7 +51,7 @@ class EvaluateSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -66,7 +66,7 @@ class EvaluateSurfaceInput_point_uv extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "uv";
-	public description: string = "Empty Point parameter"
+	public description: string = "{uv} coordinate to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class EvaluateSurfaceOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point at {uv}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class EvaluateSurfaceOutput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Normal at {uv}"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -111,7 +111,7 @@ class EvaluateSurfaceOutput_udirection_u extends ResthopperParameter {
 
 	public name: string = "Udirection";
 	public nickName: string = "U";
-	public description: string = "Empty Vector parameter"
+	public description: string = "U direction at {uv}"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -126,7 +126,7 @@ class EvaluateSurfaceOutput_vdirection_v extends ResthopperParameter {
 
 	public name: string = "Vdirection";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "V direction at {uv}"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -141,7 +141,7 @@ class EvaluateSurfaceOutput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Frame at {uv}"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

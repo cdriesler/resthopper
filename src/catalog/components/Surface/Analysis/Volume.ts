@@ -43,7 +43,7 @@ class VolumeInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Closed brep or mesh for volume computation"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -58,7 +58,7 @@ class VolumeOutput_volume_v extends ResthopperParameter {
 
 	public name: string = "Volume";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Volume of geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class VolumeOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Volume centroid of geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

@@ -47,7 +47,7 @@ class PointPolarInput_baseplane_p extends ResthopperParameter {
 
 	public name: string = "Baseplane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane defining polar coordinate space"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class PointPolarInput_xyangle_xy extends ResthopperParameter {
 
 	public name: string = "XYangle";
 	public nickName: string = "xy";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angle in radians for P(x,y) rotation"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class PointPolarInput_zangle_z extends ResthopperParameter {
 
 	public name: string = "Zangle";
 	public nickName: string = "z";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angle in radians for P(z) rotation"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class PointPolarInput_offset_d extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "d";
-	public description: string = "Empty Number parameter"
+	public description: string = "Offset distance for point"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class PointPolarOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
-	public description: string = "Empty Point parameter"
+	public description: string = "Polar point coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

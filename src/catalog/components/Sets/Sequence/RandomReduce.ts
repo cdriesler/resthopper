@@ -45,7 +45,7 @@ class RandomReduceInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to reduce"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class RandomReduceInput_reduction_r extends ResthopperParameter {
 
 	public name: string = "Reduction";
 	public nickName: string = "R";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of items to remove"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class RandomReduceInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Random Generator Seed value"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class RandomReduceOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Reduced list"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

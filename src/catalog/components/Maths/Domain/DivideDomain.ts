@@ -45,7 +45,7 @@ class DivideDomainInput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Base domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -60,7 +60,7 @@ class DivideDomainInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments in {u} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class DivideDomainInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments in {v} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class DivideDomainOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Individual segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 

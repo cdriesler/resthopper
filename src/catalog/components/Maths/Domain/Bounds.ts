@@ -41,7 +41,7 @@ class BoundsInput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
-	public description: string = "Empty Number parameter"
+	public description: string = "Numbers to include in Bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -56,7 +56,7 @@ class BoundsOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Numeric Domain between the lowest and highest numbers in {N}"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

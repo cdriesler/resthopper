@@ -41,7 +41,7 @@ class UnitVectorInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Base vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -56,7 +56,7 @@ class UnitVectorOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Unit vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

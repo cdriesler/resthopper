@@ -41,7 +41,7 @@ class BoundsTwoDInput_coordinates_c extends ResthopperParameter {
 
 	public name: string = "Coordinates";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Two dimensional coordinates to include in Bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -56,7 +56,7 @@ class BoundsTwoDOutput_domain_i extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Numeric two-dimensional domain between the lowest and highest numbers in {N.x ; N.y}"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 

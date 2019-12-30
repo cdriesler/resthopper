@@ -41,7 +41,7 @@ class BoundaryVolumeInput_boundaries_b extends ResthopperParameter {
 
 	public name: string = "Boundaries";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Boundary surfaces"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -56,7 +56,7 @@ class BoundaryVolumeOutput_solid_s extends ResthopperParameter {
 
 	public name: string = "Solid";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Solid volume"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

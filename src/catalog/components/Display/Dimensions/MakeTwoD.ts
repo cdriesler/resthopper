@@ -59,7 +59,7 @@ class MakeTwoDInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to include (Breps, Meshes and Curves only)."
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -74,7 +74,7 @@ class MakeTwoDInput_clippingplanes_c extends ResthopperParameter {
 
 	public name: string = "ClippingPlanes";
 	public nickName: string = "C";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional clipping planes."
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -89,7 +89,7 @@ class MakeTwoDInput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";
-	public description: string = "Empty Projection parameter"
+	public description: string = "Make2D projection details"
 	public isOptional: boolean = false;
 	public typeName: string = "Projection"
 
@@ -104,7 +104,7 @@ class MakeTwoDInput_tangentedges_te extends ResthopperParameter {
 
 	public name: string = "TangentEdges";
 	public nickName: string = "Te";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Whether or not to compute tangent edges."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -119,7 +119,7 @@ class MakeTwoDInput_tangentseams_ts extends ResthopperParameter {
 
 	public name: string = "TangentSeams";
 	public nickName: string = "Ts";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Whether or not to compute tangent seams."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -134,7 +134,7 @@ class MakeTwoDOutput_visiblecurves_v extends ResthopperParameter {
 
 	public name: string = "Visiblecurves";
 	public nickName: string = "V";
-	public description: string = "Empty Curve parameter"
+	public description: string = "List of visible curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -149,7 +149,7 @@ class MakeTwoDOutput_visibleindex_vi extends ResthopperParameter {
 
 	public name: string = "Visibleindex";
 	public nickName: string = "Vi";
-	public description: string = "Empty Integer parameter"
+	public description: string = "For each visible curve, index of source object"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -164,7 +164,7 @@ class MakeTwoDOutput_visibletype_vt extends ResthopperParameter {
 
 	public name: string = "Visibletype";
 	public nickName: string = "Vt";
-	public description: string = "Empty Text parameter"
+	public description: string = "For each visible curve, type description"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -179,7 +179,7 @@ class MakeTwoDOutput_hiddencurves_h extends ResthopperParameter {
 
 	public name: string = "Hiddencurves";
 	public nickName: string = "H";
-	public description: string = "Empty Curve parameter"
+	public description: string = "List of hidden curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -194,7 +194,7 @@ class MakeTwoDOutput_hiddenindex_hi extends ResthopperParameter {
 
 	public name: string = "Hiddenindex";
 	public nickName: string = "Hi";
-	public description: string = "Empty Integer parameter"
+	public description: string = "For each hidden curve, index of source object"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -209,7 +209,7 @@ class MakeTwoDOutput_hiddentype_ht extends ResthopperParameter {
 
 	public name: string = "Hiddentype";
 	public nickName: string = "Ht";
-	public description: string = "Empty Text parameter"
+	public description: string = "For each hidden curve, type description"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

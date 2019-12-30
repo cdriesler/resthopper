@@ -45,7 +45,7 @@ class MergeFacesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep to simplify"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class MergeFacesOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Simplified Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -75,7 +75,7 @@ class MergeFacesOutput_before_n0 extends ResthopperParameter {
 
 	public name: string = "Before";
 	public nickName: string = "N0";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of faces before simplification"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class MergeFacesOutput_after_n1 extends ResthopperParameter {
 
 	public name: string = "After";
 	public nickName: string = "N1";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of faces after simplification"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

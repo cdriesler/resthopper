@@ -43,7 +43,7 @@ class ControlPolygonInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class ControlPolygonOutput_polygon_c extends ResthopperParameter {
 
 	public name: string = "Polygon";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Control polygon curve for input curve adjusted for periodicity."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,7 +73,7 @@ class ControlPolygonOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Control polygon points."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

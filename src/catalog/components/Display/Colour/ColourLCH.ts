@@ -47,7 +47,7 @@ class ColourLCHInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Alpha channel (alpha is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ColourLCHInput_luminance_l extends ResthopperParameter {
 
 	public name: string = "Luminance";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Luminance channel (luminance is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ColourLCHInput_chroma_c extends ResthopperParameter {
 
 	public name: string = "Chroma";
 	public nickName: string = "C";
-	public description: string = "Empty Number parameter"
+	public description: string = "Chromaticity channel (chroma is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ColourLCHInput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
-	public description: string = "Empty Number parameter"
+	public description: string = "Hue channel (hue is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ColourLCHOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Resulting colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

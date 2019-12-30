@@ -47,7 +47,7 @@ class JitterInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Values to shuffle"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -62,7 +62,7 @@ class JitterInput_jitter_j extends ResthopperParameter {
 
 	public name: string = "Jitter";
 	public nickName: string = "J";
-	public description: string = "Empty Number parameter"
+	public description: string = "Shuffling strength. (0.0 = no shuffling, 1.0 = complete shuffling)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class JitterInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Seed of shuffling engine"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class JitterOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Shuffled values"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -107,7 +107,7 @@ class JitterOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index map of shuffled items"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

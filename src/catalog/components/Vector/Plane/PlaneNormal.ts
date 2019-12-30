@@ -43,7 +43,7 @@ class PlaneNormalInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
-	public description: string = "Empty Point parameter"
+	public description: string = "Origin of plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class PlaneNormalInput_zaxis_z extends ResthopperParameter {
 
 	public name: string = "ZAxis";
 	public nickName: string = "Z";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Z-Axis direction of plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -73,7 +73,7 @@ class PlaneNormalOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane definition"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

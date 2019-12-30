@@ -45,7 +45,7 @@ class LineSDLInput_start_s extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "S";
-	public description: string = "Empty Point parameter"
+	public description: string = "Line start point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class LineSDLInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Line tangent (direction)"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -75,7 +75,7 @@ class LineSDLInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Line length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class LineSDLOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line segment"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

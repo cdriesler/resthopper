@@ -43,7 +43,7 @@ class FaceCirclesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for normal and center point extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class FaceCirclesOutput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
-	public description: string = "Empty Circle parameter"
+	public description: string = "Circum-circles for all mesh triangles (quads are skipped)"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 
@@ -73,7 +73,7 @@ class FaceCirclesOutput_ratio_r extends ResthopperParameter {
 
 	public name: string = "Ratio";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Ratio of triangles; altitude / longest edge. (quads are skipped)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

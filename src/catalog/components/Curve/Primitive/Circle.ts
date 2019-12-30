@@ -43,7 +43,7 @@ class CircleInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane of circle"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -58,7 +58,7 @@ class CircleInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius of circle"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class CircleOutput_circle_c extends ResthopperParameter {
 
 	public name: string = "Circle";
 	public nickName: string = "C";
-	public description: string = "Empty Circle parameter"
+	public description: string = "Resulting circle"
 	public isOptional: boolean = false;
 	public typeName: string = "Circle"
 

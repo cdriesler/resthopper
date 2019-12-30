@@ -43,7 +43,7 @@ class FlattenTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data tree to flatten"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class FlattenTreeInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
-	public description: string = "Empty Path parameter"
+	public description: string = "Path of flattened tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 
@@ -73,7 +73,7 @@ class FlattenTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Flattened data tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

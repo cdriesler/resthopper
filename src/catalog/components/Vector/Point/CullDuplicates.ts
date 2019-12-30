@@ -47,7 +47,7 @@ class CullDuplicatesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to operate on"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class CullDuplicatesInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Proximity tolerance distance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class CullDuplicatesOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Culled points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class CullDuplicatesOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index map of culled points"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class CullDuplicatesOutput_valence_v extends ResthopperParameter {
 
 	public name: string = "Valence";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of input points represented by this output point"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

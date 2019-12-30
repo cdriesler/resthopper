@@ -51,7 +51,7 @@ class BarycentricInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First anchor point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class BarycentricInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second anchor point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class BarycentricInput_pointc_c extends ResthopperParameter {
 
 	public name: string = "PointC";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Third anchor point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class BarycentricInput_coordinateu_u extends ResthopperParameter {
 
 	public name: string = "CoordinateU";
 	public nickName: string = "U";
-	public description: string = "Empty Number parameter"
+	public description: string = "First barycentric coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class BarycentricInput_coordinatev_v extends ResthopperParameter {
 
 	public name: string = "CoordinateV";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Second barycentric coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -126,7 +126,7 @@ class BarycentricInput_coordinatew_w extends ResthopperParameter {
 
 	public name: string = "CoordinateW";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "Third barycentric coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class BarycentricOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Barycentric point coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

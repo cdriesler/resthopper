@@ -45,7 +45,7 @@ class PruneTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data tree to prune"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class PruneTreeInput_minimum_n0 extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "N0";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Remove branches with fewer than N0 items."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class PruneTreeInput_maximum_n1 extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "N1";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Remove branches with more than N1 items (use zero to ignore upper limit)."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class PruneTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Pruned tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

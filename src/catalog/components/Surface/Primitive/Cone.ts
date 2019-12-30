@@ -47,7 +47,7 @@ class ConeInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class ConeInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius at cone base"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ConeInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Cone height"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ConeOutput_cone_c extends ResthopperParameter {
 
 	public name: string = "Cone";
 	public nickName: string = "C";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Resulting cone"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -107,7 +107,7 @@ class ConeOutput_tip_t extends ResthopperParameter {
 
 	public name: string = "Tip";
 	public nickName: string = "T";
-	public description: string = "Empty Point parameter"
+	public description: string = "Tip of cone"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

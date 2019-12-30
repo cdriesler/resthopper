@@ -45,7 +45,7 @@ class SpatialDeformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to deform"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -60,7 +60,7 @@ class SpatialDeformInput_syntax_s extends ResthopperParameter {
 
 	public name: string = "Syntax";
 	public nickName: string = "S";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points describing space syntax."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class SpatialDeformInput_forces_f extends ResthopperParameter {
 
 	public name: string = "Forces";
 	public nickName: string = "F";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Forces (one for each point in space"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -90,7 +90,7 @@ class SpatialDeformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Deformed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

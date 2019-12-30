@@ -47,7 +47,7 @@ class ColourCMYKInput_cyan_c extends ResthopperParameter {
 
 	public name: string = "Cyan";
 	public nickName: string = "C";
-	public description: string = "Empty Number parameter"
+	public description: string = "Cyan channel (cyan is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ColourCMYKInput_magenta_m extends ResthopperParameter {
 
 	public name: string = "Magenta";
 	public nickName: string = "M";
-	public description: string = "Empty Number parameter"
+	public description: string = "Magenta channel (magenta is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ColourCMYKInput_yellow_y extends ResthopperParameter {
 
 	public name: string = "Yellow";
 	public nickName: string = "Y";
-	public description: string = "Empty Number parameter"
+	public description: string = "Yellow channel (yellow is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ColourCMYKInput_key_k extends ResthopperParameter {
 
 	public name: string = "Key";
 	public nickName: string = "K";
-	public description: string = "Empty Number parameter"
+	public description: string = "Key channel (key is defined in the range {0.0 to 1.0})"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ColourCMYKOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Resulting colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

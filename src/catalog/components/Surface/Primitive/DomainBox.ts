@@ -47,7 +47,7 @@ class DomainBoxInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -62,7 +62,7 @@ class DomainBoxInput_x_x extends ResthopperParameter {
 
 	public name: string = "X";
 	public nickName: string = "X";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Domain of the box in the {x} direction."
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -77,7 +77,7 @@ class DomainBoxInput_y_y extends ResthopperParameter {
 
 	public name: string = "Y";
 	public nickName: string = "Y";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Domain of the box in the {y} direction."
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -92,7 +92,7 @@ class DomainBoxInput_z_z extends ResthopperParameter {
 
 	public name: string = "Z";
 	public nickName: string = "Z";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Domain of the box in the {z} direction."
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -107,7 +107,7 @@ class DomainBoxOutput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Resulting box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 

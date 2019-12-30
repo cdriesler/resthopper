@@ -47,7 +47,7 @@ class MeshBoxInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Base box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -62,7 +62,7 @@ class MeshBoxInput_xcount_x extends ResthopperParameter {
 
 	public name: string = "XCount";
 	public nickName: string = "X";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Face count in {x} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,7 +77,7 @@ class MeshBoxInput_ycount_y extends ResthopperParameter {
 
 	public name: string = "YCount";
 	public nickName: string = "Y";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Face count in {y} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class MeshBoxInput_zcount_z extends ResthopperParameter {
 
 	public name: string = "ZCount";
 	public nickName: string = "Z";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Face count in {z} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class MeshBoxOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "The 3D mesh box"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

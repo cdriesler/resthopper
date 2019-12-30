@@ -43,7 +43,7 @@ class SubCurveInput_basecurve_c extends ResthopperParameter {
 
 	public name: string = "Basecurve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class SubCurveInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Sub-domain to extract"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -73,7 +73,7 @@ class SubCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting sub curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

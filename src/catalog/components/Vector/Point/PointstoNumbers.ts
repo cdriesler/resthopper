@@ -43,7 +43,7 @@ class PointstoNumbersInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to parse"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class PointstoNumbersInput_mask_m extends ResthopperParameter {
 
 	public name: string = "Mask";
 	public nickName: string = "M";
-	public description: string = "Empty Coordinate Mask parameter"
+	public description: string = "Mask for coordinate extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Coordinate Mask"
 
@@ -73,7 +73,7 @@ class PointstoNumbersOutput_numbers_n extends ResthopperParameter {
 
 	public name: string = "Numbers";
 	public nickName: string = "N";
-	public description: string = "Empty Number parameter"
+	public description: string = "Ordered list of coordinates"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

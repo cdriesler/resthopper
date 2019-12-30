@@ -43,7 +43,7 @@ class CarthesianProductInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "First set for carthesian product."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class CarthesianProductInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Second set for carthesian product."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class CarthesianProductOutput_product_p extends ResthopperParameter {
 
 	public name: string = "Product";
 	public nickName: string = "P";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Carthesian product of A and B."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

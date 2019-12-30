@@ -49,7 +49,7 @@ class CurveToPolylineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to simplify"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class CurveToPolylineInput_tolerancedistance_td extends ResthopperParameter {
 
 	public name: string = "Tolerancedistance";
 	public nickName: string = "Td";
-	public description: string = "Empty Number parameter"
+	public description: string = "Deviation tolerance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class CurveToPolylineInput_toleranceangle_ta extends ResthopperParameter {
 
 	public name: string = "Toleranceangle";
 	public nickName: string = "Ta";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angle tolerance in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class CurveToPolylineInput_maxedge_e extends ResthopperParameter {
 
 	public name: string = "MaxEdge";
 	public nickName: string = "E";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional maximum allowed segment length"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class CurveToPolylineOutput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Converted curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -124,7 +124,7 @@ class CurveToPolylineOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of polyline segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

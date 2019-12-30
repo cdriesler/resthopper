@@ -45,7 +45,7 @@ class HorizontalFramesInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to divide"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class HorizontalFramesInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class HorizontalFramesOutput_frames_f extends ResthopperParameter {
 
 	public name: string = "Frames";
 	public nickName: string = "F";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Curvature frames"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class HorizontalFramesOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter values at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

@@ -53,7 +53,7 @@ class BiArcInput_startpoint_s extends ResthopperParameter {
 
 	public name: string = "StartPoint";
 	public nickName: string = "S";
-	public description: string = "Empty Point parameter"
+	public description: string = "Start point of bi-arc."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -68,7 +68,7 @@ class BiArcInput_starttangent_ts extends ResthopperParameter {
 
 	public name: string = "StartTangent";
 	public nickName: string = "Ts";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vector at start of bi-arc."
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -83,7 +83,7 @@ class BiArcInput_endpoint_e extends ResthopperParameter {
 
 	public name: string = "EndPoint";
 	public nickName: string = "E";
-	public description: string = "Empty Point parameter"
+	public description: string = "End point of bi-arc."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -98,7 +98,7 @@ class BiArcInput_endtangent_te extends ResthopperParameter {
 
 	public name: string = "EndTangent";
 	public nickName: string = "Te";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vector at end of bi-arc."
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -113,7 +113,7 @@ class BiArcInput_ratio_r extends ResthopperParameter {
 
 	public name: string = "Ratio";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Ratio of bi-arc segment weight"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -128,7 +128,7 @@ class BiArcOutput_firstarc_a1 extends ResthopperParameter {
 
 	public name: string = "Firstarc";
 	public nickName: string = "A1";
-	public description: string = "Empty Arc parameter"
+	public description: string = "First segment of bi-arc curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -143,7 +143,7 @@ class BiArcOutput_secondarc_a2 extends ResthopperParameter {
 
 	public name: string = "Secondarc";
 	public nickName: string = "A2";
-	public description: string = "Empty Arc parameter"
+	public description: string = "Second segment of bi-arc curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -158,7 +158,7 @@ class BiArcOutput_biarc_b extends ResthopperParameter {
 
 	public name: string = "BiArc";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting bi-arc."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

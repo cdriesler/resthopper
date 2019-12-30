@@ -43,7 +43,7 @@ class BendDeformInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to deform"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -58,7 +58,7 @@ class BendDeformInput_bendingarc_b extends ResthopperParameter {
 
 	public name: string = "BendingArc";
 	public nickName: string = "B";
-	public description: string = "Empty Arc parameter"
+	public description: string = "Bending arc segment"
 	public isOptional: boolean = false;
 	public typeName: string = "Arc"
 
@@ -73,7 +73,7 @@ class BendDeformOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Deformed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

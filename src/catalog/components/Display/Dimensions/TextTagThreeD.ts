@@ -49,7 +49,7 @@ class TextTagThreeDInput_location_l extends ResthopperParameter {
 
 	public name: string = "Location";
 	public nickName: string = "L";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Location and orientation of text tag"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -64,7 +64,7 @@ class TextTagThreeDInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "The text to display"
 	public isOptional: boolean = true;
 	public typeName: string = "Text"
 
@@ -79,7 +79,7 @@ class TextTagThreeDInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Size of text"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class TextTagThreeDInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Optional colour of tag"
 	public isOptional: boolean = true;
 	public typeName: string = "Colour"
 
@@ -109,7 +109,7 @@ class TextTagThreeDInput_justification_j extends ResthopperParameter {
 
 	public name: string = "Justification";
 	public nickName: string = "J";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Text justification"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

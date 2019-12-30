@@ -49,7 +49,7 @@ class QuadTreeInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Input points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -64,7 +64,7 @@ class QuadTreeInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional base plane. If omitted, the best fit plane is used"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -79,7 +79,7 @@ class QuadTreeInput_square_s extends ResthopperParameter {
 
 	public name: string = "Square";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Square leafs"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -94,7 +94,7 @@ class QuadTreeInput_group_g extends ResthopperParameter {
 
 	public name: string = "Group";
 	public nickName: string = "G";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Permitted content per leaf"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -109,7 +109,7 @@ class QuadTreeOutput_quads_q extends ResthopperParameter {
 
 	public name: string = "Quads";
 	public nickName: string = "Q";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Quad tree leaves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -124,7 +124,7 @@ class QuadTreeOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points per quad"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

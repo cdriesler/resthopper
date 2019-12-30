@@ -45,7 +45,7 @@ class ShiftListInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to shift"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class ShiftListInput_shift_s extends ResthopperParameter {
 
 	public name: string = "Shift";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Shift offset"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class ShiftListInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap values"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class ShiftListOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Shifted list"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -43,7 +43,7 @@ class FaceNormalsInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for normal and center point extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class FaceNormalsOutput_centers_c extends ResthopperParameter {
 
 	public name: string = "Centers";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Center-points of all faces"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,7 +73,7 @@ class FaceNormalsOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Normal vectors for all faces"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

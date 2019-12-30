@@ -43,7 +43,7 @@ class CullFacesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for face culling"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class CullFacesInput_pattern_p extends ResthopperParameter {
 
 	public name: string = "Pattern";
 	public nickName: string = "P";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Face culling pattern"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,7 +73,7 @@ class CullFacesOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh with all indicated faces removed"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

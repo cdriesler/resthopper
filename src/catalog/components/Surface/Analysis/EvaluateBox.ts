@@ -51,7 +51,7 @@ class EvaluateBoxInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Base box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -66,7 +66,7 @@ class EvaluateBoxInput_uparameter_u extends ResthopperParameter {
 
 	public name: string = "Uparameter";
 	public nickName: string = "U";
-	public description: string = "Empty Number parameter"
+	public description: string = "{u} parameter (values between 0.0 and 1.0 are inside the box)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -81,7 +81,7 @@ class EvaluateBoxInput_vparameter_v extends ResthopperParameter {
 
 	public name: string = "Vparameter";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "{v} parameter (values between 0.0 and 1.0 are inside the box)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class EvaluateBoxInput_wparameter_w extends ResthopperParameter {
 
 	public name: string = "Wparameter";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "{w} parameter (values between 0.0 and 1.0 are inside the box)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class EvaluateBoxOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane at {uvw} coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -126,7 +126,7 @@ class EvaluateBoxOutput_point_pt extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "Pt";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point at {uvw} coordinate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -141,7 +141,7 @@ class EvaluateBoxOutput_include_i extends ResthopperParameter {
 
 	public name: string = "Include";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if point is inside or on box"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -43,7 +43,7 @@ class MeshColoursInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Base mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class MeshColoursInput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Colour pattern"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -73,7 +73,7 @@ class MeshColoursOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Coloured mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

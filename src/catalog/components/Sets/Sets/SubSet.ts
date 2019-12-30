@@ -43,7 +43,7 @@ class SubSetInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Super set."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class SubSetInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Sub set."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class SubSetOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if all items in B are present in A."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -45,7 +45,7 @@ class MirrorSurfaceInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to mirror"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -60,7 +60,7 @@ class MirrorSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Mirror surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -75,7 +75,7 @@ class MirrorSurfaceInput_frame_f extends ResthopperParameter {
 
 	public name: string = "Frame";
 	public nickName: string = "F";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Mirror frame (if true, mirror behaviour extends beyond surface edge)"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class MirrorSurfaceOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Mirrored geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

@@ -55,7 +55,7 @@ class TwistedBoxInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First corner (0,0,0)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -70,7 +70,7 @@ class TwistedBoxInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second corner (1,0,0)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -85,7 +85,7 @@ class TwistedBoxInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Third corner (1,1,0)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -100,7 +100,7 @@ class TwistedBoxInput_cornerd_d extends ResthopperParameter {
 
 	public name: string = "CornerD";
 	public nickName: string = "D";
-	public description: string = "Empty Point parameter"
+	public description: string = "Fourth corner (0,1,0)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -115,7 +115,7 @@ class TwistedBoxInput_cornere_e extends ResthopperParameter {
 
 	public name: string = "CornerE";
 	public nickName: string = "E";
-	public description: string = "Empty Point parameter"
+	public description: string = "Fifth corner (0,0,1)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -130,7 +130,7 @@ class TwistedBoxInput_cornerf_f extends ResthopperParameter {
 
 	public name: string = "CornerF";
 	public nickName: string = "F";
-	public description: string = "Empty Point parameter"
+	public description: string = "Sixth corner (1,0,1)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -145,7 +145,7 @@ class TwistedBoxInput_cornerg_g extends ResthopperParameter {
 
 	public name: string = "CornerG";
 	public nickName: string = "G";
-	public description: string = "Empty Point parameter"
+	public description: string = "Seventh corner (1,1,1)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -160,7 +160,7 @@ class TwistedBoxInput_cornerh_h extends ResthopperParameter {
 
 	public name: string = "CornerH";
 	public nickName: string = "H";
-	public description: string = "Empty Point parameter"
+	public description: string = "Last corner (0,1,1)"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -175,7 +175,7 @@ class TwistedBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";
-	public description: string = "Empty Twisted Box parameter"
+	public description: string = "Twisted box connecting all corners"
 	public isOptional: boolean = false;
 	public typeName: string = "Twisted Box"
 

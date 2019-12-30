@@ -43,7 +43,7 @@ class MergeMultipleInput_stream0_0 extends ResthopperParameter {
 
 	public name: string = "Stream0";
 	public nickName: string = "0";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #1"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class MergeMultipleInput_stream1_1 extends ResthopperParameter {
 
 	public name: string = "Stream1";
 	public nickName: string = "1";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input stream #2"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class MergeMultipleOutput_stream_s extends ResthopperParameter {
 
 	public name: string = "Stream";
 	public nickName: string = "S";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Merged stream"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

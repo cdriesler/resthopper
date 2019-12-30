@@ -49,7 +49,7 @@ class TwistInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -64,7 +64,7 @@ class TwistInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
-	public description: string = "Empty Line parameter"
+	public description: string = "Twist axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -79,7 +79,7 @@ class TwistInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Twist angle in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class TwistInput_infinite_i extends ResthopperParameter {
 
 	public name: string = "Infinite";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, the deformation is constant throughout the object, even if the axis is shorter than the object."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -109,7 +109,7 @@ class TwistInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Geometry will not be deformed as it is transformed"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -124,7 +124,7 @@ class TwistOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Morphed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

@@ -41,7 +41,7 @@ class UnitYInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Unit multiplication"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -56,7 +56,7 @@ class UnitYOutput_unitvector_v extends ResthopperParameter {
 
 	public name: string = "Unitvector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "World {y} vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

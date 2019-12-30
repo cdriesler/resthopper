@@ -47,7 +47,7 @@ class PopulateTwoDInput_region_r extends ResthopperParameter {
 
 	public name: string = "Region";
 	public nickName: string = "R";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Rectangle that defines the 2D region for point insertion"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -62,7 +62,7 @@ class PopulateTwoDInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of points to add"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,7 +77,7 @@ class PopulateTwoDInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Random seed for insertion"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class PopulateTwoDInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Optional pre-existing population"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -107,7 +107,7 @@ class PopulateTwoDOutput_population_p extends ResthopperParameter {
 
 	public name: string = "Population";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Population of inserted points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

@@ -51,7 +51,7 @@ class CurveDepthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -66,7 +66,7 @@ class CurveDepthInput_minimum_min extends ResthopperParameter {
 
 	public name: string = "Minimum";
 	public nickName: string = "Min";
-	public description: string = "Empty Number parameter"
+	public description: string = "Minimum depth"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -81,7 +81,7 @@ class CurveDepthInput_maximum_max extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "Max";
-	public description: string = "Empty Number parameter"
+	public description: string = "Maximum depth"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class CurveDepthOutput_minimumparameter_tmin extends ResthopperParameter {
 
 	public name: string = "MinimumParameter";
 	public nickName: string = "tMin";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter along curve where minimum depth occurred."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class CurveDepthOutput_minimumdepth_dmin extends ResthopperParameter {
 
 	public name: string = "MinimumDepth";
 	public nickName: string = "dMin";
-	public description: string = "Empty Number parameter"
+	public description: string = "Minimum depth of curve."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -126,7 +126,7 @@ class CurveDepthOutput_maximumparameter_tmax extends ResthopperParameter {
 
 	public name: string = "MaximumParameter";
 	public nickName: string = "tMax";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter along curve where maximum depth occurred."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class CurveDepthOutput_maximumdepth_dmax extends ResthopperParameter {
 
 	public name: string = "MaximumDepth";
 	public nickName: string = "dMax";
-	public description: string = "Empty Number parameter"
+	public description: string = "Maximum depth of curve."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

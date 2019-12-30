@@ -43,7 +43,7 @@ class DistanceInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class DistanceInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,7 +73,7 @@ class DistanceOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance between A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

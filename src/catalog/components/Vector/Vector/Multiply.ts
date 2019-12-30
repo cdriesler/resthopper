@@ -45,7 +45,7 @@ class MultiplyInput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Base vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -60,7 +60,7 @@ class MultiplyInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Multiplication factor"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class MultiplyOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Multiplied vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -90,7 +90,7 @@ class MultiplyOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Vector length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

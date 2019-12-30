@@ -41,7 +41,7 @@ class ComplexModulusInput_complex_c extends ResthopperParameter {
 
 	public name: string = "Complex";
 	public nickName: string = "C";
-	public description: string = "Empty Complex parameter"
+	public description: string = "Complex number"
 	public isOptional: boolean = false;
 	public typeName: string = "Complex"
 
@@ -56,7 +56,7 @@ class ComplexModulusOutput_modulus_m extends ResthopperParameter {
 
 	public name: string = "Modulus";
 	public nickName: string = "M";
-	public description: string = "Empty Number parameter"
+	public description: string = "Modulus of the Complex number [C]"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

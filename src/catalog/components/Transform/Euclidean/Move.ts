@@ -45,7 +45,7 @@ class MoveInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -60,7 +60,7 @@ class MoveInput_motion_t extends ResthopperParameter {
 
 	public name: string = "Motion";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Translation vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -75,7 +75,7 @@ class MoveOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Translated geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -90,7 +90,7 @@ class MoveOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

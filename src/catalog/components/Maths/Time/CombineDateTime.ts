@@ -43,7 +43,7 @@ class CombineDateTimeInput_date_d extends ResthopperParameter {
 
 	public name: string = "Date";
 	public nickName: string = "D";
-	public description: string = "Empty Time parameter"
+	public description: string = "Date portion"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -58,7 +58,7 @@ class CombineDateTimeInput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
-	public description: string = "Empty Time parameter"
+	public description: string = "Time portion"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 
@@ -73,7 +73,7 @@ class CombineDateTimeOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Time parameter"
+	public description: string = "Resulting combination of date and time."
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

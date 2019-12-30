@@ -42,6 +42,9 @@ import TriangulationMetaBalltCustom from './Triangulation/MetaBalltCustom'
 import TriangulationOcTree from './Triangulation/OcTree'
 import TriangulationProximityTwoD from './Triangulation/ProximityTwoD'
 import TriangulationProximityThreeD from './Triangulation/ProximityThreeD'
+import TriangulationQuadRemesh from './Triangulation/QuadRemesh'
+import TriangulationQuadRemeshSettings from './Triangulation/QuadRemeshSettings'
+import TriangulationQuadmeshSettings from './Triangulation/QuadmeshSettings'
 import TriangulationQuadTree from './Triangulation/QuadTree'
 import TriangulationSubstrate from './Triangulation/Substrate'
 import TriangulationVoronoi from './Triangulation/Voronoi'
@@ -109,6 +112,9 @@ const Mesh = {
 		OcTree: TriangulationOcTree,
 		ProximityTwoD: TriangulationProximityTwoD,
 		ProximityThreeD: TriangulationProximityThreeD,
+		QuadRemesh: TriangulationQuadRemesh,
+		QuadRemeshSettings: TriangulationQuadRemeshSettings,
+		QuadmeshSettings: TriangulationQuadmeshSettings,
 		QuadTree: TriangulationQuadTree,
 		Substrate: TriangulationSubstrate,
 		Voronoi: TriangulationVoronoi,

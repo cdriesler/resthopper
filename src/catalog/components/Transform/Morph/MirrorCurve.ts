@@ -45,7 +45,7 @@ class MirrorCurveInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to mirror"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -60,7 +60,7 @@ class MirrorCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Mirror curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class MirrorCurveInput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Mirror tangent (if true, mirror behaviour extends beyond curve ends)"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class MirrorCurveOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Mirrored geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

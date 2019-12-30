@@ -51,7 +51,7 @@ class CatenaryExInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "Start point of catenary"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class CatenaryExInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "End point of catenary"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -81,7 +81,7 @@ class CatenaryExInput_lengths_l extends ResthopperParameter {
 
 	public name: string = "Lengths";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Length of catenary chain segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class CatenaryExInput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "Weight (per length unit) of catenargy chain segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class CatenaryExInput_gravity_g extends ResthopperParameter {
 
 	public name: string = "Gravity";
 	public nickName: string = "G";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Direction of gravity"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -126,7 +126,7 @@ class CatenaryExOutput_catenary_c extends ResthopperParameter {
 
 	public name: string = "Catenary";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Catenary chain"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -141,7 +141,7 @@ class CatenaryExOutput_segments_s extends ResthopperParameter {
 
 	public name: string = "Segments";
 	public nickName: string = "S";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Catenary segments"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -45,7 +45,7 @@ class OffsetSurfaceLooseInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -60,7 +60,7 @@ class OffsetSurfaceLooseInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Offset distance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class OffsetSurfaceLooseInput_retrim_t extends ResthopperParameter {
 
 	public name: string = "Retrim";
 	public nickName: string = "T";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Retrim offset"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class OffsetSurfaceLooseOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Offset result"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

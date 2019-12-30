@@ -45,7 +45,7 @@ class VoronoiCellInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Seed point for voronoi cell"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class VoronoiCellInput_neighbours_n extends ResthopperParameter {
 
 	public name: string = "Neighbours";
 	public nickName: string = "N";
-	public description: string = "Empty Point parameter"
+	public description: string = "Neighbour points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class VoronoiCellInput_box_b extends ResthopperParameter {
 
 	public name: string = "Box";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Optional cell boundary"
 	public isOptional: boolean = true;
 	public typeName: string = "Box"
 
@@ -90,7 +90,7 @@ class VoronoiCellOutput_cell_c extends ResthopperParameter {
 
 	public name: string = "Cell";
 	public nickName: string = "C";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Voronoi 3D cell"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

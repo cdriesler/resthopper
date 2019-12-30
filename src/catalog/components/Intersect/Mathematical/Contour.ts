@@ -47,7 +47,7 @@ class ContourInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Brep or Mesh to contour"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -62,7 +62,7 @@ class ContourInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Contour start point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class ContourInput_direction_n extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Contour normal direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -92,7 +92,7 @@ class ContourInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance between contours"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ContourOutput_contours_c extends ResthopperParameter {
 
 	public name: string = "Contours";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting contours (grouped by section)"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

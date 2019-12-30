@@ -47,7 +47,7 @@ class PipeVariableInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class PipeVariableInput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve parameters for radii"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class PipeVariableInput_radii_r extends ResthopperParameter {
 
 	public name: string = "Radii";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "A list of radii for every defined parameter"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class PipeVariableInput_caps_e extends ResthopperParameter {
 
 	public name: string = "Caps";
 	public nickName: string = "E";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Specifies the type of caps (0=None, 1=Flat, 2=Round)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class PipeVariableOutput_pipe_p extends ResthopperParameter {
 
 	public name: string = "Pipe";
 	public nickName: string = "P";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Resulting Pipe"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

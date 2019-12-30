@@ -47,7 +47,7 @@ class BlendBoxInput_surfacea_sa extends ResthopperParameter {
 
 	public name: string = "SurfaceA";
 	public nickName: string = "Sa";
-	public description: string = "Empty Surface parameter"
+	public description: string = "First surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -62,7 +62,7 @@ class BlendBoxInput_domaina_da extends ResthopperParameter {
 
 	public name: string = "DomainA";
 	public nickName: string = "Da";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Domain on first surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -77,7 +77,7 @@ class BlendBoxInput_surfaceb_sb extends ResthopperParameter {
 
 	public name: string = "SurfaceB";
 	public nickName: string = "Sb";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Second surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -92,7 +92,7 @@ class BlendBoxInput_domainb_db extends ResthopperParameter {
 
 	public name: string = "DomainB";
 	public nickName: string = "Db";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Domain on second surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -107,7 +107,7 @@ class BlendBoxOutput_twistedbox_b extends ResthopperParameter {
 
 	public name: string = "TwistedBox";
 	public nickName: string = "B";
-	public description: string = "Empty Twisted Box parameter"
+	public description: string = "Resulting blend box"
 	public isOptional: boolean = false;
 	public typeName: string = "Twisted Box"
 

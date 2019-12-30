@@ -45,7 +45,7 @@ class DeconstructBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Base Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class DeconstructBrepOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Faces of Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -75,7 +75,7 @@ class DeconstructBrepOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Edges of Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class DeconstructBrepOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
-	public description: string = "Empty Point parameter"
+	public description: string = "Vertices of Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

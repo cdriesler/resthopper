@@ -45,7 +45,7 @@ class MeshShadowInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for shadow casting"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -60,7 +60,7 @@ class MeshShadowInput_light_l extends ResthopperParameter {
 
 	public name: string = "Light";
 	public nickName: string = "L";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Direction of light rays"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -75,7 +75,7 @@ class MeshShadowInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane that receives the shadows"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class MeshShadowOutput_outlines_o extends ResthopperParameter {
 
 	public name: string = "Outlines";
 	public nickName: string = "O";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Shadow contours"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

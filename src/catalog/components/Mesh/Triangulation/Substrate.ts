@@ -49,7 +49,7 @@ class SubstrateInput_border_b extends ResthopperParameter {
 
 	public name: string = "Border";
 	public nickName: string = "B";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Border for substrate"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -64,7 +64,7 @@ class SubstrateInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of lines in substrate"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -79,7 +79,7 @@ class SubstrateInput_angles_a extends ResthopperParameter {
 
 	public name: string = "Angles";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Base angles (in radians) in substrate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class SubstrateInput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angular deviation (in radians) of new lines"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class SubstrateInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Random seed for solution"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -124,7 +124,7 @@ class SubstrateOutput_substrate_s extends ResthopperParameter {
 
 	public name: string = "Substrate";
 	public nickName: string = "S";
-	public description: string = "Empty Line parameter"
+	public description: string = "Substrate diagram"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

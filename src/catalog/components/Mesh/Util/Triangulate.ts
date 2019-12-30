@@ -43,7 +43,7 @@ class TriangulateInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to triangulate"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class TriangulateOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh with only triangle faces"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -73,7 +73,7 @@ class TriangulateOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of quads that were triangulated"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

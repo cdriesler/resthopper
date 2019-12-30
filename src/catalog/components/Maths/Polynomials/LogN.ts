@@ -43,7 +43,7 @@ class LogNInput_number_v extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Value"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -58,7 +58,7 @@ class LogNInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Logarithm base"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class LogNOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Result"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

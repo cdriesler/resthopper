@@ -45,7 +45,7 @@ class BoxMorphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -60,7 +60,7 @@ class BoxMorphInput_reference_r extends ResthopperParameter {
 
 	public name: string = "Reference";
 	public nickName: string = "R";
-	public description: string = "Empty Box parameter"
+	public description: string = "Reference box"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -75,7 +75,7 @@ class BoxMorphInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
-	public description: string = "Empty Twisted Box parameter"
+	public description: string = "Target box"
 	public isOptional: boolean = false;
 	public typeName: string = "Twisted Box"
 
@@ -90,7 +90,7 @@ class BoxMorphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Translated geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

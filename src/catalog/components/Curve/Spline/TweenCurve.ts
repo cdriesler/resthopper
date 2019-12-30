@@ -45,7 +45,7 @@ class TweenCurveInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to tween from."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class TweenCurveInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to tween to"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class TweenCurveInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Tween factor (0.0=Curve A, 1.0=Curve B"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class TweenCurveOutput_tween_t extends ResthopperParameter {
 
 	public name: string = "Tween";
 	public nickName: string = "T";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting tween curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

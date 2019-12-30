@@ -45,7 +45,7 @@ class CapHolesExInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep to cap"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class CapHolesExOutput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Capped Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -75,7 +75,7 @@ class CapHolesExOutput_caps_c extends ResthopperParameter {
 
 	public name: string = "Caps";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of caps added"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class CapHolesExOutput_solid_s extends ResthopperParameter {
 
 	public name: string = "Solid";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Value indicating whether capped brep is solid"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -43,7 +43,7 @@ class LinePtInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line constraint. Plane origin will be at line startpoint. Plane x-axis will be parallel to line direction."
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -58,7 +58,7 @@ class LinePtInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on plane. Point must not be co-linear with line."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,7 +73,7 @@ class LinePtOutput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane definition"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

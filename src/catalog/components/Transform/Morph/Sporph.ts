@@ -51,7 +51,7 @@ class SporphInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -66,7 +66,7 @@ class SporphInput_base_s0 extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "S0";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -81,7 +81,7 @@ class SporphInput_parameter_p0 extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P0";
-	public description: string = "Empty Point parameter"
+	public description: string = "U,V parameter on base surface used for orienting."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class SporphInput_target_s1 extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "S1";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Target surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -111,7 +111,7 @@ class SporphInput_parameter_p1 extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P1";
-	public description: string = "Empty Point parameter"
+	public description: string = "U,V parameter on target surface used for orienting."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -126,7 +126,7 @@ class SporphInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Geometry will not be deformed as it is transformed"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -141,7 +141,7 @@ class SporphOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Morphed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

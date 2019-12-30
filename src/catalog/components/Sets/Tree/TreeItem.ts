@@ -47,7 +47,7 @@ class TreeItemInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data Tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -62,7 +62,7 @@ class TreeItemInput_path_p extends ResthopperParameter {
 
 	public name: string = "Path";
 	public nickName: string = "P";
-	public description: string = "Empty Path parameter"
+	public description: string = "Data tree branch path"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 
@@ -77,7 +77,7 @@ class TreeItemInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Item index"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class TreeItemInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap index to list bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -107,7 +107,7 @@ class TreeItemOutput_element_e extends ResthopperParameter {
 
 	public name: string = "Element";
 	public nickName: string = "E";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Item at {P:i'}"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

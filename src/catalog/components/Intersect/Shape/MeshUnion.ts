@@ -41,7 +41,7 @@ class MeshUnionInput_meshes_m extends ResthopperParameter {
 
 	public name: string = "Meshes";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Meshes to union"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -56,7 +56,7 @@ class MeshUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh solid union result"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

@@ -49,7 +49,7 @@ class ShearAngleInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -64,7 +64,7 @@ class ShearAngleInput_base_p extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -79,7 +79,7 @@ class ShearAngleInput_anglex_ax extends ResthopperParameter {
 
 	public name: string = "AngleX";
 	public nickName: string = "Ax";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rotation around {x} axis in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class ShearAngleInput_angley_ay extends ResthopperParameter {
 
 	public name: string = "AngleY";
 	public nickName: string = "Ay";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rotation around {y} axis in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class ShearAngleOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Sheared geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -124,7 +124,7 @@ class ShearAngleOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

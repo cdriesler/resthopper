@@ -43,7 +43,7 @@ class InterpolatedataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to interpolate (simple data types only)."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class InterpolatedataInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Normalised interpolation parameter."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class InterpolatedataOutput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Interpolated value."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

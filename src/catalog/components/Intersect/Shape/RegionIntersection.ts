@@ -45,7 +45,7 @@ class RegionIntersectionInput_curvesa_a extends ResthopperParameter {
 
 	public name: string = "CurvesA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First set of regions."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class RegionIntersectionInput_curvesb_b extends ResthopperParameter {
 
 	public name: string = "CurvesB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second set of regions."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class RegionIntersectionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional plane for boolean solution"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class RegionIntersectionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Result outlines of boolean intersection (A and B)"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -47,7 +47,7 @@ class ExtrudeAngledInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Polyline base curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class ExtrudeAngledInput_baseheight_hb extends ResthopperParameter {
 
 	public name: string = "Baseheight";
 	public nickName: string = "Hb";
-	public description: string = "Empty Number parameter"
+	public description: string = "Height of vertical portion."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ExtrudeAngledInput_topheight_ht extends ResthopperParameter {
 
 	public name: string = "Topheight";
 	public nickName: string = "Ht";
-	public description: string = "Empty Number parameter"
+	public description: string = "Height of top surface."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ExtrudeAngledInput_angles_a extends ResthopperParameter {
 
 	public name: string = "Angles";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angles per polyline edge."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ExtrudeAngledOutput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Extruded shape"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

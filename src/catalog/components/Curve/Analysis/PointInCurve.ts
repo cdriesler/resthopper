@@ -45,7 +45,7 @@ class PointInCurveInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point for region inclusion test"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class PointInCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Boundary region (closed curves only)"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class PointInCurveOutput_relationship_r extends ResthopperParameter {
 
 	public name: string = "Relationship";
 	public nickName: string = "R";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Point/Region relationship (0 = outside, 1 = coincident, 2 = inside)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class PointInCurveOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point projected on region plane."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

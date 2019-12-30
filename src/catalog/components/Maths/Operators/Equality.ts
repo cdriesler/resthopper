@@ -43,7 +43,7 @@ class EqualityInput_firstnumber_a extends ResthopperParameter {
 
 	public name: string = "FirstNumber";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to compare"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -58,7 +58,7 @@ class EqualityInput_secondnumber_b extends ResthopperParameter {
 
 	public name: string = "SecondNumber";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number to compare to"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class EqualityOutput_inequality_ extends ResthopperParameter {
 
 	public name: string = "Inequality";
 	public nickName: string = "";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if A ≠ B"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

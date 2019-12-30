@@ -43,7 +43,7 @@ class RepeatDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Pattern to repeat"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class RepeatDataInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Length of final pattern"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class RepeatDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Repeated data"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

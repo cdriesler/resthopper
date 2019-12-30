@@ -45,7 +45,7 @@ class ConvexEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class ConvexEdgesOutput_convex_cv extends ResthopperParameter {
 
 	public name: string = "Convex";
 	public nickName: string = "Cv";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Fully convex edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class ConvexEdgesOutput_concave_cc extends ResthopperParameter {
 
 	public name: string = "Concave";
 	public nickName: string = "Cc";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Fully concave edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class ConvexEdgesOutput_mixed_mx extends ResthopperParameter {
 
 	public name: string = "Mixed";
 	public nickName: string = "Mx";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Mixed concavity edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

@@ -45,7 +45,7 @@ class BoxSlitsInput_boxes_b extends ResthopperParameter {
 
 	public name: string = "Boxes";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Boxes to intersect"
 	public isOptional: boolean = false;
 	public typeName: string = "Box"
 
@@ -60,7 +60,7 @@ class BoxSlitsInput_gap_g extends ResthopperParameter {
 
 	public name: string = "Gap";
 	public nickName: string = "G";
-	public description: string = "Empty Number parameter"
+	public description: string = "Additional gap width"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class BoxSlitsOutput_breps_b extends ResthopperParameter {
 
 	public name: string = "Breps";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Boxes with slits"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -90,7 +90,7 @@ class BoxSlitsOutput_topology_t extends ResthopperParameter {
 
 	public name: string = "Topology";
 	public nickName: string = "T";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Slit topology"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

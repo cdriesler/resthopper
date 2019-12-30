@@ -47,7 +47,7 @@ class CrossProductInput_vectora_a extends ResthopperParameter {
 
 	public name: string = "VectorA";
 	public nickName: string = "A";
-	public description: string = "Empty Vector parameter"
+	public description: string = "First vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -62,7 +62,7 @@ class CrossProductInput_vectorb_b extends ResthopperParameter {
 
 	public name: string = "VectorB";
 	public nickName: string = "B";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Second vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -77,7 +77,7 @@ class CrossProductInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Unitize output"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -92,7 +92,7 @@ class CrossProductOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Cross product vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -107,7 +107,7 @@ class CrossProductOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Vector length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

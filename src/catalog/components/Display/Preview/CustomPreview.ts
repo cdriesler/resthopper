@@ -43,7 +43,7 @@ class CustomPreviewInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to preview"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -58,7 +58,7 @@ class CustomPreviewInput_material_m extends ResthopperParameter {
 
 	public name: string = "Material";
 	public nickName: string = "M";
-	public description: string = "Empty Shader parameter"
+	public description: string = "The material override"
 	public isOptional: boolean = false;
 	public typeName: string = "Shader"
 

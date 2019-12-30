@@ -43,7 +43,7 @@ class RuledSurfaceInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class RuledSurfaceInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -73,7 +73,7 @@ class RuledSurfaceOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Ruled surface between A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

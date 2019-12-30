@@ -45,7 +45,7 @@ class ListItemInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Base list"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class ListItemInput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Item index"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class ListItemInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap index to list bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class ListItemOutput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "i";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Item at {i'}"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

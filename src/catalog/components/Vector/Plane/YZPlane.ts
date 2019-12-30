@@ -41,7 +41,7 @@ class YZPlaneInput_origin_o extends ResthopperParameter {
 
 	public name: string = "Origin";
 	public nickName: string = "O";
-	public description: string = "Empty Point parameter"
+	public description: string = "Origin of plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -56,7 +56,7 @@ class YZPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "World YZ plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

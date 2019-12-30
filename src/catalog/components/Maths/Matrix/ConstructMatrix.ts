@@ -45,7 +45,7 @@ class ConstructMatrixInput_rows_r extends ResthopperParameter {
 
 	public name: string = "Rows";
 	public nickName: string = "R";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of rows in the matrix"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -60,7 +60,7 @@ class ConstructMatrixInput_columns_c extends ResthopperParameter {
 
 	public name: string = "Columns";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of columns in the matrix"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class ConstructMatrixInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional matrix values, if omitted, an identity matrix will be created"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class ConstructMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
-	public description: string = "Empty Matrix parameter"
+	public description: string = "A newly created matrix"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 

@@ -43,7 +43,7 @@ class AdjustPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane to adjust"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -58,7 +58,7 @@ class AdjustPlaneInput_normal_n extends ResthopperParameter {
 
 	public name: string = "Normal";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "New plane z-axis direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -73,7 +73,7 @@ class AdjustPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Adjusted plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

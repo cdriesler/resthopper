@@ -47,7 +47,7 @@ class ColourRGBfInput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Alpha channel (1.0 = opaque)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ColourRGBfInput_red_r extends ResthopperParameter {
 
 	public name: string = "Red";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Red channel"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ColourRGBfInput_green_g extends ResthopperParameter {
 
 	public name: string = "Green";
 	public nickName: string = "G";
-	public description: string = "Empty Number parameter"
+	public description: string = "Green channel"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ColourRGBfInput_blue_b extends ResthopperParameter {
 
 	public name: string = "Blue";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Blue channel"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ColourRGBfOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Resulting colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

@@ -41,7 +41,7 @@ class SettingsSpeedOutput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";
-	public description: string = "Empty MeshParameters parameter"
+	public description: string = "Coarse mesh settings"
 	public isOptional: boolean = false;
 	public typeName: string = "MeshParameters"
 

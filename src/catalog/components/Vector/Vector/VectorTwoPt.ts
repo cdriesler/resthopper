@@ -47,7 +47,7 @@ class VectorTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "Base point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class VectorTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Tip point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class VectorTwoPtInput_unitize_u extends ResthopperParameter {
 
 	public name: string = "Unitize";
 	public nickName: string = "U";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Unitize output"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -92,7 +92,7 @@ class VectorTwoPtOutput_vector_v extends ResthopperParameter {
 
 	public name: string = "Vector";
 	public nickName: string = "V";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Vector"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -107,7 +107,7 @@ class VectorTwoPtOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Vector length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

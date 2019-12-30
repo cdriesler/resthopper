@@ -47,7 +47,7 @@ class ConstructSmoothTimeInput_days_d extends ResthopperParameter {
 
 	public name: string = "Days";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number of days"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ConstructSmoothTimeInput_hours_h extends ResthopperParameter {
 
 	public name: string = "Hours";
 	public nickName: string = "H";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number of hours"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ConstructSmoothTimeInput_minutes_m extends ResthopperParameter {
 
 	public name: string = "Minutes";
 	public nickName: string = "M";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number of minutes"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ConstructSmoothTimeInput_seconds_s extends ResthopperParameter {
 
 	public name: string = "Seconds";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Number of seconds"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ConstructSmoothTimeOutput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
-	public description: string = "Empty Time parameter"
+	public description: string = "Time construct"
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

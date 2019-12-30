@@ -47,7 +47,7 @@ class MoveAwayFromInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to move"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -62,7 +62,7 @@ class MoveAwayFromInput_emitter_e extends ResthopperParameter {
 
 	public name: string = "Emitter";
 	public nickName: string = "E";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry to move away from"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -77,7 +77,7 @@ class MoveAwayFromInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance to move (negative values move towards)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class MoveAwayFromOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Translated geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -107,7 +107,7 @@ class MoveAwayFromOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

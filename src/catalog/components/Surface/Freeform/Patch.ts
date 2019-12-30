@@ -49,7 +49,7 @@ class PatchInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curves to patch"
 	public isOptional: boolean = true;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class PatchInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to patch"
 	public isOptional: boolean = true;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class PatchInput_spans_s extends ResthopperParameter {
 
 	public name: string = "Spans";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of spans"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class PatchInput_flexibility_f extends ResthopperParameter {
 
 	public name: string = "Flexibility";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Patch flexibility (low number; less flexibility)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class PatchInput_trim_t extends ResthopperParameter {
 
 	public name: string = "Trim";
 	public nickName: string = "T";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Attempt to trim the result"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -124,7 +124,7 @@ class PatchOutput_patch_p extends ResthopperParameter {
 
 	public name: string = "Patch";
 	public nickName: string = "P";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Patch result"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

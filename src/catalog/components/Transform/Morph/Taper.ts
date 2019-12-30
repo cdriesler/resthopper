@@ -53,7 +53,7 @@ class TaperInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -68,7 +68,7 @@ class TaperInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
-	public description: string = "Empty Line parameter"
+	public description: string = "Taper axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -83,7 +83,7 @@ class TaperInput_start_r0 extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "R0";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius at start of taper axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -98,7 +98,7 @@ class TaperInput_end_r1 extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "R1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius at end of taper axis"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -113,7 +113,7 @@ class TaperInput_flat_f extends ResthopperParameter {
 
 	public name: string = "Flat";
 	public nickName: string = "F";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, then a one-directional, one-dimensional taper is created."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -128,7 +128,7 @@ class TaperInput_infinite_i extends ResthopperParameter {
 
 	public name: string = "Infinite";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, the deformation happens throughout the geometry, even if the axis is shorter. If false, the deformation takes place only the length of the axis."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -143,7 +143,7 @@ class TaperInput_rigid_r extends ResthopperParameter {
 
 	public name: string = "Rigid";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Geometry will not be deformed as it is transformed"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -158,7 +158,7 @@ class TaperOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Morphed geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 

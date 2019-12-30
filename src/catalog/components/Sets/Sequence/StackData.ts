@@ -43,7 +43,7 @@ class StackDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to stack"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class StackDataInput_stack_s extends ResthopperParameter {
 
 	public name: string = "Stack";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Stacking pattern"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class StackDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Stacked data"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

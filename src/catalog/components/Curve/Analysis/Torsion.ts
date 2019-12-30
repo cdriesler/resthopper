@@ -45,7 +45,7 @@ class TorsionInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class TorsionInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter on curve domain to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class TorsionOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on curve at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class TorsionOutput_torsion_t extends ResthopperParameter {
 
 	public name: string = "Torsion";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curvature torsion at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

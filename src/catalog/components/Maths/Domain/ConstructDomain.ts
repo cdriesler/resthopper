@@ -47,7 +47,7 @@ class ConstructDomainInput_umin_u0 extends ResthopperParameter {
 
 	public name: string = "Umin";
 	public nickName: string = "U0";
-	public description: string = "Empty Number parameter"
+	public description: string = "Lower limit of domain in {u} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -62,7 +62,7 @@ class ConstructDomainInput_umax_u1 extends ResthopperParameter {
 
 	public name: string = "Umax";
 	public nickName: string = "U1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Upper limit of domain in {u} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class ConstructDomainInput_vmin_v0 extends ResthopperParameter {
 
 	public name: string = "Vmin";
 	public nickName: string = "V0";
-	public description: string = "Empty Number parameter"
+	public description: string = "Lower limit of domain in {v} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ConstructDomainInput_vmax_v1 extends ResthopperParameter {
 
 	public name: string = "Vmax";
 	public nickName: string = "V1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Upper limit of domain in {v} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ConstructDomainOutput_2ddomain_i extends ResthopperParameter {
 
 	public name: string = "2DDomain";
 	public nickName: string = "I";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Two dimensional numeric domain of {u} and {v}"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 

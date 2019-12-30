@@ -49,7 +49,7 @@ class RotateThreeDInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Base geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Geometry"
 
@@ -64,7 +64,7 @@ class RotateThreeDInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rotation angle in radians"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class RotateThreeDInput_center_c extends ResthopperParameter {
 
 	public name: string = "Center";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Center of rotation"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -94,7 +94,7 @@ class RotateThreeDInput_axis_x extends ResthopperParameter {
 
 	public name: string = "Axis";
 	public nickName: string = "X";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Axis of rotation"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -109,7 +109,7 @@ class RotateThreeDOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Rotated geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -124,7 +124,7 @@ class RotateThreeDOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

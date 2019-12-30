@@ -43,7 +43,7 @@ class CreateSetInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List of data."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class CreateSetOutput_set_s extends ResthopperParameter {
 
 	public name: string = "Set";
 	public nickName: string = "S";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "A set of all the distincts values in L"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class CreateSetOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";
-	public description: string = "Empty Integer parameter"
+	public description: string = "An index map from original indices to set indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

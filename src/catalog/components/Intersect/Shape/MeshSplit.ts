@@ -43,7 +43,7 @@ class MeshSplitInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to split"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class MeshSplitInput_splitters_s extends ResthopperParameter {
 
 	public name: string = "Splitters";
 	public nickName: string = "S";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Meshes to split with"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -73,7 +73,7 @@ class MeshSplitOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Result of mesh split"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

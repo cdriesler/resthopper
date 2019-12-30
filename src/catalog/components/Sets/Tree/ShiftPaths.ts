@@ -43,7 +43,7 @@ class ShiftPathsInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to modify"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class ShiftPathsInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Offset to apply to each branch"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -73,7 +73,7 @@ class ShiftPathsOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Shifted data"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

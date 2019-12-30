@@ -47,7 +47,7 @@ class LinePlaneInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Base line"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -62,7 +62,7 @@ class LinePlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Intersection plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -77,7 +77,7 @@ class LinePlaneOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection event"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class LinePlaneOutput_paraml_t extends ResthopperParameter {
 
 	public name: string = "ParamL";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter {t} on infinite line"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class LinePlaneOutput_paramp_uv extends ResthopperParameter {
 
 	public name: string = "ParamP";
 	public nickName: string = "uv";
-	public description: string = "Empty Point parameter"
+	public description: string = "Parameter {uv} on plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

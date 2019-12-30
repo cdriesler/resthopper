@@ -43,7 +43,7 @@ class RegionUnionInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curves for boolean union operation"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class RegionUnionInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional plane for boolean solution"
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -73,7 +73,7 @@ class RegionUnionOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Result outlines of boolean union"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

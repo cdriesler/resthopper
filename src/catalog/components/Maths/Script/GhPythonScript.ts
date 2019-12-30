@@ -45,7 +45,7 @@ class GhPythonScriptInput_x_x extends ResthopperParameter {
 
 	public name: string = "x";
 	public nickName: string = "x";
-	public description: string = "Empty Generic Data parameter";
+	public description: string = "Script variable Python"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class GhPythonScriptInput_y_y extends ResthopperParameter {
 
 	public name: string = "y";
 	public nickName: string = "y";
-	public description: string = "Empty Generic Data parameter";
+	public description: string = "Script variable Python"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,7 +75,7 @@ class GhPythonScriptOutput_out_out extends ResthopperParameter {
 
 	public name: string = "out";
 	public nickName: string = "out";
-	public description: string = "Empty Text parameter"
+	public description: string = "The execution information, as output and error streams"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -90,7 +90,7 @@ class GhPythonScriptOutput_a_a extends ResthopperParameter {
 
 	public name: string = "a";
 	public nickName: string = "a";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Script variable Python"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

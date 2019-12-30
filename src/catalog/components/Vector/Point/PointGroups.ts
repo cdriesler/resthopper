@@ -45,7 +45,7 @@ class PointGroupsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to group"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class PointGroupsInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance threshold for group inclusion"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class PointGroupsOutput_groups_g extends ResthopperParameter {
 
 	public name: string = "Groups";
 	public nickName: string = "G";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point groups"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class PointGroupsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Group indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

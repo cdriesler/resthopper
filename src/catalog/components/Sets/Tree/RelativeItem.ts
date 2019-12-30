@@ -49,7 +49,7 @@ class RelativeItemInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Tree to operate on"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -64,7 +64,7 @@ class RelativeItemInput_offset_o extends ResthopperParameter {
 
 	public name: string = "Offset";
 	public nickName: string = "O";
-	public description: string = "Empty Text parameter"
+	public description: string = "Relative offset for item combo"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -79,7 +79,7 @@ class RelativeItemInput_wrappaths_wp extends ResthopperParameter {
 
 	public name: string = "WrapPaths";
 	public nickName: string = "Wp";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap paths when the shift is out of bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -94,7 +94,7 @@ class RelativeItemInput_wrapitems_wi extends ResthopperParameter {
 
 	public name: string = "WrapItems";
 	public nickName: string = "Wi";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap items when the shift is out of bounds"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -109,7 +109,7 @@ class RelativeItemOutput_itema_a extends ResthopperParameter {
 
 	public name: string = "ItemA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Tree item"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -124,7 +124,7 @@ class RelativeItemOutput_itemb_b extends ResthopperParameter {
 
 	public name: string = "ItemB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Tree item relative to A"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

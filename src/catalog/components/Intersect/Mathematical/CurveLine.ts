@@ -47,7 +47,7 @@ class CurveLineInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to intersect"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class CurveLineInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line to intersect with"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -77,7 +77,7 @@ class CurveLineOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection events"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class CurveLineOutput_params_t extends ResthopperParameter {
 
 	public name: string = "Params";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameters on curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class CurveLineOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of intersection events"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

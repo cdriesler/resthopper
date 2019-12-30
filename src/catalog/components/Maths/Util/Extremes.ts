@@ -43,7 +43,7 @@ class ExtremesInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Value for comparison"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class ExtremesInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Value for comparison"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class ExtremesOutput_maximum_v extends ResthopperParameter {
 
 	public name: string = "Maximum";
 	public nickName: string = "V";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Highest of all values"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

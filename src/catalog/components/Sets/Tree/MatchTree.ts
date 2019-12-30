@@ -43,7 +43,7 @@ class MatchTreeInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data tree to modify"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class MatchTreeInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data tree to match"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class MatchTreeOutput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Matched data tree containing the data of T but the layout of G"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

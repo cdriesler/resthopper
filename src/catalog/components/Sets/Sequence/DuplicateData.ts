@@ -45,7 +45,7 @@ class DuplicateDataInput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to duplicate"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class DuplicateDataInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of duplicates"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class DuplicateDataInput_order_o extends ResthopperParameter {
 
 	public name: string = "Order";
 	public nickName: string = "O";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Retain list order"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class DuplicateDataOutput_data_d extends ResthopperParameter {
 
 	public name: string = "Data";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Duplicated data"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

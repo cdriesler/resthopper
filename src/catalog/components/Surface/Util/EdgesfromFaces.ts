@@ -45,7 +45,7 @@ class EdgesfromFacesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class EdgesfromFacesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points for face coincidence check"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -75,7 +75,7 @@ class EdgesfromFacesOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Found edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class EdgesfromFacesOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

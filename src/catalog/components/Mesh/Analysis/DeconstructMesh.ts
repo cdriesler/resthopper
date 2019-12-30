@@ -47,7 +47,7 @@ class DeconstructMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Base mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -62,7 +62,7 @@ class DeconstructMeshOutput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
-	public description: string = "Empty Point parameter"
+	public description: string = "Mesh vertices"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class DeconstructMeshOutput_faces_f extends ResthopperParameter {
 
 	public name: string = "Faces";
 	public nickName: string = "F";
-	public description: string = "Empty Mesh face parameter"
+	public description: string = "Mesh faces"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh face"
 
@@ -92,7 +92,7 @@ class DeconstructMeshOutput_colours_c extends ResthopperParameter {
 
 	public name: string = "Colours";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Mesh vertex colours"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -107,7 +107,7 @@ class DeconstructMeshOutput_normals_n extends ResthopperParameter {
 
 	public name: string = "Normals";
 	public nickName: string = "N";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Mesh normals"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

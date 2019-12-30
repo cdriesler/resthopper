@@ -45,7 +45,7 @@ class ConstructExoticDateInput_year_y extends ResthopperParameter {
 
 	public name: string = "Year";
 	public nickName: string = "Y";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Year number (must be between 1 and 9999)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -60,7 +60,7 @@ class ConstructExoticDateInput_month_m extends ResthopperParameter {
 
 	public name: string = "Month";
 	public nickName: string = "M";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Month number (must be between 1 and 12)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class ConstructExoticDateInput_day_d extends ResthopperParameter {
 
 	public name: string = "Day";
 	public nickName: string = "D";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Day of month (must be between 1 and 31)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class ConstructExoticDateOutput_time_t extends ResthopperParameter {
 
 	public name: string = "Time";
 	public nickName: string = "T";
-	public description: string = "Empty Time parameter"
+	public description: string = "Gregorian representation of date."
 	public isOptional: boolean = false;
 	public typeName: string = "Time"
 

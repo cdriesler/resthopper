@@ -43,7 +43,7 @@ class TrimSolidInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Shape to trim"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -58,7 +58,7 @@ class TrimSolidInput_cutters_t extends ResthopperParameter {
 
 	public name: string = "Cutters";
 	public nickName: string = "T";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Trimming shapes"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -73,7 +73,7 @@ class TrimSolidOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Shape with holes"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

@@ -49,7 +49,7 @@ class EllipseInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane of ellipse"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -64,7 +64,7 @@ class EllipseInput_radius1_r1 extends ResthopperParameter {
 
 	public name: string = "Radius1";
 	public nickName: string = "R1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius in {x} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class EllipseInput_radius2_r2 extends ResthopperParameter {
 
 	public name: string = "Radius2";
 	public nickName: string = "R2";
-	public description: string = "Empty Number parameter"
+	public description: string = "Radius in {y} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class EllipseOutput_ellipse_e extends ResthopperParameter {
 
 	public name: string = "Ellipse";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting ellipse"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -109,7 +109,7 @@ class EllipseOutput_focus1_f1 extends ResthopperParameter {
 
 	public name: string = "Focus1";
 	public nickName: string = "F1";
-	public description: string = "Empty Point parameter"
+	public description: string = "First focus point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -124,7 +124,7 @@ class EllipseOutput_focus2_f2 extends ResthopperParameter {
 
 	public name: string = "Focus2";
 	public nickName: string = "F2";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second focus point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 

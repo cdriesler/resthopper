@@ -45,7 +45,7 @@ class CullIndexInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to cull"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class CullIndexInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Culling indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class CullIndexInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Wrap indices to list range"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class CullIndexOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Culled list"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

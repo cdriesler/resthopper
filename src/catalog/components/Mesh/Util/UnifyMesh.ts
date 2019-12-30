@@ -43,7 +43,7 @@ class UnifyMeshInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to unify"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -58,7 +58,7 @@ class UnifyMeshOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Unified mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -73,7 +73,7 @@ class UnifyMeshOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of faces that were flipped"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

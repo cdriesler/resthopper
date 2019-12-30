@@ -45,7 +45,7 @@ class LongestListInput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List (A) to operate on"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class LongestListInput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List (B) to operate on"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,7 +75,7 @@ class LongestListOutput_lista_a extends ResthopperParameter {
 
 	public name: string = "ListA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Adjusted list (A)"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -90,7 +90,7 @@ class LongestListOutput_listb_b extends ResthopperParameter {
 
 	public name: string = "ListB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Adjusted list (B)"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

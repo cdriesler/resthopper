@@ -45,7 +45,7 @@ class IsPlanarInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface to test for planarity"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -60,7 +60,7 @@ class IsPlanarInput_interior_i extends ResthopperParameter {
 
 	public name: string = "Interior";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Limit planarity test to the interior of trimmed surfaces"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class IsPlanarOutput_planar_f extends ResthopperParameter {
 
 	public name: string = "Planar";
 	public nickName: string = "F";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Planarity flag of surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class IsPlanarOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Surface plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 

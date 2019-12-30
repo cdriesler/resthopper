@@ -45,7 +45,7 @@ class DeconstructInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Input point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class DeconstructOutput_xcomponent_x extends ResthopperParameter {
 
 	public name: string = "Xcomponent";
 	public nickName: string = "X";
-	public description: string = "Empty Number parameter"
+	public description: string = "Point {x} component"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class DeconstructOutput_ycomponent_y extends ResthopperParameter {
 
 	public name: string = "Ycomponent";
 	public nickName: string = "Y";
-	public description: string = "Empty Number parameter"
+	public description: string = "Point {y} component"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class DeconstructOutput_zcomponent_z extends ResthopperParameter {
 
 	public name: string = "Zcomponent";
 	public nickName: string = "Z";
-	public description: string = "Empty Number parameter"
+	public description: string = "Point {z} component"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

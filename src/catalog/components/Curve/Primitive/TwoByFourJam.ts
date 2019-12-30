@@ -45,7 +45,7 @@ class TwoByFourJamInput_room_r extends ResthopperParameter {
 
 	public name: string = "Room";
 	public nickName: string = "R";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Room polyline with 4 corners"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class TwoByFourJamInput_width_w extends ResthopperParameter {
 
 	public name: string = "Width";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "Width of fitting rectangle"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class TwoByFourJamInput_samples_s extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of samples to take (more samples = better solution)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class TwoByFourJamOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "Fitted rectangle"
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 

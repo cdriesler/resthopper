@@ -49,7 +49,7 @@ class IsoVistRayInput_sample_s extends ResthopperParameter {
 
 	public name: string = "Sample";
 	public nickName: string = "S";
-	public description: string = "Empty Line parameter"
+	public description: string = "Sampling ray"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -64,7 +64,7 @@ class IsoVistRayInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Sample radius"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class IsoVistRayInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Obstacle outlines (curves, planes, meshes and breps are allowed)"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -94,7 +94,7 @@ class IsoVistRayOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection point of the sample ray with the obstacles"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class IsoVistRayOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance from ray start to intersection point"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -124,7 +124,7 @@ class IsoVistRayOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Obstacle index for hit, or -1 if no obstacle was hit"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

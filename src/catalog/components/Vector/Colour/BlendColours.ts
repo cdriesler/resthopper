@@ -45,7 +45,7 @@ class BlendColoursInput_coloura_a extends ResthopperParameter {
 
 	public name: string = "ColourA";
 	public nickName: string = "A";
-	public description: string = "Empty Colour parameter"
+	public description: string = "First colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -60,7 +60,7 @@ class BlendColoursInput_colourb_b extends ResthopperParameter {
 
 	public name: string = "ColourB";
 	public nickName: string = "B";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Second colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -75,7 +75,7 @@ class BlendColoursInput_factor_f extends ResthopperParameter {
 
 	public name: string = "Factor";
 	public nickName: string = "F";
-	public description: string = "Empty Number parameter"
+	public description: string = "Interpolation factor"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class BlendColoursOutput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Interpolated colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 

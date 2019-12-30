@@ -49,7 +49,7 @@ class LinearDimensionInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Dimension base line"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -64,7 +64,7 @@ class LinearDimensionInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First dimension point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class LinearDimensionInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second dimension point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -94,7 +94,7 @@ class LinearDimensionInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Dimension text"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -109,7 +109,7 @@ class LinearDimensionInput_size_s extends ResthopperParameter {
 
 	public name: string = "Size";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Dimension size"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

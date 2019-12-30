@@ -45,7 +45,7 @@ class BrepTopologyInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Base Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class BrepTopologyOutput_facefaceadjacency_ff extends ResthopperParameter {
 
 	public name: string = "FaceFaceAdjacency";
 	public nickName: string = "FF";
-	public description: string = "Empty Integer parameter"
+	public description: string = "For each face lists all faces that surround it."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class BrepTopologyOutput_faceedgeadjacency_fe extends ResthopperParameter {
 
 	public name: string = "FaceEdgeAdjacency";
 	public nickName: string = "FE";
-	public description: string = "Empty Integer parameter"
+	public description: string = "For each face lists all edges that surround it."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class BrepTopologyOutput_edgefaceadjacency_ef extends ResthopperParameter {
 
 	public name: string = "EdgeFaceAdjacency";
 	public nickName: string = "EF";
-	public description: string = "Empty Integer parameter"
+	public description: string = "for each edge lists all faces that surround it."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

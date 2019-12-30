@@ -480,7 +480,10 @@ export default class ComponentIndex {
 		"Prune Tree",
 		"Pull Curve",
 		"Pull Point",
+		"Quad Remesh",
+		"Quad Remesh Settings",
 		"Quad Sphere",
+		"Quadmesh Settings",
 		"Quadrangulate",
 		"QuadTree",
 		"Quick Graph",
@@ -1637,8 +1640,14 @@ export default class ComponentIndex {
 				return new Curve.Util.PullCurve();
 			case "Pull Point":
 				return new Vector.Point.PullPoint();
+			case "Quad Remesh":
+				return new Mesh.Triangulation.QuadRemesh();
+			case "Quad Remesh Settings":
+				return new Mesh.Triangulation.QuadRemeshSettings();
 			case "Quad Sphere":
 				return new Surface.Primitive.QuadSphere();
+			case "Quadmesh Settings":
+				return new Mesh.Triangulation.QuadmeshSettings();
 			case "Quadrangulate":
 				return new Mesh.Util.Quadrangulate();
 			case "QuadTree":
@@ -2550,7 +2559,10 @@ import ProximityThreeD from './components/Mesh/Triangulation/ProximityThreeD';
 import PruneTree from './components/Sets/Tree/PruneTree';
 import PullCurve from './components/Curve/Util/PullCurve';
 import PullPoint from './components/Vector/Point/PullPoint';
+import QuadRemesh from './components/Mesh/Triangulation/QuadRemesh';
+import QuadRemeshSettings from './components/Mesh/Triangulation/QuadRemeshSettings';
 import QuadSphere from './components/Surface/Primitive/QuadSphere';
+import QuadmeshSettings from './components/Mesh/Triangulation/QuadmeshSettings';
 import Quadrangulate from './components/Mesh/Util/Quadrangulate';
 import QuadTree from './components/Mesh/Triangulation/QuadTree';
 import QuickGraph from './components/Display/Graphs/QuickGraph';
@@ -3237,7 +3249,10 @@ ProximityThreeD,
 PruneTree,
 PullCurve,
 PullPoint,
+QuadRemesh,
+QuadRemeshSettings,
 QuadSphere,
+QuadmeshSettings,
 Quadrangulate,
 QuadTree,
 QuickGraph,
@@ -3925,7 +3940,10 @@ export type GrasshopperComponent =
 "Prune Tree" |
 "Pull Curve" |
 "Pull Point" |
+"Quad Remesh" |
+"Quad Remesh Settings" |
 "Quad Sphere" |
+"Quadmesh Settings" |
 "Quadrangulate" |
 "QuadTree" |
 "Quick Graph" |

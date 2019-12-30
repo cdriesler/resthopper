@@ -45,7 +45,7 @@ class DelaunayEdgesInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points for triangulate"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class DelaunayEdgesInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Optional base plane. If no plane is provided, then the best-fit plane will be used."
 	public isOptional: boolean = true;
 	public typeName: string = "Plane"
 
@@ -75,7 +75,7 @@ class DelaunayEdgesOutput_connectivity_c extends ResthopperParameter {
 
 	public name: string = "Connectivity";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Topological Connectivity diagram"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class DelaunayEdgesOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Line parameter"
+	public description: string = "Edges of the connectivity diagram"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

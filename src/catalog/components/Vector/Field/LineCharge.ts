@@ -45,7 +45,7 @@ class LineChargeInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Geometry of line segment charge"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -60,7 +60,7 @@ class LineChargeInput_charge_c extends ResthopperParameter {
 
 	public name: string = "Charge";
 	public nickName: string = "C";
-	public description: string = "Empty Number parameter"
+	public description: string = "Charge of point object"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class LineChargeInput_bounds_b extends ResthopperParameter {
 
 	public name: string = "Bounds";
 	public nickName: string = "B";
-	public description: string = "Empty Box parameter"
+	public description: string = "Optional bounds for the field"
 	public isOptional: boolean = true;
 	public typeName: string = "Box"
 
@@ -90,7 +90,7 @@ class LineChargeOutput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Field due to line charge"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 

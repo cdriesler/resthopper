@@ -45,7 +45,7 @@ class LineTwoPlaneInput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Guide line."
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -60,7 +60,7 @@ class LineTwoPlaneInput_planea_a extends ResthopperParameter {
 
 	public name: string = "PlaneA";
 	public nickName: string = "A";
-	public description: string = "Empty Plane parameter"
+	public description: string = "First plane to intersect with the guide."
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -75,7 +75,7 @@ class LineTwoPlaneInput_planeb_b extends ResthopperParameter {
 
 	public name: string = "PlaneB";
 	public nickName: string = "B";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Second plane to intersect with the guide."
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class LineTwoPlaneOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line segment between A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

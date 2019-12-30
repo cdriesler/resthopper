@@ -45,7 +45,7 @@ class TrimwithBrepsInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to trim"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class TrimwithBrepsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Breps to trim against"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -75,7 +75,7 @@ class TrimwithBrepsOutput_inside_ci extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "Ci";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Split curves on the inside of the trimming Breps"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class TrimwithBrepsOutput_outside_co extends ResthopperParameter {
 
 	public name: string = "Outside";
 	public nickName: string = "Co";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Split curves on the outside of the trimming Breps"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

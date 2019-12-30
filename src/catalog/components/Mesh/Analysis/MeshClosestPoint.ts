@@ -45,7 +45,7 @@ class MeshClosestPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point to search from"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class MeshClosestPointInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to search for closest point"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -75,7 +75,7 @@ class MeshClosestPointOutput_parameter_p extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "P";
-	public description: string = "Empty Mesh Parameter parameter"
+	public description: string = "Mesh parameter for closest point"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh Parameter"
 
@@ -90,7 +90,7 @@ class MeshClosestPointOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Face index of closest point"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

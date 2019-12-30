@@ -45,7 +45,7 @@ class EntwineInput_branch00_00 extends ResthopperParameter {
 
 	public name: string = "Branch00";
 	public nickName: string = "00";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to entwine"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class EntwineInput_branch01_01 extends ResthopperParameter {
 
 	public name: string = "Branch01";
 	public nickName: string = "01";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to entwine"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -75,7 +75,7 @@ class EntwineInput_branch02_02 extends ResthopperParameter {
 
 	public name: string = "Branch02";
 	public nickName: string = "02";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data to entwine"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -90,7 +90,7 @@ class EntwineOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Entwined result"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

@@ -45,7 +45,7 @@ class PolylineCollapseInput_polyline_p extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "P";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Polyline curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class PolylineCollapseInput_tolerance_t extends ResthopperParameter {
 
 	public name: string = "Tolerance";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Segment length tolerance"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class PolylineCollapseOutput_polyline_pl extends ResthopperParameter {
 
 	public name: string = "Polyline";
 	public nickName: string = "Pl";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting polyline"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class PolylineCollapseOutput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of segments that were collapsed"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

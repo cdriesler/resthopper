@@ -49,7 +49,7 @@ class MeshSurfaceInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -64,7 +64,7 @@ class MeshSurfaceInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of quads in U direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -79,7 +79,7 @@ class MeshSurfaceInput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of quads in V direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -94,7 +94,7 @@ class MeshSurfaceInput_overhang_h extends ResthopperParameter {
 
 	public name: string = "Overhang";
 	public nickName: string = "H";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Allow faces to overhang trims"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -109,7 +109,7 @@ class MeshSurfaceInput_equalize_q extends ResthopperParameter {
 
 	public name: string = "Equalize";
 	public nickName: string = "Q";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Equalize span length"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -124,7 +124,7 @@ class MeshSurfaceOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "UV Mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

@@ -47,7 +47,7 @@ class ExtendCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to extend"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class ExtendCurveInput_type_t extends ResthopperParameter {
 
 	public name: string = "Type";
 	public nickName: string = "T";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Type of extension (0=Line, 1=Arc, 2=Smooth)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,7 +77,7 @@ class ExtendCurveInput_start_l0 extends ResthopperParameter {
 
 	public name: string = "Start";
 	public nickName: string = "L0";
-	public description: string = "Empty Number parameter"
+	public description: string = "Extension length at start of curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class ExtendCurveInput_end_l1 extends ResthopperParameter {
 
 	public name: string = "End";
 	public nickName: string = "L1";
-	public description: string = "Empty Number parameter"
+	public description: string = "Extension length at end of curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class ExtendCurveOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Extended curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

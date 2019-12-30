@@ -47,7 +47,7 @@ class ProjectAlongInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Geometry to project"
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -62,7 +62,7 @@ class ProjectAlongInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Projection plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -77,7 +77,7 @@ class ProjectAlongInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Projection direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -92,7 +92,7 @@ class ProjectAlongOutput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Projected geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -107,7 +107,7 @@ class ProjectAlongOutput_transform_x extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformation data"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

@@ -47,7 +47,7 @@ class DivideDistanceInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to divide"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class DivideDistanceInput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance between points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class DivideDistanceOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class DivideDistanceOutput_tangents_t extends ResthopperParameter {
 
 	public name: string = "Tangents";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vectors at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -107,7 +107,7 @@ class DivideDistanceOutput_parameters_t extends ResthopperParameter {
 
 	public name: string = "Parameters";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter values at division points"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

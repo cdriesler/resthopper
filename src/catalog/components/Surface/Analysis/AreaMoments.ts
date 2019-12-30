@@ -49,7 +49,7 @@ class AreaMomentsInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Brep, mesh or planar closed curve for area computation"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -64,7 +64,7 @@ class AreaMomentsOutput_area_a extends ResthopperParameter {
 
 	public name: string = "Area";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Area of geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class AreaMomentsOutput_centroid_c extends ResthopperParameter {
 
 	public name: string = "Centroid";
 	public nickName: string = "C";
-	public description: string = "Empty Point parameter"
+	public description: string = "Area centroid of geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -94,7 +94,7 @@ class AreaMomentsOutput_inertiaerror_i extends ResthopperParameter {
 
 	public name: string = "Inertiaerror";
 	public nickName: string = "I";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Errors on Moments of inertia"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -109,7 +109,7 @@ class AreaMomentsOutput_secondaryerror_s extends ResthopperParameter {
 
 	public name: string = "Secondaryerror";
 	public nickName: string = "S";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Errors on Secondary moments"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -124,7 +124,7 @@ class AreaMomentsOutput_gyration_g extends ResthopperParameter {
 
 	public name: string = "Gyration";
 	public nickName: string = "G";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Radii of gyration"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 

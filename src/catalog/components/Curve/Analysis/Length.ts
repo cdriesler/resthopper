@@ -41,7 +41,7 @@ class LengthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to measure"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -56,7 +56,7 @@ class LengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

@@ -41,7 +41,7 @@ class BoundarySurfacesInput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Boundary curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -56,7 +56,7 @@ class BoundarySurfacesOutput_surfaces_s extends ResthopperParameter {
 
 	public name: string = "Surfaces";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Resulting boundary surfaces"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

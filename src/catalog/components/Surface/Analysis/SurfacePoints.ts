@@ -49,7 +49,7 @@ class SurfacePointsInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface for control-point extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -64,7 +64,7 @@ class SurfacePointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Control point locations"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class SurfacePointsOutput_weights_w extends ResthopperParameter {
 
 	public name: string = "Weights";
 	public nickName: string = "W";
-	public description: string = "Empty Number parameter"
+	public description: string = "Control point weights"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -94,7 +94,7 @@ class SurfacePointsOutput_greville_g extends ResthopperParameter {
 
 	public name: string = "Greville";
 	public nickName: string = "G";
-	public description: string = "Empty Point parameter"
+	public description: string = "Greville uv points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class SurfacePointsOutput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of points along U direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -124,7 +124,7 @@ class SurfacePointsOutput_vcount_v extends ResthopperParameter {
 
 	public name: string = "VCount";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of points along V direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

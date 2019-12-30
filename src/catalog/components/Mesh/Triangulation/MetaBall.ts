@@ -47,7 +47,7 @@ class MetaBallInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point charge locations"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class MetaBallInput_plane_pl extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "Pl";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Metaball section plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -77,7 +77,7 @@ class MetaBallInput_point_x extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "X";
-	public description: string = "Empty Point parameter"
+	public description: string = "Isocurve intersection"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class MetaBallInput_accuracy_a extends ResthopperParameter {
 
 	public name: string = "Accuracy";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Isocurve sampling accuracy (leave blank for adaptive accuracy)"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class MetaBallOutput_isocurve_i extends ResthopperParameter {
 
 	public name: string = "Isocurve";
 	public nickName: string = "I";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Metaball isocurve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

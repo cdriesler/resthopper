@@ -41,7 +41,7 @@ class AverageInput_input_i extends ResthopperParameter {
 
 	public name: string = "Input";
 	public nickName: string = "I";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input values for averaging"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -56,7 +56,7 @@ class AverageOutput_arithmeticmean_am extends ResthopperParameter {
 
 	public name: string = "Arithmeticmean";
 	public nickName: string = "AM";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Arithmetic mean (average) of all input values"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

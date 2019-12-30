@@ -41,7 +41,7 @@ class SimpleMeshInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep to mesh, only breps with triangle or quad faces are supported."
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -56,7 +56,7 @@ class SimpleMeshOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

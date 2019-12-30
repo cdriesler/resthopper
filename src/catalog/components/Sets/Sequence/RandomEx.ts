@@ -47,7 +47,7 @@ class RandomExInput_min_l0 extends ResthopperParameter {
 
 	public name: string = "Min";
 	public nickName: string = "L0";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Lower limit"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -62,7 +62,7 @@ class RandomExInput_max_l1 extends ResthopperParameter {
 
 	public name: string = "Max";
 	public nickName: string = "L1";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Upper limit"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -77,7 +77,7 @@ class RandomExInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of values to generate"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class RandomExInput_seed_s extends ResthopperParameter {
 
 	public name: string = "Seed";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Random Seed"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class RandomExOutput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Random values"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

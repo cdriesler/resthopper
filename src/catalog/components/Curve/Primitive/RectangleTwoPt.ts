@@ -49,7 +49,7 @@ class RectangleTwoPtInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Rectangle base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -64,7 +64,7 @@ class RectangleTwoPtInput_pointa_a extends ResthopperParameter {
 
 	public name: string = "PointA";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "First corner point."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -79,7 +79,7 @@ class RectangleTwoPtInput_pointb_b extends ResthopperParameter {
 
 	public name: string = "PointB";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "Second corner point."
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -94,7 +94,7 @@ class RectangleTwoPtInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rectangle corner fillet radius"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class RectangleTwoPtOutput_rectangle_r extends ResthopperParameter {
 
 	public name: string = "Rectangle";
 	public nickName: string = "R";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Rectangle defined by P, A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -124,7 +124,7 @@ class RectangleTwoPtOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Length of rectangle curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

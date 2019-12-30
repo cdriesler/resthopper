@@ -41,7 +41,7 @@ class BreakFieldInput_field_f extends ResthopperParameter {
 
 	public name: string = "Field";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Field to break"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 
@@ -56,7 +56,7 @@ class BreakFieldOutput_fields_f extends ResthopperParameter {
 
 	public name: string = "Fields";
 	public nickName: string = "F";
-	public description: string = "Empty Field parameter"
+	public description: string = "Elemental fields"
 	public isOptional: boolean = false;
 	public typeName: string = "Field"
 

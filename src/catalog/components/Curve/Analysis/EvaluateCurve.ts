@@ -47,7 +47,7 @@ class EvaluateCurveInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class EvaluateCurveInput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Parameter on curve domain to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class EvaluateCurveOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on the curve at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class EvaluateCurveOutput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vector at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -107,7 +107,7 @@ class EvaluateCurveOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Angle (in Radians) of incoming vs. outgoing curve at {t}"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

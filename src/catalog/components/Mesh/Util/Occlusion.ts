@@ -47,7 +47,7 @@ class OcclusionInput_samples_s extends ResthopperParameter {
 
 	public name: string = "Samples";
 	public nickName: string = "S";
-	public description: string = "Empty Point parameter"
+	public description: string = "Sample points for occlusion testing"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -62,7 +62,7 @@ class OcclusionInput_obstructions_o extends ResthopperParameter {
 
 	public name: string = "Obstructions";
 	public nickName: string = "O";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Obstructing geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -77,7 +77,7 @@ class OcclusionInput_rays_r extends ResthopperParameter {
 
 	public name: string = "Rays";
 	public nickName: string = "R";
-	public description: string = "Empty Vector parameter"
+	public description: string = "View rays"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -92,7 +92,7 @@ class OcclusionOutput_hits_h extends ResthopperParameter {
 
 	public name: string = "Hits";
 	public nickName: string = "H";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of occluded rays per sample."
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class OcclusionOutput_occlusion_o extends ResthopperParameter {
 
 	public name: string = "Occlusion";
 	public nickName: string = "O";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Occlusion topology for every individual sample."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

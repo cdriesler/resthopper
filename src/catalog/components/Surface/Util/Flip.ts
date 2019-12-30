@@ -45,7 +45,7 @@ class FlipInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface to flip"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -60,7 +60,7 @@ class FlipInput_guide_g extends ResthopperParameter {
 
 	public name: string = "Guide";
 	public nickName: string = "G";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Optional guide surface to match"
 	public isOptional: boolean = true;
 	public typeName: string = "Surface"
 
@@ -75,7 +75,7 @@ class FlipOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Flipped surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -90,7 +90,7 @@ class FlipOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Result: True if surface was flipped"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

@@ -41,7 +41,7 @@ class TextLengthInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Text to measure."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -56,7 +56,7 @@ class TextLengthOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of characters"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

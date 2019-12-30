@@ -47,7 +47,7 @@ class SplitAHSVInput_colour_c extends ResthopperParameter {
 
 	public name: string = "Colour";
 	public nickName: string = "C";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Input colour"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -62,7 +62,7 @@ class SplitAHSVOutput_alpha_a extends ResthopperParameter {
 
 	public name: string = "Alpha";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Alpha channel"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -77,7 +77,7 @@ class SplitAHSVOutput_hue_h extends ResthopperParameter {
 
 	public name: string = "Hue";
 	public nickName: string = "H";
-	public description: string = "Empty Number parameter"
+	public description: string = "Hue"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -92,7 +92,7 @@ class SplitAHSVOutput_saturation_s extends ResthopperParameter {
 
 	public name: string = "Saturation";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "Saturation"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -107,7 +107,7 @@ class SplitAHSVOutput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Value (Brightness)"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

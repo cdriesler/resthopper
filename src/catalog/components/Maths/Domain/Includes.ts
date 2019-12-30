@@ -45,7 +45,7 @@ class IncludesInput_value_v extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "V";
-	public description: string = "Empty Number parameter"
+	public description: string = "Value to test for inclusion"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -60,7 +60,7 @@ class IncludesInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Domain to test with"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 
@@ -75,7 +75,7 @@ class IncludesOutput_includes_i extends ResthopperParameter {
 
 	public name: string = "Includes";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if the value is included in the domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class IncludesOutput_deviation_d extends ResthopperParameter {
 
 	public name: string = "Deviation";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance between the value and the nearest value inside the domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

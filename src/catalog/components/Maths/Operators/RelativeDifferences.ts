@@ -41,7 +41,7 @@ class RelativeDifferencesInput_values_v extends ResthopperParameter {
 
 	public name: string = "Values";
 	public nickName: string = "V";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List of data to operate on (numbers or points or vectors allowed)"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -56,7 +56,7 @@ class RelativeDifferencesOutput_differenced_d extends ResthopperParameter {
 
 	public name: string = "Differenced";
 	public nickName: string = "D";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Differences between consecutive items"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

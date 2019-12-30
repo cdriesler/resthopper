@@ -45,7 +45,7 @@ class PlaneThroughShapeInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Surface plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -60,7 +60,7 @@ class PlaneThroughShapeInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Shape to exceed"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -75,7 +75,7 @@ class PlaneThroughShapeInput_inflate_i extends ResthopperParameter {
 
 	public name: string = "Inflate";
 	public nickName: string = "I";
-	public description: string = "Empty Number parameter"
+	public description: string = "Boundary inflation amount"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -90,7 +90,7 @@ class PlaneThroughShapeOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Resulting planar surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

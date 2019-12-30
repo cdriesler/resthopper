@@ -51,7 +51,7 @@ class BezierSpanInput_startpoint_a extends ResthopperParameter {
 
 	public name: string = "Startpoint";
 	public nickName: string = "A";
-	public description: string = "Empty Point parameter"
+	public description: string = "Start of curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -66,7 +66,7 @@ class BezierSpanInput_starttangent_at extends ResthopperParameter {
 
 	public name: string = "Starttangent";
 	public nickName: string = "At";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent at start"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -81,7 +81,7 @@ class BezierSpanInput_endpoint_b extends ResthopperParameter {
 
 	public name: string = "Endpoint";
 	public nickName: string = "B";
-	public description: string = "Empty Point parameter"
+	public description: string = "End of curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -96,7 +96,7 @@ class BezierSpanInput_endtangent_bt extends ResthopperParameter {
 
 	public name: string = "Endtangent";
 	public nickName: string = "Bt";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent at end"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -111,7 +111,7 @@ class BezierSpanOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting bezier span"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -126,7 +126,7 @@ class BezierSpanOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class BezierSpanOutput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Curve domain"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

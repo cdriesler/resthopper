@@ -49,7 +49,7 @@ class EvaluateLengthInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -64,7 +64,7 @@ class EvaluateLengthInput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Number parameter"
+	public description: string = "Length factor for curve evaluation"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -79,7 +79,7 @@ class EvaluateLengthInput_normalized_n extends ResthopperParameter {
 
 	public name: string = "Normalized";
 	public nickName: string = "N";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If True, the Length factor is normalized (0.0 ~ 1.0)"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -94,7 +94,7 @@ class EvaluateLengthOutput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point at the specified length"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -109,7 +109,7 @@ class EvaluateLengthOutput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Tangent vector at the specified length"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -124,7 +124,7 @@ class EvaluateLengthOutput_parameter_t extends ResthopperParameter {
 
 	public name: string = "Parameter";
 	public nickName: string = "t";
-	public description: string = "Empty Number parameter"
+	public description: string = "Curve parameter at the specified length"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

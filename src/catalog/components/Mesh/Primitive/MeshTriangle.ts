@@ -45,7 +45,7 @@ class MeshTriangleInput_cornera_a extends ResthopperParameter {
 
 	public name: string = "CornerA";
 	public nickName: string = "A";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of first face corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -60,7 +60,7 @@ class MeshTriangleInput_cornerb_b extends ResthopperParameter {
 
 	public name: string = "CornerB";
 	public nickName: string = "B";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of second face corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class MeshTriangleInput_cornerc_c extends ResthopperParameter {
 
 	public name: string = "CornerC";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of third face corner"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class MeshTriangleOutput_face_f extends ResthopperParameter {
 
 	public name: string = "Face";
 	public nickName: string = "F";
-	public description: string = "Empty Mesh face parameter"
+	public description: string = "Triangular mesh face"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh face"
 

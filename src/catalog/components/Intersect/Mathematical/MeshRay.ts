@@ -47,7 +47,7 @@ class MeshRayInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh to intersect"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -62,7 +62,7 @@ class MeshRayInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Ray start point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class MeshRayInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Ray direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -92,7 +92,7 @@ class MeshRayOutput_point_x extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "X";
-	public description: string = "Empty Point parameter"
+	public description: string = "First intersection point"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -107,7 +107,7 @@ class MeshRayOutput_hit_h extends ResthopperParameter {
 
 	public name: string = "Hit";
 	public nickName: string = "H";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Boolean indicating hit or miss"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

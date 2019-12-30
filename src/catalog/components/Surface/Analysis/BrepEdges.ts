@@ -45,7 +45,7 @@ class BrepEdgesInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Base Brep"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -60,7 +60,7 @@ class BrepEdgesOutput_naked_en extends ResthopperParameter {
 
 	public name: string = "Naked";
 	public nickName: string = "En";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Naked edge curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -75,7 +75,7 @@ class BrepEdgesOutput_interior_ei extends ResthopperParameter {
 
 	public name: string = "Interior";
 	public nickName: string = "Ei";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Interior edge curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -90,7 +90,7 @@ class BrepEdgesOutput_nonmanifold_em extends ResthopperParameter {
 
 	public name: string = "NonManifold";
 	public nickName: string = "Em";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Non-Manifold edge curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -43,7 +43,7 @@ class ExtrudeInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Profile curve or surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -58,7 +58,7 @@ class ExtrudeInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Extrusion direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -73,7 +73,7 @@ class ExtrudeOutput_extrusion_e extends ResthopperParameter {
 
 	public name: string = "Extrusion";
 	public nickName: string = "E";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Extrusion result"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 

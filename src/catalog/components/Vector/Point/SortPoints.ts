@@ -43,7 +43,7 @@ class SortPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to sort"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -58,7 +58,7 @@ class SortPointsOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Sorted points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -73,7 +73,7 @@ class SortPointsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Point index map"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

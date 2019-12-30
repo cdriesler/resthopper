@@ -45,7 +45,7 @@ class SurfaceFromPointsInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Grid of points"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class SurfaceFromPointsInput_ucount_u extends ResthopperParameter {
 
 	public name: string = "UCount";
 	public nickName: string = "U";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of points in {u} direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -75,7 +75,7 @@ class SurfaceFromPointsInput_interpolate_i extends ResthopperParameter {
 
 	public name: string = "Interpolate";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Interpolate samples"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class SurfaceFromPointsOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Resulting surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

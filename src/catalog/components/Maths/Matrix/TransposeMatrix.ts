@@ -41,7 +41,7 @@ class TransposeMatrixInput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
-	public description: string = "Empty Matrix parameter"
+	public description: string = "A newly created matrix"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 
@@ -56,7 +56,7 @@ class TransposeMatrixOutput_matrix_m extends ResthopperParameter {
 
 	public name: string = "Matrix";
 	public nickName: string = "M";
-	public description: string = "Empty Matrix parameter"
+	public description: string = "Transposed matrix"
 	public isOptional: boolean = false;
 	public typeName: string = "Matrix"
 

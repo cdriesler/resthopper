@@ -43,7 +43,7 @@ class IsotrimInput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -58,7 +58,7 @@ class IsotrimInput_domain_d extends ResthopperParameter {
 
 	public name: string = "Domain";
 	public nickName: string = "D";
-	public description: string = "Empty Domain² parameter"
+	public description: string = "Domain of subset"
 	public isOptional: boolean = false;
 	public typeName: string = "Domain²"
 
@@ -73,7 +73,7 @@ class IsotrimOutput_surface_s extends ResthopperParameter {
 
 	public name: string = "Surface";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Subset of base surface"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

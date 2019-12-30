@@ -51,7 +51,7 @@ class IsoVistInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Sampling plane and origin"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -66,7 +66,7 @@ class IsoVistInput_count_n extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Sample count"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -81,7 +81,7 @@ class IsoVistInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Sample radius"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -96,7 +96,7 @@ class IsoVistInput_obstacles_o extends ResthopperParameter {
 
 	public name: string = "Obstacles";
 	public nickName: string = "O";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Obstacle outlines"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -111,7 +111,7 @@ class IsoVistOutput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Intersection points of the sample rays with the obstacles"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -126,7 +126,7 @@ class IsoVistOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "List of intersection distances"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class IsoVistOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "List of obstacle indices for each hit, or -1 if no obstacle was hit"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

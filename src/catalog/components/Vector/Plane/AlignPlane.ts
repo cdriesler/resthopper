@@ -45,7 +45,7 @@ class AlignPlaneInput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Plane to straighten"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -60,7 +60,7 @@ class AlignPlaneInput_direction_d extends ResthopperParameter {
 
 	public name: string = "Direction";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Straightening guide direction"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -75,7 +75,7 @@ class AlignPlaneOutput_plane_p extends ResthopperParameter {
 
 	public name: string = "Plane";
 	public nickName: string = "P";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Straightened plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -90,7 +90,7 @@ class AlignPlaneOutput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Rotation angle"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

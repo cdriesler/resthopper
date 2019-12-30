@@ -45,7 +45,7 @@ class FibonacciInput_seeda_a extends ResthopperParameter {
 
 	public name: string = "SeedA";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "First seed number of the sequence"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -60,7 +60,7 @@ class FibonacciInput_seedb_b extends ResthopperParameter {
 
 	public name: string = "SeedB";
 	public nickName: string = "B";
-	public description: string = "Empty Number parameter"
+	public description: string = "Second seed number of the sequence"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -75,7 +75,7 @@ class FibonacciInput_number_n extends ResthopperParameter {
 
 	public name: string = "Number";
 	public nickName: string = "N";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of values in the sequence"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class FibonacciOutput_series_s extends ResthopperParameter {
 
 	public name: string = "Series";
 	public nickName: string = "S";
-	public description: string = "Empty Number parameter"
+	public description: string = "First N numbers in this Fibonacci sequence"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

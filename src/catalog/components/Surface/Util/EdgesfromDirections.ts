@@ -51,7 +51,7 @@ class EdgesfromDirectionsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -66,7 +66,7 @@ class EdgesfromDirectionsInput_directions_d extends ResthopperParameter {
 
 	public name: string = "Directions";
 	public nickName: string = "D";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Directions to filter"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -81,7 +81,7 @@ class EdgesfromDirectionsInput_reflex_r extends ResthopperParameter {
 
 	public name: string = "Reflex";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, angle test includes the reflex angle"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -96,7 +96,7 @@ class EdgesfromDirectionsInput_angle_a extends ResthopperParameter {
 
 	public name: string = "Angle";
 	public nickName: string = "A";
-	public description: string = "Empty Number parameter"
+	public description: string = "Direction angle tolerance."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class EdgesfromDirectionsOutput_edges_e extends ResthopperParameter {
 
 	public name: string = "Edges";
 	public nickName: string = "E";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Found edges"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -126,7 +126,7 @@ class EdgesfromDirectionsOutput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "I";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Edge indices"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -141,7 +141,7 @@ class EdgesfromDirectionsOutput_map_m extends ResthopperParameter {
 
 	public name: string = "Map";
 	public nickName: string = "M";
-	public description: string = "Empty Text parameter"
+	public description: string = "Direction map per edge"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

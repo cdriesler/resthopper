@@ -45,7 +45,7 @@ class GateMajorityInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "First boolean"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -60,7 +60,7 @@ class GateMajorityInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Second boolean"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -75,7 +75,7 @@ class GateMajorityInput_c_c extends ResthopperParameter {
 
 	public name: string = "C";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Third boolean"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class GateMajorityOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Average value"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 

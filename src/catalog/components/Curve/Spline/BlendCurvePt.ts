@@ -47,7 +47,7 @@ class BlendCurvePtInput_curvea_a extends ResthopperParameter {
 
 	public name: string = "CurveA";
 	public nickName: string = "A";
-	public description: string = "Empty Curve parameter"
+	public description: string = "First curve for blend"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -62,7 +62,7 @@ class BlendCurvePtInput_curveb_b extends ResthopperParameter {
 
 	public name: string = "CurveB";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Second curve for blend"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -77,7 +77,7 @@ class BlendCurvePtInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point for blend intersection"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -92,7 +92,7 @@ class BlendCurvePtInput_continuity_c extends ResthopperParameter {
 
 	public name: string = "Continuity";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Continuity of blend (1=tangency, 2=curvature)"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -107,7 +107,7 @@ class BlendCurvePtOutput_blend_b extends ResthopperParameter {
 
 	public name: string = "Blend";
 	public nickName: string = "B";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Blend curve connecting the end of A to the start of B, ideally coincident with P"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

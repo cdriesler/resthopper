@@ -45,7 +45,7 @@ class PullPointInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point to search from"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class PullPointInput_geometry_g extends ResthopperParameter {
 
 	public name: string = "Geometry";
 	public nickName: string = "G";
-	public description: string = "Empty Geometry parameter"
+	public description: string = "Geometry that pulls"
 	public isOptional: boolean = false;
 	public typeName: string = "Geometry"
 
@@ -75,7 +75,7 @@ class PullPointOutput_closestpoint_p extends ResthopperParameter {
 
 	public name: string = "ClosestPoint";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point on [G] closest to [P]"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -90,7 +90,7 @@ class PullPointOutput_distance_d extends ResthopperParameter {
 
 	public name: string = "Distance";
 	public nickName: string = "D";
-	public description: string = "Empty Number parameter"
+	public description: string = "Distance between [P] and its projection onto [G]"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 

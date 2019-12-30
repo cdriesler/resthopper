@@ -45,7 +45,7 @@ class MaptoSurfaceInput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curve to map"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -60,7 +60,7 @@ class MaptoSurfaceInput_source_s extends ResthopperParameter {
 
 	public name: string = "Source";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Base surface for initial coordinate space"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -75,7 +75,7 @@ class MaptoSurfaceInput_target_t extends ResthopperParameter {
 
 	public name: string = "Target";
 	public nickName: string = "T";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Surface for target coordinate space"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 
@@ -90,7 +90,7 @@ class MaptoSurfaceOutput_curve_c extends ResthopperParameter {
 
 	public name: string = "Curve";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Mapped curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

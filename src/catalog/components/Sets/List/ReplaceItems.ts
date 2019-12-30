@@ -47,7 +47,7 @@ class ReplaceItemsInput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List to modify"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -62,7 +62,7 @@ class ReplaceItemsInput_item_i extends ResthopperParameter {
 
 	public name: string = "Item";
 	public nickName: string = "I";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Items to replace with. If no items are supplied, nulls will be inserted."
 	public isOptional: boolean = true;
 	public typeName: string = "Generic Data"
 
@@ -77,7 +77,7 @@ class ReplaceItemsInput_indices_i extends ResthopperParameter {
 
 	public name: string = "Indices";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Replacement index for each item"
 	public isOptional: boolean = true;
 	public typeName: string = "Integer"
 
@@ -92,7 +92,7 @@ class ReplaceItemsInput_wrap_w extends ResthopperParameter {
 
 	public name: string = "Wrap";
 	public nickName: string = "W";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, indices will be wrapped"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -107,7 +107,7 @@ class ReplaceItemsOutput_list_l extends ResthopperParameter {
 
 	public name: string = "List";
 	public nickName: string = "L";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "List with replaced values"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

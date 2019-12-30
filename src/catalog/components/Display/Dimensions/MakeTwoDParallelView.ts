@@ -41,7 +41,7 @@ class MakeTwoDParallelViewInput_projection_p extends ResthopperParameter {
 
 	public name: string = "Projection";
 	public nickName: string = "P";
-	public description: string = "Empty Rectangle parameter"
+	public description: string = "View projection."
 	public isOptional: boolean = false;
 	public typeName: string = "Rectangle"
 
@@ -56,7 +56,7 @@ class MakeTwoDParallelViewOutput_view_v extends ResthopperParameter {
 
 	public name: string = "View";
 	public nickName: string = "V";
-	public description: string = "Empty Projection parameter"
+	public description: string = "Parallel view"
 	public isOptional: boolean = false;
 	public typeName: string = "Projection"
 

@@ -45,7 +45,7 @@ class EvaluateInput_expression_f extends ResthopperParameter {
 
 	public name: string = "Expression";
 	public nickName: string = "F";
-	public description: string = "Empty Expression parameter"
+	public description: string = "Expression to evaluate"
 	public isOptional: boolean = false;
 	public typeName: string = "Expression"
 
@@ -60,7 +60,7 @@ class EvaluateInput_variablex_x extends ResthopperParameter {
 
 	public name: string = "Variablex";
 	public nickName: string = "x";
-	public description: string = "Empty Expression Variant parameter"
+	public description: string = "Expression variable"
 	public isOptional: boolean = true;
 	public typeName: string = "Expression Variant"
 
@@ -75,7 +75,7 @@ class EvaluateInput_variabley_y extends ResthopperParameter {
 
 	public name: string = "Variabley";
 	public nickName: string = "y";
-	public description: string = "Empty Expression Variant parameter"
+	public description: string = "Expression variable"
 	public isOptional: boolean = true;
 	public typeName: string = "Expression Variant"
 
@@ -90,7 +90,7 @@ class EvaluateOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "r";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Expression result"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

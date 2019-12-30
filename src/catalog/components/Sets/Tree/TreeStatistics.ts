@@ -45,7 +45,7 @@ class TreeStatisticsInput_tree_t extends ResthopperParameter {
 
 	public name: string = "Tree";
 	public nickName: string = "T";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Data Tree to analyze"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -60,7 +60,7 @@ class TreeStatisticsOutput_paths_p extends ResthopperParameter {
 
 	public name: string = "Paths";
 	public nickName: string = "P";
-	public description: string = "Empty Path parameter"
+	public description: string = "All the paths of the tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Path"
 
@@ -75,7 +75,7 @@ class TreeStatisticsOutput_length_l extends ResthopperParameter {
 
 	public name: string = "Length";
 	public nickName: string = "L";
-	public description: string = "Empty Integer parameter"
+	public description: string = "The length of each branch in the tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -90,7 +90,7 @@ class TreeStatisticsOutput_count_c extends ResthopperParameter {
 
 	public name: string = "Count";
 	public nickName: string = "C";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Number of paths and branches in the tree"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

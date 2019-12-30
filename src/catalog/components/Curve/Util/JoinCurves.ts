@@ -43,7 +43,7 @@ class JoinCurvesInput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Curves to join"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 
@@ -58,7 +58,7 @@ class JoinCurvesInput_preserve_p extends ResthopperParameter {
 
 	public name: string = "Preserve";
 	public nickName: string = "P";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Preserve direction of input curves"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -73,7 +73,7 @@ class JoinCurvesOutput_curves_c extends ResthopperParameter {
 
 	public name: string = "Curves";
 	public nickName: string = "C";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Joined curves and individual curves that could not be joined."
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -43,7 +43,7 @@ class TextJoinInput_text_t extends ResthopperParameter {
 
 	public name: string = "Text";
 	public nickName: string = "T";
-	public description: string = "Empty Text parameter"
+	public description: string = "Text fragments to join."
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 
@@ -58,7 +58,7 @@ class TextJoinInput_join_j extends ResthopperParameter {
 
 	public name: string = "Join";
 	public nickName: string = "J";
-	public description: string = "Empty Text parameter"
+	public description: string = "Fragment separator."
 	public isOptional: boolean = true;
 	public typeName: string = "Text"
 
@@ -73,7 +73,7 @@ class TextJoinOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Text parameter"
+	public description: string = "Resulting text"
 	public isOptional: boolean = false;
 	public typeName: string = "Text"
 

@@ -49,7 +49,7 @@ class CreateMaterialInput_diffuse_kd extends ResthopperParameter {
 
 	public name: string = "Diffuse";
 	public nickName: string = "Kd";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Colour of the diffuse channel"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -64,7 +64,7 @@ class CreateMaterialInput_specular_ks extends ResthopperParameter {
 
 	public name: string = "Specular";
 	public nickName: string = "Ks";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Colour of the specular highlight"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -79,7 +79,7 @@ class CreateMaterialInput_emission_ke extends ResthopperParameter {
 
 	public name: string = "Emission";
 	public nickName: string = "Ke";
-	public description: string = "Empty Colour parameter"
+	public description: string = "Emissive colour of the material"
 	public isOptional: boolean = false;
 	public typeName: string = "Colour"
 
@@ -94,7 +94,7 @@ class CreateMaterialInput_transparency_t extends ResthopperParameter {
 
 	public name: string = "Transparency";
 	public nickName: string = "T";
-	public description: string = "Empty Number parameter"
+	public description: string = "Amount of transparency (0.0 = opaque, 1.0 = transparent"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -109,7 +109,7 @@ class CreateMaterialInput_shine_s extends ResthopperParameter {
 
 	public name: string = "Shine";
 	public nickName: string = "S";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Amount of shinyness (0 = none, 1 = low shine, 100 = max shine"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 
@@ -124,7 +124,7 @@ class CreateMaterialOutput_material_m extends ResthopperParameter {
 
 	public name: string = "Material";
 	public nickName: string = "M";
-	public description: string = "Empty Shader parameter"
+	public description: string = "Resulting material"
 	public isOptional: boolean = false;
 	public typeName: string = "Shader"
 

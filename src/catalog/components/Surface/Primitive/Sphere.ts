@@ -43,7 +43,7 @@ class SphereInput_base_b extends ResthopperParameter {
 
 	public name: string = "Base";
 	public nickName: string = "B";
-	public description: string = "Empty Plane parameter"
+	public description: string = "Base plane"
 	public isOptional: boolean = false;
 	public typeName: string = "Plane"
 
@@ -58,7 +58,7 @@ class SphereInput_radius_r extends ResthopperParameter {
 
 	public name: string = "Radius";
 	public nickName: string = "R";
-	public description: string = "Empty Number parameter"
+	public description: string = "Sphere radius"
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -73,7 +73,7 @@ class SphereOutput_sphere_s extends ResthopperParameter {
 
 	public name: string = "Sphere";
 	public nickName: string = "S";
-	public description: string = "Empty Surface parameter"
+	public description: string = "Resulting sphere"
 	public isOptional: boolean = false;
 	public typeName: string = "Surface"
 

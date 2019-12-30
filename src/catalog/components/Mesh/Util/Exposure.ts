@@ -51,7 +51,7 @@ class ExposureInput_shape_s extends ResthopperParameter {
 
 	public name: string = "Shape";
 	public nickName: string = "S";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for exposure solution"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -66,7 +66,7 @@ class ExposureInput_obstructions_o extends ResthopperParameter {
 
 	public name: string = "Obstructions";
 	public nickName: string = "O";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Optional additional obstructing geometry"
 	public isOptional: boolean = true;
 	public typeName: string = "Mesh"
 
@@ -81,7 +81,7 @@ class ExposureInput_rays_r extends ResthopperParameter {
 
 	public name: string = "Rays";
 	public nickName: string = "R";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Light ray directions"
 	public isOptional: boolean = false;
 	public typeName: string = "Vector"
 
@@ -96,7 +96,7 @@ class ExposureInput_energy_e extends ResthopperParameter {
 
 	public name: string = "Energy";
 	public nickName: string = "E";
-	public description: string = "Empty Number parameter"
+	public description: string = "Optional Energy values for each ray"
 	public isOptional: boolean = true;
 	public typeName: string = "Number"
 
@@ -111,7 +111,7 @@ class ExposureInput_lambert_l extends ResthopperParameter {
 
 	public name: string = "Lambert";
 	public nickName: string = "L";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, Lambertian shading will be applied,"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -126,7 +126,7 @@ class ExposureOutput_exposure_e extends ResthopperParameter {
 
 	public name: string = "Exposure";
 	public nickName: string = "E";
-	public description: string = "Empty Number parameter"
+	public description: string = "Combined exposure for every individual mesh vertex."
 	public isOptional: boolean = false;
 	public typeName: string = "Number"
 
@@ -141,7 +141,7 @@ class ExposureOutput_range_r extends ResthopperParameter {
 
 	public name: string = "Range";
 	public nickName: string = "R";
-	public description: string = "Empty Domain parameter"
+	public description: string = "Exposure Range for the entire mesh."
 	public isOptional: boolean = false;
 	public typeName: string = "Domain"
 

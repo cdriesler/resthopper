@@ -47,7 +47,7 @@ class PointInBrepsInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Breps for inclusion test"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -62,7 +62,7 @@ class PointInBrepsInput_point_p extends ResthopperParameter {
 
 	public name: string = "Point";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Point for inclusion test"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -77,7 +77,7 @@ class PointInBrepsInput_strict_s extends ResthopperParameter {
 
 	public name: string = "Strict";
 	public nickName: string = "S";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "If true, then the inclusion is strict"
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -92,7 +92,7 @@ class PointInBrepsOutput_inside_i extends ResthopperParameter {
 
 	public name: string = "Inside";
 	public nickName: string = "I";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "True if point is on the inside at least one of the Breps."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -107,7 +107,7 @@ class PointInBrepsOutput_index_i extends ResthopperParameter {
 
 	public name: string = "Index";
 	public nickName: string = "i";
-	public description: string = "Empty Integer parameter"
+	public description: string = "Index of first brep that contains the point, or -1"
 	public isOptional: boolean = false;
 	public typeName: string = "Integer"
 

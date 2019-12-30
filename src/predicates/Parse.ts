@@ -59,7 +59,7 @@ export default class Parse {
         let rp = new ResthopperParameter();
         rp.name = p.Name.replace(/\W/g, '');
         rp.nickName = p.NickName.replace(/\W/g, '');
-        rp.description = p.Description;
+        rp.description = p.Description.replace(/\r/g, "").replace(/\n/g, "");
         rp.isOptional = p.IsOptional;
         rp.typeName = p.TypeName;
 

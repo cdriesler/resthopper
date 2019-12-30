@@ -45,7 +45,7 @@ class MeshEdgesInput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh for edge extraction"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 
@@ -60,7 +60,7 @@ class MeshEdgesOutput_nakededges_e1 extends ResthopperParameter {
 
 	public name: string = "NakedEdges";
 	public nickName: string = "E1";
-	public description: string = "Empty Line parameter"
+	public description: string = "Edges with valence 1 (a single adjacent face)"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -75,7 +75,7 @@ class MeshEdgesOutput_interioredges_e2 extends ResthopperParameter {
 
 	public name: string = "InteriorEdges";
 	public nickName: string = "E2";
-	public description: string = "Empty Line parameter"
+	public description: string = "Edges with valence 2 (two adjacent faces)"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 
@@ -90,7 +90,7 @@ class MeshEdgesOutput_nonmanifoldedges_e3 extends ResthopperParameter {
 
 	public name: string = "NonManifoldEdges";
 	public nickName: string = "E3";
-	public description: string = "Empty Line parameter"
+	public description: string = "Edges with valence 3 or higher"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

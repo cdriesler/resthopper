@@ -43,7 +43,7 @@ class SetDifferenceInput_seta_a extends ResthopperParameter {
 
 	public name: string = "SetA";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Set to subtract from."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class SetDifferenceInput_setb_b extends ResthopperParameter {
 
 	public name: string = "SetB";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Substraction set."
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class SetDifferenceOutput_union_u extends ResthopperParameter {
 
 	public name: string = "Union";
 	public nickName: string = "U";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "The Set Difference of A minus B"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

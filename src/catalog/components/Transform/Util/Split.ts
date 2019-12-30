@@ -41,7 +41,7 @@ class SplitInput_transform_t extends ResthopperParameter {
 
 	public name: string = "Transform";
 	public nickName: string = "T";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Compound transformation"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 
@@ -56,7 +56,7 @@ class SplitOutput_fragments_f extends ResthopperParameter {
 
 	public name: string = "Fragments";
 	public nickName: string = "F";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Fragments making up the compound transformation"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

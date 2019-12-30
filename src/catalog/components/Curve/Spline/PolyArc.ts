@@ -45,7 +45,7 @@ class PolyArcInput_vertices_v extends ResthopperParameter {
 
 	public name: string = "Vertices";
 	public nickName: string = "V";
-	public description: string = "Empty Point parameter"
+	public description: string = "Polyarc vertex coordinates"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -60,7 +60,7 @@ class PolyArcInput_tangent_t extends ResthopperParameter {
 
 	public name: string = "Tangent";
 	public nickName: string = "T";
-	public description: string = "Empty Vector parameter"
+	public description: string = "Optional tangent vector at start."
 	public isOptional: boolean = true;
 	public typeName: string = "Vector"
 
@@ -75,7 +75,7 @@ class PolyArcInput_closed_c extends ResthopperParameter {
 
 	public name: string = "Closed";
 	public nickName: string = "C";
-	public description: string = "Empty Boolean parameter"
+	public description: string = "Close the polyarc curve."
 	public isOptional: boolean = false;
 	public typeName: string = "Boolean"
 
@@ -90,7 +90,7 @@ class PolyArcOutput_polyarc_crv extends ResthopperParameter {
 
 	public name: string = "PolyArc";
 	public nickName: string = "Crv";
-	public description: string = "Empty Curve parameter"
+	public description: string = "Resulting polyarc curve"
 	public isOptional: boolean = false;
 	public typeName: string = "Curve"
 

@@ -41,7 +41,7 @@ class FitLineInput_points_p extends ResthopperParameter {
 
 	public name: string = "Points";
 	public nickName: string = "P";
-	public description: string = "Empty Point parameter"
+	public description: string = "Points to fit"
 	public isOptional: boolean = false;
 	public typeName: string = "Point"
 
@@ -56,7 +56,7 @@ class FitLineOutput_line_l extends ResthopperParameter {
 
 	public name: string = "Line";
 	public nickName: string = "L";
-	public description: string = "Empty Line parameter"
+	public description: string = "Line segment"
 	public isOptional: boolean = false;
 	public typeName: string = "Line"
 

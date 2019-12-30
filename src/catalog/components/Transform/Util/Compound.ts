@@ -41,7 +41,7 @@ class CompoundInput_transforms_t extends ResthopperParameter {
 
 	public name: string = "Transforms";
 	public nickName: string = "T";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Transformations to compound"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 
@@ -56,7 +56,7 @@ class CompoundOutput_compound_x extends ResthopperParameter {
 
 	public name: string = "Compound";
 	public nickName: string = "X";
-	public description: string = "Empty Transform parameter"
+	public description: string = "Compound transformation"
 	public isOptional: boolean = false;
 	public typeName: string = "Transform"
 

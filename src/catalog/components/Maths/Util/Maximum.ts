@@ -43,7 +43,7 @@ class MaximumInput_a_a extends ResthopperParameter {
 
 	public name: string = "A";
 	public nickName: string = "A";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "First item for comparison"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -58,7 +58,7 @@ class MaximumInput_b_b extends ResthopperParameter {
 
 	public name: string = "B";
 	public nickName: string = "B";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Second item for comparison"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -73,7 +73,7 @@ class MaximumOutput_result_r extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "R";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "The greater of A and B"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 

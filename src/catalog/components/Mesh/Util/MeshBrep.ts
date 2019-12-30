@@ -43,7 +43,7 @@ class MeshBrepInput_brep_b extends ResthopperParameter {
 
 	public name: string = "Brep";
 	public nickName: string = "B";
-	public description: string = "Empty Brep parameter"
+	public description: string = "Brep geometry"
 	public isOptional: boolean = false;
 	public typeName: string = "Brep"
 
@@ -58,7 +58,7 @@ class MeshBrepInput_settings_s extends ResthopperParameter {
 
 	public name: string = "Settings";
 	public nickName: string = "S";
-	public description: string = "Empty MeshParameters parameter"
+	public description: string = "Settings to be used by meshing algorithm"
 	public isOptional: boolean = false;
 	public typeName: string = "MeshParameters"
 
@@ -73,7 +73,7 @@ class MeshBrepOutput_mesh_m extends ResthopperParameter {
 
 	public name: string = "Mesh";
 	public nickName: string = "M";
-	public description: string = "Empty Mesh parameter"
+	public description: string = "Mesh approximation"
 	public isOptional: boolean = false;
 	public typeName: string = "Mesh"
 

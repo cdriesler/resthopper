@@ -41,7 +41,7 @@ class CubeRootInput_value_x extends ResthopperParameter {
 
 	public name: string = "Value";
 	public nickName: string = "x";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Input value"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
@@ -56,7 +56,7 @@ class CubeRootOutput_result_y extends ResthopperParameter {
 
 	public name: string = "Result";
 	public nickName: string = "y";
-	public description: string = "Empty Generic Data parameter"
+	public description: string = "Output value"
 	public isOptional: boolean = false;
 	public typeName: string = "Generic Data"
 
